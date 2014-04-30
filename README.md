@@ -1,9 +1,8 @@
 cowsay-files
 ============
 
-### Todos
+These files are intended to supplement the cow files in /usr/share/cowsay/cows.
 
-1. See if it's okay if I use ASCII art from various sources, possibly http://www.asciiworld.com/-Robots,24-.html
-2. Understand how to develop the Perl .cow files.
-3. Commit!
+cowsay | moo
+
 
