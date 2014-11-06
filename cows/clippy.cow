@@ -1,0 +1,16 @@
+# Clippy
+#
+$the_cow = <<EOC;
+ $thoughts
+  $thoughts
+     __ 
+    /  \\  
+    |  |
+    @  @
+    |  |
+    || |/ 
+    || || 
+    |\\_/|
+    \\___/
+EOC
+
