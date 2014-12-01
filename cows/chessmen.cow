@@ -7,6 +7,8 @@
 $the_cow = <<EOC;
     $thoughts
      $thoughts 
+      $thoughts
+       $thoughts
                                            .::.                      
                                            _::_                      
                                  ()      _/____\\_                    
