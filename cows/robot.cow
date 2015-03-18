@@ -1,6 +1,7 @@
 # Robot
 #
-# based on rfksay from http://robotfindskitten.org/aw.cgi?main=software.rfk#rfksay
+# based on rfksay by Andrew Northern
+# http://robotfindskitten.org/aw.cgi?main=software.rfk#rfksay
 #
 $the_cow = <<EOC;
   $thoughts
