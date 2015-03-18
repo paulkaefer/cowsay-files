@@ -1,0 +1,13 @@
+# Robot
+#
+# based on rfksay from http://robotfindskitten.org/aw.cgi?main=software.rfk#rfksay
+#
+$the_cow = <<EOC;
+  $thoughts
+   $thoughts
+
+     [-]
+     (+)=C
+     | |
+     OOO
+EOC
