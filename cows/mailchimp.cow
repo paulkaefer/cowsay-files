@@ -1,21 +1,13 @@
-<!--
+# MailChimp
+#
+# view-source:http://mailchimp.com/
+$the_cow = <<EOC;
+$thoughts
+ $thoughts
     ______
    / ___M ]__
 C{ ( o o )}
     {     ••
-      \___     <  How do I stay so buff you ask? Jazzercize!
-      ––––´
--->
-
-2015-04-27 from http://mailchimp.com/ HTML source
-
-<!---
-          __
-|\/| _ .|/  |_ . _  _
-|  |(_|||\__| )|||||_)
-                   |
-  Love What You Do
-
--->
-
-
+      \\___
+      ----´
+EOC
