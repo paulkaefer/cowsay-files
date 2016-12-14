@@ -1,0 +1,42 @@
+# Heisenberg
+# by Charlie M
+
+$b2 = "\e[48;5;236m";  #fake black
+$b = "\e[48;5;235m";  #fake black
+$s = "\e[48;5;223m"; #skin color
+$s2 = "\e[48;5;223m"; #skin color 2
+$w = "\e[107m";       #white
+$x = "\e[m";          #reset color
+$r = "\e[48;5;9m";  #hat
+$l = "\e[48;5;75m";   #light blue
+$j = "\e[44m";        #morty pants
+$y = "\e[48;5;11m";
+$g = "\e[48;5;70m";
+$o = "\e[48;5;216m";
+$o2 = "\e[48;5;215m";
+$n = "\e[48;5;95m";
+$p = "\e[48;5;53m";
+$p2 = "\e[48;5;93m";
+
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts     $b                  $x
+     $thoughts  $b                      $x
+        $b2                      $x
+  $b                                $x
+    $b                            $x
+        $o  $s2  $s                  $x
+      $o  $b                      $x
+    $o  $s2  $o    $b              $b    $x
+    $o  $s2  $o  $s  $b          $s  $o2  $b    $x
+    $o  $s2    $s              $o2  $s  $x
+      $o  $s            $o2      $s  $x
+        $o  $s2  $s      $n      $s    $x
+        $o  $s2  $s    $n  $s2      $n  $x
+        $o  $s2  $s    $n  $s  $n  $s  $n  $x
+      $b    $o  $s2  $s  $n          $x
+    $b  $b2  $b  $p  $s2      $n      $x
+  $b    $b2  $b  $p    $s2    $p  $b  $x
+$b  $b2    $b    $p    $l  $p    $b    $x
+
+EOC

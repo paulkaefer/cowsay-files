@@ -1,0 +1,53 @@
+# The Professor
+# by Charlie M
+
+$b = "\e[48;5;236m";  #fake black
+$b2 = "\e[48;5;235m";  #fake black
+$s = "\e[48;5;223m"; #skin color
+$w = "\e[107m";       #white
+$x = "\e[m";          #reset color
+$r = "\e[48;5;9m";  #hat
+$o = "\e[48;5;216m";
+$lb = "\e[48;5;75m";   #light blue
+$j = "\e[44m";        #morty pants
+$y = "\e[48;5;11m";
+$gn = "\e[48;5;70m";
+$l = "\e[48;5;14m";   #hair color
+$g = "\e[48;5;145m";  #gray color
+$p2 = "\e[48;5;95m";  #pants color 2
+
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts             $s        $x
+     $thoughts          $s    $o  $s     $x
+              $s          $o  $s  $x
+            $s            $o  $s  $x
+          $s                  $x
+      $l    $g  $l      $g  $s        $x
+      $l    $g  $l      $g      $s  $x
+      $l    $g  $l      $g  $s      $x
+        $s                $x
+        $s                $x
+      $s        $b    $s      $w  $x
+              $b    $s    $w      $x
+              $s        $w    $l  $w  $x
+                $l      $w    $l  $w    $x
+              $w  $l      $w  $l  $w       $x
+              $w  $l      $w  $l  $w        $x
+              $g  $l      $w            $x
+              $w  $l      $w            $x
+              $w  $l      $w    $l  $w      $x
+              $l        $w    $l  $w      $x
+             $l         $w    $l  $w      $x
+            $l          $w    $l  $w      $x
+            $l          $w    $l  $w      $x
+            $l          $w    $l  $w      $x
+            $p2          $w    $l  $w      $x
+             $p2         $w      $s      $x
+              $p2  $b  $p2    $w      $s      $x
+              $p2  $b  $p2    $w        $s    $x
+              $p2    $b  $p2  $w          $x
+              $p2    $b  $p2  $w          $x
+              $p2    $b  $p2  $w          $x
+              $p2    $b  $p2        $x
+EOC
