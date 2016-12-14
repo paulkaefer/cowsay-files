@@ -1,0 +1,50 @@
+# Snowball
+# by Charlie M
+
+$b = "\e[48;5;235m";  #fake black
+$h = "\e[48;5;14m";   #hair color
+$h2 = "\e[48;5;130m"; #hair color
+$s = "\e[48;5;145m";  #face color
+$s2 = "\e[48;5;223m";  #skin color
+$p = "\e[48;5;94m";   #pants color
+$p2 = "\e[48;5;95m";  #pants color 2
+$d = "\e[48;5;17m";
+$w = "\e[107m";       #white
+$g = "\e[48;5;251m";  #light gray
+$x = "\e[m";          #reset color
+$br = "\e[48;5;6m";   #eyebrow
+$r = "\e[48;5;124m";  #mouth
+$j = "\e[44m";        #morty pants
+
+$the_cow = <<EOC;
+      $thoughts
+       $thoughts    $b  $h    $b  $x
+        $thoughts   $b  $h  $b  $h    $b  $x      $b  $s  $b  $x
+              $b  $h  $b  $h  $d          $h  $b  $x
+      $b    $x    $d          $j      $d              $x
+    $b  $s    $b  $x  $d  $j                          $d  $x
+      $b  $s  $h  $d    $j              $d            $d  $x
+        $b  $d    $j          $d        $h          $b  $w  $br  $b  $x
+        $b  $j    $j      $d        $h          $b  $w  $h  $d    $br  $b  $x
+      $b  $j          $d      $w  $d  $h  $b  $w  $h    $b    $br      $h  $br  $b  $x
+      $b  $j    $b      $d  $br    $d  $h    $b    $h  $br      $b  $w  $br      $b  $x
+      $b  $j    $b  $s  $d    $br  $h            $br    $w    $b  $w    $b  $x
+      $b        $s  $d    $br  $h      $br      $w      $b  $w  $b  $w    $b  $x
+        $b  $w  $b      $br          $w                      $b  $x
+      $b  $w                                        $b  $x
+      $b  $w  $b  $w      $b    $w                        $b  $x
+            $b  $w    $b        $w            $b        $x
+              $b  $w  $b  $d    $b              $d    $b  $x
+                $b      $d                  $b  $x
+    $b  $x        $b  $w      $b                  $w    $b  $x
+  $b  $w  $b  $x    $b  $w                        $b  $w  $w  $b  $x
+  $b  $w  $b  $x  $b  $w                        $b  $h  $b  $w  $b  $x
+  $b  $w  $b  $w    $b  $w    $b  $w        $b  $w        $b  $w  $b  $x
+    $b  $w        $b  $w  $b  $w                      $b  $x
+    $b  $w            $b  $w        $b  $w          $b  $x
+      $b  $w      $b  $w  $b  $w        $b  $w      $b  $w  $b  $x
+      $b  $w      $b  $w    $b  $w    $b  $w      $b        $x
+        $b  $w      $b  $x  $b  $w    $b          $w    $b  $x
+        $b  $w      $b  $x  $b  $w      $b  $w    $b  $w      $b  $x
+        
+EOC
