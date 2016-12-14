@@ -1,0 +1,47 @@
+# Bob Belcher
+# by Charlie M
+
+$b = "\e[48;5;235m";
+$d = "\e[48;5;240m";
+$d2 = "\e[48;5;238m";
+$o = "\e[48;5;216m";
+$o2 = "\e[48;5;215m";
+$g = "\e[48;5;246m";
+$w = "\e[107m";
+$x = "\e[m";
+$r = "\e[41m";
+$gr = "\e[48;5;70m";
+$y = "\e[48;5;11m";
+$br = "\e[48;5;178m";
+$the_cow = <<EOC;
+  $thoughts          $b      $x
+   $thoughts      $b              $x
+    $thoughts   $b                  $x
+      $b      $o          $x
+    $b      $o    $w    $o    $w    $x
+      $b    $o    $b  $w  $o    $b  $w  $x
+      $b    $o                $x
+      $b    $o    $b            $x
+        $b  $o    $b            $x
+          $o            $x
+          $o          $x
+          $o          $x
+          $o          $x
+      $g  $w  $g        $w  $g  $x
+    $g    $w    $g      $w  $g  $x        $br        $x
+  $g      $w            $w  $g  $x    $br            $x
+  $o    $g  $w              $o2  $x    $gr  $y  $gr    $y  $gr  $x
+  $b  $o  $g  $w                $o2  $x  $r            $x
+  $o  $o  $g  $w                $o2    $br            $x
+  $b  $o  $d  $w                $o2  $w                $x
+  $o  $o  $d  $w                $x  $b  $o2    $o      $x
+  $b  $o  $d  $w                $x    $o2  $b  $o2  $b  $x
+  $o    $d  $w                $x
+    $o  $d  $w                $x
+      $d  $w                $x
+        $d    $x    $d2    $x
+        $d    $x    $d2    $x
+        $w    $x    $w    $x
+        $b      $x  $b      $x
+
+EOC

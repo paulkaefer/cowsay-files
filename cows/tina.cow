@@ -1,0 +1,45 @@
+# Tina
+# by Charlie M
+
+$b = "\e[48;5;236m";  #fake black
+$b2 = "\e[48;5;235m";  #fake black
+$s = "\e[48;5;223m"; #skin color
+$w = "\e[107m";       #white
+$x = "\e[m";          #reset color
+$r = "\e[48;5;9m";  #hat
+$l = "\e[48;5;75m";   #light blue
+$j = "\e[44m";        #morty pants
+$y = "\e[48;5;11m";
+$g = "\e[48;5;70m";
+
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts     $b            $x
+     $thoughts  $b                $x
+      $b                    $x
+    $b    $y  $b                $x
+    $b          $s  $b    $s  $b    $x
+    $b      $s              $x
+    $b      $b2                  $x
+    $b      $b2  $w  $b  $b2  $s  $b2  $w  $b  $b2  $x
+    $b      $b2  $w    $b2  $s  $b2  $w    $b2  $x
+    $b      $s  $b2    $s      $b2    $x
+    $b      $s              $x
+      $b    $s    $b2      $s  $x
+          $s          $x
+          $l  $s      $x
+        $l            $x
+        $l              $x
+      $s  $l  $j    $l    $j    $x
+      $s  $l            $s  $x
+      $s  $l            $s  $x
+      $s  $j            $s  $x
+      $s  $j            $s  $x
+      $j                $x
+          $s  $x    $s  $x
+          $s  $x    $s  $x
+          $w  $x    $w  $x
+          $r  $x    $r  $x
+          $w  $x    $w  $x
+          $b    $x  $b    $x
+EOC
