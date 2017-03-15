@@ -1,0 +1,29 @@
+# The Mooninites
+# by Charlie M
+
+$g = "\e[42m";
+$b = "\e[44m";
+$r = "\e[45m";
+$x = "\e[m";
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+     $thoughts         $g        $x            $g        $x
+      $thoughts        $g          $x          $g        $x
+       $thoughts       $g          $x  $g                $x                                 $r     $x
+            $g                               $x                                 $r     $x
+            $g                               $x        $b $x       $r                      $x
+            $g         $b  $g          $b  $g        $x        $b $x       $r  $b  $r              $b  $r  $x
+             $g      $b  $g              $b  $g      $x     $b       $x    $r    $b  $r          $b  $r    $x
+             $g    $b  $g  $b    $g      $b    $g  $b  $g    $x       $b   $x      $r      $b  $r      $b  $r          $x
+             $g                              $x       $b   $x      $r        $b  $r  $b  $r            $x
+             $g                                $b        $x    $b  $r    $b   $r        $b   $r        $b  $x
+             $g                                $x          $b  $x  $r    $b   $r        $b   $r        $x  $b  $x
+         $b  $g           $b            $g           $x        $b  $x    $r                          $x    $b  $x
+       $b  $x  $g                                  $x        $b  $x    $r                          $x    $b  $x
+     $b  $x    $g                                  $x              $r    $b              $r        $x
+     $b  $x    $g                                  $x              $r                          $x
+                      $b  $x        $b  $x                                $b  $x       $b  $x
+                $b        $x        $b        $x                          $b  $x       $b  $x
+                                                             $b       $x       $b       $x
+EOC
