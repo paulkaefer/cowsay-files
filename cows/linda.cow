@@ -1,47 +1,45 @@
 # Linda
 # by Charlie M
 
-$b = "\e[48;5;236m";  #fake black
-$b2 = "\e[48;5;235m";  #fake black
-$s = "\e[48;5;223m"; #skin color
-$w = "\e[107m";       #white
-$x = "\e[m";          #reset color
-$r = "\e[48;5;9m";  #hat
-$r2 = "\e[48;5;1m";  #hat
-$l = "\e[48;5;75m";   #light blue
-$j = "\e[44m";        #morty pants
-$y = "\e[48;5;11m";
-$g = "\e[48;5;70m";
+$x = "\e[m  ";         #reset color
+$b = "\e[48;5;236m  "; #fake black
+$r = "\e[48;5;9m  ";   #red
+$d = "\e[48;5;1m  ";   #dark red
+$s = "\e[48;5;223m  "; #skin color
+$w = "\e[107m  ";      #white
+$j = "\e[44m  ";       #blue jeans
+$y = "\e[48;5;11m  ";  #yellow
+$t = "$thoughts ";
 
 $the_cow = <<EOC;
-  $thoughts
-   $thoughts      $b              $x
-    $thoughts   $b                  $x
-      $b            $s  $b      $x
-      $b          $s      $b    $x
-    $b          $s          $b  $x
-    $b    $r          $s  $r          $x
-    $b    $r  $b  $w  $b  $w  $r  $w  $b  $w  $x  $r  $x
-    $b    $r  $b  $s  $w  $r  $s  $r  $w  $s  $x  $r  $x
-    $b      $r      $s      $r      $x
-      $b      $s    $b  $s      $x
-        $b    $s      $b    $x
-    $b  $x  $b      $s        $x  $b  $x
-      $b        $s      $b    $x
-        $b    $r        $b  $x
-          $r            $x
-        $r              $x
-        $r  $x  $r      $s  $r  $x    $s  $x
-        $r        $s  $r  $r2    $s  $x
-          $r2      $r      $r2  $x
-          $r            $x
-          $j  $w          $x
-          $j  $w          $x
-          $j  $w            $x
-          $j  $w            $x
-          $j    $w    $j  $x
-            $j  $x    $j  $x
-            $j  $x    $j  $x
-            $s  $x    $s  $x
-          $y    $x    $y    $x
+      $t
+       $t     $b            $x
+        $t  $b                $x
+          $b          $s$b    $x
+          $b        $s    $b  $x
+        $b        $s        $b$x
+        $b  $r        $s$r        $x
+        $b  $r$b$w$b$w$r$w$b$w$x$r$x
+        $b  $r$b$s$w$r$s$r$w$s$x$r$x
+        $b    $r    $s    $r    $x
+          $b    $s  $b$s    $x
+            $b  $s    $b  $x
+        $b$x$b    $s      $x$b$x
+          $b      $s    $b  $x
+            $b  $r      $b$x
+              $r          $x
+            $r            $x
+            $r$x$r    $s$r$x  $s$x
+            $r      $s$r$d  $s$x
+              $d    $r    $d$x
+              $r          $x
+              $j$w        $x
+              $j$w        $x
+              $j$w          $x
+              $j$w          $x
+              $j  $w  $j$x
+                $j$x  $j$x
+                $j$x  $j$x
+                $s$x  $s$x
+              $y  $x  $y  $x
 EOC
