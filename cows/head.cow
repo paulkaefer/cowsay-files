@@ -1,5 +1,5 @@
 # Floating Head (Rick & Morty)
-# by Charlie M
+# by unknown 4channer
 
 $c1 = "\e[47m\e[30m";
 $wht = "\e[47m";
