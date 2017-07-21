@@ -1,0 +1,51 @@
+# Banjo Kazooie
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$h = "\e[48;5;216m  ";  #hair color
+$u = "\e[48;5;223m  ";  #skin color
+
+$g = "\e[48;5;35m  ";   #green
+$a = "\e[48;5;246m  ";  #gray
+$d = "\e[48;5;240m  ";  #dark gray pants
+$p = "\e[48;5;238m  ";  #darker gray
+$e = "\e[41m  ";        #red
+$y = "\e[48;5;11m  ";   #yellow
+$m = "\e[48;5;178m  ";  #darker yellow
+$l = "\e[48;5;75m  ";   #light blue
+$b = "\e[48;5;21m  ";   #blue
+$w = "\e[107m  ";       #white
+$r = "\e[48;5;172m  ";  #brown 1
+$z = "\e[48;5;94m  ";   #brown 2
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+                                          $t
+                                           $t            $k$x
+                                            $t           $k  $x
+                                                         $k$h$k$x      $k$x
+                                                         $k$h  $k$x    $k  $x
+                                                         $k$h    $k$x  $k  $x
+                                                         $k  $h    $k$x$k$h$k$x
+                                                           $k$h    $k$x$k$h$k$x
+                                                           $k$h    $k$x$k$h  $k$x
+                                     $k              $x    $k$h    $k    $h  $k$x
+                   $k$x          $k  $h              $k  $x$k$h        $k$h    $k$x
+                   $k$h$k$x    $k$h                      $k  $h                $k$x
+                   $k$h  $k$x$k$h                                                $k$x
+                   $k$h    $k$h                                                  $k$x
+           $k        $h                                                          $k$x
+           $k$h                        $k          $h                            $k$x
+           $k  $h                    $k$u          $k    $h                      $k$x
+             $k  $h                    $k$u              $k    $h                $k$x
+               $k    $h                  $k$u                  $k  $h            $k$x
+                 $k$h              $k  $h$k$u                      $k  $h      $k  $x
+               $k$h            $k  $u  $k  $u                          $k        $x
+               $k$h              $k$u                                  $k      $x
+             $k$h                  $k$u                                  $k$x
+             $k$h                    $k$u                                $k$x
+           $k$h$x
+
+EOC
