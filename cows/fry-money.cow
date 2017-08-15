@@ -22,7 +22,6 @@ $the_cow = <<EOC;
               $t                                                 $k$h  $k$x    $k  $x
                 $t                                               $k$h    $k$x  $k  $x
                   $t                                             $k  $h    $k$x$k$h$k$x
-                    $t                                             $k$h    $k$x$k$h$k$x
                                                                    $k$h    $k$x$k$h  $k$x
                                              $k              $x    $k$h    $k    $h  $k$x
                            $k  $x        $k  $h              $k  $x$k$h        $k$h    $k$x
@@ -42,7 +41,7 @@ $the_cow = <<EOC;
                      $k$h                    $k$s          $k      $s      $k      $x                      $k$g$n    $k$g$n        $g$k$n$g$k$n      $g$k$g  $k$x
                      $k$h            $k  $h  $k$s        $k$w      $k$s  $k$w      $k$x                  $k$g$n      $k$g$n        $g$k$n$g$k$n    $g$k$n  $g$k$x
                        $k$h        $k$s  $k$h$k$s      $k$w          $k  $w          $k$x                $k$g$n        $k$g$n      $g$k$g$k$n    $g$k$n    $g  $k$x
-                         $k$h    $k$s  $k$s$k  $s      $k$w      $k$w  $k$w      $k$w$k$x              $k$g$n          $k$g$n      $g$k$g$k$n  $g$k$n        $n$k$x
+                         $k$h    $k$s  $k$s$k  $s      $k$w      $k$w  $k$w      $k$w$k$x              $k$g$n          $k$g$n      $g$k$g$k$n  $g$k$n        $g$k$x
                            $k$h  $k$s$k$s              $k$w            $k$w          $k$x            $k$g  $n          $k$g$n      $g$k  $n  $g$k$n    $g      $k$x
                              $k    $s$k$s              $k$w            $k  $w        $k$x          $k      $g    $n    $k$g$n      $g$k  $n$g$k$n  $g  $k        $x
                                  $k$s  $k$s            $k$w            $k$s$k$w    $k  $x                  $k    $g$n  $k$g$n      $g$k$n  $g$k$g    $k$x

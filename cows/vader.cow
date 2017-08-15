@@ -1,0 +1,63 @@
+# Darth Vader
+# by Charlie M
+
+$x = "\e[m  ";            #end color
+$k = "\e[48;5;235m  ";    #black
+$l = "\e[48;5;246m  ";    #light gray
+$y = "\e[48;5;240m  ";    #dark gray
+$d = "\e[48;5;238m  ";    #darker gray
+$w = "\e[107m  ";         #white
+$r = "\e[41m  ";          #red
+$g = "\e[48;5;70m  ";     #green
+$b = "\e[44m  ";          #blue
+$p = "\e[48;5;218m  ";    #pink
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+
+                                                      $k                $x
+                                                  $k  $l  $k$l    $k$l  $k  $x
+                                                $k  $l      $k$l    $k$l    $k$x
+                                                $k          $y$k    $y$l    $k$x
+                                              $k            $y$k    $y$k  $l  $k$x
+                                              $k            $y$k    $y$k    $l$k$x
+                                              $k            $y$k    $y$k        $x
+                                              $k            $y$k    $y$k        $x
+                                            $k        $y      $k    $y      $k    $x
+                                            $k      $y$k      $y    $k      $y$k  $x
+                                          $k      $y$k$d        $k  $d      $k$y$k  $x
+                                          $k      $y$k$d        $k  $d      $k$y$k  $x
+                                          $k    $y$k  $y        $k  $y      $k  $y$k  $x
+                                        $k      $y$k$y$k        $y    $k    $y$k$y$k  $x
+                                        $k    $y$k  $y$k        $y$l$y$k    $y$k$y$k  $x
+                                        $k    $y$d$k  $y$k    $y  $k$y  $k  $y$k  $y$k  $x
+                                      $k      $y$k$d$k$y$k  $y$k$d$k$d$k$y$k$y$k  $y$k  $x
+                                      $k      $y$d$k$d$y      $k$d$k$d$k$y      $k$y$k  $x    $k    $x$k  $x
+                                      $k      $x$k$d$y$l$d$k$y$k$d$k$d$k$d$k$d$l$y$x          $k$y$k  $y$k$x
+                                                $k  $d    $l                $d    $x      $k    $y  $k$y$k$x
+                                            $k                                    $x      $k$y  $k$y    $k$x
+                                        $k                                          $x    $k  $y$k$y    $k$x
+                                      $k                $y$d$l        $d$k            $x    $k$y      $k$x
+                                    $k          $y$d  $y  $d  $y    $d  $y  $d  $y$k    $x  $k$y      $k$x
+                                  $k    $y    $k$y  $d  $y$d    $y$d    $y$d  $y  $k$y$k    $y      $k$x
+                                  $k  $y    $k    $y$d  $y  $d  $y$d  $y  $d  $y$k          $y      $k$x
+                                $k          $d$k        $y  $d  $y$d  $y  $k    $d    $k  $d$k$y  $k$x
+                                $k    $d      $k                                $d      $k$d  $k    $x
+                                $k    $d      $k        $d$k$y$k$r$k$b$k$d$k      $d            $k$x
+                                $k  $d        $k$y$k    $d$k            $d$k    $y$k$d          $k$x
+                              $k    $d        $k$y$k    $d$k$r$k$l$k$l$k$d$k    $y$k  $d      $k$x
+                              $k        $d  $k  $y$k    $d$k$r$k$l$k$l$k$d$k  $y$k            $x
+                              $k    $y  $k        $y$k  $d$k            $d$k  $y$k          $x
+                              $k    $y      $k    $y$k    $d            $k    $y$k          $x
+                            $k  $y          $k                                              $x
+                            $k      $y    $k      $d$l$d$r$k  $d    $k  $d$g$d$k              $x
+                            $p$k      $d  $k      $d      $k  $d$y  $k  $d    $k              $x
+                        $p  $r$w$k    $d  $k    $d$k                          $y$k            $x
+                      $p$r  $w$r  $k  $d$k      $d$k      $d          $k      $y$k            $x
+                  $p  $r$w  $r$p  $k            $d$k      $d          $k      $y$k              $x
+                $p$r  $w$r  $p$k                $d$k    $d$k          $d$k      $y$k            $x
+            $p  $r$w  $r$p  $k                $d$k      $d  $k      $d  $k      $y$k            $x
+          $p$r  $w$r  $p$x$k                  $d$k      $d  $k      $d$k$d$k    $y$k              $x
+      $p  $r$w  $r$p  $x  $k                  $d$k    $d$k  $d$k  $d$k  $d$k      $y$k            $x
+    $p$r  $w$r  $p$x      $k                $d$k      $d$k  $d$k  $d$k    $d$k    $y$k            $x
+EOC
