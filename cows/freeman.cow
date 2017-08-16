@@ -1,0 +1,48 @@
+# Gordon Freeman (Half Life, Half Life 2)
+# by Charlie M
+
+$x = "\e[m  ";            #reset color
+$k = "\e[48;5;235m  ";    #black
+$w = "\e[107m  ";         #white
+$b = "\e[48;5;94m  ";     #brown
+$l = "\e[48;5;246m  ";    #light gray
+$d = "\e[48;5;240m  ";    #dark gray
+$s = "\e[48;5;223m  ";  #skin color
+$o = "\e[48;5;208m  ";    #orange
+$r = "\e[41m  ";          #red
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+        $t                    $k$x
+          $t              $k  $b$k    $x
+            $t          $k$b          $k$x
+              $t      $k$s$b        $s$b$k$x
+                      $k$s            $b$k$x
+          $k  $x      $k$s            $b$k$x
+        $k$l  $k$x  $k$b  $k$s$k$b  $s$b$k$x
+      $k$l  $k$l$k$x$k                    $x
+      $k$l  $k$l$k$x$k$w  $s$k$w  $s$k$s$k$x
+    $k$l$k$l$k$l$k$x$k$w$s  $k$w$s  $k$s$k$x
+      $k$x$k  $r$k$x$k      $s$k    $s$k$x
+            $k$r$k$x  $k$s            $k    $x
+            $k$r$k$x  $k$s$b    $s    $k$l$k  $x
+            $k$r$k      $b$w    $b$s$k  $l$k$d$k$x
+            $k$r$k$d  $k$b$s$b$s$b$k    $l$k$d  $k$x
+          $k$o$l  $k$d$k$b        $k  $l  $k$d    $k$x
+          $k$o$l  $d$k$d$k$b      $k$l  $k$d    $k  $x
+          $k$o$l  $d$k  $d$k      $l  $k        $d$k$x
+            $k$r$k    $d  $o  $w$o    $d$k$d      $k$x
+            $k$r$k$x$k$d  $o    $w$o  $k        $d$k$x
+            $k$l$k$x$k$d  $o  $w$o$w$o$k$l$o  $k$d$k$x
+            $k$l$k$x$k$o  $k$d      $k  $l$o  $k  $x
+            $k$l$k$x$k$o$d  $k      $d$k$l    $k$x
+            $k    $x$k$d                $k      $x
+                  $k  $o$k            $o  $k$x
+              $k      $l  $o$d      $k            $x
+              $k$l  $o$k$l$o$d$k$d$k$d  $o    $l$k$x
+              $k$l  $o    $d$k        $o      $l$k$x
+              $k  $l  $o$d$k$x      $k$o$l  $o$l$k$x
+                $k$l  $d$k$x        $k  $l  $o$l$k$x
+                $k      $x              $k    $l$k$x
+                                              $k  $x
+EOC

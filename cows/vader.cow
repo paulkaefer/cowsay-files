@@ -11,18 +11,19 @@ $r = "\e[41m  ";          #red
 $g = "\e[48;5;70m  ";     #green
 $b = "\e[44m  ";          #blue
 $p = "\e[48;5;218m  ";    #pink
+$e = "\e[48;5;196m  ";    #saber red
 $t = "$thoughts ";
 
 $the_cow = <<EOC;
-
-                                                      $k                $x
-                                                  $k  $l  $k$l    $k$l  $k  $x
-                                                $k  $l      $k$l    $k$l    $k$x
-                                                $k          $y$k    $y$l    $k$x
-                                              $k            $y$k    $y$k  $l  $k$x
-                                              $k            $y$k    $y$k    $l$k$x
-                                              $k            $y$k    $y$k        $x
-                                              $k            $y$k    $y$k        $x
+                        $t
+                          $t                          $k                $x
+                            $t                    $k  $l  $k$l    $k$l  $k  $x
+                              $t                $k  $l      $k$l    $k$l    $k$x
+                                $t              $k          $y$k    $y$l    $k$x
+                                  $t          $k            $y$k    $y$k  $l  $k$x
+                                    $t        $k            $y$k    $y$k    $l$k$x
+                                      $t      $k            $y$k    $y$k        $x
+                                        $t    $k            $y$k    $y$k        $x
                                             $k        $y      $k    $y      $k    $x
                                             $k      $y$k      $y    $k      $y$k  $x
                                           $k      $y$k$d        $k  $d      $k$y$k  $x
@@ -52,12 +53,12 @@ $the_cow = <<EOC;
                             $k  $y          $k                                              $x
                             $k      $y    $k      $d$l$d$r$k  $d    $k  $d$g$d$k              $x
                             $p$k      $d  $k      $d      $k  $d$y  $k  $d    $k              $x
-                        $p  $r$w$k    $d  $k    $d$k                          $y$k            $x
-                      $p$r  $w$r  $k  $d$k      $d$k      $d          $k      $y$k            $x
-                  $p  $r$w  $r$p  $k            $d$k      $d          $k      $y$k              $x
-                $p$r  $w$r  $p$k                $d$k    $d$k          $d$k      $y$k            $x
-            $p  $r$w  $r$p  $k                $d$k      $d  $k      $d  $k      $y$k            $x
-          $p$r  $w$r  $p$x$k                  $d$k      $d  $k      $d$k$d$k    $y$k              $x
-      $p  $r$w  $r$p  $x  $k                  $d$k    $d$k  $d$k  $d$k  $d$k      $y$k            $x
-    $p$r  $w$r  $p$x      $k                $d$k      $d$k  $d$k  $d$k    $d$k    $y$k            $x
+                        $p  $e$w$k    $d  $k    $d$k                          $y$k            $x
+                      $p$e  $w$e  $k  $d$k      $d$k      $d          $k      $y$k            $x
+                  $p  $e$w  $e$p  $k            $d$k      $d          $k      $y$k              $x
+                $p$e  $w$e  $p$k                $d$k    $d$k          $d$k      $y$k            $x
+            $p  $e$w  $e$p  $k                $d$k      $d  $k      $d  $k      $y$k            $x
+          $p$e  $w$e  $p$x$k                  $d$k      $d  $k      $d$k$d$k    $y$k              $x
+      $p  $e$w  $e$p  $x  $k                  $d$k    $d$k  $d$k  $d$k  $d$k      $y$k            $x
+    $p$e  $w$e  $p$x      $k                $d$k      $d$k  $d$k  $d$k    $d$k    $y$k            $x
 EOC
