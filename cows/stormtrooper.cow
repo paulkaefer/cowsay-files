@@ -4,18 +4,18 @@
 $x = "\e[m  ";            #end color
 $k = "\e[48;5;235m  ";    #black
 $w = "\e[107m  ";         #white
-$g = "\e[48;5;240m  ";    #dark gray pants
-$r = "\e[48;5;238m   ";   #darker gray
+$g = "\e[48;5;246m  ";    #gray light
+$r = "\e[48;5;240m  ";    #gray dark
 $l = "\e[48;5;14m  ";     #light blue
 $t = "$thoughts ";
 
 $the_cow = <<EOC;
                $t
-                $t            $g$k          $g$x
-                 $t       $g$k  $g$w      $g$k  $g$x
-                  $t    $k$g$w                $g$k  $x
+                $t            $r$k          $r$x
+                 $t       $r$k  $g$w      $r$k  $r$x
+                  $t    $k$r$w                $g$k  $x
                       $k$g$w                  $g  $k  $x
-                    $g$k$w                  $g      $k$x
+                    $r$k$w                  $g      $k$x
                     $k  $w                  $g        $k$x
                     $k$w                $g            $k$x
                   $k$g  $k                                $x
