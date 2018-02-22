@@ -33,33 +33,33 @@ $the_cow = <<EOC;
              $l    $u    $l      $x  $u    $x
                $l  $u  $k$w$u$k$w$x    $l  $x
              $l    $u  $w  $u$w  $x    $w  $x
-           $l      $u  $v  $u  $v$x      $w  $x                        $m        $x
+           $l      $u  $v  $u  $v$x     $w  $x                         $m        $x
                  $l$u        $v$u$x      $w  $x                      $m            $x
-               $l  $u    $k    $u$x        $w  $x                  $m                $x
+               $l  $u    $k    $u$x       $w  $x                   $m                $x
                  $l  $u  $k$e$k$u$x        $w  $x                $m        $u        $m$x
                  $l$x  $u      $x  $w          $x                $m      $u            $x
                            $w                  $x                $m    $u$l$u$w    $u$w    $x
                      $g$w            $x                          $m    $u    $k$w  $u$k$w  $x
                  $w  $g  $w    $l  $x                            $m    $u    $w    $u$w    $x
-           $w    $g    $w  $l      $x                              $m  $v$u          $v$u$x
-       $w  $g      $x  $w  $l        $x                              $m$u                $x
-       $w  $x            $w$l        $x                                  $u      $v    $x
-         $w  $x          $w$l          $x                                  $u        $x    $u$x
-         $w  $x        $w$g$l          $x                $u    $y      $o      $x            $u  $x
-           $w  $x      $w$g$l            $x            $u      $y    $o    $y$o  $x        $u    $x
-         $w  $l$x  $w  $g    $l          $x          $u    $x      $o        $y$o  $x    $u    $x
-     $w  $g  $w$u$w$g        $l            $x      $u    $x        $o        $x$y$o  $u      $x
-   $w$g        $w$g            $l      $u  $x    $u    $x        $o          $x  $y  $u  $x
-   $d    $g                  $d$l  $u    $m      $u$v$m  $x      $o        $x
-         $d$g              $d$x  $m  $y  $m                $x  $o          $x
-           $d    $g      $d$x    $m            $x      $m  $x  $o        $x
+           $w    $g    $w  $l       $x                             $m  $v$u          $v$u$x
+       $w  $g      $x   $w $l        $x                              $m$u                $x
+       $w  $x            $w$l         $x                                 $u      $v    $x
+        $w  $x          $w$l           $x                                  $u        $x    $u$x
+         $w  $x        $w$g$l           $x               $u    $y      $o      $x            $u  $x
+          $w  $x      $w$g  $l           $x            $u      $y    $o    $y$o  $x        $u    $x
+         $w  $l$x  $w  $g    $l           $x         $u    $x      $o        $y$o  $x    $u    $x
+     $w  $g  $w$u$w$g         $l           $x      $u    $x       $o         $x$y$o  $u      $x
+   $w$g        $w$g            $l      $u  $x    $u    $x        $o         $x   $y  $u  $x
+   $d    $g                  $d $l $u    $m      $u$v$m  $x     $o         $x
+         $d$g              $d$x  $m  $y  $m                $x  $o         $x
+           $d    $g      $d$x   $m             $x      $m  $x $o         $x
                  $d      $x    $m        $x            $m  $x$o          $x
-           $k  $x              $m  $x                  $m  $x$j      $b  $x
-           $k  $w  $x          $m  $x      $w    $x    $m  $j      $b      $x
-         $k    $w  $m$x      $m  $x      $w    $j  $x    $j    $x      $b    $x
+           $k  $x              $m   $x                 $m  $x$j      $b  $x
+           $k  $w  $x         $m   $x      $w    $x    $m  $j      $b      $x
+         $k    $w  $m$x      $m   $x     $w    $j  $x    $j    $x      $b    $x
        $k    $x  $w$m  $x    $m  $x      $w  $x$j    $x$j    $x          $b    $x
-       $k$x        $m    $x  $m  $x      $w$x    $j        $w$x            $b    $x
-                     $m        $x                  $j    $w  $x$k    $x      $b    $x
+       $k$x        $m    $x $m   $x      $w$x    $j        $w$x            $b    $x
+                     $m         $x                 $j    $w  $x$k    $x      $b    $x
                        $m      $x                    $j$x$w$k      $x          $b    $x    $w$x
                          $m    $x                        $k      $x              $b    $x$w  $x
                                                                                    $b  $w    $x
