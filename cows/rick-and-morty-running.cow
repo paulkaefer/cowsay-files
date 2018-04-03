@@ -56,12 +56,12 @@ $the_cow = <<EOC;
                  $d      $x    $m        $x            $m  $x$o          $x
            $k  $x              $m   $x                 $m  $x$j      $b  $x
            $k  $w  $x         $m   $x      $w    $x    $m  $j      $b      $x
-         $k    $w  $m$x      $m   $x     $w    $j  $x    $j    $x      $b    $x
-       $k    $x  $w$m  $x    $m  $x      $w  $x$j    $x$j    $x          $b    $x
+         $k    $w  $m$x      $m   $x     $w    $j  $x  $m$j    $x      $b    $x
+       $k    $x  $w$m  $x    $m   $x     $w  $x$j    $x$j    $x          $b    $x
        $k$x        $m    $x $m   $x      $w$x    $j        $w$x            $b    $x
                      $m         $x                 $j    $w  $x$k    $x      $b    $x
                        $m      $x                    $j$x$w$k      $x          $b    $x    $w$x
-                         $m    $x                        $k      $x              $b    $x$w  $x
+                         $m   $x                         $k      $x              $b    $x$w  $x
                                                                                    $b  $w    $x
                                                                                      $w    $x
 
