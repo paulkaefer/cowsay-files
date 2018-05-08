@@ -22,7 +22,7 @@ $the_cow = <<EOC;
                 $o$y                $o$x
                 $y$b $w$y      $b$w $y$x
                 $y$b   $y      $b   $y$x
-              $r  $y      $b$y      $r  $x
+               $r $y      $b$y      $r $x
                 $r  $y            $r  $x
                   $o$y  $o$b$o$y  $o$x
                 $o$y$o$y        $o$y$o$x

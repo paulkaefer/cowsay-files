@@ -28,10 +28,10 @@ $the_cow = <<EOC;
                                             $k      $y$k      $y    $k      $y$k  $x
                                            $k     $y$k$d        $k  $d      $k$y$k $x
                                           $k     $y$k $d        $k  $d      $k $y$k $x
-                                          $k    $y$k  $y        $k  $y      $k  $y$k $x
-                                         $k    $y$k $y$k        $y    $k    $y$k$y$k  $x
-                                        $k    $y$k  $y$k        $y$l$y$k    $y$k $y$k  $x
-                                       $k     $y$d$k  $y$k    $y  $k$y  $k  $y$k  $y$k  $x
+                                         $k     $y$k  $y        $k  $y      $k  $y$k $x
+                                        $k     $y$k $y$k        $y    $k    $y$k$y$k  $x
+                                       $k     $y$k  $y$k        $y$l$y$k    $y$k $y$k  $x
+                                      $k      $y$d$k  $y$k    $y  $k$y  $k  $y$k  $y$k  $x
                                       $k      $y$k$d$k$y$k  $y$k$d$k$d$k$y$k$y$k  $y$k  $x
                                       $k      $y$d$k$d$y      $k$d$k$d$k$y      $k$y$k  $x    $k    $x$k  $x
                                       $k      $x$k$d$y$l$d$k$y$k$d$k$d$k$d$k$d$l$y$x          $k$y$k  $y$k$x
