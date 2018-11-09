@@ -1,0 +1,58 @@
+# Snoopy
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$a = "\e[48;5;246m  ";  #gray
+$e = "\e[41m  ";        #red
+$w = "\e[107m  ";       #white
+$r = "\e[48;5;172m  ";  #brown 1
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+              $t
+               $t
+                $t
+                                              $k      $x
+                                            $k$a      $k$x
+                                          $k$a    $k$a  $k$x
+                                          $k$a  $k  $a  $k$x
+                        $k          $x  $k  $a  $k$a    $k  $x
+                    $k  $w          $k        $a      $k$r  $k$x
+                  $k$w                      $k        $r      $k$x
+                $k$w                        $k$r$k$a  $k$r    $k$x
+              $k  $w                $k$w    $k$r  $k$a$k$r      $k$x
+            $k    $w                          $k$r  $k    $r    $k$x
+            $k    $w                          $k$r$k$r    $k$r  $k$x
+                $k$w                          $k$r$k$r    $k$r  $k$x
+                $k$w                          $k$r$k$r    $k$r  $k$x
+                  $k$w                        $k$r$k$r    $k$r  $k$x
+                    $k$w                      $k$r  $k    $r    $k$x
+                      $k$w                    $k$r            $k$x
+                        $k      $w          $k$r            $k$x
+                                $k  $w    $k$r          $k  $x
+                                    $k$w$k  $r    $k    $x
+                                      $k            $x
+                                      $k$e$k        $x
+                                      $k  $e        $k$x
+                                    $k          $e  $k$x
+                                    $k$w        $k$e  $k$x
+                                    $k$w        $k$e    $k$x
+                                  $k$w$k$w      $k$e  $k$x
+                                  $k  $w    $k$w$k$e  $k$x
+                                  $k  $w    $k$w$k$e  $k  $x
+                                  $k$w    $k$w  $k$e    $k$x
+                                $k$w    $k$w      $k$e    $k$x
+                                $k$w    $k$w      $k$e    $k  $x
+                                $k$w    $k$w      $k$e  $k$e  $k$x
+                                $k$w$k  $w          $k        $x
+                                $k  $w              $k$w  $k$x
+                                  $k$w  $k$w    $k  $w    $k$x
+                                    $k$w$k$w    $k$w      $k$x
+                                      $k  $w    $k$w    $k$x
+                            $k          $w        $k$w$k$x
+                            $k$w                    $k$x
+                            $k$w                    $k$x
+                              $k                    $x
+
+EOC

@@ -1,0 +1,46 @@
+# Dilbert
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+$w = "\e[107m  ";       #white
+$z = "\e[48;5;172m  ";  #brown 1
+$r = "\e[48;5;94m  ";   #brown 2
+$e = "\e[41m  ";        #red
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+          $t
+           $t
+            $t
+             $t                                 $k  $x
+              $t      $k  $x$k  $x$k  $x$k  $x$k$u  $k$x
+                    $k$u  $k$u  $k$u  $k$u  $k$u    $k$x
+                    $k$u                        $k  $x
+                    $k  $u                      $k$x
+                        $k$u                    $k$x
+                        $k$u                    $k$x
+                        $k$u                    $k$x
+                        $k$u                    $k$x
+                      $k$z$u                      $k$x
+                      $k$z$u    $k  $u  $k  $u    $k$x
+                    $k  $z$u  $k$w  $k  $w  $k$u  $k  $x
+                  $k$z$k        $w  $k  $w  $k      $u$k$x
+                  $k$z$k$z$u  $k$w  $k  $w  $k$u  $k$u$k$x
+                  $k$z$k$z$u    $k  $u  $k  $u    $k$u$k$x
+                  $k$z    $u                          $k$x
+                    $k  $z$u      $k$u  $k$u      $k  $x
+                      $k$z$u    $k$u      $k$u    $k$x
+                      $k$z$u    $k$u      $k$u    $k$x
+                      $k$z$u      $k$u    $k$u    $k$x
+                    $k$z  $u        $k    $u        $k$x
+                    $k$z  $u                        $k$x
+                    $k$z    $u                      $k$x
+                    $k    $z      $u            $k    $x
+                    $k$w  $k                    $w  $k$x
+                  $k$w$k$w      $k$e    $k$w      $k$w$k$x
+                $k$w    $k  $w  $k$e    $k$w  $k  $w    $x
+EOC

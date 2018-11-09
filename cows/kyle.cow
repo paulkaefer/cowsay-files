@@ -1,0 +1,42 @@
+# Kyle (South Park)
+# by Charlie M
+
+$x = "\e[m  ";         #reset color
+$k = "\e[48;5;236m  "; #fake black
+$w = "\e[107m  ";      #white
+
+$r = "\e[48;5;172m  ";  #brown 1
+$u = "\e[48;5;223m  ";  #skin color
+$j = "\e[48;5;80m  ";   #light blue
+$s = "\e[48;5;40m  ";   #dark green
+$h = "\e[48;5;28m  ";   #darker green
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+  $t
+    $t
+      $t
+        $t       $k                        $x
+          $t   $k$s                        $k$x
+            $t $k$s$h                    $s$k$x
+               $k$s$h                    $s$k$x
+               $k  $h                    $k  $x
+               $k$s$k                    $s$k$x
+             $k$s  $k$u  $w  $u$w  $u  $k$s  $k$x
+             $k$s$h$k$u$w            $u$k$h$s$k$x
+           $k$s  $k$u$w    $k$w$k$w    $u$k$s  $k$x
+           $k$s$h$k$u$w                $u$k$h$s$k$x
+           $k$h$k  $u  $w    $u$w    $u  $k  $h$k$x
+             $k$x$k$u                    $k$x$k$x
+                   $k$u    $k    $u    $k$x
+                   $k    $u        $k    $x
+                 $k$r  $s$k        $s$r  $k$x
+               $k$r  $k$r$s  $k$s  $r$k$r  $k$x
+               $k      $r    $k$r    $k      $x
+               $k$h$s$k$r    $k$r    $k$s$h$k$x
+                 $k                        $x
+                     $k$j    $k$j    $k$x
+                   $k                    $x
+
+EOC
