@@ -1,0 +1,12 @@
+# "Giving bunny"
+#
+# e.g.: https://twitter.com/theoneringnet/status/1062741569596342272
+# #
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+       {\\__/}
+      ( • . •)
+      / > [ ]
+EOC
+
