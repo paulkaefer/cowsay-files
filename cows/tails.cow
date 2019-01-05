@@ -1,0 +1,52 @@
+# Tails
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$g = "\e[48;5;35m  ";   #green
+$a = "\e[48;5;246m  ";  #gray
+$d = "\e[48;5;240m  ";  #dark gray pants
+$p = "\e[48;5;238m  ";  #darker gray
+$e = "\e[41m  ";        #red
+$y = "\e[48;5;11m  ";   #yellow
+$m = "\e[48;5;178m  ";  #darker yellow
+$v = "\e[48;5;216m  ";  #skin color 2
+$l = "\e[48;5;75m  ";   #light blue
+$b = "\e[48;5;21m  ";   #blue
+$w = "\e[107m  ";       #white
+$o = "\e[48;5;214m  ";  #orange
+$z = "\e[48;5;94m  ";   #brown 2
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+              $t
+               $t
+                $t
+                $k  $x
+                $k$o$k$x            $k  $x
+              $k$o$k$o$k            $o  $k$x
+              $k$o              $k$o$k$o$k$x
+                $k  $o$w  $o$w  $o$k      $x
+              $k$o    $w  $o$w  $o    $k$x
+                $k  $o$w$b$o$b$w$o    $k$x
+                  $k$o$w$k$w$k$w$o  $k  $x
+                $k  $w  $k$w$k$w$o  $k$x
+              $k$w              $o  $k  $x
+                $k  $w    $k$w        $k$x$k    $x
+                    $k$w          $o$k  $x$k$w  $k    $x
+                    $k  $w$o    $k$x    $k  $w        $k$x
+                    $k$w  $o      $k$x$k$w      $k    $x
+                  $k$w    $o      $k$x$o  $w  $k$w$k$x
+                  $k$w    $o  $k$o$k  $o      $k$o$k$x
+                  $k$w    $o    $k$o$k$o      $k$o$k$x
+                $k$w$k$w  $o    $k$o$k$o        $k$o$k$x
+              $k$w  $k$w$k$o  $k$w    $k$o      $k$o$k$x
+                $k$w$k  $o$k$o$k$w    $k$o      $k$o$k$x
+                  $k  $o  $k$o$k  $w  $k$o    $k  $o$k$x
+                  $k$w$k  $w  $k$o$k  $o    $k$o    $k$x
+              $k  $w  $e$w$e    $k$o    $k  $o  $k    $x
+            $k$w    $e$w    $e    $k    $o    $k$x
+            $k                                  $x
+
+EOC

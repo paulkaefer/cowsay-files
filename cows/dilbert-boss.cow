@@ -1,0 +1,49 @@
+# Dilbert
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$u = "\e[48;5;223m  ";  #skin color
+$r = "\e[48;5;215m  ";  #skin shadow
+$w = "\e[107m  ";       #white
+$e = "\e[41m  ";        #red
+$b = "\e[48;5;21m  ";   #blue
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+          $t
+           $t
+            $t                            $k  $x
+             $t                           $k  $x
+              $t    $k$x                $k      $x
+                  $k    $x              $k      $x
+                  $k    $x              $k      $x
+                  $k    $x            $k          $x
+                  $k    $x    $k                  $x
+                $k            $u            $k      $x
+                $k        $u    $k    $u  $k$u    $k$x
+                $k          $u$k$u              $k    $x
+                $k          $u      $k    $u  $k$w    $k$x
+                $k          $u    $k$w    $k$u$k$w$k$w$k$x
+                $k          $u    $k$w$k$w$k$u$k$w    $k$x
+                $k$r  $k  $u      $k$w    $k$u  $k    $u$k$x
+              $k$r$k$r$u            $k    $u      $k$u  $k$x
+              $k$r$k$r$u                            $k$u$k$x
+              $k$r$k$r$u                            $k$u$k$x
+                $k$r$k  $u                          $k$u$k$x
+                  $k$r$u                            $k$u  $k$x
+                  $k$r$u                          $k$u    $k$x
+                  $k$r$u                    $k    $u      $k$x
+                $k$r  $u                                  $k$x
+                $k$r    $u                      $k  $u    $k$x
+                $k  $r    $u                  $k  $u      $k$x
+                $k$b$k$r    $u                            $k$x
+              $k$b    $k  $r    $u                      $k$w$k$x
+            $k$b      $k$b$k  $r      $u          $k    $w  $k  $x
+          $k$b          $k$b  $k                  $e  $k$w  $k$b$k$x
+        $k$b              $k$b  $k$w            $k$e    $k$w$k$b  $k$x
+        $k$b                $k$b  $k$w          $k$e    $k$w$k$b  $k$x
+      $k$b                    $k$b  $k$w          $k$e$k$w  $k$b  $k$x
+      $k                                                            $x
+
+EOC
