@@ -10,6 +10,7 @@ $r = "\e[41m  ";
 $k = "\e[48;5;235m  ";    #black
 
 $the_cow = <<EOC;
+               $t
                 $t        $k    $x        $k    $x
                  $t     $k$w    $k$x    $k$w    $k$x
                   $t    $k$w  $k  $x    $k$w  $k  $x
