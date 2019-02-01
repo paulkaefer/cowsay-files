@@ -1,0 +1,45 @@
+# Strongbad (Homestar Runner)
+# by Charlie M
+
+$x = "\e[m  ";         #reset color
+$k = "\e[48;5;236m  "; #fake black
+$w = "\e[107m  ";      #white
+$r = "\e[48;5;1m  ";   #dark red
+$u = "\e[48;5;223m  ";  #skin color
+$v = "\e[48;5;216m  ";  #skin color 2
+$b = "\e[48;5;80m  ";   #light blue
+$g = "\e[48;5;28m  ";   #darker green
+$a = "\e[48;5;246m  ";  #gray
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+        $t
+          $t
+            $t              $k        $x
+              $t        $k  $r        $k  $x
+                $t    $k$r                $k$x
+                  $t$k$r                    $k$x
+                  $k$r  $a$r            $a$r  $k$x
+                  $k$r  $a$r            $a$r  $k$x
+                $k$r  $k$a  $r$b    $r$a  $k$r  $k$x
+                $k$r  $k$a  $b        $a  $k$r  $k$x
+                $k$r$k    $a  $b    $a  $k    $r$k$x
+              $k$r$k    $g  $a$b    $a$g  $k    $r$k$x
+              $k$r$k    $g    $a$b$a$g    $k    $r$k$x
+              $k$r$k      $g  $a    $g  $k      $r$k$x
+              $k$r$k          $a    $k          $r$k$x
+                $k$r$k      $r  $a$r  $k      $r$k$x
+                $k$r  $k  $r            $k    $r$k$x
+                  $k$r$k  $r            $k  $r$k$x
+        $k      $x$k$r  $k$r$u        $r$k$r  $k$x$k      $x
+      $k$r      $k$x$k$r$k$r$u        $r$k$r$k$x$k$r      $k$x
+    $k$r      $k$r$k  $r    $u        $r    $k  $r$k$r      $k$x
+    $k$r    $k$r    $k  $r  $u$r    $u$r  $k  $r    $k$r    $k$x
+    $k$r    $k$r$k$k$r$x$k$r            $k$x$k$r$k$r$k$r    $k$x
+    $k$r      $k$r  $w  $x$k$r        $k$x$w  $r  $k$r      $k$x
+      $k$r  $k$r  $w  $u  $x$k        $x$u  $w  $r  $k$r  $k$x
+        $k  $x$k  $x$u                        $x$k  $x$k  $x
+                      $u                  $x
+                        $u              $x
+EOC

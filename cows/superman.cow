@@ -1,0 +1,52 @@
+# Superman
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$r = "\e[48;5;124m  ";  #red
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+$b = "\e[48;5;25m  ";   #blue
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+              $t          $k        $x
+               $t         $k  $u  $k$x
+                $t        $u      $k$x
+                 $t       $u        $x
+                          $u        $x
+                  $r$x$r  $u        $x
+                $r      $u            $r  $x
+                $b$r    $u            $r        $x
+                $b      $u          $r            $x
+              $b      $r$b        $u$r  $b      $r$x
+              $b    $r$y$r        $b            $r$x
+              $b    $r    $y  $r$y$r$b          $r$x
+              $b      $r      $y$r  $b          $r$x
+                $b    $r$y  $r  $b              $r$x
+                $b      $r  $b                  $r$x
+              $b                              $r  $x
+              $b    $y$b              $r$b    $r  $x
+              $b    $r$y$b          $r$b      $r  $x
+                $b  $r  $y    $r$y  $r$b      $r$x
+                $b  $r                $b    $r  $x
+                $b$u$b$r              $b    $r  $x
+                $u  $b  $r    $b    $r$b  $r    $x
+                $u  $b    $r$b          $r      $x
+                $r  $b    $r$b    $u    $r    $x
+              $r  $b      $r$b  $u      $r    $x
+              $r    $b    $r  $b$u      $r    $x
+              $r                $b    $r      $x
+                $r$x$r          $b    $r      $x
+                    $r  $x    $r$b      $r    $x
+                  $r    $x      $b$r    $x$r  $x
+                  $r  $x        $r      $x$r  $x
+                $r  $x            $r    $x$r$x
+                $r$x                $r  $x
+                                    $r  $x
+                                    $r  $x
+                                    $r  $x
+                                    $r    $x
+                                    $r    $x
+                                      $r$x
+EOC
