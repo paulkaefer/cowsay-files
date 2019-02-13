@@ -1,0 +1,39 @@
+#!/bin/sh
+COWSAY_FILES=$(dirname "$0")
+COWS_DIR="${COWSAY_FILES}/cows"
+COWRC=$0
+
+COWS=(
+"rick-and-morty-running" #"head" "dog" "meeseeks"
+"mooninites" "carl" #"ignignokt" "err"
+"superman" "batman" "superman-batman"
+"pikachu"
+#"bob" "louise" "tina" "gene" "linda"
+"prof" "bender" #"zoidberg" "fry-money"
+#"walter"
+"freeman"
+"gray-fox"
+"yoda" "vader" "stormtrooper"
+"banjo-kazooie"
+"super-mario-world"
+"strongbad"
+"dilbert" "dilbert-boss"
+"cartman" "kenny" "kyle" "stan"
+"charlie-brown" "snoopy"
+"tails"
+"fsm"
+"strongbad" "gray-fox" "carl")
+
+randomsay(){
+  stdin=`cat -`
+  NUM_COWS=${#COWS[@]}
+  RAND_INDEX=$(($RANDOM % $NUM_COWS + 1))
+  echo "${stdin}" | cowsay -n -f ${COWS_DIR}/${COWS[$RAND_INDEX]}.cow
+}
+
+alias cows="cd ${COWSAY_DIR}"
+alias cowrc="atom ${COWRC}"
+alias headsay='cowthink -n -f head.cow'
+alias randomfortune="clear && fortune | randomsay"
+
+randomfortune
