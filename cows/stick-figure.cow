@@ -1,0 +1,10 @@
+# Stick figure
+$the_cow = <<EOC;
+    $thoughts
+     $thoughts
+       O
+     -(Y)-
+       V
+     _/ \\_
+EOC
+
