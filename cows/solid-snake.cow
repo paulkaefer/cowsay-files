@@ -1,0 +1,53 @@
+# Gray Fox (Metal Gear Solid)
+# by Charlie M
+
+$x = "\e[m  ";            #reset color
+$k = "\e[48;5;235m  ";    #black
+
+$w = "\e[107m  ";        #white
+$l = "\e[48;5;249m  ";   #light gray
+$m = "\e[48;5;238m  ";   #medium gray
+$a = "\e[48;5;236m  ";   #almost black
+
+$z = "\e[48;5;94m  ";     #dark brown
+$b = "\e[48;5;130m  ";     #brown
+$s = "\e[48;5;223m  ";    #light brown
+$i = "\e[48;5;215m  ";    #slightly darker but still light brown
+
+$c = "\e[48;5;81m  ";     #light blu
+$u = "\e[48;5;63m  ";     #medium blu
+$e = "\e[48;5;17m  ";     #dark blu
+
+$o = "\e[48;5;208m  ";    #orange
+
+$g = "\e[48;5;36m  ";    #bright green
+
+$r = "\e[48;5;196m  ";    #red
+$t = "\e[48;5;192m  ";    #tan
+$p = "\e[48;5;218m  ";    #pink
+$j = "$thoughts ";
+
+$the_cow = <<EOC;
+                                        $j                       $z$x
+                                          $j                   $z  $x
+                                            $j     $z          $b$z  $x
+                                              $j $z$b    $z    $b  $z$x$z$x
+                                               $z$b      $z    $b$z          $x
+                                             $z      $b  $z                    $x
+               $a  $g        $x              $z                            $x
+           $a    $g                $k$x    $z                                $x
+         $a    $k            $g        $k    $a$k    $z                    $x
+         $a  $k$x              $k    $g    $k$a$k  $g          $a$k      $z    $x
+         $a$k$x                      $k      $z$k  $g                    $z$x
+                                       $a    $z      $k  $g            $k$z$x
+                                     $a      $z$s  $z      $k  $z        $x
+           $a$g$k$x              $a    $k$a$k$z$s  $z  $s$z$w$u$s    $u$z$x
+           $a$g  $k  $x      $a            $z    $s                    $z$x
+             $a$g              $a        $z          $s                $z$x
+               $a                $x    $z                        $s  $z$x
+                                           $z    $k  $z  $s      $z    $x
+                                         $m    $g$a$l$z    $s    $z  $k$x
+                                         $l$m  $a$g$k$l$m$z        $k$g$k$x
+                                       $l      $a$g$m$k$m$l  $a$l$a$k$g$l  $x
+                                     $m$l$w$l  $m$a$g  $m  $l$m      $k$g$k$l$x
+EOC
