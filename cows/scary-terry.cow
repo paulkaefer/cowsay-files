@@ -1,0 +1,77 @@
+# Scary Terry
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #fake black
+$s = "\e[48;5;223m  ";  #skin color
+$w = "\e[107m  ";       #white
+
+$l = "\e[48;5;38m  ";   #light blue
+$u = "\e[48;5;31m  ";   #blue
+
+$p = "\e[48;5;212m  ";  #pink
+$d = "\e[48;5;199m  ";  #pink darker
+$g = "\e[48;5;77m  ";   #green shirt
+$n = "\e[48;5;64m  ";   #green shirt dark
+
+$y = "\e[48;5;229m  ";   #yellow
+$h = "\e[48;5;229m  ";   #teeth color
+
+$r = "\e[48;5;172m  ";  #brown 1
+$z = "\e[48;5;94m  ";   #brown 2
+
+$a = "\e[48;5;245m  ";   #gray
+
+$e = "\e[48;5;32m  ";   #blue eyebrows
+$m = "\e[48;5;52m  ";   #maroon
+$o = "\e[48;5;160m  ";  #red
+
+$j = "\e[48;5;124m  ";  #red
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+                 $t          $r$x
+                  $t       $r    $x
+                   $t      $r    $x$r$x
+                    $t     $r          $x
+                         $r            $x
+                         $z            $x
+                 $r                            $x
+                     $r          $d  $z      $x
+                       $d$e  $d$e    $d$z$x
+                       $d$y$k$e$y$k$y$p$x
+                         $y  $d$y    $d$p$x
+                       $d$m$p    $m  $p  $x
+                       $p$m$h$m$h$m$o$d$x
+                         $p$m  $o  $p  $x
+                           $d$p$d$p  $d$x
+                           $p$d$n$d$p$d$g$n$x
+                             $n  $g    $n$g  $x
+                             $n$g$n    $g  $l$x
+                             $n$g        $x$l$g$x
+                           $u$n$l$g$l  $g$x  $g$x
+                           $n$u$g$l$g$l  $x  $g$l$x
+                         $u$n$g        $x    $u$g$x
+                         $n$u$l$g$l$g  $x      $g$x
+                       $n  $x$l$g$l  $g$x      $g$l$x
+           $w  $x    $n  $x  $g$l$g$l$x        $l$g$x
+         $w$x  $j$x$n    $x$g        $x        $g    $x
+                 $z  $n$x  $n    $g  $x        $g$z$x
+             $w$j$z  $x    $g    $n  $x          $z  $j$w  $x
+           $w$x$j$z$j$x    $a    $g  $x        $j$z    $j$x$w$x
+         $w$x$w$x$j$w$x    $a        $x      $w$x$z  $j  $w$x
+             $w$x$w$x$w$x  $a  $x$a  $x      $w$x  $j$x$w$x$w$x
+           $w$x  $w$x$w$x  $a  $x$a    $x  $w$x    $w$x$w$x$w$x
+               $w$x$w$x    $a  $x  $a  $x  $w$x  $w  $x$w$x
+                           $a  $x  $a  $x        $w$x$w$x
+                           $a  $x  $a  $x
+                           $a  $x    $a  $x
+                           $a  $x    $a  $x
+                           $a  $x      $a$x
+                             $a$x      $a  $x
+                             $a$x        $a$x
+                             $a$x        $a  $x
+                           $z  $x        $z  $x
+                         $z    $x        $z    $x
+                       $z      $x        $z      $x
+EOC
