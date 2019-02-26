@@ -4,7 +4,7 @@ COWS_DIR="${COWSAY_FILES}/cows"
 COWRC=$0
 
 COWS=(
-"rick-and-morty-running" #"head" "dog" "meeseeks"
+"rick-and-morty-running" "dog" "meeseeks" "pickle-rick" "scary-terry" #"head"
 "mooninites" "carl" #"ignignokt" "err"
 "superman" "batman" "superman-batman"
 "pikachu"
@@ -22,7 +22,7 @@ COWS=(
 "charlie-brown" "snoopy"
 "tails"
 "fsm"
-"strongbad" "gray-fox" "carl")
+"strongbad" "gray-fox" "carl" "scary-terry" "pickle-rick")
 
 randomsay(){
   stdin=`cat -`
