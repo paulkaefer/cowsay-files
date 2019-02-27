@@ -1,0 +1,61 @@
+# Master Shake (ATHF)
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #fake black
+$w = "\e[107m  ";       #white
+$l = "\e[48;5;14m  ";   #light blue
+$p = "\e[48;5;212m  ";  #pink
+$y = "\e[48;5;226m  ";   #yellow
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+                 $t   $k                              $x
+                  $t  $k$p                      $k    $x
+                   $t $k$p                    $k  $p$k$x
+                    $t$k$p          $k          $p  $k$x
+                      $k              $x    $k$p    $k$x
+                                            $k$p    $k$x
+                                            $k$p    $k$x
+                                        $k                $x
+                                $k      $l  $w        $l  $k      $x
+                          $k    $l        $k            $l        $k    $x
+                      $k  $l      $k      $w$k$w    $k$w$k      $l      $k  $x
+                    $k$l    $k          $w  $k$w    $k$w  $k          $l    $k$x
+                  $k$l$k      $w  $k  $w  $k$w        $k$w  $k  $w  $k      $l$k$x
+                $k$l$k  $w    $k$w      $k$w            $k$w      $k$w    $k  $l$k$x
+                  $k$l$k$w$l$w  $k      $w                $k      $w      $k$l$k$x
+                      $k$w  $l$w                                          $k$x
+                      $k$w  $l$w                                          $k$x
+                      $k$w  $l  $w                                        $k$x
+                        $k$w$l  $w                                      $k$x
+                        $k$w$l  $w                                      $k$x
+                        $k$w$l  $w                                      $k$x
+                        $k$w$l    $w    $k                $w            $k$x
+                        $k$w$l    $w$k  $w                $k  $w        $k$x
+                $k        $w  $l  $k$w                        $k$w      $k        $x
+              $k$y    $k  $w  $l  $w                                    $k  $y    $k$x
+              $k$y      $k  $w$l  $w      $k$w        $k$w            $k  $y      $k$x
+                    $k$y  $k$w$l    $w      $k        $w              $k$y  $k$x
+              $k$y        $k$w$l    $w                                $k$y        $k$x
+                    $k$y  $k$w$l    $w                                $k$y  $k$x
+                    $k$y$k  $w$l    $w                                $k  $y$k$x
+                          $k$w$l      $w                              $k$x
+                          $k$w$l      $w                              $k$x
+                          $k$w  $l    $w                              $k$x
+                            $k$w$l    $w                            $k$x
+                            $k$w$l    $w                            $k$x
+                            $k$w$l    $w                            $k$x
+                            $k$w$l      $w                          $k$x
+                            $k$w$l      $w                          $k$x
+                            $k$w$l      $w                          $k$x
+                            $k$w$l      $w                          $k$x
+                            $k$w$l      $w                          $k$x
+                            $k$w$l        $w                        $k$x
+                            $k$w$l        $w                        $k$x
+                            $k$w$l          $w                      $k$x
+                            $k$w$l            $w                    $k$x
+                            $k$w    $l            $w                $k$x
+                            $k    $w        $l        $w        $k$x
+                                  $k      $w            $k      $x
+EOC

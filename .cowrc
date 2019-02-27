@@ -5,7 +5,8 @@ COWRC=$0
 
 COWS=(
 "rick-and-morty-running" "dog" "meeseeks" "pickle-rick" "scary-terry" #"head"
-"mooninites" "carl" #"ignignokt" "err"
+"47"
+"mooninites" "carl" "master-shake" #"ignignokt" "err"
 "superman" "batman" "superman-batman"
 "pikachu"
 #"bob" "louise" "tina" "gene" "linda"
@@ -22,7 +23,7 @@ COWS=(
 "charlie-brown" "snoopy"
 "tails"
 "fsm"
-"strongbad" "gray-fox" "carl" "scary-terry" "pickle-rick")
+"scary-terry" "pickle-rick" "47" "47" "master-shake")
 
 randomsay(){
   stdin=`cat -`
