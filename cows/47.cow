@@ -1,0 +1,69 @@
+# Agent 47 (HITMAN)
+# by Charlie M
+
+$x = "\e[m  ";            #reset color
+$k = "\e[48;5;235m  ";    #black
+$w = "\e[107m  ";         #white
+
+$s = "\e[48;5;223m  ";  #skin color
+$u = "\e[48;5;223m  ";  #skin color light
+$z = "\e[48;5;224m  ";  #skin color lighter
+$v = "\e[48;5;216m  ";  #skin color dark
+$m = "\e[48;5;174m  ";  #skin color mouth
+
+$b = "\e[48;5;94m  ";     #brown
+
+$l = "\e[48;5;253m  ";    #lightest gray
+$h = "\e[48;5;251m  ";    #lighter gray
+$a = "\e[48;5;242m  ";    #light gray
+$j = "\e[48;5;238m  ";    #medium gray
+$d = "\e[48;5;237m  ";    #dark gray
+$y = "\e[48;5;234m  ";    #darker gray
+
+$r = "\e[48;5;196m  ";   #red
+$q = "\e[48;5;52m  ";    #dark red
+$p = "\e[48;5;203m  ";   #light red
+$i = "\e[48;5;217m  ";   #light pink
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+        $t             $z        $x
+          $t         $z            $x
+            $t     $z            $u$x
+              $t   $u    $z$u        $x
+                   $u$v$u          $v$x
+                   $v    $u$v$s  $v  $x
+                   $v        $v  $v  $s$x
+                   $v      $v  $b$v  $s$x
+                     $b  $v$b    $v    $x
+                     $v$b$z$b  $s$v  $x
+                     $v  $z  $v    $v$x
+                     $s$v$z$v  $s$v  $x
+                       $s$m  $v$s$v  $l  $d$x
+                       $s      $v  $l  $d$a$y$x
+                       $l$v      $l  $d$a  $y$a$x
+                     $y$w$r$l  $a$l$d$a    $y$a    $x
+                   $y$w$p$r$l  $w$d$a$y      $a    $y  $a  $x
+               $y    $w$p$w$a$w$d$a    $d$y$a    $y  $a      $x
+             $y    $w  $r$w    $d$a      $y$a$d$y  $a  $d  $a  $x
+           $y      $w$i$w    $d$a      $y$a$d  $y$a$y$d      $a$x
+         $y      $w$p$i$w    $d  $a  $y    $d  $y$a  $y$d      $x
+         $y      $w$p$w    $l$d    $y$d  $y  $d$y$d  $a$y  $d$y$x
+         $y    $w$p$i$w    $d      $y$d    $y    $d  $y$a  $y  $x
+         $y    $w$r$i$w    $d    $y$d  $j$d  $y  $d$y$a$y  $a  $x
+         $y    $p$r$h$w$h$w$d    $y$d$j    $d$y  $d  $y$a  $y  $x
+         $y  $w$r$p$h  $w$l$d  $y  $d$j    $y    $d    $y  $a  $j$x
+         $y  $r  $p$h    $l$d  $y$d    $j$y      $d        $j    $x
+         $y  $r  $p$w    $l$d$y$d      $y        $d          $j  $x
+         $y  $r  $h  $l    $j$d$y$d  $y            $j      $d    $x
+         $y  $r  $h  $w  $l$j$d$y                  $j        $d  $x
+         $y  $r$p$h  $l$w  $j$d$y                  $j$y$a$j      $x
+         $y  $r$p$h$l$w    $j$d      $y            $j$y  $a$j      $x
+         $y  $r$p$h$l  $w  $j$d        $y        $x$j$a  $y$a$j    $x
+         $y$q$r$p$h$l$h  $l$j    $y$d$y$d$d  $y  $x$j      $y$a$j  $x
+         $y$q$r$p$h  $w    $j  $y    $a$y$d  $y  $x  $j  $a  $y    $x
+         $y$r  $p$h  $w$l  $y    $j    $a$y$d$y  $x  $j    $a$j    $x
+       $y  $r$p  $h  $l$w    $d      $j  $a$y    $x  $j    $a$y  $j$x
+     $y    $r$p$i$h  $l  $w  $d      $a$j$y$a$y  $x  $j$a  $y$j    $x
+
+EOC
