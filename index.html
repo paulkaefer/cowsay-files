@@ -55,7 +55,6 @@
             var img = new Image();
             img.src = e.target.result; //document.getElementById('the-img');
             img.onload = function() {
-              console.log('onload: ', img);
               var canvas = document.createElement('canvas');
               canvas.width = img.width;
               canvas.height = img.height;
@@ -87,7 +86,6 @@
                   } else {
                     cowFile += '  ';
                   }
-                  console.log('coord: (' + x + ', ' + y + '), nearest bash color: ', foundColor);
                 });
                 cowFile += '\n';
               });
@@ -100,7 +98,9 @@
 
      }
 </script>
+<head><title>charc0al's cowsay file generator</title></head>
 <body>
+    <h1>Charc0al's cowsay file generator</h1>
     <input type=file name=filename id=file>
-    <button type=button onclick='test()'>Display</button></br>
+    <button type=button onclick='test()'>Convert</button></br>
 </body>
