@@ -1,0 +1,106 @@
+<script src="nearestColor.js"></script>
+<script>
+    function each(arr, func) {
+      var i;
+      for (i = 0; i < arr.length; i++) {
+        func(arr[i]);
+      }
+    }
+
+    function range(lo, hi) {
+      let range = [];
+      var i;
+      for (i = lo; i < hi; i++) {
+        range.push(i);
+      }
+      return range;
+    }
+
+    function bashColor(px) {
+      var pxColor = rgbToHex({r: px[0], g: px[1], b: px[2]});
+      var foundColor = nearestColor.BASH_MAP[nearestColor(pxColor)];
+      return foundColor;
+    }
+
+    function download(data, filename, type) {
+      var file = new Blob([data], {type: type});
+      if (window.navigator.msSaveOrOpenBlob) // IE10+
+          window.navigator.msSaveOrOpenBlob(file, filename);
+      else { // Others
+          var a = document.createElement("a"),
+                  url = URL.createObjectURL(file);
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(function() {
+              document.body.removeChild(a);
+              window.URL.revokeObjectURL(url);
+          }, 0);
+      }
+    }
+
+    var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
+    var colorCount = 0;
+    var varMap = {};
+
+    function test() {
+        var file = document.getElementById('file').files[0];
+        var reader  = new FileReader();
+        reader.onload = function(e)  {
+            // var image = document.createElement("img");
+            // image.src = e.target.result;
+            // image.id = 'the-img';
+            //document.body.appendChild(image);
+            var img = new Image();
+            img.src = e.target.result; //document.getElementById('the-img');
+            img.onload = function() {
+              console.log('onload: ', img);
+              var canvas = document.createElement('canvas');
+              canvas.width = img.width;
+              canvas.height = img.height;
+              var ctx = canvas.getContext('2d');
+              ctx.drawImage(img, 0, 0, img.width, img.height);
+
+              //set background color to 1st pixel found
+              var cowFileVars = '$' + varNames[0] + ' = "\\e[m  ";          #reset color\n';
+              var cowFile = '';
+              var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
+              varMap[bgColor] = varNames[0];
+              colorCount++;
+              var lastColor = bgColor;
+
+              each(range(0, img.height), y => {
+                each(range(0, img.width), x => {
+                  var px = ctx.getImageData(x, y, 1, 1).data;
+                  var foundColor = bashColor(px);
+                  if (foundColor !== lastColor) {
+                    lastColor = foundColor;
+                    let varName = varMap[foundColor];
+                    if (!varName) {
+                      varName = varNames[colorCount];
+                      colorCount++;
+                      varMap[foundColor] = varName;
+                      cowFileVars += '$' + varName + ' = "\\e[48;5;' + foundColor + 'm  ";\n';
+                    }
+                    cowFile += '$' + varName;
+                  } else {
+                    cowFile += '  ';
+                  }
+                  console.log('coord: (' + x + ', ' + y + '), nearest bash color: ', foundColor);
+                });
+                cowFile += '\n';
+              });
+
+              var outFile = cowFileVars + '\n$the_cow = <<EOC\n\n' + cowFile + '\nEOC\n';
+              download(outFile, 'generated.cow', 'text');
+            }
+         }
+         reader.readAsDataURL(file);
+
+     }
+</script>
+<body>
+    <input type=file name=filename id=file>
+    <button type=button onclick='test()'>Display</button></br>
+</body>
