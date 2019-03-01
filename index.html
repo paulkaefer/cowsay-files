@@ -105,10 +105,13 @@
                     cowFile += '  ';
                   }
                 });
+                if (lastColor !== bgColor) {
+                  cowFile += '$' + varNames[0];
+                }
                 cowFile += '\n';
               });
 
-              var outFile = cowFileVars + '\n$the_cow = <<EOC\n\n' + cowFile + '\nEOC\n';
+              var outFile = '# Generated with Charc0al\'s coway file creator http://charc0al.github.io/cowsay-files/\n\n' + cowFileVars + '\n$the_cow = <<EOC\n\n' + cowFile + '\nEOC\n';
               download(outFile, 'generated.cow', 'text');
             }
          }
