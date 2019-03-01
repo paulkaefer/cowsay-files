@@ -15,7 +15,7 @@ COWS=(
 "freeman"
 "gray-fox"
 "yoda" "vader" "stormtrooper"
-"banjo-kazooie"
+"banjo-kazooie" "mumbo-jumbo"
 "super-mario-world"
 "strongbad"
 "dilbert" "dilbert-boss"
@@ -23,7 +23,8 @@ COWS=(
 "charlie-brown" "snoopy"
 "tails"
 "fsm"
-"scary-terry" "pickle-rick" "47" "47" "master-shake")
+"zorak" "link" "ROB" "kramer" "hobo"
+"scary-terry" "pickle-rick" "47" "47" "master-shake" "kramer" "kramer")
 
 randomsay(){
   stdin=`cat -`

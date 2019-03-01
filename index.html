@@ -59,10 +59,8 @@
     'a200', 'a201', 'a202', 'a203', 'a204', 'a205', 'a206', 'a207', 'a208', 'a209', 'a210', 'a211', 'a212', 'a213',
     'a214', 'a215', 'a216', 'a217', 'a218', 'a219', 'a220', 'a221', 'a222', 'a223', 'a224', 'a225', 'a226', 'a227',
     'a228', 'a229'];
-    var colorCount = 0;
-    var varMap = {};
 
-    function test() {
+    function convert() {
         var file = document.getElementById('file').files[0];
         var reader  = new FileReader();
         reader.onload = function(e)  {
@@ -73,6 +71,8 @@
             var img = new Image();
             img.src = e.target.result; //document.getElementById('the-img');
             img.onload = function() {
+              var colorCount = 0;
+              var varMap = {};
               var canvas = document.createElement('canvas');
               canvas.width = img.width;
               canvas.height = img.height;
@@ -107,6 +107,7 @@
                 });
                 if (lastColor !== bgColor) {
                   cowFile += '$' + varNames[0];
+                  lastColor = bgColor;
                 }
                 cowFile += '\n';
               });
@@ -123,5 +124,5 @@
 <body>
     <h1>Charc0al's cowsay file generator</h1>
     <input type=file name=filename id=file>
-    <button type=button onclick='test()'>Convert</button></br>
+    <button type=button onclick='convert()'>Convert</button></br>
 </body>
