@@ -1,0 +1,61 @@
+# Mumbo Jumbo (Banjo Kazooie) by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$a = "\e[48;5;16m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;1m  ";
+$d = "\e[48;5;130m  ";
+$e = "\e[48;5;220m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;125m  ";
+$h = "\e[48;5;204m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;131m  ";
+$t = "$thoughts ";
+
+$the_cow = <<EOC
+    $t        $a  $x
+      $t      $a$b$a$x
+        $t    $a$b$c$a$x
+          $t    $a$c  $a$x      $a  $x
+            $t  $a$b$c$b$a$x  $a$b$a$x
+            $a      $c  $a$x$a$b  $a$x
+            $a$c    $a$c  $a$b  $a$x
+              $a$b$c  $b$c$b  $a$x
+                $a  $b$c$b  $a$x
+                  $a                $x
+                  $a$d$e          $d$a  $x
+                $a$e                  $d$a$x
+              $a$e                    $d  $a$x
+            $a$d$e      $d$a  $d$e  $d$a$d$a$x
+            $a$e      $d$a    $d    $a    $d$a$x
+            $a$e      $d$a$f  $d    $f$a  $d$a$x
+            $a$e      $d$f$a  $d$e$d$a$f$a$d$a$x
+            $a$d  $e  $d$f$a  $d$e  $a$f$a$d$a$x
+            $a$d  $e    $d$f  $e  $d$f$d$e$d$a$x
+              $a$d  $e            $a$b$e  $d$a$x
+                $a$d  $e                $d$a$x
+                  $a    $d$b$e$b$e$b$e$b$a$x
+                    $a$d$a  $g      $a  $x
+                    $a$d  $b$e$b$e$b$e$a$x
+                  $a$g$a$d$e      $d  $a$x
+                $a$g    $a$d$e  $d    $a$x
+              $a$g        $a            $x
+            $a$g$h$g$a$h  $g$e    $g  $a$x
+          $a$g$h  $a$g$h  $e      $i$a$g$a$x
+          $a$h    $a$g$h  $e        $a$g$a$x
+        $a$h        $a$g$h$e        $g$a$g$a$x
+        $a$g$h  $a$g$a  $b$c        $b$a$g$a$x
+        $a$g$h  $g$a  $b$j$b$j$b$j$b$j$b$a  $x
+          $a$g$h  $a$b    $j$b$j$b$j$b$a$g$a$x
+            $a        $b              $a  $x
+                  $a                  $x
+                  $a$g$h$g$a$x$a$g  $a$x
+                  $a$h    $a$x$a$g  $a$x
+                $a$g$h    $a$x$a$g  $a$x
+                $a$g      $a  $g      $a  $x
+              $a$g$h$a$h$a$h$a$g    $a$g  $a$x
+              $a$g$h$a$h$a$h$a$g      $a$g$a$x
+                $a                          $x
+EOC
