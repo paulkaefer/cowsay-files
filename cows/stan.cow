@@ -1,0 +1,41 @@
+# Stan (South Park)
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$w = "\e[107m  ";       #white
+$r = "\e[41m  ";        #red
+$e = "\e[48;5;124m  ";  #dark red
+$u = "\e[48;5;223m  ";  #skin color
+$l = "\e[48;5;75m  ";   #light blue
+$b = "\e[48;5;21m  ";   #blue
+$n = "\e[48;5;172m  ";  #brown 1
+$z = "\e[48;5;94m  ";   #brown 2
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+              $t          $k  $x
+               $t       $k$r$e$k$x
+                $t      $k$e  $k  $x
+                    $k  $l$k  $l$b$k  $x
+                  $k$b$l            $b$k$x
+                $k$b$l                $b$k$x
+                $k$b$r        $e      $b$k$x
+              $k$e$r$k                $e  $k$x
+              $k    $u  $w  $u$w  $u  $k    $x
+              $k$u      $w          $u    $k$x
+              $k$u  $w    $k$w$k$w    $u  $k$x
+              $k$u  $w                $u  $k$x
+                $k$u  $w    $u$w    $u  $k$x
+                $k$u                    $k$x
+                  $k$u    $k    $u    $k$x
+                  $k    $u        $k    $x
+                $k$n$z$r$k        $r$z$n$k$x
+              $k$n$z$k$z$r  $k$r  $z$k$z$n$k$x
+              $k$e  $k$n$z  $k$z  $n$k$e  $k$x
+              $k$r  $k$n$z  $k$z  $n$k$r  $k$x
+                $k                        $x
+                    $k$b    $k$b    $k$x
+                  $k                    $x
+EOC

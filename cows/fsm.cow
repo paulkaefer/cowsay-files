@@ -1,0 +1,40 @@
+# Flying Spaghetti Monster
+# by Charlie M
+
+$t = "$thoughts ";
+$y = "\e[48;5;226m  ";
+$o = "\e[48;5;214m  ";
+$w = "\e[107m  ";
+$x = "\e[m  ";
+$r = "\e[41m  ";
+$k = "\e[48;5;235m  ";    #black
+
+$the_cow = <<EOC;
+               $t
+                $t        $k    $x        $k    $x
+                 $t     $k$w    $k$x    $k$w    $k$x
+                  $t    $k$w  $k  $x    $k$w  $k  $x
+                        $k$w    $k$x    $k$w    $k$x
+                          $k    $x      $k      $x
+                          $k$y$k    $x  $k$y$k$x
+                      $k        $y  $k    $y$k      $x
+                  $k  $o$y    $k$y$k$y    $k  $y    $k$x
+                $k$y$k$o$k  $y  $k$y  $k$y$k$y  $k  $y$k$x
+              $k$o$k$y  $k$r$k$y  $k  $y$k$y  $k$r  $k  $x
+          $k    $o$y  $k$r    $k$y      $k    $r      $k$x  $k    $x
+        $k$y  $k      $r      $k        $y$k$r        $k    $y  $k$x
+      $k$o$y$k  $o$k$r        $k$y    $k$o$k$r        $k$y  $k  $x
+      $k$o$k$x$k$y$o$k$r$k    $y  $k    $y$o$k$r    $k$y  $k$x
+      $k$o$k$x  $k$o  $k$y    $x    $o$y$k$o$k      $y$k  $x
+      $k$o$k$x  $k    $y$k  $y  $k$y$k$y$k$y  $k$x$k  $x
+      $k        $y$o  $k  $x$k$y$o$k  $y  $k$y  $k$x
+          $k$o$y  $k  $x  $k$o$k$o$k$x$k$y$k  $y$k$x
+        $k$y$k    $x  $k  $o  $k$y$k$x$k$y$k  $y  $k$x
+        $k  $x      $k$y    $k$y  $k$x$k$y$k$x$k$y$k$x
+                  $k$o$y$k    $y$k$x  $k$y$k$x$k$y$k$x
+                  $k$o$k$x$k$y$k$x  $k$y$k$x  $k$y$k$x
+              $k  $y  $k$x$k  $x    $k$y$k$x$k$y$k$x
+            $k$y  $o$k$x            $k  $x  $k$y$k$x
+            $k      $x                      $k  $x
+
+EOC

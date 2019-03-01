@@ -1,0 +1,38 @@
+# Carl Brutananadilewski (ATHF)
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+$w = "\e[107m  ";       #white
+$r = "\e[48;5;94m  ";   #brown 2
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+                 $t
+                  $t          $k            $x
+                   $t   $k    $u            $k$x
+                      $k$u                    $k$x
+                    $k$u                        $k$x
+                  $k$u                          $k$x
+                  $k$r$u      $k    $u      $k  $u$k$x
+                $k$r    $u          $k$u  $k$u    $k$x
+                $k$r        $u    $k$u  $k$u$k$u$k$x
+              $k$r    $k  $r$u            $k$u    $k$x
+              $k$r  $k$u  $r$u            $k$u    $k$x
+              $k$r  $k$u            $k$u  $k$u    $k$x
+              $k$r  $k$u            $k      $u    $k$x
+              $k$r    $k$u        $k          $u  $k$x
+              $k$r  $k$u$k$u    $k  $u      $k  $u$k$x
+                $k$r$k$u        $k$u$k      $u$k$u$k$x
+                  $k  $u                        $k$x
+                  $k    $u  $k  $u          $k        $x
+                $k    $y$k$u    $k          $u$k  $u$k    $x
+            $k    $u  $k  $u                $k$y$k$u$k$w  $k  $x
+          $k  $w  $k$u$k$y$k$u              $k  $u    $k$w  $k  $x
+          $k  $w    $k$u$k  $u            $k$y$k$u    $k$w  $k$u$k$x
+          $k$u$k$w  $k$u$k$y$k$u          $k  $u      $k$w  $k$u$k$x
+          $k$u$k$w  $k$u  $k  $u        $k$y$k$u      $k$w  $k$u$k$x
+          $k                                                      $x
+EOC

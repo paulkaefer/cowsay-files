@@ -1,0 +1,68 @@
+#!/bin/sh
+COWSAY_FILES=$(dirname "$0")
+COWS_DIR="${COWSAY_FILES}/cows"
+COWRC=$0
+
+COWS=(
+"rick-and-morty-running" "dog" "meeseeks" "pickle-rick" "scary-terry" #"head"
+"47"
+"mooninites" "carl" "master-shake" #"ignignokt" "err"
+"superman" "batman" "superman-batman"
+"pikachu"
+#"bob" "louise" "tina" "gene" "linda"
+"prof" "bender" #"zoidberg" "fry-money"
+#"walter"
+"freeman"
+"gray-fox"
+"yoda" "vader" "stormtrooper"
+"banjo-kazooie"
+"super-mario-world"
+"strongbad"
+"dilbert" "dilbert-boss"
+"cartman" "kenny" "kyle" "stan"
+"charlie-brown" "snoopy"
+"tails"
+"fsm"
+"scary-terry" "pickle-rick" "47" "47" "master-shake")
+
+randomsay(){
+  stdin=`cat -`
+  NUM_COWS=${#COWS[@]}
+  RAND_INDEX=$(($RANDOM % $NUM_COWS + 1))
+  echo "${stdin}" | cowsay -n -f ${COWS_DIR}/${COWS[$RAND_INDEX]}.cow
+}
+
+alias cows="cd $COWS_DIR"
+alias cowrc="atom $COWRC"
+alias headsay='cowthink -n -f head.cow'
+alias randomfortune="clear && fortune | randomsay"
+
+color(){
+  for fgbg in 38 48 ; do # Foreground / Background
+    for color in {0..255} ; do # Colors
+        # Display the color
+        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
+        # Display 6 colors per lines
+        if [ $((($color + 1) % 6)) == 4 ] ; then
+            echo # New line
+        fi
+    done
+    echo # New line
+  done
+}
+
+colorz(){
+  for fgbg in 38 48 ; do # Foreground / Background
+    for color in {0..255} ; do # Colors
+        # Display the color
+        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
+        # Display 6 colors per lines
+        if [ $((($color + 1) % 16)) == 0 ] ; then
+            echo # New line
+        fi
+    done
+    echo # New line
+  done
+}
+
+randomfortune

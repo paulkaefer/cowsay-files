@@ -1,0 +1,68 @@
+# Rick and Morty
+# by Charlie M
+
+$t = "$thoughts ";
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black (charcoal)
+$w = "\e[107m  ";       #white
+$l = "\e[48;5;14m  ";   #light blue (rick hair)
+$m = "\e[48;5;130m  ";  #brown (morty hair)
+
+$u = "\e[48;5;223m  ";  #skin color
+$v = "\e[48;5;216m  ";  #skin color 2
+
+$d = "\e[48;5;238m  ";  #dark gray
+$g = "\e[48;5;251m  ";  #light gray
+$e = "\e[41m  ";        #red
+
+$j = "\e[48;5;21m  ";   #blue
+$b = "\e[44m  ";        #blue jeans
+
+$y = "\e[48;5;11m  ";   #yellow
+$o = "\e[48;5;11m  ";   #yellow light
+
+$the_cow = <<EOC;
+           $t
+            $t
+             $t        $l$x
+               $l$x      $l$x
+                 $l  $x$l    $x$l$x
+                 $l            $x
+           $l  $x$l    $u    $l$x
+             $l      $u$l$u    $x$l$x  $u  $x
+             $l    $u    $l      $x  $u    $x
+               $l  $u  $k$w$u$k$w$x    $l  $x
+             $l    $u  $w  $u$w  $x    $w  $x
+           $l      $u  $v  $u  $v$x     $w  $x                         $m        $x
+                 $l$u        $v$u$x      $w  $x                      $m            $x
+               $l  $u    $k    $u$x       $w  $x                   $m                $x
+                 $l  $u  $k$e$k$u$x        $w  $x                $m        $u        $m$x
+                 $l$x  $u      $x  $w          $x                $m      $u            $x
+                           $w                  $x                $m    $u$l$u$w    $u$w    $x
+                     $g$w            $x                          $m    $u    $k$w  $u$k$w  $x
+                 $w  $g  $w    $l  $x                            $m    $u    $w    $u$w    $x
+           $w    $g    $w  $l       $x                             $m  $v$u          $v$u$x
+       $w  $g      $x   $w $l        $x                              $m$u                $x
+       $w  $x            $w$l         $x                                 $u      $v    $x
+        $w  $x          $w$l           $x                                  $u        $x    $u$x
+         $w  $x        $w$g$l           $x               $u    $y      $o      $x            $u  $x
+          $w  $x      $w$g  $l           $x            $u      $y    $o    $y$o  $x        $u    $x
+         $w  $l$x  $w  $g    $l           $x         $u    $x      $o        $y$o  $x    $u    $x
+     $w  $g  $w$u$w$g         $l           $x      $u    $x       $o         $x$y$o  $u      $x
+   $w$g        $w$g            $l      $u  $x    $u    $x        $o         $x   $y  $u  $x
+   $d    $g                  $d $l $u    $m      $u$v$m  $x     $o         $x
+         $d$g              $d$x  $m  $y  $m                $x  $o         $x
+           $d    $g      $d$x   $m             $x      $m  $x $o         $x
+                 $d      $x    $m        $x            $m  $x$o          $x
+           $k  $x              $m   $x                 $m  $x$j      $b  $x
+           $k  $w  $x         $m   $x      $w    $x    $m  $j      $b      $x
+         $k    $w  $m$x      $m   $x     $w    $j  $x  $m$j    $x      $b    $x
+       $k    $x  $w$m  $x    $m   $x     $w  $x$j    $x$j    $x          $b    $x
+       $k$x        $m    $x $m   $x      $w$x    $j        $w$x            $b    $x
+                     $m         $x                 $j    $w  $x$k    $x      $b    $x
+                       $m      $x                    $j$x$w$k      $x          $b    $x    $w$x
+                         $m   $x                         $k      $x              $b    $x$w  $x
+                                                                                   $b  $w    $x
+                                                                                     $w    $x
+
+EOC

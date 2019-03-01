@@ -1,0 +1,58 @@
+# Superman and Batman
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$a = "\e[48;5;246m  ";  #gray
+$d = "\e[48;5;240m  ";  #dark gray
+$y = "\e[48;5;11m  ";   #yellow
+$r = "\e[48;5;124m  ";  #red
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+$b = "\e[48;5;25m  ";   #blue
+$t = "$thoughts ";
+
+
+$the_cow = <<EOC;
+            $t                                            $k$x    $k$x
+             $t                                           $k$x    $k$x
+              $t          $k        $x                    $k        $x
+               $t         $k  $u  $k$x                    $k        $x
+                $t        $u      $k$x                    $k        $x
+                 $t       $u        $x                    $k        $x
+                          $u        $x                    $k$u    $k$x
+                  $r$x$r  $u        $x                    $k$u    $k$x
+                $r      $u            $r  $x            $k    $u  $k        $x
+                $b$r    $u            $r        $x  $k                        $x
+                $b      $u          $r            $k          $a        $k    $x
+              $b      $r$b        $u$r  $b      $r$k        $a$k        $a      $x
+              $b    $r$y$r        $b            $r$k      $a    $k    $a        $x
+              $b    $r    $y  $r$y$r$b          $r$k  $a          $k        $a  $x
+              $b      $r      $y$r  $b          $r$k  $a          $k        $a  $x
+                $b    $r$y  $r  $b              $r$k  $a          $k        $a  $x
+                $b      $r  $b                  $r$k  $d$a        $k$y  $d  $k$x
+              $b                              $r  $k  $d$y  $a$y  $k$y  $d  $k$x
+              $b    $y$b              $r$b    $r  $k  $d$k  $y      $k  $d  $k$x
+              $b    $r$y$b          $r$b      $r  $k  $d$k            $a$d  $k$x
+                $b  $r  $y    $r$y  $r$b      $r$x$k$d  $a  $k      $a  $d  $k$x
+                $b  $r                $b    $r  $x$k$d$a        $k$a    $d  $k$x
+                $b$u$b$r              $b    $r  $x$k$d$a              $d    $k$x
+                $u  $b  $r    $b    $r$b  $r    $x$k$d$a              $d    $k$x
+                $u  $b    $r$b          $r      $x$k$d$a    $d$a    $d      $k$x
+                $r  $b    $r$b    $u    $r    $x$k  $d$a    $d$a    $d      $k$x
+              $r  $b      $r$b  $u      $r    $x$k  $a      $d$a$k$a$d      $k  $x
+              $r    $b    $r  $b$u      $r    $x$k  $a      $d$k  $d        $k  $x
+              $r                $b    $r      $x$k  $a  $k$a$d$k  $d$x$d$x$d$k  $x
+                $r$x$r          $b    $r      $k          $d  $k  $d$x$d$x$d$x$k$x
+                    $r  $x    $r$b      $r    $k    $d$k  $x  $k  $x          $k$x
+                  $r    $x      $b$r    $x$r  $k$x$k$x$k  $x    $k  $x
+                  $r  $x        $r      $x$r  $k$x$k$x$k  $x      $k$x
+                $r  $x            $r    $x$r$x    $k$x$k  $x
+                $r$x                $r  $x            $k  $x
+                                    $r  $x          $k    $x
+                                    $r  $x          $k  $x
+                                    $r  $x            $k$x
+                                    $r    $x
+                                    $r    $x
+                                      $r$x
+EOC

@@ -1,0 +1,46 @@
+# Cartman (South Park)
+# by Charlie M
+
+$x = "\e[m  ";         #reset color
+$k = "\e[48;5;236m  "; #fake black
+$w = "\e[107m  ";      #white
+$r = "\e[48;5;1m  ";   #dark red
+$u = "\e[48;5;223m  ";  #skin color
+$j = "\e[48;5;80m  ";   #light blue
+$y = "\e[48;5;11m  ";  #yellow
+$z = "\e[48;5;94m  ";   #dark brown
+$a = "\e[48;5;246m  ";  #gray
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+          $t
+            $t
+              $t                  $y      $x
+                $t            $y            $j  $x
+                  $t      $j  $y  $j$y    $j        $x
+                    $t  $j                            $x
+                      $j                                $x
+                    $j          $k$j          $k$j        $x
+                  $j        $y    $k  $y  $k  $y      $j    $x
+                  $j    $y      $w    $k  $w    $u$y        $x
+                $j  $y      $u$w                  $u        $x
+                $y    $u    $w      $k$w  $k$w      $u      $x
+                $u          $w                      $u      $x
+                  $u        $w                    $u        $x
+                  $u          $w      $u  $w    $u          $x
+                $r$u                                  $a$u$r$x
+              $r    $u$a$u          $k  $u          $a$u  $r  $x
+            $r        $u$a$u      $k        $u    $a$u  $r      $x
+            $r          $u$a  $u    $k    $u  $a  $u  $r    $y    $x
+          $y    $r        $u  $a              $u    $r    $y        $x
+          $y        $r        $u                $r        $y        $x
+          $y          $r              $k$r$a$r            $y        $x
+            $y      $r                    $a$r                $y  $x
+              $r                        $k$a$r                  $x
+              $r                        $a$r                    $x
+                $r                    $k$a$r                  $x
+                $z$r                            $z            $x
+                  $z                                          $x
+                $k                    $x  $k                    $x
+
+EOC

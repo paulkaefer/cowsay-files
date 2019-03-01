@@ -1,0 +1,75 @@
+# Super Mario with Yoshi
+# by Charlie M
+
+$x = "\e[m  ";         #reset color
+$k = "\e[48;5;236m  "; #fake black
+$w = "\e[107m  ";      #white
+
+$r = "\e[48;5;9m  ";   #red
+$e = "\e[48;5;1m  ";   #dark red
+$d = "\e[48;5;52m  ";  #very dark red
+
+$u = "\e[48;5;223m  ";  #skin color
+$v = "\e[48;5;216m  ";  #skin color 2
+
+$j = "\e[44m  ";        #blue
+$b = "\e[48;5;33m  ";   #blue 2
+$l = "\e[48;5;80m  ";   #light blue
+
+$y = "\e[48;5;11m  ";  #yellow
+$m = "\e[48;5;178m  ";  #darker yellow
+
+$n = "\e[48;5;172m  ";  #light brown
+$z = "\e[48;5;94m  ";   #dark brown
+
+$s = "\e[48;5;46m  ";   #green
+$h = "\e[48;5;40m  ";   #dark green
+$i = "\e[48;5;28m  ";   #darker green
+
+$a = "\e[48;5;246m  ";  #gray
+$o = "\e[48;5;88m  ";   #yoshi boot
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+  $t
+    $t
+      $t                  $d      $x
+        $t            $d  $e  $r$y$d$x
+          $t        $d$e  $r  $m$w$d$x
+            $t    $d$e$r   $d$k        $x
+                $d$e$r  $d$k              $x
+                $d$r  $d$k            $x
+              $d$z  $d$k    $w  $v$w$x        $k  $x
+              $z$w  $z$d$k$v$w$k$v$k$x      $k$s$i$k$x
+            $z$w      $z$k$v$w$k$u      $z$k$h$i$w  $x
+            $z$w      $z$k  $u          $z$k$h$w  $k$x
+            $z$w  $d    $k$u  $k$v      $z$k$w    $k$x$k    $x
+            $d$w$d$r    $d$u$k          $n$k$w      $k$s    $k  $x
+            $d  $e  $r    $d$u$k      $n  $k$i$w  $i$s    $w  $s$k$x
+          $d  $y$d$e  $r  $d$u    $z$x$k    $h$i  $s        $k$w$k$x
+        $d  $y$d  $e    $r$d$z    $x$k$n$k$i$h  $s                $k$x
+        $d$y$d$j$d$e      $d$b$d$x  $z    $i$h$s      $h$s        $k$x
+        $d$y$d$j  $d      $b$l$e$d$k$w    $z$h$s    $w$k$h$s      $k$x
+        $d$y$j$b$l$b      $w  $l$j$k$w    $z$h$s    $w$k$h$s      $k$x
+      $d$y$d$j$b$l        $w  $l$j$k$w    $z$h$s  $w$k  $i$h$s  $h$k$x
+      $d$y$d$j      $l          $j$k$z    $k$h$w        $k$i$h  $k$x
+      $d$y$d$j$b  $j$l      $j    $x$k$n$k$i$h$w  $k$w    $k    $x
+      $d$y$d$z$j$b      $l      $j$x  $k  $h  $w$k$x$k    $x
+      $d$y$d$z  $j  $b    $l      $j$k  $i$h$w$k$x
+    $d$y$d  $z      $j  $b  $l    $j$w$k$h$s$w$k$x
+    $d$y$d$z        $d$w$j$b    $l$j$w$k$h$s$w$k$x
+  $d$y$d  $z        $d$k$w$j$b    $j$k$h$s$w  $k$x
+  $d                  $k$w$k$j    $k    $s$w$k$x
+                  $k$w$h$k  $z      $n$k$s$w$k$x
+                    $k$w$h$k            $w  $k$x
+                    $k$w      $k$n$k$w    $k$x
+                      $k$w  $k$n    $k$w  $k$x
+                      $k$w$k  $n    $k$w$k$x
+                        $k  $w$k    $w$k$x
+                        $k            $x
+                      $k$o          $k$x
+                      $k$o          $w$k$x
+                      $k$o            $k$x
+                      $k                $x
+EOC

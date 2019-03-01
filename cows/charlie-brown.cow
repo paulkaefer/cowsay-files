@@ -1,0 +1,61 @@
+# Charlie Brown
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+$w = "\e[107m  ";       #white
+$r = "\e[48;5;94m  ";   #brown 2
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+          $t
+           $t
+            $t
+             $t         $k              $x
+              $t      $k$u              $k  $x
+                    $k$u      $k    $u      $k  $x
+                  $k$u      $k$u    $k$u        $k$x
+                $k$u        $k$u  $k$u            $k$x
+                $k$u          $k  $u$k  $u        $k$x
+              $k$u      $k  $u                      $k$x
+              $k$u                                  $k$x
+            $k$u                $k  $u                $k$x
+            $k$u          $k$u$k$u    $k$u            $k$x
+            $k$u              $k$u                    $k  $x
+            $k$u                $k  $u              $k$u$k$x
+            $k$u                                        $k$x
+          $k$u$k$u                            $k$u      $k$x
+          $k$u$k$u  $k$u                      $k$u$k$u  $k$x
+            $k  $u  $k$u                    $k$u  $k    $x
+              $k  $u  $k  $u            $k  $u    $k$x
+                $k$u      $k            $u      $k$x
+                  $k  $u                    $k  $x
+                      $k    $u        $k    $x
+                            $k          $x
+                            $k$u      $k$x
+                          $k$y$k$u$k  $y$k$x
+                        $k$y$k$y  $k$y$k$y$k$x
+                      $k  $y              $k$x
+                    $k$y                    $k$x
+                    $k$y                    $k$x
+                  $k    $y  $k$y    $k  $y    $k$x
+                  $k$y$k$y$k    $y$k    $y    $k$x
+                $k$y$k  $y$k    $y$k    $y    $k$x
+                $k$y$k                  $y    $k$x
+                $k          $y$k    $y$k        $x
+                $k$u$k$y$k$y    $k$y  $k$u      $k$x
+                $k$u$k$y              $k$u      $k$x
+                  $k                      $u  $k$x
+                    $k                          $x
+                    $k                          $x
+                          $k$w    $k$w    $k$x
+                          $k$y    $k$y    $k$x
+                    $k                        $x
+                  $k$r  $k$r  $k$r$k$r        $k$x
+                  $k$r                        $k$x
+                    $k                        $x
+
+EOC

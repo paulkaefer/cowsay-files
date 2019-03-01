@@ -1,0 +1,53 @@
+# Batman
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$a = "\e[48;5;246m  ";  #gray
+$d = "\e[48;5;240m  ";  #dark gray pants
+$y = "\e[48;5;11m  ";   #yellow
+$u = "\e[48;5;223m  ";  #skin color
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+              $t      $k$x    $k$x
+               $t     $k$x    $k$x
+                $t    $k        $x
+                      $k        $x
+                      $k        $x
+                      $k        $x
+                      $k$u    $k$x
+                      $k$u    $k$x
+                    $k    $u  $k        $x
+                $k                        $x
+              $k          $a        $k    $x
+              $k        $a$k        $a      $x
+              $k      $a    $k    $a        $x
+              $k  $a          $k        $a  $x
+              $k  $a          $k        $a  $x
+              $k  $a          $k        $a  $x
+              $k  $d$a        $k$y  $d  $k$x
+              $k  $d$y  $a$y  $k$y  $d  $k$x
+              $k  $d$k  $y      $k  $d  $k$x
+              $k  $d$k            $a$d  $k$x
+              $k$d  $a  $k      $a  $d  $k$x
+              $k$d$a        $k$a    $d  $k$x
+              $k$d$a              $d    $k$x
+              $k$d$a              $d    $k$x
+              $k$d$a    $d$a    $d      $k$x
+            $k  $d$a    $d$a    $d      $k$x
+            $k  $a      $d$a$k$a$d      $k  $x
+            $k  $a      $d$k  $d        $k  $x
+            $k  $a  $k$a$d$k  $d$x$d$x$d$k  $x
+          $k          $d  $k  $d$x$d$x$d$x$k$x
+          $k    $d$k  $x  $k  $x          $k$x
+          $k$x$k$x$k  $x    $k  $x
+          $k$x$k$x$k  $x      $k$x
+              $k$x$k  $x
+                  $k  $x
+                $k    $x
+                $k  $x
+                  $k$x
+
+EOC

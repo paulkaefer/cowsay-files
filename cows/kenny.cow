@@ -1,0 +1,48 @@
+# Kenny (South Park)
+# by Charlie M
+
+$x = "\e[m  ";          #reset color
+$k = "\e[48;5;235m  ";  #black
+$g = "\e[48;5;35m  ";   #green
+$a = "\e[48;5;246m  ";  #gray
+$d = "\e[48;5;240m  ";  #dark gray pants
+$p = "\e[48;5;238m  ";  #darker gray
+$e = "\e[41m  ";        #red
+$y = "\e[48;5;11m  ";   #yellow
+$m = "\e[48;5;178m  ";  #darker yellow
+$u = "\e[48;5;223m  ";  #skin color
+$v = "\e[48;5;216m  ";  #skin color 2
+$l = "\e[48;5;75m  ";   #light blue
+$b = "\e[48;5;21m  ";   #blue
+$w = "\e[107m  ";       #white
+$r = "\e[48;5;172m  ";  #brown 1
+$z = "\e[48;5;94m  ";   #brown 2
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+      $t
+        $t
+          $t            $k        $x
+            $t      $k  $r        $k  $x
+                  $k$r                $k$x
+                $k$r      $k    $r      $k$x
+                $k$r  $k  $z    $k  $r  $k$x
+              $k$r  $k$z$w  $u$w  $z$k$r  $k$x
+              $k$r$k$z$w            $z$k$r$k$x
+              $k$r$k$z$w  $k$w$k$w  $z$k$r$k$x
+              $k$r$k$z$w            $z$k$r$k$x
+              $k$r$k$z  $w  $u$w  $z  $k$r$k$x
+                $k$r$k$z  $u    $z  $k$r$k$x
+                $k$r  $k            $r  $k$x
+                  $k$r      $k$r      $k$x
+                  $k    $r$k$r$k$r$k    $x
+                $k$r    $k        $r    $k$x
+              $k$r  $k$r    $k$r    $k$r  $k$x
+              $k      $r    $k$r    $k      $x
+              $k$z  $k$r    $k$r    $k$z  $k$x
+                $k                        $x
+                    $k$r    $k$r    $k$x
+                  $k                   $x
+
+EOC
