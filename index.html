@@ -41,7 +41,7 @@
     }
 
     var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-    's', 't', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+    's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
     'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a1', 'a2', 'a3', 'a4', 'a5',
     'a6', 'a7', 'a8', 'a9', 'a0', 'a10', 'a11', 'a12', 'a13', 'a14', 'a15', 'a16', 'a17', 'a18', 'a19', 'a20', 'a21',
     'a22', 'a23', 'a24', 'a25', 'a26', 'a27', 'a28', 'a29', '30', '31', '32', '33', '34', '35', '36', '37',
@@ -80,8 +80,8 @@
               ctx.drawImage(img, 0, 0, img.width, img.height);
 
               //set background color to 1st pixel found
-              var cowFileVars = '$' + varNames[0] + ' = "\\e[m  ";          #reset color\n';
-              var cowFile = '';
+              var cowFileVars = '$' + varNames[0] + ' = "\\e[m  ";          #reset color\n$t = "$thoughts ";\n';
+              var cowFile = '      $t\n        $t\n          $t\n';
               var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
               varMap[bgColor] = varNames[0];
               colorCount++;
