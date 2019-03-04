@@ -64,6 +64,7 @@
         var file = document.getElementById('file').files[0];
         var reader  = new FileReader();
         reader.onload = function(e)  {
+            var showThoughts = true;
             // var image = document.createElement("img");
             // image.src = e.target.result;
             // image.id = 'the-img';
@@ -81,7 +82,7 @@
 
               //set background color to 1st pixel found
               var cowFileVars = '$' + varNames[0] + ' = "\\e[m  ";          #reset color\n$t = "$thoughts ";\n';
-              var cowFile = '      $t\n        $t\n          $t\n';
+              var cowFile = '';
               var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
               varMap[bgColor] = varNames[0];
               colorCount++;
@@ -102,7 +103,11 @@
                     }
                     cowFile += '$' + varName;
                   } else {
-                    cowFile += '  ';
+                    if (showThoughts && (y < 5) && (y === (x - 3)) && (foundColor === bgColor)) {
+                      cowFile += '$t';
+                    } else {
+                      cowFile += '  ';
+                    }
                   }
                 });
                 if (lastColor !== bgColor) {
@@ -112,7 +117,7 @@
                 cowFile += '\n';
               });
 
-              var outFile = '# Generated with Charc0al\'s coway file creator http://charc0al.github.io/cowsay-files/\n\n' + cowFileVars + '\n$the_cow = <<EOC\n\n' + cowFile + '\nEOC\n';
+              var outFile = '# Generated with Charc0al\'s coway file creator http://charc0al.github.io/cowsay-files/\n\n' + cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + '\nEOC\n';
               download(outFile, 'generated.cow', 'text');
             }
          }

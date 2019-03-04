@@ -1,0 +1,47 @@
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;137m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;252m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;244m  ";
+$g = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+            $t                    $a      $x
+              $t            $a    $b      $a    $x
+            $a$x$t      $a  $b    $c            $a  $x
+            $a$x  $t  $a$b  $c                      $a$x
+      $a$x    $a$x  $a$b$c                            $a$x
+        $a  $x  $a  $b$c                                $a$x
+            $a$x$a                                            $x
+        $a$x  $a                                                $x
+          $a    $b$a$c    $a  $d$e    $a  $c      $a$d  $e  $a  $x
+            $a$b$a$c      $a  $d$e    $a  $c        $a$d$e  $a  $x
+          $a$b$a$c        $a  $d$e    $a  $c        $a$d$e  $a  $x
+          $a$b$a$b$c      $a  $d$e    $a  $c        $a$d$e  $a  $x
+            $a$b      $c  $a  $d  $e  $a  $c        $a$d  $e$a  $x
+              $a    $b$c  $a              $c      $a            $x
+                $a$b  $c    $a                                $x
+                $a$b  $c                                    $a$x
+                $a$b  $c                        $a$c        $a$x
+                $a$b  $c                        $b$a$c        $a$x
+                $a$b  $c                        $a$b$c        $a$x
+                $a$b  $c                        $b$a$c        $a$x
+                $a$b    $c                      $a$c          $a$x
+                $a$b    $c                                    $a$x
+                $a    $b  $c                              $a    $x
+              $a$f    $a        $c                $a          $e$a$x
+              $a$f    $d$e      $a                $e  $a$g  $a  $e$a$x
+                $a  $f$d$e                          $a$g      $a$e$a$x
+                $a$f$a          $e                  $a$g      $a$e$a$x
+              $a$f  $d    $e    $a              $e  $a  $g    $a    $x
+              $a$f  $d    $e                    $a    $e$a      $e  $a$x
+            $a$f    $d    $e                          $a$g    $a$e  $a$x
+            $a$f    $d      $e                        $a$g      $a$e$a$x
+            $a                                                        $x
+
+EOC

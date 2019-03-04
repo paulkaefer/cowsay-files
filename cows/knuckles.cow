@@ -7,13 +7,12 @@ $c = "\e[48;5;231m  ";
 $d = "\e[48;5;216m  ";
 $e = "\e[48;5;28m  ";
 $f = "\e[48;5;220m  ";
+$t = "$thoughts ";
 
 $the_cow = <<EOC
-
-
-                          $a        $x
-                      $a  $b        $a$x
-                  $a  $b              $a$x
+      $t                  $a        $x
+        $t            $a  $b        $a$x
+          $t      $a  $b              $a$x
                 $a$b            $a$b    $a$x
               $a$b                $a$b  $a  $x
               $a$b    $a$b  $a$b  $a$b    $a$x
