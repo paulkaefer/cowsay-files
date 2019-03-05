@@ -1,4 +1,5 @@
-# A very good boy (by Charlie M)
+# A very good boy
+# by Charlie M
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
 
 $x = "\e[m  ";          #reset color

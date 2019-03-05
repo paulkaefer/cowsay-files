@@ -1,4 +1,5 @@
-# Gruntilda (Banjo Kazooie) by Charlie M
+# Gruntilda (Banjo Kazooie)
+# by Charlie M
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
 
 $x = "\e[m  ";          #reset color

@@ -1,4 +1,4 @@
-# Dilbert
+# Pointy-haired boss (Dilbert)
 # by Charlie M
 
 $x = "\e[m  ";          #reset color
