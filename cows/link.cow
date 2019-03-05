@@ -58,13 +58,11 @@ $a1 = "\e[48;5;237m  ";
 $a2 = "\e[48;5;238m  ";
 
 $the_cow = <<EOC
-  $a$x
-    $a$b  $x
-    $a$c  $b$x
-      $a$c    $x
-        $a$c    $x
-          $a$c$d$b  $x
-            $a$c  $b  $x
+      $a$x                  $thoughts
+        $a$b  $x              $thoughts
+        $a$c  $b$x              $thoughts
+          $a$c    $x              $thoughts
+            $a$c    $x
               $a$c$d$b  $x
                 $a$c$b    $x
                   $a$c$b    $x                            $e          $f$x
@@ -124,6 +122,4 @@ $the_cow = <<EOC
                                                         $a2$G                    $O$x
                                                         $H$G    $V  $H$G        $a1$x
                                                           $f  $a1$x    $f      $a2$x
-
-
 EOC

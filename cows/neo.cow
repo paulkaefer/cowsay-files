@@ -1,0 +1,42 @@
+# Neo (The Matrix)
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;173m  ";
+$f = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+        $t                    $a        $x
+          $t                $a            $x
+            $t              $a$c        $a$x
+              $t            $a$c        $a$x
+                $t          $c$a        $c$x
+            $d$x    $c$x    $c$a  $c$a  $c$x
+                  $c    $d$x  $c$d$c    $x      $d$x        $d$x
+  $d$x            $d$c  $x    $c        $d$x          $d$x
+          $d$x  $c  $e  $x    $a$c    $a$x
+                $c$e  $c  $d$x$f$a  $e$a$x$d$x  $d$x    $d$x
+        $d$x    $c$e$d$e$c$x$f$a$d$a  $f$x
+  $d$x      $d$a$c        $f    $a    $f$d$x                  $d$x
+              $a  $c    $a$f  $a$f$a  $f    $x$d$x  $d$x
+              $a      $d$a$f  $d$a  $d$f      $x
+    $d$x$d$x  $a$d$a      $f$a          $f$d$f$x        $d$x
+              $a      $d$a$f$a          $f$a$f$x
+            $d$x$a        $d$a      $d$f  $a  $d$x  $d$x
+                  $a                    $f$a  $x            $d$x
+    $d$x        $d$x  $a      $d$a      $f$d$a$x
+          $d$x        $d$a            $f  $a  $x  $d$x
+                        $a              $f$a  $x
+                        $a              $f$a  $x
+                          $a              $f$a  $x
+                          $a            $f  $a  $x
+                          $a              $f$a  $x
+                        $a                $f$a  $x
+                        $a              $f  $a  $x
+                      $a                  $f$a  $x
+EOC
