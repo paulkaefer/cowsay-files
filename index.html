@@ -40,6 +40,8 @@
       }
     }
 
+    var authorName = '<authorName>';
+
     var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
     's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
     'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a1', 'a2', 'a3', 'a4', 'a5',
@@ -117,7 +119,8 @@
                 cowFile += '\n';
               });
               let name = file.name.substring(0, file.name.lastIndexOf('.'));
-              var outFile = '# ' + name + '\n# Generated with Charc0al\'s coway file creator http://charc0al.github.io/cowsay-files/\n\n' +
+              var outFile = '# ' + name + '\n# by ' + authorName +
+                            '\n# Generated with Charc0al\'s cowsay file creator http://charc0al.github.io/cowsay-files/\n\n' +
                             cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + '\nEOC\n';
               download(outFile, name + '.cow', 'text');
             }

@@ -1,0 +1,72 @@
+# Dr. Mario
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;131m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;152m  ";
+$e = "\e[48;5;68m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;255m  ";
+$h = "\e[48;5;239m  ";
+$i = "\e[48;5;60m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;208m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;160m  ";
+$n = "\e[48;5;24m  ";
+$o = "\e[48;5;189m  ";
+$p = "\e[48;5;180m  ";
+$q = "\e[48;5;32m  ";
+$r = "\e[48;5;223m  ";
+$s = "\e[48;5;25m  ";
+$u = "\e[48;5;161m  ";
+$v = "\e[48;5;67m  ";
+$w = "\e[48;5;88m  ";
+$y = "\e[48;5;130m  ";
+$z = "\e[48;5;178m  ";
+
+$the_cow = <<EOC
+        $t                  $a  $x
+          $t              $a$b  $a$x  $a    $x
+            $t            $a$b  $c$a  $d    $a$x
+              $t          $a$b    $c$d  $e  $d$a      $x
+                $t          $a$c  $d    $e    $d$c  $f$a  $x$a  $x
+                            $a$b$c$d$g  $f$e  $d$c$b$c  $f$a$b  $a$x
+                          $a$c    $d$g    $d    $c        $f$b$c$a$x
+                            $a$f  $c$d$g  $d  $f        $c  $f    $a$x
+                              $a$h$i$h$d    $h$i      $h$f      $c$a$x
+                              $a$h$i  $h    $i        $h      $f$a$x
+                              $a$j$a  $b    $a      $f  $h      $a$x
+        $k      $x            $a$j$b  $a$l$a$b$a    $b$j$f    $h$a$x
+      $k$m    $g$k$x          $a$j$n$o$b$l  $f$n$d  $f$b$j  $f$a$x
+      $k$m    $g$k$x          $a$j$f  $j$p$l$a$q$d  $f$l$j  $r$b$a$x
+      $k$m    $g$k$x          $a$r    $p$b$p$f$q$g  $f$p$j  $b$r$a$x
+      $k$m    $g$k$a$x      $a$r$g$r    $p$r    $p    $j  $f$b$r$a$x
+      $s$e    $g$s$a$x      $a$p$r    $p  $b$f$a  $r  $j$b$l$p$a$x
+    $a  $s$e  $g$s$d$a$x      $a$p    $b$a      $b$r  $p$a    $x
+  $a$d  $s$e  $g$s$d$a$x      $a                $r  $p$a$f$b$a$x
+  $a$d$g  $s$e$g$s$d$a$x        $a    $b$a  $b$r  $p$f$a    $x
+  $a$d$g  $s    $d  $a              $b$p  $r  $p$f  $a  $x
+    $a$g    $d  $g$d$e  $g  $d  $e  $a      $f  $d$f$d$g$a  $x
+    $a$d$g          $e  $g  $d    $e  $d$f$d$u  $f$d  $g  $e$a$x
+      $a  $d$g    $d$v$e$g  $d    $e$f$g$d$f$u$f$d$g$e$g    $e$a$x
+          $a            $d$e  $a    $e$d  $f  $d$g  $f$v  $g  $e$a$x
+                        $a    $x  $a$d$g$v$g    $d$e$f$v$d      $a$x
+                                $a$e$g  $v$g$e$g  $f$v$g$d    $e$a$x
+                                $a$d$g$v$g        $f$d$v$g  $e$a$x
+                                $a$g  $v$g        $f$d  $v  $a$x
+                                $a$g  $v$g$e$g    $d$f$d    $a$x
+                                $a$g  $v$g          $e$a    $x
+                                $a$g  $v$g          $d$a$x
+                                  $a$f        $h      $a$x
+                                  $a$h    $a$x$a$h$i  $h$a$x
+                                  $a$h    $a$x  $a$h    $a$x
+                                $a$w$f$h  $a$x  $a$w    $h$a$x
+                              $a$w    $f  $a$x  $a$y$z$y$w$a$x
+                              $a$y  $w    $a$x  $a$y      $a$x
+                                $a        $x      $a      $x
+EOC
