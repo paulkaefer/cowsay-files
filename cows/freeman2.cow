@@ -1,0 +1,53 @@
+# Gordon Freeman w/ gravity gun (Half Life 2)
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;242m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;7m  ";
+$h = "\e[48;5;208m  ";
+$i = "\e[48;5;251m  ";
+$j = "\e[48;5;186m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t      $a          $x
+            $t  $a$b          $a$x
+              $a$b              $a$x
+              $a$b$c  $b  $c$b$c$a$x
+              $a$b$c            $a$x
+              $a$b$c$b  $a$c$a$b  $a$x
+              $a                    $x
+              $a$c$a$d    $a$d    $a$x
+              $a$c$a$c  $d$a$c  $d$a$x
+              $a  $c$a    $c$a    $x
+            $a$e$a$c            $a  $x
+          $a$e$a$f$a$c  $b    $c$a$e$a$x
+        $a  $e$a$f$a$c$b$d    $b$a$e  $a$x            $a$x
+      $a$e  $a$e$a$f$a$b$c$b$c$b$a$e  $a$x        $a      $x
+      $a    $e$a$e$a  $b    $a        $e$a$x  $a    $g  $a$x
+      $a$e  $a$e$a$e$h$a$b$a$i$g  $a            $h$g$x  $j$x
+      $a$e$a        $h  $a$g$e$g  $e$h$f$h$f$a$g$j$g  $x
+      $a  $f  $a$e$a      $e$g$e$g$e$a        $g$j$a  $j$x
+      $a$f$a  $e  $h$a$e$a$e    $g$e$h$f$h$f$a$e$j$g  $x
+        $a$e        $h$a                        $h$g$x  $j$x
+          $a      $e  $a$e    $a$e$a$e    $a$x$a    $g  $a$x
+              $a$e$a    $e  $a$e$a$x$a    $x      $a      $x
+            $a$h    $e$a      $h$a$x                  $a$x
+            $a$e    $a$e    $a$e  $a$x
+              $a$h  $e$a$e$a$e  $h$a$x
+              $a$h$a$h$a    $e$h$a$e$a$x
+            $a$e$a$e$a  $x$a$e  $a$f$a$x
+          $a$h  $a$f$a$x    $a$h  $a  $x
+        $a$h      $a$x      $a$h      $a$x
+        $a$h$e    $a$x      $a$h  $e  $a$x
+        $a$e        $a$x    $a$e        $a$x
+        $a            $x    $a            $x
+EOC

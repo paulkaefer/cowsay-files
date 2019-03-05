@@ -5,7 +5,8 @@ COWRC=$0
 
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "dog" "meeseeks" "pickle-rick" "scary-terry" #"head"
+"rick-and-morty-running" "meeseeks" "pickle-rick"
+"scary-terry" "snowball" #"dog" "head"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" #"ignignokt" "err"
@@ -16,7 +17,7 @@ COWS=(
 "dr-mario"
 
 #Sonic
-"tails" "knuckles"
+"sonic" "tails" "knuckles"
 
 #Bob's Burgers
 "bob" "louise" "tina" "gene" "linda"
@@ -28,7 +29,7 @@ COWS=(
 "dilbert" "dilbert-boss" "catbert" "wally"
 
 #PC shooters
-"47" "freeman" "doomguy"
+"47" "freeman" "freeman2" "doomguy"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
@@ -49,6 +50,7 @@ COWS=(
 "charlie-brown" "snoopy"
 
 #Misc
+"good-vs-evil"
 "strongbad" "speedy-gonzales" "yosemite-sam" "homer-simpson"
 "fsm" "kramer" "hobo")
 
