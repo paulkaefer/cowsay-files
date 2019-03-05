@@ -1,0 +1,52 @@
+# Kazooie (Banjo Kazooie) by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;208m  ";
+$c = "\e[48;5;196m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;153m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;136m  ";
+$h = "\e[48;5;220m  ";
+$i = "\e[48;5;35m  ";
+
+$the_cow = <<EOC
+          $t                        $a  $x
+            $t                      $a$b$a$x
+              $t                    $a$c$b$a$x
+                $t                  $a$c  $a$x
+                  $t            $a  $d$c$a$x
+                              $a$d$c    $a$x
+                            $a$d$c$e  $c$e$a$x
+                            $a$c$f  $a$e$a  $x
+                          $a$d$c$f  $a$e$a  $x
+                          $a$g$h$g$f$i$e$g  $a  $x
+                        $a$h                  $g$a  $x
+                        $a$h  $g$a  $h            $g$a$x
+      $a  $x            $a$g$h    $g$a                $x
+      $a$b$a$x            $a  $g          $a  $x
+    $a$c  $a$x                $a$d  $a    $x
+    $a$b$c$d$a$x              $a$c$a$x
+    $a$d$c  $a$x          $a  $d$c$a$x
+      $a$d$c$a$x  $a      $d$c    $d$a$x
+        $a$d  $a  $d  $c          $b$d$a$x
+          $a$b$c            $d$c$b    $d$a$x
+          $a$c$b$c          $a$c$b  $c$d$a$x
+            $a$d$b  $c    $d$a$c  $d$a$d$a$x
+              $a  $d$c  $d$a$d$c$d$a$d$a$x
+                $a      $c$d    $a    $x
+                  $a$d$c$d  $a    $x
+                  $a$d$a  $d$a$x
+                  $a$h$a  $g$a$x
+                $a$g$h$a  $g$a$x
+                $a$g$h$a  $g$a$x
+                $a$h  $a  $g$a$x
+                $a$h  $g$a$g  $a$x
+              $a$g$h      $a$g  $a  $x
+              $a$h    $a$g$h$a$g    $a$x
+              $a$g$h    $a$g$h$a$g$a$g$a$x
+                $a                      $x
+EOC

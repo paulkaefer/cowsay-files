@@ -1,6 +1,8 @@
+# Solid Snake (Metal Gear Solid) by Charlie M
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
 
 $x = "\e[m  ";          #reset color
+$t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;94m  ";
 $c = "\e[48;5;234m  ";
@@ -20,52 +22,51 @@ $p = "\e[48;5;254m  ";
 $q = "\e[48;5;209m  ";
 $r = "\e[48;5;216m  ";
 $s = "\e[48;5;173m  ";
-$t = "\e[48;5;223m  ";
-$u = "\e[48;5;255m  ";
-$v = "\e[48;5;179m  ";
-$w = "\e[48;5;240m  ";
-$y = "\e[48;5;61m  ";
-$z = "\e[48;5;68m  ";
-$A = "\e[48;5;74m  ";
-$B = "\e[48;5;62m  ";
-$C = "\e[48;5;110m  ";
-$D = "\e[48;5;67m  ";
-$E = "\e[48;5;146m  ";
+$u = "\e[48;5;223m  ";
+$v = "\e[48;5;255m  ";
+$w = "\e[48;5;179m  ";
+$y = "\e[48;5;240m  ";
+$z = "\e[48;5;61m  ";
+$A = "\e[48;5;68m  ";
+$B = "\e[48;5;74m  ";
+$C = "\e[48;5;62m  ";
+$D = "\e[48;5;110m  ";
+$E = "\e[48;5;67m  ";
+$F = "\e[48;5;146m  ";
 
 $the_cow = <<EOC
+        $t                    $a$b$x
+          $t            $c$d$a$b  $x  $c  $e$f$x
+            $t        $c$d$b  $a$b  $d$x    $e$f  $x
+              $t    $c$d$b$a  $b  $a$b$g  $e$f$x  $f$x
+                $t  $h$i$c$g  $b$e$j$k$x      $f$x
+                $c$l$i$c$g  $f    $e$x        $f$x
+              $c$l  $c$m$c$i$c      $x        $f$x
+              $c$l  $c$n$o$a$p$q$r$o$c$a$x  $f$x
+              $c$i$l$h$m$s$r    $u$s$c  $a$x
+            $h$i$c  $h$l$m$u$r  $u$m$c  $g$e$x
+          $c  $h$i$g  $i$m$r      $m$d$f      $x
+        $c$i$g  $h$i$g  $h$n$v  $w$c  $g$e$f  $x
+      $c$h$l$h$a$g$h$i$a$l  $m  $l  $g$e$y$d$x
+      $h$e$f$z$i$a$c$l            $h$g$e$y$d$x
+      $i$e$A$B  $i$a$c  $g$h$l    $c$e$y$d$z$x
+        $k$z$A  $c$i$g    $c  $i$h$d$y$d$f$A$x
+          $k$z$A  $i    $g    $c$d$x$c$k$f$A$x
+      $h$i$e  $z$h$d$h$l$i$g    $e$x$d$k$f$A$x
+    $h$d$a$i$h$l$i$c$d$h$l$i$a$d$x  $c$k$C$A$x
+  $h$i$d$c  $e$i    $c$g$i  $c$x    $d$k$z$A$x
+  $i$c  $d$k$a$k$i$l$d$A$B$a$d$x    $f$y  $x
+  $d$e$k$z$C$D$C$k$h$k$z$A$B$x    $d$z$C$A$x
+    $c$e$z$C$A$z$c$h$g$e$z$A$E$d$x$c$a$z  $x
+    $d$e$A    $c$l      $e$f$c$g$c$g$D$g$x
+      $c$e$z$A$c$l      $c$i$g    $c$g$F  $x
+      $d$e$k$z$x$i      $g$d$i$c$a$g  $d$g$F  $x
+        $h$g$i$l$x      $i$g$d$c  $g$e$x  $d$g$F$D$x
+        $h$c  $h$x        $h$e    $c$d$x      $d$a$x
+        $h$g$c$h$x  $l    $i$l$c$d$k$e  $x
+        $i$h$i$h$x  $h$c    $d$k  $g$h$i$a$x
+      $l$g$e$c$l$x$l$i  $c  $k  $e$l$i  $c$x
+    $i      $d$i$x$c$d$c$x$c$k    $c$d$i$c$x
 
-                            $a$b$x                
-                      $c$d$a$b  $x  $c  $e$f$x    
-                    $c$d$b  $a$b  $d$x    $e$f  $x
-                  $c$d$b$a  $b  $a$b$g  $e$f$x  $f$x
-$x                $h$i$c$g  $b$e$j$k$x      $f$x  
-              $c$l$i$c$g  $f    $e$x        $f$x  
-            $c$l  $c$m$c$i$c      $x        $f$x  
-            $c$l  $c$n$o$a$p$q$r$o$c$a$x  $f$x    
-            $c$i$l$h$m$s$r    $t$s$c  $a$x        
-          $h$i$c  $h$l$m$t$r  $t$m$c  $g$e$x      
-        $c  $h$i$g  $i$m$r      $m$d$f      $x    
-      $c$i$g  $h$i$g  $h$n$u  $v$c  $g$e$f  $x    
-    $c$h$l$h$a$g$h$i$a$l  $m  $l  $g$e$w$d$x      
-    $h$e$f$y$i$a$c$l            $h$g$e$w$d$x      
-    $i$e$z$A  $i$a$c  $g$h$l    $c$e$w$d$y$x      
-      $k$y$z  $c$i$g    $c  $i$h$d$w$d$f$z$x      
-        $k$y$z  $i    $g    $c$d$x$c$k$f$z$x      
-    $h$i$e  $y$h$d$h$l$i$g    $e$x$d$k$f$z$x      
-  $h$d$a$i$h$l$i$c$d$h$l$i$a$d$x  $c$k$B$z$x      
-$h$i$d$c  $e$i    $c$g$i  $c$x    $d$k$y$z$x      
-$i$c  $d$k$a$k$i$l$d$z$A$a$d$x    $f$w  $x        
-$d$e$k$y$B$C$B$k$h$k$y$z$A$x    $d$y$B$z$x        
-  $c$e$y$B$z$y$c$h$g$e$y$z$D$d$x$c$a$y  $x        
-  $d$e$z    $c$l      $e$f$c$g$c$g$C$g$x          
-    $c$e$y$z$c$l      $c$i$g    $c$g$E  $x        
-    $d$e$k$y$x$i      $g$d$i$c$a$g  $d$g$E  $x    
-      $h$g$i$l$x      $i$g$d$c  $g$e$x  $d$g$E$C$x
-      $h$c  $h$x        $h$e    $c$d$x      $d$a$x
-      $h$g$c$h$x  $l    $i$l$c$d$k$e  $x          
-      $i$h$i$h$x  $h$c    $d$k  $g$h$i$a$x        
-    $l$g$e$c$l$x$l$i  $c  $k  $e$l$i  $c$x        
-  $i      $d$i$x$c$d$c$x$c$k    $c$d$i$c$x        
-                                                  
 
 EOC

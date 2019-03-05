@@ -1,0 +1,64 @@
+# Gruntilda (Banjo Kazooie) by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;106m  ";
+$e = "\e[48;5;153m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;148m  ";
+$h = "\e[48;5;127m  ";
+$i = "\e[48;5;176m  ";
+
+$the_cow = <<EOC
+      $t            $a        $x
+        $t        $a    $b    $a  $x
+          $t          $a  $b      $a$x
+            $t          $a$b        $a$x
+              $t        $a$b          $a$x
+                        $a  $b          $a$x
+                        $a  $b            $a$x
+                        $a  $b            $a$x
+                        $a  $b              $a$x
+                      $a    $b              $a  $x
+                      $a  $b    $a                      $x
+                    $a                                        $x
+                $a                              $c            $a  $x
+          $a                $b    $a  $b  $a    $c            $a  $x
+      $a  $c          $a    $b$d$e  $d$a  $d  $a$c      $a    $x
+    $a$c            $a    $b$d$e$f$a  $d  $a$e$b$a      $x
+    $a  $c          $a    $b$d$f  $a  $d  $a$e$b$a$x
+        $a              $b$g  $d$f  $d$g$d  $b$a$x
+                  $a    $d$g        $d  $g$d$a  $x
+                  $a$x$a$d$g  $b$d    $b$d$g$b$a$x
+                    $a  $b$g  $d$b$a    $b$d$b$a$x
+              $a          $b$d    $f$a$f$a      $x
+      $a      $h$i$a  $h$a$b  $d$g      $d$b$a$x
+      $a    $h$a    $h$i$h  $b$a$d$g      $d$b$a$x
+        $a      $b$a  $h    $i$b$a$d$g      $b$a  $x
+        $a  $b    $a  $h  $i      $b$a$d$g  $d$b$a    $x
+      $a  $b    $a      $h$i      $h  $b$a$d  $b$a$b$a  $x
+      $a$b      $a        $h$i  $h        $b    $a  $b$a$x
+    $a  $b    $a            $h          $i$h$b$a    $b  $a$x
+    $a$b    $a          $b    $h      $i    $h$b$a    $b$a$x
+    $a$b    $a          $b      $h  $i        $h$a    $b  $a$x
+  $a  $b      $a        $b        $h$i      $h    $a    $b$a$x
+  $a$b$a    $b$a      $b            $i    $h    $b$a          $x
+$a  $d$g  $d$a        $b              $i$h      $a      $d  $a  $x
+$a  $g      $d$a      $b              $h      $b$a      $d  $a  $x
+  $a$g    $a$d$a  $b$a$b    $a$b        $h$b  $a          $d$a$x
+  $a$d$g  $d$a    $b$a$b    $a$b        $a$b  $a        $d  $a$x
+    $a$d$g  $a  $b  $a$b  $a    $b  $a    $b  $a        $d$a$x
+      $a                                                  $x
+            $a                                      $x
+                  $a$h    $b$a$x      $a$b      $a$x
+                  $a$h  $b$a$x        $a$h$b$a  $x
+                  $a  $i  $a$x        $a$b  $h  $a$x
+                  $a  $b    $a$x      $a    $b$a    $x
+                  $a  $b    $a$x      $a            $x
+                  $a          $x      $a  $x$a      $x
+
+EOC

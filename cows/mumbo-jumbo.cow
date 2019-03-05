@@ -2,7 +2,7 @@
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
 
 $x = "\e[m  ";          #reset color
-$a = "\e[48;5;16m  ";
+$a = "\e[48;5;233m  ";
 $b = "\e[48;5;52m  ";
 $c = "\e[48;5;1m  ";
 $d = "\e[48;5;130m  ";
