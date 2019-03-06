@@ -8,7 +8,7 @@
     }
 
     function range(lo, hi) {
-      let range = [];
+      var range = [];
       var i;
       for (i = lo; i < hi; i++) {
         range.push(i);
@@ -42,20 +42,21 @@
 
     var authorName = '<authorName>';
 
-    var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-    's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
-    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'aa', 'ab', 'ac', 'ad',
-    'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap', 'aq', 'ar', 'as', 'at',
-    'au', 'av', 'aw', 'ax', 'ay', 'az', 'ba', 'bb', 'bc', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj',
-    'bk', 'bl', 'bm', 'bn', 'bo', 'bp', 'bq', 'br', 'bs', 'bt', 'bu', 'bv', 'bw', 'bx', 'by', 'bz',
-    'ca', 'cb', 'cc', 'cd', 'ce', 'cf', 'cg', 'ch', 'ci', 'cj', 'ck', 'cl', 'cm', 'cn', 'co', 'cp',
-    'cq', 'cr', 'cs', 'ct', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'da', 'db', 'dc', 'dd', 'de', 'df',
-    'dg', 'dh', 'di', 'dj', 'dk', 'dl', 'dm', 'dn', 'do', 'dp', 'dq', 'dr', 'ds', 'dt', 'du', 'dv',
-    'dw', 'dx', 'dy', 'dz', 'ea', 'eb', 'ec', 'ed', 'ee', 'ef', 'eg', 'eh', 'ei', 'ej', 'ek', 'el',
-    'em', 'en', 'eo', 'ep', 'eq', 'er', 'es', 'et', 'eu', 'ev', 'ew', 'ex', 'ey', 'ez', 'fa', 'fb',
-    'fc', 'fd', 'fe', 'ff', 'fg', 'fh', 'fi', 'fj', 'fk', 'fl', 'fm', 'fn', 'fo', 'fp', 'fq', 'fr',
-    'fs', 'ft', 'fu', 'fv', 'fw', 'fx', 'fy', 'fz', 'ga', 'gb', 'gc', 'gd', 'ge', 'gf', 'gg', 'gh',
-    'gi', 'gj', 'gk', 'gl', 'gm', 'gn', 'go', 'gp', 'gq', 'gr', 'gs', 'gt', 'gu', 'gv', 'gw', 'gx', 'gy', 'gz'];
+    var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
+    'p', 'q', 'r', 's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+    'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap',
+    'aq', 'ar', 'as', 'at', 'au', 'av', 'aw', 'ax', 'ay', 'az', 'ba', 'bb', 'bc', 'bd', 'be', 'bf',
+    'bg', 'bh', 'bi', 'bj', 'bk', 'bl', 'bm', 'bn', 'bo', 'bp', 'bq', 'br', 'bs', 'bt', 'bu', 'bv',
+    'bw', 'bx', 'by', 'bz', 'ca', 'cb', 'cc', 'cd', 'ce', 'cf', 'cg', 'ch', 'ci', 'cj', 'ck', 'cl',
+    'cm', 'cn', 'co', 'cp', 'cq', 'cr', 'cs', 'ct', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'da', 'db',
+    'dc', 'dd', 'de', 'df', 'dg', 'dh', 'di', 'dj', 'dk', 'dl', 'dm', 'dn', 'do', 'dp', 'dq', 'dr',
+    'ds', 'dt', 'du', 'dv', 'dw', 'dx', 'dy', 'dz', 'ea', 'eb', 'ec', 'ed', 'ee', 'ef', 'eg', 'eh',
+    'ei', 'ej', 'ek', 'el', 'em', 'en', 'eo', 'ep', 'eq', 'er', 'es', 'et', 'eu', 'ev', 'ew', 'ex',
+    'ey', 'ez', 'fa', 'fb', 'fc', 'fd', 'fe', 'ff', 'fg', 'fh', 'fi', 'fj', 'fk', 'fl', 'fm', 'fn',
+    'fo', 'fp', 'fq', 'fr', 'fs', 'ft', 'fu', 'fv', 'fw', 'fx', 'fy', 'fz', 'ga', 'gb', 'gc', 'gd',
+    'ge', 'gf', 'gg', 'gh', 'gi', 'gj', 'gk', 'gl', 'gm', 'gn', 'go', 'gp', 'gq', 'gr', 'gs', 'gt',
+    'gu', 'gv', 'gw', 'gx', 'gy', 'gz'];
 
     function convert() {
         var file = document.getElementById('file').files[0];
@@ -85,13 +86,13 @@
               colorCount++;
               var lastColor = bgColor;
 
-              each(range(0, img.height), y => {
-                each(range(0, img.width), x => {
+              each(range(0, img.height), function(y) {
+                each(range(0, img.width), function(x) {
                   var px = ctx.getImageData(x, y, 1, 1).data;
                   var foundColor = bashColor(px);
                   if (foundColor !== lastColor) {
                     lastColor = foundColor;
-                    let varName = varMap[foundColor];
+                    var varName = varMap[foundColor];
                     if (!varName) {
                       varName = varNames[colorCount];
                       colorCount++;
@@ -113,20 +114,36 @@
                 }
                 cowFile += '\n';
               });
-              let name = file.name.substring(0, file.name.lastIndexOf('.'));
+              var name = file.name.substring(0, file.name.lastIndexOf('.'));
               var outFile = '# ' + name + '\n# by ' + authorName +
-                            '\n# Generated with Charc0al\'s cowsay file creator http://charc0al.github.io/cowsay-files/\n\n' +
+                            '\n# Generated with Charc0al\'s cowsay file converter http://charc0al.github.io/cowsay-files/converter\n\n' +
                             cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + '\nEOC\n';
               download(outFile, name + '.cow', 'text');
             }
-         }
+         };
          reader.readAsDataURL(file);
-
      }
 </script>
-<head><title>charc0al's cowsay file generator</title></head>
+<head><title>Charc0al's cowsay file converter</title></head>
 <body>
-    <h1>Charc0al's cowsay file generator</h1>
-    <input type=file name=filename id=file>
-    <button type=button onclick='convert()'>Convert</button></br>
+    <h1>Charc0al's cowsay file converter</h1>
+    <div>
+      <input type=file name=filename id=file>
+    </div>
+    <br/>
+    <div>
+      <button type=button onclick='convert()' style="width: 200px; padding: 15px">Convert!</button>
+    </div>
+
+    <p>Instructions:</p>
+    <ul>
+      <li>Upload image to create cowsay file from (recommended size <= 50x50) only tested with uncompressed PNG but other file types will probably work</li>
+      <li>Press "Convert!" and save your new cowsay file to your cows directory!</li>
+      <li>Check <a href="../README.md">README.md</a> for more tips and instructions.</li>
+    </ul>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <iframe src="examples/index.html" style="border:none; width: 100%; height: 100%"></iframe>
 </body>

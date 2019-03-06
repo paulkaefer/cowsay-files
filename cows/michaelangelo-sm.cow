@@ -1,6 +1,6 @@
 # Michaelangelo (TMNT) - cropped
 # by Charlie M
-# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
 $t = "$thoughts ";

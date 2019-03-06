@@ -82,7 +82,7 @@ alias cowrc="atom $COWRC"
 alias headsay='cowthink -n -f head.cow'
 alias randomfortune="clear && fortune | randomsay"
 
-color(){
+palette(){
   for fgbg in 38 48 ; do # Foreground / Background
     for color in {0..255} ; do # Colors
         # Display the color

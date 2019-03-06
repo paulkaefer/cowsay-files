@@ -1,6 +1,6 @@
 # Cosmo Kramer (Seinfeld)
 # by Charlie M
-# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
 $a = "\e[48;5;95m  ";
