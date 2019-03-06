@@ -1,12 +1,10 @@
 #!/bin/sh
-COWSAY_FILES=$(dirname "$0")
-COWS_DIR="${COWSAY_FILES}/cows"
-COWRC=$0
+
 
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "meeseeks" "pickle-rick"
-"scary-terry" "snowball" #"dog" "head"
+"snowball" #"dog" "head" "scary-terry"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" #"ignignokt" "err"
@@ -20,13 +18,14 @@ COWS=(
 "sonic" "tails" "knuckles"
 
 #Bob's Burgers
-"bob" "louise" "tina" "gene" "linda"
+#"bob" "louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender" #"zoidberg" "fry-money"
+#"prof" "bender" #"zoidberg" "fry-money"
 
 #Dilbert
-"dilbert" "dilbert-boss" "catbert" "wally"
+"dilbert" "dilbert-boss" "catbert"
+"wally" "dogbert"
 
 #PC shooters
 "47" "freeman" "freeman2" "doomguy"
@@ -35,24 +34,37 @@ COWS=(
 "gray-fox" "solid-snake"
 
 #Star Wars
-"yoda" "vader" "stormtrooper" "r2d2-c3po" "boba-fett"
+"yoda" "vader" "stormtrooper"
+"r2d2-c3po" "boba-fett" "solo"
 
 #Banjo Kazooie
-"banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie" "grunty" "humba-wumba" "bottles" "jamjars"
+"banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
+"grunty" "humba-wumba" "bottles" "jamjars"
 
 #Super Heroes
-"superman" "batman" "superman-batman" "batman2" "spiderman"
+"superman" "batman" "superman-batman"
+"batman2" "spiderman" "deadpool"
 
 #South Park
-"cartman" "kenny" "kyle" "stan"
+#"cartman" "kenny" "kyle" "stan"
 
 #Peanuts
 "charlie-brown" "snoopy"
 
+#Seinfeld
+"larry"  "kramer" "newman" "larry2"
+
+#Game of Thrones
+"tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
+
 #Misc
-"good-vs-evil"
+"fsm" "good-vs-evil" "neo"
 "strongbad" "speedy-gonzales" "yosemite-sam" "homer-simpson"
-"fsm" "kramer" "hobo")
+"hobo")
+
+COWSAY_FILES=$(dirname "$0")
+COWS_DIR="${COWSAY_FILES}/cows"
+COWRC=$0
 
 randomsay(){
   stdin=`cat -`
