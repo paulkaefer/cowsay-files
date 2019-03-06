@@ -32,9 +32,9 @@ $the_cow = <<EOC
               $a$x$a$b$a              $x
                   $a  $b    $a    $x
                 $a$b$a      $b  $a$x
-                $a$b$a$c  $a$b  $a  $x
-                  $a$b$a$c  $a$b  $e$a$x
-                $a$e    $a$c$a  $e$b$f$a$x
+                $a$b$a$x  $a$b  $a  $x
+                  $a$b$a$x  $a$b  $e$a$x
+                $a$e    $a$x$a  $e$b$f$a$x
           $a    $c  $b  $a    $b      $f$a$x
         $a$b$c  $b$f  $b$a  $b  $c  $b  $a$x
         $a$b      $f  $a$x$a$b          $a$x

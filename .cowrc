@@ -1,21 +1,21 @@
 #!/bin/sh
 
-
+# This COWS variable configures what cowsay files will be displayed with the randomsay and randomfortune commands
+# Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "meeseeks" "pickle-rick"
-"snowball" #"dog" "head" "scary-terry"
+"rick-and-morty-running" "pickle-rick" "snowball" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "carl" "master-shake" #"ignignokt" "err"
-"zorak"
+"mooninites" "carl" "master-shake"
+"zorak" #"ignignokt" "err"
 
 #Nintendo
-"pikachu" "link" "samus" "super-mario-world" "ROB" "captain-falcon"
-"dr-mario"
+"link" "samus" "super-mario-world" "ROB" "captain-falcon"
+"dr-mario" #"pikachu"
 
 #Sonic
-"sonic" "tails" "knuckles"
+"sonic" "tails" #"knuckles"
 
 #Bob's Burgers
 #"bob" "louise" "tina" "gene" "linda"
@@ -24,18 +24,17 @@ COWS=(
 #"prof" "bender" #"zoidberg" "fry-money"
 
 #Dilbert
-"dilbert" "dilbert-boss" "catbert"
-"wally" "dogbert"
+"dilbert" "dilbert-boss"
+"wally" #"dogbert" "catbert"
 
 #PC shooters
-"47" "freeman" "freeman2" "doomguy"
+"47" "doomguy" #"freeman" "freeman2"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
 
 #Star Wars
-"yoda" "vader" "stormtrooper"
-"r2d2-c3po" "boba-fett" "solo"
+"r2d2-c3po" "boba-fett-sm" "solo" #"yoda" "vader" "stormtrooper"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
@@ -49,18 +48,23 @@ COWS=(
 #"cartman" "kenny" "kyle" "stan"
 
 #Peanuts
-"charlie-brown" "snoopy"
+#"charlie-brown" "snoopy"
 
 #Seinfeld
 "larry"  "kramer" "newman" "larry2"
 
 #Game of Thrones
-"tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
+"john-snow-sm" "tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
+
+#TMNT
+"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello"
+"raphael2"
 
 #Misc
-"fsm" "good-vs-evil" "neo"
-"strongbad" "speedy-gonzales" "yosemite-sam" "homer-simpson"
-"hobo")
+"fsm" "good-vs-evil" "neo" "homer-simpson"
+#"strongbad" "speedy-gonzales" "yosemite-sam"
+"hobo"
+)
 
 COWSAY_FILES=$(dirname "$0")
 COWS_DIR="${COWSAY_FILES}/cows"
@@ -85,20 +89,6 @@ color(){
         printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
         # Display 6 colors per lines
         if [ $((($color + 1) % 6)) == 4 ] ; then
-            echo # New line
-        fi
-    done
-    echo # New line
-  done
-}
-
-colorz(){
-  for fgbg in 38 48 ; do # Foreground / Background
-    for color in {0..255} ; do # Colors
-        # Display the color
-        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
-        # Display 6 colors per lines
-        if [ $((($color + 1) % 16)) == 0 ] ; then
             echo # New line
         fi
     done

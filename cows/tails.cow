@@ -33,9 +33,9 @@ $the_cow = <<EOC
   $a$g$e            $h$e  $a$g  $d$e  $j$h  $j$e  $g    $x
       $a$g$e          $h$a$h$e    $d$e  $a  $e  $d$e  $h$x
   $g  $h  $a$e          $h$a$g$e                  $a  $x
-$a$h        $a$e          $f$e$a  $h$e        $a  $h$e$a$x
-  $a$g$e  $h  $g$e        $d$a  $e$a  $g$h  $a$e$g$e  $g$x
-      $g$e  $h$a$h$e$h$e  $d  $a$e$b$c$e  $h$a$e$g$e    $a$x
+$a$h        $a$e          $f$x$a  $h$e        $a  $h$e$a$x
+  $a$g$e  $h  $g$e        $d$a  $x$a  $g$h  $a$x$g$e  $g$x
+      $g$e  $h$a$h$e$h$e  $d  $a$x$b$c$e  $h$a$x$g$e    $a$x
       $a$h$e  $h$g$e$c$h$e$d  $b$a$c    $e$h$a  $g$e    $a$x
         $a$e    $a$h$c  $h$d  $a$d$c$a$c$e  $h$g$a$h$e$h$a$x
         $a$h$e  $a$b$d$c  $d$a$b$c  $a$c$e  $h$a$b$a    $x
