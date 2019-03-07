@@ -35,18 +35,12 @@ $D = "\e[48;5;238m  ";
 $E = "\e[48;5;235m  ";
 
 $the_cow = <<EOC
-      $t
-        $t
-          $t
-            $t
-              $t
-
-                                              $a  $b$c$b$d$e$f$x
-                                        $g$f$x$f    $h$i$h$e$j$k  $l$x
-                                    $l$j$i$f  $e$j$h    $i$e  $i$j    $x
-                                  $m$j$h$f$i  $j$e$j$i  $e$c$k  $c$j$k$j$e$x
-                                $n$k$h$f$h$j    $k$j$c$j$e$k    $c$e$c$k$c$d$x
-                                $m$h    $i$j$k  $c$k$c$e$k  $c$k$i$h$i  $j$i$k$x
+          $t                                  $a  $b$c$b$d$e$f$x
+            $t                          $g$f$x$f    $h$i$h$e$j$k  $l$x
+              $t                    $l$j$i$f  $e$j$h    $i$e  $i$j    $x
+                $t                $m$j$h$f$i  $j$e$j$i  $e$c$k  $c$j$k$j$e$x
+                  $t            $n$k$h$f$h$j    $k$j$c$j$e$k    $c$e$c$k$c$d$x
+                    $t          $m$h    $i$j$k  $c$k$c$e$k  $c$k$i$h$i  $j$i$k$x
                             $o$b$h$i$h  $j$e$c    $k$e    $c$k$c$k  $j$h$i$e$i$n$j$x
                             $p$f  $h$f$j$k$d    $n$d  $g$d  $n$e$c    $j  $c$d$c$d$x
                     $l$c$x$q$j$f$h  $j$c$m$r$c$b$g$k$g$n      $b  $n$c$d$c  $d$g$d$g$x
@@ -84,6 +78,4 @@ $B$l$h  $e$c$n$j  $c$b  $c$b  $c$x    $u$m$g$c      $b  $n$m$y$m  $b$m$l$u$C$l$y
 $o$l$c$i$c  $j$i$j$k$m$c$d$k$d$x      $a$d$g$b  $c  $g  $c$g$b$m$b$n$a$m$l$x  $l$x
 $C$y$k$h$c  $e$j$i$k$b$n$b$j$c$x      $n$b$n$c$g$k$c$d$c  $n$b  $m  $a$r$y$x
 $o$d$g$c$b$d  $b$e$n$g$b$y$b  $x      $m$n$b$m$n$g$n    $g$n$b$m$b$y$a$l  $x
-
-
 EOC

@@ -1,0 +1,85 @@
+# Bob Ross
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;137m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;233m  ";
+$d = "\e[48;5;58m  ";
+$e = "\e[48;5;7m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;61m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;234m  ";
+$l = "\e[48;5;187m  ";
+$m = "\e[48;5;251m  ";
+$n = "\e[48;5;252m  ";
+$o = "\e[48;5;179m  ";
+$p = "\e[48;5;139m  ";
+$q = "\e[48;5;22m  ";
+$r = "\e[48;5;65m  ";
+$s = "\e[48;5;236m  ";
+$u = "\e[48;5;52m  ";
+$v = "\e[48;5;103m  ";
+$w = "\e[48;5;60m  ";
+$y = "\e[48;5;67m  ";
+$z = "\e[48;5;64m  ";
+$A = "\e[48;5;74m  ";
+$B = "\e[48;5;110m  ";
+$C = "\e[48;5;145m  ";
+$D = "\e[48;5;239m  ";
+$E = "\e[48;5;146m  ";
+$F = "\e[48;5;18m  ";
+$G = "\e[48;5;249m  ";
+$H = "\e[48;5;96m  ";
+$I = "\e[48;5;161m  ";
+$J = "\e[48;5;167m  ";
+$K = "\e[48;5;16m  ";
+$L = "\e[48;5;25m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t
+            $t      $a      $x                                  $b$c$x                  $b$c$x
+                $a  $d      $a  $x                              $e$f$x                  $e$f$x
+              $a$d              $a$x                            $e                        $f$x
+            $a$d                    $x                          $e$f$x      $e$f$x      $e$f$x
+            $a$d    $f      $d      $x                          $e$f$x      $e$f$x      $e$f$x
+            $a$d  $f          $d    $x                        $e                            $x
+            $a$d$f  $a      $f  $d  $x                          $g            $h  $g      $f$x
+            $a$d$f$a  $i      $f$d  $x                          $j$g    $k$e$g        $j$h$f$x
+              $a$f$a$i        $d  $x                            $h$j$g  $k$e$l$k$g  $m$h  $f$x
+                $a  $i        $d$x                              $g    $k  $e  $k  $e$g    $f$x
+                  $a$d      $i$x                                $g$k$e$k  $e  $k  $n$l$g  $f$x
+                  $d$i    $o$d$x          $p    $x              $k  $n$e$k  $e  $k$e  $k$l$f$x
+                  $d          $x      $p    $q  $p  $x          $k  $n  $k  $l$r$n$r$l$k$e$f$x
+                    $d      $x      $p      $q  $p    $x        $r$k  $r$l$k$n$s$l$s$n$r$n$f$x
+                      $a  $x        $p      $q$p  $u  $p$x      $r$k  $s$n$r          $s$n$f$x
+                  $v  $a$i$v  $x      $p          $u  $p  $x    $s$r      $w      $c$w$r  $f$x
+              $y$v$y$v  $i$v$y$v$x      $p                $x    $r  $z$w  $A    $c    $w$r$f$x
+            $y$v                  $x    $p          $c  $p  $x  $r  $w$B$A      $c    $w$r$f$x
+            $v        $y$C$v      $x  $p            $c  $p  $x  $r    $w$A      $D$f$r    $f$x
+            $v  $x$v  $y  $v      $y$x$p$o  $p              $x$e                            $f$x
+          $v  $x  $v  $y$E$v    $y  $p  $o  $p        $F  $p$x      $e$s$G          $e$s$x
+          $i  $x  $v  $y  $v  $x$y  $p      $H$i$x$p  $F  $p$x      $e                $s$x
+          $i$x    $v  $y$E$v  $x  $y$p$I$J$H$i  $x  $p      $x    $e$s  $D  $k$K  $e$s$D$k$x
+          $i$x    $v  $y  $v    $x  $p$I$J$H$i  $x  $p    $x      $e$s$x    $D$k$K$e$s$x$D$k$x
+          $i$x    $c$F$c    $F$c$x    $p    $H$x  $p    $x      $e$s$x      $D$k$e$s$x  $D$k$x
+        $d$o$d$n  $I$F    $L    $x        $p          $x        $e$s$x      $D$k$e$s$x  $D$k$x
+              $n  $I$F        $L$x                              $e$s$x        $D$e$s$x    $D$k$x
+                  $F  $L$x$F$L$x                                $e$s$x        $D$e$s$x    $D$k$x
+                  $F  $L$x$F$L$x                                $e$s$x        $D$e$s$x    $D$k$x
+                  $F$L$x  $F$L$x                              $e$s$x          $e$s$k$x      $D$k$x
+                  $F$L$x  $F$L$x                              $e$s$x          $e$s$k$x      $D$k$x
+                  $F$x    $F$x                                $e$s$x          $e$s$k$x      $D$k$x
+                  $F$x    $F$x                                $e$s$x          $e$s$k$x      $D$k$x
+                  $F$x    $F$x                              $e$s$x          $e$s$x$D$k$x      $D$k$x
+                  $F$x    $F$x                              $e$s$x          $e$s$x$D$k$x      $D$k$x
+                  $F$x    $F$x
+                  $d  $x  $d  $x
+EOC

@@ -1,0 +1,96 @@
+# Obo-Wan Kenobi (Star Wars) - cropped
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;67m  ";
+$b = "\e[48;5;60m  ";
+$c = "\e[48;5;104m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;61m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;236m  ";
+$h = "\e[48;5;234m  ";
+$i = "\e[48;5;137m  ";
+$j = "\e[48;5;251m  ";
+$k = "\e[48;5;95m  ";
+$l = "\e[48;5;222m  ";
+$m = "\e[48;5;179m  ";
+$n = "\e[48;5;103m  ";
+$o = "\e[48;5;235m  ";
+$p = "\e[48;5;239m  ";
+$q = "\e[48;5;237m  ";
+$r = "\e[48;5;250m  ";
+$s = "\e[48;5;52m  ";
+$u = "\e[48;5;144m  ";
+$v = "\e[48;5;101m  ";
+$w = "\e[48;5;146m  ";
+$y = "\e[48;5;145m  ";
+$z = "\e[48;5;223m  ";
+$A = "\e[48;5;249m  ";
+$B = "\e[48;5;246m  ";
+$C = "\e[48;5;241m  ";
+
+$the_cow = <<EOC
+      $a    $x        $t
+    $b$c$d$c$a$x       $t
+    $e$c$d$c  $x        $t
+    $a$c$d  $c$b$x       $t
+    $a$c$d  $c$a$x        $t
+    $e$c$d  $c$a$x         $t
+    $b$c$d  $c  $x          $t
+    $b$c  $d  $c$b$x         $t
+      $a$c$d  $c$a$x
+      $a$c$d  $c$a$x
+      $e$c$d  $c  $b$x
+      $b$c$d    $c$b$x            $f    $x
+      $b$c  $d  $c$e$x        $f          $x
+        $a$c$d  $c$a$x      $f        $g    $x
+        $a$c$d  $c$a$x    $f          $g      $x
+        $b$c$d  $c  $b$x$f  $h      $f  $g    $x
+        $b$c  $d  $c$b$x$f$h  $i    $h$f  $g    $x
+          $a$c$d  $c$e$x$h  $d$i$d  $j$h$f$g$f$g$x
+          $a$c$d  $c$a$x$h  $k$l$k$m  $h$f      $g$x
+          $a$c$d  $c$a$x$h  $l      $i$j$h$f$g$f$g$x
+          $e$c$d  $c$e$x$h  $j$d$j  $l$j$h$f$g  $f$g$x
+          $b$c$d  $c$n$f$o$h$d$l  $d$j$k$h  $f$g$f$h$x
+          $b$c  $d  $n$p$o$h$d        $k$h  $f$g  $h$x
+            $a$c$d  $e$b$g$h$j$d  $j$k$h    $f$g$h    $x
+            $a$c$d  $e$b$q$h  $j  $h        $f$g$h    $x
+            $e$c$d  $n  $b$q$h      $g  $f    $h        $x
+            $b$c$d    $e$p$q$g$k    $h    $o$g  $h      $x
+            $b$c  $d  $e$b$f$r$s      $u$v$o$g    $h$g$h$x
+            $b$a$c$d  $e$b$f$r$s      $u$v$g  $f$g    $h  $x
+              $e  $d  $e$p$q$r$s    $u  $v$g  $f  $g  $h  $x
+              $b$w$e$w  $f$q$v$r$s  $u$v  $g$f    $g  $h  $x
+                $b$y  $b$q$g$v$r$s$u  $v$g  $f      $g$h  $x
+                  $h    $o$g$v$r$s$u$v  $g$h$f      $g$h  $x
+                  $z    $h$g$v  $s$u$v  $h  $f      $g$h  $x
+                $h  $i    $h$g$v      $h$f        $g  $h  $x
+                $h  $z  $h            $f          $g$h    $x
+                $h  $z$h$q  $h$u$g$f            $g  $h    $x
+                $h$q      $i  $h$A$g$f  $g$f    $g  $h    $x
+                $h$q$z      $i$h$A$g$f  $g$f  $g  $h      $x
+                $h$q  $i$z  $i$h$A$g$f  $g$f  $g$h        $x
+                $h$B$q$z    $i$h$A$g$f  $g    $h          $x
+                $g$B$q      $h  $A$g$f  $g  $h            $x
+                $g$B$h  $u$C$h  $A$g$f  $g  $h            $x
+                $g$B$h          $B$g$f  $g$h              $x
+                $g$B$h          $B$g$f  $g$h      $g$h    $x
+                $g$B$h$C$h  $C$h$B$g$f$g  $h      $g$h    $x
+                $g$B$h$C$h  $C$h$B$g$f$g$h        $g$h    $x
+                $g$C$h$C$h  $C$h$B$g    $h        $g$h    $x
+                  $h$C  $h  $C$h$C$g  $h  $g$h    $g$h    $x
+                  $g$h    $v$h$C  $g  $h  $g$h    $g  $h  $x
+                  $g  $h  $v$u$h$g    $h  $g$h    $g  $h  $x
+                  $f$g$h  $v$u$v$h$g  $h  $g$h  $g    $h    $x
+                  $f$g$h  $v$u$v  $h      $g$h  $g    $h    $x
+                  $f$g$h  $v$u$v  $u$v$h  $g$h  $g    $h    $x
+                  $f$g$h  $v$u$v  $u$v$h  $g$h  $g    $h    $x
+                  $f$g$h  $v  $u$v    $h  $g$h  $g    $h    $x
+                  $f$g$h  $v$u      $v$u$h$g$h  $g      $h  $x
+                  $f$g$h  $v$u          $h$g  $h$g      $h  $x
+                  $f$h    $v$u          $h$g  $h$g      $h  $x
+                  $f$h    $v$u          $h$g  $h$g      $h  $x
+EOC
