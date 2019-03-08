@@ -1,0 +1,84 @@
+# Tim (The Life & Times of Tim)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;242m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;241m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;240m  ";
+$h = "\e[48;5;236m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;59m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;223m  ";
+$m = "\e[48;5;8m  ";
+$n = "\e[48;5;233m  ";
+$o = "\e[48;5;243m  ";
+$p = "\e[48;5;231m  ";
+$q = "\e[48;5;180m  ";
+$r = "\e[48;5;95m  ";
+$s = "\e[48;5;253m  ";
+$u = "\e[48;5;255m  ";
+
+$the_cow = <<EOC
+      $t                        $a                  $x
+        $t                  $a$b$c  $a                $x
+          $t              $d$e$a      $f$a              $x
+            $t      $a$g$e  $a  $f$e$h$i$e$a  $f  $a      $x
+                    $c$h$a$e    $a    $h$f$e$f$a$f  $e$a  $j$a$x
+                $a  $h$a$k$e$h$a  $i$k$h$a$f$a$l$b$k  $f$a$d$g$a$x
+              $a$f  $e$k    $a$h  $i$a    $l      $h$a$h$f$a$b$d$a$x
+            $a  $c$h$a  $k$a$k$h  $l                $i$a$c$f$a$m$a$x
+          $a  $f$h$a$n$h$a$k$l  $f  $l      $f      $l$i$a$c  $a$o$x
+          $a$c$e$a$e  $a$f$l  $f  $l                    $e$a$f$c$g$x
+          $b$f    $g$a$e$f$l  $p  $f  $l    $p  $f  $l    $f$a$c  $x
+          $b$j$a  $g$f$c$l  $p    $f  $l    $p  $f  $l    $f$a  $c$a$x
+          $a$c$f  $a  $l      $p      $l  $m$p      $l      $f$a  $x
+          $o$h$k$a$l                      $m$l              $f$j$x
+          $j$l$a$l                          $m$l            $f$l  $a$x
+        $a  $l$a$l                          $m$l            $f$m$l$x
+          $a$f  $l                          $m$l            $f$l  $x
+          $a$m$a$l                  $m        $l            $f$g$a$x
+            $g$a$f$l                                          $k$e$a$x
+              $f  $l                                        $f$a$e$m$a$x
+                $f$l                                        $f$o$a$x
+                  $f$l            $q          $l            $f$x
+                    $f$l        $q$m          $l          $f$x
+                      $f$l      $m$l                    $f$x
+                        $f$l                          $f$x
+                          $f  $l                    $f$x
+                              $f$l                $f$x
+                                $f                $x
+                                $f$l            $f$x
+                                $f$l            $f$x
+                            $f    $l            $f$x
+                      $f    $r    $f  $l      $f      $x
+                    $f  $r            $f      $r      $f  $x
+                $f  $r                                    $f  $x
+              $f$r                                            $f$x
+            $f  $r                                              $f$x
+          $f  $r                                                $f$x
+          $f$r                                                    $f$x
+          $f$r              $f$r  $f$r$f  $r$f$r    $f$r          $f$x
+        $f  $r              $f  $r$f$r$f$r  $f$r    $f$r            $f$x
+        $f    $r            $f  $r$f$r$f  $r$f$r$f$r$f$r            $f$x
+        $f$s$f  $r          $f$r$f  $r$f$r  $f  $r$f  $r            $f$x
+        $f$u$s  $f$r$f$r    $f$r  $f$r$f  $r$f$r    $f$r            $f$x
+        $f$u  $s$f      $r                                            $f$x
+      $f$u      $s$f  $r  $f$r    $f$r                    $f$r        $f$x
+      $f$u      $f$x$f$r    $f$r$f$r                    $f  $r  $f      $x
+      $f$u      $f$x$f$r      $f$r$f    $r$f  $r$f$r$f$r$f      $s    $f$x
+      $f$u    $f$x  $f$r      $f$r$f$r$f$r$f$r  $f  $r  $f$x  $f$u  $s  $f$x
+      $f$u    $f$x  $f$r      $f$r$f    $r$f$r  $f$r$f$r$f$x  $f$s$u    $f$x
+        $f$u  $f$x  $f$r                                $f$x    $f$s$u    $f$x
+        $f$u  $f$x  $f$r                                $f$x    $f$u      $f$x
+        $f$u    $f$x$f$r                                $f$x  $f$s$u      $f$x
+        $f$u    $f$x$f$r                              $f  $x  $f$u      $s$f$x
+        $f  $u    $f  $r                              $f  $x$f$s$u    $s$f$x
+          $f$u    $f  $r                            $f      $s$u    $s$f$x
+EOC

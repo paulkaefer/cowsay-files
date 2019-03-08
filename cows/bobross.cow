@@ -54,13 +54,15 @@ $W = "\e[48;5;233m  ";
 $X = "\e[48;5;52m  ";
 
 $the_cow = <<EOC
-          $t                  $a            $x                                          
-            $t            $a                    $x                    $b  $x            
-              $t      $a                          $x                  $b$c$b$x          
-                $t  $a                              $x              $d$e$c$b$x          
-                  $a    $f$a                        $x  $g    $x    $d$e$c$b$x          
-                $a$f$a$f$a$f$a$f$a                    $x$h    $g        $c$b$x          
-                $f$a$f$a$f$a$f$a$f$a$f$a$f$a$f$a      $x$i$j  $k$j  $h$j$g        $x    
+      $t
+        $t
+          $t                  $a            $x
+            $t            $a                    $x                    $b  $x
+              $t      $a                          $x                  $b$c$b$x
+                    $a                              $x              $d$e$c$b$x
+                  $a    $f$a                        $x  $g    $x    $d$e$c$b$x
+                $a$f$a$f$a$f$a$f$a                    $x$h    $g        $c$b$x
+                $f$a$f$a$f$a$f$a$f$a$f$a$f$a$f$a      $x$i$j  $k$j  $h$j$g        $x
               $f$a$f$a$f        $a$f$a$f$a$f$a$f$a      $j    $k              $j$h$g  $x
               $a$f$a$f                        $a$f$a  $f$j    $k  $l$k          $h  $i$g$x
               $f$a$f                            $a$f$a$f$j    $m$n$k$a$k      $m$j$h$o$g$x
@@ -80,25 +82,24 @@ $B$G$R$G$C$P$G    $b$L$n$L$b$n$l            $n$l      $b  $C  $b$F    $S$F  $T$A
   $B$G    $z$G  $B$b$L  $b  $n    $l      $n$l$n$l  $n$b$C$z$b$B        $M$A$E$I$T$I$A$g$x
     $B$G      $B$z$L$n$L$b  $l        $n  $l  $b$L$n  $b$z$C$b$x  $b  $e$B        $A$v$g$x
       $B$G  $B$C$L$n  $b    $n$l  $n  $l    $n$b  $n  $L$C$b$x    $b$e$b  $c$b$x  $B  $x
-        $B  $x$b  $L  $b$x$b  $l      $n    $l$b  $L$l$n$b$x      $b$e$b  $c$b$x        
-                  $b  $x    $b$n          $l  $b        $x      $b  $e$b  $c$b$x        
-                            $b$L$n      $l  $n$b$x              $b$e$b$x  $b$c$b$x      
-                            $b$n$L  $l  $n$L  $b$x              $b$e$b$x  $b$c$b$x      
-                            $b$L$n  $d  $l  $n$L$b$x          $b  $e$b      $c$b$x      
-                          $b$L$n$d  $U  $d  $l  $b$x          $b$e$b$V$e    $V$q$b$x    
-                          $b    $W  $U  $W$U$b    $x          $b$e$b          $q$b$x    
-                          $b$W$U  $W$b  $W$U    $b$x          $b$e$b$x      $b$q$b$x    
-                          $b  $U    $b  $U      $b$x        $b$e$b$x          $b$q$b$x  
-                          $b$W$U  $W$b  $U      $b$x        $b$e$b$x          $b$q$b$x  
-                          $b$W      $b  $W$U    $b$x        $b$e$b$x          $b$q$b$x  
+        $B  $x$b  $L  $b$x$b  $l      $n    $l$b  $L$l$n$b$x      $b$e$b  $c$b$x
+                  $b  $x    $b$n          $l  $b        $x      $b  $e$b  $c$b$x
+                            $b$L$n      $l  $n$b$x              $b$e$b$x  $b$c$b$x
+                            $b$n$L  $l  $n$L  $b$x              $b$e$b$x  $b$c$b$x
+                            $b$L$n  $d  $l  $n$L$b$x          $b  $e$b      $c$b$x
+                          $b$L$n$d  $U  $d  $l  $b$x          $b$e$b$V$e    $V$q$b$x
+                          $b    $W  $U  $W$U$b    $x          $b$e$b          $q$b$x
+                          $b$W$U  $W$b  $W$U    $b$x          $b$e$b$x      $b$q$b$x
+                          $b  $U    $b  $U      $b$x        $b$e$b$x          $b$q$b$x
+                          $b$W$U  $W$b  $U      $b$x        $b$e$b$x          $b$q$b$x
+                          $b$W      $b  $W$U    $b$x        $b$e$b$x          $b$q$b$x
                           $b$W    $d$x$b  $U  $W$b$x      $b$e$b$x              $b$q$b$x
                         $b  $W    $d$x  $b$U    $b$x      $b$e$b$x              $b$q$b$x
                         $b$U$W    $d$x  $b$U    $b$x      $b    $x              $b    $x
-                        $b$U    $b$x    $b$W$U  $b$x                                    
-                        $b$W$U$W$b$x    $b  $U  $W$b$x                                  
-                        $b        $x      $b$U    $b$x                                  
-                        $b$X$W  $b  $x    $b        $x                                  
-                        $b$W$X  $W$b$x    $b$X      $d$x                                
-                                          $b$X        $d$x                              
-
+                        $b$U    $b$x    $b$W$U  $b$x
+                        $b$W$U$W$b$x    $b  $U  $W$b$x
+                        $b        $x      $b$U    $b$x
+                        $b$X$W  $b  $x    $b        $x
+                        $b$W$X  $W$b$x    $b$X      $d$x
+                                          $b$X        $d$x
 EOC

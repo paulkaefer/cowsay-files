@@ -7,7 +7,7 @@ COWS=(
 "rick-and-morty-running" "pickle-rick" "snowball-sm" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "carl" "master-shake"
+"mooninites" "carl" "master-shake" "frylock" "meatwad"
 "zorak" #"ignignokt" "err"
 
 #Nintendo
@@ -36,7 +36,7 @@ COWS=(
 
 #Star Wars
 "r2d2-c3po" "boba-fett-sm" "solo" "atst-atat"
-"phasma-sm" "obi-wan-sm" "darth-vader" #"yoda" "vader" "stormtrooper"
+"phasma-sm" "obi-wan-sm" "darth-vader-sm" #"yoda" "vader" "stormtrooper"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
@@ -44,7 +44,7 @@ COWS=(
 
 #Super Heroes
 "superman" "batman" "superman-batman"
-"ironman" "ironman2"
+#"ironman" "ironman2"
 "batman2" "spiderman" "deadpool"
 
 #South Park
@@ -63,9 +63,13 @@ COWS=(
 "raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
 "raphael2"
 
+#Life & Times of Tim
+"tim" "the-boss"
+
 #Misc
-"fsm" "good-vs-evil" "neo" "homer-simpson"
-"walter-white"
+"fsm"
+"good-vs-evil" "neo"
+#"homer-simpson" "walter-white"
 "bobross" "bobross2"
 #"strongbad" "speedy-gonzales" "yosemite-sam"
 "hobo" "sleepycat"
