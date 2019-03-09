@@ -1,0 +1,50 @@
+# Bottles (Banjo Kazooie)
+# by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;160m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;255m  ";
+$h = "\e[48;5;174m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;209m  ";
+
+$the_cow = <<EOC
+        $t                    $a    $x$a  $x
+          $t              $a  $b$c  $a$c$b$a$x
+            $t          $a  $b$c  $d  $a$d$b$a$x
+              $t      $a$c$b  $c$d$a  $b$a$d$a$x
+                $t  $a$c  $b  $c$d$a  $b$a$d$a$x
+                    $a$e$f    $b$c$g$d$f$d$b$a$x
+                  $a$e$f  $h$i  $b$f  $h    $a          $x
+                  $a$f  $h$i                    $h$a$f$a$x
+                $a$e$f  $i                        $a    $x
+                $a$e  $f$i                        $h$a$x
+              $a  $e    $h$i                    $h$a$x
+            $a$j$b$a$e  $b$h$i    $h  $i    $h$a  $x
+          $a    $c$b$a  $e$b  $h    $b$a        $x
+        $a$e  $a  $j$b$a        $b$h    $b$a$c$a  $x
+      $a$e      $a$j$c$b$a                    $b$a  $x
+    $a$e$f  $e  $a$c$j$b$e  $a            $e  $a$b$a  $x
+    $a$f    $e  $a$c$j  $e                    $a$c$a$e$a$x
+  $a$e$f    $e$a$j  $c  $b$e      $f        $e  $a$b$a  $x
+  $a$e$h$e$h$e$a$j  $c  $b$e  $f              $e$a$b$a$e$a$x
+  $a$h$i      $h$a$c$j  $b$e  $f                $a$c$a$e$a$x
+  $a$i          $a$c$j  $a$e$f                  $a$c$a$h$b$a$x
+  $a$i    $h$i  $a        $e$f                  $a    $h  $a$x
+  $a$i  $h$a$h$i$a$e        $f                  $a  $b$h  $a$x
+  $a$i  $a        $e        $f                $e$a$b  $a  $x
+    $a$i$h$a$x$a    $e        $f              $a  $b$h  $a$x
+      $a    $x  $a    $e        $f        $e$a  $x$a    $x
+                $a$b  $h    $b$a  $e    $a  $b$a  $x
+              $a$b$h$i        $h$b$a  $b  $h    $b$a$x
+              $a$h  $i    $b$i$b$h$a$b  $h    $b$h$a$x
+              $a$b$h  $i  $a$i$a$i$a$b    $h  $a$h$a$x
+                $a                $x$a            $x
+EOC

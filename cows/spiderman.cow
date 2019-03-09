@@ -1,0 +1,72 @@
+# Spiderman
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;196m  ";
+$d = "\e[48;5;124m  ";
+$f = "\e[48;5;254m  ";
+$g = "\e[48;5;21m  ";
+$h = "\e[48;5;19m  ";
+$i = "\e[48;5;18m  ";
+$j = "\e[48;5;158m  ";
+$k = "\e[48;5;61m  ";
+
+$the_cow = <<EOC
+        $t
+          $t                  $a$b      $x
+            $t              $a$b  $c  $d$b$x
+              $t          $a$b  $d    $c$d$b$x
+                $t        $a    $d      $c$a$x
+                  $t      $a$f$a$d      $a  $x
+                          $a$f  $a  $d$a  $f$x
+                          $a  $f  $a$d$a$f$a$x
+                          $a$a  $a$d  $a  $b$x
+                          $a  $b$d        $b$x
+                            $a$b    $d  $a  $x                  $a      $x
+                            $a          $b    $a  $x          $a  $g  $h$a  $x
+                              $a  $b    $d  $b$a$b$a  $x      $a$g$h    $i  $a$x
+                              $a$b$d$c$d  $b$a    $b  $a$x  $a$i  $h$i        $a$x
+                              $a$b$c$d  $b$a$g$i  $a  $b$a$x$a$i  $h  $g$i      $a$x
+                            $a  $d$c$d$b$a$g$i  $a$h$i$a$b$a$i  $g$a$i$h$g$i$b$d$a$x
+                          $a$b$a$d$b  $a$h$i  $a$i$g  $i$a$a$i  $h$a$i$h$b  $a$d$b$a$x
+                          $a$b$a$b  $a  $i    $a$i$h  $g$a$a$i$g$h$a$i$b$c$d$a$b$d$a$x          $a$d$a$x
+                        $a$b$d$b$a    $i    $a  $i  $h  $a$a$i$g$h$a$b$d  $c$b$a$d$a$x        $a$d$a    $x
+                      $a$b$d$c$d$b$a$h$i    $a      $i$h$a  $i$g$h$a$a$b$d  $b$a$d$b$a$x    $a$d$a      $x
+                      $a$b$c$d$b$a$h$g$i  $a  $i  $a  $i$a$i  $g$h$i$a$a$b$d  $a$b$d$a$x  $a$d$a        $x
+                      $a$b$d$b$i$h$g$h$i$a    $i      $h$i    $g$h$i  $a$a$b  $d$b$d$a$x$a$d$a        $x
+                    $a  $b  $a$i$g$h$i  $a      $i  $h$a$i  $g$h  $i  $a  $a$b    $d$b$a$b  $a      $x
+                  $a  $b    $i$h  $i  $a            $i$a$i  $g$h$i      $a$x$a  $b        $a        $x
+                  $a$b$d  $i        $a    $a        $a  $i  $h  $i      $a$x  $a  $b    $a      $x
+                $a$b  $c$b$i      $a      $a    $a      $i  $h  $i      $a$x    $a$b    $a    $x
+              $a  $b$c$d$b  $i  $a                $a$a  $i  $h$i      $a$x        $a$b$a    $x
+          $a      $b$c$d$b$a$b$a    $i    $a            $i  $h$i      $a$x        $a$a      $x
+        $a      $b$d  $b$a$b$a    $i    $a  $h$a      $a$i            $a$x          $a$a  $x
+    $a          $b    $a$b$a  $i      $h$i  $a  $h$i  $a$i          $a$x
+    $a$b      $d  $a  $b$a$a  $i      $h  $g$i$a  $h  $i$a  $i    $a  $x
+    $a$b  $d      $b  $a  $x$a  $i      $h  $b  $a  $i$h$i$a  $i  $a$x
+    $a$b$d      $b  $a$x      $a$i      $b  $d  $b$a$i  $h$i$a      $x
+      $b$d      $a  $x          $a$i  $b  $d      $b$a$i$a      $x
+        $b$d  $b$a$x$k  $x      $a  $i$b      $d  $b  $a      $x
+        $b  $a    $x  $k$x          $a$b    $a    $d  $b$a    $x
+                      $k$x              $a  $b    $a  $b$a$x
+                      $k$j  $x$k  $x    $a$b$a    $b  $a$b$a$x
+                      $k    $x  $k$x    $b$a            $a  $x
+                                $k$x    $b$a              $d$a$x
+                              $k$x        $a                $a$x
+                            $k  $x          $a                $a$x
+                          $k$j$x                    $a        $a$x
+                          $k  $x                        $a    $a$x
+                                $k$x
+
+                      $k        $x
+                    $k$j$x
+                    $k$x
+                      $k$x
+                      $j$k$x
+            $k$x$k        $x
+            $k$x
+EOC

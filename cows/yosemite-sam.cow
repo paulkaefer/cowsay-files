@@ -1,0 +1,51 @@
+# Yosemite Sam
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;209m  ";
+$c = "\e[48;5;59m  ";
+$d = "\e[48;5;248m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;167m  ";
+$h = "\e[48;5;166m  ";
+$i = "\e[48;5;221m  ";
+$j = "\e[48;5;232m  ";
+$k = "\e[48;5;95m  ";
+$l = "\e[48;5;60m  ";
+
+$the_cow = <<EOC
+      $t                        $a    $x
+        $t                  $a            $x
+          $t              $a                $x
+            $t          $a                    $x
+              $t      $a                        $x
+                      $a                        $x
+                    $a                            $x
+                    $a                            $x
+                  $a                              $x
+                  $a                              $x
+                $a        $b$a                      $x
+                $a          $b$a                    $x
+              $a            $b  $a  $b    $a        $x
+$c    $x      $a            $b          $a$b$a      $x        $c  $x
+$c      $x    $a        $d  $b$e$b$e$b$d$a          $x      $c    $x
+  $c      $x  $a      $d$a  $b$f$b$f$b$a  $d$a      $x    $c      $x
+    $c        $a      $d$a$b$a$e$a$e$a$b$a$d$a      $x$c      $x
+      $c        $a    $g$b  $a        $b  $d$a    $x$c      $x
+        $c        $a$g$b      $a    $b      $g$a  $c      $x
+          $c    $a$g  $b          $h$b      $g  $x$a$c    $x
+          $c$a      $g$b      $g$i  $g$b      $g$a    $c  $x
+            $a        $b    $g$i      $b      $a      $c$x
+            $a  $f$a$x$b    $g$i$g  $i$g$b    $a  $f$a  $x
+                $f  $b    $f$g        $f$b    $x$f  $a$x
+                  $b    $x$j$f$i$f      $x$b    $f  $x
+                $b    $x$k  $j$i  $f  $k$x$b    $x
+              $b    $x  $k  $l      $k  $x  $b    $x
+                          $k  $x  $k    $x    $b    $x
+                        $f    $x  $f    $x        $b    $x
+
+EOC

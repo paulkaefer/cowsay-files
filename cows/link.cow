@@ -1,0 +1,125 @@
+# Link (Legend of Zelda)
+# by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;250m  ";
+$c = "\e[48;5;246m  ";
+$d = "\e[48;5;245m  ";
+$e = "\e[48;5;65m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;249m  ";
+$h = "\e[48;5;71m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;179m  ";
+$k = "\e[48;5;137m  ";
+$l = "\e[48;5;188m  ";
+$m = "\e[48;5;138m  ";
+$n = "\e[48;5;235m  ";
+$o = "\e[48;5;185m  ";
+$p = "\e[48;5;221m  ";
+$q = "\e[48;5;180m  ";
+$r = "\e[48;5;189m  ";
+$s = "\e[48;5;146m  ";
+$t = "\e[48;5;187m  ";
+$u = "\e[48;5;186m  ";
+$v = "\e[48;5;95m  ";
+$w = "\e[48;5;62m  ";
+$y = "\e[48;5;109m  ";
+$z = "\e[48;5;223m  ";
+$A = "\e[48;5;254m  ";
+$B = "\e[48;5;234m  ";
+$C = "\e[48;5;151m  ";
+$D = "\e[48;5;222m  ";
+$E = "\e[48;5;61m  ";
+$F = "\e[48;5;152m  ";
+$G = "\e[48;5;239m  ";
+$H = "\e[48;5;240m  ";
+$I = "\e[48;5;173m  ";
+$J = "\e[48;5;9m  ";
+$K = "\e[48;5;174m  ";
+$L = "\e[48;5;182m  ";
+$M = "\e[48;5;167m  ";
+$N = "\e[48;5;131m  ";
+$O = "\e[48;5;101m  ";
+$P = "\e[48;5;103m  ";
+$Q = "\e[48;5;60m  ";
+$R = "\e[48;5;252m  ";
+$S = "\e[48;5;97m  ";
+$T = "\e[48;5;243m  ";
+$U = "\e[48;5;96m  ";
+$V = "\e[48;5;59m  ";
+$W = "\e[48;5;140m  ";
+$X = "\e[48;5;104m  ";
+$Y = "\e[48;5;248m  ";
+$Z = "\e[48;5;251m  ";
+$a1 = "\e[48;5;237m  ";
+$a2 = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+      $a$x                  $thoughts
+        $a$b  $x              $thoughts
+        $a$c  $b$x              $thoughts
+          $a$c    $x              $thoughts
+            $a$c    $x
+              $a$c$d$b  $x
+                $a$c$b    $x
+                  $a$c$b    $x                            $e          $f$x
+                    $a  $g$b  $x                      $h          $e    $f$x
+                      $a  $b    $x                $h    $e$h$e$h    $e    $f$x
+                  $a$b  $i$a$g$b  $x          $h    $e          $h$f$j    $k$f$x
+                $a  $b    $i$l  $b  $g$h      $e        $m$n    $f$j$o  $p$j$k  $q$x
+              $a$r$a$g$s  $g$h  $l$g$b$g$e              $t$m$n$f$k$j$u$j  $k$v$k$q$x
+          $a  $r$w$s$y$w  $s$b  $e$a$b$s$g$e              $z$k$v$k        $t$v$k$q$x
+        $a  $r$w      $b$w  $s$b  $A$a$g$b$g$n  $f$x    $v  $k$q$t$f$v$k$z$t$v$k  $x
+      $a$r$w  $b$w$p$w$s$w    $s$b  $a    $b  $h  $B$n  $v$k  $j$t$w$k$t$m  $v$k$x
+    $a  $w    $b$u  $c$s$w      $s$b$g$c$a  $b  $C$e$h    $e$q$t  $D$t  $m$v$k$x
+    $a  $b$w$b$o$w  $p$w$s$w$b$w$E$g$d  $e$a$l$b  $F$e      $b$t$z$t  $m  $q$x
+    $a  $s  $p$u$w  $D$j$w$s  $w$E$d  $G$H$G$e$a$b    $e    $g$H$t$m    $k$q$x
+    $a  $w  $u    $q    $w    $E  $c$d$G  $n  $e$a$b  $g$H$e$g$G  $h$x  $k$x
+    $a  $w                $I$w$E$c  $d$G$m$e  $H$e$a$b    $d$G$e      $x
+    $a$w$J  $w  $K$w  $J  $K$E  $c$d  $G$m$H$e      $l$c$b  $d$H$e$s$e  $x
+    $b$w  $K$J$w    $J$I$K$E    $c$d$G  $H$e$H  $G$n  $c  $b  $d$e$L$s$e$h$x
+    $b$w    $K$w$M$w$I$K$E      $c$d$G$H      $n$f$v$n$N$O$a$b  $d$P$s$Q$h  $e$x
+    $b$w        $M$E            $c$d$n      $v$n$k$v$n$v$f$i$a$b$u$Q$P$Q$h$g$e$x
+    $b$w      $M$E$M$E        $c$d$n$k$v$n$k$v$n$O$H$e  $P$Q$i$R$Q$L$S$Q$b$g$b$x
+      $b    $M$E  $M  $c    $E$d$G  $O$v$n$v$G$e    $H$e$P$Q      $S$v    $T$b  $x
+      $b  $P$s$E    $P$E$c    $d$n$G$H$G$n$G$n$e  $H$e$x  $P  $Q  $U$u$n$k$v$H$b$x
+      $b  $E  $v    $E  $c  $d$n$e  $H$n$G  $e$H$e    $x          $v$k$z$v    $G$H$x
+        $b$E  $v    $E  $c  $G$n$e    $H$G$H$G$n$e  $x            $O$t$v$t$v$k$v$V$x
+        $b  $E  $v$E  $c$d  $G$e    $H$n        $H$x              $v      $f$t$S$W$x
+          $c  $E    $c  $d$G  $e      $h$e  $h  $e  $h    $e$x      $G    $v$Q  $P$X$x
+            $c  $E$c$d  $G  $H$e$H$e        $h          $G$e$x        $Y$G$H  $Q  $P  $x
+              $c      $G  $H$x$G$e              $H      $G$f$x                    $Q$P$S$X$x
+                $c  $x$G$H$x  $G$e                    $H$G$f$b$x                    $Q$P$S$Q$x
+                      $H$x    $G$e    $H  $e          $G$f$Z$b  $x                    $Q  $U$x
+                              $n$e    $H$e  $H      $G$f$b  $a  $g$b$x
+                              $f$H$e  $H  $e    $H  $f$Z$b  $a    $g$b$x
+                                $n$H  $a1$n$H$G  $n  $Z$b  $a          $b$x
+                            $v$G$A$n$e  $H$n  $f  $a1$b      $a        $b  $x
+                          $v  $G$l$g$b$e$G$H$e$x      $b      $a        $b  $x
+                          $v$G      $g  $f  $x          $b    $g$b$a      $g$b$x
+                          $v$G        $H$x                  $b      $a    $s$b$x
+                        $v$G      $H$V$x                        $g$b$a  $g$b  $x
+                      $a2$G      $f$x                            $g$a$l  $g$b  $x
+                    $a2$G    $n$f$x                            $v        $g  $x
+                  $a2$G    $n  $H$v$x                          $v      $G  $H$x
+                $a2$G          $v$k$x                        $v        $G    $H$x
+                $f$G      $H    $x                          $v          $n$G$v$x
+                  $f      $x                                $n          $G$H$x
+                                                            $v$k$v$n$f$G  $v$x
+                                                            $v    $n$G  $v$x
+                                                            $v    $G  $H$x
+                                                          $v    $G    $H$x
+                                                          $v    $G    $v$x
+                                                          $v    $G    $k$x
+                                                          $v$G        $k$x
+                                                          $v$n$G      $H$x
+                                                        $v$N$k$v$G      $v$x
+                                                        $v    $G          $a2  $H$x
+                                                        $G$v$G                  $k$x
+                                                        $a2$G                    $O$x
+                                                        $H$G    $V  $H$G        $a1$x
+                                                          $f  $a1$x    $f      $a2$x
+EOC

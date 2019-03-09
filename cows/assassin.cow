@@ -1,0 +1,72 @@
+# Assassin (Assassin's Creed)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;250m  ";
+$b = "\e[48;5;8m  ";
+$c = "\e[48;5;244m  ";
+$d = "\e[48;5;238m  ";
+$e = "\e[48;5;241m  ";
+$f = "\e[48;5;216m  ";
+$g = "\e[48;5;233m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;16m  ";
+$k = "\e[48;5;236m  ";
+$l = "\e[48;5;160m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;52m  ";
+$o = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                $a    $x
+                      $t            $a$b$a$b$a$x
+                        $t          $a  $b$a$b$a$x
+                          $t      $a  $b$a$b$a$b$a$x
+$c$x                        $t    $a$b$a  $d$b$d$b$x
+$c$x                              $a$b$a$d      $b$x
+$e$c$x                          $a  $b$a$d$f  $b$x
+$e$c$x                          $g$a$b$d  $f$d$b$x
+  $e$c$x                    $g  $h$b$a$i$d  $i$a$b$x
+  $e$c$x                  $g$h  $a  $b$a$i$d$i$b$a$i$a$x
+    $e$c$x              $g$h$a$i$j$b$a$b$a$i$a  $i$b$a$x
+    $e$c$x                $a  $b$k  $i  $a$i$a$i$b$a    $x
+      $e$c$x              $a  $b$k  $c  $i    $b$a  $b$a$x
+      $e$c$x              $a  $b$a  $j$g$c  $i$a  $b$a  $x
+        $e$c$x          $a  $b  $a      $j$g$i$a  $b  $a$x
+        $e$c$x          $a  $b$j$b    $a    $j$g$a$b  $a  $x
+          $e$c$x        $a$b  $x$b  $a      $i$a$g$j$b$a  $x
+          $e$c$x      $a  $b  $x$b    $a$l        $a$b$a  $x
+            $e$c$x$i$x$a$b  $x    $b$l$i$m$i$m    $l$b$a$h  $x
+            $e$c$x$i$a  $b$x      $g$m$a$g$a$g    $m$b$h$g  $x
+              $e$c$i$h$a$b$x      $g    $h$g$h    $g$b$g$e$c$x
+              $e$i$j  $h$x        $g$l$g$h$g$h    $l$x$c$g  $x
+            $i  $d$h  $j$x        $n  $l        $h$n$x$g$c$e$c$x
+                $h$m$h$x          $a  $n        $h$a  $x$g$e$g$h$x
+                  $h$b$x        $a    $b$a$l  $a$g$h$a$x$g$h$c$x
+                    $b$x        $a    $b$a$l  $a$g$h$a$x$g$h$e$x
+                                $a    $b$a$l  $b$a$g$h$x  $g$h$c$x
+                                $a    $b$a$l$n$b$a$g$h$a$x    $c$x
+                              $b$a  $b$a$l  $o$b$a$b$g$h$x    $e$x
+                              $b$a  $b$a$l$n$o$b$a$b$a$g$x      $c$x
+                              $a$b$a$b$a$l$n$g$o$b$a$b$a$x
+                              $a$b$a$b$a$l$n$o  $b$a$b$a$x
+                              $a  $b  $a$l$n$o  $b$a$b  $x
+                            $a    $b  $a$l$a$x$o$b$a$b  $a$x
+                            $a      $b$a$l$h$x$o  $b  $a  $x
+                            $a            $k$x$o  $b$a    $x
+                              $a        $o$x  $h$o$b$a    $x
+                              $o$a      $o$x  $h$o$b$a  $x
+                              $h$o  $a$o$x      $h$o$b$x
+                              $h  $o  $x        $h$o$k$x
+                              $h  $o$x          $o$h$o$x
+                              $h  $m$x          $m$h  $x
+                            $h  $o$x              $o$h  $x
+                            $h  $m$x              $m$h  $x
+                          $m  $h$o$x              $o$h$m  $x
+                        $h    $o  $x              $o    $h  $x
+
+EOC

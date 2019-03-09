@@ -1,0 +1,76 @@
+# Tyrion (Game of Thrones)
+# by Cezary 'Charlie' tuczynski
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;131m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;215m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;9m  ";
+$i = "\e[48;5;125m  ";
+$j = "\e[48;5;243m  ";
+$k = "\e[48;5;176m  ";
+$l = "\e[48;5;241m  ";
+$m = "\e[48;5;96m  ";
+$n = "\e[48;5;60m  ";
+$o = "\e[48;5;146m  ";
+$p = "\e[48;5;236m  ";
+$q = "\e[48;5;195m  ";
+$r = "\e[48;5;246m  ";
+$s = "\e[48;5;227m  ";
+$u = "\e[48;5;59m  ";
+
+$the_cow = <<EOC
+          $t                $a$b$c$a$x
+            $t            $d$e$c$e$f$g$b$x
+              $t        $d$e$c$a$g$e$b$c$x
+                $t      $a$c  $f$e  $g$b$e$x
+                  $t  $d$b$f    $b$g$b$g$b$x
+                      $d$f  $d$h$e  $f$b$c$x
+                      $a$b$f$a$h$e  $f  $g$x
+                      $c$b$f$d$a$e  $f  $g$x
+                        $e$f$g  $b  $f  $x
+                          $i$h  $g  $j$f$x
+                          $k$f$l$i$f  $x
+                      $k  $m$f$n$g$f  $m$x
+                  $k  $m$f    $n$g$f  $l$m$x
+                  $m$f      $n  $m$f    $l$m  $x
+                $o$f$n$m$n      $b$f$l$f    $j$m$x
+              $a$g  $n  $f$n        $f    $p$f  $x
+              $k$g$i$f$n  $f$n  $m  $f    $p$f$p$x      $q$o$x    $o$x
+            $a$g$h$i  $f$n$f$n    $b$f$l$f$p  $f$x      $o$j$o    $q$x
+            $a$g$i$g$f$p$f  $n      $f    $p$f  $x      $r$j$r$j$o$q$x
+            $i$g$i    $p    $m$n$m  $f    $p$f$p$f$x      $f  $j$q$x
+              $h$g  $i  $p  $f$m$n$b$f$l$f$p  $f$g$x    $g  $x$r$o$x
+                $k$g  $i  $f$p$m$n  $f    $p    $f$g$f$b$s$b$x$o$x
+                  $a$k$h$i$e$g$b      $l$g  $p$f      $b  $x
+                      $i$e    $f    $g$f  $p$x  $f    $g  $x
+                      $i$e$b  $e$n$m$g$f  $p$x        $f  $x
+                        $d$b  $n  $m$g$f    $x        $g$x
+                          $a$n  $m$p$g$p$f  $x        $g$x
+                        $r$n$p      $g$f$p  $x      $b$g$x
+                      $o$n          $i$f      $x    $g$x
+                      $r$n$m$n      $g$f      $x    $g$x
+                    $o$n$m    $n    $i$f      $x  $b$g$x
+                    $g$n$m    $n  $i$f  $l$f    $x$b$f$x
+                    $g$i  $m  $n  $h$f  $l$f$g      $f$x
+                    $l$p  $i  $h  $i$g  $i  $p$x$g$f$x
+                  $o$r$f$p    $f  $p          $x
+                  $o$l$f    $l$f$p      $f$p$x
+                  $r$f    $l  $f$p    $f$p  $x
+                  $l      $f  $u$p$f  $p  $x
+                    $f    $x      $p    $x
+                    $f    $x      $p    $x
+                  $f    $x        $p    $x
+                  $f    $x        $p    $x
+                  $r$l  $x      $p$f  $p$x
+                $o$l$r  $x      $p    $f  $p$x
+              $u$l$o  $r$x        $p$x$p      $x
+                $f        $x
+
+EOC

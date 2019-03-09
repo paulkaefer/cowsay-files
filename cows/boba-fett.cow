@@ -1,0 +1,124 @@
+# Boba-fett (Star Wars)
+# by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;255m  ";
+$b = "\e[48;5;102m  ";
+$c = "\e[48;5;254m  ";
+$d = "\e[48;5;8m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;234m  ";
+$i = "\e[48;5;248m  ";
+$j = "\e[48;5;7m  ";
+$k = "\e[48;5;65m  ";
+$l = "\e[48;5;245m  ";
+$m = "\e[48;5;246m  ";
+$n = "\e[48;5;240m  ";
+$o = "\e[48;5;241m  ";
+$p = "\e[48;5;23m  ";
+$q = "\e[48;5;233m  ";
+$r = "\e[48;5;95m  ";
+$s = "\e[48;5;242m  ";
+$u = "\e[48;5;250m  ";
+$v = "\e[48;5;237m  ";
+$w = "\e[48;5;1m  ";
+$y = "\e[48;5;31m  ";
+$z = "\e[48;5;115m  ";
+$A = "\e[48;5;210m  ";
+$B = "\e[48;5;196m  ";
+$C = "\e[48;5;230m  ";
+$D = "\e[48;5;58m  ";
+$E = "\e[48;5;137m  ";
+$F = "\e[48;5;187m  ";
+$G = "\e[48;5;236m  ";
+$H = "\e[48;5;188m  ";
+$I = "\e[48;5;66m  ";
+$J = "\e[48;5;231m  ";
+$K = "\e[48;5;160m  ";
+$L = "\e[48;5;244m  ";
+$M = "\e[48;5;59m  ";
+$N = "\e[48;5;52m  ";
+$O = "\e[48;5;88m  ";
+$P = "\e[48;5;224m  ";
+$Q = "\e[48;5;249m  ";
+$R = "\e[48;5;131m  ";
+$S = "\e[48;5;243m  ";
+$T = "\e[48;5;145m  ";
+$U = "\e[48;5;252m  ";
+$V = "\e[48;5;125m  ";
+$W = "\e[48;5;138m  ";
+$X = "\e[48;5;253m  ";
+$Y = "\e[48;5;186m  ";
+$Z = "\e[48;5;247m  ";
+$a1 = "\e[48;5;251m  ";
+$a2 = "\e[48;5;100m  ";
+$a3 = "\e[48;5;101m  ";
+$a4 = "\e[48;5;232m  ";
+
+$the_cow = <<EOC
+      $t                              $a$x
+        $t                          $a  $x
+          $t                      $b$c$b$x
+            $t                  $b$a$c$d$x                        $e$f$e  $x
+              $t                $b$a  $g$x                            $f  $x
+                                $a$b$d$h$x                            $i$x
+                                $a$j$g$x          $k        $x        $i$x
+                              $h$l$d$x        $k                $x    $i$x
+                              $m  $h$x      $k          $i$k$i$k  $x$i$x
+                              $n  $h$x      $k        $i        $k  $i$x
+                              $o$n$x      $g  $k    $i    $k        $i$x
+                            $h$g$o$x      $p$k$i$g    $i  $k$i$k      $x
+                            $g  $h$x    $p$g$i$k$g$q  $r    $i$k      $x
+                          $s  $g$h$x    $p$g$i$g$e$r  $q      $r    $k$x
+                          $u  $s$g$x    $p$k  $g$e$v  $r  $i$r$q    $v$x
+                        $g$s$u  $h$x  $p$g$i$k$e$g$e$f$v  $r  $q  $v$x
+                          $s    $h$x  $p$g$i$k$e$k$g  $e$f$v$r$q  $v$x
+                          $s  $g$x    $p$k  $g$e$k    $g$e$f$r$q  $v$x
+              $r  $x  $r$g  $v  $x      $h$k$e$k  $i$k  $g$e$r$q$v$x                                                        $w$x
+            $e$a  $r$x$y$z$f    $h$x  $q$h  $e$k    $i$k$g$r$q  $v$x                                                      $A$B$w$x
+          $p$n$i  $v$C$f  $q$D$E$F  $E  $h      $k      $g$r$q  $v$x                                $G$k    $v    $x      $A    $w$x
+          $H$I      $f  $q$D$E  $F    $E  $q$h      $k    $r$q$f$x                        $G  $g    $q      $h  $v$x    $B$J  $A$K$w  $x
+          $H$I    $f  $q$v$E  $F$E        $D$k$h      $k  $r$f$v$x                        $q$h  $q$x      $h$x        $K$J    $A$K$B$A$B            $x
+          $H$I    $f$q$v$g$E              $D$k  $q$h  $q    $f$x                            $L$m$g  $M    $o$v  $e$N$O$K$J        $P$J              $x
+          $H$I    $f$q$g$q$E  $q$h  $s$Q  $L  $k  $q      $a            $E  $a$G  $I  $u$x$q  $l$g$n$q    $h$o$d$r  $R$J        $K$B                $x
+        $H$I    $G$f$v$g$q    $G$S$T  $U  $u$L$u      $a$q$s            $E$q  $n  $I  $R$u$q$G$q    $o$q  $h  $f$N    $O$R$J    $A$w$x
+        $H$I    $G$f$k$v$q      $S    $U$Q  $U$u      $g$q                $N      $I  $R$u$q$G$q  $f$q    $x            $V$B$A  $x
+        $H$I    $G$j$k$v$q    $G$q$S$m  $Q$u$U          $h$r                  $N      $f$I$b$q    $x                      $w  $B$x
+      $H$I      $j  $k$v$q      $G$q$S$L$m$U  $T        $h                                $q    $x                          $B$x
+      $H$I      $j$e$k$v$q        $G$q$G$S$m$s$m      $q$r$W$E      $g$E$g  $E        $q    $g$x                            $w$x
+      $H$I    $j  $k  $v$q$f$q              $G  $g  $q$r    $W$E  $q                      $C$G$x
+    $H$I    $j    $k  $v$q$f  $q                      $r$q                          $v$e$X$L$n$x
+$u  $H$I    $j    $k  $v$q$f$n$f    $q            $g  $q  $f  $q      $m$e$x      $q  $f    $e$x
+$u$J$u$I  $j    $e$k    $q$u$n$g  $v$f$q              $v  $h$Y$q    $G$v$x      $q  $u$M  $o$f$x
+$b$s  $I$j      $k        $q$c$g    $v$f$q            $v  $h$Y$h    $G  $x    $q        $f$q$x
+$u  $G$u$j      $k    $v$k$q$U$c$g    $v$f$q            $v$M$F  $v  $G  $v$x$q        $f$q  $x
+$u      $q$j  $s$k    $v$k$q$g$U$c$g    $f$q              $D$v$E$v$T$v  $q$f$q      $f$q  $x
+$u    $n$q    $e$k  $v$k  $q$e$T$U$c$e  $v$f$q              $v$Y$Q$G$T  $r$q      $f$e$q  $x
+$o$I  $q$I$q  $e$k  $v$k  $q$M$T  $U$a  $e$v$f  $q                $Q    $f$q      $v$q  $x
+$l$q  $l$x$I$q$e$k  $v$k  $q$u$o$T  $Z  $c$g    $q          $f  $q  $d$g$F$q    $v$q  $x
+$q      $x  $q$e$k  $v$k  $q$d$a1  $i$U  $Z$g  $G$a2$q        $f$d$q    $n$v$q        $x
+              $e$k        $h$q      $l$Q  $G$n$J$G  $q    $h$G$M$x$h$q  $f  $q  $h$x
+              $e$k    $v  $k$q$n  $h$q$u  $a1$J$G$h$q$v  $f$h$a3$f$x    $q$h$q$f$x
+            $v$k    $v  $k  $q$o$a$J  $a4    $J    $q        $f$q$x
+            $v$k    $a3$v$k  $q$c$v$q$v    $q$J    $G$g$q      $x
+            $v$k    $a3$v$k  $q$f$v$q$v    $q$J    $G$g  $q    $x
+            $v$k      $v$k  $q  $v$q$a4    $q$g  $a4$e$g  $G$q  $x
+          $v$k        $v$k  $q    $R$q  $R$q        $a4$e$G$e$q$x
+          $v$k        $a3$k    $q$f    $q      $f$q          $x
+          $v$k        $a3$v$k  $q$R        $O      $N$q      $x
+          $v$k        $v  $k  $q$R        $O      $N      $O$x
+        $v$k  $a3      $v  $k  $q                    $N    $O$x
+        $v$a3  $q      $a3$v$k  $q$g$Z  $a3$J$T$k    $v$q  $Q$q$x
+        $a3$q          $v  $k  $q$u$g$a3$k$T$J$k    $v$g$Q$q$m$x
+        $v$q          $v    $k$q$a4  $v$k  $T$k    $a3$Q$q$m    $x
+        $v  $q      $v      $k$q$u  $a4$g$k        $n$Q$m      $x
+      $v$q$a3$v$q    $v      $k$q$u  $a4$q$a3$n    $a3$Q$m$u$m    $q$x
+      $v$q  $v$q$v          $k  $q$u  $q$v$a3$n$a3$q$m    $u$m    $q$x
+      $v$q  $a3$v              $k$q$m  $q        $m$q$u$m          $x
+      $v$q  $a3$v              $k$q  $m  $q    $n$q$s$q$u$m        $q$x
+
+EOC

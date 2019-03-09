@@ -1,0 +1,89 @@
+# The Boss (Life & Times of Tim)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;232m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;94m  ";
+$i = "\e[48;5;254m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;145m  ";
+$l = "\e[48;5;243m  ";
+$m = "\e[48;5;252m  ";
+$n = "\e[48;5;188m  ";
+$o = "\e[48;5;101m  ";
+$p = "\e[48;5;240m  ";
+$q = "\e[48;5;245m  ";
+$r = "\e[48;5;8m  ";
+$s = "\e[48;5;239m  ";
+$u = "\e[48;5;251m  ";
+$v = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+          $t              $a      $x        $a$x
+            $t        $a          $b  $a        $x
+              $t      $a$c$a$c    $a$d  $a  $e$c$e$a$x
+                $t  $a$e$c$f$g  $h$f$c    $e$f$e$c$a  $x
+                  $t$a$e$f$g                  $h$b$e  $a$x
+                  $a  $e$h$g                    $h$b$e$a$x
+                  $a  $c$g  $f$b$c$e$g    $c$e$h$g$h$e$a$x
+                  $a$d$e$g                          $b$e$a$x
+                  $b$a$e$g    $i    $g    $i    $g  $h$b$x
+                $a  $d$b$g  $i  $c  $i$g$i  $c  $i$g$b$c$a$x
+                $a$b$c$h$g    $i$c  $g    $i$c  $g  $h$e$a$x
+                  $a$f$g      $h  $g        $h  $g      $h$x
+                $g  $f$h$g          $h$g$h$g        $h$g  $h$x
+                $g$h$f$g            $h$g  $h$g      $f$g  $h$x
+                $g  $j$g          $h$g    $h$g      $e$g  $h$x
+                  $g$h$g          $h$g      $h$g    $f$g$h$x
+                    $h$g        $h  $g        $h$g  $h  $x
+                    $h$g          $h            $g  $h$x
+                      $h$g                          $h$x
+                      $h$g                          $h$x
+                      $h$g                          $h$x
+                        $h$g  $h              $g    $h$x
+                        $h$g                      $h$x
+                          $h$g    $h  $g        $h$x
+                            $h$g              $h$x
+                              $h              $x
+                              $h$g          $h$x
+                              $h$g          $h$x
+                              $h$g          $k$j$x
+                            $b$l$k$g      $k$m$b$x
+                        $b  $j$l$n  $o$p$k$m  $j$b$x
+                  $b    $j$b$j$l  $m$p$o$m  $l$j  $b      $x
+            $b    $j      $b$j$q$m$l$r$s$l  $u$j  $b$j    $b  $x
+            $b$j        $b$j  $q$m  $o  $m    $b$j$b$j        $b$x
+          $b$j          $b$j  $q$m  $o  $m    $b$j$b$j        $b$x
+          $b$j          $b$j  $q$m  $o  $m    $b  $j          $b  $x
+        $b$j              $b$j$q$m  $o  $m    $j$b$j            $b$x
+        $b$j            $b$j  $q$m  $o  $m  $q$j  $b$j          $b$x
+      $b$j              $b$j  $q$m  $o  $m  $q$j  $b$j            $b$x
+      $b$j              $b$j  $q$m  $o  $m  $q$j  $b$j            $b$x
+      $b$j              $b$j  $q$m  $o  $m  $q$j$b$j              $b  $x
+    $b$j                $b$j    $m  $o  $m  $j  $b$j                $b$x
+    $b$j                  $b$j  $q$m$o  $m$q$j  $b$j                $b$j$x
+    $b$j        $b$j      $b$j  $q$m$o  $m$q$j$b$j                  $b$j$x
+  $b  $j      $b  $j        $b$j$q  $o  $q  $j$b$j        $b  $j        $x
+  $b$j      $b  $p$g  $h$j$b$e$b$q  $o  $q  $j$b$j  $b  $j$h$b  $j    $b$x
+  $b$j      $b$j$g        $r$b    $q$o  $q$j$b$j    $b$j$g  $h$b$j    $b$x
+$b  $j      $b$h$g        $v$b$j$b  $o  $q$j$b$j  $b  $g      $j$b$j    $b$x
+$b$j$b$j    $b$h$g        $l$b$j    $b  $j$b$j    $b$g        $j$b$j    $b$x
+$b$j  $b$j  $b  $j$h$g    $j$b$j        $b          $g      $h$b  $j    $b$x
+$b$j          $b    $j    $b$j                  $b$j    $g  $b  $j      $b$x
+$b$j        $b$j  $b      $j$b    $j                $b  $j  $e$j        $b$x
+$b$j        $b$j          $b            $j              $b    $j        $b$x
+$b$j                                    $b    $j                      $b$x
+$b                              $j  $b$e$b  $j$b  $j                $b  $x
+        $j                            $b$j        $b    $j        $b$j$x
+        $j                            $b$j            $b            $j$x
+        $j                                                            $x
+
+EOC

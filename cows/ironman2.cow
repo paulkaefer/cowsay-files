@@ -1,0 +1,93 @@
+# Iron Man
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;124m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;214m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;248m  ";
+$i = "\e[48;5;252m  ";
+$j = "\e[48;5;253m  ";
+$k = "\e[48;5;254m  ";
+$l = "\e[48;5;138m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;255m  ";
+$o = "\e[48;5;196m  ";
+$p = "\e[48;5;144m  ";
+$q = "\e[48;5;226m  ";
+$r = "\e[48;5;230m  ";
+$s = "\e[48;5;101m  ";
+$u = "\e[48;5;220m  ";
+$v = "\e[48;5;178m  ";
+$w = "\e[48;5;227m  ";
+$y = "\e[48;5;102m  ";
+$z = "\e[48;5;103m  ";
+$A = "\e[48;5;221m  ";
+
+$the_cow = <<EOC
+                $t                      $a        $x
+                  $t                  $a$b$c  $d$c  $x
+                    $t                $a  $b$c        $x
+                      $t              $d$a  $c        $x
+                        $t            $d$a  $e  $c$e  $x
+          $f  $x              $d        $a  $b$c      $x
+        $f    $a$x      $d            $f  $d$a$b$c  $x
+      $f  $d  $a$x    $d              $f  $d$a$b$c  $d$a    $x
+      $f$d    $a$x  $g$d        $f          $a$b$c  $d  $a      $x
+      $f$d  $a$x  $h$g$i  $j$f                $d            $a  $k$x
+      $f$d$x    $l$b$m    $f      $b      $f        $b  $f  $n  $j$c  $x
+      $f$d$x    $c$b  $m$f    $d        $b$f      $b$d      $m  $c      $x
+      $f$d  $x$c$b  $m  $f    $d    $a  $d$a      $d$a  $d  $f$m      $c    $x
+      $m$d  $x$b  $m  $f      $d    $a    $f$o  $d$a    $d  $f  $m        $c$x
+      $f$m$d  $m    $d$f      $d      $a  $o$e  $o$a    $d$x  $f              $x
+      $f  $d        $f  $x$f  $m$d  $a$d$f$o$e  $o$d  $a$f$x      $f          $d$x
+        $f$d      $f  $x  $f  $m  $f$a    $o$e  $o$a  $d$x          $f      $d  $b$x
+        $f  $d  $f$x        $f  $m  $d$a  $d$o  $a    $d$x            $f      $d  $b$x      $a    $x
+                            $f  $m  $f              $d$x                  $f  $d    $b$d$p$a    $d$x
+                            $f  $m$f$m$f          $d  $x                    $f    $d  $f  $a  $o  $x
+                            $f  $m$f            $d  $x                          $f    $a$f$a$q      $x
+                            $f    $m$f$d    $a$f$d  $x                              $f  $d$a$q$r    $q$x
+                            $f$m$f            $a$x                                      $d$a$o$q  $r    $q$x
+                          $s$f$m$f  $d  $a  $f  $x                                        $d  $x  $q  $r  $q$x
+                          $f    $m$f        $a$x                                                      $q  $r$q$x
+                        $f        $d  $a  $f  $x                                                          $q  $r$x
+                        $f                $a$f$x                                                              $q$r$x
+                      $d$f  $d$a            $u$x
+                      $d$f$d$b  $f$d  $f    $d$x
+                      $f  $d  $b  $c$d      $f$x
+                      $f$d  $f$d  $b  $d$v$c$w$x
+                      $f  $d      $y$z$d$c$A$x
+                      $f      $d  $y$g$c  $A$x
+                      $f      $d    $a$c  $A$x
+                      $f    $m$d    $a$c$A$x
+                          $f$m$d  $a  $c$x
+                          $m  $d  $a  $A$x
+                          $m  $d  $a  $x
+                          $m  $d$a  $d$x
+                        $f$m  $d$a  $d$x
+                        $f$m  $a  $c$x
+                      $f$m  $f$a  $x
+                      $f$m  $f$a  $x
+                      $f$m$f$d$a$x
+                    $f$d$m$f$d$a$x
+                  $f      $d  $a$x
+                  $m$f    $d  $a$x
+                $m    $f$d$f$d$a  $x
+                $m  $d  $f$d      $a  $x
+              $m    $d    $f  $d      $x
+              $m  $d    $x
+            $m  $d    $x
+            $f$m$d  $a$x
+            $f  $d    $x
+            $f$d    $x
+          $f$d      $x
+          $f    $d$a$x
+            $f  $d  $a  $x
+              $f  $d      $x
+EOC

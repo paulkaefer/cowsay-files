@@ -1,0 +1,73 @@
+# Frylock (Aqua Teen Hunger Force)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;184m  ";
+$c = "\e[48;5;142m  ";
+$d = "\e[48;5;100m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;3m  ";
+$g = "\e[48;5;236m  ";
+$h = "\e[48;5;226m  ";
+$i = "\e[48;5;106m  ";
+$j = "\e[48;5;58m  ";
+$k = "\e[48;5;203m  ";
+$l = "\e[48;5;160m  ";
+$m = "\e[48;5;255m  ";
+$n = "\e[48;5;254m  ";
+$o = "\e[48;5;253m  ";
+
+$the_cow = <<EOC
+    $t
+      $t        $a    $x            $a  $x    $a    $x  $a    $x$a    $x
+        $t      $a$b$a$x    $a$x  $a$b$a$x$a  $c$d$a$x$a$b$d$a$x$a$c$a$x
+          $a  $x$a$b  $e$x$a$b$a$x$a$b$a  $d$a$f$e$x  $a$d    $a$f$b$d$a$x
+        $g$b  $g$x$a$b$a$x$a$b$a$x$a$b$a      $f$e$x  $a$h$d  $e$b$c$a$x
+          $a$b$a    $b$a$x$a$b$a$x$a$b$a$h$f$a$c$a$x$a  $h$d$a$c$h$a    $x
+            $g$b$a$c$a$d$e$a$b$a$x$a$b$a$b$f$a$b$a$x$a$b$a  $d$b$a$c$i$a$x
+          $a  $b$a$h$f$a$j$a$b$a  $b  $a$b$f$a$h$a$x$a$h$a$c$j$h$a$f$a$x
+          $a$b$a$f$a$c$a$g$c$d$a$h$a$b$a$b$f$a$b$a$x$a$b$a$c$d$a$f$a$h$a$x
+          $a$b$a$f$a$j$a$c$f$d$a$b$a$b$a$b$f$a$b$a  $f$a$b$a$h$a$b$e$c$a$x
+          $a$b$a$b$j$a$d$a$f$c$a$b$a$b$a$b$f$a$b$a$b$c$j  $b$c$a$j$c$d$a$x
+          $a      $d$a$d$a$f$c$a$h$a$b$a$b$f$a$b$a$b$a  $c$b$a$c$g$h$d$a$x
+            $a$b$a$d$a$c$a$f$a  $h$a$b$a$b$f$a$b$a$f$a$j$b$c$j  $b$c$a$x
+          $a  $b$a$j$a$h$a$h$j$a$h$a$b$a$b$f$a$b$a$f$a$d$b$a$d$j$b$e$x
+          $a  $b  $a  $h$e$j$d$a$b$a$b$a$b$f$a$h$a$b$a$d$h$a$d$c$b$a  $x
+          $a$k$a  $f$a$c$b$a$d$a$b$a$b$a$b$f$a$h$a$b$a$h$a$f$j$b$a$l$a$x
+          $a$k    $a$g$c$b$a$h$a$b$a$b$a$b$f$a$h$a$b$a$b$a$d$a  $k$l$a$x
+          $a$k      $a      $h$a$b$a$b$a$b$f$a$h$a$f$a$j$a    $k  $l$a$x
+            $a$k          $a  $e$b$a$b$a$h$f$a$h$a      $k        $l$a$x
+            $a$k                $a              $k                $l$a$x
+            $a$k                                  $a  $k          $l$a$x
+            $a$k  $a  $k                      $a          $k      $l$a$x
+            $a$k$a        $k    $a$k  $a$k  $a    $l      $k      $l$a$x
+            $a    $l  $a      $e$l$k  $l$a  $l    $k              $l$a$x
+            $a$l  $k  $l        $k    $a$l  $k    $a$k  $l$k    $l$a$x
+            $a                $k      $a                $l$k    $l$a$x
+              $a  $m$n$a$m    $a  $k  $a$o$m$a$m      $a$k      $l$a$x
+              $a$l$a$m      $a  $l$k    $a$m        $a$k        $l$a$x
+              $a$l$k$a      $l  $k        $a        $k        $l$a$x
+                $a$k                      $l$a$l$k            $l$a$x
+                $a$k                        $a$l$k            $l$a$x
+                $g$k                        $l$a$k            $l$a$x
+                  $a$k                        $l$a$k          $l$a$x
+                  $a$k                                      $l$a$x
+                  $a$k                                      $l$a$x
+                  $a$k      $a$l$k      $a  $l$k            $l$a$x
+                    $a$k  $a    $l$k  $a      $l$k          $l$a$x
+                    $a$k$a        $l$a          $l$k        $l$a$x
+                    $a                            $l$k    $l$a$x
+                    $a                              $l$k  $l$a$x
+                    $a        $k          $a        $l$k  $l$a$x
+                    $a  $k    $a          $k$a      $l$k  $a$x
+                      $a  $k      $a  $k        $a        $x
+                      $a    $k  $a    $k      $a      $x
+                        $a              $k  $a      $x
+                          $a                      $x
+                            $a                  $x
+                              $a              $x
+                                  $a      $x
+EOC

@@ -1,0 +1,44 @@
+# Knuckles (Sonic & Knuckles)
+# by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;28m  ";
+$f = "\e[48;5;220m  ";
+$t = "$thoughts ";
+
+$the_cow = <<EOC
+      $t                  $a        $x
+        $t            $a  $b        $a$x
+          $t      $a  $b              $a$x
+                $a$b            $a$b    $a$x
+              $a$b                $a$b  $a  $x
+              $a$b    $a$b  $a$b  $a$b    $a$x
+            $a$b    $a$c  $b  $a$b  $a$b  $a  $x
+            $a$b  $a$c    $b  $a$b  $a$b    $a$x
+              $a$c$a$c  $b    $a$b  $a$b$a$b$a  $x
+      $a        $d            $b    $a$b$a$b  $a$x
+    $a$c    $a$d        $a      $b  $a$b$a$b  $a$x
+    $a$c  $a$c$a  $d  $a$c    $a$b  $a$b$a$b  $a$x
+  $a$c  $a$c  $a$b$a  $c        $a$b$a$b$a$b  $a$x
+  $a$c  $a$c$a  $b$a  $c        $a        $b$a$x
+  $a$c    $a  $c$a  $c        $a$c$a        $x
+  $a  $c  $a$c$a$b$a$c        $a$c$a$b$a  $x
+    $a        $b$a    $c    $a$c$a$b  $a$x
+              $a$x$a$b$a              $x
+                  $a  $b    $a    $x
+                $a$b$a      $b  $a$x
+                $a$b$a$x  $a$b  $a  $x
+                  $a$b$a$x  $a$b  $e$a$x
+                $a$e    $a$x$a  $e$b$f$a$x
+          $a    $c  $b  $a    $b      $f$a$x
+        $a$b$c  $b$f  $b$a  $b  $c  $b  $a$x
+        $a$b      $f  $a$x$a$b          $a$x
+        $a            $x    $a          $x
+
+
+EOC

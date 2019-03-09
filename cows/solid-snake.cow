@@ -1,53 +1,72 @@
-# Gray Fox (Metal Gear Solid)
-# by Charlie M
+# Solid Snake (Metal Gear Solid) by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";            #reset color
-$k = "\e[48;5;235m  ";    #black
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;60m  ";
+$g = "\e[48;5;237m  ";
+$h = "\e[48;5;232m  ";
+$i = "\e[48;5;233m  ";
+$j = "\e[48;5;59m  ";
+$k = "\e[48;5;239m  ";
+$l = "\e[48;5;16m  ";
+$m = "\e[48;5;95m  ";
+$n = "\e[48;5;167m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;254m  ";
+$q = "\e[48;5;209m  ";
+$r = "\e[48;5;216m  ";
+$s = "\e[48;5;173m  ";
+$u = "\e[48;5;223m  ";
+$v = "\e[48;5;255m  ";
+$w = "\e[48;5;179m  ";
+$y = "\e[48;5;240m  ";
+$z = "\e[48;5;61m  ";
+$A = "\e[48;5;68m  ";
+$B = "\e[48;5;74m  ";
+$C = "\e[48;5;62m  ";
+$D = "\e[48;5;110m  ";
+$E = "\e[48;5;67m  ";
+$F = "\e[48;5;146m  ";
 
-$w = "\e[107m  ";        #white
-$l = "\e[48;5;249m  ";   #light gray
-$m = "\e[48;5;238m  ";   #medium gray
-$a = "\e[48;5;236m  ";   #almost black
+$the_cow = <<EOC
+        $t                    $a$b$x
+          $t            $c$d$a$b  $x  $c  $e$f$x
+            $t        $c$d$b  $a$b  $d$x    $e$f  $x
+              $t    $c$d$b$a  $b  $a$b$g  $e$f$x  $f$x
+                $t  $h$i$c$g  $b$e$j$k$x      $f$x
+                $c$l$i$c$g  $f    $e$x        $f$x
+              $c$l  $c$m$c$i$c      $x        $f$x
+              $c$l  $c$n$o$a$p$q$r$o$c$a$x  $f$x
+              $c$i$l$h$m$s$r    $u$s$c  $a$x
+            $h$i$c  $h$l$m$u$r  $u$m$c  $g$e$x
+          $c  $h$i$g  $i$m$r      $m$d$f      $x
+        $c$i$g  $h$i$g  $h$n$v  $w$c  $g$e$f  $x
+      $c$h$l$h$a$g$h$i$a$l  $m  $l  $g$e$y$d$x
+      $h$e$f$z$i$a$c$l            $h$g$e$y$d$x
+      $i$e$A$B  $i$a$c  $g$h$l    $c$e$y$d$z$x
+        $k$z$A  $c$i$g    $c  $i$h$d$y$d$f$A$x
+          $k$z$A  $i    $g    $c$d$x$c$k$f$A$x
+      $h$i$e  $z$h$d$h$l$i$g    $e$x$d$k$f$A$x
+    $h$d$a$i$h$l$i$c$d$h$l$i$a$d$x  $c$k$C$A$x
+  $h$i$d$c  $e$i    $c$g$i  $c$x    $d$k$z$A$x
+  $i$c  $d$k$a$k$i$l$d$A$B$a$d$x    $f$y  $x
+  $d$e$k$z$C$D$C$k$h$k$z$A$B$x    $d$z$C$A$x
+    $c$e$z$C$A$z$c$h$g$e$z$A$E$d$x$c$a$z  $x
+    $d$e$A    $c$l      $e$f$c$g$c$g$D$g$x
+      $c$e$z$A$c$l      $c$i$g    $c$g$F  $x
+      $d$e$k$z$x$i      $g$d$i$c$a$g  $d$g$F  $x
+        $h$g$i$l$x      $i$g$d$c  $g$e$x  $d$g$F$D$x
+        $h$c  $h$x        $h$e    $c$d$x      $d$a$x
+        $h$g$c$h$x  $l    $i$l$c$d$k$e  $x
+        $i$h$i$h$x  $h$c    $d$k  $g$h$i$a$x
+      $l$g$e$c$l$x$l$i  $c  $k  $e$l$i  $c$x
+    $i      $d$i$x$c$d$c$x$c$k    $c$d$i$c$x
 
-$z = "\e[48;5;94m  ";     #dark brown
-$b = "\e[48;5;130m  ";     #brown
-$s = "\e[48;5;223m  ";    #light brown
-$i = "\e[48;5;215m  ";    #slightly darker but still light brown
 
-$c = "\e[48;5;81m  ";     #light blu
-$u = "\e[48;5;63m  ";     #medium blu
-$e = "\e[48;5;17m  ";     #dark blu
-
-$o = "\e[48;5;208m  ";    #orange
-
-$g = "\e[48;5;36m  ";    #bright green
-
-$r = "\e[48;5;196m  ";    #red
-$t = "\e[48;5;192m  ";    #tan
-$p = "\e[48;5;218m  ";    #pink
-$j = "$thoughts ";
-
-$the_cow = <<EOC;
-                                        $j                       $z$x
-                                          $j                   $z  $x
-                                            $j     $z          $b$z  $x
-                                              $j $z$b    $z    $b  $z$x$z$x
-                                               $z$b      $z    $b$z          $x
-                                             $z      $b  $z                    $x
-               $a  $g        $x              $z                            $x
-           $a    $g                $k$x    $z                                $x
-         $a    $k            $g        $k    $a$k    $z                    $x
-         $a  $k$x              $k    $g    $k$a$k  $g          $a$k      $z    $x
-         $a$k$x                      $k      $z$k  $g                    $z$x
-                                       $a    $z      $k  $g            $k$z$x
-                                     $a      $z$s  $z      $k  $z        $x
-           $a$g$k$x              $a    $k$a$k$z$s  $z  $s$z$w$u$s    $u$z$x
-           $a$g  $k  $x      $a            $z    $s                    $z$x
-             $a$g              $a        $z          $s                $z$x
-               $a                $x    $z                        $s  $z$x
-                                           $z    $k  $z  $s      $z    $x
-                                         $m    $g$a$l$z    $s    $z  $k$x
-                                         $l$m  $a$g$k$l$m$z        $k$g$k$x
-                                       $l      $a$g$m$k$m$l  $a$l$a$k$g$l  $x
-                                     $m$l$w$l  $m$a$g  $m  $l$m      $k$g$k$l$x
 EOC

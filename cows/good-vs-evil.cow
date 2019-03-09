@@ -1,0 +1,74 @@
+# Judgement day can wait.
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;229m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;95m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;29m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;22m  ";
+$m = "\e[48;5;240m  ";
+$n = "\e[48;5;241m  ";
+$o = "\e[48;5;59m  ";
+$p = "\e[48;5;228m  ";
+$q = "\e[48;5;237m  ";
+$r = "\e[48;5;255m  ";
+$s = "\e[48;5;238m  ";
+$u = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+                        $t                                                            $a      $x
+                          $t                    $b$x      $b$x
+                            $t                  $b  $c  $b  $x                      $d          $x
+                              $t                $b  $c  $b  $c$x                  $d              $x
+                                $t                $c          $x                  $d  $e    $d    $x
+                                                  $c          $b  $x              $d$e      $d    $x
+                                                  $c          $b$x                $d$e        $d  $x
+                                                  $c          $x                    $e        $d  $x
+                                                  $c          $x                    $e$d  $e$d    $x
+                                                  $c        $x                      $d              $x
+                          $f$x                        $c    $x                      $d      $e$d    $x
+                          $f$x                        $c      $x                      $d  $e  $d    $x
+                          $f$x          $g          $c        $b$g                      $h    $i$d$g  $x
+            $j$x          $f$x        $g            $c        $b$g                    $h      $i$h  $g  $x
+              $j$x      $f$x          $g            $c        $b$g                    $h      $i$h  $g  $x
+                $j  $x  $k$x          $g            $c        $b$g                    $h      $i$h  $g  $x
+                    $f$x$k$x          $g      $k        $c    $b$g              $k        $h  $i$h  $g  $x
+                      $k  $x          $g      $b$k    $b        $g    $l$g      $e$k    $e$h        $g  $x
+                    $k    $f$x        $g      $k$g$k$c$k$c    $g                $k$h$k$h$k$h        $g  $x
+              $f    $k      $f              $g    $k$c        $g                $h  $k$h            $g  $l  $x
+            $m$n                        $k  $g    $k$c        $g    $b$g          $k$g$h      $i$h$g  $l      $x
+          $m$f                      $o  $k  $g    $k$c        $g  $b    $g        $k$g$h      $i$h$g  $l      $x
+          $o$k                    $n$o  $k  $g$k  $g$c        $g  $b    $g      $k$g$i          $h$g  $l    $x
+        $o$k                  $o  $k  $o$k    $c              $g    $c$g    $l  $h                $g  $l    $x
+      $o                      $k      $o$k  $l$c              $l    $c$l        $h                $l        $x
+      $o                    $k    $p$q  $k  $g$c  $g  $c              $g  $l$g  $h                $g      $l$x
+      $o                    $k        $o$q$k$g$c  $g  $c  $l$g            $l$g  $h          $g            $l$x
+      $o$k                $o$k    $r$q    $k$l$c  $l  $c  $l                    $h          $l            $x
+      $o                    $k        $o$q$k$l$c  $l  $c  $l                    $h          $l            $x
+      $o$k                $o$k    $i$q    $k$x$c  $x  $c  $x          $l$x$l$x  $h          $x          $l$x
+      $o                    $k        $o$q$k$x$b  $x  $b  $x              $l$x$e    $x  $e  $x
+      $o$f                $o$k        $o$q$s        $x                    $l$x
+      $o                    $k    $o  $f$q$s      $u$f    $x              $l$x        $k$x
+      $o                          $k  $s$q$s  $u    $x    $k$x              $k$x  $k  $x$k$x
+    $s      $k                    $s      $q$u    $x        $k  $x            $k  $x    $k$x
+$s                                    $u  $q$u$f$u$x            $k$x              $k    $x
+$u                                        $q$x$f$u$x        $o      $x        $k  $x
+$u                                    $x  $q$x$f$u$x      $q$o      $q$x$k    $x
+  $f$u$x                        $f$u$x    $q$x$f$u$x    $q              $x
+  $f$u$x                        $f$u$x    $q$x$f$u$x    $q              $x
+  $f$u$x                        $f$u$x    $q$x              $q$x
+  $f$u$x                        $f$u$x    $q$x          $q  $x
+  $f$u$x                        $f$u$x      $q$x      $q$x
+  $f$u$x                        $f$u$x        $q      $x
+  $f$u$x                        $f$u$x
+EOC

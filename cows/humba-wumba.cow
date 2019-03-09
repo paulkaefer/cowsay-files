@@ -1,0 +1,64 @@
+# Humba Wumba (Banjo Tooie)
+# by Charlie M
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;196m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;136m  ";
+$f = "\e[48;5;220m  ";
+$g = "\e[48;5;131m  ";
+$h = "\e[48;5;215m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;35m  ";
+$k = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+        $t  $a  $x
+          $t$a$b$a$x
+            $a$c$a$x
+            $a$c  $a$x
+            $a$b$c$a$x
+              $a$b$a$x$a  $x
+            $a              $x
+          $a  $d$a$d$a$d$a    $x
+        $a$d$a$d$a$d$a  $d$a  $x
+        $a$d$a  $e$a$e$a$d$e$d$a$x
+      $a$d$a$e  $f$e$f  $a$f$a  $x
+      $a$d$a$e$a    $g    $a    $x
+      $a  $g$a$g$h$a  $g$a$h$a  $x
+      $a  $h$g$h$i$a$h  $a$i$a  $x
+        $a$h$g$h$i$j$h  $j$i$a$x
+        $a$g$a$h        $g$h$a$x
+        $a    $g$h          $a$x
+        $a      $g$h$k  $h$a$x
+        $a  $x$a  $g$h  $a$x
+        $a      $g$k$g$k$a$x
+        $a  $f$g  $h  $g$a  $x
+        $a$k$f  $g  $h  $g$a  $x
+      $a$g  $f$k$e$f$e$g$e$f$a$x
+    $a$g$h$g$k$e$f    $e$f  $a  $x
+    $a$h  $a$k  $f  $e$k$f$e$g$a$x
+  $a$g$h$g$a  $k  $e$k    $a$g  $a$x
+  $a$h  $a$x  $a$k$e    $k$a$x$a$g$a$x
+  $a$h  $a$x  $a$e$f      $a$x$a$g$a$x
+  $a$g$h$g$a  $k$e$f      $e$a$g  $a$x
+    $a$h    $a$k$f          $a$g  $a$x
+    $a$h  $a$h$e$f          $a$g$a$x
+    $a$g$h$g$a$e$f          $a$g$a$x
+      $a    $k  $e$k    $e$k$a  $x
+          $a$k$e$k$f$k$f$k$e$a$x
+          $a$e$k    $f$k    $a$x
+          $a                  $x
+          $a$g  $a$x$a$g  $a$x
+          $a$h  $a$x$a$g  $a$x
+        $a$g$h$g$a$x$a$g  $a$x
+        $a$k    $a$x$a$k  $a$x
+        $a$e    $a  $k$e  $a$x
+      $a$e$f    $e$a  $e    $a  $x
+      $a$e  $f  $e$a  $k$e      $a$x
+        $a        $x$a            $x
+EOC

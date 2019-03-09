@@ -1,0 +1,77 @@
+# Dogbert
+# by Charlie M
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;238m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;245m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;249m  ";
+$f = "\e[48;5;239m  ";
+$g = "\e[48;5;252m  ";
+$h = "\e[48;5;246m  ";
+$i = "\e[48;5;241m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;8m  ";
+$l = "\e[48;5;240m  ";
+$m = "\e[48;5;243m  ";
+$n = "\e[48;5;237m  ";
+$o = "\e[48;5;242m  ";
+$p = "\e[48;5;234m  ";
+$q = "\e[48;5;251m  ";
+$r = "\e[48;5;235m  ";
+$s = "\e[48;5;7m  ";
+$u = "\e[48;5;244m  ";
+$v = "\e[48;5;254m  ";
+$w = "\e[48;5;59m  ";
+$y = "\e[48;5;188m  ";
+$z = "\e[48;5;253m  ";
+$A = "\e[48;5;236m  ";
+$B = "\e[48;5;102m  ";
+$C = "\e[48;5;248m  ";
+
+$the_cow = <<EOC
+      $t
+        $t                        $a                $x
+          $t                  $a  $b                $a  $x
+            $t            $a  $b  $a$c$d$b          $c$e$a  $x
+              $t        $a$b$d$b  $c$a$f$c$e$b$g$h$a$i$d$b$a  $x
+                      $a$b          $a      $j$a      $j$b    $a$x
+                    $a$b$d$a$b    $a$b$d$b$k$l$m$b    $a$b      $a$x
+                  $a$b    $a$b  $a  $b      $n$b      $a  $b$a$b  $a$x
+                  $a$b  $a        $b        $k$b      $a      $b  $a$x
+                $a$b    $a$b    $a$b        $n$b      $a$b  $a$b    $a$x
+              $a  $b    $a$b      $a$d$b$d$a    $d$b  $a$b  $a$b    $a$x
+              $a$d$b  $a  $b      $a        $b$a      $b    $a$b    $a$x
+              $a$b    $a$b                                  $a$b    $a$x
+              $a$b    $a$b            $d$o$p  $k$d$b        $a  $b  $a$x
+              $a$b    $a$b            $q$r$p    $q$b          $f$b  $a$x
+              $a$b  $a  $b            $j$r$p    $s$b          $a      $x
+                $a    $d$b            $d$u$a$f$c$b                $a$x
+                $a$b                      $v  $b                  $w$x
+                $a$b  $a$b                              $a        $l$n$l$x
+              $a$b    $a$b                  $a          $c$q$y$v$b$z$a$n$u$x
+              $a$b    $a  $b          $w$a$n$a$j$d$b              $m  $A$h$u$x
+              $a$b      $a            $e$v$b              $v  $b  $k$B$w$r$o$x
+      $a          $b        $a$C$v$b                $d$q$a      $v$h$a  $w$x
+    $a$b        $a$b        $a$B$q$j$C$a    $l$a$n$A    $b      $a$s$a$c$x
+    $a$b      $q$a$b        $a        $b              $a$b      $a$r$m$x
+    $a$b  $q  $B$a  $b  $a    $b                        $a    $f$b$l$x
+      $a                  $b                                      $a$x
+                  $a  $b                                          $a$x
+                    $a  $b                                    $a  $x
+                      $a  $b                                $a  $x
+                        $a    $b                          $f$a$x
+                            $a  $b                        $a$x
+                              $a$b    $d$a        $b      $a$x
+                              $a$b    $d$a$x    $a$b      $a$x
+                              $a$b      $a$x    $a$b      $a$x
+                            $f$b        $a  $x  $a$b      $a$x
+                          $a$b            $a    $b          $a$x
+                          $a$b              $n$b            $d$a$x
+                          $n$b              $n$b              $f$x
+                            $a$b          $a    $b            $f$x
+                              $a          $x    $f$a          $x
+EOC
