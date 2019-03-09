@@ -1,51 +1,56 @@
 # Tails (Sonic & Tails)
 # by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
-$k = "\e[48;5;235m  ";  #black
-$g = "\e[48;5;35m  ";   #green
-$a = "\e[48;5;246m  ";  #gray
-$d = "\e[48;5;240m  ";  #dark gray pants
-$p = "\e[48;5;238m  ";  #darker gray
-$e = "\e[41m  ";        #red
-$y = "\e[48;5;11m  ";   #yellow
-$m = "\e[48;5;178m  ";  #darker yellow
-$v = "\e[48;5;216m  ";  #skin color 2
-$l = "\e[48;5;75m  ";   #light blue
-$b = "\e[48;5;21m  ";   #blue
-$w = "\e[107m  ";       #white
-$o = "\e[48;5;214m  ";  #orange
-$z = "\e[48;5;94m  ";   #brown 2
-
 $t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;130m  ";
+$c = "\e[48;5;214m  ";
+$d = "\e[48;5;172m  ";
+$e = "\e[48;5;152m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;21m  ";
+$h = "\e[48;5;243m  ";
+$i = "\e[48;5;124m  ";
+$j = "\e[48;5;196m  ";
 
-$the_cow = <<EOC;
-              $t
-               $t
-                $t
-                $k  $x
-                $k$o$k$x            $k  $x
-              $k$o$k$o$k            $o  $k$x
-              $k$o              $k$o$k$o$k$x
-                $k  $o$w  $o$w  $o$k      $x
-              $k$o    $w  $o$w  $o    $k$x
-                $k  $o$w$b$o$b$w$o    $k$x
-                  $k$o$w$k$w$k$w$o  $k  $x
-                $k  $w  $k$w$k$w$o  $k$x
-              $k$w              $o  $k  $x
-                $k  $w    $k$w        $k$x$k    $x
-                    $k$w          $o$k  $x$k$w  $k    $x
-                    $k  $w$o    $k$x    $k  $w        $k$x
-                    $k$w  $o      $k$x$k$w      $k    $x
-                  $k$w    $o      $k$x$o  $w  $k$w$k$x
-                  $k$w    $o  $k$o$k  $o      $k$o$k$x
-                  $k$w    $o    $k$o$k$o      $k$o$k$x
-                $k$w$k$w  $o    $k$o$k$o        $k$o$k$x
-              $k$w  $k$w$k$o  $k$w    $k$o      $k$o$k$x
-                $k$w$k  $o$k$o$k$w    $k$o      $k$o$k$x
-                  $k  $o  $k$o$k  $w  $k$o    $k  $o$k$x
-                  $k$w$k  $w  $k$o$k  $o    $k$o    $k$x
-              $k  $w  $e$w$e    $k$o    $k  $o  $k    $x
-            $k$w    $e$w    $e    $k    $o    $k$x
-            $k                                  $x
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                          $t
+                            $t          $a$b  $x                  $b  $x
+                              $t        $a$c  $d$b$x            $a$c$b$x
+                                $t      $a$c$b$c  $b$x        $a$c$d$a$x
+                                        $a$c$e$b$c  $b        $d  $b  $x
+                                        $a$c$f  $b$c                  $b  $x
+                                        $a$d$f$d$c    $d$a  $c  $a$b  $c  $b$x
+                                          $b$c      $d$a$e  $b$c$e$c$d$a$b  $x
+                                          $b$c      $b$e$f  $b$c$f$a$c$d$a$b$x
+                                            $a$d$c  $a$f    $b$c$f$a$b$c$b$x
+                                            $a$d  $c$b$f  $g$b$c$g$a  $c$b$x
+                                          $h$e$h$b$c$d$f  $a$b$c$a  $x$a$x
+                                        $h$f    $e$d  $f  $g$b      $h$x
+                                          $h  $f      $d    $f  $a  $x
+                                          $a$f                  $e$h$x
+                $h              $x      $a$f  $e$h  $e$f    $e$h  $e$a$x
+            $h$e  $f        $e  $b  $x    $f$e$h$a$x$a  $h    $a  $h$x
+        $h$e$f        $e  $c      $d$b$a$x  $a$x  $b$c$f    $h$b$x$a$x
+      $h$e$f        $e$d$c            $d$a$x    $b$c$b$d$f    $h$b$x
+    $h$f                $e$d$c          $d$b$a$b$c$d  $c$f    $a$d$x
+    $f  $h$e                $d  $c      $h$a$b$c$d$b$c  $d$e  $a$d$b$x
+    $f$a$e    $f  $e$h    $e  $d      $a$h$f$e$b  $a  $c  $d$a$b  $e$a$x
+    $a$e    $f      $e  $d          $a$e  $h$f$h$a$d$a$c$a$b$a$e  $h  $a$x
+        $a    $h  $e      $d      $h$e$f    $h$f$a$b  $c$b  $a$h  $e    $a$x
+          $h$e$h  $a        $b  $h$f        $h$a$b$a$c$a$d$a$h$a$e      $h$x
+          $a$e                $d$a$e$f    $e$a$b$a$b$c$a$d$a$f$h$a$h$e    $a$x
+            $h$e                $a$e$f$h$f$h$b$a  $b$d$a      $h$e$a$e$a$e$a$x
+              $a$e      $h    $d  $a$f$a$f$a  $x$a$f    $a$e  $a$h$a$h$a$e$a$x
+                $a$h$e    $d      $a$e$a    $x$a$i$j    $a$i    $h  $a$x$a$x
+                  $a$h  $e  $d    $b$a  $x  $a$i  $e$f  $i    $e$f  $h$x
+                      $a    $b    $a$x      $a$i$e$f    $e$a$i$f      $h$x
+                                            $a$i$e$f      $a$h  $e    $a$x
+                                              $a$h$e      $a            $x
+                                                $a        $x
 EOC

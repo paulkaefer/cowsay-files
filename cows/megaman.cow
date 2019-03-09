@@ -1,0 +1,74 @@
+# Megaman
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;17m  ";
+$b = "\e[48;5;81m  ";
+$c = "\e[48;5;25m  ";
+$d = "\e[48;5;75m  ";
+$e = "\e[48;5;26m  ";
+$f = "\e[48;5;18m  ";
+$g = "\e[48;5;39m  ";
+$h = "\e[48;5;233m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;234m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;7m  ";
+$m = "\e[48;5;74m  ";
+$n = "\e[48;5;1m  ";
+$o = "\e[48;5;195m  ";
+$p = "\e[48;5;246m  ";
+$q = "\e[48;5;255m  ";
+$r = "\e[48;5;19m  ";
+$s = "\e[48;5;236m  ";
+$u = "\e[48;5;215m  ";
+$v = "\e[48;5;32m  ";
+$w = "\e[48;5;223m  ";
+
+$the_cow = <<EOC
+                          $t                          $a          $x
+                            $t                          $a$b  $c  $a  $x
+                              $t                    $c    $a  $c$d  $a$x
+                                $t              $c$e      $c$f$a      $f$x
+                                  $t          $c$e  $g  $e$c  $f        $x
+                                    $t      $a$f$e$g  $e  $c  $f$a      $x
+                                            $a$f$e      $c      $a$b$c  $a$x
+                                            $f  $c$e  $c$e$g  $e$a$b$c$d$a$x
+                                          $a    $f$e$c$e$h      $g$a    $e$x
+                                        $a$c$d$a$f$c$e$h$i$j    $h$g$c$e$h$x
+                                        $a$k$b$c$a$c$h$i$j$l$m$j$i$h$e$h  $x
+                          $h          $x$a$n$o$d$a$c$h$i$p$q$j$r$j$i$h  $s$x
+                        $h$a$f$c    $h$a  $n$o$c$a$e$h$u$p$q$j  $u    $h$s$x
+                        $h$f  $c$e  $c$h$v$a$c  $a$e$h$u$w$q$l$e$u    $e$s$x  $h          $x
+                      $h$f$a  $f$c$e$c$h$d  $a    $c$h$i$w      $u  $i$u$s$h    $f$c      $h  $x
+                      $h$a  $h          $d$b$d$c$h$f$c$h$u      $i  $u$i$s$h$f  $c  $e    $c$f$h$x
+                      $h$a$h$a$c$f$a$f  $h$d$b$c  $h    $s$i$u      $i$s$h$f$a$c$e  $c$e$g  $c$h    $x
+                        $h$a$e  $c$h  $f$c$h$c  $v$c$v$d  $s          $v$h$f$a$c$e  $c$e    $c$a$c$h$x
+                        $h$e  $a  $h$c$h$e$h$c$v    $c        $v    $c$v$h$f$a$f$c  $f$c    $f$a$c$h$x
+                        $h$c$a$f$c$e$g$h$e$h$v    $d$b    $v$a        $h$f$a  $f              $a$h  $x
+                        $h$a$c$e$f$h  $g$c$h$d$v$c$b      $d$a$x      $h  $a$f              $c$h$x
+                          $h$f$g$h$x  $h  $d    $c$d$b    $a$x            $h    $c$f$c$e  $c$h$x
+                            $h  $x      $h$v$d$c$v  $d  $c$a$x                  $h          $x
+                                      $f$h  $c$d      $c$a$x
+                                    $c$a$f  $h            $x
+                                $a    $c$a$c  $a$f$a$c$h$a  $x
+                            $a  $b  $d$a$c$a$c      $f$h$v$c$a  $x
+                          $a$c  $b  $d  $a  $c    $f$h$v$d    $c$a$x
+                    $h        $d$c$d  $c$a$h        $c$d    $c$v$d$a$x
+                $h  $a$e$g$c$h$d$c$v$a  $x      $a    $c$d  $c$d$v$a$h    $x
+            $h  $a    $g$e$c$h$v$a  $x              $a  $h      $a$h$e$c$h$x
+          $h$a$f    $a  $f  $h$a$x                    $h$c$e  $h    $c$e$h$x
+        $h$a$f      $c      $f$h$x                  $h$f    $c  $f  $a  $h$x
+        $e  $a$f  $c    $e$g$c$h$x                  $h$f$c$e    $c$f    $h$x
+        $h  $e$g$f$c  $e$g$e$c$h$x                $h$f$c  $e    $c$f  $c$h$x
+      $h$f  $h  $g$c  $e    $h$x                  $h$f$c  $e  $c$f$e$c$h  $x
+    $j$f  $c  $e$h$g$c  $f  $h$x                  $h$f$c      $f$e$h  $f  $h$x
+  $j$f$c  $f  $e  $h$g$e  $h$x                    $h$f  $c  $e  $h$f$c    $f$h$x
+  $j$c  $e  $c$f$c$e$h    $x                      $h  $c  $e$h  $f$c          $h$x
+$j$c  $e      $c$f$c$e$c$h$x                          $h    $c  $f$c          $h$x
+$j$c  $e    $g  $c$f$h    $x                          $h                        $x
+$j        $h        $x
+
+EOC

@@ -13,6 +13,7 @@ COWS=(
 #Nintendo
 "link" "samus" "super-mario-world" "ROB" "captain-falcon"
 "dr-mario" #"pikachu"
+"samus2" "samus3" "samus4"
 
 #Sonic
 "sonic" "tails" #"knuckles"
@@ -70,9 +71,12 @@ COWS=(
 "fsm"
 "good-vs-evil" "neo"
 #"homer-simpson" "walter-white"
-"bobross" "bobross2"
+"bobross" "bobross2" "deadpool-bob-ross"
 #"strongbad" "speedy-gonzales" "yosemite-sam"
 "hobo" "sleepycat"
+
+#Duplicates for increased frequency
+"tim" "tim" "the-boss" "bobross2"
 )
 
 COWSAY_FILES=$(dirname "$0")

@@ -1,0 +1,90 @@
+# Fox McCloud (Star Fox)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;243m  ";
+$d = "\e[48;5;237m  ";
+$e = "\e[48;5;240m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;179m  ";
+$i = "\e[48;5;248m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;131m  ";
+$l = "\e[48;5;167m  ";
+$m = "\e[48;5;188m  ";
+$n = "\e[48;5;156m  ";
+$o = "\e[48;5;108m  ";
+$p = "\e[48;5;65m  ";
+$q = "\e[48;5;235m  ";
+$r = "\e[48;5;239m  ";
+$s = "\e[48;5;250m  ";
+$u = "\e[48;5;102m  ";
+$v = "\e[48;5;16m  ";
+$w = "\e[48;5;22m  ";
+$y = "\e[48;5;88m  ";
+$z = "\e[48;5;59m  ";
+$A = "\e[48;5;29m  ";
+$B = "\e[48;5;238m  ";
+$C = "\e[48;5;233m  ";
+$D = "\e[48;5;232m  ";
+$E = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+          $t                                $a$x
+            $t                            $a  $x
+              $t                      $a  $b$a  $x
+                $t              $c$d$a$b$d  $a  $x
+                  $t          $e$a  $b$d  $b$a$f$a$x
+                            $d$a$d$b  $g  $a$b  $f$a$x
+                            $e$d$b$g  $h  $g    $b$a$x
+                          $c$e$d$b  $g  $h$g    $b$f$a$x
+                          $d$c$e$d$b  $g    $b$g  $i$a$x
+                          $d$c$j    $d$g  $b$i$f$g$b$a$x
+                          $d  $j$k$l$j$b$g$b$d$i$f$b$a$x
+                        $a$d$b$j$l$k  $j$b$g$f$d  $a$x
+                        $a$d$b$j  $k$l$j$m  $n$o$p$a$x
+                        $a$b$d$b$g$j    $g$b$p$o$p$a$x
+                    $q    $a    $d$b  $g    $b$f  $i$r$x
+        $r$x    $q  $s$q$d$q  $d$a    $d$b  $c$i$f  $i$a$x
+    $r$x  $r$x$q$s$f$u$s$q$d  $q$d$a$j$a  $r          $x
+    $c$r$i$a$q$a  $s$d$s$q$d    $q  $a$j    $a  $q    $x
+  $r$i$f$a$g$d$b$d$a$d$u$q  $d      $q$a    $d$q$d$q$u$q  $x
+$r$c$i$a$g$d$v$a$d$b$a$q$u  $q  $d    $q$w$q  $d$q  $s$f$s$q  $x
+$r$c$a$b$d$a$d  $a$v$q  $d$u$s  $q    $w  $q$d$q$f$q$s$f$u$s$q  $x
+$r$c$f$d$a$d      $v$q$x$q$d$s$f  $s$q$w  $q  $f$s$q$s$u$f  $s$q$x
+$r$i  $a$d      $v  $q$x$q$u$d$u$f  $q$w  $q$f$s$d$q$s$d$s$q$f$s$q$x
+$r$c$r$v$d    $v  $a$x  $q$d$s$f$u  $q$p$w$q$u$d$q          $s$a    $x
+  $r$c$r$v      $j$a$x  $q  $d$u$f$s$q$p  $q$f$s$q  $x  $q$a  $j$k$y$a$x
+    $a$b$a$j    $a$g$a$x$q  $s$f$u  $q$w$p$q$u$d$q$x    $a$j$k  $y$j$a$x
+      $a$b$a    $b$h$g$a$q$u$q  $f$s$q$w  $q$s$u$q$x    $a$k$y$j  $a$v$x
+        $a$b$d  $b$d$g$h$a$q$u$s$q    $w  $q$u$q  $x    $v$a      $v  $x
+          $a$b$d      $a$d$a$q  $s$u$q$w$c$q  $u$q$x  $v$d          $v$x
+            $a  $b$d  $a$d$z$a$w$q    $z$w$q$u$q  $x  $v$d      $v  $a$x
+                $a    $f$z$d$a$w  $a$q$a  $q  $p$a$x  $v        $d  $a$x
+                  $a$d$z  $a$w  $p$d$a  $w    $p$A$a$x$a$d$b$d$b$d$a$x
+                  $a$d$z$a$p$w$p$d  $a  $w      $p$a$x$a$g$a$g$a$g$a$x
+                $a$d$a  $p    $B$d$a    $w    $A$p$A$a$x$a$x$a$x$a$x
+                $a$B$p        $B$a$x    $a$w$A$p    $a$x
+                $a$B$p      $B$a$x      $a$w$p      $A$a$x
+                $a$d$B$p  $a  $x          $a$A$p      $a$x
+                  $a$C  $B$p$a$x            $a$p  $A$p$A$a$x
+                  $C$k$b$j$v    $x          $a$A$p$C  $v  $x
+                  $C$k$j$k$j$D  $v$x          $a$C$b$k$j$D$v$x
+                    $C$k$j$k$j$D  $v$x        $C$E$C$j  $D$v$x
+                      $C$k    $j$D  $v$C$x    $C  $b$k$j$a$v$x
+                        $C$j  $b$j$D$k$C$x      $C$E$j  $a$v$x
+                      $v    $k$j$a$D$k$C$x      $C  $b$k$j$v$x
+                    $v$d$C$b$j$a$D$k$C$x        $C$E$j    $D$v$x
+                  $v$d  $q$j$a$D$b$C$x            $C$E$k$j$a$v$x
+                  $v$q$k$b$D  $k$C$x            $v      $D$j$v$x
+                  $C$k      $b$C$x            $v$q$d$q$a$v$j$D$v$x
+                    $C        $x            $v$q$d    $q$a$D$k$v$x
+                                            $v$D$k$b$k$D$a$k$b$C$x
+                                            $C$b$k      $b$C  $x
+                                              $C          $x
+EOC
