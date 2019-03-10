@@ -36,8 +36,8 @@ COWS=(
 
 #PC games
 "47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
-"deadspace-sm" #"freeman" "freeman2"
-"lara-croft" "lara-croft2" "tombraider"
+"deadspace-sm" "freeman-face" #"freeman" "freeman2"
+"lara-croft" "lara-croft2" "tombraider" "leon-sm"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
@@ -54,7 +54,7 @@ COWS=(
 "superman" "batman" "superman-batman"
 #"ironman" "ironman2"
 "batman2" "spiderman" "deadpool" "deadpool-face"
-"captain-america-sm" "thor-sm"
+"captain-america-sm" "thor-sm" "hulk"
 
 #South Park
 "chef" #"cartman" "kenny" "kyle" "stan"
@@ -88,7 +88,7 @@ COWS=(
 "hobo" "sleepycat"
 
 #Duplicates for increased frequency
-"tim" "tim" "the-boss" "bobross2" "the-dude" "the-dude"
+"tim" "tim" "the-boss" "bobross2" "the-dude" "the-dude" "freeman-face"
 )
 
 COWSAY_FILES=$(dirname "$0")
