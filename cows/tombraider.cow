@@ -15,7 +15,6 @@ $h = "\e[48;5;7m  ";
 $i = "\e[48;5;72m  ";
 $j = "\e[48;5;237m  ";
 $k = "\e[48;5;243m  ";
-$l = "\e[48;5;65m  ";
 $m = "\e[48;5;238m  ";
 $n = "\e[48;5;137m  ";
 $o = "\e[48;5;235m  ";
@@ -37,8 +36,8 @@ $the_cow = <<EOC
                     $b  $e$b$e  $b$x          $f  $a$g$f  $x
                     $b  $c$e    $x              $f  $g  $f$x
                     $b  $e$c  $b$x              $f$g    $f$x
-                    $h$i$c$e$h$i$x                $j$g$j$x
-                  $e$h$i$e$k$l$h$i$x                $j  $x
+                    $h$i$e  $h$i$x                $j$g$j$x
+                  $e$h$i$e    $h$i$x                $j  $x
                   $e  $h$i$e  $h$i$x              $j  $x
                 $e    $h$i  $h    $i$x            $j  $x
                 $e  $h$m$i          $x            $j$x

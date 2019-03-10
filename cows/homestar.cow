@@ -1,0 +1,51 @@
+# Homestar (Homestar Runner)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;1m  ";
+$d = "\e[48;5;39m  ";
+$e = "\e[48;5;88m  ";
+$f = "\e[48;5;26m  ";
+$g = "\e[48;5;16m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;244m  ";
+
+$the_cow = <<EOC
+    $t
+      $t
+        $t
+              $a  $x
+              $a  $x  $b$c  $x
+          $a  $x$d    $a$e  $x
+          $a  $f  $d$a      $x
+              $f  $a$g$a$g$a$x
+              $f$h$a          $x
+              $i$h$a              $x
+              $i$h  $a          $x
+                $i$h  $a      $x
+                $c  $b        $x
+                $c$b    $a$b  $x
+              $e$c$b  $a    $b$x
+              $e$c$b    $a$b    $x
+              $e$c$b  $a$b$a$b  $x
+              $e$c$b            $x
+              $e$c$b              $x
+            $e  $c  $b          $x
+            $e    $c  $b    $x
+            $e  $x$h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+                  $h$a$h$a$x
+              $i$h$a  $h$a    $x
+            $i$h$a    $i$h$a    $x
+          $i$h$a      $i  $h$a    $x
+          $f  $d      $f      $d  $x
+EOC

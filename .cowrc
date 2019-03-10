@@ -5,7 +5,7 @@
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "pickle-rick" "snowball-sm"
-"squanchy" "mr-pb" "plutonian" #"dog" "head" "scary-terry" "meeseeks"
+"squanchy" "mr-pb" "plutonian" "pizza-phone" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" "frylock" "meatwad"
@@ -78,16 +78,17 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil"
 "the-dude" "the-jesus" "lebowski-walter"
-"neo" "smith" "ron-swanson"
+"neo" "agent-smith" "smith" "morpheus"
+"ron-swanson"
 "indiana-jones" "aladdin"
-"bart"
+"bart" "donald"
 #"homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 #"strongbad" "speedy-gonzales" "yosemite-sam"
 "hobo" "sleepycat"
 
 #Duplicates for increased frequency
-"tim" "tim" "the-boss" "bobross2"
+"tim" "tim" "the-boss" "bobross2" "the-dude" "the-dude"
 )
 
 COWSAY_FILES=$(dirname "$0")

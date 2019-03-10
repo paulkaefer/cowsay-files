@@ -27,11 +27,13 @@ $u = "\e[48;5;196m  ";
 $v = "\e[48;5;235m  ";
 
 $the_cow = <<EOC
-      $t                            $a$b      $x
-        $t                    $b    $a  $b$a$b      $a$x
-          $t    $c$x      $b  $a    $c  $a  $b    $c      $x
-            $t  $c  $x$b  $a      $c$d$c$b$a$c        $x
-              $t$c  $a      $e$a$c$d  $f$c      $x
+    $t
+      $t
+        $t                          $a$b      $x
+          $t                  $b    $a  $b$a$b      $a$x
+            $t  $c$x      $b  $a    $c  $a  $b    $c      $x
+                $c  $x$b  $a      $c$d$c$b$a$c        $x
+                $c  $a      $e$a$c$d  $f$c      $x
                 $c$a    $e    $a$d    $f$c$b$c$x
                 $a    $e        $a  $f  $c$b    $x
                 $a    $e$a      $e$a  $b  $a$c$b    $x
@@ -66,5 +68,4 @@ $the_cow = <<EOC
           $n    $v$r  $u          $p$l$n    $k$x
     $n    $r    $u                  $l$n    $k$x
     $k                                        $x
-
 EOC
