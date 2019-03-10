@@ -4,19 +4,25 @@
 # Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "pickle-rick" "snowball-sm" #"dog" "head" "scary-terry" "meeseeks"
+"rick-and-morty-running" "pickle-rick" "snowball-sm"
+"squanchy" "mr-pb" "plutonian" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" "frylock" "meatwad"
 "zorak" #"ignignokt" "err"
 
 #Nintendo
-"link" "samus" "super-mario-world" "ROB" "captain-falcon"
+"link" "link2" "zelda" "sheik"
+"mario" "luigi" "super-mario-world" "yoshi"
+"falco" "starfox" "starfox3"
+"marth" "ROB" "captain-falcon"
+"donkeykong" "megaman" "ness"
 "dr-mario" #"pikachu"
-"samus2" "samus3" "samus4"
+"samus" "samus2" "samus3" "samus4"
+"mew" "mewtwo" "kirby" "metaknight"
 
 #Sonic
-"sonic" "tails" #"knuckles"
+"sonic" "sonic2" "tails" "tails2" "knuckles2" "shadow" #"knuckles"
 
 #Bob's Burgers
 #"bob" "louise" "tina" "gene" "linda"
@@ -31,6 +37,7 @@ COWS=(
 #PC games
 "47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
 "deadspace-sm" #"freeman" "freeman2"
+"lara-croft" "lara-croft2" "tombraider"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
@@ -46,10 +53,11 @@ COWS=(
 #Super Heroes
 "superman" "batman" "superman-batman"
 #"ironman" "ironman2"
-"batman2" "spiderman" "deadpool"
+"batman2" "spiderman" "deadpool" "deadpool-face"
+"captain-america-sm" "thor-sm"
 
 #South Park
-#"cartman" "kenny" "kyle" "stan"
+"chef" #"cartman" "kenny" "kyle" "stan"
 
 #Peanuts
 #"charlie-brown" "snoopy"
@@ -70,6 +78,8 @@ COWS=(
 #Misc
 "fsm"
 "good-vs-evil" "neo"
+"indiana-jones" "aladdin"
+"bart"
 #"homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 #"strongbad" "speedy-gonzales" "yosemite-sam"

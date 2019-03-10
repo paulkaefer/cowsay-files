@@ -98,5 +98,4 @@ $the_cow = <<EOC
                   $D$A$m  $s    $D$x        $D$m$F$l  $m          $F$D$x
                   $D$A$m  $l  $m$D$x        $D$m  $F$D$l        $F$A$D$x
                   $D$A$l  $F  $l$D$x          $D    $x$D            $x
-                    $D          $x
 EOC
