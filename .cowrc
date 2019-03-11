@@ -38,6 +38,7 @@ COWS=(
 "47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
 "deadspace-sm" "freeman-face" #"freeman" "freeman2"
 "lara-croft" "lara-croft2" "tombraider" "leon-sm"
+"tf2-spy-sm" "tf2-medic-sm" "tf2-heavy"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
@@ -52,12 +53,15 @@ COWS=(
 
 #Super Heroes
 "superman" "batman" "superman-batman"
-#"ironman" "ironman2"
+"ironman" #"ironman2" "ironman3"
 "batman2" "spiderman" "deadpool" "deadpool-face"
-"captain-america-sm" "thor-sm" "hulk"
+"captain-america-sm" "thor-sm" #"hulk"
 
 #South Park
 "chef" #"cartman" "kenny" "kyle" "stan"
+
+#Scientists
+"hawking" "einstein-sm" "darwin-sm" "tesla-sm"
 
 #Peanuts
 #"charlie-brown" "snoopy"
@@ -78,17 +82,15 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil"
 "the-dude" "the-jesus" "lebowski-walter"
+"doc-and-marty"
 "neo" "agent-smith" "smith" "morpheus"
-"ron-swanson"
+"ron-swanson" "gandalf"
 "indiana-jones" "aladdin"
 "bart" "donald"
 #"homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 #"strongbad" "speedy-gonzales" "yosemite-sam"
 "hobo" "sleepycat"
-
-#Duplicates for increased frequency
-"tim" "tim" "the-boss" "bobross2" "the-dude" "the-dude" "freeman-face"
 )
 
 COWSAY_FILES=$(dirname "$0")
