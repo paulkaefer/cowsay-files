@@ -37,11 +37,12 @@ Tips for creating pixel art cows:
 a display of your terminal color palette and the corresponding color codes.
 - If you are scaling down a pixel art image from a larger size, make sure to set "Interpolation" to None/Off or you will get
 color bleed between pixels
-- It is helpful to use a background color that is bright and very different from all other colors on your image 
+- It is helpful to use a background color that is bright and very different from all other colors on your image
 so you can clearly see which pixels are background and which are image. I usually use hot pink or neon green.
 
 Try converting some of the [examples](https://charc0al.github.io/cowsay-files/converter/examples)!
 
+![Bart Simpson](https://charc0al.github.io/cowsay-files/converter/examples/bart.png)
 ![Boba-fett](https://charc0al.github.io/cowsay-files/converter/examples/boba-fett.png)
-![Donatello](https://charc0al.github.io/cowsay-files/converter/examples/donatello.png)
-![Snowball](https://charc0al.github.io/cowsay-files/converter/examples/snowball.png)
+![Deadpool](https://charc0al.github.io/cowsay-files/converter/examples/deadpool-face.png)
+![Ironman](https://charc0al.github.io/cowsay-files/converter/examples/ironman.png)
