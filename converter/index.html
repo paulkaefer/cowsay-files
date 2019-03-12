@@ -117,7 +117,7 @@
               var name = file.name.substring(0, file.name.lastIndexOf('.'));
               var outFile = '# ' + name + '\n# by ' + authorName +
                             '\n# Generated with Charc0al\'s cowsay file converter http://charc0al.github.io/cowsay-files/converter\n\n' +
-                            cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + '\nEOC\n';
+                            cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + 'EOC\n';
               download(outFile, name + '.cow', 'text');
             }
          };
