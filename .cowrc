@@ -5,7 +5,8 @@
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "pickle-rick" "snowball-sm"
-"squanchy" "mr-pb" "plutonian" "pizza-phone" #"dog" "head" "scary-terry" "meeseeks"
+"squanchy" "mr-pb" "plutonian" "pizza-phone"
+"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" "frylock" "meatwad"
@@ -17,7 +18,7 @@ COWS=(
 "falco" "starfox" "starfox3"
 "marth" "ROB" "captain-falcon"
 "donkeykong" "megaman" "ness"
-"dr-mario" #"pikachu"
+"dr-mario" "pikachu"
 "samus" "samus2" "samus3" "samus4"
 "mew" "mewtwo" "kirby" "metaknight"
 
@@ -25,14 +26,14 @@ COWS=(
 "sonic" "sonic2" "tails" "tails2" "knuckles2" "shadow" #"knuckles"
 
 #Bob's Burgers
-#"bob" "louise" "tina" "gene" "linda"
+"bob" "louise" "tina" "gene" "linda"
 
 #Futurama
-#"prof" "bender" #"zoidberg" "fry-money"
+"prof" "bender" "zoidberg" "zoidberg2" "fry-money"
 
 #Dilbert
 "dilbert" "dilbert-boss"
-"wally" #"dogbert" "catbert"
+"wally" "dogbert" "catbert"
 
 #PC games
 "47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
@@ -45,7 +46,7 @@ COWS=(
 
 #Star Wars
 "r2d2-c3po" "boba-fett-sm" "solo" "atst-atat"
-"phasma-sm" "obi-wan-sm" "darth-vader-sm" #"yoda" "vader" "stormtrooper"
+"phasma-sm" "obi-wan-sm" "darth-vader-sm" "yoda" "stormtrooper" #"vader"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
@@ -55,22 +56,23 @@ COWS=(
 "superman" "batman" "superman-batman"
 "ironman" #"ironman2" "ironman3"
 "batman2" "spiderman" "deadpool" "deadpool-face"
-"captain-america-sm" "thor-sm" #"hulk"
+"captain-america-sm" "thor-sm" "hulk"
 
 #South Park
-"chef" #"cartman" "kenny" "kyle" "stan"
+"chef" "cartman" "kenny" "kyle" "stan"
 
 #Scientists
 "hawking" "einstein-sm" "einstein-face" "darwin-sm" "tesla-sm"
 
 #Peanuts
-#"charlie-brown" "snoopy"
+"charlie-brown" "snoopy"
 
 #Seinfeld
 "larry"  "kramer" "newman" "larry2"
 
 #Game of Thrones
 "john-snow-sm" "tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
+"khal-drogo-sm" "white-walker-sm" "melisandre" "tywin" "joffrey"
 
 #TMNT
 "raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
@@ -86,10 +88,10 @@ COWS=(
 "neo" "agent-smith" "smith" "morpheus"
 "ron-swanson" "gandalf"
 "indiana-jones" "aladdin"
-"bart" "donald"
-#"homer-simpson" "walter-white"
+"bart" "donald" "donald-hat"
+"homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
-#"strongbad" "speedy-gonzales" "yosemite-sam"
+"strongbad" "speedy-gonzales" "yosemite-sam"
 "hobo" "sleepycat"
 )
 
