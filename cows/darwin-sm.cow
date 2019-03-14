@@ -72,8 +72,4 @@ $the_cow = <<EOC
                     $j  $k          $j$x                          $j    $k        $x
                     $j  $k          $j$x                            $j    $k    $j$x
                     $j$k          $j$x                              $j      $k  $j$x
-                  $j  $k        $j  $x                              $j            $x
-                $j    $k      $j    $x                              $j            $x
-              $j        $k  $j    $x                                $j            $x
-              $j                $x                                  $j            $x
 EOC
