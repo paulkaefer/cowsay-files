@@ -29,7 +29,7 @@ COWS=(
 "bob" "louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender" "zoidberg" "zoidberg2" "fry-money"
+"prof" "bender-lg" "zoidberg" "zoidberg2" "fry-money"
 
 #Dilbert
 "dilbert" "dilbert-boss"
@@ -39,6 +39,7 @@ COWS=(
 "47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
 "deadspace-sm" "freeman-face" #"freeman" "freeman2"
 "lara-croft" "lara-croft2" "tombraider" "leon-sm"
+"bioshock"
 
 #Team Fortress
 "tf2-spy-sm" "tf2-spy2-sm" "tf2-medic-sm" "tf2-heavy" "tf2-demo-sm"
@@ -91,13 +92,13 @@ COWS=(
 "doc-and-marty"
 "neo" "agent-smith" "smith" "morpheus"
 "milton-sm" "lumbergh-sm"
-"ron-swanson" "gandalf"
+"ron-swanson" "gandalf" "alf"
 "indiana-jones" "aladdin" "buzz-lightyear-sm"
 "robocop" "robocop2" "terminator"
 "bart" "donald" "donald-hat" "mike-tyson-sm"
 "homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
-"strongbad" "speedy-gonzales" "yosemite-sam"
+"strongbad" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "hobo" "sleepycat"
 )
 
