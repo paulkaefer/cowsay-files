@@ -49,7 +49,8 @@ COWS=(
 
 #Star Wars
 "r2d2-c3po" "boba-fett-sm" "solo" "atst-atat"
-"phasma-sm" "obi-wan-sm" "darth-vader-sm" "yoda" "stormtrooper" #"vader"
+"phasma-sm" "obi-wan-sm" "darth-vader-sm" "yoda"
+"palpatine" "stormtrooper" #"vader"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
@@ -85,13 +86,14 @@ COWS=(
 "tim" "the-boss"
 
 #Misc
-"fsm" "good-vs-evil"
+"fsm" "good-vs-evil" "cthulhu"
 "the-dude" "the-jesus" "lebowski-walter"
 "doc-and-marty"
 "neo" "agent-smith" "smith" "morpheus"
 "milton-sm" "lumbergh-sm"
 "ron-swanson" "gandalf"
-"indiana-jones" "aladdin"
+"indiana-jones" "aladdin" "buzz-lightyear-sm"
+"robocop" "robocop2" "terminator"
 "bart" "donald" "donald-hat" "mike-tyson-sm"
 "homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
