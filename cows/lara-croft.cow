@@ -42,9 +42,9 @@ $the_cow = <<EOC
                 $d$g$b$c$i$x        $g$j$f    $j    $e$d$e                                        $i    $e  $c  $x
             $d  $x  $b$c$e$x        $j                $e$g$x                                        $i$e  $x
           $g  $x      $e  $f$x      $j                $l$g$x                                        $c    $x
-      $g  $x            $e$f  $x    $j              $l$m$d$x
-  $g$d  $g$x            $e  $f  $x  $l      $j    $l$m$g$d$x
-$g  $d  $x                $e$f    $x$e$m    $l    $m  $d$x
+      $g  $x           $e $f $x     $j              $l$m$d$x
+  $g$d  $g$x            $e  $f $x   $l      $j    $l$m$g$d$x
+$g  $d  $x               $e$f    $x $e$m    $l    $m  $d$x
 $g  $d$x                  $e  $f    $e$m  $l$m      $d$x
 $g  $x                      $e  $f  $e  $m  $l    $m$x
 $g$x                          $e        $m  $l      $x
@@ -55,35 +55,35 @@ $g$x                          $e        $m  $l      $x
                                       $i$l$j    $n    $k    $x
                                       $i$o$p  $k      $d    $a$x
                                       $d$q$o  $k$d    $a      $x
-                                      $i$g$a  $d$k  $a        $x
+                                     $i $g$a  $d$k  $a        $x
                                     $i$g$d    $a  $d$k    $a$n    $x
                                     $e  $d        $a    $d$i$k$n  $x
                                     $e      $r    $x$f    $e$k$n  $x
-                                    $e        $r$x  $f      $e$k    $x
-                                  $e            $x    $f  $k$i$k$n  $x
-                                  $i    $e    $x      $k  $e  $k    $x
-                                  $s    $i    $x        $e$f  $e  $x
-                                  $e    $s    $x        $f        $x
-                                  $e        $x            $f        $x
-                                  $e        $x            $f        $x
-                                $e          $x              $f        $x
+                                   $e         $r$x  $f      $e$k    $x
+                                  $e           $x    $f  $k$i$k$n  $x
+                                  $i     $e   $x      $k  $e  $k    $x
+                                  $s    $i    $x       $e$f  $e  $x
+                                  $e   $s    $x         $f        $x
+                                  $e        $x           $f        $x
+                                 $e         $x            $f        $x
+                                $e         $x              $f        $x
                                 $e        $x                $f        $x
-                                $e        $x                  $f        $x
-                                $e        $x                  $f        $x
-                                $e      $x                      $f        $x
+                                $e        $x                 $f        $x
+                                $e       $x                   $f        $x
+                               $e       $x                     $f        $x
                               $e        $x                      $f        $x
-                              $e        $x                        $f    $h  $x
+                              $e       $x                        $f    $h  $x
                               $c  $e  $x                          $f$h  $a  $x
-                              $a  $c  $x                            $a      $x
-                              $e$a    $x                              $e  $a$x
-                            $a        $x                              $a      $x
+                              $a  $c  $x                           $a        $x
+                             $e$a     $x                             $e    $a$x
+                            $a       $x                               $a      $x
                             $e  $a  $x                                $a$e  $a$x
-                            $d      $x                                  $d$a  $x
+                           $d      $x                                  $d$a   $x
                           $e  $d  $x                                    $d$e  $x
-                          $d    $x                                        $d    $x
-                          $e  $d$x                                        $d$e$d$x
-                        $d    $x                                          $d    $x
-                        $e$d  $x                                            $e$d$a$x
+                          $d    $x                                       $d    $x
+                         $e  $d$x                                         $d$e$d$x
+                        $d    $x                                           $d    $x
+                       $e $d $x                                             $e$d$a$x
                       $d    $x                                              $d  $a$x
                     $e  $a  $x                                              $e  $a$x
                   $a        $x                                            $a      $x
