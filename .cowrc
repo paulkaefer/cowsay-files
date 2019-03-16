@@ -89,6 +89,7 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil" "cthulhu"
 "the-dude" "the-jesus" "lebowski-walter"
+"lahey-sm"
 "doc-and-marty"
 "neo" "agent-smith" "smith" "morpheus"
 "milton-sm" "lumbergh-sm"
@@ -98,7 +99,8 @@ COWS=(
 "bart" "donald" "donald-hat" "mike-tyson-sm"
 "homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
-"strongbad" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
+"strongbad" "homestar" "cheat"
+"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "hobo" "sleepycat"
 )
 
