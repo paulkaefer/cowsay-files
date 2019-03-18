@@ -82,20 +82,11 @@ $the_cow = <<EOC
             $a                                      $h    $c$h  $a  $h  $i    $h    $a                                        $x
             $a                                      $h        $a      $h  $i$h      $a                                          $x
             $a                                      $h    $k$a        $h            $a                                          $x
-            $a                                      $h    $b  $a        $h          $a                                          $s$x
-            $a                                      $k  $h$b  $a        $h          $a                                          $p$x
-            $a                                      $k  $h$z  $a        $h          $a                                          $p$x
-            $a                                      $l  $h$z$a$b$z  $a$b$z$h        $a                                          $A$x
-          $a                                        $w  $u  $k$l  $k  $a  $h        $a                                          $A$x
-          $a                                        $e  $B$C  $a          $k  $h  $b$a                                          $B$D$x
-          $a                                          $d  $r$n$a          $k  $h  $a$b$a                                        $B$D$x
-          $a                                          $i  $a$m$a          $k  $h  $z$a                                            $v$x
-          $a                                            $i$a$o$a          $l  $h$z  $a                                          $r$a$x
-          $a                                            $j$a$q$a          $e$d$h$C  $a                                          $v$m$x
-          $a                                            $u$a              $i$E$h$m$a                                            $v$f$x
-          $a                                                              $i  $o$r$a                                            $f$q$x
-          $a                                                              $u  $r$a                                              $q$o$x
-          $a                                                              $p$a$v$a                                              $o$q$x
-          $a                                                              $p$a                                                  $q$m$x
-          $a                                                                                                                    $r  $x
+            $a                                      $h    $b  $a        $h          $a                                            $x
+            $a                                      $k  $h$b  $a        $h          $a                                            $x
+            $a                                      $k  $h$z  $a        $h          $a                                            $x
+            $a                                      $l  $h$z$a$b$z  $a$b$z$h        $a                                            $x
+          $a                                        $w  $u  $k$l  $k  $a  $h        $a                                            $x
+          $a                                        $e  $B$C  $a          $k  $h  $b$a                                              $x
+          $a                                          $d  $r$n$a          $k  $h  $a$b$a                                            $x
 EOC

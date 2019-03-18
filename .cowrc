@@ -5,8 +5,7 @@
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "pickle-rick" "snowball-sm"
-"squanchy" "mr-pb" "plutonian" "pizza-phone"
-"dog" "head" "scary-terry" "meeseeks"
+"squanchy" "mr-pb" "plutonian" "pizza-phone" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl" "master-shake" "frylock" "meatwad"
@@ -23,10 +22,10 @@ COWS=(
 "mew" "mewtwo" "kirby" "metaknight"
 
 #Sonic
-"sonic" "sonic2" "tails" "tails2" "knuckles2" "shadow" #"knuckles"
+"sonic" "sonic2" "tails" "tails2" "knuckles2" "shadow" "knuckles"
 
 #Bob's Burgers
-"bob" "louise" "tina" "gene" "linda"
+"bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
 "prof" "bender-lg" "zoidberg" "zoidberg2" "fry-money"
@@ -67,7 +66,7 @@ COWS=(
 "chef" "cartman" "kenny" "kyle" "stan"
 
 #Scientists
-"hawking" "einstein-sm" "einstein-face" "darwin-sm" "tesla-sm"
+"hawking-sm" "einstein-sm" "einstein-face" "darwin-sm" "tesla-sm"
 
 #Peanuts
 "charlie-brown" "snoopy"
@@ -87,7 +86,7 @@ COWS=(
 "tim" "the-boss"
 
 #Misc
-"fsm" "good-vs-evil" "cthulhu"
+"fsm" "good-vs-evil" "cthulhu" "bsod"
 "the-dude" "the-jesus" "lebowski-walter"
 "lahey-sm"
 "doc-and-marty"
@@ -95,13 +94,16 @@ COWS=(
 "milton-sm" "lumbergh-sm"
 "ron-swanson" "gandalf" "alf"
 "indiana-jones" "aladdin" "buzz-lightyear-sm"
-"robocop" "robocop2" "terminator"
+"robocop-sm" "robocop2-sm" "terminator-sm"
 "bart" "donald" "donald-hat" "mike-tyson-sm"
 "homer-simpson" "walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 "strongbad" "homestar" "cheat"
 "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "hobo" "sleepycat"
+
+#Increased Frequency duplicates
+"lahey-sm" "lahey-sm" "bsod" "bsod" "cthulhu"
 )
 
 COWSAY_FILES=$(dirname "$0")
@@ -109,10 +111,15 @@ COWS_DIR="${COWSAY_FILES}/cows"
 COWRC=$0
 
 randomsay(){
-  stdin=`cat -`
   NUM_COWS=${#COWS[@]}
   RAND_INDEX=$(($RANDOM % $NUM_COWS + 1))
-  echo "${stdin}" | cowsay -n -f ${COWS_DIR}/${COWS[$RAND_INDEX]}.cow
+  RANDOMCOW=${COWS_DIR}/${COWS[$RAND_INDEX]}.cow
+  COWTEXT=$1
+
+  if [ "$1" == "" ] ; then
+    COWTEXT=`cat -`
+  fi
+  echo $COWTEXT | cowsay -n -f $RANDOMCOW
 }
 
 alias cows="cd $COWS_DIR"
