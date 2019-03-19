@@ -88,13 +88,4 @@ $the_cow = <<EOC
         $a$s$u$a$s$u$v$a$v    $a$b$o$h$a$v$a$h$o        $a$v$a$l$o  $l  $o$a$h$l$h$l$a$v              $a$w$a$x
         $a$s$u$a$s$u$v$a$v    $a$b$o$h$a                            $o    $a$h$d$h$l$a$v              $a$y$a$x
         $a$s$v$a$s$u$v$a$v    $a$l$o$h$a      $h$d$e        $l  $d  $a      $h$d$h$l$a$v                $a$y$a$x
-        $a$s$v$a$s$u$v$a$v    $a$l$o  $a$v  $a$h$d$l            $d$h$a$v  $a$o    $a$v                  $a$y$a$x
-        $a$s$v$a$u  $v$a$v    $a      $l$a$u  $a$h$d  $l    $d    $h$a$u$a        $v          $a$v      $a$y$a$x
-      $a$s$u$v$a$u  $v$a$v      $a$d$h$o$e$a$u$v$a$h$a  $d  $a  $h$a$u$a$e  $l  $h$a$v        $a$v      $a$w$a$x
-      $a$s$u$v$a$u  $v$a$v      $a$d$h$o$e  $a$u$a$h$l  $d  $l  $a$u$a$e$l$d$h  $l$a$v        $a$v  $u$v$a$y$a$x
-      $a$s$v$a$s$u  $v$a$v      $a$d$h$o$e$l$e$a$u$a$h          $a  $e$l  $d  $h$l$a$v        $a$v  $u$v$a$y$a$x
-      $a$s$v$a$s$u  $v$a$v      $a$d$h$o$e$l$e$a$v$a$o        $a$v$a$e$l  $d  $h$l$a$v        $a$v  $u$v$a$w$a$x
-      $a$s$v$a$s$u  $v$a$v$u$v  $a$d$h$o$e$l$d$e$a$v$a            $l$e$l  $d  $h$l$a$v        $a$v  $u$v$a$w$a$x
-      $a$s$v$a$s$u  $v$a$v$u$v  $a$d$h$o$e$l$d  $l$a$v$a  $v$a  $l$o$e$l  $d  $h$l$a$v        $a$v  $u$v$a$w$a$x
-    $a$s$u$v$a$s$u  $v$a$v$u$v$a  $d$h$o$e$l$d  $h$l$a  $v  $a$l$h$o$e$l  $d  $h$l$a$v        $a$v  $u$v$a$y$a$x
 EOC
