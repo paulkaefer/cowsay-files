@@ -56,14 +56,15 @@ $Y = "\e[48;5;248m  ";
 $Z = "\e[48;5;251m  ";
 $a1 = "\e[48;5;237m  ";
 $a2 = "\e[48;5;238m  ";
+$t2 = "$thoughts   ";
 
 $the_cow = <<EOC
-      $a$x                  $thoughts
-        $a$b  $x              $thoughts
-        $a$c  $b$x              $thoughts
-          $a$c    $x              $thoughts
-            $a$c    $x
-              $a$c$d$b  $x
+      $a$x                        $t2
+        $a$b  $x                    $t2
+        $a$c  $b$x                    $t2
+          $a$c    $x                    $t2
+            $a$c    $x                    $t2
+              $a$c$d$b  $x                  $t2
                 $a$c$b    $x
                   $a$c$b    $x                            $e          $f$x
                     $a  $g$b  $x                      $h          $e    $f$x
@@ -71,11 +72,11 @@ $the_cow = <<EOC
                   $a$b  $i$a$g$b  $x          $h    $e          $h$f$j    $k$f$x
                 $a  $b    $i$l  $b  $g$h      $e        $m$n    $f$j$o  $p$j$k  $q$x
               $a$r$a$g$s  $g$h  $l$g$b$g$e              $t$m$n$f$k$j$u$j  $k$v$k$q$x
-          $a  $r$w$s$y$w  $s$b  $e$a$b$s$g$e              $z$k$v$k        $t$v$k$q$x
-        $a  $r$w      $b$w  $s$b  $A$a$g$b$g$n  $f$x    $v  $k$q$t$f$v$k$z$t$v$k  $x
-      $a$r$w  $b$w$p$w$s$w    $s$b  $a    $b  $h  $B$n  $v$k  $j$t$w$k$t$m  $v$k$x
-    $a  $w    $b$u  $c$s$w      $s$b$g$c$a  $b  $C$e$h    $e$q$t  $D$t  $m$v$k$x
-    $a  $b$w$b$o$w  $p$w$s$w$b$w$E$g$d  $e$a$l$b  $F$e      $b$t$z$t  $m  $q$x
+          $a  $r$w$s$y$w  $s$b  $e$a$b$s$g$e              $z$k$v$k        $z$v$k$q$x
+        $a  $r$w      $b$w  $s$b  $A$a$g$b$g$n  $f$x    $v  $k$q$D$f$v$k$z  $v$k  $x
+      $a$r$w  $b$w$p$w$s$w    $s$b  $a    $b  $h  $B$n  $v$k  $j$D$w$k$D$m  $v$k$x
+    $a  $w    $b$u  $c$s$w      $s$b$g$c$a  $b  $C$e$h    $e$q$D        $m$v$k$x
+    $a  $b$w$b$o$w  $p$w$s$w$b$w$E$g$d  $e$a$l$b  $F$e      $b$D$z$D  $m  $q$x
     $a  $s  $p$u$w  $D$j$w$s  $w$E$d  $G$H$G$e$a$b    $e    $g$H$t$m    $k$q$x
     $a  $w  $u    $q    $w    $E  $c$d$G  $n  $e$a$b  $g$H$e$g$G  $h$x  $k$x
     $a  $w                $I$w$E$c  $d$G$m$e  $H$e$a$b    $d$G$e      $x
@@ -113,13 +114,11 @@ $the_cow = <<EOC
                                                             $v    $G  $H$x
                                                           $v    $G    $H$x
                                                           $v    $G    $v$x
-                                                          $v    $G    $k$x
                                                           $v$G        $k$x
                                                           $v$n$G      $H$x
                                                         $v$N$k$v$G      $v$x
                                                         $v    $G          $a2  $H$x
                                                         $G$v$G                  $k$x
                                                         $a2$G                    $O$x
-                                                        $H$G    $V  $H$G        $a1$x
-                                                          $f  $a1$x    $f      $a2$x
+                                                          $G    $x    $G        $x
 EOC

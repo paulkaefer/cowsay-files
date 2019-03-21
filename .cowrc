@@ -35,7 +35,7 @@ COWS=(
 "wally" "dogbert" "catbert"
 
 #PC games
-"47" "doomguy" "doomkart" "assassin" "assassin2"
+"47" "hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
 "deadspace-sm" "freeman-face" #"freeman" "freeman2"
 "lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
 "bioshock" "deus-ex-sm" "deus-ex2"
@@ -89,14 +89,14 @@ COWS=(
 "fsm" "good-vs-evil" "cthulhu" "bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
 "lahey-sm"
-"doc-and-marty"
+"doc-and-marty-sm"
 "neo" "agent-smith" "smith" "morpheus"
 "milton-sm" "lumbergh-sm"
 "ron-swanson" "gandalf" "alf"
 "indiana-jones" "aladdin" "buzz-lightyear-sm"
 "robocop-sm" "robocop2-sm" "terminator-sm"
 "bart" "donald" "donald-hat" "mike-tyson-sm"
-"homer-simpson" "walter-white"
+"homer-simpson" #"walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 "strongbad" "homestar" "cheat"
 "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
@@ -104,8 +104,10 @@ COWS=(
 
 #Increased Frequency duplicates
 "lahey-sm" "lahey-sm"
-"deus-ex-sm" "deus-ex2" "carl-sm" "carl-sm"
+"deus-ex-sm" "deus-ex2"
+"carl-sm" "carl-sm" "carl-sm"
 "snowball-sm" "snowball-sm"
+"deadpool-face" "deadpool-face"
 )
 
 #Cows used for displaying error messages with errorsay

@@ -24,11 +24,11 @@ $q = "\e[48;5;58m  ";
 $r = "\e[48;5;16m  ";
 
 $the_cow = <<EOC
-          $t                                      $a        $x
-            $t                                  $a              $x
-              $t                                $a      $b$a  $c$a    $x  $a  $x
-                $t                              $a$d$e$c$f$a$c$a          $x
-                  $t                            $d  $e$b$c  $a      $x
+                                  $t              $a        $x
+                                    $t          $a              $x
+                                      $t        $a      $b$a  $c$a    $x  $a  $x
+                                        $t      $a$d$e$c$f$a$c$a          $x
+                                          $t    $d  $e$b$c  $a      $x
                                                 $a$b$a$e  $a        $x
                                                 $a$g$b$a$b$a              $x
                                                 $g$d$f$b$e$a            $x
