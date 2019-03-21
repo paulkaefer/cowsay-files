@@ -8,7 +8,7 @@ COWS=(
 "squanchy" "mr-pb" "plutonian" "pizza-phone" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "carl" "master-shake" "frylock" "meatwad"
+"mooninites" "carl-sm" "master-shake" "frylock" "meatwad"
 "zorak" #"ignignokt" "err"
 
 #Nintendo
@@ -35,10 +35,10 @@ COWS=(
 "wally" "dogbert" "catbert"
 
 #PC games
-"47" "doomguy" "doomkart" "doomkart2" "assassin" "assassin2"
+"47" "doomguy" "doomkart" "assassin" "assassin2"
 "deadspace-sm" "freeman-face" #"freeman" "freeman2"
-"lara-croft" "lara-croft2" "tombraider" "leon-sm"
-"bioshock"
+"lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
+"bioshock" "deus-ex-sm" "deus-ex2"
 
 #Team Fortress
 "tf2-spy-sm" "tf2-spy2-sm" "tf2-medic-sm" "tf2-heavy" "tf2-demo-sm"
@@ -48,9 +48,9 @@ COWS=(
 "gray-fox" "solid-snake"
 
 #Star Wars
-"r2d2-c3po" "boba-fett-sm" "solo" "atst-atat"
+"r2d2-c3po" "boba-fett-sm" "solo" "atst-atat" "chewbacca"
 "phasma-sm" "obi-wan-sm" "darth-vader-sm" "yoda"
-"palpatine" "stormtrooper" #"vader"
+"palpatine-sm" "stormtrooper" #"vader"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
@@ -58,7 +58,7 @@ COWS=(
 
 #Super Heroes
 "superman" "batman" "superman-batman"
-"ironman" #"ironman2" "ironman3"
+"ironman-sm" #"ironman2" "ironman3"
 "batman2" "spiderman" "deadpool" "deadpool-face"
 "captain-america-sm" "thor-sm" "hulk"
 
@@ -76,17 +76,17 @@ COWS=(
 
 #Game of Thrones
 "john-snow-sm" "tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
-"khal-drogo-sm" "white-walker-sm" "melisandre" "tywin" "joffrey"
+"khal-drogo-sm" "white-walker-sm" "melisandre" "tywin-sm" "joffrey"
 
 #TMNT
 "raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
-"raphael2"
+"raphael2-sm"
 
 #Life & Times of Tim
 "tim" "the-boss"
 
 #Misc
-"fsm" "good-vs-evil" "cthulhu" "bsod"
+"fsm" "good-vs-evil" "cthulhu" "bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
 "lahey-sm"
 "doc-and-marty"
@@ -103,7 +103,14 @@ COWS=(
 "hobo" "sleepycat"
 
 #Increased Frequency duplicates
-"lahey-sm" "lahey-sm" "bsod" "bsod" "cthulhu"
+"lahey-sm" "lahey-sm"
+"deus-ex-sm" "deus-ex2" "carl-sm" "carl-sm"
+"snowball-sm" "snowball-sm"
+)
+
+#Cows used for displaying error messages with errorsay
+ERROR_COWS=(
+"death" "terminator-sm" "bsod" "cthulhu" "palpatine-sm" "doomkart2" "bioshock"
 )
 
 COWSAY_FILES=$(dirname "$0")
@@ -114,6 +121,18 @@ randomsay(){
   NUM_COWS=${#COWS[@]}
   RAND_INDEX=$(($RANDOM % $NUM_COWS + 1))
   RANDOMCOW=${COWS_DIR}/${COWS[$RAND_INDEX]}.cow
+  COWTEXT=$1
+
+  if [ "$1" == "" ] ; then
+    COWTEXT=`cat -`
+  fi
+  echo $COWTEXT | cowsay -n -f $RANDOMCOW
+}
+
+errorsay(){
+  NUM_COWS=${#ERROR_COWS[@]}
+  RAND_INDEX=$(($RANDOM % $NUM_COWS + 1))
+  RANDOMCOW=${COWS_DIR}/${ERROR_COWS[$RAND_INDEX]}.cow
   COWTEXT=$1
 
   if [ "$1" == "" ] ; then
