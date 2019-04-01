@@ -1,0 +1,67 @@
+# Garfield the cat
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;166m  ";
+$b = "\e[48;5;172m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;233m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;208m  ";
+$h = "\e[48;5;214m  ";
+$i = "\e[48;5;220m  ";
+$j = "\e[48;5;178m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;116m  ";
+$m = "\e[48;5;255m  ";
+$n = "\e[48;5;152m  ";
+$o = "\e[48;5;73m  ";
+$p = "\e[48;5;23m  ";
+$q = "\e[48;5;216m  ";
+$r = "\e[48;5;173m  ";
+$s = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                      $a$b$c$x
+              $t                $a$b  $d  $c$x  $b$e$c$x
+                $t            $f$b  $c$d    $b    $d  $c$x
+                  $t          $a$b$g$e$b$d  $b  $e    $c$x
+                    $t      $f$b  $f$a    $f$b$f  $b$e$x
+                          $e$a$b$a  $b    $a    $b$f$b$x
+                        $e$c$b  $f$b$h  $b  $f$b  $a$b$x
+                      $f$c$d$c$a$b  $h  $b    $a$b  $e$c$x
+                      $a$b$c$e$a$b  $h  $b    $a$b$g$a$e$x
+                    $c$f$b  $a  $b  $h  $b    $f$b  $f$b$c$x
+                    $c$e$b$i$j$f$a$b$h  $b  $a$k$a$b$f$b$e$x
+                    $c$e$c$j$i$j$l$a      $f  $k$f$a$f$j  $f$x
+                    $e$c$b$j$i  $l$m$e$m$n$o$d$m  $o$i  $j$a$x
+                    $c$a$b    $i$j$n$p$m  $n$p$m  $l$i$j$a$e$x
+                      $f$a$b  $i  $j$n$m  $q    $m$i  $a$e$c$x
+                      $e$c$a$b$j$i        $r  $q$i  $j$a$f  $x
+                        $e$f$a    $j        $a$j    $a$f$c$x
+                          $k$e$c$f$a              $f$k$e$x
+                              $s$c$f              $k$x
+                                $e$f$k          $f$x
+                                $e  $k$f$k  $e$k$a    $b$a$x
+    $k  $f$x                  $f$a$b$a$k$b    $a$k$f$b      $x
+  $k$f      $d$x              $c$f$a$f$b$a$b      $a$b    $a$x
+  $f$a    $e$c$x              $c  $k$a$f$b  $a$b    $a$b  $a$x
+    $f$a$b    $a$x          $e$k$c  $f$b$a$f$b$a$b  $f$a$b$a$x
+      $f$a  $b  $e$x        $e$f$k$c  $a$f$b$f$b$a$f    $a$x
+          $f$a$b$c$e$a$x  $k$c$e$f  $k  $a$f$a$f$b$k  $f$x
+            $f$a$b    $e$c$f$k$c$f  $a      $b    $a$x
+              $f$a$b  $c$b  $f$k$c$k$f$a$f  $a$f$k$x
+                $k$f$a  $f$k    $x$b$a  $x  $f    $x
+                    $k    $x      $b  $a$x  $a    $x
+                                $b  $a$x  $a$b  $x
+                              $b  $a  $x  $a  $b$x
+                  $a$b            $a$f$x$f$a$b            $a$x
+                $a  $b$a$b      $a  $f$x$f$a  $b      $a$b$a  $x
+              $a$b$f$b$f$b    $a    $f$c$f$a    $b    $f$b$f$g$a$x
+              $f$a$f$a$f$a$f        $k$c$k$f        $a$f$a$f$a$f$x
+              $k              $c                $k              $x
+EOC

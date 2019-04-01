@@ -22,7 +22,7 @@ COWS=(
 "mew" "mewtwo" "kirby" "metaknight"
 
 #Sonic
-"sonic" "sonic2" "tails" "tails2" "knuckles2" "shadow" "knuckles"
+"sonic" "sonic2" "sonic3" "tails" "tails2" "knuckles2" "shadow" "knuckles"
 
 #Bob's Burgers
 "bob" #"louise" "tina" "gene" "linda"
@@ -88,6 +88,7 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil" "cthulhu" "bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
+"garfield"
 "lahey-sm"
 "doc-and-marty-sm"
 "neo" "agent-smith" "smith" "morpheus"
@@ -108,6 +109,7 @@ COWS=(
 "carl-sm" "carl-sm" "carl-sm"
 "snowball-sm" "snowball-sm"
 "deadpool-face" "deadpool-face"
+"garfield"
 )
 
 #Cows used for displaying error messages with errorsay
