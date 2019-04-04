@@ -12,14 +12,14 @@ COWS=(
 "zorak" #"ignignokt" "err"
 
 #Nintendo
-"link" "link2" "zelda" "sheik"
+"link" "link2" "zelda" "sheik" "skull-kid"
 "mario" "luigi" "super-mario-world" "yoshi"
-"falco" "starfox" "starfox3"
+"falco-sm" "starfox" "starfox3"
 "marth" "ROB" "captain-falcon"
 "donkeykong" "megaman" "ness"
 "dr-mario" "pikachu"
 "samus" "samus2" "samus3" "samus4"
-"mew" "mewtwo" "kirby" "metaknight"
+"mew" "mewtwo" #"kirby" "metaknight"
 
 #Sonic
 "sonic" "sonic2" "sonic3" "tails" "tails2" "knuckles2" "shadow" "knuckles"
@@ -38,29 +38,31 @@ COWS=(
 "47" "hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
 "deadspace-sm" "freeman-face" #"freeman" "freeman2"
 "lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
-"bioshock" "deus-ex-sm" "deus-ex2"
+"bioshock" "deus-ex-sm" #"deus-ex2"
 
 #Team Fortress
-"tf2-spy-sm" "tf2-spy2-sm" "tf2-medic-sm" "tf2-heavy" "tf2-demo-sm"
-"tf2-sniper-sm" "tf2-scout-sm" "tf2-engineer-sm" "tf2-pyro" "tf2-soldier-sm"
+"tf2-engineer-sm" "tf2-pyro"
+"tf2-spy-sm" "tf2-spy2-sm" #"tf2-medic-sm" "tf2-heavy" "tf2-demo-sm"
+#"tf2-sniper-sm" "tf2-scout-sm" "tf2-soldier-sm"
 
 #Metal Gear Solid
 "gray-fox" "solid-snake"
 
 #Star Wars
-"r2d2-c3po" "boba-fett-sm" "solo" "atst-atat" "chewbacca"
-"phasma-sm" "obi-wan-sm" "darth-vader-sm" "yoda"
-"palpatine-sm" "stormtrooper" #"vader"
+"r2d2-c3po" "boba-fett-sm" "atst-atat" "chewbacca"
+"phasma-sm" "obi-wan-sm" "darth-vader-sm"
+"yoda" "ewok"
+"palpatine-sm" "stormtrooper" #"vader" "solo"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
-"grunty" "humba-wumba" "bottles" "jamjars"
+"bottles" "jamjars" #"grunty" "humba-wumba"
 
 #Super Heroes
 "superman" "batman" "superman-batman"
 "ironman-sm" #"ironman2" "ironman3"
 "batman2" "spiderman" "deadpool" "deadpool-face"
-"captain-america-sm" "thor-sm" "hulk"
+"captain-america-sm" #"thor-sm" "hulk"
 
 #South Park
 "chef" "cartman" "kenny" "kyle" "stan"
@@ -85,28 +87,30 @@ COWS=(
 #Life & Times of Tim
 "tim" "the-boss"
 
+#Cartoons
+"garfield" "donald-duck" "taz" "roadrunner" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
+"homer-simpson" "bart"
+"aladdin" "buzz-lightyear-sm"
+
 #Misc
-"fsm" "good-vs-evil" "cthulhu" "bsod" "death"
+"fsm" "good-vs-evil" "cthulhu" #"bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
-"garfield"
 "lahey-sm"
 "doc-and-marty-sm"
-"neo" "agent-smith" "smith" "morpheus"
-"milton-sm" "lumbergh-sm"
-"ron-swanson" "gandalf" "alf"
-"indiana-jones" "aladdin" "buzz-lightyear-sm"
-"robocop-sm" "robocop2-sm" "terminator-sm"
-"bart" "donald" "donald-hat" "mike-tyson-sm"
-"homer-simpson" #"walter-white"
+"neo" "agent-smith" "smith" #"morpheus"
+#"milton-sm" "lumbergh-sm"
+"ron-swanson" #"gandalf" "alf"
+"indiana-jones"
+"terminator-sm" #"robocop-sm" "robocop2-sm"
+"donald" "donald-hat" #"mike-tyson-sm"
+#"walter-white"
 "bobross" "bobross2" "deadpool-bob-ross"
 "strongbad" "homestar" "cheat"
-"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "hobo" "sleepycat"
 
 #Increased Frequency duplicates
 "lahey-sm" "lahey-sm"
-"deus-ex-sm" "deus-ex2"
-"carl-sm" "carl-sm" "carl-sm"
+"skull-kid" "skull-kid" "skull-kid"
 "snowball-sm" "snowball-sm"
 "deadpool-face" "deadpool-face"
 "garfield"
