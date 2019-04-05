@@ -16,10 +16,22 @@
       return range;
     }
 
+    function isFullColor() {
+      return document.getElementById("fullColor").checked || false;
+    }
+
+    function getAuthorName() {
+      return document.getElementById('authorName').value || '<authorName>';
+    }
+
     function bashColor(px) {
-      var pxColor = rgbToHex({r: px[0], g: px[1], b: px[2]});
-      var foundColor = nearestColor.BASH_MAP[nearestColor(pxColor)];
-      return foundColor;
+      if (isFullColor()) {
+        return px[0] + ';' + px[1] + ';' + px[2];
+      } else {
+        var pxColor = rgbToHex({r: px[0], g: px[1], b: px[2]});
+        var foundColor = nearestColor.BASH_MAP[nearestColor(pxColor)];
+        return foundColor;
+      }
     }
 
     function download(data, filename, type) {
@@ -40,23 +52,16 @@
       }
     }
 
-    var authorName = '<authorName>';
-
     var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
     'p', 'q', 'r', 's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
-    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-    'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap',
-    'aq', 'ar', 'as', 'at', 'au', 'av', 'aw', 'ax', 'ay', 'az', 'ba', 'bb', 'bc', 'bd', 'be', 'bf',
-    'bg', 'bh', 'bi', 'bj', 'bk', 'bl', 'bm', 'bn', 'bo', 'bp', 'bq', 'br', 'bs', 'bt', 'bu', 'bv',
-    'bw', 'bx', 'by', 'bz', 'ca', 'cb', 'cc', 'cd', 'ce', 'cf', 'cg', 'ch', 'ci', 'cj', 'ck', 'cl',
-    'cm', 'cn', 'co', 'cp', 'cq', 'cr', 'cs', 'ct', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'da', 'db',
-    'dc', 'dd', 'de', 'df', 'dg', 'dh', 'di', 'dj', 'dk', 'dl', 'dm', 'dn', 'do', 'dp', 'dq', 'dr',
-    'ds', 'dt', 'du', 'dv', 'dw', 'dx', 'dy', 'dz', 'ea', 'eb', 'ec', 'ed', 'ee', 'ef', 'eg', 'eh',
-    'ei', 'ej', 'ek', 'el', 'em', 'en', 'eo', 'ep', 'eq', 'er', 'es', 'et', 'eu', 'ev', 'ew', 'ex',
-    'ey', 'ez', 'fa', 'fb', 'fc', 'fd', 'fe', 'ff', 'fg', 'fh', 'fi', 'fj', 'fk', 'fl', 'fm', 'fn',
-    'fo', 'fp', 'fq', 'fr', 'fs', 'ft', 'fu', 'fv', 'fw', 'fx', 'fy', 'fz', 'ga', 'gb', 'gc', 'gd',
-    'ge', 'gf', 'gg', 'gh', 'gi', 'gj', 'gk', 'gl', 'gm', 'gn', 'go', 'gp', 'gq', 'gr', 'gs', 'gt',
-    'gu', 'gv', 'gw', 'gx', 'gy', 'gz'];
+    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+    // add shitload of extra variable names for full color support
+    each('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', l1 => {
+      each('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', l2 => {
+        varNames.push(l1 + l2);
+      });
+    });
 
     function convert() {
         var file = document.getElementById('file').files[0];
@@ -97,7 +102,11 @@
                       varName = varNames[colorCount];
                       colorCount++;
                       varMap[foundColor] = varName;
-                      cowFileVars += '$' + varName + ' = "\\e[48;5;' + foundColor + 'm  ";\n';
+                      if (isFullColor()) {
+                        cowFileVars += '$' + varName + ' = "\\e[48;2;' + foundColor + 'm  ";\n';
+                      } else {
+                        cowFileVars += '$' + varName + ' = "\\e[48;5;' + foundColor + 'm  ";\n';
+                      }
                     }
                     cowFile += '$' + varName;
                   } else {
@@ -115,7 +124,7 @@
                 cowFile += '\n';
               });
               var name = file.name.substring(0, file.name.lastIndexOf('.'));
-              var outFile = '# ' + name + '\n# by ' + authorName +
+              var outFile = '# ' + name + '\n# by ' + getAuthorName() +
                             '\n# Generated with Charc0al\'s cowsay file converter http://charc0al.github.io/cowsay-files/converter\n\n' +
                             cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + 'EOC\n';
               download(outFile, name + '.cow', 'text');
@@ -129,6 +138,14 @@
     <h1>Charc0al's cowsay file converter</h1>
     <div>
       <input type=file name=filename id=file>
+    </div>
+    <br/>
+    <div>
+      <input type="checkbox" id="fullColor"> Use full 24-bit color
+    </div>
+    <br/>
+    <div>
+      by <input type="text" id="authorName" placeholder="Author Name">
     </div>
     <br/>
     <div>
