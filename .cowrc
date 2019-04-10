@@ -74,7 +74,7 @@ COWS=(
 "charlie-brown" "snoopy"
 
 #Seinfeld
-"larry"  "kramer" "newman" "larry2" "seinfeld"
+"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
 
 #Game of Thrones
 "john-snow-sm" "tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
@@ -107,6 +107,7 @@ COWS=(
 "bobross" "bobross2" "deadpool-bob-ross"
 "strongbad" "homestar" "cheat"
 "hobo" "sleepycat"
+"tobias"
 
 #Increased Frequency duplicates
 "samus-cannon" "samus-cannon" "samus-cannon"
@@ -115,6 +116,10 @@ COWS=(
 "taz" "taz" "taz"
 "skull-kid" "skull-kid"
 "garfield" "garfield"
+
+"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
+"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
+"tobias" "tobias" "tobias"
 )
 
 #Cows used for displaying error messages with errorsay
