@@ -12,7 +12,8 @@ COWS=(
 "zorak" #"ignignokt" "err"
 
 #Nintendo
-"link" "link2" "zelda" "sheik" "skull-kid"
+"link" "link2" "zelda" #"sheik"
+"skull-kid"
 "mario" "luigi" "super-mario-world" "yoshi"
 "falco-sm" "starfox" "starfox3"
 "marth" "ROB" "captain-falcon"
@@ -35,8 +36,8 @@ COWS=(
 "wally" "dogbert" "catbert"
 
 #PC games
-"47" "hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
-"freeman-face" #"freeman" "freeman2" "deadspace-sm"
+"47" "hitman-sm" #"doomguy" "doomkart" "assassin" "assassin2"
+"freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
 "lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
 "bioshock" "deus-ex-sm" #"deus-ex2"
 
@@ -49,9 +50,9 @@ COWS=(
 "gray-fox" "solid-snake"
 
 #Star Wars
-"r2d2-c3po" "boba-fett-sm" "atst-atat" "chewbacca"
-"phasma-sm" "obi-wan-sm" "darth-vader-sm"
-"yoda" "ewok"
+"r2d2-c3po" "boba-fett-tc" "atst-atat" "chewbacca"
+"phasma-sm" "obi-wan-tc" "darth-vader-sm"
+"yoda" "ewok" "jawa-engineer"
 "palpatine-sm" "stormtrooper" #"vader" "solo"
 
 #Banjo Kazooie
@@ -74,10 +75,10 @@ COWS=(
 "charlie-brown" "snoopy"
 
 #Seinfeld
-"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
+"larry" "kramer" "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
 
 #Game of Thrones
-"john-snow-sm" "tyrion" "danerys-sm" "hodor-sm" "the-hound-sm"
+"john-snow-sm" "tyrion-tc" "danerys-sm" "hodor-tc" "the-hound-tc"
 "khal-drogo-sm" "white-walker-sm" "melisandre" "tywin-sm" "joffrey"
 
 #TMNT
@@ -90,15 +91,16 @@ COWS=(
 #Cartoons
 "garfield" "donald-duck" "taz" "roadrunner" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "homer-simpson" "bart"
-"aladdin" "buzz-lightyear-sm"
+"aladdin" #"buzz-lightyear-sm"
 
 #Misc
 "fsm" "good-vs-evil" "cthulhu" #"bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
-"lahey-sm"
+"lahey-sm" "lahey-tc"
 "doc-and-marty-sm"
 "neo" "agent-smith" "smith" #"morpheus"
-#"milton-sm" "lumbergh-sm"
+#"milton-sm"
+"lumbergh-tc"
 "ron-swanson" #"gandalf" "alf"
 "indiana-jones"
 "terminator-sm" #"robocop-sm" "robocop2-sm"
@@ -110,15 +112,10 @@ COWS=(
 "tobias"
 
 #Increased Frequency duplicates
-"samus-cannon" "samus-cannon" "samus-cannon"
-"ewok" "ewok" "ewok"
-"roadrunner" "roadrunner" "roadrunner"
-"taz" "taz" "taz"
-"skull-kid" "skull-kid"
-"garfield" "garfield"
+"lahey-tc" "lahey-tc" "lahey-tc"
 
-"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
-"larry"  "kramer" "newman" "larry2" "jerry" "costanza" "elaine"
+"larry"  "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
+"larry"  "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
 "tobias" "tobias" "tobias"
 )
 

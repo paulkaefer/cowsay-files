@@ -1,0 +1,84 @@
+# Hodor (Game of Thrones) - true color
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;145;163;193m  ";
+$b = "\e[48;2;136;124;138m  ";
+$c = "\e[48;2;92;90;80m  ";
+$d = "\e[48;2;46;63;64m  ";
+$e = "\e[48;2;37;23;61m  ";
+$f = "\e[48;2;254;254;254m  ";
+$g = "\e[48;2;167;94;45m  ";
+$h = "\e[48;2;238;195;154m  ";
+$i = "\e[48;2;246;164;86m  ";
+$j = "\e[48;2;223;113;38m  ";
+$k = "\e[48;2;50;60;57m  ";
+$l = "\e[48;2;102;57;49m  ";
+$m = "\e[48;2;69;40;60m  ";
+$n = "\e[48;2;81;29;51m  ";
+$o = "\e[48;2;212;140;0m  ";
+$p = "\e[48;2;124;66;28m  ";
+$q = "\e[48;2;89;86;82m  ";
+$r = "\e[48;2;255;226;137m  ";
+$s = "\e[48;2;109;109;109m  ";
+$u = "\e[48;2;255;170;7m  ";
+$v = "\e[48;2;255;211;77m  ";
+$w = "\e[48;2;0;0;0m  ";
+
+$the_cow = <<EOC
+          $t          $a$b$c$d  $x
+            $t      $a$d  $e$d  $e$x                  $f$a    $x
+              $t  $d$b$d$g$e      $x              $f$a$b        $x
+                $t$b$d$e$h$f$e    $x            $f$b  $a$b$a$b$a$b$x
+                $d$c$d$e$i  $h$e$x            $f$b    $h        $b$x
+                  $d  $e$j$i$j$g$x            $a$b  $h$k    $h$k$x
+                    $d$e$l$i$h$m$x            $a$h$b$h$f$j$i$h$f$x
+                      $n$l$g$m    $x        $a$b$i$b$h  $i  $h$j$x
+                  $o  $e$m    $e$p  $x  $a$d$a$b$c$b$i  $j$k$q$j$b$x
+                $o$p  $n$e$m$e  $n    $f$d$b$d$j$c$b$c$i$k$i  $c$b$x
+              $b$p      $e      $n$a$f$d$b$c  $e$i$b  $d$b    $c$b$x
+            $a$c    $n$p  $e$r  $a$d  $n$c  $b$e$j$a$b    $c  $b  $x
+          $a$c$d$c  $n  $r  $o  $d$b  $d$n$d$c$b$e$b$a$b  $a  $b  $e$x
+          $a$c  $d$n$a$d$o        $c    $n$d$c  $a$e  $b$a    $b$d$c$e$x
+          $b$c$b  $a$d$b$c$d$c$o    $c  $d$c$d$c  $a$b$e    $n    $c$e$x
+          $c      $d  $c    $d$c$p$o  $c    $n$d$c    $b  $d$n  $d$c$p$e$x
+            $c$h    $a$b  $d$c$d$c$p$o$c    $d$c$d$c      $b  $c  $d$p$e$x
+            $d$h$i$g$i$b$c    $d$c$p  $c    $d$c$d$n$c    $d  $n$d  $n$p$e$x
+          $f$d  $g$i$d$b$c    $d$c$p  $o$c      $d$c$d$n  $c$d$n$d$c$n$p$e$x
+          $a$d$b$d  $b$c    $d$c$d$c$p  $c      $d$c$d      $n    $d  $p$e$x
+        $a$d$b      $c  $b    $c$d  $p  $d$c        $d$c$d$c$d        $p$e$x
+        $a$d$b  $c    $b    $c  $d$e$d$p$d$c        $d$c    $d      $c$p$e  $x
+        $a$d$c    $b      $c  $d$e  $a$p$b$d$c                  $d  $c$e    $x
+        $a$c            $d    $e  $d$b$n$c$d$c$d$c              $d  $c$e    $x
+        $a$c        $b$c    $e    $d$c    $d    $c  $d$c        $d  $c$e    $x
+        $a$c          $b$c  $e    $d$n$p$n$d  $n$c  $d$c$d$c  $d    $p$e  $x
+        $b$c  $b$c$d$c$b  $c$e$n  $p  $n$d    $n$d  $a$b$d$c$d    $p$e    $x
+      $a$b$c  $b$c$d$c    $e      $n  $p    $o      $b$n    $o  $n$p$e    $x
+      $a$c        $d  $c$e          $n    $p  $n$p$n$b$a  $p$n$p$n$p$e    $x
+      $f$c      $b$c$n$c$e      $n      $p          $b$n  $p      $e      $x
+    $f$b$c      $d      $e        $n$e  $n$e    $n$e$b  $c  $e  $n$d$e    $x
+    $a$b$d$c    $b$c$d$e    $n  $d              $c$d$e  $n  $d  $c$d$e      $x
+    $a$c          $d$b  $e$n  $d        $c$d    $c  $d$c    $d$c    $d$e    $x
+    $b$d$c      $d$c$b$c$e$n    $d      $c$d    $c  $d$c    $d$c    $d$e  $n$x
+    $b$d$c        $b  $c$n      $d      $c  $d  $c          $d$c    $d$e$n  $x
+      $d$c        $b$c    $n    $d      $c  $d  $c$d$c      $d$c  $d  $e$n  $e$x
+      $b$d$c          $b$c$n    $d      $c  $d  $c$d  $c    $d        $e$n$e  $x
+      $b$d$c        $b$c    $n    $d    $c  $d          $c$d          $e      $x
+        $b$d$c$d$c  $b  $c  $n    $d  $c  $d    $c$d                  $e    $n$e$x
+        $a$d  $c      $b  $c  $n  $d  $c  $d                  $c$d    $e    $n  $x
+          $a$d  $c    $b$a$b$c$n  $d  $c$d    $n$c$d    $c$d  $c$d  $e      $n  $x
+          $a$d  $c  $b$a$d$b$c  $e        $n$e          $n$e$n    $e      $n    $x
+            $a$d$c$b$c$d$b    $c  $n    $p$n$p  $n$p$o  $n  $p  $n  $e    $n    $x
+            $a$d$c$d  $b$c$d$b  $c$n  $p        $n$p  $n    $p  $n  $e          $x
+              $a$c$d$c  $d$a  $n  $e              $n  $e                        $x
+                $d  $c$d$a$n  $i  $e$d$c$d      $n    $e$d      $n$d  $e        $x
+              $e$d$c  $b$n$i        $d$c$d      $n    $e$d      $n$d  $n  $e    $x
+              $d$e$c$b$n$i    $h  $l$i$c$d      $n$p  $e$d            $p$n  $e  $x
+              $b$e  $c$g$i$h  $g$i$g$d$c$d      $p$n$p$e$d$c$d        $p  $n  $e$x
+              $b$e    $i$h$g$i$g    $c$d        $p  $n$e$d$c$d          $s$n$p$e$x
+              $b$e    $g$i$g    $l$g$c$d        $p    $d  $b$d$c$d      $p    $x
+            $a$b$e      $g  $l$g$l$e  $d      $p      $d  $c  $d        $p$n  $x
+            $a$c$d$e      $g$l$g$e      $o  $p      $o$d  $c  $b$d        $n$x
+EOC
