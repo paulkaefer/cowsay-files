@@ -1,0 +1,53 @@
+# Big Daddy (Bioshock)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;156;121;76m  ";
+$b = "\e[48;2;99;74;41m  ";
+$c = "\e[48;2;61;41;30m  ";
+$d = "\e[48;2;82;78;73m  ";
+$e = "\e[48;2;208;70;72m  ";
+$f = "\e[48;2;39;37;36m  ";
+$g = "\e[48;2;34;39;26m  ";
+$h = "\e[48;2;67;78;50m  ";
+$i = "\e[48;2;138;130;120m  ";
+$j = "\e[48;2;20;20;23m  ";
+
+$the_cow = <<EOC
+              $t                        $a      $x
+                $t                  $a  $x      $a$b  $x      $b$a$b    $x
+                  $t              $a$x        $b$x$b$x$b$x        $c$x
+                    $t          $b$a    $x  $c      $x  $b    $x$c    $x
+                      $t      $a$x  $c  $a  $b  $c    $x$b$x  $a$c$d  $c  $x
+                              $a$x$b      $c$a$c$b  $c    $b$a$c$b$c$d    $c$x
+                            $a$e$b$e  $b    $c$a$b      $c$a$f$c  $b$c      $x
+                          $a$b$a          $b  $c$a$b    $c$a$c$f$c$b$f$c  $x
+                        $a$x$a$c$e  $c$e  $a  $c$b$a$c  $b$c$b  $c$b$f$c  $x
+                          $a  $b$e  $b$e  $c  $a  $b  $f$b  $g$f  $c$f    $x
+                            $a$b              $c$a$b  $f$b$g      $f    $c$f$x
+                          $a$b$e$b$e  $b  $a    $f$c$f$c$b$g        $f    $x
+                            $a            $b$c  $f$c  $b  $h$g  $b    $f  $x
+                              $a$c$b$c  $b  $c$f$c$b$c$b  $g$h$b$a$b    $f$x
+                            $d$a$f$c      $f  $c  $b$c$b$c$g$b$a$b$g    $f$x
+                  $i  $c  $d$f  $a$f      $c    $b  $c$b$c$f  $b$h$g      $x
+                  $i$f$i$c  $f  $a$b$c        $b  $c    $f    $c$h$g      $x
+                $d  $c$f$d$c  $f  $a$b  $c$b      $c$f$c$b$c$a$c$f$h$a  $b$x
+                $i$c    $f$d$c$f$x$g$a  $b$f$b  $c$b$f$b$g$a$b$f$c$a$b      $x
+              $d  $i$c    $f$d$x  $g$b$c$f$c    $b$c$b$g  $a$b$f$c  $b  $c$b$x
+            $i$d$c  $d$c  $f$d$x$h$g$b$a  $b      $f$b$g    $b  $c$b      $c$x
+            $d$i$c    $d$c$x    $a$g  $b$a$b    $f$b$g          $b          $x
+          $d$c  $d$c  $x        $h$a  $g    $f  $c$b$h$g$a  $b    $c$b      $x
+        $d$i$c    $d$x          $h$g  $a$b  $c      $a  $g      $b$c        $x
+        $d$c$d$c$x              $h$g        $x      $h$g        $x$c      $x
+      $i$c    $x                  $h$g    $x        $h$g      $x
+      $c$d$x                      $h$g  $b$x          $h$g  $b$x
+    $d$x                        $a$b$a  $g$x          $a  $b$a$g$x
+                                $a$b$g  $c$x          $a  $b$g  $x
+                                  $b$c    $x            $g    $c$b$x
+                            $a  $c      $b  $x            $b$c  $b$c$x
+                          $a  $b  $c    $b  $j$x      $a      $c$b$c$j$x
+                        $j$b      $c    $j      $x  $a      $b  $c$j    $x
+                                                  $j$b          $j  $x
+EOC

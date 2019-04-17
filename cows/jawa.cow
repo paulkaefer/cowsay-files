@@ -1,0 +1,83 @@
+# Jawa (Star Wars)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;58;32;28m  ";
+$b = "\e[48;2;120;73;62m  ";
+$c = "\e[48;2;154;94;70m  ";
+$d = "\e[48;2;92;50;46m  ";
+$e = "\e[48;2;131;75;54m  ";
+$f = "\e[48;2;27;21;25m  ";
+$g = "\e[48;2;44;35;40m  ";
+$h = "\e[48;2;56;30;41m  ";
+$i = "\e[48;2;38;19;30m  ";
+$j = "\e[48;2;68;32;30m  ";
+$k = "\e[48;2;104;55;40m  ";
+$l = "\e[48;2;42;19;19m  ";
+$m = "\e[48;2;77;54;43m  ";
+$n = "\e[48;2;35;21;16m  ";
+$o = "\e[48;2;48;35;27m  ";
+$p = "\e[48;2;16;14;12m  ";
+$q = "\e[48;2;222;188;154m  ";
+$r = "\e[48;2;75;47;62m  ";
+$s = "\e[48;2;73;70;97m  ";
+$u = "\e[48;2;127;114;93m  ";
+$v = "\e[48;2;103;81;67m  ";
+$w = "\e[48;2;71;63;71m  ";
+$y = "\e[48;2;112;109;135m  ";
+$z = "\e[48;2;40;38;56m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                  $a$b  $c  $x
+                    $t                $d$b    $e$c$x
+                      $t            $f$d  $b    $e  $x
+                        $t          $g$h  $d$b    $e  $x
+                          $t        $h    $d  $b  $e    $x
+                                  $i$h    $d  $b  $e    $c$x
+                                  $i$h  $j$d  $b$e      $c  $e$x
+                                $f$h    $j$d  $k  $e    $c    $b$x
+                                $i$h  $a$j  $d  $k  $e    $c  $e  $x
+                                $i$h  $a$j    $d  $k$e            $d$x
+                              $f$h    $a$j    $d  $k  $e          $k$x
+                              $i$h    $l$j        $k                $x
+                              $i$h    $l$j    $d  $k  $e          $k$x
+                              $h  $l    $a$m$d$k    $e    $c      $e$d$x
+                            $f$i  $l  $j$m  $d  $k  $e      $c      $e$x
+                            $i    $l$h$a$j$d  $k                $e$c  $d$x
+                            $i  $h    $a  $d  $j  $n    $o$n$l  $j$e  $b$x
+                          $f$i  $h$l$a  $j  $a$l$f$p              $m$b$e$x
+                          $i      $l  $a  $l  $d$k$p    $f$b$k$n$p$l$k  $x
+                        $g$h$i$l          $p$m$q  $p    $j$q  $o$p$f$j$k$n$x
+                    $r$s  $h$i  $l    $n$f$p$o$u$m$p    $l$v$m$p    $l$k$j$x
+                  $w$y  $r$h$i  $l$a$n$f$p                          $l$k$j$x
+                  $s$y$s$r$h      $n    $p                          $n$k$j$x
+                  $s$y$w$h        $n    $p                        $f$a$k$n$x
+                  $w  $h$i$h  $l  $a  $o$p                        $j$d$b$m$x
+                  $g$w$g$l      $n$l$a$j  $n$p                  $a$k  $v  $x
+                  $g$w$g$l      $n  $l  $a$m$o$p            $n$m$k$j$m  $v$x
+                  $r$w  $n              $l$j$d$m$a$p      $f$a$d$j$m$v$u  $x
+                  $r  $w$r$l$n$l  $n        $l$d$k$b$m$o$k$m$a  $m$u      $x
+                $z$r$o  $a$l$n$l$a$l      $n$l$n$o$k    $d$j$a$o$m$u    $e$m$x
+                $r$h$o$n$g$l$n  $a  $l        $a  $o$a  $j    $m$o  $v$b$c$k$x
+              $g$r$h$z$s$w$g$l$n  $a    $l  $o    $n$l  $j$m    $o$m$e    $k$x
+              $r    $z  $w$g$l$n  $a$j$r$w$s$w    $o  $a$m  $o  $m$e      $b$x
+              $r  $j$z    $g$n      $a$z    $s  $w      $v$m$o$m$k$e        $x
+            $r  $a$d$g        $l$n$l  $g$z      $s    $y$w$g$o  $k$e        $x
+            $r  $m$j$g$f$g$f$g$l  $n$f$p$f    $z    $g  $f$g$w        $v  $u$x
+            $r  $j$d$a  $o$g  $a$h$z$f    $p  $g  $f      $z    $s  $y    $w  $v$x
+            $r    $h    $a$j$a$h$g$z$f      $o$w$o$p      $z      $s  $y$g$p  $g$w$x
+            $r    $h        $l$g$z  $f  $z$g$w$m$o$p    $f$p$f  $z$s  $w$p      $o$x
+              $r  $h      $l  $f  $n$l  $f  $n$g    $f  $p$o  $n  $s  $p        $g$x
+                $h      $l$n$f    $n$l$a$n$f$n$g    $f$z$g$o  $m$j$g$w$g$p    $o$g$x
+                  $h    $n  $f      $n  $f$n    $a$n$f  $o$p$o$d$k$d  $v$g  $w$v$x
+                    $r$h$l$n$f      $n  $f  $n$f  $n  $f$p$n$a$d    $k  $b    $e$x
+                      $h$a$n$f      $n    $p$n      $a$o    $j$k        $e      $x
+                        $l  $n$f    $n      $l  $n$a$o    $l$d$k    $e        $b$x
+                        $f$l$n  $f$n  $l$n  $a$o$n  $o$n  $j$k      $e        $b$x
+                        $f$l    $f$n  $l$a  $j$o$n$p    $n$j$k    $e    $k  $m$x
+                        $i  $n$a  $l$a$j    $a$w  $n    $o$k  $m    $o$x
+                        $f$l$a        $j      $m$w$m  $a$m$k  $a$n$m$o$x
+EOC

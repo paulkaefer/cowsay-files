@@ -5,7 +5,8 @@
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "pickle-rick" "snowball-sm"
-"squanchy" "mr-pb" "plutonian" "pizza-phone" #"dog" "head" "scary-terry" "meeseeks"
+"squanchy" "mr-pb" "plutonian" "pizza-phone"
+"scary-terry-face" #"dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl-sm" "master-shake" "frylock" "meatwad"
@@ -29,7 +30,7 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender-lg" "zoidberg" "zoidberg2" "fry-money"
+"prof" "bender-lg" "zoidberg" "zoidberg2" "fry-money" "hypnotoad-tc"
 
 #Dilbert
 "dilbert" "dilbert-boss"
@@ -39,7 +40,7 @@ COWS=(
 "47" "hitman-sm" #"doomguy" "doomkart" "assassin" "assassin2"
 "freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
 "lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
-"bioshock" "deus-ex-sm" #"deus-ex2"
+"bioshock-tc" "deus-ex-sm" #"deus-ex2"
 
 #Team Fortress
 "tf2-engineer-sm" "tf2-pyro"
@@ -52,7 +53,7 @@ COWS=(
 #Star Wars
 "r2d2-c3po" "boba-fett-tc" "atst-atat" "chewbacca"
 "phasma-sm" "obi-wan-tc" "darth-vader-sm"
-"yoda" "ewok" "jawa-engineer"
+"yoda" "ewok" "jawa-engineer" "jawa"
 "palpatine-sm" "stormtrooper" #"vader" "solo"
 
 #Banjo Kazooie
@@ -60,16 +61,16 @@ COWS=(
 "bottles" "jamjars" #"grunty" "humba-wumba"
 
 #Super Heroes
-"superman" "batman" "superman-batman"
+"superman" "superman-batman" "batman-animated-sm" #"batman" "batman2"
 "ironman-sm" #"ironman2" "ironman3"
-"batman2" "spiderman" "deadpool-face" #"deadpool"
+"spiderman" "deadpool-face" #"deadpool"
 "captain-america-sm" #"thor-sm" "hulk"
 
 #South Park
 "chef" "cartman" "kenny" "kyle" "stan"
 
 #Scientists
-"hawking-sm" "einstein-sm" "einstein-face" "darwin-sm" "tesla-sm"
+"hawking-sm" "einstein-sm" "einstein-face-tc" "darwin-sm" "tesla-sm"
 
 #Peanuts
 "charlie-brown" "snoopy"
@@ -91,7 +92,7 @@ COWS=(
 #Cartoons
 "garfield" "donald-duck" "taz" "roadrunner" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "homer-simpson" "bart"
-"aladdin" #"buzz-lightyear-sm"
+"aladdin" "jafar" #"buzz-lightyear-sm"
 
 #Misc
 "fsm" "good-vs-evil" "cthulhu" #"bsod" "death"
@@ -110,19 +111,20 @@ COWS=(
 "strongbad" "homestar" "cheat"
 "hobo" "sleepycat"
 "tobias"
+"mr-robot-hal"
 
 #Increased Frequency duplicates
-"lahey-tc" "lahey-tc" "lahey-tc"
-
+"lahey-tc" "lahey-tc"
 "larry"  "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
-"larry"  "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
-"tobias" "tobias" "tobias"
+"tobias" "tobias"
+"mr-robot-hal"
 )
 
 #Cows used for displaying error messages with errorsay
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu" "palpatine-sm"
-"doomkart2" "bioshock" "taz"
+"doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
+"mr-robot-hal"
 )
 
 COWSAY_FILES=$(dirname "$0")

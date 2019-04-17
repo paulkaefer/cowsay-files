@@ -1,0 +1,57 @@
+# Jafar (Aladdin)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;160m  ";
+$e = "\e[48;5;215m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;178m  ";
+$h = "\e[48;5;130m  ";
+$i = "\e[48;5;226m  ";
+
+$the_cow = <<EOC
+$x          $t
+              $t      $a$b$a$c$x
+                $t  $a  $b$a$c  $x
+                  $t$a$b$a  $d$c$x
+                    $a$b$a$b$c$d$x
+                    $a      $c$d$x
+                    $a$b$a  $d$c$x
+                    $e$a$f$c    $x
+                    $e$f$e$d$c$x
+                    $f    $d  $x
+                    $a$e  $d  $x
+                  $e$f$a$e$d  $x
+          $a  $x  $a    $e$d    $x      $c    $x  $g  $x
+          $a      $b  $e  $d    $c            $x$g  $h$g  $x
+            $a    $b$a$e$a$d  $c        $b$c$x  $g    $h  $g$x
+            $b$a  $b$a$e$a$d$c    $d$b$c  $x      $h      $g$x
+          $b    $a      $c      $d  $b$c$x        $h$g    $x
+      $b        $a      $c    $b$d  $b$c$x      $g    $x
+    $b      $a$b  $a  $c    $b  $d  $b$c$x    $f$g  $x
+    $b    $d$a$b  $a  $c    $b    $d      $x  $f    $x
+      $b  $d    $b    $d    $b    $d  $f      $e$f  $x
+      $b  $e  $b$e  $i$b          $d  $b$d$x    $g  $x
+        $b  $e      $b$d  $b        $d$b$d$x    $g$x
+        $b      $e$a$c      $b      $d    $x    $g$x
+          $b      $a$c      $b        $d$c  $x$g  $x
+          $b      $a$c        $b        $c  $x$g  $x
+          $a$b  $a  $c        $b          $c$x$g$x
+          $a$b  $a  $c        $b          $c$x$g$x
+          $a$b  $a  $c          $b        $c  $g$x
+          $a$b  $a  $c          $b        $c$g  $x
+          $a$b  $a  $c            $b      $c$g$x
+          $a$b  $a  $c            $b        $g$c$x
+          $a$b  $a  $c              $b      $g$c$x
+          $a$b  $a    $c            $b      $g$c  $x
+        $a  $b  $a    $c              $b    $g$c  $x
+        $a$b    $a    $c                $b$g$b$c    $x
+        $a$b  $a        $c                $g$b$c      $x
+      $a  $h$b$a        $c        $a$g$c  $g$b  $c        $x
+    $a  $x  $h  $a                $g    $c$g$c$x  $c          $x
+EOC
