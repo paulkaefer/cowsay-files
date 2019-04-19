@@ -77,8 +77,8 @@ COWS=(
 "larry" "kramer" "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
 
 #Game of Thrones
-"john-snow-sm" "tyrion-tc" "hodor-tc" "the-hound-tc"
-"khal-drogo-sm" "white-walker-sm" #"melisandre" "tywin-sm" "joffrey" "danerys-sm"
+"john-snow-sm" "tyrion-tc" "hodor-tc" "the-hound-tc" "arya" "ned-stark-sm"
+"khal-drogo-sm" "white-walker-sm" "verys-sm" #"melisandre" "tywin-sm" "joffrey" "danerys-sm"
 
 #TMNT
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
@@ -119,7 +119,7 @@ COWS=(
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu" "palpatine-sm"
 "doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
-"mr-robot-hal"
+"mr-robot-hal" "white-walker-sm"
 )
 
 COWSAY_FILES=$(dirname "$0")
