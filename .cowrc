@@ -93,7 +93,7 @@ COWS=(
 "aladdin" "jafar" #"buzz-lightyear-sm"
 
 #Misc
-"fsm" "good-vs-evil" "cthulhu" #"bsod" "death"
+"fsm" "good-vs-evil" "cthulhu-tc" #"bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
 "lahey-sm" "lahey-tc"
 "doc-and-marty-sm"
@@ -105,7 +105,7 @@ COWS=(
 "terminator-sm" #"robocop-sm" "robocop2-sm"
 "donald" "donald-hat" #"mike-tyson-sm"
 #"walter-white"
-"bobross" "bobross2" "deadpool-bob-ross"
+"bobross-tc" "bobross2" "deadpool-bob-ross"
 "strongbad" "homestar" "cheat"
 "hobo" "sleepycat"
 "tobias"
@@ -117,7 +117,7 @@ COWS=(
 
 #Cows used for displaying error messages with errorsay
 ERROR_COWS=(
-"death" "terminator-sm" "bsod" "cthulhu" "palpatine-sm"
+"death" "terminator-sm" "bsod" "cthulhu-tc" "palpatine-sm"
 "doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
 "mr-robot-hal" "white-walker-sm"
 )
