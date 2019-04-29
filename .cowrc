@@ -29,7 +29,7 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender-lg" "zoidberg" "zoidberg2" "fry-money" "hypnotoad-tc"
+"prof" "bender-md" "zoidberg" "zoidberg2" "fry-money" "hypnotoad-tc"
 
 #Dilbert
 "dilbert" "dilbert-boss"
@@ -42,7 +42,7 @@ COWS=(
 "bioshock-tc" "deus-ex-sm" #"deus-ex2"
 
 #Team Fortress
-"tf2-engineer-sm" "tf2-pyro"
+"tf2-engineer-sm" #"tf2-pyro"
 "tf2-spy-sm" "tf2-spy2-sm" #"tf2-medic-sm" "tf2-heavy" "tf2-demo-sm"
 #"tf2-sniper-sm" "tf2-scout-sm" "tf2-soldier-sm"
 
@@ -50,17 +50,17 @@ COWS=(
 "gray-fox" "solid-snake"
 
 #Star Wars
-"r2d2-c3po" "r2d2" "c3po-color" "boba-fett-tc" "atst-atat" "chewbacca"
+"r2d2-c3po" "r2d2" "c3po-color" "boba-fett-tc" "chewbacca" #"atst-atat"
 "phasma-sm" "obi-wan-tc" "darth-vader-sm"
 "yoda" "ewok" "jawa-engineer" "jawa"
-"palpatine-sm" "stormtrooper" #"vader" "solo"
+#"palpatine-sm" "stormtrooper" "vader" "solo"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
 "bottles" "jamjars" #"grunty" "humba-wumba"
 
 #Super Heroes
-"superman" "superman-batman" "batman-animated-sm" #"batman" "batman2"
+"superman-flying" "superman-batman" "batman-animated-sm" #"batman" "batman2"
 "ironman-sm" #"ironman2" "ironman3"
 "spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor-sm" "hulk"
 
@@ -78,7 +78,7 @@ COWS=(
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc" "the-hound-tc" "arya" "ned-stark-sm"
-"khal-drogo-sm" "white-walker-sm" "verys-sm" #"melisandre" "tywin-sm" "joffrey" "danerys-sm"
+"khal-drogo-sm" "white-walker-sm" "verys-sm" "night-king" #"melisandre" "tywin-sm" "joffrey" "danerys-sm"
 
 #TMNT
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
@@ -119,7 +119,7 @@ COWS=(
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc" "palpatine-sm"
 "doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
-"mr-robot-hal" "white-walker-sm"
+"mr-robot-hal" "white-walker-sm" "night-king"
 )
 
 COWSAY_FILES=$(dirname "$0")
