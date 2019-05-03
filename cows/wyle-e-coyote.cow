@@ -1,0 +1,67 @@
+# Wyle E Coyote
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;99;69;33m  ";
+$b = "\e[48;2;99;101;66m  ";
+$c = "\e[48;2;140;138;99m  ";
+$d = "\e[48;2;33;32;0m  ";
+$e = "\e[48;2;206;170;140m  ";
+$f = "\e[48;2;66;32;33m  ";
+$g = "\e[48;2;239;239;140m  ";
+
+$the_cow = <<EOC
+      $t          $a$d$x
+        $t        $a  $d$x
+          $t      $b$a  $d$x
+            $t    $b$c$a$d$x
+              $t  $a$c$a$d$x
+                  $a$e$b$a$d$x
+                    $a$e$b$d$x              $d              $x
+                    $a$e$c$a$d$x        $a                  $x
+                    $a$e  $a$d$x      $d$a$b$e$c$a$x
+                      $a$e$b$a$d$x  $d$a$c$e  $a$x
+                      $a$e$b$a$d$x  $d$a$c$e  $a$x
+                      $a$e$c$a$d$x  $d$a$c$e$a$x
+                      $a$e  $a$d$x  $a  $e$c$a$x
+                      $a$c$e$a$d$x  $a$b$e$a$x
+                      $a$c$e$a$d  $x$a$c$a$x
+                        $b$c$a$d$a      $d$a    $x
+                          $a$d$e  $d$a  $d$e  $a$x
+                            $b$c$e  $c$a$e  $a$x
+                          $a$d  $f$c$b$e$a$g$d$x
+                        $a  $d  $g$d$f  $d$g$a        $x
+                    $a  $b$c$a$c$g  $e$c$g$c$a  $e    $a$x
+                  $a$e                  $b$a    $e    $b$a$x
+                $a$c$e          $c$f$b$c$e    $c$b$e  $b$a$x
+                  $a$b  $e    $f$e    $b$a$e  $d  $b$c$a$x
+                    $a    $c$e    $c$d    $a  $d    $c$x
+                          $a      $d$c$e  $d        $x
+                            $d    $c$e      $c$a    $d$x
+                          $d$a      $e        $a$d$a$d$x
+                        $d$a  $d$a  $d  $e      $a    $d$x
+                        $d$a  $d$a$d$a  $d$e      $f  $d    $x
+                          $d$a  $d$a$d$a  $f$a  $f$a        $d$x
+                            $d$a$d$a$f$a  $d    $a  $d  $a    $x
+                            $d$a  $d    $f$a    $d$f    $d    $x
+                              $d$a            $d    $a    $d$x
+                              $d$a            $d    $a    $d$x
+                              $d$a      $d    $c  $b$d$a$d  $x
+                                $d$a$d  $a$c$e    $a$x$d  $x
+                                  $d$a    $c$e    $a$x
+                                    $a    $c$e    $a$x
+                                    $a    $e    $c$x
+                                    $a    $e    $a$x
+                                    $a    $e    $a$x
+                                  $d$a    $e    $a$x
+                                  $d$a    $e  $c$a$x
+                                $d$a    $b$e  $a$x
+                      $d        $a      $e  $b$a$x
+                  $d$a      $d  $a    $b$e  $a$d$x
+                  $a      $d$x$d$a    $c  $b$d$x
+                $d$a    $d$x  $d  $a  $c$b$a$d$x
+                $d$a$d$x$d$x    $d$a$d  $a$d$x
+                $a  $d$x        $d$a$d$a  $d$x
+EOC

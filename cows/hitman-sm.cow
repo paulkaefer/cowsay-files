@@ -109,11 +109,4 @@ $the_cow = <<EOC
           $y                                                $M$n  $a$B  $s$G$F$i$y$T$O  $d  $s$k$G$k$d$A    $G$o$k              $G$k                          $o$v    $G$x
           $y                                                $B$A$n$B      $A$f$i$o$T$O  $d$B$d  $s$v$d$A    $G$o$k                $G  $k                      $u$v    $G$x
           $y                                                $B              $F$f$o$T$O  $A$h$d    $A        $G$o$k              $v$k  $G$k                  $o$e$k$v  $G$x
-        $y      $o                $y                      $k$B              $F$i$o$O$R$O$h  $d    $A        $e$o$k                    $G$k                $v$o$G$k$v  $G$x
-        $y    $o                    $y            $o        $u$B            $F$C$o$O$R$O$P$r$d    $A        $o$k                  $v$k$G$k                $u$e$k    $v  $G$x
-        $y    $o$y$o                $y$o                    $u$B            $F$o$O      $t$h$d    $A        $o$k                    $G$k                $v$u$e$k  $v  $u$G$x
-      $y      $o                    $y$o                    $u$B            $C$y$O      $t$h$d  $A          $o$k                    $G$k                $v$o$e$k  $v$e$u$G$x
-      $y        $o$y$o              $y$o                    $k$B    $h  $B  $C$O      $T$O$h$E$d$A          $o$k                  $v$o$k              $v$o$e  $k$o$G$y$v$G$x
-      $y        $o$y$o                $y$o                  $k$B      $h$B  $C$O      $T$O$h$d  $A          $o$k                  $v$u$k              $v$o$G$k$G  $y  $v$G$x
-    $y          $o$y$o                $y$o                    $u$B          $e$O      $T$R$h$d  $A          $o$k                  $u$k                $u$o$e$G$e$y$k    $G$x
 EOC

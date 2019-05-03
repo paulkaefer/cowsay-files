@@ -19,11 +19,12 @@ COWS=(
 "marth" "ROB" #"captain-falcon"
 "donkeykong" "ness" #"megaman"
 "dr-mario" "pikachu"
-"samus" "samus2" "samus3" "samus4" "samus-cannon"
+"samus" "samus3" #"samus2" "samus4" "samus-cannon"
 "mew" "mewtwo" #"kirby" "metaknight"
 
 #Sonic
-"sonic" "sonic2" "sonic3" "tails" "tails2" "knuckles2" "shadow" #"knuckles"
+"sonic" "sonic2" "sonic3" "tails" "tails2" "knuckles2"
+"dr-robotnik" "shadow" #"knuckles"
 
 #Bob's Burgers
 "bob" #"louise" "tina" "gene" "linda"
@@ -32,14 +33,13 @@ COWS=(
 "prof" "bender-md" "zoidberg" "zoidberg2" "fry-money" "hypnotoad-tc"
 
 #Dilbert
-"dilbert" "dilbert-boss"
-"wally" #"dogbert" "catbert"
+"dilbert" "dilbert-boss" "wally" #"dogbert" "catbert"
 
 #PC games
 "47" "hitman-sm" #"doomguy" "doomkart" "assassin" "assassin2"
 "freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
 "lara-croft-sm" "lara-croft2-sm" "tombraider" "leon-sm"
-"bioshock-tc" "deus-ex-sm" #"deus-ex2"
+#"bioshock-tc" "deus-ex-sm" "deus-ex2"
 
 #Team Fortress
 "tf2-engineer-sm" #"tf2-pyro"
@@ -56,7 +56,7 @@ COWS=(
 #"palpatine-sm" "stormtrooper" "vader" "solo"
 
 #Banjo Kazooie
-"banjo-kazooie" "mumbo-jumbo" "banjo" "kazooie"
+"banjo-kazooie" "mumbo-jumbo" #"banjo" "kazooie"
 "bottles" "jamjars" #"grunty" "humba-wumba"
 
 #Super Heroes
@@ -68,7 +68,7 @@ COWS=(
 "chef-tc" "cartman" "kenny" "kyle" "stan"
 
 #Scientists
-"hawking-sm" "einstein-sm" "einstein-face-tc" "darwin-sm" "tesla-sm"
+"hawking-sm" "einstein-face-tc" "tesla-sm" #"darwin-sm" "einstein-sm"
 
 #Peanuts
 #"charlie-brown" "snoopy"
@@ -88,20 +88,20 @@ COWS=(
 "tim" "the-boss"
 
 #Cartoons
-"garfield" "donald-duck" "taz" "roadrunner" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
-"homer-simpson" "bart"
-"aladdin" "jafar" #"buzz-lightyear-sm"
+"garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
+#"homer-simpson" "bart"
+"aladdin" "genie-sm" #"jafar" "buzz-lightyear-sm" "rayman"
 
 #Misc
-"fsm" "good-vs-evil" "cthulhu-tc" #"bsod" "death"
+"fsm" "good-vs-evil" #"cthulhu-tc" "bsod" "death"
 "the-dude" "the-jesus" "lebowski-walter"
 "lahey-sm" "lahey-tc"
-"doc-and-marty-sm"
-"neo" "agent-smith" "smith" #"morpheus"
+#"doc-and-marty-sm"
+"neo" "smith" #"morpheus" "agent-smith"
 #"milton-sm"
 "lumbergh-tc"
 "ron-swanson" #"gandalf" "alf"
-"indiana-jones"
+#"indiana-jones"
 "terminator-sm" #"robocop-sm" "robocop2-sm"
 "donald" "donald-hat" #"mike-tyson-sm"
 #"walter-white"
@@ -119,7 +119,8 @@ COWS=(
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc" "palpatine-sm"
 "doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
-"mr-robot-hal" "white-walker-sm" "night-king"
+"mr-robot-hal" "white-walker-sm" "night-king" "wyle-e-coyote2"
+"dr-robotnik" "grunty"
 )
 
 COWSAY_FILES=$(dirname "$0")
