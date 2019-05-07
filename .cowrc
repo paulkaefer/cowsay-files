@@ -13,12 +13,12 @@ COWS=(
 "zorak" #"ignignokt" "err"
 
 #Nintendo
-"link2" #"zelda" "sheik" "skull-kid" "link"
+"link-toon-tc" #"zelda" "sheik" "skull-kid" "link" "link2"
 "mario" "luigi" "super-mario-world" "yoshi"
 "falco-sm" "starfox3" #"starfox"
 "marth" "ROB" #"captain-falcon"
-"donkeykong" "ness" #"megaman"
-"dr-mario" "pikachu"
+"ness" #"megaman" "donkeykong" "dr-mario" 
+"pikachu" "pikachu-jason"
 "samus" "samus3" #"samus2" "samus4" "samus-cannon"
 "mew" "mewtwo" #"kirby" "metaknight"
 
@@ -90,7 +90,7 @@ COWS=(
 #Cartoons
 "garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 #"homer-simpson" "bart"
-"aladdin" "genie-sm" #"jafar" "buzz-lightyear-sm" "rayman"
+"aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
 
 #Misc
 "fsm" "good-vs-evil" #"cthulhu-tc" "bsod" "death"
@@ -120,7 +120,7 @@ ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc" "palpatine-sm"
 "doomkart2" "bioshock-tc" "taz" "jafar" "scary-terry-face"
 "mr-robot-hal" "white-walker-sm" "night-king" "wyle-e-coyote2"
-"dr-robotnik" "grunty"
+"dr-robotnik" "grunty" "pikachu-jason"
 )
 
 COWSAY_FILES=$(dirname "$0")
