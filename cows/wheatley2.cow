@@ -1,0 +1,71 @@
+# Wheatley (Portal 2)
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;251m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;8m  ";
+$e = "\e[48;5;24m  ";
+$f = "\e[48;5;188m  ";
+$g = "\e[48;5;252m  ";
+$h = "\e[48;5;244m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;21m  ";
+$k = "\e[48;5;31m  ";
+$l = "\e[48;5;39m  ";
+$m = "\e[48;5;152m  ";
+
+$the_cow = <<EOC
+              $t
+                $t                                          $a$x
+                  $t              $a              $x        $a$x
+                    $t  $a                          $x    $b$a  $x
+                    $a            $x            $a$b      $x$a  $x
+                  $a    $x                                  $a  $x
+                $b  $a$x                                    $a  $x
+    $a$x      $b$x                                          $a  $x
+      $a$b    $x                                            $a  $x
+      $a  $x                        $c            $x    $c  $a$x
+      $a    $x        $c  $x  $c    $d$c$e$f      $c    $g  $a$x
+        $a  $x      $c$g$c    $f  $e$c  $e$f        $c$g    $a$c$x
+            $a$x  $c$g  $c$f          $c$f        $c$g      $a$g$c$x
+              $a$c$g    $c$f      $c        $f    $c$g    $a  $g  $c$x
+              $c$g    $c$f    $c  $f$c$f    $c  $f$c$g      $a$g    $c$x
+            $c$g      $c$f$c  $f  $c$f          $c  $g                $c$x
+          $c$g          $c$f      $c$f          $h$f$c$g                $i$x
+          $c$g        $c$f      $c        $f    $h$f  $c$g              $i$x
+        $c$g        $c$f    $c  $d        $c  $f  $h$f  $c$g            $i$x
+        $c$g      $c$f    $c$d    $j    $d    $c$f  $h    $c$g        $i    $x
+        $c$g      $c$f  $c$d  $j  $k    $j  $d$c$f        $c$g        $i  $d$i$x
+        $c$g    $c$f    $c$d$j$k  $l    $k  $j$d$c$f      $c$g        $i  $d$i$x
+        $c$g    $c$f  $c$d$j$k  $l$m  $l$k    $j$d$c$f      $c$g      $i  $d$i$x
+      $c$g      $c$f  $c$d$j$k$l  $m  $l  $k  $j$d$c$f      $c$g    $i  $c  $d$i$x
+      $c$g      $c$f  $c$d$j$k$l  $m  $l  $k  $j$d$c$f      $c$g    $i  $c  $d$i$x
+      $c$g      $c$f  $c$d$j$k  $l      $k    $j$d$c$f      $c$g    $i  $d    $i$x
+      $c$g      $c$f    $c$d$j$k            $j$d$c$f      $c$g      $i  $c  $d$i$x
+      $c$g        $c$f  $c$d  $j  $k    $j  $d  $c$f      $c$g      $i  $d  $c$i$x
+      $c$g        $c$f$h$f$c  $d  $j    $d  $c  $f        $c$g      $i  $d    $i$x
+      $c$g        $c$f  $h$f  $c  $d    $c  $f            $c$g      $i  $d  $i$x
+        $c$g      $c  $f  $h$f    $c    $f              $c$g          $i  $d$i$x
+        $c$g      $c$f$c$f        $c$f  $h  $f        $c  $g          $i  $d$i$x
+          $c$g      $c$f$c$f      $c$f  $h  $f      $c$f$c$g          $i      $x
+          $c$g        $c$f$c$f      $c$f        $c  $f$c$g              $i  $x
+            $c$g        $c$f$c    $f$c$f    $c  $f  $c$g                $i$x
+            $c$g        $c$f      $c        $f    $c$g                  $i$x
+              $c$g      $c$f        $c$f        $c$g                  $c$x
+                $c$g  $c$f          $c$f        $c$g      $a  $g    $c$x
+                $a$c$g$c$f            $c$f        $c$g    $a  $g  $c$x
+              $a$x  $c    $f        $c  $f        $c$g      $a$g$c$x
+              $a$x    $c$x$c$f    $c$e$d$c$f        $c$g  $a$b$c$x
+            $a  $x          $c  $f$c$e$d$c$f      $c  $g  $a$c$x
+            $a$x                $c  $e$d$e$c      $x  $c  $a$x
+          $a  $b$x                                      $a$x
+          $a$x  $b  $x$a$x                              $a$x
+                  $b  $a  $x                $a$x      $a  $x
+                    $a        $x        $a    $b      $a  $x
+                          $a                    $x    $a$x
+                            $a            $x
+EOC
