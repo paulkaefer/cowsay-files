@@ -18,9 +18,6 @@ $k = "\e[48;5;231m  ";
 $l = "\e[48;5;88m  ";
 $m = "\e[48;5;238m  ";
 $n = "\e[48;5;66m  ";
-$o = "\e[48;5;187m  ";
-$p = "\e[48;5;174m  ";
-$q = "\e[48;5;217m  ";
 $r = "\e[48;5;125m  ";
 $s = "\e[48;5;131m  ";
 
@@ -60,15 +57,15 @@ $the_cow = <<EOC
     $a  $m    $n  $a$m      $a$n    $a$m  $a$m  $a$g                $a$j  $i  $j    $a$x
         $a    $m  $a  $m  $a$m$n  $a    $m$a$m$a      $g  $a    $g  $a$j$i$j  $a        $x
               $a  $j  $a    $m$n  $a$h  $a  $m$a$g    $a    $n  $a    $j  $a  $b        $a$x
-            $a$j  $i      $a  $m$a$o$h      $a      $g    $a$m  $a$n$a$j$a$d$b            $a$x
-            $a$j$i  $a          $p  $o  $h  $a$n    $a    $g$a  $n  $a      $b            $a$x
-            $a$j  $a$q$h    $a$p        $h$a$h$a$m  $n    $a    $n$a$d$b  $a$b            $a$x
-          $a$j  $a$p                    $q$a$h$a    $m    $n    $a    $d$b  $a$b          $a$x
-          $a$j$a$p                      $a$p$h$a$g  $a    $m    $a$m  $a$b                $a$x
-          $a$j$a$p                      $q  $a$g          $a      $m$a$b                  $a$x
-          $a$j$a$p                      $a                  $l$a    $d$b                $a$x
-          $a$j$a$p              $a      $l  $a$l$a          $r$a$d$b                $a  $x
-            $a$j$a$p      $a    $l$r$a$l$r  $a$r$a        $r  $a    $b          $a  $x
+            $a$j  $i      $a  $m$a$h        $a      $g    $a$m  $a$n$a$j$a$d$b            $a$x
+            $a$j$i  $a          $f  $h      $a$n    $a    $g$a  $n  $a      $b            $a$x
+            $a$j  $a$f$h    $a$f        $h$a$h$a$m  $n    $a    $n$a$d$b  $a$b            $a$x
+          $a$j  $a$f                      $a$h$a    $m    $n    $a    $d$b  $a$b          $a$x
+          $a$j$a$f                      $a$f$h$a$g  $a    $m    $a$m  $a$b                $a$x
+          $a$j$a$f                          $a$g          $a      $m$a$b                  $a$x
+          $a$j$a$f                      $a                  $l$a    $d$b                $a$x
+          $a$j$a$f              $a      $l  $a$l$a          $r$a$d$b                $a  $x
+            $a$j$a$f      $a    $l$r$a$l$r  $a$r$a        $r  $a    $b          $a  $x
               $a          $l      $r$a  $r  $a$r          $a    $g$a                $x
                 $a$l$a      $l    $r$a$g$a                $g          $a$g        $a  $x
 EOC

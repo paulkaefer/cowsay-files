@@ -4,7 +4,8 @@
 # Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "pickle-rick" "snowball-sm"
+"rick-and-morty-running" "snowball-sm"
+"pickle-rick2-sm" "pickle-rick-body-sm" #"pickle-rick"
 #"squanchy" "mr-pb" "plutonian" "pizza-phone"
 #"scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
@@ -89,7 +90,7 @@ COWS=(
 
 #Cartoons
 "garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
-#"homer-simpson" "bart"
+"catdog" #"homer-simpson" "bart"
 "aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
 
 #Misc
@@ -109,7 +110,8 @@ COWS=(
 "liberty-sm"
 
 #Increased Frequency duplicates
-
+"pickle-rick2-sm" "pickle-rick-body-sm"
+"pickle-rick2-sm" "pickle-rick-body-sm"
 )
 
 #Cows used for displaying error messages with errorsay

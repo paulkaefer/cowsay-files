@@ -13,15 +13,15 @@ $f = "\e[48;5;233m  ";
 $g = "\e[48;5;232m  ";
 
 $the_cow = <<EOC
-                          $t                                                        $a        $x
-                            $t                                                $a    $b        $a$x
-                              $t                                            $a$b                $a  $x
-                                $t                                        $a$b                      $a$x
-                                  $t                                    $a$b                          $a$x
-                                    $t                                $a$b                              $a$x
-                                      $t                            $a$b                                $a$x
-                                        $t                        $a$b                                  $a$x
-                                          $t                    $a      $b          $a$b                $a$x
+                                      $t                                            $a        $x
+                                        $t                                    $a    $b        $a$x
+                                          $t                                $a$b                $a  $x
+                                            $t                            $a$b                      $a$x
+                                              $t                        $a$b                          $a$x
+                                                $t                    $a$b                              $a$x
+                                                  $t                $a$b                                $a$x
+                                                    $t            $a$b                                  $a$x
+                                                      $t        $a      $b          $a$b                $a$x
                                                                 $a$b                  $a$b              $a$x
                                                               $a          $b            $a$b            $a$x
                                                               $a$c$a  $c  $a          $b  $a$b          $a$x

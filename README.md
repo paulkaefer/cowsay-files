@@ -42,7 +42,7 @@ so you can clearly see which pixels are background and which are image. I usuall
 
 Try converting some of the [examples](https://charc0al.github.io/cowsay-files/converter/examples)!
 
-![Bart Simpson](https://charc0al.github.io/cowsay-files/converter/examples/bart.png)
-![Boba-fett](https://charc0al.github.io/cowsay-files/converter/examples/boba-fett.png)
-![Deadpool](https://charc0al.github.io/cowsay-files/converter/examples/deadpool-face.png)
-![Ironman](https://charc0al.github.io/cowsay-files/converter/examples/ironman.png)
+![Bart Simpson](https://charc0al.github.io/cowsay-files/converter/src_images/bart.png)
+![Boba-fett](https://charc0al.github.io/cowsay-files/converter/src_images/boba-fett.png)
+![Deadpool](https://charc0al.github.io/cowsay-files/converter/src_images/deadpool-face.png)
+![Ironman](https://charc0al.github.io/cowsay-files/converter/src_images/ironman.png)
