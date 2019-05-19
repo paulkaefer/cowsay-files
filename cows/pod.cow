@@ -1,0 +1,18 @@
+# Pod cow file
+# from anteczko/Nier-Automata-Rice
+$the_cow = <<"EOC";
+	   _	\\   /
+          [ ]	 | /
+	  _|_____//
+	 /    \\	 \\
+	|      |  |
+	|      |  |
+	|      |  |
+	|      |  |
+	 \\_____/__/
+          $eyes/\\$eyes
+	 C=(__)==O
+        //      //
+    3===O      //
+	   3===O
+EOC
