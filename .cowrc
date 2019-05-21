@@ -90,11 +90,11 @@ COWS=(
 
 #Cartoons
 "garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
-"catdog" #"homer-simpson" "bart"
+"catdog" "homer-simpson" #"bart"
 "aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
 
 #Misc
-"fsm" "good-vs-evil" #"cthulhu-tc" "bsod" "death"
+"fsm" "good-vs-evil" "jesus-ripped-tc" #"cthulhu-tc" "bsod" "death"
 "the-dude" #"the-jesus" "lebowski-walter"
 "lahey-tc" # "lahey-sm" "doc-and-marty-sm" "walter-white"
 "neo" "smith" #"morpheus" "agent-smith"

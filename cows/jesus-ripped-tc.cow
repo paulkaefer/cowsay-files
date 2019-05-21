@@ -1,0 +1,68 @@
+# Ripped Jesus (unknown origin) - true color
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;170;152;131m  ";
+$b = "\e[48;2;199;168;120m  ";
+$c = "\e[48;2;215;187;130m  ";
+$d = "\e[48;2;215;195;170m  ";
+$e = "\e[48;2;233;172;139m  ";
+$f = "\e[48;2;198;135;95m  ";
+$g = "\e[48;2;149;84;67m  ";
+$h = "\e[48;2;194;133;111m  ";
+$i = "\e[48;2;106;43;35m  ";
+$j = "\e[48;2;132;100;73m  ";
+$k = "\e[48;2;80;44;34m  ";
+
+$the_cow = <<EOC
+                $a  $x                 $t                           $b                  $x
+                $a$c$b$d$x               $t                         $b              $c$b$x
+              $a$d$c$b$c$d  $x             $t                       $b                  $x                                              $b$c$d$x
+              $a$d$c    $d    $x             $t                     $b                  $x                                  $e    $x$b      $d  $x
+            $a  $c  $f    $e$x                 $t                   $b              $c$b$x                                $f$e  $f$e$b      $c$d$x
+            $a$d$c$f$e$f$e$f$x                   $t                 $b                  $x                                $g  $f$e$g  $b    $c$d  $x
+          $a  $d$g$e    $f$g$e$x                   $t               $c$b                $x                                $h$g$e  $g  $i  $b  $c$d$x
+          $a$d$c$g  $f$e$g$f  $x                     $t             $c$b                $x                              $b$f  $h  $e$h$i  $b  $c$d  $x
+          $a$d$c$g    $f$g$f$x                                      $c      $b          $x                            $b    $f$h$g    $i  $b    $c$d$x
+        $a  $d$g$h$f$g$f$x                                        $j      $c    $b      $x                        $b        $g$h  $g$i    $b      $c$x
+        $a$d  $g$h$g  $x                                      $j$i$h$e$d$j$i$c  $b      $x                      $b          $g  $h$g$i  $b      $x
+        $a$d$c$g$h$g    $x                                  $a$j$g$f$e$g$j    $c    $b  $x                $d$c$b          $f$e$g  $i  $e$b    $x
+      $a  $d$c$g$h$g$e$g$x              $c      $b        $c$j$i$h$f  $e$g$k$j  $c  $b          $c            $x$b      $f$e  $g$f$g$b    $x
+      $a$d  $c$g  $h$e$g$h$x          $b                $c  $g$i  $e$g$i$h$k    $c      $b          $c      $b        $e        $f$b  $x
+      $a$d$c$b$j$g$e  $f$h$x          $b              $c    $k$i$e        $k    $c      $b                    $x$b  $e$f$e  $f    $c$x
+    $a  $d$c$j  $g$e    $h  $x        $c$b              $c  $k$g$h$i$e$f$i$k    $c    $b              $f    $x$b$h$f$e      $f$g$x
+    $a$d$c  $j  $g$f  $e  $f$x      $b                  $c  $k$i$g$h  $g$k      $j$c  $f                $e      $f$e  $f    $g$x
+    $a$d  $a$j  $g  $e$h$e$f$h$x    $h$f  $b$e$f      $b  $h$k  $g$i$g$i$k        $h$f$e    $f$g$f$e        $f      $e    $f$x
+    $a$c$x  $j$x$i$g  $f$h  $g$h$x$h$f    $h$g$f$e$f    $e$j$k    $i  $k          $g$e    $h$g$f    $g$i    $f  $e  $f  $g  $x
+    $d  $x        $i$g  $f$e$f  $g$h  $e    $h$g$h$e  $f$h$g$k      $i  $k  $i$g$f  $e  $g$i$e    $g$h$e$h  $e$h$g$f  $g  $x
+                    $i    $g$f    $e$f$e$f  $e  $i$h$f      $h$g$k    $i$g$f        $h$g$i  $h$g$i$e    $g  $f    $g  $x
+                      $i$g$h$e$f$e$f$h$g$h      $i$g  $f        $e$f$g$f    $e  $h$g$i          $h$e$h$f    $g    $x
+                        $i$g$h      $g$h      $g$i    $f        $e  $f  $e      $g$i            $g$f    $g    $x
+                          $i$g    $h$e    $f$g$i  $g$i  $g$f    $e$h  $f$e    $g$i    $g$e$h$i$g          $x
+                              $i$g    $h$g    $i$g$h    $i  $f$e    $h$f$e$f$g$i$g$i$g$e  $g$i$x
+                                  $h    $g  $i$g  $f$h  $g$i  $h$e  $f  $g$i$g$i$g$i$h    $g$x
+                                                $i$g  $i        $h$e  $g$i    $g  $i$h$f$g$i$x
+                                                  $i  $g  $i$g$h$e        $h$g$h$f$h$f$h$i$x
+                                                  $i  $g$i$g  $h$e$h$e    $f        $g$i$x
+                                                    $i$g$i$g  $h$e$h  $e$h    $g      $i$x
+                                                      $g$i$g          $h  $g        $i$g$x
+                                                      $g$i$h$g                          $x
+                                                        $i    $g  $i$g    $h$g        $b$x
+                                                        $h$g  $i$g$i$g  $h$g      $h$g$b$x
+                                                        $g  $h$g        $i  $g    $h$i$b$x
+                                                        $h$i$g$i$g$i$g    $i$g$i$g  $i$b$x
+                                                        $h$i$g  $h$g$h$g        $i$g$i$b$x
+                                                        $g      $h    $g            $i$b$x
+                                                        $g$i  $g$h$e$h$g  $f  $g    $i$b$x
+                                                        $g$i$g  $h$e$h$g  $h$g$i$g  $i$b$x
+                                                        $h$i$g  $h    $g$h$g    $h$i  $b$x
+                                                        $h$g    $h      $g$h$e$g  $i  $b$x
+                                                        $j$a$e$g  $h    $e$f$e$h$g  $i$b$x
+                                                        $d$a$d  $e$h  $e      $g    $i$b$x
+                                                        $a  $d    $e    $f$e$h$i$h  $i$b$x
+                                                      $j$a    $d                $a  $g$b$x
+                                                      $a        $d              $a  $g$b$x
+                                                      $d  $a    $d          $a  $d$a$g$b$x
+EOC
