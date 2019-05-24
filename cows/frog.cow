@@ -1,0 +1,48 @@
+# Meme frog
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;70m  ";
+$b = "\e[48;5;64m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;232m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;32m  ";
+$g = "\e[48;5;130m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t
+            $t
+                  $a      $x$a      $x
+                $a        $b$a        $x
+              $a            $b$a        $x
+            $a    $c    $d$c$b$c    $d$c$x
+          $a      $c    $d  $b$c    $d  $x
+          $a                            $x
+          $a      $e                    $x
+          $a    $e$d                    $x
+          $a      $e                    $x
+            $a                          $x
+              $a                      $x
+              $f  $b        $f  $x
+            $f      $b    $f      $x
+          $f                        $x
+          $a$x$f                $x$b$x
+          $a$x$f                $x$b$x
+          $a$x$f                $x$b$x
+          $a$x$e                $x$b$x
+          $a$x$e                $x$b$x
+          $a$x  $e  $x    $g  $x  $b$x
+          $a$x  $e  $x    $g  $x  $b$x
+            $a$x  $a$x    $b$x  $b$x
+                  $a$x    $b$x
+                  $a$x    $b$x
+                  $a$x    $b$x
+                  $a$x    $b$x
+                  $a$x    $b$x
+                  $a  $x  $b  $x
+EOC
