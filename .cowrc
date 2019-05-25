@@ -78,8 +78,8 @@ COWS=(
 "kramer2" "newman" "larry2" "jerry" "costanza" "elaine" #"kramer" "larry"
 
 #Game of Thrones
-"john-snow-sm" "tyrion-tc" "hodor-tc" "the-hound-tc" "arya" "ned-stark-sm"
-"khal-drogo-sm" "verys-sm" #"night-king" "melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
+"john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-tc" "arya" "ned-stark-sm"
+#"khal-drogo-sm" "verys-sm" #"night-king" "melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
 
 #TMNT
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
@@ -92,10 +92,10 @@ COWS=(
 "garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
 "catdog" "homer-simpson" #"bart"
 "aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
-"stewie" "spongebob" "rocko" "plankton"
+"stewie" #"spongebob" "rocko" "plankton"
 
 #Misc
-"fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" #"cthulhu-tc" "bsod" "death"
+"fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" "raptor-jesus" #"cthulhu-tc" "bsod" "death"
 "the-dude" #"the-jesus" "lebowski-walter"
 "lahey-tc" # "lahey-sm" "doc-and-marty-sm" "walter-white"
 "neo" "smith" #"morpheus" "agent-smith"
@@ -113,7 +113,8 @@ COWS=(
 
 #Increased Frequency duplicates
 "pickle-rick2-sm" "pickle-rick-body-sm"
-"pickle-rick2-sm" "pickle-rick-body-sm"
+"raptor" "raptor" "raptor"
+"raptor-jesus" "raptor-jesus" "raptor-jesus"
 )
 
 #Cows used for displaying error messages with errorsay
@@ -121,10 +122,10 @@ ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc"
 "doomkart2" "bioshock-tc" "mr-robot-hal"
 "wyle-e-coyote2" "taz" "jafar" "scary-terry-face"
-"white-walker-sm" "night-king"
+"white-walker-sm" "night-king" "khal-drogo-sm"
 "dr-robotnik" "grunty" "pikachu-jason"
 "darth-vader-sm" "phasma-sm" "palpatine-sm"
-"roberto"
+"roberto" "raptor"
 )
 
 COWSAY_FILES=$(dirname "$0")
