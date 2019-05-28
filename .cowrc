@@ -39,7 +39,7 @@ COWS=(
 "47" #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
 "freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
 "tombraider" "leon-sm" #"lara-croft-sm" "lara-croft2-sm"
-"wheatley"
+"wheatley" "subzero" "scorpion-sm"
 #"bioshock-tc" "deus-ex-sm" "deus-ex2"
 
 #Team Fortress
@@ -113,8 +113,9 @@ COWS=(
 
 #Increased Frequency duplicates
 "pickle-rick2-sm" "pickle-rick-body-sm"
-"raptor" "raptor" "raptor"
-"raptor-jesus" "raptor-jesus" "raptor-jesus"
+"raptor" "raptor"
+"raptor-jesus"
+"subzero" "subzero" "scorpion-sm" "scorpion-sm"
 )
 
 #Cows used for displaying error messages with errorsay
