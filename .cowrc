@@ -21,7 +21,7 @@ COWS=(
 "ness" #"megaman" "donkeykong" "dr-mario"
 "pikachu" "pikachu-jason"
 "samus" "samus3" #"samus2" "samus4" "samus-cannon"
-#"mew" "mewtwo" "kirby" "metaknight"
+#"mew" "mewtwo" "kirby" "metaknight" "ike"
 
 #Sonic
 "sonic" "sonic3" "tails" "tails2" "knuckles2" "shadow" #"dr-robotnik" "knuckles" "sonic2"
@@ -93,6 +93,7 @@ COWS=(
 "catdog" "homer-simpson" #"bart"
 "aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
 "stewie" #"spongebob" "rocko" "plankton"
+"sylvester"
 
 #Misc
 "fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" "raptor-jesus" #"cthulhu-tc" "bsod" "death"
@@ -105,17 +106,14 @@ COWS=(
 "donald" #"donald-hat" "mike-tyson-sm"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
 #"strongbad" "homestar" "cheat"
-"hobo" "sleepycat"
+"hobo" "hobo2" "sleepycat" "minion" "minion2"
 "tobias"
 "mr-robot-hal"
 "liberty-sm"
 "frog"
 
 #Increased Frequency duplicates
-"pickle-rick2-sm" "pickle-rick-body-sm"
-"raptor" "raptor"
-"raptor-jesus"
-"subzero" "subzero" "scorpion-sm" "scorpion-sm"
+"minion" "minion" "minion" "hobo2" "hobo2" "hobo2"
 )
 
 #Cows used for displaying error messages with errorsay

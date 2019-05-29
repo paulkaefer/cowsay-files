@@ -1,0 +1,208 @@
+# hobo-sit
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;23;30;26m  ";
+$b = "\e[48;2;74;86;85m  ";
+$c = "\e[48;2;41;49;46m  ";
+$d = "\e[48;2;34;40;32m  ";
+$e = "\e[48;2;189;211;211m  ";
+$f = "\e[48;2;108;121;116m  ";
+$g = "\e[48;2;5;8;4m  ";
+$h = "\e[48;2;9;13;8m  ";
+$i = "\e[48;2;69;78;76m  ";
+$j = "\e[48;2;176;189;183m  ";
+$k = "\e[48;2;227;240;241m  ";
+$l = "\e[48;2;55;59;51m  ";
+$m = "\e[48;2;230;252;251m  ";
+$n = "\e[48;2;188;200;199m  ";
+$o = "\e[48;2;80;93;89m  ";
+$p = "\e[48;2;127;140;135m  ";
+$q = "\e[48;2;100;111;107m  ";
+$r = "\e[48;2;17;22;19m  ";
+$s = "\e[48;2;120;132;127m  ";
+$u = "\e[48;2;220;242;241m  ";
+$v = "\e[48;2;249;255;255m  ";
+$w = "\e[48;2;240;253;254m  ";
+$y = "\e[48;2;179;194;194m  ";
+$z = "\e[48;2;212;225;226m  ";
+$A = "\e[48;2;89;106;99m  ";
+$B = "\e[48;2;145;154;150m  ";
+$C = "\e[48;2;220;233;234m  ";
+$D = "\e[48;2;196;209;210m  ";
+$E = "\e[48;2;56;68;64m  ";
+$F = "\e[48;2;152;162;157m  ";
+$G = "\e[48;2;183;203;200m  ";
+$H = "\e[48;2;232;246;247m  ";
+$I = "\e[48;2;212;234;235m  ";
+$J = "\e[48;2;166;187;187m  ";
+$K = "\e[48;2;229;240;234m  ";
+$L = "\e[48;2;253;255;252m  ";
+$M = "\e[48;2;205;226;225m  ";
+$N = "\e[48;2;198;219;218m  ";
+$O = "\e[48;2;165;179;180m  ";
+$P = "\e[48;2;158;171;172m  ";
+$Q = "\e[48;2;17;25;16m  ";
+$R = "\e[48;2;103;117;106m  ";
+$S = "\e[48;2;241;251;245m  ";
+$T = "\e[48;2;204;218;220m  ";
+$U = "\e[48;2;173;186;188m  ";
+$V = "\e[48;2;139;159;158m  ";
+$W = "\e[48;2;222;232;227m  ";
+$X = "\e[48;2;215;224;219m  ";
+$Y = "\e[48;2;207;217;212m  ";
+$Z = "\e[48;2;198;209;203m  ";
+$a0 = "\e[48;2;184;190;179m  ";
+$a1 = "\e[48;2;172;173;163m  ";
+$a2 = "\e[48;2;151;157;147m  ";
+$a3 = "\e[48;2;139;148;143m  ";
+$a4 = "\e[48;2;135;148;149m  ";
+$a5 = "\e[48;2;146;159;159m  ";
+$a6 = "\e[48;2;193;199;188m  ";
+$a7 = "\e[48;2;159;156;142m  ";
+$a8 = "\e[48;2;135;139;129m  ";
+$a9 = "\e[48;2;123;129;119m  ";
+$aa = "\e[48;2;105;111;102m  ";
+$ab = "\e[48;2;134;136;133m  ";
+$ac = "\e[48;2;41;49;40m  ";
+$ad = "\e[48;2;189;188;173m  ";
+$ae = "\e[48;2;108;99;88m  ";
+$af = "\e[48;2;132;128;115m  ";
+$ag = "\e[48;2;142;140;126m  ";
+$ah = "\e[48;2;86;83;71m  ";
+$ai = "\e[48;2;96;95;88m  ";
+$aj = "\e[48;2;116;110;97m  ";
+$ak = "\e[48;2;114;120;111m  ";
+$al = "\e[48;2;59;68;59m  ";
+$am = "\e[48;2;209;215;204m  ";
+$an = "\e[48;2;217;224;213m  ";
+$ao = "\e[48;2;133;125;119m  ";
+$ap = "\e[48;2;111;110;105m  ";
+$aq = "\e[48;2;93;102;100m  ";
+$ar = "\e[48;2;32;37;34m  ";
+$as = "\e[48;2;69;65;50m  ";
+$at = "\e[48;2;89;80;69m  ";
+$au = "\e[48;2;96;88;77m  ";
+$av = "\e[48;2;101;99;86m  ";
+$aw = "\e[48;2;109;112;98m  ";
+$ax = "\e[48;2;203;209;198m  ";
+$ay = "\e[48;2;89;92;92m  ";
+$az = "\e[48;2;162;174;168m  ";
+$aA = "\e[48;2;71;77;68m  ";
+$aB = "\e[48;2;41;33;22m  ";
+$aC = "\e[48;2;74;64;48m  ";
+$aD = "\e[48;2;85;74;59m  ";
+$aE = "\e[48;2;70;76;60m  ";
+$aF = "\e[48;2;199;198;183m  ";
+$aG = "\e[48;2;59;56;38m  ";
+$aH = "\e[48;2;83;74;63m  ";
+$aI = "\e[48;2;79;76;63m  ";
+$aJ = "\e[48;2;68;56;47m  ";
+$aK = "\e[48;2;74;65;55m  ";
+$aL = "\e[48;2;21;31;22m  ";
+$aM = "\e[48;2;226;233;222m  ";
+$aN = "\e[48;2;119;119;113m  ";
+$aO = "\e[48;2;85;70;61m  ";
+$aP = "\e[48;2;38;48;34m  ";
+$aQ = "\e[48;2;50;57;54m  ";
+$aR = "\e[48;2;27;37;38m  ";
+$aS = "\e[48;2;13;22;23m  ";
+$aT = "\e[48;2;55;60;46m  ";
+$aU = "\e[48;2;171;173;170m  ";
+$aV = "\e[48;2;43;43;36m  ";
+$aW = "\e[48;2;78;68;63m  ";
+$aX = "\e[48;2;65;53;36m  ";
+$aY = "\e[48;2;63;67;67m  ";
+$aZ = "\e[48;2;89;82;76m  ";
+$b0 = "\e[48;2;59;48;39m  ";
+$b1 = "\e[48;2;241;248;236m  ";
+$b2 = "\e[48;2;26;33;39m  ";
+$b3 = "\e[48;2;47;47;30m  ";
+$b4 = "\e[48;2;47;41;36m  ";
+$b5 = "\e[48;2;30;33;21m  ";
+$b6 = "\e[48;2;105;104;96m  ";
+$b7 = "\e[48;2;39;32;27m  ";
+$b8 = "\e[48;2;67;47;36m  ";
+$b9 = "\e[48;2;78;62;50m  ";
+$ba = "\e[48;2;166;157;138m  ";
+$bb = "\e[48;2;135;121;102m  ";
+$bc = "\e[48;2;78;77;69m  ";
+$bd = "\e[48;2;152;138;118m  ";
+$be = "\e[48;2;76;55;42m  ";
+$bf = "\e[48;2;79;73;51m  ";
+$bg = "\e[48;2;122;110;94m  ";
+$bh = "\e[48;2;80;61;43m  ";
+$bi = "\e[48;2;75;63;43m  ";
+$bj = "\e[48;2;94;79;70m  ";
+$bk = "\e[48;2;111;99;83m  ";
+$bl = "\e[48;2;58;66;51m  ";
+$bm = "\e[48;2;83;83;75m  ";
+$bn = "\e[48;2;128;140;141m  ";
+$bo = "\e[48;2;66;65;58m  ";
+$bp = "\e[48;2;66;56;58m  ";
+$bq = "\e[48;2;87;56;68m  ";
+$br = "\e[48;2;80;38;50m  ";
+$bs = "\e[48;2;119;132;133m  ";
+$bt = "\e[48;2;103;95;100m  ";
+$bu = "\e[48;2;92;62;64m  ";
+$bv = "\e[48;2;89;90;82m  ";
+$bw = "\e[48;2;78;84;75m  ";
+$bx = "\e[48;2;91;101;90m  ";
+$by = "\e[48;2;65;79;68m  ";
+$bz = "\e[48;2;123;125;122m  ";
+$bA = "\e[48;2;79;85;70m  ";
+
+$the_cow = <<EOC
+              $t                        $a$b$c$x$d$e$f$g    $x
+                $t                  $h$i$j$k$e$l$f$m$n$o$p$q$r$x
+                  $t            $h$c$s$u$v$w  $j$y$m$u  $z$n$A$h$x
+                    $t    $g$c$q$B$j$m$v  $w  $k$u$m  $u$C$D$j$o$x
+                        $E$F$G$u$w$H$w$v    $w  $m    $u$I$z$D$J$q$E$a$x
+                      $c$K$w$L  $w$k$H$w  $H  $w  $k$u  $M$N$D$n$O$P$q$Q$x
+                    $g$G$L    $w$k$C$k$H  $k$C$k  $M$C$I$M$e$G$y$O$R$g$x
+                    $R$L  $v$S$k$C    $k  $C$z$T$D$n  $y$U  $J$U$O$V$E$g$x
+                  $a$W$L$w$K$X$W$C$z$X$Y$X$T$Z$a0$a1  $a2$B$a3$a4$a5$F$a5$P$p$E$h$x
+                  $f$v$w$H$X$W$C$X$a6$a1  $a0    $a7  $a8$a9  $aa$q$a9$a8$ab$a3  $f$ac$x
+                $a$Z$w$W$X  $W  $ad$a8$ae$af$a7    $ag  $a9$a8$q$l  $ah$ai$aj$ak$a9$ak$al$g$x
+                $A$u$H$am  $an$X$a6$ao$i  $ap$ag$a7$a2  $a8  $s$aq$ar$r$as$at$au$av$aw$av$al$h$x
+              $a$j$S$W$ax  $am$ax$a1$ay$c$b$B$a1$Z  $G$az$a8$aA$ar$h  $aB$aC$aD$au$av$ah$aE$h$x
+            $ar$az$S  $W$X$aF      $a1$F$Z$K$an$X  $Y$j$F$a3$aq$ar$aB  $aG$aH$at$au$aH$aI$h$x
+          $r$a3$w$S$K$H$am$ad$am$an$am      $an  $a6$a1  $j$az$F$a3$ak$aI$aJ$aC$aH$at  $aK$aI$aL$x
+        $h$s$m$v$S$aM$S$a6$ax$K  $W$Y$am$ax  $a6$a3$aq$b$ay  $aa$aN$a8$aN$av$aD$aO$aH  $aK$as$aP$x
+        $aQ$W$w$v$S$aM$K$Y$K    $W$X$ax$a6$a0$a2$b$aR$aS  $h$l$ah$aa$a9  $av$aH$aC$aJ$aK  $aT$x
+        $p$w$v  $S$aM$W  $aM$an$W$K$C$Y$n$aU$a3$aq$aR$aS$h  $aV$aW$aN$a5  $a8$av$aC$aX$aJ$aC$aE$x
+        $Z$w$H$v$L$aM$W  $an  $W$K$C$z$D$aU$B$ap$ar$h  $aS$aY$aZ$ap$a4$aU$a3$aa$aH$b0$aJ$aC$aE$x
+        $f$j$k$S$b1$an$am$a6$am$an$K$W$Y$D$y$B$ap$ay$aY$aR$b2$aQ$aY$aW$aZ$ap$a8$F$aN$at    $aC$b3$x
+        $r$G$k$K$b1$aM$ax$a6$am$K$W$X$Y$Z$j$ao$aJ$aY$c$ar  $aQ$b4$aJ$aO$au$aj$a8$ab$au$aH$aC$aX$b5$x
+        $R$Y$Z$W$aM  $an$a0$Y$aM  $X$Z$j$F$b6$aQ$aY$c$aS  $r$b7$b0$aJ$aH$au$av$a9$av$aH$aC$aX$h$x
+        $i  $b$j$K$aM$am$ad$ax$aM$W$Y$a6$a1$ag$ap$ay$aY$c$aR  $c$b7$b0$b8$b9$aK$ah$au  $aC$aX$b3$g$x
+            $g$q$X$W$ax$ad$ax$aM$an$ax$ad$ba$bb$af$ab$f$aq$b  $bc$aJ$b8  $b9$aC$aK$b9$aD$aC$aG$b5$x
+              $c$j$X$ax$ad$aF$an$ax$a6$ba$bd$bb$ag$a8$s$f$q$ap$aW$aO$b8  $be  $aC$b9$aD$bf$b3$h$x
+              $a$az$Y$a6$ad  $ax$aF$a1$bd$bb$bg$af  $aN$ap$b6$ae$aH$aO$b8  $be$bh$b9$aC$aD$bi$b5$x
+            $g$c$U$k$Y$a0$ad$aF$ad$ba$bd$bb  $bg$aj  $ae  $au$bj$aO$be  $bh  $aO$aH$bf$bi$b3$g$x
+            $r$f$N$m  $W$ax$aF$a1$bd  $bb  $bg  $ae$bk  $ae$au$aO  $b9    $aH$aI$bl$aG$b5$g$x
+            $h$c$V$k$m$H$X$a6$a1$a7$ag  $af  $aj  $ae    $au  $at$aH$aK$aH  $aI$d$h  $x
+                $q$z$H$k$X$Z$a0$az$B  $a3$ab$a9$aa$b6  $ai$bm$ah  $at$aI      $d$x
+                $ar$n$m$u$T$Z$y$az$a5  $V$a4$bn$q$i  $E$aY$aV$bo$bc$aI  $bc$bm$ac$x
+                $aQ$e$m$u$z$D$y$U$P$a5  $V$a4$aq$bp$bq$bp$br$b7$as$bc  $aI$aH$aI$l$x
+                $aq$M$u$C$M$D$G$n$O$a5$V$a4  $f$i$bq$br  $aW$bm$bc  $aI  $ah$al$h$x
+              $g$p$u$m$I$z$T$e  $J$a5$P$V$bn$a4$bs$bt$bq$bu$bv$bw$bc$bm$aI  $ah$bl$r$x
+              $g$f$M$m$u$C$z$D$n$y$P$O$P$a4  $bs$f$au$bv$bx$bv$bm$ah      $l$x
+                $a$J$u  $I$T$D$n$G$U$J  $V$bn  $bs$bx$ai$bv$ai$bv$ah      $ac$x
+                  $f$I  $M$T$D$n$G$y$J  $P$a4$bn$bs$q$bv      $bm$ah$au$bm$d$x
+                  $c$T$z$M$T$e$G$y  $U$O$P$a5$a4$bn$aa$ai$bv$bm    $bv  $aA$aL$x
+                    $A$N$z$T$D$y$U$J$y$O$P$a5$a4$s$aa$ai$bv$bm        $aP$x
+                      $q$G$z$D$U    $J$O$P$a5$s$q$bw$bv$ai$bv$aZ$bm$bc$aA$h$x
+                      $h$s$N$D$j$P$f$aq$bs$a4  $A$ac$Q$aA$b6$ai$bm$aI$bc$bl$x
+                      $h$V$I$N$U$F$by$h$a$c$aQ$a$g$x$by$f$b6$bm$aI  $bl$Q$x
+                      $g$o$e$Y$j$F$R$g$x          $i$bz$aa$bm$bc  $aT$h$x
+                        $h$f$D$j$a2$ak$ac$x          $E$f$bx$bA$aA$bo$aL$x
+                        $h$A$D$n$B$ak$bA$g$x        $aQ$bs$bz$b6$bA$l$aP$x
+                        $c$V$z$T$O$a3$o$h$x        $ar$bn  $q$bw$al$ac$Q$g$x
+                      $r$F$C  $T$y$a3$al$x          $h$aq$s$q$bw$aA$bo$ac$Q$x
+                      $c$n$T$D$n$U$a9$aL$x            $c$R$aa$b6$bx$bc$i$aL$x
+                      $a$j  $az$B$F$al$g$x            $g$ac$bv$aN$ai$bw$b$a$x
+                      $g$bx$p$R$by$ac$g$x                  $r$al$bx  $al$h$x
+EOC
