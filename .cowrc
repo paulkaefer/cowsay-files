@@ -40,7 +40,7 @@ COWS=(
 "freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
 "tombraider" "leon-sm" #"lara-croft-sm" "lara-croft2-sm"
 "wheatley" "subzero" "scorpion-sm"
-#"bioshock-tc" "deus-ex-sm" "deus-ex2"
+"vault-boy" #"bioshock-tc" "deus-ex-sm" "deus-ex2"
 
 #Team Fortress
 "tf2-engineer-sm" #"tf2-pyro"
@@ -93,7 +93,7 @@ COWS=(
 "catdog" "homer-simpson" #"bart"
 "aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
 "stewie" #"spongebob" "rocko" "plankton"
-"sylvester"
+"sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "martian"
 
 #Misc
 "fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" "raptor-jesus" #"cthulhu-tc" "bsod" "death"

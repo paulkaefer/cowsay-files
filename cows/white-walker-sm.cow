@@ -79,12 +79,4 @@ $the_cow = <<EOC
       $g$i$o$k  $d    $r$o$p$d$i$j$i$d$i  $d    $i    $p  $o        $i$k$i$j$i  $d$o$r$o$i      $g$i  $o$i        $o$x
       $d$g$o  $k$d  $k$o$p$d$i  $j$i$d$i    $o$d$i    $n$p$o    $i$d$i$r$i$j$o$i$o$k$s$o$i    $o$g$i$k$i          $o$x
       $d$g$i$o  $d  $o  $p$d$i$j  $i$d    $i$o  $i  $n$p$o  $d$i$o$d$r$i  $j$o$i$r$k$s$o$i    $k$i$o$j$i        $o  $x
-      $d$g$i$o  $d  $o$p$d$i$j  $i  $d        $o$i  $p$o$d  $o  $d  $r$d  $j$o$i$s$o$r$d$i    $k$i$j  $i$d$i    $k$o$x
-    $d  $g$j$o  $d  $p$o$d$i$j  $i  $d          $i  $p$d$p$o    $d  $i  $d$j  $i$s$o$k$d$i    $o$i$j$i  $d$i$d$i$k$i$x
-    $d    $g$i$d  $i$p$d$i$j    $i$d                $o$p$o  $d$i$d  $i  $d$i$g$i$r$o  $d$i$j$i$o$i    $d      $k$o$d$x
-    $d    $g$i$d$i$p$o$d$i$j    $d                  $n$o$d  $o$d      $i$d  $g$i$k$o$d$i$j    $i      $d      $k$d$i$x
-    $d    $g$i    $p$d$i$j    $i$d                  $p$d$p$o  $d      $i$d    $g$o  $d$i$j      $i$d          $o$d  $x
-    $d    $g$i  $p$o$d$i$j    $i$x$d                $o$p$o  $d        $i$d    $g$o  $d$j        $d$i$d              $x
-    $d    $g$j$i$p$d$i$j    $i  $x$d                $n$o$d$o$d                $g$o  $d$j      $i    $d              $x
-  $d        $j$p$o$d$i$j    $i$x    $d              $p$d$p$o$d                $g$i$o$d$j      $i  $d              $x
 EOC

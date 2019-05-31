@@ -1,0 +1,72 @@
+# Bugs Bunny (Looney Tunes) - cropped
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;246m  ";
+$c = "\e[48;5;252m  ";
+$d = "\e[48;5;210m  ";
+$e = "\e[48;5;124m  ";
+$f = "\e[48;5;208m  ";
+$g = "\e[48;5;22m  ";
+$h = "\e[48;5;34m  ";
+
+$the_cow = <<EOC
+          $t      $a      $x
+            $t    $a$b    $a$x
+              $t  $a  $b$a$b$a  $x
+                $t  $a$b$a  $b  $a$x                                                                        $a  $x
+                  $t$a  $b$a    $b$a  $x                                                                  $a  $c$a  $x
+                      $a$b$a$d  $a$b  $a$x                                                              $a$c$a$c$a$c$a$x
+                      $a  $b$a$d  $a  $b$a  $x                                                          $a$c$a$c$a$c$a$x
+                        $a  $b$a$d    $a$b  $a$x                                                        $a$c$a$c$a$c$a$x
+                          $a  $b$a$d    $a  $b$a$x                                                      $a$c$a$c$a$c$a$x
+$a  $x                      $a  $b$a$d      $a$b$a$x                                                    $a$c$a$c$a$c$a$x
+$a$b$a    $x                  $a  $b$a$d      $a$b$a$x                                                  $a$c$a$c$a$c$a$x
+$a$b      $a  $x                $a  $b$a$d      $b$a  $x                                                $a$c$a$c$a$c$a$x
+  $a  $b      $a  $x              $a$b  $a$d    $a$b$a  $x                                              $a$c    $a$c$a$x
+      $a$b$a    $b$a    $x          $a  $b$a$d    $a$b$a$x                                              $a$c        $a$x
+      $a  $b$a$d$a  $b  $a        $x  $a$b$a$d    $a$b$a$x                                              $a  $c      $a$x
+          $a$b$a$d  $a  $b        $a      $b$a$d  $a$b$a  $x                                            $a  $c      $a$x$a      $x
+            $a$b$a  $d  $a        $b      $a$b$a$d  $a$b$a$x                                              $a$c        $a$c      $a$x
+              $a$b  $a$d          $a    $b  $a    $d  $a    $x                                            $a$c      $a$c        $a$x
+                $a  $b$a  $d            $a              $b$a$x                                            $a    $c      $a        $x
+                    $a  $b$a    $d            $a$b          $a$x                                          $a$c        $a        $x
+                        $a  $b  $a          $b          $a$b  $a$x                                      $a    $c      $a$x
+                            $a  $b          $a  $b    $a$c$a$b  $a$x                                    $a$c  $a$c  $a  $x
+                              $a                $b  $a$c    $a$b  $a$x                                $a$b$a$c  $a  $x
+                                            $a$b    $a$c    $a$b    $a$x      $a$x                  $a$b    $a    $x
+                                            $a$b    $a$c    $a$b    $a    $x$a  $x$a$x            $a$b      $a$x
+                                            $a  $b  $a$c  $a  $b$a  $c  $a    $x$a  $x          $a$b      $a$x
+                                            $a$c$a$b$a$c$a      $c    $a$c$a$x$a  $x          $a$b      $a$x
+                                            $a$c$a$b$a$c$a    $c    $a$c$a      $x          $a$b      $a$x
+                                            $a$c$a$b$a$c$a  $c  $a      $c$a  $x          $a$b        $a$x
+                                            $a    $b$a    $c  $a    $c$a  $c$a$x        $a$b        $a$x
+                                            $a    $b$a  $c  $a        $c    $a$x      $a$b        $a$x
+                                          $a          $c$a      $c          $a$x    $a$b        $a$x
+                                        $a$c      $a$d$a  $e    $a$c      $a$x    $a$b        $a$x
+                                    $a                $c$a$e    $a$c      $a$x  $a$b        $a$x
+                                        $a$c$a      $c    $a$e  $a$c    $a$x  $a$b          $a$x
+                                        $a  $c$a$c  $a$c  $a$e  $a$c  $a$x  $a$b          $a$x
+                              $a  $x$a    $c$a$c      $a  $e  $a$c  $a$x  $a$b          $a$x
+                      $a      $c  $a$x  $a  $c          $a    $c    $a    $b          $a$x
+                    $a$c          $a$x    $a                $c      $a$b            $a$x
+                    $a$c    $a      $x                    $a$c      $a$b          $a$x
+                  $a$c  $a  $c    $a$x                    $a$c      $a$b          $a$x
+                  $a$c            $a  $x                $a  $c        $a$b      $a$x
+                  $a$c      $a    $f$a$x              $a$b$a$c        $a$b    $a$x
+                $a$c    $a  $c$a$f  $a$x            $a$b  $a$c        $a$b    $a$x
+                $a$c          $a$f  $a$x          $a$b  $a$c  $a$c      $a$b  $a$x
+                  $a$c      $a$f    $a$x        $a$b    $a$c$a$c        $a$b  $a$x
+                    $a      $f      $a$x      $a$b    $a$c  $a$c        $a$b  $a$x
+                    $a$f          $a$b$a$x  $a$b      $a$c$a$c          $a$b  $a$x
+                    $a$f          $a$b  $a  $b        $a$c$a$c          $a$b  $a$x
+                    $a$f  $a  $f  $a$b    $a$b      $a  $c$a$c          $a$b  $a$x
+                    $a$f$a$g$a$f  $a$b            $a$x$a$c              $a$b  $a$x
+                      $a  $g$a$f$a$b            $a$x$a$c                $a$b$a$x
+                        $a$g$a  $x$a$b        $a$x  $a$c                $a$b$a$x
+                        $a$g$a$x    $a$b  $a  $x  $a$c$a$c              $a$b$a$x
+                      $a$g  $a$x      $a  $x    $a  $c$a$c              $a$b$a$x
+EOC
