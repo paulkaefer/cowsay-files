@@ -110,10 +110,15 @@ COWS=(
 "tobias"
 "mr-robot-hal"
 "liberty-sm"
-"frog"
+"frog" "guy-fawkes"
+
+#Sharks
+"shark-dude-tc" "jaws" "shark-smiling" "bruce"
 
 #Increased Frequency duplicates
-"minion" "minion" "minion" "hobo2" "hobo2" "hobo2"
+"minion" "minion"
+"hobo2" "hobo2"
+"shark-dude-tc" "shark-dude-tc"
 )
 
 #Cows used for displaying error messages with errorsay
