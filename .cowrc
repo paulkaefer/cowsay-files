@@ -22,6 +22,7 @@ COWS=(
 "pikachu" "pikachu-jason"
 "samus" "samus3" #"samus2" "samus4" "samus-cannon"
 #"mew" "mewtwo" "kirby" "metaknight" "ike"
+"bomberman2" #"bomberman"
 
 #Sonic
 "sonic" "sonic3" "tails" "tails2" "knuckles2" "shadow" #"dr-robotnik" "knuckles" "sonic2"
@@ -37,7 +38,7 @@ COWS=(
 
 #PC games
 "47" #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
-"freeman-face-tc" #"freeman" "freeman2" "deadspace-sm"
+"freeman-face-tc" "hl2-dog" "vortigaunt" #"freeman" "freeman2" "deadspace-sm"
 "tombraider" "leon-sm" #"lara-croft-sm" "lara-croft2-sm"
 "wheatley" "subzero" "scorpion-sm"
 "vault-boy" #"bioshock-tc" "deus-ex-sm" "deus-ex2"
@@ -95,6 +96,9 @@ COWS=(
 "stewie" #"spongebob" "rocko" "plankton"
 "sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "martian"
 
+#Sharks
+"shark-dude-tc" "jaws" "shark-smiling" "bruce" "hammerhead"
+
 #Misc
 "fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" "raptor-jesus" #"cthulhu-tc" "bsod" "death"
 "the-dude" #"the-jesus" "lebowski-walter"
@@ -112,9 +116,6 @@ COWS=(
 "liberty-sm"
 "frog" "guy-fawkes"
 
-#Sharks
-"shark-dude-tc" "jaws" "shark-smiling" "bruce"
-
 #Increased Frequency duplicates
 "minion" "minion"
 "hobo2" "hobo2"
@@ -125,7 +126,8 @@ COWS=(
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc"
 "doomkart2" "bioshock-tc" "mr-robot-hal"
-"wyle-e-coyote2" "taz" "jafar" "scary-terry-face"
+"bomberman2"
+"wyle-e-coyote2" "taz" "donald-duck-angry" "jafar" "scary-terry-face"
 "white-walker-sm" "night-king" "khal-drogo-sm"
 "dr-robotnik" "grunty" "pikachu-jason"
 "darth-vader-sm" "phasma-sm" "palpatine-sm"

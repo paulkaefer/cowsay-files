@@ -1,0 +1,49 @@
+# Bugs Bunny
+# by Charlie M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;248m  ";
+$b = "\e[48;5;168m  ";
+$c = "\e[48;5;202m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;209m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;23m  ";
+$h = "\e[48;5;59m  ";
+$i = "\e[48;5;241m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t        $a$x
+                $t      $a  $x            $a$x
+                  $t    $a    $x          $a  $x
+                    $t    $a  $x        $a    $x
+                          $a$b$a$x      $a$b$a$x
+                          $a$b$a$x      $a$b$a$x
+                          $a$b  $a$x    $a$b$a$x
+                          $a$b  $a$x  $a$b  $a$x
+                          $a$b  $a$x  $a$b  $a$x
+                          $a$b  $a$x$a$b  $a$x
+                            $a$b$a$x$a$b  $a$x
+                            $a$b$a$x$a$b$a$x
+                            $a$b$a$x$a  $x
+                              $a          $x                $c  $x
+                              $a        $d  $x              $c    $x
+                                $a  $d  $a$d      $x      $a$c  $a  $x  $a$x
+                                $a  $d    $a$x$d    $x    $a              $x                $d      $x
+                              $a      $x$d$a$e$f$d  $x      $a$c$a        $x              $d          $x
+                              $a    $d  $f  $d$f$d  $x      $a$c    $a  $x                $d          $x
+                              $a    $d$f  $d  $f$d$x        $a$c      $x        $a  $x  $a$d          $x
+                              $a    $d  $b    $d  $x        $a  $c  $x        $a      $x$a      $d    $x
+                              $a        $d      $x          $a    $g$x      $a    $h  $a        $d  $x
+                                $a        $d  $a      $x  $a    $x$g  $a  $h$a  $h$a  $h$a    $d  $x
+                                    $a  $h$a  $d    $a  $x$a  $d        $h$a  $h$a    $h$a$d    $x
+                                $a    $h$a      $d                      $a  $h$a$x$a  $h$d  $a$d    $x
+                                $a    $h$a        $d                  $a      $x$a          $d        $x
+                              $i$a  $h$a              $d        $a          $x$a          $d          $x
+                              $a          $x  $a                          $x$d$a          $d          $x
+                              $a      $x        $a                      $x  $d                      $x
+EOC
