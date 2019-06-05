@@ -75,12 +75,14 @@ COWS=(
 #Peanuts
 #"charlie-brown" "snoopy"
 
-#Seinfeld
+#TV Characters
 "kramer2" "newman" "larry2" "jerry" "costanza" "elaine" #"kramer" "larry"
+"tobias" "ron-swanson" "lahey-tc" "toast-tc" "moss" "it-crowd-tc"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-tc" "arya" "ned-stark-sm"
-#"khal-drogo-sm" "verys-sm" #"night-king" "melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
+#"khal-drogo-sm" "verys-sm" #"night-king"
+#"melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
 
 #TMNT
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm"
@@ -97,21 +99,19 @@ COWS=(
 "sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "martian"
 
 #Sharks
-"shark-dude-tc" "jaws" "shark-smiling" "bruce" "hammerhead"
+"shark-dude-tc" "shark-smiling" "bruce" "hammerhead" #"jaws"
 
 #Misc
 "fsm" "good-vs-evil" "jesus-ripped-tc" "raptor" "raptor-jesus" #"cthulhu-tc" "bsod" "death"
 "the-dude" #"the-jesus" "lebowski-walter"
-"lahey-tc" # "lahey-sm" "doc-and-marty-sm" "walter-white"
+# "lahey-sm" "doc-and-marty-sm" "walter-white"
 "neo" "smith" #"morpheus" "agent-smith"
 #"milton-sm"
-"lumbergh-tc"
-"ron-swanson" #"indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
+"lumbergh-tc" #"indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
 "donald" #"donald-hat" "mike-tyson-sm"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
 #"strongbad" "homestar" "cheat"
-"hobo" "hobo2" "sleepycat" "minion" "minion2"
-"tobias"
+"hobo2" "minion" "minion2"
 "mr-robot-hal"
 "liberty-sm"
 "frog" "guy-fawkes"
@@ -119,19 +119,20 @@ COWS=(
 #Increased Frequency duplicates
 "minion" "minion"
 "hobo2" "hobo2"
-"shark-dude-tc" "shark-dude-tc"
+"toast-tc" "toast-tc"
+"moss" "it-crowd-tc"
+"moss" "it-crowd-tc"
 )
 
 #Cows used for displaying error messages with errorsay
 ERROR_COWS=(
 "death" "terminator-sm" "bsod" "cthulhu-tc"
-"doomkart2" "bioshock-tc" "mr-robot-hal"
-"bomberman2"
+"doomkart2" "bioshock-tc" "mr-robot-hal" "bomberman2"
 "wyle-e-coyote2" "taz" "donald-duck-angry" "jafar" "scary-terry-face"
 "white-walker-sm" "night-king" "khal-drogo-sm"
-"dr-robotnik" "grunty" "pikachu-jason"
+"dr-robotnik" "grunty" "pikachu-jason" "mr-x"
 "darth-vader-sm" "phasma-sm" "palpatine-sm"
-"roberto" "raptor"
+"roberto" "raptor" "jaws"
 )
 
 COWSAY_FILES=$(dirname "$0")
