@@ -1,5 +1,5 @@
 # John Snow (Game of Thrones)
-# by Cezary 'Charlie' tuczynski
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color

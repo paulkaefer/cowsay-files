@@ -1,5 +1,5 @@
-# tyrion
-# by Charlie M
+# Tyrion Lannister (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -30,50 +30,50 @@ $y = "\e[48;2;98;98;98m  ";
 $z = "\e[48;2;92;92;92m  ";
 
 $the_cow = <<EOC
-          $t                $a$b$c$a$x                              
-            $t            $d$e$c$e$f$g$b$x                          
-              $t        $d$e$c$a$g$e$b$c$x                          
-                $t      $a$c  $f$e  $g$b$e$x                        
-                  $t  $d$b$f    $h$g$b$g$b$x                        
-                      $d$f  $d$i$e  $f$b$c$x                        
-                      $a$b$f$a$i$e  $f  $g$x                        
-                      $c$b$f$d$a$e  $f  $g$x                        
-                        $e$f$g  $b  $f  $x                          
-                          $j$i  $g  $k$f$x                          
-                          $l$f$m$j$n$f$x                            
-                      $l  $o$f$p$g$n$f$o$x                          
-                  $l  $o$f    $p$g$f$n$m$o$x                        
-                  $o$f      $p  $o$f$n  $m$o  $x                    
-                $q$f$p$o$p      $h$f$m$n  $f$r$o$x                  
-              $a$g  $p  $f$p        $f$n  $s$n  $x                  
+          $t                $a$b$c$a$x
+            $t            $d$e$c$e$f$g$b$x
+              $t        $d$e$c$a$g$e$b$c$x
+                $t      $a$c  $f$e  $g$b$e$x
+                  $t  $d$b$f    $h$g$b$g$b$x
+                      $d$f  $d$i$e  $f$b$c$x
+                      $a$b$f$a$i$e  $f  $g$x
+                      $c$b$f$d$a$e  $f  $g$x
+                        $e$f$g  $b  $f  $x
+                          $j$i  $g  $k$f$x
+                          $l$f$m$j$n$f$x
+                      $l  $o$f$p$g$n$f$o$x
+                  $l  $o$f    $p$g$f$n$m$o$x
+                  $o$f      $p  $o$f$n  $m$o  $x
+                $q$f$p$o$p      $h$f$m$n  $f$r$o$x
+              $a$g  $p  $f$p        $f$n  $s$n  $x
               $l$g$j$f$p  $f$p  $o  $f$n  $s$n$s$x      $u$q$x    $q$x
             $a$g$i$j  $f$p$f$p    $h$f$m$n$s  $f$x      $q$r$q    $u$x
             $a$g$j$g$f$s$f  $p      $f$n  $s$f  $x      $v$r$v$r$q$u$x
             $j$g$j    $s    $o$p$o  $f$n  $s$f$s$f$x      $f$n$r$u$x
               $i$g  $j  $s  $f$o$p$h$f$m$n$s  $f$g$x    $g  $x$v$q$x
-                $l$g  $j  $f$s$o$p  $f$n  $s    $f$g$f$h$w$h$x$q$x  
-                  $a$l$i$j$e$g$b      $m$g  $s$f      $h  $x        
-                      $j$e    $f    $g$f$n$s$x  $f    $g  $x        
-                      $j$e$h  $e$p$o$g$f$n$s$x        $f  $x        
-                        $d$h  $p  $o$g$f$n  $x        $g$x          
-                          $a$p  $o$s$g$s$n  $x        $g$x          
-                        $v$p$s      $g$n$s  $x      $b$g$x          
-                      $q$p          $j$n  $f  $x    $g$x            
-                      $v$p$o$p      $g$n  $f$n$x    $g$x            
-                    $q$p$o    $p    $j$n  $f$n$x  $b$g$x            
-                    $g$p$o    $p  $j$n  $m$f$n  $x$b$f$x            
-                    $g$j  $o  $p  $i$n  $m$f$g      $f$x            
-                    $m$s  $j  $i  $j$g  $j  $s$x$g$f$x              
-                  $q$v$f$s    $f  $s          $x                    
-                  $q$m$f  $n$m$n$s      $f$s$x                      
-                  $v$n    $m  $n$s    $n$s  $x                      
-                  $y      $n  $z$s$n  $s  $x                        
-                    $f    $x      $s    $x                          
-                    $n  $f$x      $s    $x                          
-                  $n$f  $x        $s    $x                          
-                  $n  $f$x        $s    $x                          
-                  $v$m  $x      $s$f  $s$x                          
-                $q$m$v  $x      $s    $f  $s$x                      
-              $z$m$q  $v$x        $s$x$s      $x                    
-                $f        $x                                        
+                $l$g  $j  $f$s$o$p  $f$n  $s    $f$g$f$h$w$h$x$q$x
+                  $a$l$i$j$e$g$b      $m$g  $s$f      $h  $x
+                      $j$e    $f    $g$f$n$s$x  $f    $g  $x
+                      $j$e$h  $e$p$o$g$f$n$s$x        $f  $x
+                        $d$h  $p  $o$g$f$n  $x        $g$x
+                          $a$p  $o$s$g$s$n  $x        $g$x
+                        $v$p$s      $g$n$s  $x      $b$g$x
+                      $q$p          $j$n  $f  $x    $g$x
+                      $v$p$o$p      $g$n  $f$n$x    $g$x
+                    $q$p$o    $p    $j$n  $f$n$x  $b$g$x
+                    $g$p$o    $p  $j$n  $m$f$n  $x$b$f$x
+                    $g$j  $o  $p  $i$n  $m$f$g      $f$x
+                    $m$s  $j  $i  $j$g  $j  $s$x$g$f$x
+                  $q$v$f$s    $f  $s          $x
+                  $q$m$f  $n$m$n$s      $f$s$x
+                  $v$n    $m  $n$s    $n$s  $x
+                  $y      $n  $z$s$n  $s  $x
+                    $f    $x      $s    $x
+                    $n  $f$x      $s    $x
+                  $n$f  $x        $s    $x
+                  $n  $f$x        $s    $x
+                  $v$m  $x      $s$f  $s$x
+                $q$m$v  $x      $s    $f  $s$x
+              $z$m$q  $v$x        $s$x$s      $x
+                $f        $x
 EOC

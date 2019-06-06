@@ -1,5 +1,5 @@
 # Gordon Freeman (Half-life)
-# by Charlie M
+# by Jesus Alejandro Torrealba Flore - https://www.pixilart.com/art/gordon-freeman-v2-pixel-art-46ceb360af76a06
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color

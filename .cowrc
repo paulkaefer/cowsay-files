@@ -4,7 +4,7 @@
 # Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "snowball-sm"
+"rick-and-morty-running" "rick-and-morty2" "snowball-sm"
 "pickle-rick2-sm" "pickle-rick-body-sm" #"pickle-rick"
 #"squanchy" "mr-pb" "plutonian" "pizza-phone"
 #"scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
@@ -54,15 +54,15 @@ COWS=(
 #Star Wars
 "r2d2" "c3po-color" "boba-fett-tc" "chewbacca" #"r2d2-c3po"  "atst-atat"
 "obi-wan-tc" #"darth-vader-sm" "phasma-sm"
-"yoda" "ewok" "jawa-engineer" "jawa"
-#"palpatine-sm" "stormtrooper" "vader" "solo"
+"yoda2" "ewok" "jawa-engineer" "jawa"
+#"palpatine-sm" "stormtrooper" "vader" "solo" "yoda"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" #"banjo" "kazooie"
 "bottles" "jamjars" #"grunty" "humba-wumba"
 
 #Super Heroes
-"superman-flying" "superman-batman" "batman-animated-sm" #"batman" "batman2"
+"superman-batman" "batman-animated-sm" #"superman-flying" "batman" "batman2"
 "wolverine"  #"ironman-sm" "ironman2" "ironman3"
 "spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor-sm" "hulk"
 
@@ -81,7 +81,7 @@ COWS=(
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-tc" "arya" "ned-stark-sm"
-#"khal-drogo-sm" "verys-sm" #"night-king"
+#"khal-drogo-sm" "varys" #"night-king"
 #"melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
 
 #TMNT
@@ -106,15 +106,13 @@ COWS=(
 "the-dude" #"the-jesus" "lebowski-walter"
 # "lahey-sm" "doc-and-marty-sm" "walter-white"
 "neo" "smith" #"morpheus" "agent-smith"
-#"milton-sm"
-"lumbergh-tc" #"indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
+#"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
 "donald" #"donald-hat" "mike-tyson-sm"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
 #"strongbad" "homestar" "cheat"
 "hobo2" "minion" "minion2"
 "mr-robot-hal"
-"liberty-sm"
-"frog" "guy-fawkes"
+#"frog" "guy-fawkes" "liberty-sm"
 
 #Increased Frequency duplicates
 "minion" "minion"

@@ -1,5 +1,5 @@
-# lumbergh-tc
-# by Charlie M
+# Bill Lumbergh (Office Space)
+# by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -1364,59 +1364,59 @@ $v4 = "\e[48;2;141;163;178m  ";
 $v5 = "\e[48;2;96;48;72m  ";
 
 $the_cow = <<EOC
-          $t                                                                                      
-            $t                                          $a$b$x                                    
-              $t                $c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$x                                  
-                $t          $r$s$u$v$w$y$z$A$B$C$D$E$F$G$H  $I$J$K$x                              
-                  $t      $L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$a0$a1$a2$a3$a4$a5$a6$a7$x                        
-                        $a8$a9$aa$ab$ac$ad$ae$a2$af$ag$ah$ai$aj$ak$al$am$an$ao$ap$aq$ar$as$at$au$av$x                      
-                        $aw$ax$ay$az$aA$aB$aC$aD$aE$aF$aG$aH$aI$aJ$aK$aL$aM$aN$aO$aP$aQ$aR$aS$aT$aU$x                      
-                      $aV$aW$aX$aY$aZ$b0$b1$b2$b3$a5$b4$b5$b6$b7$b8$b9$ba$bb$aH$bc$bd$be$bf$bg$bh$bi$bj$x                    
-                      $bk$bl$bm$bn$bo$bp$b4$bq$br$bs$bt$bu$bv$bw$bx$by$bz$bA$bB$bC$bD$bE$bF$aK$bG$bH$bI$x                    
-                    $bJ$bK$bL$bM$bN$bO$bP$bQ$bR$bS$bT$bU$bV$bW$bX$bY$bZ$c0  $c1$c2$c3$c4$c5$c6$c7$c8$aT$x                    
-                  $c9$ca$cb$al$cc$cd$ce$cf$cg$ch$ci$cj$ck$cl$cm$cn$co$cp$cq$cr$cs$ct$cu$cv$cw$cx$cy$cz$cA$x                    
-                  $cB$cC$cD$cE$cF$cG$cH$cI$cJ$cK$cL$cM$cN$cO$cP$cQ$cR$cS$cT$cU$cV$cW$cX$cY$cZ$aQ$as$d0$d1$x                    
-                  $d2$d3$d4$d5$d6$d7$d8$d9$da$db$dc$dd$de  $dd$df$dg  $dh$di$dj$dk$dl$dm$dn$do$aI$dp$dq$x                    
-                  $dr$ds$dt$du$dv$dw$dx$dy$dz$dA$dB$dC$dD$dE$dF$dG$dH$dI$dJ$dK$dL$dM$dN$dO$dP$dQ$dR$dS$dT$x                    
-                $dU$z$dV$dW$dX$dY$dZ$e0$e1$e2$e3$e4$e5$e6$e7$e8$e9$ea$cN$eb$dI$ec$ed$ee$ef$eg$eh$ei$ej$b2$x                    
-              $ek$el$em$en$eo$ep$eq$er$es$et$eu$ev$e4$ew$ex  $e4$ey$ez$eA$eB$eC$eD$eE$eF$cr$eG$eH$eI$a4$x                      
-              $eJ$eK$eL$eM$eN$eO$ba$eP$eQ$eR$eS$eT$eU$e4$eV$eW$eX$eY$eZ$f0$f1$cO$f2$eE$f3$f4$f5$f6$f7$f8$x                      
-              $f9$fa$fb$fc$fd$b1$fe$ff$fg$fh$dM$fi$fj$fk$eW$fl$fm$fn$fo$fp$fq$cT$fr$fs$ft$fu$fv$fw$fx$fy$fz$x                    
-              $fA$fB$fC$fD$fE$fF$fG$fH$fI$fJ$fK$fL$fM$fN$fO$fP$fQ$fR$fS$fT$de$fU$fV$fq$fs$fW$fX$fY$fZ$g0$g1$x                    
-              $g2$g3$g4$g5$g6$g7$g8$g9$ga$gb$gc$gd$fN$cQ$ge$e9$gf$gg$gf$gh$gi$gj$gk$gl$gm$gn$go$gp$gq$gr$gs$x                    
-            $gt$gu$fF$g3$gv$gw$gx$gy$gz$gA$gB$gC$gD$gE$gF$gG$gH$gI$gJ$gK$gL$gM$gN$gO$gP$gQ$gR$gS$gT$gU$gV$gW$gX$x                  
-            $gY$gZ$h0$bb$h1$h2$h3$h4$h5$h6$co$h7$h8$h9$ha$hb$hc$hd$he$hf$hg$hh$hi$hj$hk$hl$hm$hn$ho$hp$hq$hr$hs$x                  
-            $ht$hu$hv$hw$aD$hx$hy$hz$hA$hB$hC$hD$hE$hF$hG$hH$hI  $hJ$hK$hL$hM$hN$hO$hP$hQ$hR$hS$hT$hU$hV$hW$hX$x                  
-            $ah$hY$hZ$i0$i1$fF$i2$i3$hB$i4$h6$i5$i6$i7$i8$i9$ia$ib$ic$id$ie$if$ig$ih$ii$ij$ik$il$im$in$io$ip$iq$x                  
-            $ir$is$it$iu$iv$iw$ix$iy$iz$iA$iB$iC$iD$iE$iF$iG$iH$iI$iJ$iK$iL$iM$iN$iO$iP$iQ$iR$iS$iT$iU$iV$iW$iX$x                  
-            $iY$iZ$j0$j1$j2$j3$j4$j5$j6$j7$j8$j9$ja$jb$jc$jd$je$jf$jg$jh$ji$jj$jk$jl$jm$jn$jo$jp$jq$jr$js$jt$ju$x                  
-            $jv$jw$jx$jy$jz$jA$jB$jC$jD$jE$jF$jG$jH$jI$jJ$jK$jL$jM$jN$jO$fW$jP$jQ$jR$jS$jT$jU$jV$jW$jX$jY$jZ$k0$x                  
-            $k1$k2$k3$k4$k5$k6$k7$k8$k9$ka$kb$kc$kd$eS$ke$kf$kg  $kh$fj$ki$kj$kk$kl$km$kn$ko$kp$kq$kr$ks$kt$x                    
-            $ku$kv$kw$kx$ky$kz$kA$kB$kC$ed$kD$kE$kF$kG$kH$kI$kJ$kK$ey$kL$kM$kN$kO$kP$kQ$kR$kS$kT$kU$kV$kW$x                      
-              $kX$kY$kZ$l0$l1$l2$l3$ck$l4$kD$dM$dI$l5$l6$l7$l8$l9$la$lb$lc$ld$le$lf$lg$lh$la$li$lj$lk$ll$x                      
-              $lm$ln$lo$lp$lq$lr$ls$lt$lu$lv$lw$e3$lx$ly$lz$lA$lB$lC$lD$lE$lF$lG$lH$lI$lJ$lK$lL$lM$lN$lO$x                      
-              $lP$lQ$lR$lS$lT$cp$lU$lV$cp$lW$lX$lY$fj$lZ$e7$m0$m1$m2$m3$m4$m5$m6$m7$m8$m9$ma$mb$mc$md$me$x                      
-                $mf$mg$mh$dJ$mi$mj$mk$ml$mm$mn$mo$mp$ec$ge$mq$mr$ew$ms$ke$mt$mu$mv$mw$mx$my$mz$mA$mB$mC$x                      
-                  $mD$mE$eb$eD$mF$mG$mH$mI$mJ$mK$mL$mi$mM$dE$gf$e7$mN$kI$mO$mP$mQ$mR$mS$mT$mU$li$mV$mW$x                      
-                  $mX$mY$e4$mZ$n0$mk$n1$n2$n3$mJ$n4$n5$n6$n7$n8$dE$n9$na$nb$nc$nd$ne$nf$ng$nh$ni$nj$nk$x                      
-                  $nl$nm$nn$no$np$nq$nr$ns$nt$nu$nv$nw$nx$ny$nz$nA$nB$nC$nD$nE$nF$nG$nH$nI$nJ$nK$nL$nM$x                      
-                  $nN$nO$nP$nQ$nR$ji$nS$nT$nU$nV$nW$nX$h8$nY$nZ$o0$o1$o2$o3$o4$o5$o6$o7$o8$o9$oa$ob$oc$x                      
-                  $od$oe  $a6$of$og$oh$oi$oj$ok$ol$om$on$nv$oo$op$oq$or$os$ot$ou$ov$ow$ox$oy$oz$oA$oB$x                      
-                    $oC$oD$oE$oF$oG$oH$oI$oJ$ji$oK$oL$oM$oN$oO$oP$oQ$oR$oS$oT$oU$oV$oW$oX$oY$mx$oZ$nM$x                      
-                      $p0$p1$p2$p3$p4$p5$p6$p7$p8$p9$pa$pb$pc$pd$pe$pf$pg$ph$pi$pj$pk$pl$pm$pn$po$x                        
-                      $pp$pq$pr$ps$pt$pu$pv$pw$px$py$pz$mI$pA$pB$pC$ms$pD$pE$pF$pG$pH$pI$pJ$pK$pL$x                        
-                        $pM$pN$pO$pP$pQ$pR$pS$pT$pU$pV$pW$pX$pY$pZ$q0$q1$q2$q3$q4$q5$q6$q7$q8$q9$x                        
-                        $qa$qb$qc$qd$qe$qf$pR$qg$qh$qi$qj$qk$ql$qm$qn$qo$qp$qq$m4$qr$qs$qt$qu$qv$x                        
-                        $qw$qx  $qy$qz$qA$qB$qC$qD$qE$qF$qG$qH$qI$qJ$qK$qL$qM$qN$qO$qP$qQ$qR$qS$x                        
-                      $qT$qU$qV$qW$qX$qz  $qY$qZ$r0$r1$r2$r3$r4$r5$r6$r7$r8$r9$ra$rb$rc$rd$re$x                          
-                    $rf$rg$qz$rh  $qz      $ri$rj$rk$rl$rm$rn$ro$rp$rq$rr$rs$rt$ru$rv$rw$rx$x                          
-                  $ry$rz$rA$qz$rh  $qz        $rB$rC$rD$rE$rF$rG$rH$rI$rJ$rK$rL$kV$rM$rN$x                            
-              $rO$rP$rQ$rR$rS$qc$qz                $rT$rU$rV$rW$rX$rY$rZ$s0$s1$s2$s3$s4$s5$x                          
-          $s6$s7$s8$s9$sa$sb$sc$sd$se$qz                $sf$sg$sh$si$sj$sk$sl$sm$sn$so$sp$sq$sr$x                        
-      $ss$st$su$sv$sw$sx$sy$sz$sA$sB$sC$qz                    $qX$sD$sE$sF$sG$sH$sI$sJ$sK$sL$sM$sN$x                      
-  $sO$sP$sQ$sR$sS$sT$sU$sV$sW$sX$sY$sZ$t0$t1$qz                    $rh$t2$t3$t4$t5$t6$t7$t8$t9$ta$tb$tc$x                    
-$td$te$tf$tg$th$ti$tj$tk$tl$tm$tn$to$tp$tq$tr$ts$tt$qz                  $se$tu$tv$tw$tx$ty$tz$tA$tB$tC$tD$tE$x                  
-$tF$tG$tH$tI$tJ$tK$tL$tM$tN$tO$tP$tQ$tR$tS$tT$tU$tV$tW$qz                  $tX$tY$tZ$u0$u1$u2$tA$u3$u4$u5$u6$u7$x                
-$u8$u9$ua$ub$uc$ud$ue$uf$ug$uh$ui$uj$uk$ul$um$un$uo$up$uq$qz                $ur$us$ut$uu$uv$uw$ux$uy$uz$uA$uB$uC$uD$x              
-$tq$uE$uF$uG$uH$uI$uJ$uK$uL$uM$ul$uN$uO$um  $uk$uP$uQ$uR$uS$qz              $uT$uU$uV$uW$uX$uY$uZ$v0$v1$v2$uA$v3$v4$v5$x            
+          $t
+            $t                                          $a$b$x
+              $t                $c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$x
+                $t          $r$s$u$v$w$y$z$A$B$C$D$E$F$G$H  $I$J$K$x
+                  $t      $L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$a0$a1$a2$a3$a4$a5$a6$a7$x
+                        $a8$a9$aa$ab$ac$ad$ae$a2$af$ag$ah$ai$aj$ak$al$am$an$ao$ap$aq$ar$as$at$au$av$x
+                        $aw$ax$ay$az$aA$aB$aC$aD$aE$aF$aG$aH$aI$aJ$aK$aL$aM$aN$aO$aP$aQ$aR$aS$aT$aU$x
+                      $aV$aW$aX$aY$aZ$b0$b1$b2$b3$a5$b4$b5$b6$b7$b8$b9$ba$bb$aH$bc$bd$be$bf$bg$bh$bi$bj$x
+                      $bk$bl$bm$bn$bo$bp$b4$bq$br$bs$bt$bu$bv$bw$bx$by$bz$bA$bB$bC$bD$bE$bF$aK$bG$bH$bI$x
+                    $bJ$bK$bL$bM$bN$bO$bP$bQ$bR$bS$bT$bU$bV$bW$bX$bY$bZ$c0  $c1$c2$c3$c4$c5$c6$c7$c8$aT$x
+                  $c9$ca$cb$al$cc$cd$ce$cf$cg$ch$ci$cj$ck$cl$cm$cn$co$cp$cq$cr$cs$ct$cu$cv$cw$cx$cy$cz$cA$x
+                  $cB$cC$cD$cE$cF$cG$cH$cI$cJ$cK$cL$cM$cN$cO$cP$cQ$cR$cS$cT$cU$cV$cW$cX$cY$cZ$aQ$as$d0$d1$x
+                  $d2$d3$d4$d5$d6$d7$d8$d9$da$db$dc$dd$de  $dd$df$dg  $dh$di$dj$dk$dl$dm$dn$do$aI$dp$dq$x
+                  $dr$ds$dt$du$dv$dw$dx$dy$dz$dA$dB$dC$dD$dE$dF$dG$dH$dI$dJ$dK$dL$dM$dN$dO$dP$dQ$dR$dS$dT$x
+                $dU$z$dV$dW$dX$dY$dZ$e0$e1$e2$e3$e4$e5$e6$e7$e8$e9$ea$cN$eb$dI$ec$ed$ee$ef$eg$eh$ei$ej$b2$x
+              $ek$el$em$en$eo$ep$eq$er$es$et$eu$ev$e4$ew$ex  $e4$ey$ez$eA$eB$eC$eD$eE$eF$cr$eG$eH$eI$a4$x
+              $eJ$eK$eL$eM$eN$eO$ba$eP$eQ$eR$eS$eT$eU$e4$eV$eW$eX$eY$eZ$f0$f1$cO$f2$eE$f3$f4$f5$f6$f7$f8$x
+              $f9$fa$fb$fc$fd$b1$fe$ff$fg$fh$dM$fi$fj$fk$eW$fl$fm$fn$fo$fp$fq$cT$fr$fs$ft$fu$fv$fw$fx$fy$fz$x
+              $fA$fB$fC$fD$fE$fF$fG$fH$fI$fJ$fK$fL$fM$fN$fO$fP$fQ$fR$fS$fT$de$fU$fV$fq$fs$fW$fX$fY$fZ$g0$g1$x
+              $g2$g3$g4$g5$g6$g7$g8$g9$ga$gb$gc$gd$fN$cQ$ge$e9$gf$gg$gf$gh$gi$gj$gk$gl$gm$gn$go$gp$gq$gr$gs$x
+            $gt$gu$fF$g3$gv$gw$gx$gy$gz$gA$gB$gC$gD$gE$gF$gG$gH$gI$gJ$gK$gL$gM$gN$gO$gP$gQ$gR$gS$gT$gU$gV$gW$gX$x
+            $gY$gZ$h0$bb$h1$h2$h3$h4$h5$h6$co$h7$h8$h9$ha$hb$hc$hd$he$hf$hg$hh$hi$hj$hk$hl$hm$hn$ho$hp$hq$hr$hs$x
+            $ht$hu$hv$hw$aD$hx$hy$hz$hA$hB$hC$hD$hE$hF$hG$hH$hI  $hJ$hK$hL$hM$hN$hO$hP$hQ$hR$hS$hT$hU$hV$hW$hX$x
+            $ah$hY$hZ$i0$i1$fF$i2$i3$hB$i4$h6$i5$i6$i7$i8$i9$ia$ib$ic$id$ie$if$ig$ih$ii$ij$ik$il$im$in$io$ip$iq$x
+            $ir$is$it$iu$iv$iw$ix$iy$iz$iA$iB$iC$iD$iE$iF$iG$iH$iI$iJ$iK$iL$iM$iN$iO$iP$iQ$iR$iS$iT$iU$iV$iW$iX$x
+            $iY$iZ$j0$j1$j2$j3$j4$j5$j6$j7$j8$j9$ja$jb$jc$jd$je$jf$jg$jh$ji$jj$jk$jl$jm$jn$jo$jp$jq$jr$js$jt$ju$x
+            $jv$jw$jx$jy$jz$jA$jB$jC$jD$jE$jF$jG$jH$jI$jJ$jK$jL$jM$jN$jO$fW$jP$jQ$jR$jS$jT$jU$jV$jW$jX$jY$jZ$k0$x
+            $k1$k2$k3$k4$k5$k6$k7$k8$k9$ka$kb$kc$kd$eS$ke$kf$kg  $kh$fj$ki$kj$kk$kl$km$kn$ko$kp$kq$kr$ks$kt$x
+            $ku$kv$kw$kx$ky$kz$kA$kB$kC$ed$kD$kE$kF$kG$kH$kI$kJ$kK$ey$kL$kM$kN$kO$kP$kQ$kR$kS$kT$kU$kV$kW$x
+              $kX$kY$kZ$l0$l1$l2$l3$ck$l4$kD$dM$dI$l5$l6$l7$l8$l9$la$lb$lc$ld$le$lf$lg$lh$la$li$lj$lk$ll$x
+              $lm$ln$lo$lp$lq$lr$ls$lt$lu$lv$lw$e3$lx$ly$lz$lA$lB$lC$lD$lE$lF$lG$lH$lI$lJ$lK$lL$lM$lN$lO$x
+              $lP$lQ$lR$lS$lT$cp$lU$lV$cp$lW$lX$lY$fj$lZ$e7$m0$m1$m2$m3$m4$m5$m6$m7$m8$m9$ma$mb$mc$md$me$x
+                $mf$mg$mh$dJ$mi$mj$mk$ml$mm$mn$mo$mp$ec$ge$mq$mr$ew$ms$ke$mt$mu$mv$mw$mx$my$mz$mA$mB$mC$x
+                  $mD$mE$eb$eD$mF$mG$mH$mI$mJ$mK$mL$mi$mM$dE$gf$e7$mN$kI$mO$mP$mQ$mR$mS$mT$mU$li$mV$mW$x
+                  $mX$mY$e4$mZ$n0$mk$n1$n2$n3$mJ$n4$n5$n6$n7$n8$dE$n9$na$nb$nc$nd$ne$nf$ng$nh$ni$nj$nk$x
+                  $nl$nm$nn$no$np$nq$nr$ns$nt$nu$nv$nw$nx$ny$nz$nA$nB$nC$nD$nE$nF$nG$nH$nI$nJ$nK$nL$nM$x
+                  $nN$nO$nP$nQ$nR$ji$nS$nT$nU$nV$nW$nX$h8$nY$nZ$o0$o1$o2$o3$o4$o5$o6$o7$o8$o9$oa$ob$oc$x
+                  $od$oe  $a6$of$og$oh$oi$oj$ok$ol$om$on$nv$oo$op$oq$or$os$ot$ou$ov$ow$ox$oy$oz$oA$oB$x
+                    $oC$oD$oE$oF$oG$oH$oI$oJ$ji$oK$oL$oM$oN$oO$oP$oQ$oR$oS$oT$oU$oV$oW$oX$oY$mx$oZ$nM$x
+                      $p0$p1$p2$p3$p4$p5$p6$p7$p8$p9$pa$pb$pc$pd$pe$pf$pg$ph$pi$pj$pk$pl$pm$pn$po$x
+                      $pp$pq$pr$ps$pt$pu$pv$pw$px$py$pz$mI$pA$pB$pC$ms$pD$pE$pF$pG$pH$pI$pJ$pK$pL$x
+                        $pM$pN$pO$pP$pQ$pR$pS$pT$pU$pV$pW$pX$pY$pZ$q0$q1$q2$q3$q4$q5$q6$q7$q8$q9$x
+                        $qa$qb$qc$qd$qe$qf$pR$qg$qh$qi$qj$qk$ql$qm$qn$qo$qp$qq$m4$qr$qs$qt$qu$qv$x
+                        $qw$qx  $qy$qz$qA$qB$qC$qD$qE$qF$qG$qH$qI$qJ$qK$qL$qM$qN$qO$qP$qQ$qR$qS$x
+                      $qT$qU$qV$qW$qX$qz  $qY$qZ$r0$r1$r2$r3$r4$r5$r6$r7$r8$r9$ra$rb$rc$rd$re$x
+                    $rf$rg$qz$rh  $qz      $ri$rj$rk$rl$rm$rn$ro$rp$rq$rr$rs$rt$ru$rv$rw$rx$x
+                  $ry$rz$rA$qz$rh  $qz        $rB$rC$rD$rE$rF$rG$rH$rI$rJ$rK$rL$kV$rM$rN$x
+              $rO$rP$rQ$rR$rS$qc$qz                $rT$rU$rV$rW$rX$rY$rZ$s0$s1$s2$s3$s4$s5$x
+          $s6$s7$s8$s9$sa$sb$sc$sd$se$qz                $sf$sg$sh$si$sj$sk$sl$sm$sn$so$sp$sq$sr$x
+      $ss$st$su$sv$sw$sx$sy$sz$sA$sB$sC$qz                    $qX$sD$sE$sF$sG$sH$sI$sJ$sK$sL$sM$sN$x
+  $sO$sP$sQ$sR$sS$sT$sU$sV$sW$sX$sY$sZ$t0$t1$qz                    $rh$t2$t3$t4$t5$t6$t7$t8$t9$ta$tb$tc$x
+$td$te$tf$tg$th$ti$tj$tk$tl$tm$tn$to$tp$tq$tr$ts$tt$qz                  $se$tu$tv$tw$tx$ty$tz$tA$tB$tC$tD$tE$x
+$tF$tG$tH$tI$tJ$tK$tL$tM$tN$tO$tP$tQ$tR$tS$tT$tU$tV$tW$qz                  $tX$tY$tZ$u0$u1$u2$tA$u3$u4$u5$u6$u7$x
+$u8$u9$ua$ub$uc$ud$ue$uf$ug$uh$ui$uj$uk$ul$um$un$uo$up$uq$qz                $ur$us$ut$uu$uv$uw$ux$uy$uz$uA$uB$uC$uD$x
+$tq$uE$uF$uG$uH$uI$uJ$uK$uL$uM$ul$uN$uO$um  $uk$uP$uQ$uR$uS$qz              $uT$uU$uV$uW$uX$uY$uZ$v0$v1$v2$uA$v3$v4$v5$x
 EOC

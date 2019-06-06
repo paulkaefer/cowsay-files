@@ -1,5 +1,5 @@
 # Master Shake (ATHF)
-# by Charlie M
+# by Charlie M, original artist unknown - https://www.pinterest.com/pin/348888302356462316/
 
 $x = "\e[m  ";          #reset color
 $k = "\e[48;5;235m  ";  #fake black

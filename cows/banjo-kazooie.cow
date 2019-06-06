@@ -1,5 +1,5 @@
 # Banjo Kazooie
-# by Charlie M
+# by 2bitart - https://2bitart.tumblr.com/post/156383644985/banjo-kazooie
 
 $x = "\e[m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black

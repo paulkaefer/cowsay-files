@@ -1,5 +1,5 @@
-# Jim Lahey, drunk trailer park supervisor (Trailer Park Boys)
-# by Charlie M
+# Jim Lahey, drunk trailer park supervisor (Trailer Park Boys) - cropped
+# by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -116,17 +116,4 @@ $w    $p$e$a$e$D$w$a    $e$a$w$a  $e$a  $e$w$D$a$u$D  $w$D  $ad  $y        $s  $
 $w  $m$e$a  $e$a$w$a        $w$a            $P$W$u$D  $ad        $y      $s  $y  $w$E$e      $p$e    $u$x
 $w      $a$e  $a$w$a      $e$w  $a        $m$D  $E$a$D$ad          $y    $s  $y  $m$e$a$e      $p$e    $x
 $w$a  $e      $a$D$w$a      $e$w$a    $e$a  $D$w  $m$w  $R$ad$y        $s    $y$w$m$e$W$a  $e  $p$w$m  $x
-$w$m$w$a$e      $D$w$a        $w  $a    $w$a$m$D  $H$e$D$y$R$y        $s$y$s$y$w$a$e  $a$e    $p$D$e  $x
-$a  $z$a  $e    $D  $w$a      $e$w$a      $w$m$D$e$D  $m$af$y  $s  $y$s      $y$w$a  $e  $a$e  $w$H$e  $x
-$a$m$a$w$a$e    $H$D$w$a        $w    $a  $w$a  $e$D    $w$E$s    $y$s    $y  $z$e    $a$e  $w  $a$e  $x
-$e$a  $D$w$e$a$e$m$D  $w$a      $e$w  $a          $u$D  $w  $y$s            $z$e        $u$B$w$z$a$e  $x
-$e$m$a        $e$m$D  $w$a      $e$a$w  $a  $w$E$w$a$D$w$D  $E$s        $y$ad$e$a$e    $p$u$w  $z$a$e  $x
-$a            $e  $D    $a$w  $a  $e$D$w  $a$w$z$a  $m$D      $z$ad$s  $ad  $m$e      $p$O$D$w  $a  $e  $x
-$w$D$a  $w$E  $a  $D    $w      $a$m$e$w        $a    $D  $w$D$w$s      $a    $p  $C$J$D$w    $a  $e$a$x
-$D$w  $W$w  $H$E$H$w$D  $w      $a    $e$w        $a  $D$w$a$w$F$ad  $s$z$e  $p$w$D    $w  $z  $a      $x
-$D$w$D$a$B$E$a  $e$a$D  $w          $a$e$m$w      $a  $u$w    $m$s$y$z$e$p$D    $w$D  $w  $z  $a    $z$x
-$D$w$D$a$X$B$a  $e$a$D  $w          $a$e  $m$w      $a  $D$a  $w$ad  $m$D        $H$w    $z  $a      $w$x
-$D$w$D$H$a$H$a  $e  $w$D  $w          $a$m$e$m$w      $E$H$a  $w  $N$D        $a$D  $w  $z$w$a  $z$w  $x
-$D$w$D$E$a$H$m$a  $e$w$D  $w          $a  $m$e$a$w    $z$a$w$a$w$u$D        $w$e$D  $w    $z$a$w      $x
-$D$w  $z$a$w          $D    $w          $E$H$m$e$a$w    $H$w    $e$D      $w  $e$D$w                $D$x
 EOC

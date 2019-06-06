@@ -1,5 +1,5 @@
 # Minion the sleepy cat
-# by Charlie M
+# by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -40,7 +40,7 @@ $the_cow = <<EOC
                                         $t
                                           $t
                                             $t
-$k$j$k$h$f$j    $g$i$d  $x                    $t          
+$k$j$k$h$f$j    $g$i$d  $x                    $t
 $e$c$i$d$j  $e$c$j$d$h$i$d$g  $a$g$h$i$l$a$e$m  $h$f$x
 $g$i$d$f$i$c  $h$i$f$i$j$c$g  $e$h$i  $e$a$h$g$m  $l$c$e$a$n$o$c$g$o$m$g$d$x
 $g$h$d$i$j  $c$d  $c$g$c$g$c$i$c  $g  $e$m$i$c$b$m$a$i$e$b$a$n$o$j$m$p$g$l    $o  $l  $g$f$x

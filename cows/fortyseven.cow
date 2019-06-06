@@ -1,5 +1,5 @@
-# 47
-# by Charlie M
+# Agent 47 (Hitman)
+# by @comicsworldgame - https://twitter.com/comicsworldgame/status/526127341580595201
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -467,31 +467,31 @@ $gB = "\e[48;2;22;22;22m  ";
 $gC = "\e[48;2;84;84;84m  ";
 
 $the_cow = <<EOC
-          $t                $a$b$c$d$e$x                                
-            $t            $f$g$h$i$j$k$l$x                              
-              $t        $m$n$o$p$q$r$s$u$x                              
-                $t      $v$w$y$z$A$w$B$C$D$x                            
-                  $t    $o$E$F  $G$B$H$I$J$x                            
-                        $K$L$M$N$O$B  $H$P$x                            
-                        $Q$R$S$T  $U$V$W$X$Y$x                          
-                        $Z$a0  $S$a1$a2$a3$a4$a5$a6$x                          
-                        $a7$a8  $a9$aa$ab$ac$ad$ae$af$x                          
-                          $ag$ah$ai$aj$ak$al$am$an$x                            
-                          $ao$ap$aq$ar$as$at$au$an$x                            
-                          $av$aw$ax$ay$az$aA$aB$aC$x                            
-                            $aD$aE$aF$aG$aH$aI$aJ$aK$aL$aM$x                      
-                            $aN$aO$aP$aQ$aR$aS$aT$aU$aV$aW$aX$x                    
-                            $aY$aZ$b0$b1$b2$b3$b4$b5$aW  $b6$aW$x                  
-                          $b7$b8$b9$ba$bb$bc$bd$be$aW    $b6$aW    $x              
-                        $b6$bf$bg$bh$bi$bj$aL$be$aW$be$b6    $aW    $b6  $aW  $x      
-                    $be  $bk$bl$bm$bn$bo$bp$be$aW    $bq$b6$aW    $b6  $aW$br  $aW$x    
-                  $be  $b6$bs$bt$bu$bv$bw$bp$be$aW      $b6$aW$bx$b6  $aW$by$bz  $by$aW$x  
-                $bA$bB$bC$bD$bE$bF$bG$bH$bI$be$aW      $b6$aW$bz  $b6$bJ$be$bz$bx$bz$bK$aW$x  
-              $b6  $be$bL$bM$bN$bO$bP$bQ$bR$be$bz$aW  $b6    $bz$bK$b6$aW$bJ$aX$bz    $bS$x  
-              $b6$be  $bT$bU$bV$bW$bX$bY$bZ$be$bz  $b6$be  $b6$bB$bz$b6$be$c0$aW$b6  $bz$b6$x  
-              $b6$c1$c2$bv$c3$c4$bp    $bz$c5$bz  $b6$be    $b6$bB$b6$be  $b6$aW$c6$b6  $x  
-              $b6$c7$b6$bI$c8$c9$ca$bp$ca$be$bz$bx$b6$be  $bz$be  $b6  $be$b6$aW$b6  $aW$cb$x  
-              $cc$cd$ce$cf$cg$ch$ci$cj$ca$be$bz$bx$b6$be$bz    $be$b6  $be$c5$b6$aW  $b6$ck$x  
+          $t                $a$b$c$d$e$x
+            $t            $f$g$h$i$j$k$l$x
+              $t        $m$n$o$p$q$r$s$u$x
+                $t      $v$w$y$z$A$w$B$C$D$x
+                  $t    $o$E$F  $G$B$H$I$J$x
+                        $K$L$M$N$O$B  $H$P$x
+                        $Q$R$S$T  $U$V$W$X$Y$x
+                        $Z$a0  $S$a1$a2$a3$a4$a5$a6$x
+                        $a7$a8  $a9$aa$ab$ac$ad$ae$af$x
+                          $ag$ah$ai$aj$ak$al$am$an$x
+                          $ao$ap$aq$ar$as$at$au$an$x
+                          $av$aw$ax$ay$az$aA$aB$aC$x
+                            $aD$aE$aF$aG$aH$aI$aJ$aK$aL$aM$x
+                            $aN$aO$aP$aQ$aR$aS$aT$aU$aV$aW$aX$x
+                            $aY$aZ$b0$b1$b2$b3$b4$b5$aW  $b6$aW$x
+                          $b7$b8$b9$ba$bb$bc$bd$be$aW    $b6$aW    $x
+                        $b6$bf$bg$bh$bi$bj$aL$be$aW$be$b6    $aW    $b6  $aW  $x
+                    $be  $bk$bl$bm$bn$bo$bp$be$aW    $bq$b6$aW    $b6  $aW$br  $aW$x
+                  $be  $b6$bs$bt$bu$bv$bw$bp$be$aW      $b6$aW$bx$b6  $aW$by$bz  $by$aW$x
+                $bA$bB$bC$bD$bE$bF$bG$bH$bI$be$aW      $b6$aW$bz  $b6$bJ$be$bz$bx$bz$bK$aW$x
+              $b6  $be$bL$bM$bN$bO$bP$bQ$bR$be$bz$aW  $b6    $bz$bK$b6$aW$bJ$aX$bz    $bS$x
+              $b6$be  $bT$bU$bV$bW$bX$bY$bZ$be$bz  $b6$be  $b6$bB$bz$b6$be$c0$aW$b6  $bz$b6$x
+              $b6$c1$c2$bv$c3$c4$bp    $bz$c5$bz  $b6$be    $b6$bB$b6$be  $b6$aW$c6$b6  $x
+              $b6$c7$b6$bI$c8$c9$ca$bp$ca$be$bz$bx$b6$be  $bz$be  $b6  $be$b6$aW$b6  $aW$cb$x
+              $cc$cd$ce$cf$cg$ch$ci$cj$ca$be$bz$bx$b6$be$bz    $be$b6  $be$c5$b6$aW  $b6$ck$x
               $cl$b6$cm$cn$co$cp$cq$bp$cr$be$bz$b6  $be$bz    $b6    $be    $b6  $aW$bJ$bz$x
               $cs$ct$cu$cv$cw$cx$cy$cz$cr$be$bz$b6$be    $bz$b6      $be        $bz$bK$bz$x
               $cA$cB$cC$cD$cE$cF$bp  $aL$be$b6$be      $b6        $be          $bz  $x
@@ -515,72 +515,72 @@ $the_cow = <<EOC
     $f3$f4$f5$eX$f6$dO$f7$f8$b6    $dG$f9$fa$c5$be  $b6$bK$bz$aM$bz  $b6    $bz$aW$dW$f2$br$ev$bz$x
     $fb$fc$fd$fe$ff$cc$fg$fh$be      $bz$fi$fj$fk  $b6$bz$d9$bz  $br$b6    $d0$dx$eu$fl$bx$bz  $x
     $fm$fn$fo$fp$fq$fr$fs$be    $b6  $bz$fa  $c0$be$b6$bz      $aW$b6  $bx$bz$fl$el$bz      $x
-    $ft$fu$fv$fw$fx$fy$fz$be          $bz  $fA$fB$bS$d1$bz  $aW  $b6  $bx$by$aW$bz    $bS$x  
-    $fC$fD$fE$fF$fG$fH$bz  $be  $b6    $be$fa$bz    $b6  $bz$aW  $aM$bB$dx$bp$bs  $c0$bz$bS$x  
-    $fI$fJ$fK$dY$fL$fH$bz  $be$b6  $be  $bz$f9$eU$fa  $b6    $aW$b6    $bp$fM$b6  $bp$bz$x    
-            $b6    $bz$b6    $be    $b6            $aW$b6$dG$dX$fN$c6$b6$bK$fO$x      
-        $fP$b6$bz  $b6$bz$b6    $be$bz$bx  $bz  $b6      $aW$b6  $aW    $da$bS$fQ$x      
-      $fR$fS$b6  $bz$bS$b6$bK$b6$be  $fA$fj  $fk$bz$be  $b6  $dX$aM$b6$aW  $fT$fU$ev$fQ$x      
-    $aW  $fV$b6  $bB$bz  $bx$b6$be                $b6  $bp    $b6$by$fW$fX$bz$fQ$x      
-    $aW$be$dx$b6        $bx$b6$be  $bz$fk    $fA$be  $b6  $bp  $b6  $br$b6$aW  $bz$x      
-    $e4$d9$dx$b6$bz$b6  $bz$bx$b6$be  $f9$be      $c5$b6    $fY  $b6$bx$aW$b6$aW  $bz$x      
-    $fZ$be$dx$b6$bz$b6$bz  $b6  $be$fk$be$bz    $be  $b6  $g0$g1$g2$g3$g4$g5$g6$d9  $bz$x      
-  $g7$bq$g8$dx$b6  $bz  $bB$bx$b6  $be$bz    $be  $b6    $g0$g9$ga$gb$gc$gd$ge$b6    $x      
-  $e4$g8$bp$bz$x$b6$bz$bx$b6$bz$b6$be$b6$bz  $be    $b6  $bB$gf$gg$gh$gi$gj$gk$gl$aM  $x        
-  $e4$bK$bq$x  $b6$bz$b6$bz$b6  $be  $b6$bz$be  $b6      $eF$gm$gn$go$b6$d1$b6$x            
-  $e4$bq$x    $b6$bz$b6$bz$b6  $be  $b6$bz$be  $b6      $eF$gp$aL$go$b6$x                
-  $fR$bz$x    $b6$d1$bz$b6    $be        $b6        $gq$gp$eF$gn$b6$x                
-$fQ$d9$g7$x    $b6$bz$b6  $bB$b6$bB$be$bz  $be$b6          $gf$aL$fZ$x                  
-$fQ$d9$x      $b6        $bz$b6$be$bz  $be$b6          $gf$gr$fZ$x                  
-$fQ$be$x      $b6      $bz$f9$b6  $bz$be  $b6          $gf  $aW$x                  
-$fQ$be$x        $b6  $d0$fk$d0$bB$b6$be    $b6          $gf  $x                    
-              $b6$bz$e8$ev$d0$g8$b6$be  $b6$bK$d9$b6  $be$b6$gf  $x                    
-              $b6$fk$ev$bx$d2$b6      $bz  $b6  $be$gs$b6$gf  $x                    
-              $b6$ev$d0$bx$b6        $bz  $b6$be$fB$bB$b6$gf  $x                    
-              $b6$bz  $gt$b6        $bz  $be$gu$e9$b6$bB$gv$by$x                    
-                $b6$bS$b6          $bz  $bx$b6  $dp$bx$b6$x                      
-                $b6              $bz  $bx$b6$eU$bz  $b6  $x                    
-                $b6$aW  $b6        $bz$fk$bz$f9$bz  $b6    $x                    
-                  $b6$aW  $b6    $bz  $fa$eU$bz  $b6  $bz$b6$x                    
-                  $b6$gw$bk$b6    $bz$gs$f9$bz  $b6$bB$bS$b6$bB$x                    
-                      $b6        $fA$fB$bz      $b6    $x                    
-                      $b6      $d0$b6$bz$b6    $bB$b6      $x                  
-                        $e9$b6$bx$fi$aM$b6$bz$bB$b6  $dw$aM$fj$dw$x                  
-                        $b6$gt$b6      $bS$bx$be$dG$dp$fa$bz$b6  $x                
-                          $b6        $bz$b6$fj$fA$bK$bz  $gx$b6$x                
-                          $b6          $fk$gx    $f9  $d1$b6$x                
-                            $b6        $g8$e8$bq  $b6      $x                
-                            $b6          $bK$e8$d9$b6    $e9$x                
-                            $b6          $g8$fa$be$b6        $x              
-                            $b6            $c0$dp$b6        $x              
-                              $b6        $bB$bq$fk$b6        $x              
-                              $b6        $bB$bq$fk$b6        $x              
-                              $b6        $bB$bq$fk$b6          $x            
-                              $b6          $fa$bK$c0  $b6    $aM$x            
-                              $b6      $bx$bz$gw$gu$c0  $bK$b6  $aM$x            
-                              $b6  $bz  $d9$gw$b6$bz$gx$d9$ev$b6$d1$gw$x            
-                              $b6$bz$b6    $bz$b6$bz$g8$aW$b6$bA$dp$d1$x            
-                              $b6$bB$bz    $bB$b6$bz$da$bB$b6$dp$bA$b6$x            
-                              $b6$be$bz$b6  $d2$da$b6    $bz$d1$b6$aM$x            
-                                $b6$dg$fO  $bz$b6    $fk$b6    $aM$x            
-                                $b6$da$fO  $b6    $f9$b6      $aM$x            
-                              $b6$fO$da$gy$b6  $d1  $bz  $b6    $aM$x            
-                            $b6$fi$fO$aM$b6      $gx$bz    $b6  $aM$x            
-                      $aX$b6$d1$gx$b6        $aM$bB$d1$fk  $bx$bz$bB  $x            
-                    $b6$gz$gA$ea$b6$bA$bB$b6      $x$b6    $eU  $bz$b6$x            
-                  $gB$fB$da$eT$ck$b6$d1$x          $b6$fa  $bz    $bx$fi$x          
-                  $be$d1  $b6$x                $b6    $fB$eU  $dp$bz$x          
-                                            $b6$f9  $b6$dG$b6  $bz$x          
-                                            $b6    $e8$gx$d1$b6$bz$x          
-                                              $b6      $eU  $x            
-                                              $b6$gC$gx$e8$ck$b6$x            
-                                              $b6    $bB$b6$aM$x            
-                                              $b6$bz  $b6  $aM$x            
-                                              $b6$bB$b6    $aM$x            
-                                              $b6  $bz$b6  $aM$x            
-                                              $b6  $bz  $b6$ck$x            
-                                              $b6    $aM$by$aW$b6$x          
-                                              $aW$eb$el$en$dx$b6  $x          
-                                              $b6    $bA$b6$e9$x            
-                                                $bA$aM    $x              
+    $ft$fu$fv$fw$fx$fy$fz$be          $bz  $fA$fB$bS$d1$bz  $aW  $b6  $bx$by$aW$bz    $bS$x
+    $fC$fD$fE$fF$fG$fH$bz  $be  $b6    $be$fa$bz    $b6  $bz$aW  $aM$bB$dx$bp$bs  $c0$bz$bS$x
+    $fI$fJ$fK$dY$fL$fH$bz  $be$b6  $be  $bz$f9$eU$fa  $b6    $aW$b6    $bp$fM$b6  $bp$bz$x
+            $b6    $bz$b6    $be    $b6            $aW$b6$dG$dX$fN$c6$b6$bK$fO$x
+        $fP$b6$bz  $b6$bz$b6    $be$bz$bx  $bz  $b6      $aW$b6  $aW    $da$bS$fQ$x
+      $fR$fS$b6  $bz$bS$b6$bK$b6$be  $fA$fj  $fk$bz$be  $b6  $dX$aM$b6$aW  $fT$fU$ev$fQ$x
+    $aW  $fV$b6  $bB$bz  $bx$b6$be                $b6  $bp    $b6$by$fW$fX$bz$fQ$x
+    $aW$be$dx$b6        $bx$b6$be  $bz$fk    $fA$be  $b6  $bp  $b6  $br$b6$aW  $bz$x
+    $e4$d9$dx$b6$bz$b6  $bz$bx$b6$be  $f9$be      $c5$b6    $fY  $b6$bx$aW$b6$aW  $bz$x
+    $fZ$be$dx$b6$bz$b6$bz  $b6  $be$fk$be$bz    $be  $b6  $g0$g1$g2$g3$g4$g5$g6$d9  $bz$x
+  $g7$bq$g8$dx$b6  $bz  $bB$bx$b6  $be$bz    $be  $b6    $g0$g9$ga$gb$gc$gd$ge$b6    $x
+  $e4$g8$bp$bz$x$b6$bz$bx$b6$bz$b6$be$b6$bz  $be    $b6  $bB$gf$gg$gh$gi$gj$gk$gl$aM  $x
+  $e4$bK$bq$x  $b6$bz$b6$bz$b6  $be  $b6$bz$be  $b6      $eF$gm$gn$go$b6$d1$b6$x
+  $e4$bq$x    $b6$bz$b6$bz$b6  $be  $b6$bz$be  $b6      $eF$gp$aL$go$b6$x
+  $fR$bz$x    $b6$d1$bz$b6    $be        $b6        $gq$gp$eF$gn$b6$x
+$fQ$d9$g7$x    $b6$bz$b6  $bB$b6$bB$be$bz  $be$b6          $gf$aL$fZ$x
+$fQ$d9$x      $b6        $bz$b6$be$bz  $be$b6          $gf$gr$fZ$x
+$fQ$be$x      $b6      $bz$f9$b6  $bz$be  $b6          $gf  $aW$x
+$fQ$be$x        $b6  $d0$fk$d0$bB$b6$be    $b6          $gf  $x
+              $b6$bz$e8$ev$d0$g8$b6$be  $b6$bK$d9$b6  $be$b6$gf  $x
+              $b6$fk$ev$bx$d2$b6      $bz  $b6  $be$gs$b6$gf  $x
+              $b6$ev$d0$bx$b6        $bz  $b6$be$fB$bB$b6$gf  $x
+              $b6$bz  $gt$b6        $bz  $be$gu$e9$b6$bB$gv$by$x
+                $b6$bS$b6          $bz  $bx$b6  $dp$bx$b6$x
+                $b6              $bz  $bx$b6$eU$bz  $b6  $x
+                $b6$aW  $b6        $bz$fk$bz$f9$bz  $b6    $x
+                  $b6$aW  $b6    $bz  $fa$eU$bz  $b6  $bz$b6$x
+                  $b6$gw$bk$b6    $bz$gs$f9$bz  $b6$bB$bS$b6$bB$x
+                      $b6        $fA$fB$bz      $b6    $x
+                      $b6      $d0$b6$bz$b6    $bB$b6      $x
+                        $e9$b6$bx$fi$aM$b6$bz$bB$b6  $dw$aM$fj$dw$x
+                        $b6$gt$b6      $bS$bx$be$dG$dp$fa$bz$b6  $x
+                          $b6        $bz$b6$fj$fA$bK$bz  $gx$b6$x
+                          $b6          $fk$gx    $f9  $d1$b6$x
+                            $b6        $g8$e8$bq  $b6      $x
+                            $b6          $bK$e8$d9$b6    $e9$x
+                            $b6          $g8$fa$be$b6        $x
+                            $b6            $c0$dp$b6        $x
+                              $b6        $bB$bq$fk$b6        $x
+                              $b6        $bB$bq$fk$b6        $x
+                              $b6        $bB$bq$fk$b6          $x
+                              $b6          $fa$bK$c0  $b6    $aM$x
+                              $b6      $bx$bz$gw$gu$c0  $bK$b6  $aM$x
+                              $b6  $bz  $d9$gw$b6$bz$gx$d9$ev$b6$d1$gw$x
+                              $b6$bz$b6    $bz$b6$bz$g8$aW$b6$bA$dp$d1$x
+                              $b6$bB$bz    $bB$b6$bz$da$bB$b6$dp$bA$b6$x
+                              $b6$be$bz$b6  $d2$da$b6    $bz$d1$b6$aM$x
+                                $b6$dg$fO  $bz$b6    $fk$b6    $aM$x
+                                $b6$da$fO  $b6    $f9$b6      $aM$x
+                              $b6$fO$da$gy$b6  $d1  $bz  $b6    $aM$x
+                            $b6$fi$fO$aM$b6      $gx$bz    $b6  $aM$x
+                      $aX$b6$d1$gx$b6        $aM$bB$d1$fk  $bx$bz$bB  $x
+                    $b6$gz$gA$ea$b6$bA$bB$b6      $x$b6    $eU  $bz$b6$x
+                  $gB$fB$da$eT$ck$b6$d1$x          $b6$fa  $bz    $bx$fi$x
+                  $be$d1  $b6$x                $b6    $fB$eU  $dp$bz$x
+                                            $b6$f9  $b6$dG$b6  $bz$x
+                                            $b6    $e8$gx$d1$b6$bz$x
+                                              $b6      $eU  $x
+                                              $b6$gC$gx$e8$ck$b6$x
+                                              $b6    $bB$b6$aM$x
+                                              $b6$bz  $b6  $aM$x
+                                              $b6$bB$b6    $aM$x
+                                              $b6  $bz$b6  $aM$x
+                                              $b6  $bz  $b6$ck$x
+                                              $b6    $aM$by$aW$b6$x
+                                              $aW$eb$el$en$dx$b6  $x
+                                              $b6    $bA$b6$e9$x
+                                                $bA$aM    $x
 EOC
