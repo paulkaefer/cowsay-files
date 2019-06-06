@@ -5,7 +5,7 @@
 COWS=(
 #Rick and Morty
 "rick-and-morty-running" "rick-and-morty2" "snowball-sm"
-"pickle-rick2-sm" "pickle-rick-body-sm" #"pickle-rick"
+"pickle-rick2-sm" "pickle-rick-sm" "scary-terry" #"pickle-rick-face"
 #"squanchy" "mr-pb" "plutonian" "pizza-phone"
 #"scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
@@ -25,13 +25,14 @@ COWS=(
 "bomberman2" #"bomberman"
 
 #Sonic
-"sonic" "sonic3" "tails" "tails2" "knuckles2" "shadow" #"dr-robotnik" "knuckles" "sonic2"
+"sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
 
 #Bob's Burgers
 "bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hypnotoad-tc" "roberto" #"zoidberg" "fry-money"
+"prof" "bender-md" "zoidberg2" "hypnotoad-tc" "hermes"
+"zapp-kif" "scruffy" "robot-devil" "roberto" "calculon" #"zoidberg" "fry-money"
 
 #Dilbert
 "dilbert" "dilbert-boss" "wally" #"dogbert" "catbert"
@@ -77,10 +78,10 @@ COWS=(
 
 #TV Characters
 "kramer2" "newman" "larry2" "jerry" "costanza" "elaine" #"kramer" "larry"
-"tobias" "ron-swanson" "lahey-tc" "toast-tc" "moss" "it-crowd-tc"
+"tobias" "ron-swanson-tc" "lahey-tc" "toast-tc" "moss" "it-crowd-tc"
 
 #Game of Thrones
-"john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-tc" "arya" "ned-stark-sm"
+"john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-sm" "arya" "ned-stark-sm"
 #"khal-drogo-sm" "varys" #"night-king"
 #"melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
 
@@ -92,11 +93,11 @@ COWS=(
 "tim" "the-boss"
 
 #Cartoons
-"garfield" "donald-duck" "taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy"
-"catdog" "homer-simpson" #"bart"
-"aladdin" "genie-sm" "abu-tc" "abu-apple" #"jafar" "buzz-lightyear-sm" "rayman"
+"taz" "roadrunner" "wyle-e-coyote" #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck"
+"homer-simpson" #"bart" "catdog"
+"aladdin" #"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm"
 "stewie" #"spongebob" "rocko" "plankton"
-"sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "martian"
+"sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" #"martian"
 
 #Sharks
 "shark-dude-tc" "shark-smiling" "bruce" "hammerhead" #"jaws"
@@ -115,9 +116,8 @@ COWS=(
 #"frog" "guy-fawkes" "liberty-sm"
 
 #Increased Frequency duplicates
-"minion" "minion"
-"hobo2" "hobo2"
-"toast-tc" "toast-tc"
+"minion" "hobo"
+"scary-terry" "scary-terry"
 "moss" "it-crowd-tc"
 "moss" "it-crowd-tc"
 )
@@ -130,7 +130,7 @@ ERROR_COWS=(
 "white-walker-sm" "night-king" "khal-drogo-sm"
 "dr-robotnik" "grunty" "pikachu-jason" "mr-x"
 "darth-vader-sm" "phasma-sm" "palpatine-sm"
-"roberto" "raptor" "jaws"
+"roberto-face" "robot-devil" "raptor" "jaws"
 )
 
 COWSAY_FILES=$(dirname "$0")
