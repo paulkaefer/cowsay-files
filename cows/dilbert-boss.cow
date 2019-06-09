@@ -1,5 +1,5 @@
 # Pointy-haired boss (Dilbert)
-# by Charlie M
+# by unknown - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
 
 $x = "\e[m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
@@ -45,5 +45,4 @@ $the_cow = <<EOC;
         $k$b                $k$b  $k$w          $k$e    $k$w$k$b  $k$x
       $k$b                    $k$b  $k$w          $k$e$k$w  $k$b  $k$x
       $k                                                            $x
-
 EOC

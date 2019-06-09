@@ -1,5 +1,5 @@
 # Dogbert
-# by Charlie M
+# by Charlie M (original art)
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color

@@ -1,5 +1,5 @@
 # Dilbert
-# by Charlie M
+# by unknown - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
 
 $x = "\e[m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black

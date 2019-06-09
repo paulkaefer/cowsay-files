@@ -19,10 +19,10 @@ COWS=(
 "falco-sm" "starfox3" #"starfox"
 "marth" "ROB" "captain-falcon-tc" #"captain-falcon"
 "ness" #"megaman" "donkeykong" "dr-mario"
-"pikachu" "pikachu-jason"
+"pikachu" #"pikachu-jason"
 "samus" "samus3" #"samus2" "samus4" "samus-cannon"
 #"mew" "mewtwo" "kirby" "metaknight" "ike"
-"bomberman2" #"bomberman"
+#"bomberman2" "bomberman"
 
 #Sonic
 "sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
@@ -31,16 +31,16 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hypnotoad-tc" "hermes"
-"zapp-kif" "scruffy" "robot-devil" "roberto" "calculon" #"zoidberg" "fry-money"
+"prof" "bender-md" "zoidberg2" "hermes"
+"zapp-kif" "scruffy" "robot-devil" "roberto" "calculon" #"zoidberg" "fry-money" "hypnotoad-tc"
 
 #Dilbert
 "dilbert" "dilbert-boss" "wally" #"dogbert" "catbert"
 
 #PC games
 "47" #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2"
-"freeman-face-tc" "hl2-dog" "vortigaunt" #"freeman" "freeman2" "deadspace-sm"
-"tombraider" "leon-sm" #"lara-croft-sm" "lara-croft2-sm"
+"freeman-face-tc" #"hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
+"leon-sm" #"tombraider" "lara-croft-sm" "lara-croft2-sm"
 "wheatley" "subzero" "scorpion-sm"
 "vault-boy" #"bioshock-tc" "deus-ex-sm" "deus-ex2"
 
@@ -57,28 +57,30 @@ COWS=(
 "obi-wan-tc" #"darth-vader-sm" "phasma-sm"
 "yoda2" "ewok" "jawa-engineer" "jawa"
 #"palpatine" "stormtrooper" "vader" "solo" "yoda"
+#"greedo" "leia" "leia2" "biggs"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo" #"banjo" "kazooie"
-"bottles" "jamjars" #"grunty" "humba-wumba"
+#"bottles" "jamjars" "grunty" "humba-wumba"
 
 #Super Heroes
 "superman-batman" "batman-animated-sm" #"superman-flying" "batman" "batman2"
 "wolverine"  #"ironman-sm" "ironman2" "ironman3"
-"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
+#"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
 
 #South Park
-"chef-tc" "cartman" "kenny" "kyle" "stan"
+"chef-tc" "cartman" #"kenny" "kyle" "stan"
 
 #Scientists
-"hawking-sm" "einstein-face-tc" "tesla-sm" #"darwin-sm" "einstein-sm"
+"hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
 
 #Peanuts
 #"charlie-brown" "snoopy"
 
 #TV Characters
 "kramer2" "newman" "larry2" "jerry" "costanza" "elaine" #"kramer" "larry"
-"tobias" "ron-swanson-tc" "lahey-tc" "toast-tc" "moss" "it-crowd-tc"
+"tobias" "ron-swanson-tc" "lahey-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc"
+"peep-show-tc"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-sm" "arya" "ned-stark-sm"
@@ -119,7 +121,8 @@ COWS=(
 "minion" "hobo"
 "scary-terry" "scary-terry"
 "moss" "it-crowd-tc"
-"moss" "it-crowd-tc"
+"sherlock-tc" "sherlock-tc"
+"peep-show-tc" "peep-show-tc"
 )
 
 #Cows used for displaying error messages with errorsay

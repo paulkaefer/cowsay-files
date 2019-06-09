@@ -1,0 +1,66 @@
+# Mark Corrigan & Jeremy Usborne (Peep Show) - true color
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;126;77;43m  ";
+$b = "\e[48;2;63;43;34m  ";
+$c = "\e[48;2;235;194;163m  ";
+$d = "\e[48;2;233;226;212m  ";
+$e = "\e[48;2;48;48;48m  ";
+$f = "\e[48;2;32;117;177m  ";
+$g = "\e[48;2;191;46;40m  ";
+
+$the_cow = <<EOC
+          $t                                                                      $a  $x
+            $t                                                                $a          $x
+              $t                                                          $a                $x
+                $t  $b            $x                                    $a                    $x
+                  $b                $x                                  $a      $c$a  $c    $a$x
+                $b                    $x                              $a      $c              $x
+              $b    $c$b              $x                              $a      $c              $x
+              $b  $c    $b              $x                            $a    $c                $x
+              $b  $c      $b            $x                            $c  $a$c                $x
+              $b  $c              $b    $x                            $c  $a$c                $x
+              $b  $c                $b$c$x                              $c                    $x
+                $b$c                $b$c$x                              $c                    $x
+                $c                      $x                                $c                  $x
+                $c                    $x                                  $c                  $x
+                  $c                  $x                                  $c                $x
+                    $c                $x                                  $c                $x
+                    $c                $d$x                              $c                $x
+                      $c              $d$e$x                      $f  $c                $x
+                      $c            $d  $e  $x                $f        $c              $x
+                      $d$c        $d    $e      $x          $f              $c          $f  $x
+                      $d$c      $d      $e          $x  $f                        $c  $f        $x
+                  $e  $d  $c$d        $e              $f                                          $x
+              $e    $d  $g      $d    $e            $f                                              $x
+          $e        $d  $g    $d      $e            $f                                              $x
+          $e        $d  $g  $d        $e          $f                                                $x
+        $e        $d    $g  $d      $e            $f                                                  $x
+        $e        $d    $g  $d      $e          $f                                                    $x
+        $e        $d  $g    $d      $e          $f                                                    $x
+        $e      $d    $g    $d    $e            $f                                                    $x
+      $e        $d    $g    $d    $e          $f                                                      $x
+      $e        $d  $g      $d    $e          $f                                                        $x
+      $e        $d  $g      $d    $e          $f                                                        $x
+      $e      $d    $g      $d  $e          $f                                                            $x
+      $e      $d    $g      $d  $e          $f                                                            $x
+    $e        $d  $g        $d  $e          $f                                                            $x
+    $e        $d  $g      $d    $e            $f                                                        $x
+    $e        $d  $g      $d    $e            $c      $f                                              $c$x
+    $e        $d  $g      $d    $e            $c            $f                                    $c    $x
+    $e        $d  $g      $d    $e            $c            $f                                    $c    $x
+    $e        $d  $g      $d    $e            $c            $f                                    $c    $x
+    $e        $d$g        $d  $e              $c            $f                                    $c    $x
+    $e        $d$g        $d  $e                $c        $f                                      $c    $x
+    $e        $d$g        $d  $e                $c        $f                                      $c    $x
+    $e        $d$g        $d  $e                $c        $f                                      $c    $x
+    $e        $d$g        $d  $e                $c        $f                                      $c      $x
+    $e        $d$g        $d  $e                $c        $f                                      $c      $x
+    $e        $d$g        $d$e                  $c        $f                                      $c      $x
+    $e        $d$g      $d  $e                  $c          $f                                    $c      $x
+    $e        $d  $g    $d  $e                  $c          $f                                      $c    $x
+    $e        $d    $g  $d  $e                    $c          $f                                    $c    $x
+EOC
