@@ -1,10 +1,10 @@
-# The Sniper (Team Fortress 2)
-# by Henesis - https://www.kisspng.com/png-team-fortress-2-pixel-art-deviantart-cartoon-hello-5308176/
+# The Sniper (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
 $t = "$thoughts ";
-$a = "\e[48;5;233m  ";
+$a = "\e[48;5;234m  ";
 $b = "\e[48;5;101m  ";
 $c = "\e[48;5;137m  ";
 $d = "\e[48;5;174m  ";
@@ -14,21 +14,20 @@ $g = "\e[48;5;52m  ";
 $h = "\e[48;5;125m  ";
 $i = "\e[48;5;210m  ";
 $j = "\e[48;5;197m  ";
-$k = "\e[48;5;234m  ";
+$k = "\e[48;5;235m  ";
 $l = "\e[48;5;238m  ";
-$m = "\e[48;5;231m  ";
 $n = "\e[48;5;66m  ";
 
 $the_cow = <<EOC
-                                                    $t                                                              $a        $x
-                                                      $t                                                  $a        $b$a          $x
-                                                        $t                                                $a$b  $a    $c          $a  $x
-                                                          $t                                              $a    $c    $b              $a$x
-                                                            $t                                          $a  $c  $b                      $a$x
-                                                              $t                                        $a$c$b                          $a$x
-                                                                $t                                    $a$b                                $a$x
-                                                                  $t                                $a$b                            $a      $x
-                                                                    $t                            $a$b            $a                $x
+                                        $t                                                                          $a        $x
+                                          $t                                                              $a        $b$a          $x
+                                            $t                                                            $a$b  $a    $c          $a  $x
+                                              $t                                                          $a    $c    $b              $a$x
+                                                $t                                                      $a  $c  $b                      $a$x
+                                                  $t                                                    $a$c$b                          $a$x
+                                                    $t                                                $a$b                                $a$x
+                                                      $t                                            $a$b                            $a      $x
+                                                        $t                                        $a$b            $a                $x
                                                                                               $a                                  $x
                                                                                           $a        $x  $a  $c  $a$d  $a  $e$d$a  $x
                                                                                                       $a$e$a$f$a$e    $a  $d  $a  $x
@@ -55,8 +54,8 @@ $the_cow = <<EOC
                                             $a$g      $a  $g  $b  $a$x      $a  $l$a  $c$b  $a$f    $j    $a$k          $a$b$a$k  $a$c$b  $a$x
                                             $a$g  $a  $x  $a$b$a            $l$a  $c$b      $a$f  $j      $a$k          $a$b$a$k  $a$c$b  $a$x
                                               $a  $x    $a    $l  $a  $l  $a  $c$b        $a  $j          $a$k        $a$b$a$k    $a$c$b  $a$x
-                                                  $a    $m$a$l$a  $l  $a  $c$b        $a    $i$j          $a$k      $a$b$a$k      $a$c$b  $a$x
-                                              $a    $m$a      $l  $a  $c$b        $a  $x  $a$j$i$j      $a$k        $a$b$a$k      $a$b    $a$x
+                                                  $a    $l$a$l$a  $l  $a  $c$b        $a    $i$j          $a$k      $a$b$a$k      $a$c$b  $a$x
+                                              $a    $l$a      $l  $a  $c$b        $a  $x  $a$j$i$j      $a$k        $a$b$a$k      $a$b    $a$x
                                           $a  $n$a        $l  $a  $c$b    $a      $x      $a$j          $a$k      $a$b$a$k          $a  $b$a$x
                                         $a$n  $l  $a  $n$l  $a$c$a        $n  $a$x      $a$i$j          $a$k    $a$b$a$k              $a    $x
                                         $a$l  $a  $n$l    $a  $b$a$d  $l    $n$a  $x    $a$i  $j        $a$k$a  $b$a$k                $a$x
@@ -74,64 +73,4 @@ $the_cow = <<EOC
 $a$n$l    $a  $x                                                                            $a$k    $a  $k                          $a$x
 $a$l  $a  $x                                                                                $a      $g  $a$k                        $a$x
   $a  $x                                                                                          $a$g    $a$k                      $a$x
-                                                                                                  $a$h    $g$a  $k                $a$x
-                                                                                                $a$h        $g  $a                  $x
-                                                                                                $a$h            $g                $a$x
-                                                                                                $a$h                              $a$x
-                                                                                                $a$h  $g      $h                $g$a$x
-                                                                                                $a$h  $g                          $a$x
-                                                                                              $a$h    $g              $a    $g  $a$x
-                                                                                              $a$h      $g          $a$g        $a$x
-                                                                                              $a$h          $g    $a$g      $h  $a$x
-                                                                                              $a$h      $g  $h  $g$a$g        $h$a$x
-                                                                                              $a$h          $g  $a$g    $h      $a$x
-                                                                                              $a$h              $a$g    $h      $a$x
-                                                                                              $a$h              $a$g    $h      $a$x
-                                                                                              $a$h              $a  $g  $h      $a$x
-                                                                                              $a$h            $a$x$a$g  $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x$a$g    $h      $a$x
-                                                                                              $a$h            $a$x  $a$g  $h      $a$x
-                                                                                              $a$h        $g  $a$x  $a$g    $h      $a$x
-                                                                                              $a$h          $g$a$x  $a$g  $h  $g  $h$a$x
-                                                                                              $a$h      $g  $h$a$x  $a$g$h  $g      $a$x
-                                                                                              $a$h    $g      $a$x  $a$g      $h    $a$x
-                                                                                              $a$h  $g  $h    $a$x  $a$g    $h        $a$x
-                                                                                                $a$h$g$h      $a$x    $a$g  $h        $a$x
-                                                                                                $a$h          $a$x    $a$g  $h        $a$x
-                                                                                                $a$h          $a$x    $a$g  $h        $a$x
-                                                                                                $a$h          $a$x    $a$g    $h        $a$x
-                                                                                                $a$h          $a$x      $a$g  $h        $a$x
-                                                                                                $a$h          $a$x      $a$g  $h        $a$x
-                                                                                                $a$h          $a$x      $a$g  $h        $a$x
-                                                                                                $a$h            $a$x    $a$g  $h        $a$x
-                                                                                                $a$h            $a$x    $a$g  $h        $a$x
-                                                                                                $a$h            $a$x    $a$g    $h        $a$x
-                                                                                                $a$h            $a$x    $a$g    $h        $a$x
-                                                                                                $a$h            $a$x    $a$g    $h        $a$x
-                                                                                                $a$h            $a$x    $a$g    $h        $a$x
-                                                                                                $a$h            $a$x    $a$g    $h        $a$x
-                                                                                                $a$h            $a$x    $a$g      $h    $g$a$x
-                                                                                                $a$h  $g$h      $a$x    $a$g              $a$x
-                                                                                                $a$h  $g        $a$x    $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                                $a$h  $g          $a$x  $a$g                $a$x
-                                                                                              $a$h  $g            $a$x  $a$g                $a$x
-                                                                                              $a$h  $g            $a$x  $a$g                $a$x
-                                                                                              $a$h    $g          $a$x    $a  $g        $a  $x
-                                                                                            $a$h  $g              $a$x  $a$c$b$a        $b$a$x
-                                                                                            $a$g  $h$g          $a$x    $a$b              $a$x
-                                                                                      $a          $g            $a$x      $a    $b        $a$x
-                                                                                      $a$b$c  $b  $a            $x            $a            $x
-                                                                                        $a$b    $a    $b      $a$x
-                                                                                          $a    $x  $a$b      $a$x
-                                                                                                    $a        $x
 EOC

@@ -1,5 +1,5 @@
-# The Scout (Team Fortress 2)
-# by Henesis - https://www.kisspng.com/png-team-fortress-2-pixel-art-deviantart-cartoon-hello-5308176/
+# The Scout (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -9,7 +9,7 @@ $b = "\e[48;5;66m  ";
 $c = "\e[48;5;231m  ";
 $d = "\e[48;5;238m  ";
 $e = "\e[48;5;222m  ";
-$f = "\e[48;5;174m  ";
+$f = "\e[48;5;216m  ";
 $g = "\e[48;5;187m  ";
 $h = "\e[48;5;221m  ";
 $i = "\e[48;5;223m  ";
@@ -74,28 +74,4 @@ $the_cow = <<EOC
                                   $a$b$d              $a    $x$a$d          $a$x
                                   $a$b  $d        $a  $x      $a$d          $a$x
                                   $a$d          $a$x          $a$d            $a$x
-                                  $a$d          $a$x            $a$d            $a$x
-                                  $a$d          $a  $x          $a$d            $a$x
-                                $a$d              $a$x          $a$d          $a  $x
-                                $a$b$d            $a$x          $a$d        $a$i$a  $x
-                                $a$b  $d          $a$x          $a  $d    $a$i  $c$a$x
-                                $a$d$b    $d        $a$x            $a      $i  $c  $a$x
-                                $a$d                $a$x                    $a$i  $c  $a$x
-                                $a$d              $a  $x                      $a$i$c  $a$x
-                                  $a  $d  $a        $x                          $a$i$c  $a$x
-                                      $a    $i    $a$x                            $a$i$c$a$x
-                                          $a$i    $a$x                            $a$i$c  $a$x
-                                          $a$i$c  $a$x                              $a$p$c$a$x
-                                            $a$i$c  $a$x                            $a$g$c$a$x
-                                            $a$i$c  $a$x                          $a$b$a      $x
-                                            $a$i$c  $a$x                      $a    $b$d    $a$x
-                                              $a$i$c$a$x                      $a$d$c$d      $a$x
-                                              $a$i$c$a$x                        $a  $d      $a$x
-                                              $a$i$c$a$x                            $a      $x
-                                              $a$i$c$a$x
-                                            $a$d$a    $x
-                                        $a  $b$d    $a$x
-                              $a        $b  $d$c$d    $a$x
-                              $a$d        $c$d$c$d    $a$x
-                                $a                    $x
 EOC

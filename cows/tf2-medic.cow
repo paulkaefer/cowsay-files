@@ -1,5 +1,5 @@
-# The Medic (Team Fortress 2)
-# by Henesis - https://www.kisspng.com/png-team-fortress-2-pixel-art-deviantart-cartoon-hello-5308176/
+# The Medic (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Medic-349021346
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -67,52 +67,4 @@ $a$f      $a$f  $a$f$a$f  $a  $f  $a$c$a$x                            $a$b    $d
                                                                       $a                                  $j$i$a$x    $a$j$a$x$a$i$a$x
                                                                       $a$i        $j$a$b                $a$j$i  $a$x  $a$j$a$x$a$i  $a$x
                                                                       $a$i        $j$a$b$d              $a$j    $a$x  $a$j  $a    $i$a$x
-                                                                      $a$i        $j$a$b$d              $b$a    $x      $a$j$a$x$a$i$a$x
-                                                                      $a$i        $j$a$b          $d    $b      $a$x    $a$j  $a  $i$a$x
-                                                                      $a$j          $a$b                        $a$x      $a$j  $a$i$a$x
-                                                                        $a          $b                          $a$x        $a$j    $a$x
-                                                                        $a$i      $a$d$b                          $a$x        $a    $x
-                                                                        $a$i$k  $i$a$d$b                          $a$x
-                                                                        $a$k    $i  $a$d$b                        $a$x
-                                                                        $a$k    $i  $a$d$b                        $a$x
-                                                                      $a$k        $i$a$d$b                        $a$x
-                                                                      $a$k        $i$a$d$b                        $a$x
-                                                                      $a$k        $i  $a$d$b                        $a$x
-                                                                    $a$k          $i  $a$d$b                        $a$x
-                                                                    $a$k          $i  $a$d$b                        $a$x
-                                                                    $a$k            $i$a$d$b                        $a$x
-                                                                    $a$k            $i$a$d$b                          $a$x
-                                                                  $a$k              $i$a$d$b                          $a$x
-                                                                  $a$k              $i$a$d$b                          $a$x
-                                                                  $a$k              $i$a$d$b                          $d$a$x
-                                                                  $a$k              $i$a$d$b                          $d$a$x
-                                                                    $a$k            $i$a$d$b                        $d  $a$x
-                                                                    $a$k            $i$a$d  $b                $d          $a$x
-                                                                      $a$i$k        $i  $a$d  $b            $d            $a$x
-                                                                        $a$i            $a$d    $b        $d                $a$x
-                                                                          $a$i          $a$d                                $a$x
-                                                                            $a  $i      $a$d                                $a$x
-                                                                            $a$j$a        $d                                  $a$x
-                                                                            $a$j        $a$d  $b$d                            $a$x
-                                                                            $a$j        $a$d  $b  $d                            $a$x
-                                                                            $a$j        $a$d  $b    $d      $b  $d              $a$x
-                                                                            $a$j          $a$d  $b            $d                  $a$x
-                                                                              $a$j        $a$d    $b      $d                      $a$x
-                                                                              $a$j        $a$d                                    $a$x
-                                                                              $a$j        $a$d                                  $a$x
-                                                                              $a$j        $a$d                                  $a$x
-                                                                              $a$j        $a  $d                              $a$x
-                                                                              $a$j        $a  $d                          $a  $x
-                                                                              $a$j        $a  $d                    $a    $x
-                                                                              $a$j        $a  $d          $a        $k$j$a$x
-                                                                              $a$j        $a  $d  $a      $x$a$j    $k$j$a$x
-                                                                              $a$j    $k$j  $a    $x        $a$j    $k$j$a$x
-                                                                              $a$j    $k$j  $a$x          $a$k$j    $k  $j$a$x
-                                                                            $a$k$j    $k  $j$a  $x    $a  $k  $j      $k$j$a$x
-                                                                          $a$k$j              $a$x  $a$k    $j        $k$j$a$x
-                                                                      $a  $k$j        $k  $j  $a$x  $a$j        $a$j      $a$x
-                                                                $a    $k  $j          $k    $j$a$x    $a          $j      $a$x
-                                                              $a$k    $j            $k    $j  $a$x                $a      $x
-                                                              $a$j                $a    $j    $a$x
-                                                              $a                                $x
 EOC

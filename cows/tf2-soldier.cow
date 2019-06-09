@@ -1,5 +1,5 @@
-# The Soldier (Team Fortress 2)
-# by Henesis - https://www.kisspng.com/png-team-fortress-2-pixel-art-deviantart-cartoon-hello-5308176/
+# The Soldier (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -35,16 +35,12 @@ $D = "\e[48;5;186m  ";
 $E = "\e[48;5;161m  ";
 
 $the_cow = <<EOC
-      $a  $x
-    $a$b$x                  $t
-    $b  $x                    $t
-      $b$x                      $t
-      $b$c$x                      $t
-        $b          $x
-    $b    $a  $b$d$b$x
-  $b$e$a  $b    $f$b$x
-  $b$g$h  $a      $b$i    $b      $x
-  $a$g$j  $k      $a  $b$e$b              $x                        $b        $x
+      $b$c$x                          $t
+        $b          $x                  $t
+    $b    $a  $b$d$b$x                    $t
+  $b$e$a  $b    $f$b$x                      $t
+  $b$g$h  $a      $b$i    $b      $x          $t
+  $a$g$j  $k      $a  $b$e$b              $x    $t                  $b        $x
 $b$f$e    $j      $l  $b$g$a      $b              $x            $b  $m        $b  $x
 $b$f      $e      $j  $b$g$d  $f  $a      $b              $x  $b$m  $n        $m  $b$x
   $b  $f          $e$a  $h$o  $d      $f  $a            $b$x$b$m$n                $m$b$x
@@ -96,24 +92,4 @@ $b$f      $e      $j  $b$g$d  $f  $a      $b              $x  $b$m  $n        $m
                                   $b$m                    $b$x                                        $b$m                    $b$x
                                   $b$m                $n$b$x                                            $b$m                  $b$x
                                   $b$m                $n$b$x                                              $b$m                $b$x
-                                  $b$m                $n$b$x                                              $b$m                  $b$x
-                                  $b$m                  $n$b$x                                            $b$m                  $b$x
-                                    $b$m                  $b$x                                          $b$m                    $b$x
-                                    $b$m                  $b$x                                          $b$m                    $b$x
-                                    $b$m                $b$x                                            $b$m                  $b$x
-                                      $b                $x                                                $b$m              $b$x
-                                          $b            $x                                                  $b              $x
-                                          $b$a      $b$x                                                      $b$a        $b$x
-                                            $b$m  $a$b$x                                                      $b$a        $b$x
-                                            $b$m  $a$b$x                                                        $b$a      $b$x
-                                            $b$m  $a$b$x                                                        $b$m$a  $b$x
-                                            $b$m  $a$b$x                                                        $b$m$a  $b$x
-                                            $b$m  $a  $b$x                                                      $b$m$a  $b$x
-                                        $b  $n$m  $n$a$b$x                                                      $b$n$a  $b$x
-                                $b      $n        $m$a  $b$x                                                    $b$n$m$a  $b$x
-                                $b$a      $m    $a      $b$x                                                  $b$m$n  $m$a  $b$x
-                                $b  $a        $b          $x                                                  $b$a$n$m  $n    $b  $x
-                                    $b          $x                                                            $b$a    $n  $m$a    $b$x
-                                                                                                              $b      $a          $b$x
-                                                                                                                    $b              $x
 EOC

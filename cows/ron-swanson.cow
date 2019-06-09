@@ -1,4 +1,4 @@
-# ron-swanson
+# Ron Swanson
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -28,42 +28,42 @@ $v = "\e[48;5;153m  ";
 $w = "\e[48;5;60m  ";
 
 $the_cow = <<EOC
-          $t                                                                
-            $t                                                              
-              $t                                                            
-                $t              $a                $b$x                      
-                  $t        $a  $c    $d$c  $d$c    $b  $x                  
-                        $a  $c$d$c                      $b$x                
-                      $a  $c$d      $c                    $b$x              
-                    $a  $c$d          $c$d$c$d$c            $b$x            
-                  $a  $c$d  $b$d                $c$d$c        $b$x          
-                  $a$c    $d$b        $d        $c$d$c$d$c      $b$x        
-                $a  $c      $d$b$e    $b    $d                $c$b$x        
-                $a$d$c    $b  $e            $b$d    $b      $d$c$b$x        
-                $a$d$c$d  $b  $e$f        $e  $b    $e    $b  $d$b$x        
-                $a$d    $b  $e$f              $e      $f  $e$b  $x          
-                $a$d    $b$e$f                              $e$b$x          
-                $a$d  $b  $g$f                              $e$b$x          
-                $a$d  $b$e$f                                  $b$x          
-                $a  $d$b$e$f                                  $b$x          
-                  $a$b  $e  $f  $h$d    $f$e$f    $e$f        $x            
-                $a  $b  $e      $g$e  $b    $e$f$e$g$f  $d  $f$x            
-                $a  $b  $e    $f$h$i$j$k$d$f$e$f$e$g$b  $l$f  $x            
-                $a$h$b  $e  $f  $e  $h  $e    $f$e$m$i$j$k$e$f$x            
-                $a$h$f$b$e$f      $e    $f$e  $f$e  $h  $e$f  $x            
-                $a$h$e$b$e$f            $g$e  $f  $e    $f    $x            
-                $a  $f$e  $f            $g$e$f                $x            
-                  $a  $f$e$f            $e  $f  $n$f          $x            
-                    $a$f$e$f          $e  $l$e$f  $e$f      $x              
-                    $a  $f$e$f        $c  $b      $c$e$f    $x              
-                    $a    $e$f  $g$c  $d            $c$e$f  $x              
-                    $a    $f    $c$d                  $c$f  $x              
-                    $a  $l$o$f  $d  $b$f            $b$d$f$x                
-                  $a    $l  $o$f$g$f    $e        $f    $l$x                
-                $a        $l  $o$g$f                  $l  $x                
-            $a          $i$l    $f                  $l  $i$p$x              
-        $a        $p$i      $l      $f            $l  $i$p$q    $x          
-    $a        $q  $p$r$i      $l                    $i  $p$q        $x      
+          $t
+            $t
+              $t
+                $t              $a                $b$x
+                  $t        $a  $c    $d$c  $d$c    $b  $x
+                        $a  $c$d$c                      $b$x
+                      $a  $c$d      $c                    $b$x
+                    $a  $c$d          $c$d$c$d$c            $b$x
+                  $a  $c$d  $b$d                $c$d$c        $b$x
+                  $a$c    $d$b        $d        $c$d$c$d$c      $b$x
+                $a  $c      $d$b$e    $b    $d                $c$b$x
+                $a$d$c    $b  $e            $b$d    $b      $d$c$b$x
+                $a$d$c$d  $b  $e$f        $e  $b    $e    $b  $d$b$x
+                $a$d    $b  $e$f              $e      $f  $e$b  $x
+                $a$d    $b$e$f                              $e$b$x
+                $a$d  $b  $g$f                              $e$b$x
+                $a$d  $b$e$f                                  $b$x
+                $a  $d$b$e$f                                  $b$x
+                  $a$b  $e  $f  $h$d    $f$e$f    $e$f        $x
+                $a  $b  $e      $g$e  $b    $e$f$e$g$f  $d  $f$x
+                $a  $b  $e    $f$h$i$j$k$d$f$e$f$e$g$b  $l$f  $x
+                $a$h$b  $e  $f  $e  $h  $e    $f$e$m$i$j$k$e$f$x
+                $a$h$f$b$e$f      $e    $f$e  $f$e  $h  $e$f  $x
+                $a$h$e$b$e$f            $g$e  $f  $e    $f    $x
+                $a  $f$e  $f            $g$e$f                $x
+                  $a  $f$e$f            $e  $f  $n$f          $x
+                    $a$f$e$f          $e  $l$e$f  $e$f      $x
+                    $a  $f$e$f        $c  $b      $c$e$f    $x
+                    $a    $e$f  $g$c  $d            $c$e$f  $x
+                    $a    $f    $c$d                  $c$f  $x
+                    $a  $l$o$f  $d  $b$f            $b$d$f$x
+                  $a    $l  $o$f$g$f    $e        $f    $l$x
+                $a        $l  $o$g$f                  $l  $x
+            $a          $i$l    $f                  $l  $i$p$x
+        $a        $p$i      $l      $f            $l  $i$p$q    $x
+    $a        $q  $p$r$i      $l                    $i  $p$q        $x
 $a      $q          $p$s$i      $l                $i  $p$q        $u      $x
 $a    $u  $q          $p$r$i      $l            $i    $p$q      $u          $x
 $a$u        $q          $p$i          $l      $i    $p$q      $u            $x

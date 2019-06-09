@@ -1,5 +1,5 @@
-# The Terminator w/ shotgun
-# by Charlie M
+# The Terminator w/ shotgun - cropped
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9gkibo/oc_terminator_i_made_as_part_of_my_latest_live/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -77,22 +77,4 @@ $the_cow = <<EOC
                         $m    $o  $x      $o    $m    $x
                         $m    $o  $x        $o  $a$m  $x
                         $m  $a$o  $x        $o    $m  $x
-                        $a$m$o    $x        $o    $m  $x
-                      $a    $o  $x          $o    $m    $x
-                      $a    $o  $x            $o  $m    $x
-                      $a    $o  $x            $o  $m    $x
-                      $a    $o  $x            $o  $m    $x
-                      $a    $o  $x            $o  $m    $x
-                      $a    $o  $x            $o  $m    $x
-                      $a  $o    $x            $o  $m    $x
-                      $a  $o    $x            $o    $m  $x
-                      $a  $o    $x            $o    $m  $x
-                      $a  $o    $x            $o    $m  $x
-                      $a  $o    $x            $o    $m  $x
-                    $o          $x            $o    $m  $x
-                  $o          $x                $o  $m    $x
-                  $r      $m$o$x                $o        $x
-                  $r        $o$x                $o          $x
-                                                $o$r    $m$o$x
-                                                $r        $o$x
 EOC

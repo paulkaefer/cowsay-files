@@ -1,5 +1,5 @@
 # Terminator
-# by Charlie M
+# by Gustavo Viselner - https://dribbble.com/shots/2143644-Terminator
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color

@@ -1,5 +1,5 @@
-# Emperor Palpatine (Star Wars)
-# by Charlie M
+# Emperor Palpatine (Star Wars) - cropped
+# by Gustavo Vilsener - https://dribbble.com/shots/2434401-Star-Wars-Episode-VI-Return-of-the-Jedi
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -83,15 +83,4 @@ $z                            $A$l            $c  $l  $b    $c    $s$c  $l$c    
           $z                            $h$j$c    $l  $c$l        $c  $l  $c  $l          $s$c    $b    $h$g                            $x
             $z                              $j$c  $l  $c$l        $c  $l  $c  $l          $s$c    $b  $g                              $x
               $z                          $b$j$c  $l  $c$l          $c$l  $c  $l          $s  $c$b      $g                          $x
-                $z                        $b  $c  $l  $c$l          $c$l  $c  $l          $s  $c$b      $g                        $x
-                  $z                    $b      $c$l  $c$l        $c$l      $c$l          $s  $c$b        $g                    $x
-                    $z                  $b      $c$l  $c$l        $c$l      $c$l            $s$c$b        $g                  $x
-                      $z              $b        $c$l  $c$l        $c$l      $c$l            $s$c$b          $g              $x
-                        $z            $b        $c    $l          $c$l      $c$l            $s$l$b          $g            $x
-                          $z        $b          $c  $l  $c$l      $c$l      $c  $l          $s$l$b            $g        $x
-                            $z      $b    $c    $l  $c  $l      $c  $l        $c  $l              $b          $g      $x
-                              $z  $b    $c      $l$c  $l      $c    $l        $c  $l              $b            $g  $x
-                                $z$b  $c    $l    $c$l        $c    $l        $c    $l            $b            $g$x
-                                  $b$c    $l    $c  $l        $c    $l        $c    $l              $b          $x
-                                  $c    $l    $c  $l        $c    $l            $c  $l              $b          $x
 EOC
