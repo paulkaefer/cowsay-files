@@ -31,7 +31,7 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hermes"
+"prof" "bender-md" "zoidberg2" "hermes" "farnsworth"
 "zapp-kif" "scruffy" "robot-devil" "roberto" "calculon" #"zoidberg" "fry-money" "hypnotoad-tc"
 
 #Dilbert
@@ -80,7 +80,7 @@ COWS=(
 #TV Characters
 "kramer2" "newman" "larry2" "jerry" "costanza" "elaine" #"kramer" "larry"
 "tobias" "ron-swanson-tc" "lahey-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc"
-"peep-show-tc"
+"peep-show-tc" "frank-reynolds"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc" #"the-hound-sm" "arya" "ned-stark-sm"
@@ -100,6 +100,7 @@ COWS=(
 "aladdin" #"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm"
 "stewie" #"spongebob" "rocko" "plankton"
 "sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" #"martian"
+"flintstone" "barney"
 
 #Sharks
 "shark-dude-tc" "shark-smiling" "bruce" "hammerhead" #"jaws"
@@ -114,8 +115,7 @@ COWS=(
 "bobross-tc" "bobross2" "deadpool-bob-ross"
 #"strongbad" "homestar" "cheat"
 "hobo2" "minion" "minion2"
-"mr-robot-hal"
-#"frog" "guy-fawkes" "liberty-sm"
+#"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
 "minion" "hobo"
@@ -133,7 +133,8 @@ ERROR_COWS=(
 "white-walker-sm" "night-king" "khal-drogo-sm"
 "dr-robotnik" "grunty" "pikachu-jason" "mr-x"
 "darth-vader-sm" "phasma-sm" "palpatine"
-"roberto-face" "robot-devil" "raptor" "jaws"
+"roberto-face" "robot-devil" "farnsworth"
+"raptor" "jaws"
 )
 
 COWSAY_FILES=$(dirname "$0")
