@@ -29,7 +29,7 @@ $w = "\e[48;5;101m  ";
 $y = "\e[48;5;226m  ";
 
 $the_cow = <<EOC
-              $t                                      $a        $x
+$x            $t                                      $a        $x
                 $t                                $a    $b      $a  $x
                   $t                            $a  $b    $c  $b    $a$x
                     $t      $d    $e    $x  $f  $a$b      $c  $b    $a  $x

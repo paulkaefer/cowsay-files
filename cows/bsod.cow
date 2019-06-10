@@ -43,7 +43,7 @@ $L = "\e[48;5;112m  ";
 $M = "\e[48;5;160m  ";
 
 $the_cow = <<EOC
-                                $t                    $c$d$e                                                          $d$c$x
+$x                              $t                    $c$d$e                                                          $d$c$x
                                   $t                $f$g$h$i                                                          $h$g$f$x
                                     $t              $f$j$i      $k$l                                        $k  $i      $j$f$x
                                       $t            $f$j$i    $k$m                                            $n$k$i    $j$f$x

@@ -1,4 +1,4 @@
-# White Walker (Game of Thrones) - cropped
+# White Walker (Game of Thrones) - true color, cropped
 # by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm, edited and converted by Charlie 'Charc0al' M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -25,7 +25,7 @@ $r = "\e[48;2;217;87;99m  ";
 $s = "\e[48;2;232;180;216m  ";
 
 $the_cow = <<EOC
-                              $t                        $a        $x
+$x                            $t                        $a        $x
                                 $t            $a$x  $a      $b    $a$x
                                   $t            $a      $b$a$c$b    $c$x
                                     $t            $a    $c$b$d  $e$b$d$x        $b$x

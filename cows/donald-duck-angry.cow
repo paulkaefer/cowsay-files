@@ -22,7 +22,7 @@ $o = "\e[48;5;166m  ";
 $p = "\e[48;5;197m  ";
 
 $the_cow = <<EOC
-              $t                                  $a        $x
+$x            $t                                  $a        $x
                 $t                              $a  $b      $a$x
                   $t                          $c$a  $b      $a$x
                     $t                        $c$a      $b  $d$x

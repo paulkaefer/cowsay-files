@@ -25,7 +25,7 @@ $r = "\e[48;5;196m  ";
 $s = "\e[48;5;124m  ";
 
 $the_cow = <<EOC
-          $t
+$x        $t
             $t
               $t      $a$b    $a$x
                     $a$b        $a$c  $x

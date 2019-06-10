@@ -16,7 +16,7 @@ $i = "\e[48;5;102m  ";
 $j = "\e[48;5;233m  ";
 
 $the_cow = <<EOC
-              $t                        $a      $x
+$x            $t                        $a      $x
                 $t                  $a  $b      $a$c  $x
                   $t              $a$b        $c$b$c$b$c$x    $c$a$c    $x
                     $t          $c$a    $b  $d      $b  $c    $b  $d$x

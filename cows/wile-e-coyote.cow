@@ -1,5 +1,5 @@
-# Wyle E Coyote
-# by Charlie M
+# Wile E. Coyote
+# by Charc0al, original art from Desert Demolition (Sega Genesis game)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color

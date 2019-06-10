@@ -31,7 +31,7 @@ $z = "\e[48;5;234m  ";
 $A = "\e[48;5;103m  ";
 
 $the_cow = <<EOC
-                $t
+$x              $t
                   $t                $f$g        $b                $j    $c  $b              $g        $i$x
                     $t              $f$g        $b              $j$c        $k$c$b          $g        $i$x
                       $t            $f$g        $b            $j$b          $l$c$b          $g        $i$x

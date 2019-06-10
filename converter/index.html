@@ -89,7 +89,7 @@
               var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
               varMap[bgColor] = varNames[0];
               colorCount++;
-              var lastColor = bgColor;
+              var lastColor; // = bgColor;
 
               each(range(0, img.height), function(y) {
                 each(range(0, img.width), function(x) {

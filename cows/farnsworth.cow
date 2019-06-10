@@ -19,7 +19,7 @@ $m = "\e[48;5;249m  ";
 $n = "\e[48;5;237m  ";
 
 $the_cow = <<EOC
-                        $t                                                $a        $x
+$x                      $t                                                $a        $x
                           $t                                      $a      $b        $a  $x
                             $t                                  $a$b                    $a$x
                               $t                            $a  $b                        $a$x

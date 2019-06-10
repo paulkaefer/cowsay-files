@@ -40,7 +40,7 @@ $I = "\e[48;5;104m  ";
 $J = "\e[48;5;240m  ";
 
 $the_cow = <<EOC
-                $t                                                                              $a$x
+$x              $t                                                                              $a$x
                   $t                                                                            $a$x      $b$x
                     $t                                                                  $a$x  $a  $b$x$b$a$b$x
                       $t                                                                $a$x  $a  $b  $a$b$x

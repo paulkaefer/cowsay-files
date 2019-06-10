@@ -32,7 +32,7 @@ $A = "\e[48;5;242m  ";
 $B = "\e[48;5;137m  ";
 
 $the_cow = <<EOC
-                  $t                $a      $x
+$x                $t                $a      $x
                     $t            $a  $b$c$b$a$x
                       $t          $a  $d$e$f$g$x
                         $t        $a$h        $x

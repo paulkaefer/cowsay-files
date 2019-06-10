@@ -14,7 +14,7 @@ $g = "\e[48;5;249m  ";
 $h = "\e[48;5;94m  ";
 
 $the_cow = <<EOC
-                     $t
+$x                   $t
     $a  $x             $t
     $a      $x           $t                                               $a    $x
     $a        $x           $t                                         $a        $x

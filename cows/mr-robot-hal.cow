@@ -54,7 +54,7 @@ $W = "\e[48;2;54;40;57m  ";
 $X = "\e[48;2;87;68;93m  ";
 
 $the_cow = <<EOC
-                      $t                              $a  $b$a$x
+$x                    $t                              $a  $b$a$x
                         $t                          $c  $d  $a  $x
                           $t                    $e  $c$b$f$d$e  $a$x
                             $t                $a$e$b$f$g$h$i$j$c$a  $x

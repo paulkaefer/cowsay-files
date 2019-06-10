@@ -37,7 +37,7 @@ $F = "\e[48;5;174m  ";
 $G = "\e[48;5;255m  ";
 
 $the_cow = <<EOC
-                  $t                $a$b    $x
+$x                $t                $a$b    $x
                     $t            $c$d$c$b$e$f$x
                       $t          $c$d  $b$d  $a$x
                         $t      $a$g$d  $c$d  $h$x

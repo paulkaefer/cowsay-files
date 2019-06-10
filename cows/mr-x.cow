@@ -13,7 +13,7 @@ $f = "\e[48;5;122m  ";
 $g = "\e[48;5;99m  ";
 
 $the_cow = <<EOC
-                      $t                    $a          $x
+$x                    $t                    $a          $x
                         $t                $a$b  $a$b    $a$x
                           $t              $b    $a$b$c$b  $x
                             $t            $b    $d$b$c  $b  $x
