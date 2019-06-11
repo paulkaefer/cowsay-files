@@ -19,7 +19,7 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"taz" "roadrunner" "wile-e-coyote" "homer-simpson" "aladdin" "stewie"
+"taz" "roadrunner" "roadrunner2" "wile-e-coyote" "homer-simpson" "aladdin" "stewie"
 "sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney"
 #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton"
@@ -30,9 +30,9 @@ COWS=(
 #"dogbert" "catbert"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hermes" "farnsworth"
+"prof" "bender-md" "zoidberg2" "hermes"
 "zapp-kif" "scruffy" "robot-devil" "roberto" "calculon"
-#"zoidberg" "fry-money" "hypnotoad-tc"
+#"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc"
@@ -47,7 +47,7 @@ COWS=(
 
 #Nintendo
 "link-sm" "link-toon-tc" "mario" "luigi" "super-mario-world" "yoshi"
-"falco-sm" "starfox3" "marth" "ROB" "captain-falcon-tc" "ness" "pikachu" "samus"
+"falco-sm" "starfox3" "marth-tc" "ROB" "captain-falcon-tc" "ness" "pikachu" "samus"
 #"starfox" "mew" "mewtwo" "kirby" "metaknight" "ike" "megaman" "donkeykong" "dr-mario"
 #"samus3" "samus2" "samus4" "samus-cannon" "bomberman2" "bomberman" "pikachu-jason"
 #"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid" "link" "link2"
@@ -76,7 +76,7 @@ COWS=(
 #"r2d2-c3po" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar"
 
 #Super Heroes
-"superman-batman" "batman-animated-sm" "wolverine" 
+"superman-batman" "batman-animated-sm" "wolverine"
 #"superman-flying" "batman" "batman2" "ironman-sm" "ironman2" "ironman3"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
 
@@ -96,7 +96,7 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil" "raptor" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
-"the-dude" "donald"
+"the-dude" "donald" "leprechaun"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc"
 #"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
 #"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
@@ -109,6 +109,7 @@ COWS=(
 #Increased Frequency duplicates
 "sherlock-tc" "sherlock-tc" "sherlock-tc"
 "peep-show-tc" "peep-show-tc" "peep-show-tc"
+"marth-tc" "marth-tc" "marth-tc"
 )
 
 #Cows used for displaying error messages with errorsay
@@ -133,7 +134,6 @@ ERROR_COWS=(
 "mr-x"
 "night-king"
 "palpatine"
-"pepe"
 "phasma-sm"
 "pikachu-jason"
 "raptor"
