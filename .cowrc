@@ -19,20 +19,19 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"taz" "roadrunner" "roadrunner2" "wile-e-coyote" "homer-simpson" "aladdin" "stewie"
-"sylvester" "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney"
+"taz" "roadrunner" "roadrunner2" "wile-e-coyote" "aladdin"
+"bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney"
 #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
-#"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton"
-#"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm"
+#"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
+#"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester"
 
 #Dilbert
 "dilbert" "dilbert-boss" "wally"
 #"dogbert" "catbert"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hermes"
-"zapp-kif" "scruffy" "robot-devil" "roberto" "calculon"
-#"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth"
+"prof" "bender-md" "zoidberg2" "hermes" "zapp-kif" "scruffy" "roberto"
+#"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth" "calculon" "robot-devil"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc"
@@ -43,7 +42,8 @@ COWS=(
 "tim" "the-boss"
 
 #Metal Gear Solid
-"gray-fox" "solid-snake"
+"gray-fox-tc" "solid-snake" "solid-snake2"
+#"metal-gear"
 
 #Nintendo
 "link-sm" "link-toon-tc" "mario" "luigi" "super-mario-world" "yoshi"
@@ -53,15 +53,15 @@ COWS=(
 #"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid" "link" "link2"
 
 #PC games
-"47" "freeman-face-tc" "leon-sm" "wheatley" "subzero" "scorpion-sm" "vault-boy"
-#"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2"
+"47" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
+#"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
 #Scientists
 "hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
 
 #Sharks
-"shark-dude-tc" "shark-smiling" "bruce" "hammerhead" #"jaws"
+"shark-dude-tc" "bruce" "hammerhead" #"jaws" "shark-smiling"
 
 #Sonic
 "sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
@@ -70,10 +70,9 @@ COWS=(
 "chef-tc" "cartman" #"kenny" "kyle" "stan"
 
 #Star Wars
-"r2d2" "c3po-color" "boba-fett-tc" "chewbacca"
-"obi-wan-tc" "yoda2" "ewok" "jawa-engineer" "jawa"
+"r2d2" "c3po-color" "obi-wan-tc" "yoda2" "ewok" "jawa-engineer" "jawa"
 #"darth-vader-sm" "phasma-sm" "palpatine" "stormtrooper" "vader" "solo" "yoda"
-#"r2d2-c3po" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar"
+#"r2d2-c3po" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
 "superman-batman" "batman-animated-sm" "wolverine"
@@ -88,28 +87,29 @@ COWS=(
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm" "raphael2-sm"
 
 #TV Characters
-"kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
+#"kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
 "tobias" "ron-swanson-tc" "lahey-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc"
 "peep-show-tc" "frank-reynolds"
 #"kramer" "larry"
 
 #Misc
-"fsm" "good-vs-evil" "raptor" "raptor-jesus"
+"fsm" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
 "the-dude" "donald" "leprechaun"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc"
 #"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
 #"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
-#"donald-hat" "mike-tyson-sm"
+#"donald-hat" "mike-tyson-sm" "raptor"
 
 #"strongbad" "homestar" "cheat"
 "hobo2" "minion" "minion2"
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
-"sherlock-tc" "sherlock-tc" "sherlock-tc"
+"sherlock-tc" "sherlock-tc"
 "peep-show-tc" "peep-show-tc" "peep-show-tc"
 "marth-tc" "marth-tc" "marth-tc"
+"gray-fox-tc" "gray-fox-tc" "gray-fox-tc"
 )
 
 #Cows used for displaying error messages with errorsay
@@ -130,6 +130,7 @@ ERROR_COWS=(
 "jaws"
 "jesus-ripped-tc"
 "khal-drogo-sm"
+"metal-gear-tc"
 "mr-robot-hal"
 "mr-x"
 "night-king"
