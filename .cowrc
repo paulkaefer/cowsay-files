@@ -8,7 +8,7 @@ COWS=(
 #"pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone" "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "carl-sm" "master-shake" "frylock" "meatwad" "zorak"
+"mooninites" "carl-sm" "master-shake" "frylock" "meatwad" "zorak" "space-ghost" "moltar"
 #"ignignokt" "err"
 
 #Banjo Kazooie
@@ -20,7 +20,7 @@ COWS=(
 
 #Cartoons
 "taz" "roadrunner" "roadrunner2" "wile-e-coyote" "aladdin"
-"bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney"
+"bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney" "popeye"
 #"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
 #"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester"
@@ -54,7 +54,7 @@ COWS=(
 
 #PC games
 "47" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
-"glados-color" "glados2" "glados-potato-tc"
+"glados-color" "glados2" "glados-potato-tc" "portal-chell"
 #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
@@ -71,9 +71,9 @@ COWS=(
 "chef-tc" "cartman" #"kenny" "kyle" "stan"
 
 #Star Wars
-"r2d2" "c3po-color" "obi-wan-tc" "yoda2" "ewok" "jawa-engineer" "jawa"
+"r2d2-c3po" "obi-wan-tc" "yoda2" "ewok" "jawa-engineer" "jawa"
 #"darth-vader-sm" "phasma-sm" "palpatine" "stormtrooper" "vader" "solo" "yoda"
-#"r2d2-c3po" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
+#"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
 "superman-batman" "batman-animated-sm" "wolverine"
@@ -96,7 +96,7 @@ COWS=(
 #Misc
 "fsm" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
-"the-dude" "donald" "leprechaun"
+"ghostbusters" "the-dude" "donald" "leprechaun"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc"
 #"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
 #"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
@@ -107,10 +107,13 @@ COWS=(
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
+"leprechaun" "leprechaun" "leprechaun"
 "sherlock-tc" "sherlock-tc"
 "peep-show-tc" "peep-show-tc" "peep-show-tc"
 "marth-tc" "marth-tc" "marth-tc"
-"gray-fox-tc" "gray-fox-tc" "gray-fox-tc"
+"gray-fox-tc" "gray-fox-tc"
+"glados-potato-tc" "glados-potato-tc"
+"glados-color" "glados2"
 )
 
 #Cows used for displaying error messages with errorsay
