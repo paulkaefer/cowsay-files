@@ -19,9 +19,9 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"taz" "roadrunner" "roadrunner2" "wile-e-coyote" "aladdin"
+"roadrunner" "roadrunner2" "wile-e-coyote" "aladdin"
 "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney" "popeye"
-#"speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
+#"taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
 #"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester"
 
@@ -52,17 +52,12 @@ COWS=(
 #"samus3" "samus2" "samus4" "samus-cannon" "bomberman2" "bomberman" "pikachu-jason"
 #"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid" "link" "link2"
 
-#PC games
-"47" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
-"glados-color" "glados2" "glados-potato-tc" "portal-chell"
-#"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
-#"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
-
 #Scientists
 "hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
 
 #Sharks
-"shark-dude-tc" "bruce" "hammerhead" #"jaws" "shark-smiling"
+"ripster" "streex"
+#"jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "shark-smiling"
 
 #Sonic
 "sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
@@ -93,6 +88,12 @@ COWS=(
 "peep-show-tc" "frank-reynolds"
 #"kramer" "larry"
 
+#Video Game characters
+"47" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
+"glados-color" "glados2" "glados-potato-tc" "portal-chell"
+#"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
+#"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
+
 #Misc
 "fsm" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross"
@@ -112,12 +113,12 @@ COWS=(
 "peep-show-tc" "peep-show-tc" "peep-show-tc"
 "marth-tc" "marth-tc" "marth-tc"
 "gray-fox-tc" "gray-fox-tc"
-"glados-potato-tc" "glados-potato-tc"
-"glados-color" "glados2"
+"glados-potato-tc" "glados-color" "glados2"
 )
 
 #Cows used for displaying error messages with errorsay
 ERROR_COWS=(
+"big-slammu"
 "bioshock-tc"
 "bomberman2"
 "bsod"
@@ -131,6 +132,7 @@ ERROR_COWS=(
 "glados-wrecked"
 "greedo"
 "grunty"
+"jab"
 "jafar"
 "jaws"
 "jesus-ripped-tc"
@@ -154,6 +156,7 @@ ERROR_COWS=(
 "white-walker-sm"
 "wile-e-coyote2"
 "zombie"
+"zombie-police"
 )
 
 COWSAY_FILES=$(dirname "$0")
