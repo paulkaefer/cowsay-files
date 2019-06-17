@@ -13,6 +13,7 @@ $f = "\e[48;5;174m  ";
 $g = "\e[48;5;231m  ";
 $h = "\e[48;5;27m  ";
 $i = "\e[48;5;238m  ";
+$j = "\e[48;5;202m  ";
 
 $the_cow = <<EOC
                           $a$x           $t       $b            $x
@@ -26,7 +27,7 @@ $the_cow = <<EOC
                         $a  $x          $b$c$d                      $b$x
                           $a  $x        $b  $d                    $b$x
                             $a$x          $b$e      $d        $b  $x
-                              $a$x$b        $e    $f$d      $b  $x
+                              $a$j$d      $b$e    $f$d      $b  $x
                                         $b$e    $f  $d    $b$d$b$x
                                           $b$f$e$f$d    $b$d  $b$x
                                           $b$e  $d$b    $d  $b    $x

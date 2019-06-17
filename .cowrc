@@ -118,6 +118,7 @@ COWS=(
 
 #Cows used for displaying error messages with errorsay
 ERROR_COWS=(
+"bart-zombie"
 "big-slammu"
 "bioshock-tc"
 "bomberman2"
