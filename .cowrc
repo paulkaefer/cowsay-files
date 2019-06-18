@@ -4,8 +4,8 @@
 # Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "rick-and-morty2" "snowball-sm" "pickle-rick2-sm" "pickle-rick-sm" "scary-terry"
-#"pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone" "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
+"rick-and-morty-running" "snowball-sm" "pickle-rick2-sm" "pickle-rick-sm" "scary-terry"
+#"rick-and-morty2" "pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone" "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
 "mooninites" "carl-sm" "master-shake" "frylock" "meatwad" "zorak" "space-ghost" "moltar"
@@ -96,24 +96,21 @@ COWS=(
 
 #Misc
 "fsm" "good-vs-evil" "raptor-jesus"
-"bobross-tc" "bobross2" "deadpool-bob-ross"
+"bobross-tc" "bobross2" "deadpool-bob-ross" "michael-jackson"
 "ghostbusters" "the-dude" "donald" "leprechaun"
+"wall-e" "wall-e-plant" "shrek" "donkey"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc"
 #"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
 #"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
-#"donald-hat" "mike-tyson-sm" "raptor"
+#"donald-hat" "mike-tyson-sm" "raptor" "wall-e2" "eve"
 
 #"strongbad" "homestar" "cheat"
 "hobo2" "minion" "minion2"
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
-"leprechaun" "leprechaun" "leprechaun"
-"sherlock-tc" "sherlock-tc"
-"peep-show-tc" "peep-show-tc" "peep-show-tc"
-"marth-tc" "marth-tc" "marth-tc"
-"gray-fox-tc" "gray-fox-tc"
-"glados-potato-tc" "glados-color" "glados2"
+"wall-e-plant" "wall-e-plant"
+"shrek" "shrek" "donkey" "donkey"
 )
 
 #Cows used for displaying error messages with errorsay
@@ -130,8 +127,10 @@ ERROR_COWS=(
 "doomkart2"
 "dr-robotnik"
 "farnsworth"
+"ghostface"
 "glados-wrecked"
 "greedo"
+"grinch"
 "grunty"
 "jab"
 "jafar"
