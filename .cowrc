@@ -8,7 +8,8 @@ COWS=(
 #"rick-and-morty2" "pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone" "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "carl-sm" "master-shake" "frylock" "meatwad" "zorak" "space-ghost" "moltar"
+"mooninites" "master-shake" "frylock" "meatwad" "carl-sm"
+"space-ghost" "moltar" "zorak"
 #"ignignokt" "err"
 
 #Banjo Kazooie
@@ -39,7 +40,7 @@ COWS=(
 #"melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
 
 #Life & Times of Tim
-"tim" "the-boss"
+"tim" "the-boss" "stu"
 
 #Metal Gear Solid
 "gray-fox-tc" "solid-snake" "solid-snake2"
@@ -71,7 +72,7 @@ COWS=(
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
-"superman-batman" "batman-animated-sm" "wolverine"
+"superman-batman" "batman-animated-sm" "wolverine" "one-punch-man"
 #"superman-flying" "batman" "batman2" "ironman-sm" "ironman2" "ironman3"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
 
@@ -110,7 +111,7 @@ COWS=(
 
 #Increased Frequency duplicates
 "wall-e-plant" "wall-e-plant"
-"shrek" "shrek" "donkey" "donkey"
+"47-silverballers" "47-silverballers"
 )
 
 #Cows used for displaying error messages with errorsay
