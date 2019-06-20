@@ -91,7 +91,7 @@ COWS=(
 
 #Video Game characters
 "47" "47-silverballers" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
-"glados-color" "glados2" "glados-potato-tc" "portal-chell"
+"glados-color" "glados2" "glados-potato-tc" "portal-chell" "master-chief-tc"
 #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
@@ -112,6 +112,7 @@ COWS=(
 #Increased Frequency duplicates
 "wall-e-plant" "wall-e-plant"
 "47-silverballers" "47-silverballers"
+"master-chief-tc" "master-chief-tc"
 )
 
 #Cows used for displaying error messages with errorsay
