@@ -47,11 +47,15 @@ COWS=(
 #"metal-gear"
 
 #Nintendo
-"link-sm" "link-toon-tc" "mario" "luigi" "super-mario-world" "yoshi"
-"falco-sm" "starfox3" "marth-tc" "ROB" "captain-falcon-tc" "ness" "pikachu2" "pikachu3" "samus"
-#"pikachu" "starfox" "mew" "mewtwo" "kirby" "metaknight" "ike" "megaman" "donkeykong" "dr-mario"
-#"samus3" "samus2" "samus4" "samus-cannon" "bomberman2" "bomberman" "pikachu-jason"
-#"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid" "link" "link2"
+"link-toon-tc" "link3" "mario" "luigi" "super-mario-world" "yoshi"
+"falco-sm" "starfox3" "marth-tc" "ROB" "captain-falcon-tc" "ness"  "samus"
+#"link-sm" "link-bow-tc" "starfox" "kirby" "metaknight" "ike" "megaman" "donkeykong" "dr-mario"
+#"samus3" "samus2" "samus4" "samus-cannon" "bomberman2" "bomberman"
+#"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid"
+
+#Pokemon
+"bulbasaur" "charmander" "pikachu2" "pikachu3" "mewtwo2"
+#"pikachu" "mew" "mewtwo" "pikachu-jason"
 
 #Scientists
 "hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
@@ -140,6 +144,7 @@ ERROR_COWS=(
 "jesus-ripped-tc"
 "jigsaw"
 "joker"
+"joker-toon"
 "khal-drogo-sm"
 "metal-gear-tc"
 "mr-robot-hal"
