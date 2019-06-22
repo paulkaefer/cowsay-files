@@ -31,8 +31,8 @@ COWS=(
 #"dogbert" "catbert"
 
 #Futurama
-"prof" "bender-md" "zoidberg2" "hermes" "zapp-kif" "scruffy" "roberto"
-#"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth" "calculon" "robot-devil"
+"professor" "bender-md" "zoidberg2" "hermes" "zapp-kif" "scruffy" "roberto"
+#"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth" "calculon" "robot-devil" "prof" "leela" "amy"
 
 #Game of Thrones
 "john-snow-sm" "tyrion-tc" "hodor-tc"
@@ -62,7 +62,7 @@ COWS=(
 
 #Sharks
 "ripster" "streex"
-#"jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "shark-smiling"
+#"jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "jaws2" "shark-smiling"
 
 #Sonic
 "sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
@@ -125,6 +125,8 @@ ERROR_COWS=(
 "big-slammu"
 "bioshock-tc"
 "bomberman2"
+"bowser"
+"bowser-jr"
 "bsod"
 "cthulhu-tc"
 "darth-vader-sm"
@@ -133,6 +135,7 @@ ERROR_COWS=(
 "doomkart2"
 "dr-robotnik"
 "farnsworth"
+"ganondorf"
 "ghostface"
 "glados-wrecked"
 "greedo"
