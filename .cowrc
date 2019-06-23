@@ -20,7 +20,7 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"roadrunner" "roadrunner2" "wile-e-coyote" "aladdin"
+"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "aladdin"
 "bugs-bunny-sm" "elmer-fudd" "daffy-duck" "flintstone" "barney" "popeye"
 #"taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
@@ -85,6 +85,7 @@ COWS=(
 #"tf2-pyro" "tf2-medic" "tf2-heavy" "tf2-demo-sm" "tf2-sniper-sm" "tf2-scout" "tf2-soldier-sm"
 
 #TMNT
+"michaelangelo2" "raphael3" "leonardo2"
 #"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm" "raphael2-sm"
 
 #TV Characters
@@ -103,14 +104,14 @@ COWS=(
 "fsm" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross" "michael-jackson"
 "ghostbusters" "the-dude" "donald" "leprechaun"
-"wall-e" "wall-e-plant" "shrek" "donkey"
+"wall-e" "wall-e-plant" "shrek" "donkey" "col-sanders"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc"
 #"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
 #"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
 #"donald-hat" "mike-tyson-sm" "raptor" "wall-e2" "eve"
 
 #"strongbad" "homestar" "cheat"
-"hobo2" "minion" "minion2"
+"hobo" "hobo2" "minion" "minion2"
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
@@ -150,6 +151,7 @@ ERROR_COWS=(
 "joker-toon"
 "khal-drogo-sm"
 "metal-gear-tc"
+"mr-freeze"
 "mr-robot-hal"
 "mr-x"
 "night-king"
@@ -166,6 +168,7 @@ ERROR_COWS=(
 "taz"
 "terminator"
 "this-is-fine"
+"twoface"
 "white-walker-sm"
 "wile-e-coyote2"
 "zombie"
