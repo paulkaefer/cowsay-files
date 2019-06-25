@@ -85,8 +85,8 @@ COWS=(
 #"tf2-pyro" "tf2-medic" "tf2-heavy" "tf2-demo-sm" "tf2-sniper-sm" "tf2-scout" "tf2-soldier-sm"
 
 #TMNT
-"michaelangelo2" "raphael3" "leonardo2"
-#"raphael-sm" "michaelangelo-sm" "leonardo-sm" "donatello-sm" "raphael2-sm"
+"michaelangelo" "michaelangelo2" "michaelangelo-kick" "donatello2" "raphael" "raphael2" "leonardo"
+# "donatello" "raphael3" "leonardo2"
 
 #TV Characters
 #"kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
