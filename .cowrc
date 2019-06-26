@@ -20,11 +20,10 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "aladdin"
-"bugs-bunny-sm" "flintstone" "barney" "popeye"
+"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "aladdin" "bugs-bunny-sm"
 #"elmer-fudd" "daffy-duck" "taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
-#"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester"
+#"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester" "flintstone" "barney" "popeye"
 
 #Dilbert
 "dilbert" "dilbert-boss" "wally"
@@ -43,8 +42,8 @@ COWS=(
 "tim" "the-boss" "stu"
 
 #Metal Gear Solid
-"gray-fox-tc" "solid-snake" "solid-snake2"
-#"metal-gear"
+"gray-fox-tc" "solid-snake"
+#"metal-gear" "solid-snake2"
 
 #Nintendo
 "link-toon-tc" "link3" "mario" "luigi" "super-mario-world" "yoshi"
@@ -62,8 +61,7 @@ COWS=(
 "hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
 
 #Sharks
-"ripster" "streex"
-#"jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "jaws2" "shark-smiling"
+#"ripster" "streex" "jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "jaws2" "shark-smiling"
 
 #Sonic
 "sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
@@ -91,7 +89,7 @@ COWS=(
 
 #TV Characters
 #"kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
-"tobias" "ron-swanson-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc" "peep-show-tc"
+"tobias" "ron-swanson-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc" "peep-show-tc" "archer"
 #"lahey-tc" "kramer" "larry" "frank-reynolds"
 
 #Video Game characters
@@ -101,7 +99,7 @@ COWS=(
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
 #Misc
-"fsm" "good-vs-evil" "raptor-jesus"
+"fsm" "fsm2" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross" "michael-jackson"
 "ghostbusters" "the-dude" "donald" "leprechaun"
 "wall-e-plant" "shrek" "donkey"
@@ -115,6 +113,7 @@ COWS=(
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
+"fsm2" "fsm2" "fsm2"
 "michaelangelo" "raphael" "donatello" "leonardo"
 )
 
@@ -145,8 +144,7 @@ ERROR_COWS=(
 "jaws"
 "jesus-ripped-tc"
 "jigsaw"
-"joker"
-"joker-toon"
+"joker" "joker-toon"
 "khal-drogo-sm"
 "metal-gear-tc"
 "minion-laugh"
@@ -158,12 +156,14 @@ ERROR_COWS=(
 "phasma-sm"
 "pikachu-jason"
 "portal-turrets"
+"ripster"
 "raptor"
 "roberto-face"
 "robot-devil"
 "scar"
 "shiva"
 "shredder" "shredder2" "shredder-snes"
+"streex"
 "taz"
 "terminator"
 "this-is-fine"
@@ -203,6 +203,8 @@ errorsay(){
 }
 
 alias cows="cd $COWS_DIR"
+alias numcows="echo ${#COWS[@]}"
+alias cowcount="numcows"
 alias cowrc="atom $COWRC"
 alias headsay='cowthink -n -f head.cow'
 alias randomfortune="clear && fortune | randomsay"
