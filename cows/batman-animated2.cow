@@ -1,0 +1,63 @@
+# Batman (Batman the Animated Series)
+# by RGZNSK - https://www.behance.net/gallery/45634123/Batman-The-Animated-Series
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;18m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;174m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;244m  ";
+$h = "\e[48;5;239m  ";
+$i = "\e[48;5;214m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;220m  ";
+$l = "\e[48;5;236m  ";
+$m = "\e[48;5;232m  ";
+$n = "\e[48;5;208m  ";
+
+$the_cow = <<EOC
+$x      $t
+          $t          $a$x      $a$x
+            $t        $a$x      $a$x
+              $t    $b      $a    $x
+                  $b$a            $x
+                  $a            $b$x
+                  $a      $c$a  $b$x
+                  $c$a  $c  $a  $b$x
+                  $a            $b$x
+                  $d$a$d  $e  $a$b$x
+                  $f    $d  $e$a$b$x
+                  $f      $d  $a$b$x
+                  $f      $d  $a$b$x
+                  $f      $d$e$a$b$x
+                $b    $a        $b$a    $b  $x
+            $b    $a                        $b$x
+            $g$a                                $b$x
+          $g  $a$b            $a  $h$g    $h$a  $b$x
+        $g  $h$g  $i      $g                $h$a  $x
+        $g      $j$k$j$k$j$i$g                $h$l$x
+        $g      $j        $i$g    $h  $g      $h$l$a$x
+        $g      $j$k$j$k$j$g    $h    $g      $h$l$a$x
+        $g  $h$g              $h      $l$g    $h$l$a$x
+        $g  $h$g              $h      $l$g    $h$l$a  $x
+        $g  $h                        $l$m$g  $h$l$a  $x
+        $g  $h$g            $h        $l$m$g  $h$l$a  $x
+        $g  $h$g            $h      $l$m  $g  $h$l$a  $x
+        $g$h$l$g              $h    $l$m  $g  $h  $l$a$x
+        $g$h$l$g              $h  $l$m    $g  $h  $l$a$x
+        $g$h$l  $g            $h  $l$m    $g  $h  $l$a  $x
+        $g$h$l  $g            $h$l$m      $g  $h  $l$a  $x
+        $b$a    $g            $h$l$m      $b  $a        $x
+        $b$a    $g            $h$l$m      $b  $a    $l$a$x
+        $b$a    $k  $i  $k  $i  $n$m        $b$a        $x
+        $b$a    $k  $i  $k  $i  $n$m        $b$a    $l$a$x
+        $b$a    $b$a              $m        $b$a        $x
+        $b$a    $b$a              $m        $b$a    $l$a$x
+      $b$a      $g$b$a      $h$l  $m      $b  $a        $x
+      $b$a      $g$b$a      $h  $l  $m    $b$a          $x
+        $b$a    $g$h$b  $a$g  $h$l  $m    $b$a    $b$a  $x
+EOC

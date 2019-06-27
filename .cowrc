@@ -75,8 +75,8 @@ COWS=(
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
-"superman-batman" "batman-animated-sm" "wolverine"
-#"superman-flying" "batman" "batman2" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
+"batman-animated" "batman-animated2" "robin" "wolverine"
+#"superman-batman" "superman-flying" "batman" "batman2" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
 
 #Team Fortress
@@ -157,6 +157,7 @@ ERROR_COWS=(
 "pikachu-jason"
 "portal-turrets"
 "ripster"
+"riddler"
 "raptor"
 "roberto-face"
 "robot-devil"
@@ -168,6 +169,7 @@ ERROR_COWS=(
 "terminator"
 "this-is-fine"
 "twoface"
+"ventriloquist"
 "white-walker-sm"
 "wile-e-coyote2"
 "zombie"

@@ -1,0 +1,78 @@
+# The Ventriloquist (Batman the Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;73m  ";
+$f = "\e[48;5;152m  ";
+$g = "\e[48;5;110m  ";
+$h = "\e[48;5;109m  ";
+$i = "\e[48;5;247m  ";
+$j = "\e[48;5;25m  ";
+$k = "\e[48;5;19m  ";
+$l = "\e[48;5;52m  ";
+$m = "\e[48;5;95m  ";
+$n = "\e[48;5;221m  ";
+$o = "\e[48;5;173m  ";
+$p = "\e[48;5;235m  ";
+$q = "\e[48;5;130m  ";
+$r = "\e[48;5;137m  ";
+$s = "\e[48;5;216m  ";
+$u = "\e[48;5;238m  ";
+$v = "\e[48;5;236m  ";
+$w = "\e[48;5;88m  ";
+$y = "\e[48;5;60m  ";
+$z = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+$x              $t
+                  $t
+                    $t                                $a        $x
+                      $t                          $b$a          $c$d$x
+                        $t                      $b$a          $c$b  $x
+                                                $b$a          $b    $d$x
+                                                $b$e  $a$e  $a$c$b$d$x
+                            $b    $d    $x      $e$f$g$h$f$g$e$a$b$i$x
+                            $b      $d      $x  $e$g$f$c$g$f$e$a  $c$x
+                            $b      $d      $x    $e  $a$e  $a  $c$x
+                            $j      $k$j$k$j$x    $a          $c$x
+                          $k  $j$k$j$b        $d$x$a  $c    $a$c$x
+                          $b        $l$c$l  $b$m$x  $a        $c$x
+                            $n$l$c$l$n  $o$l$m$x      $c$a    $c$x
+                            $p$n$q$c$p$n$c$r$x        $c      $x
+                            $r$q$s$c      $m$k$x    $p  $c$p  $u  $v$x
+                          $j$c$r$c  $q$c  $r$j  $k$u$p        $u$v$u$v  $x
+                      $w        $p  $q$c$r$j  $k  $u  $b    $u    $p$u  $v$x
+                        $k$j  $c$a$c$r  $j$k  $j$k$u  $b    $u  $p$u  $v$p$x
+                        $k  $j$p$c$r$p$j$k$j$k$j$k$u  $b    $u  $v$u$p$u  $p$x
+      $p$x$p$x          $j$k$j$k$b$p$j$k$j  $k$j$k$u  $b    $u$v$u$p$u      $x
+    $p                      $j  $k$j$k$j    $k$j$k$u  $b    $u$p$u$p$u    $p$x
+      $p$x$p$x  $p$m  $p    $j  $k  $j      $k$j$k$u  $b  $u$p$u$p$u      $v$x
+          $p$x    $p$m  $a$c$y$k  $j$k$j$a    $j  $u  $b  $p$u$p$u      $v$x
+          $p$x      $p$m$c$a$y$k$j    $a      $j  $p$u$b$u$p  $u        $v$x
+                      $p$m  $k  $j  $a$j$k$a$c$j$v$u$p    $v$u$p$v$u  $v$x
+                          $k$j$k  $j$k$j$a  $c$a$c$v$u      $p$u$p$u  $v$x
+                          $j          $z$a$c$a$c  $v$u              $v$x
+                          $k$j      $k$a$c$a$v$c  $p$v  $p$u      $v$p$x
+                            $j$k  $j  $c$a$u  $v  $u  $v$p$v  $p$v$p  $x
+                            $j  $x$j  $x  $u  $v$u        $p        $v$x
+                            $j$k$x$j  $x  $u  $v$u$p$u    $v$u    $v$p$x
+                              $j$k$x$k$x  $u  $p$u                $v  $x
+                              $j$k$j$k  $x$u  $p$u                $v  $x
+                              $j$p$b$j$k$x$u  $p$u                $v  $x
+                              $b  $p$p  $b$u  $p$u                $v  $x
+                              $p$x  $b  $p$u  $v$u                $v  $x
+                              $p$x  $p$x  $u  $v$u                $v$p$x
+                                    $p$x  $p$u$p$u                $v$p$x
+                                            $p$v$u                $p  $x
+                                              $p                    $v$x
+                                              $u      $p$u      $v    $x
+                                              $u      $p$u      $v    $x
+                                              $u      $p$u      $v$p$v$x
+                                              $u      $p$u        $v  $x
+EOC
