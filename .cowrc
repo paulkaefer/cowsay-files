@@ -12,6 +12,10 @@ COWS=(
 "space-ghost" "moltar" "zorak"
 #"ignignokt" "err"
 
+#Batman
+"batman" "batman2" "robin" "alfred" "catwoman"
+#"riddler" "joker-toon" "joker" "twoface" "mr-freeze" "ventriloquist"
+
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo"
 #"banjo" "kazooie" "bottles" "jamjars" "grunty" "humba-wumba"
@@ -75,8 +79,8 @@ COWS=(
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
-"batman-animated" "batman-animated2" "robin" "wolverine"
-#"superman-batman" "superman-flying" "batman" "batman2" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
+"wolverine"
+#"superman-batman" "superman-flying" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk"
 
 #Team Fortress
@@ -139,6 +143,7 @@ ERROR_COWS=(
 "greedo"
 #"grinch"
 "grunty"
+"harley-quinn"
 "jab"
 "jafar"
 "jaws"
@@ -162,6 +167,7 @@ ERROR_COWS=(
 "roberto-face"
 "robot-devil"
 "scar"
+"scarecrow"
 "shiva"
 "shredder" "shredder2" "shredder-snes"
 "streex"

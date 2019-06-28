@@ -1,4 +1,4 @@
-# The Ventriloquist (Batman the Animated Series)
+# The Ventriloquist (Batman: The Animated Series)
 # by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -11,68 +11,65 @@ $d = "\e[48;5;253m  ";
 $e = "\e[48;5;73m  ";
 $f = "\e[48;5;152m  ";
 $g = "\e[48;5;110m  ";
-$h = "\e[48;5;109m  ";
-$i = "\e[48;5;247m  ";
-$j = "\e[48;5;25m  ";
-$k = "\e[48;5;19m  ";
-$l = "\e[48;5;52m  ";
-$m = "\e[48;5;95m  ";
-$n = "\e[48;5;221m  ";
-$o = "\e[48;5;173m  ";
-$p = "\e[48;5;235m  ";
-$q = "\e[48;5;130m  ";
-$r = "\e[48;5;137m  ";
-$s = "\e[48;5;216m  ";
-$u = "\e[48;5;238m  ";
-$v = "\e[48;5;236m  ";
-$w = "\e[48;5;88m  ";
-$y = "\e[48;5;60m  ";
-$z = "\e[48;5;24m  ";
+$h = "\e[48;5;247m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;19m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;221m  ";
+$n = "\e[48;5;173m  ";
+$o = "\e[48;5;235m  ";
+$p = "\e[48;5;130m  ";
+$q = "\e[48;5;137m  ";
+$r = "\e[48;5;216m  ";
+$s = "\e[48;5;238m  ";
+$u = "\e[48;5;236m  ";
+$v = "\e[48;5;88m  ";
 
 $the_cow = <<EOC
-$x              $t
-                  $t
-                    $t                                $a        $x
-                      $t                          $b$a          $c$d$x
-                        $t                      $b$a          $c$b  $x
-                                                $b$a          $b    $d$x
-                                                $b$e  $a$e  $a$c$b$d$x
-                            $b    $d    $x      $e$f$g$h$f$g$e$a$b$i$x
-                            $b      $d      $x  $e$g$f$c$g$f$e$a  $c$x
-                            $b      $d      $x    $e  $a$e  $a  $c$x
-                            $j      $k$j$k$j$x    $a          $c$x
-                          $k  $j$k$j$b        $d$x$a  $c    $a$c$x
-                          $b        $l$c$l  $b$m$x  $a        $c$x
-                            $n$l$c$l$n  $o$l$m$x      $c$a    $c$x
-                            $p$n$q$c$p$n$c$r$x        $c      $x
-                            $r$q$s$c      $m$k$x    $p  $c$p  $u  $v$x
-                          $j$c$r$c  $q$c  $r$j  $k$u$p        $u$v$u$v  $x
-                      $w        $p  $q$c$r$j  $k  $u  $b    $u    $p$u  $v$x
-                        $k$j  $c$a$c$r  $j$k  $j$k$u  $b    $u  $p$u  $v$p$x
-                        $k  $j$p$c$r$p$j$k$j$k$j$k$u  $b    $u  $v$u$p$u  $p$x
-      $p$x$p$x          $j$k$j$k$b$p$j$k$j  $k$j$k$u  $b    $u$v$u$p$u      $x
-    $p                      $j  $k$j$k$j    $k$j$k$u  $b    $u$p$u$p$u    $p$x
-      $p$x$p$x  $p$m  $p    $j  $k  $j      $k$j$k$u  $b  $u$p$u$p$u      $v$x
-          $p$x    $p$m  $a$c$y$k  $j$k$j$a    $j  $u  $b  $p$u$p$u      $v$x
-          $p$x      $p$m$c$a$y$k$j    $a      $j  $p$u$b$u$p  $u        $v$x
-                      $p$m  $k  $j  $a$j$k$a$c$j$v$u$p    $v$u$p$v$u  $v$x
-                          $k$j$k  $j$k$j$a  $c$a$c$v$u      $p$u$p$u  $v$x
-                          $j          $z$a$c$a$c  $v$u              $v$x
-                          $k$j      $k$a$c$a$v$c  $p$v  $p$u      $v$p$x
-                            $j$k  $j  $c$a$u  $v  $u  $v$p$v  $p$v$p  $x
-                            $j  $x$j  $x  $u  $v$u        $p        $v$x
-                            $j$k$x$j  $x  $u  $v$u$p$u    $v$u    $v$p$x
-                              $j$k$x$k$x  $u  $p$u                $v  $x
-                              $j$k$j$k  $x$u  $p$u                $v  $x
-                              $j$p$b$j$k$x$u  $p$u                $v  $x
-                              $b  $p$p  $b$u  $p$u                $v  $x
-                              $p$x  $b  $p$u  $v$u                $v  $x
-                              $p$x  $p$x  $u  $v$u                $v$p$x
-                                    $p$x  $p$u$p$u                $v$p$x
-                                            $p$v$u                $p  $x
-                                              $p                    $v$x
-                                              $u      $p$u      $v    $x
-                                              $u      $p$u      $v    $x
-                                              $u      $p$u      $v$p$v$x
-                                              $u      $p$u        $v  $x
+$x            $t
+                $t                                      $a        $x
+                  $t                                $b$a          $c$d$x
+                    $t                            $b$a          $c$b  $x
+                      $t                          $b$a          $b    $d$x
+                                                  $b$e  $a$e  $a$c$b$d$x
+                              $b    $d    $x      $e$f$g$e$f$g$e$a$b$h$x
+                              $b      $d      $x  $e$g$f$c$g$f$e$a  $c$x
+                              $b      $d      $x    $e  $a$e  $a  $c$x
+                              $i      $j$i$j$i$x    $a          $c$x
+                            $j  $i$j$i$b        $d$x$a  $c    $a$c$x
+                            $b        $k$c$k  $b$l$x  $a        $c$x
+                              $m$k$c$k$m  $n$k$l$x      $c$a    $c$x
+                              $o$m$p$c$o$m$c$q$x        $c      $x
+                              $q$p$r$c      $l$j$x    $o  $c$o  $s  $u$x
+                            $i$c$q$c  $p$c  $q$i  $j$s$o        $s$u$s$u  $x
+                        $v        $o  $p$c$q$i  $j  $s  $b    $s    $o$s  $u$x
+                          $j$i  $c$a$c$q  $i$j  $i$j$s  $b    $s  $o$s  $u$o$x
+                          $j  $i$o$c$q$o$i$j$i$j$i$j$s  $b    $s  $u$s$o$s  $o$x
+        $o$x$o$x          $i$j$i$j$b$o$i$j$i  $j$i$j$s  $b    $s$u$s$o$s      $x
+      $o                      $i  $j$i$j$i    $j$i$j$s  $b    $s$o$s$o$s    $o$x
+        $o$x$o$x  $o$l  $o    $i  $j  $i      $j$i$j$s  $b  $s$o$s$o$s      $u$x
+            $o$x    $o$l  $a$c$h$j  $i$j$i$a    $i  $s  $b  $o$s$o$s      $u$x
+            $o$x      $o$l$c$a$h$j$i    $a      $i  $o$s$b$s$o  $s        $u$x
+                        $o$l  $j  $i  $a$i$j$a$c$i$u$s$o    $u$s$o$u$s  $u$x
+                            $j$i$j  $i$j$i$a  $c$a$c$u$s      $o$s$o$s  $u$x
+                            $i            $a$c$a$c  $u$s              $u$x
+                            $j$i      $j$a$c$a$u$c  $o$u  $o$s      $u$o$x
+                              $i$j  $i  $c$a$s  $u  $s  $u$o$u  $o$u$o  $x
+                              $i  $x$i  $x  $s  $u$s        $o        $u$x
+                              $i$j$x$i  $x  $s  $u$s$o$s    $u$s    $u$o$x
+                                $i$j$x$j$x  $s  $o$s                $u  $x
+                                $i$j$i$j  $x$s  $o$s                $u  $x
+                                  $o$b$i$j$x$s  $o$s                $u  $x
+                                $b  $o$x$o$b$s  $o$s                $u  $x
+                                $o$x  $b  $o$s  $u$s                $u  $x
+                                $o$x  $o$x  $s  $u$s                $u$o$x
+                                      $o$x  $o$s$o$s                $u$o$x
+                                              $o$u$s                $o  $x
+                                                $o                    $u$x
+                                                $s      $o$s      $u    $x
+                                                $s      $o$s      $u    $x
+                                                $s      $o$s      $u$o$u$x
+                                                $s      $o$s        $u  $x
+                                                $s      $o$s        $u  $x
 EOC
