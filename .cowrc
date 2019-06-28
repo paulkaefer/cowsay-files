@@ -14,7 +14,7 @@ COWS=(
 
 #Batman
 "batman" "batman2" "robin" "alfred" "catwoman"
-#"riddler" "joker-toon" "joker" "twoface" "mr-freeze" "ventriloquist"
+#"riddler" "joker-toon" "joker" "twoface" "mr-freeze" "ventriloquist" "riddler" "poison-ivy"
 
 #Banjo Kazooie
 "banjo-kazooie" "mumbo-jumbo"
@@ -160,6 +160,7 @@ ERROR_COWS=(
 "palpatine"
 "phasma-sm"
 "pikachu-jason"
+"poison-ivy"
 "portal-turrets"
 "ripster"
 "riddler"
@@ -167,7 +168,7 @@ ERROR_COWS=(
 "roberto-face"
 "robot-devil"
 "scar"
-"scarecrow"
+"scarecrow-tc"
 "shiva"
 "shredder" "shredder2" "shredder-snes"
 "streex"
