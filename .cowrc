@@ -88,7 +88,7 @@ COWS=(
 #"tf2-pyro" "tf2-medic" "tf2-heavy" "tf2-demo-sm" "tf2-sniper-sm" "tf2-scout" "tf2-soldier-sm"
 
 #TMNT
-"michaelangelo" "michaelangelo2" "donatello" "raphael" "leonardo"
+"michaelangelo" "michaelangelo2" "donatello" "donatello2" "raphael" "raphael2" "leonardo" "leonardo2"
 # "donatello2" "raphael2" "raphael3" "leonardo2"
 
 #TV Characters
@@ -134,6 +134,8 @@ ERROR_COWS=(
 "darth-vader-sm"
 "death"
 "donald-duck-angry"
+"donatello-error"
+"donatello-error2"
 "doomkart2"
 "dr-robotnik"
 "farnsworth"
@@ -151,7 +153,11 @@ ERROR_COWS=(
 "jigsaw"
 "joker" "joker-toon"
 "khal-drogo-sm"
+"leonardo-error"
+"leonardo-error2"
 "metal-gear-tc"
+"michaelangelo-error"
+"michaelangelo-error2"
 "minion-laugh"
 "mr-freeze"
 "mr-robot-hal"
@@ -163,6 +169,8 @@ ERROR_COWS=(
 "pikachu-jason"
 "poison-ivy"
 "portal-turrets"
+"raphael-error"
+"raphael-error2"
 "ripster"
 "riddler"
 "raptor"

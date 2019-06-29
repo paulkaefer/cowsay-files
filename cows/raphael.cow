@@ -1,5 +1,5 @@
 # Raphael (Teenage Mutant Ninja Turtles)
-# by Charc0al, original art from TMNT Turtles in Time (SNES)
+# by Konami, original art from TMNT: Turtles in Time
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -16,16 +16,16 @@ $i = "\e[48;5;136m  ";
 $j = "\e[48;5;237m  ";
 $k = "\e[48;5;245m  ";
 $l = "\e[48;5;220m  ";
-$m = "\e[48;5;131m  ";
+$m = "\e[48;5;95m  ";
 
 $the_cow = <<EOC
-$x                                    $t                      $a  $x$a$b  $x
-                                        $t                    $a$b$a    $b  $x
-                                          $t                  $b      $a$b    $x
-                                            $t                $a$b      $a$b  $a$x
-                                              $t                $b  $a$b$a  $b$a$x
-                                                $t              $a$b$a    $c$d      $c$x
-                                                  $t              $a$b$e$c$d          $c$x
+$x                                $t                          $a  $x$a$b  $x
+                                    $t                        $a$b$a    $b  $x
+                                      $t                      $b      $a$b    $x
+                                        $t                    $a$b      $a$b  $a$x
+                                          $t                    $b  $a$b$a  $b$a$x
+                                            $t                  $a$b$a    $c$d      $c$x
+                                              $t                  $a$b$e$c$d          $c$x
                                                                     $e$a$c$d          $a$x
                                                                   $f$a    $c$d$a  $d  $e$b$x
                                                                 $f$c  $a$b    $g$e$b$a$e$b$c$x
@@ -64,4 +64,7 @@ $x                                    $t                      $a  $x$a$b  $x
           $d      $c$d$b    $a$x                                    $a  $b$d      $x
           $d            $c$f  $x                                  $f$c$d          $x
         $c$d          $c$f$c$x                                    $f$c$d        $c$x
+        $d        $c  $d$c$x                                      $f$c$d        $c$x
+        $d      $c$d  $c$x                                          $c$d$c$d    $c$x
+        $d          $c$x                                            $c    $d    $c$x
 EOC

@@ -1,5 +1,5 @@
 # Leonardo (Teenage Mutant Ninja Turtles)
-# by Charc0al, original art from TMNT Turtles in Time (SNES)
+# by Konami, original art from TMNT: Turtles in Time
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -12,14 +12,15 @@ $e = "\e[48;5;28m  ";
 $f = "\e[48;5;40m  ";
 $g = "\e[48;5;234m  ";
 $h = "\e[48;5;136m  ";
-$i = "\e[48;5;130m  ";
+$i = "\e[48;5;94m  ";
 $j = "\e[48;5;22m  ";
 $k = "\e[48;5;220m  ";
-$l = "\e[48;5;58m  ";
-$m = "\e[48;5;95m  ";
-$n = "\e[48;5;237m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;237m  ";
 
 $the_cow = <<EOC
+$x                  $t                                    $a  $b$x
+                      $t                                $a  $b$x
                         $t                            $a  $b$x
                           $t                        $a  $b$x
                             $t                    $a  $b$x
@@ -48,17 +49,17 @@ $the_cow = <<EOC
                   $e$f        $c$e$j    $h$k              $e$h  $e      $f  $e$f    $d$f          $x    $b$a  $b$a    $b$x
                   $e  $f    $e$d$j  $g$j$h$k              $h$k    $h$e  $f    $e$f$d  $e$f          $e$b$a          $b$x
                     $e$f    $j$g      $j$h$k              $h$k      $e$j$e  $f  $e$c$d$e  $f        $d$f$b$a$b$a  $b$x
-                      $e  $j  $l$g  $h    $k            $h$k        $j    $e      $c  $f          $d$e$f$j$b$a$b$a$b$x
-                      $j    $m$l  $g$h$k  $h$k          $h$k        $j  $x            $e  $f      $d$f$j$f  $b$a$b$a$x
-                      $j    $n$m$l  $h$k    $h  $k    $h$k        $j$x                      $e  $c  $j$e$f    $b$a  $x
-                      $j  $e$g$n$m  $h$k        $h      $k      $x                                $j  $f$e$f    $b$a$x
-                    $j$e    $j$g$n$m  $h$k        $h$k  $h      $x                                $j$f    $e$f$e$x
-                    $e  $f$e    $n    $m    $n  $h$k          $x                                  $b$a$e$f$e$j$x
-                  $j$f      $e    $h$k$n  $m$b$a$m  $n$k    $x                                  $b$a  $b$f  $x
-                  $j$f      $e    $h$k$m  $n$a  $m    $n    $x                                    $b  $x
-                  $e$f      $e    $h$m  $n$k$n$m$n  $k  $e  $x
-                $e$f        $e  $j$h$n  $k$h$k$n$m$n$k$h$f    $x
-                $e$f        $e$j  $h$k  $h$k    $m$n$h$f        $x
+                      $e  $l$j$g    $h    $k            $h$k        $j    $e      $c  $f          $d$e$f$j$b$a$b$a$b$x
+                      $j    $l  $g  $h$k  $h$k          $h$k        $j  $x            $e  $f      $d$f$j$f  $b$a$b$a$x
+                      $j    $m$l    $h$k    $h  $k    $h$k        $j$x                      $e  $c  $j$e$f    $b$a  $x
+                      $j  $e$g$m$l      $k      $h      $k      $x                                $j  $f$e$f    $b$a$x
+                    $j$e    $j$g$m$l        $k    $h$k  $h      $x                                $j$f    $e$f$e$x
+                    $e  $f$e    $m    $l    $m  $h$k        $l$x                                  $b$a$e$f$e$j$x
+                  $j$f      $e    $h$k$m  $l$b$a$l          $x                                  $b$a  $b$f  $x
+                  $j$f      $e    $h$k$l  $m$a  $l      $m  $x                                    $b  $x
+                  $e$f      $e    $h$l  $m$k$m$l$m      $e  $x
+                $e$f        $e  $j$h$m  $k$h$k$m$l$m$k$h$f    $x
+                $e$f        $e$j  $h$k  $h$k    $l$m$h$f        $x
                 $e$f      $e$j    $h$k$h$k  $h  $j  $e$f          $x
                 $f        $e$j$e$j$g$h      $g$j      $e$f        $e$x
               $c$f        $e  $j  $x$g      $j    $e  $j$e$f        $x
