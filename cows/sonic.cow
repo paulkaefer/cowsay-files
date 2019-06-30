@@ -1,71 +1,64 @@
 # Sonic
-# by Charlie M
-# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+# by SEGA, sprite from Sonic 3 (SEGA Genesis)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
 $t = "$thoughts ";
-$a = "\e[48;5;61m  ";
-$b = "\e[48;5;56m  ";
+$a = "\e[48;5;20m  ";
+$b = "\e[48;5;26m  ";
 $c = "\e[48;5;18m  ";
 $d = "\e[48;5;180m  ";
-$e = "\e[48;5;103m  ";
+$e = "\e[48;5;32m  ";
 $f = "\e[48;5;131m  ";
-$g = "\e[48;5;104m  ";
-$h = "\e[48;5;231m  ";
-$i = "\e[48;5;62m  ";
-$j = "\e[48;5;55m  ";
-$k = "\e[48;5;235m  ";
-$l = "\e[48;5;244m  ";
-$m = "\e[48;5;95m  ";
-$n = "\e[48;5;88m  ";
-$o = "\e[48;5;237m  ";
-$p = "\e[48;5;247m  ";
-$q = "\e[48;5;238m  ";
-$r = "\e[48;5;52m  ";
-$s = "\e[48;5;234m  ";
-$u = "\e[48;5;196m  ";
-$v = "\e[48;5;235m  ";
+$g = "\e[48;5;247m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;244m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;238m  ";
+$m = "\e[48;5;160m  ";
 
 $the_cow = <<EOC
-    $t
-      $t
-        $t                          $a$b      $x
-          $t                  $b    $a  $b$a$b      $a$x
-            $t  $c$x      $b  $a    $c  $a  $b    $c      $x
-                $c  $x$b  $a      $c$d$c$b$a$c        $x
-                $c  $a      $e$a$c$d  $f$c      $x
-                $c$a    $e    $a$d    $f$c$b$c$x
-                $a    $e        $a  $f  $c$b    $x
-                $a    $e$a      $e$a  $b  $a$c$b    $x
-              $b$a  $g$a$e$h  $a        $b$a$c  $b$a$b  $x
-              $e$a    $e$h    $e$a    $i$j$a$c  $a  $b  $a$x
-              $k$a    $k$h    $e$a    $b  $j$c  $b$c    $b  $x
-              $k$i$b$k  $h    $e$i    $b  $c                  $x
-              $k  $g$k  $h    $a  $b$a$b  $c        $x
-              $l$k$h$k  $h  $i$b        $c      $x
-            $l$k$l$f$h    $e$j$h  $f$a$c      $a$b$x
-            $k    $d  $h      $d    $m$c      $a$b    $x
-                  $d                $f$c          $a$b  $x
-                  $n$f  $d        $f$c                $b$x
-                    $n  $f        $c  $k$c              $a$x
-                      $n    $j$c  $k  $c        $x
-                    $n$f$d  $f$a$d      $c  $x
-                    $f$d      $f$b$f    $d  $c$x
+$x        $t
+            $t
+              $t
+                $t                  $a        $x
+                  $t          $a    $b  $a            $x
+                $c$x      $a  $b    $c  $a        $c      $x
+                $c  $x$a  $b      $c$d$c$a  $c        $x
+                $c  $a$b    $e$b$c$d  $f$c      $x
+                $c$a$b  $e    $a$d    $f$c$a$c$x
+                $a$b  $e        $b  $f  $c$a    $x
+                $a$b  $e$b      $e$b  $a    $c$a    $x
+              $a$b  $e$b$e$g  $b    $e  $b$a$c  $a      $x
+              $e$b    $e$g$h  $g$b  $e$h$e$a$c  $a        $x
+              $i$b  $a$i$h      $b  $e  $b$a$c  $a$c    $a  $x
+              $i$b$a$i  $h      $b      $a$c                  $x
+              $i  $e$i  $h      $b$a      $c        $x
+              $j$i$h$i  $h    $e$a      $c      $x
+            $j$i$j$f$h      $e$h  $f$a$c      $a  $x
+            $i    $d  $h      $d    $f$c      $a      $x
+                  $d                $f$c          $a    $x
+                  $k$f  $d        $f$c                $a$x
+                    $k  $f        $c  $i$c              $a$x
+                      $k    $a$c  $i  $c        $x
+                    $k$f$d  $f$a$d      $c  $x
+                    $f$d      $f$a$f    $d  $c$x
                     $f$d      $f$a$c    $f  $d$c$x
-                    $n$f$d  $f  $b$c      $f$d$c$x
-                  $o$k$n$f    $b  $l$h$l$h  $f$c  $x
-                $l  $o$c$b    $a$l$h    $l$h$n$c  $x
-                $l  $o$k$c$k$c$b$l      $o$l$c    $x
-                  $o$k  $c  $x$b$a$l      $x    $c$x
-                        $c  $x  $a$c$l  $k$x
-                        $c  $x  $a$c$x
-                        $c  $x    $a$c$x
-                        $c  $x    $a$c$x
-                      $l    $o$x      $p$l$x
-                    $l  $o    $x$p  $l    $x
-                    $n$l$q  $l$x$n  $l  $n$k$x
-                $l  $o$r$s$u$l  $h$p$n    $k$x
-          $n    $v$r  $u          $p$l$n    $k$x
-    $n    $r    $u                  $l$n    $k$x
-    $k                                        $x
+                    $k$f$d  $f  $a$c      $f$d$c$x
+                  $l$i$k$f    $a  $j$h$j$h  $f$c  $x
+                $j  $l$c$a      $c$h    $j$h$k$c  $x
+                $j  $l$i$c$i$c$a$c$j    $l$j$c    $x
+                  $l$i  $c  $x$a$b$j      $x    $c$x
+                        $c  $x  $b$c$j  $i$x
+                        $c  $x  $b$c$x
+                        $c  $x    $b$c$x
+                        $c  $x    $b$c$x
+                      $j    $l$x$h    $g$j$x
+                    $j  $l    $x$g  $j    $x
+                    $k$j$l  $j$h$k  $j  $k$i$x
+                $j  $l$i  $m$j  $h$g$k    $i$x
+            $k  $i    $m          $g$j$k    $i$x
+        $k  $i  $m                  $j$k    $i$x
+        $i                                    $x
 EOC

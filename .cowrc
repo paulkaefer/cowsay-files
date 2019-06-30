@@ -13,7 +13,7 @@ COWS=(
 #"ignignokt" "err"
 
 #Batman
-"batman" "batman2" "robin" "alfred" "catwoman"
+"batman" "batman2" "robin" "alfred" "catwoman" "batman-genesis"
 #"riddler" "joker-toon" "joker" "twoface" "mr-freeze" "ventriloquist" "riddler" "poison-ivy" "penguin"
 
 #Banjo Kazooie
@@ -24,7 +24,8 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "aladdin" "bugs-bunny-sm"
+"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "bugs-bunny-sm"
+"aladdin" "abu-sword"
 #"elmer-fudd" "daffy-duck" "taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
 #"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester" "flintstone" "barney" "popeye"
@@ -68,7 +69,7 @@ COWS=(
 #"ripster" "streex" "jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "jaws2" "shark-smiling"
 
 #Sonic
-"sonic" "sonic3" "tails" #"tails2" "knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
+"sonic" "sonic3" "tails" "tails2" #"knuckles2" "shadow" "dr-robotnik" "knuckles" "sonic2"
 
 #South Park
 "chef-tc" "cartman" #"kenny" "kyle" "stan"
@@ -79,8 +80,8 @@ COWS=(
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
-"wolverine"
-#"superman-batman" "superman-flying" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
+"wolverine-snes" "gambit" "cyclops" "superman"
+#"wolverine" "superman-batman" "superman-flying" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk" "venom"
 
 #Team Fortress
@@ -99,6 +100,7 @@ COWS=(
 #Video Game characters
 "47" "47-silverballers" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
 "glados-color" "glados2" "glados-potato-tc" "portal-chell" "master-chief-tc" "isaac"
+"zitz" "rash" "pimple" "earthworm-jim" "peter-pan-tc" "ryu"
 #"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
@@ -155,6 +157,7 @@ ERROR_COWS=(
 "khal-drogo-sm"
 "leonardo-error"
 "leonardo-error2"
+"magneto"
 "metal-gear-tc"
 "michaelangelo-error"
 "michaelangelo-error2"
@@ -180,7 +183,10 @@ ERROR_COWS=(
 "scarecrow-tc"
 "shiva"
 "shredder" "shredder2" "shredder-snes"
+"sonic-error"
 "streex"
+"superman-cyborg"
+"tails-error"
 "taz"
 "terminator"
 "this-is-fine"
