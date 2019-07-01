@@ -1,4 +1,4 @@
-# Khal Drogo - Dothraki King (Game of Thrones)
+# Khal Drogo - Dothraki King (Game of Thrones) - cropped
 # by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -56,7 +56,7 @@ $Y = "\e[48;5;1m  ";
 $Z = "\e[48;5;161m  ";
 
 $the_cow = <<EOC
-                      $t                    $a$b$c$d$x
+$x                    $t                    $a$b$c$d$x
                         $t                $a$e$d  $f$d$x
                           $t              $g$h$i  $h$d$x
                             $t            $i$h$b$g$i  $x
@@ -117,14 +117,4 @@ $the_cow = <<EOC
         $f      $x$i$c      $A$w$x            $w$A    $f  $x                    $W    $X$W  $X$x
         $f  $x$d$x$b$c      $A$w$x            $w$A  $f  $d$x                          $Z$x  $X$x
         $f  $x$d$x$b$c    $A  $w$x            $w$A$f    $x                            $X$x
-      $w$f$d$x    $b$c  $A    $w$x            $A$f      $x                            $X$x
-      $A$d$x    $b$c    $A  $w$x              $A$f      $x
-    $w$d$x      $b$c      $A$w$x            $c$f        $x
-              $i$c        $A$w$x            $c$f        $x
-            $i$c    $A  $c$A$w$x            $c$f        $d$x
-            $b$c      $A$c$A$w$x            $w$f          $d$x
-            $b$c      $A    $w$x            $A$f            $x
-          $w      $c    $A  $w$x            $w$f            $d$x
-        $i$b      $w$c    $w$x                $f                $d$x
-        $i$b        $w$A  $x                  $A$f                $x
 EOC

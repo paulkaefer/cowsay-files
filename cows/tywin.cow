@@ -1,4 +1,4 @@
-# Tywin Lannister (Game of Thrones)
+# Tywin Lannister (Game of Thrones) - cropped
 # by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -80,16 +80,4 @@ $the_cow = <<EOC
     $v  $q    $x                $q    $u  $x
     $w$v      $x                $u        $x
     $w  $v    $x              $v  $u    $x
-    $v        $x              $v    $u  $x
-    $w  $v  $w$x              $v  $u$q  $x
-    $v      $x                  $v  $u$v$x
-    $w  $v  $x                  $q  $u$v$x
-    $v    $x                    $v$u    $x
-    $w$v  $x                    $v$u    $x
-    $v    $x                      $u    $x
-    $v  $x                        $u    $x
-  $v    $x                        $v      $x
-  $v    $x                        $v        $x
-$u$w$y  $u$x                      $u            $x
-  $y      $x                      $u  $x  $u      $x
 EOC

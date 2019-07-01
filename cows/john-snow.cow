@@ -24,11 +24,11 @@ $q = "\e[48;5;227m  ";
 $r = "\e[48;5;95m  ";
 
 $the_cow = <<EOC
-              $t                                  $a    $x  $a$x
-                $t                              $a  $x$a        $x
-                  $t                        $a  $x$a              $x
-                    $t                          $a                $x
-                      $t                          $a              $x
+                          $t                      $a    $x  $a$x
+                            $t                  $a  $x$a        $x
+                              $t            $a  $x$a              $x
+                                $t              $a                $x
+                                  $t              $a              $x
                                             $a          $b$a$c$d$a$x
                                           $a              $c    $a$x
                                               $a        $c$a$b$a  $x
@@ -73,20 +73,4 @@ $the_cow = <<EOC
                       $o$h$p$x  $a    $i$g  $i$a      $i        $a      $x                      $l$k$j$f  $j$k      $f$j  $f  $l  $f$j            $f            $j$l$j$x
                     $o$h$p$x      $i    $a      $x          $a        $i$a$x                    $j$k      $j  $k    $l$f  $j  $f  $k  $j$k$j  $k$f$l$f$j$f      $j$l$j$f$x
                   $o$h$p$x        $k$i    $a    $x          $a  $i    $a  $x                      $j$k      $x      $j    $f  $j$f$g  $j$k$g$k  $f$l  $f        $j$l$j  $x
-                $q$h$p$x        $k$g  $i$a      $x        $a  $i  $a      $x                      $f$j$k    $x      $j        $f  $g            $f$l  $f$j$f      $l$j$f$x
-              $q$h$p$x          $k$g  $i  $a$i  $x        $a              $x                      $l$j$k    $x        $j      $f  $g              $l    $f          $j$f$j$x
-            $q$h$p$x              $k$i    $a$i  $x          $a            $x                      $f  $j$k  $x        $j      $f$x  $k$g          $x$l  $f          $j  $f$x
-          $q$h$p$x                $k$i    $a$g$i$x          $a            $x                      $l$j    $k$x        $j      $f$x    $k$g        $x    $l  $f        $j  $f$j    $x
-        $o$h$p$x                $i          $g$i$x          $a        $i  $x                        $f$j    $x        $j      $f$x      $k        $x        $l$f$j$f  $j    $l  $x
-      $p$h$p$x                  $k$g$i        $x            $a    $i  $a  $x                        $j    $x          $j      $f$x        $k      $x            $f$j$f  $k      $l$x
-    $r$h$p$x                    $i$e$g$i      $x            $i    $a      $x                      $l$f$j  $x          $j    $f$x            $k      $x            $f$j$f  $k      $l$x
-  $q$h$r$x                      $i    $g  $i  $x              $a        $i$x                        $f$j  $x          $j    $f$x            $k    $x                $f$j    $k  $x
-$q$p  $x                        $k$i    $a$g  $x              $a    $i  $a  $x                      $f$j  $x          $j$f$j$f$x            $k      $x                $j    $k$x
-$o  $x                        $i  $e  $i    $x                $i    $a    $i$x                      $j    $x          $f    $x              $k    $x                  $j    $k$x
-                              $i      $g$e$g$x                $a        $i    $x                    $f$j  $x          $l$f  $x            $k      $x                  $j    $x
-                            $g$i      $a  $i$x                $a      $i        $x                  $j    $x          $l$f  $x            $k    $x                    $j  $x
-                          $g        $i$a$i  $x                $a        $i        $x              $j    $x            $l$f  $x          $k      $x                    $j  $x
-                        $g    $e    $i      $x                  $a        $i        $x          $j      $x            $l$f  $x          $k      $x                  $l$f  $x
-                        $g    $e  $g  $i  $x                            $a        $i$a$x      $f      $j$x          $l        $x    $j    $k  $x                  $l$f    $x
-                        $i  $g      $i$x                                  $a      $x          $j      $x            $l$f    $l$x    $k      $x                    $l$f  $x
 EOC

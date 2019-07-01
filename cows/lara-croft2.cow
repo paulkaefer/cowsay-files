@@ -1,4 +1,4 @@
-# Lara Croft w/ bow & pick (Tomb Raider)
+# Lara Croft w/ bow & pick (Tomb Raider) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -71,18 +71,4 @@ $m  $k  $x                    $j$a        $x          $a    $b      $x
   $m  $k  $x                  $j$a    $b  $x          $a      $b    $x
       $m  $k$x                $j$a  $b    $x            $a    $b    $x
             $m$x              $a    $b    $a$x          $a      $b  $x
-                              $a  $b    $a  $x            $a    $b    $x
-                              $a  $b    $a  $x            $a      $b  $x
-                              $a            $x              $a    $b  $x
-                                $a          $x              $a    $b  $x
-                                $a          $x                $g    $b  $x
-                                  $g      $x                  $a    $g$f$x
-                                  $a  $g$f$x                    $g  $b  $x
-                                  $g  $a  $x                    $a  $g$f$x
-                                  $a  $g$f$x                    $e      $x
-                                    $e    $x                      $e      $x
-                                    $e    $x                      $e      $x
-                                    $a    $x                        $a    $x
-                                  $a      $x                        $a    $x
-                                  $j      $x                        $j    $x
 EOC

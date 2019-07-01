@@ -4,11 +4,11 @@
 # Modify this list to contain whatever cows you want to see displayed with new randomsay and new terminal sessions
 COWS=(
 #Rick and Morty
-"rick-and-morty-running" "snowball-sm" "pickle-rick2-sm" "pickle-rick-sm" "scary-terry"
+"rick-and-morty-running" "snowball-tc" "pickle-rick2" "pickle-rick" "scary-terry"
 #"rick-and-morty2" "pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone" "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
 
 #Adult Swim characters
-"mooninites" "master-shake" "frylock" "meatwad" "carl-sm"
+"mooninites" "master-shake" "frylock" "meatwad" "carl"
 "space-ghost" "moltar" "zorak"
 #"ignignokt" "err"
 
@@ -24,11 +24,11 @@ COWS=(
 "bob" #"louise" "tina" "gene" "linda"
 
 #Cartoons
-"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "bugs-bunny-sm"
+"roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote-smiling" "bugs-bunny"
 "aladdin" "abu-sword"
 #"elmer-fudd" "daffy-duck" "taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
 #"bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
-#"abu-tc" "abu-apple" "jafar" "buzz-lightyear-sm" "rayman" "genie-sm" "stewie" "sylvester" "flintstone" "barney" "popeye"
+#"abu-tc" "abu-apple" "jafar" "buzz-lightyear" "rayman" "genie" "stewie" "sylvester" "flintstone" "barney" "popeye"
 
 #Dilbert
 "dilbert" "dilbert-boss" "wally"
@@ -39,9 +39,9 @@ COWS=(
 #"zoidberg" "fry-money" "hypnotoad-tc" "farnsworth" "calculon" "robot-devil" "prof" "leela" "amy"
 
 #Game of Thrones
-"john-snow-sm" "tyrion-tc" "hodor-tc"
-#"the-hound-sm" "arya" "ned-stark-sm" "khal-drogo-sm" "varys" #"night-king"
-#"melisandre" "tywin-sm" "joffrey" "danerys-sm" "white-walker-sm"
+"john-snow-tc" "tyrion-tc" "hodor-tc"
+#"the-hound-tc" "arya" "ned-stark" "khal-drogo" "varys" #"night-king"
+#"melisandre" "tywin" "joffrey" "danerys" "white-walker-tc"
 
 #Life & Times of Tim
 "tim" "the-boss" "stu"
@@ -53,8 +53,8 @@ COWS=(
 #Nintendo
 "link-toon-tc" "link3" "mario" "luigi" "super-mario-world" "yoshi"
 "marth-tc" "ROB" "captain-falcon-tc" "ness"  "samus"
-#"falco-sm" "starfox3"
-#"link-sm" "link-bow-tc" "starfox" "kirby" "metaknight" "ike" "megaman" "donkeykong" "dr-mario"
+#"falco" "starfox3"
+#"link-tc" "link-bow-tc" "starfox" "kirby" "metaknight" "ike" "megaman" "donkeykong" "dr-mario"
 #"samus3" "samus2" "samus4" "samus-cannon" "bomberman2" "bomberman"
 #"captain-falcon" "peach" "bowser" "zelda" "sheik" "skull-kid"
 
@@ -63,7 +63,7 @@ COWS=(
 #"pikachu" "mew" "mewtwo" "pikachu-jason"
 
 #Scientists
-"hawking-sm" "tesla-sm" #"darwin-sm" "einstein-sm" "einstein-face-tc"
+"hawking" "tesla" #"darwin" "einstein" "einstein-face-tc"
 
 #Sharks
 #"ripster" "streex" "jab" "big-slammu" "shark-dude-tc" "bruce" "hammerhead" "jaws" "jaws2" "shark-smiling"
@@ -76,17 +76,17 @@ COWS=(
 
 #Star Wars
 "r2d2-c3po" "obi-wan-tc" "yoda2" "ewok" "jawa-engineer" #"jawa"
-#"darth-vader-sm" "phasma-sm" "palpatine" "stormtrooper" "vader" "solo" "yoda"
+#"darth-vader" "phasma" "palpatine" "stormtrooper" "vader" "solo" "yoda"
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
 "wolverine-snes" "wolverine-genesis" "gambit" "cyclops" "superman"
-#"wolverine" "superman-batman" "superman-flying" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
-#"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk" "venom"
+#"wolverine" "superman-batman" "superman-flying" "ironman" "ironman2" "ironman3" "one-punch-man"
+#"spiderman" "deadpool-face" #"deadpool" "captain-america" "thor" "hulk" "venom"
 
 #Team Fortress
 "tf2-engineer" "tf2-spy" "tf2-spy2" "tf2-spy-knife"
-#"tf2-pyro" "tf2-medic" "tf2-heavy" "tf2-demo-sm" "tf2-sniper-sm" "tf2-scout" "tf2-soldier-sm"
+#"tf2-pyro" "tf2-medic" "tf2-heavy" "tf2-demo" "tf2-sniper" "tf2-scout" "tf2-soldier"
 
 #TMNT
 "michaelangelo" "michaelangelo2" "donatello" "donatello2" "raphael" "raphael2" "leonardo" "leonardo2"
@@ -94,15 +94,15 @@ COWS=(
 
 #TV Characters
 #"kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
-"tobias" "ron-swanson-tc" "toast-tc" "moss" "it-crowd-tc" "sherlock-tc" "peep-show-tc" "archer"
+"tobias" "ron-swanson-tc" "toast-tc" "moss" "it-crowd" "sherlock-tc" "peep-show-tc" "archer"
 #"lahey-tc" "kramer" "larry" "frank-reynolds"
 
 #Video Game characters
-"47" "47-silverballers" "freeman-face-tc" "leon-sm" "subzero" "scorpion-sm" "vault-boy"
-"glados-color" "glados2" "glados-potato-tc" "portal-chell" "master-chief-tc" "isaac"
-"zitz" "rash" "pimple" "earthworm-jim" "peter-pan-tc" "ryu"
-#"hitman-sm" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex-sm" "deus-ex2" "wheatley"
-#"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
+"47" "47-silverballers" "freeman-face-tc" "leon" "subzero" "scorpion" "vault-boy"
+"glados-color" "glados2" "glados-potato-tc" "portal-chell" "master-chief" "isaac"
+"zitz" "rash" "pimple" "earthworm-jim" "peter-pan" "ryu"
+#"hitman" "doomguy" "doomkart" "assassin" "assassin2" "bioshock-tc" "deus-ex" "deus-ex2" "wheatley"
+#"tombraider" "lara-croft" "lara-croft2" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace"
 
 #Misc
 "fsm" "fsm2" "fsm-creation" "good-vs-evil" "raptor-jesus"
@@ -110,13 +110,13 @@ COWS=(
 "ghostbusters" "the-dude" "donald" "leprechaun"
 "wall-e-plant" "shrek" "donkey"
 #"the-jesus" "lebowski-walter" "cthulhu-tc" "bsod" "death" "jesus-ripped-tc" "wall-e" "col-sanders"
-#"lahey-sm" "doc-and-marty-sm" "walter-white" "neo" "smith" "morpheus" "agent-smith"
-#"milton-sm" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop-sm" "robocop2-sm"
-#"donald-hat" "mike-tyson-sm" "raptor" "wall-e2" "eve"
+#"lahey-tc" "doc-and-marty" "walter-white" "neo" "smith" "morpheus" "agent-smith"
+#"milton" "lumbergh-tc" "indiana-jones" "gandalf" "alf" "robocop" "robocop2"
+#"donald-hat" "mike-tyson" "raptor" "wall-e2" "eve"
 
 #"strongbad" "homestar" "cheat"
 "hobo" "hobo2" "minion" "minion2"
-#"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
+#"frog" "guy-fawkes" "liberty" "mr-robot-hal"
 
 #Increased Frequency duplicates
 "fsm-creation" "fsm-creation" "fsm-creation" "fsm-creation"
@@ -132,7 +132,7 @@ ERROR_COWS=(
 "bowser-jr"
 "bsod"
 "cthulhu-tc"
-"darth-vader-sm"
+"darth-vader"
 "death"
 "donald-duck-angry"
 "donatello-error"
@@ -153,7 +153,7 @@ ERROR_COWS=(
 "jesus-ripped-tc"
 "jigsaw"
 "joker" "joker-toon"
-"khal-drogo-sm"
+"khal-drogo"
 "leonardo-error"
 "leonardo-error2"
 "magneto"
@@ -167,7 +167,7 @@ ERROR_COWS=(
 "night-king"
 "palpatine"
 "penguin"
-"phasma-sm"
+"phasma"
 "pikachu-jason"
 "poison-ivy"
 "portal-turrets"
@@ -192,7 +192,7 @@ ERROR_COWS=(
 "twoface"
 "venom"
 "ventriloquist"
-"white-walker-sm"
+"white-walker"
 "wile-e-coyote2"
 "zombie"
 "zombie-police"

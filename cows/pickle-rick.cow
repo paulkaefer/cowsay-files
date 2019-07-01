@@ -1,4 +1,4 @@
-# Pickle Rick (Rick and Morty)
+# Pickle Rick (Rick and Morty) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -80,65 +80,4 @@ $the_cow = <<EOC
                                                 $a$b  $a$h    $j              $h  $a$b$a$x
                                                 $a    $h      $j              $h    $a$b$a$x
                                                 $a$h          $j              $h      $a  $x
-                                                $a$h            $j          $h        $a$x
-                                                $a$h              $j        $h        $a$x
-                                              $a  $h              $j        $h        $a  $x
-                                            $a$b$a$h              $j        $h        $a$b$a$x
-                                            $a$b$a$h  $j  $h    $j          $h        $a$l$a$x
-                                            $a$b$a$h  $j$k$h  $j            $h        $a$c$a$x$a$x
-                                            $a$b$a$h          $j              $h      $a$l$a    $x
-                                            $a$b$a$h          $j              $h      $a$b$a    $x
-                                            $a$b  $a$h        $j              $h    $a$b  $a$x$a$x
-                                              $a$b$a$h        $j            $h    $f$a$b$a$e$a$x
-                                      $g      $a$b$a$h          $j        $h  $f$h$f$a$b$a$e$a$x
-                                      $e$g$e  $a$b$a$h    $j  $h  $j    $h      $f  $a$b$a$e$a$x
-                                        $g$x  $a$f$a$h$f  $j$k$h              $f    $a$b$a$e  $a$x
-                                        $g$x  $a$f$a  $f$h        $k$j$h$f        $a  $b$a$e  $a$x
-                                      $g$x  $a  $f    $a  $h      $j  $h$f    $a  $b    $a$i$e  $a$x
-                                      $g$x$a$l$a$f$a  $b  $a  $h      $f  $a  $b$f$a  $b$a$i$e  $a$x
-                                      $g$x$a$l  $a$b$a    $b  $a$h$f  $a  $b  $a    $b$a$i  $a$e  $a$x
-                                    $g$x  $a$l$g$m$a$f$a$p$a  $b$a    $f$b$a  $p$a$f$a$i  $e$a  $e$a$x
-                                    $g$x$a$l$m$g$m  $a$b$a  $p$a$b$a$f$a  $p$a  $f$a$i    $e$a$c$a$e$a$x
-                                    $g$x$a$l$g$m    $l$a$b  $a  $b$a$b$a    $b  $a$i    $e  $a$c$a      $x
-                                  $g$x  $a$m$g$m    $l  $a  $b$f  $a$f$b    $a  $i      $e  $a$c  $a$x
-                                  $g$x$a$m  $g$m  $l    $a$x$a    $x$a      $x  $a$i    $e    $a$c$a$x
-                                  $g$x$a$m$g$m    $l  $a$x                      $a$i  $e$i$e  $a$c$a$x
-                                $g$x$a$l$m$g$m  $l  $a$x                          $a$e        $a$c  $a$x
-                                $g$x$a$l$m$g$m$l  $a$x                              $a$e    $a$c    $a$x
-                                $g$x$a$m$g$m  $l$a$x                                $a$e    $a$c    $a$x
-                              $g$x$a$l$m$g$m$l$a$x                                    $a$e  $a$c  $a  $x
-                              $g$x$a$l$m$g$l  $a$x                                      $a  $c  $a$b  $a$x
-                              $g$x$a$m$g$m$l$a$x                                          $a$c$a$b      $a$x
-                            $g$x$a$l$m$g$l  $a$x                                            $a$b          $a$x
-                            $g$x$a$l$m$g$l$a$x                                              $a$b    $a$b  $a$x
-                          $a      $l  $a  $x                                                $a$b  $a$c$a$b$a$x
-                          $a$g    $a  $e  $a$x                                              $a$b$a$c    $a  $x
-                          $d$a$g    $a$e  $a$x                                              $a    $c      $a$x
-                            $a        $e  $a$x                                              $a$l$a$c      $a$x
-                            $a$b    $g$a  $x                                                  $a$b$a$c  $a$x
-                              $a$b  $g$a$x                                                    $a$b  $a  $x
-                              $a$b    $g$a$x  $a$x                                          $a$b    $a$x
-                                $a$b    $g$a    $x                                        $a$b    $a$x
-                                  $a      $i  $a$x                                        $a$b  $a$x
-                                    $a$i    $e$a$x                                          $a$b$a$x
-                                    $a$e  $i$e$a$x                                          $a    $x
-                                    $a$e      $a$x                                          $a$q$l$a$x
-                                  $a$e    $i$a$x                                          $a$l$q$c$a$x
-                                  $a$e      $a$x                                          $a$c$q$c$a$x
-                                  $a$e      $a$x                                          $a$c$q$c  $a$x
-                                  $a$e      $a$x                                          $a$c$q$c  $a$x
-                                  $a$e      $a$x                                          $a$c$q  $c$a$x
-                                  $a$e    $a$x                                            $a$c  $q$c$a$x
-                                  $a$e    $a$x                                            $a$c  $q$c$a$x
-                                  $a$e    $a$x                                            $a$c  $q$c$a$x
-                                  $a$e  $a$x                                                $a$c$q$c$a$x
-                                  $a$e  $a$x                                            $a$x$a$c$q$c$a$x
-                                  $a$e  $a$x                                              $a  $c$a$c$a$x
-                                  $a$e$a$x                                                $a$e$a    $x
-                                $a$e  $a$x                                                  $a$e  $a$x
-              $a      $x        $a$e  $a$x                                                  $a$e  $a$x        $a      $x
-            $a$b$a$b  $a        $b$e$b$a$x                                                  $a$e$b  $a      $d$b  $a$b$a$x
-          $a$b$d$b$d$b                $a$x                                                  $a$b                $d$b$d$b$a$x
-          $a  $b$a$b        $a          $x                                                  $a          $b        $a$b$a  $x
-            $a              $x                                                                          $a              $x
 EOC

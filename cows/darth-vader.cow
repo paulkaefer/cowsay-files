@@ -1,4 +1,4 @@
-# Darth Vader
+# Darth Vader (Star Wars) - cropped
 # by Z-Studios - https://www.deviantart.com/z-studios/art/Vader-Lightsaber-Throw-729542643
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -37,11 +37,11 @@ $F = "\e[48;5;174m  ";
 $G = "\e[48;5;255m  ";
 
 $the_cow = <<EOC
-$x              $t                  $a$b    $x
-                  $t              $c$d$c$b$e$f$x
-                    $t            $c$d  $b$d  $a$x
-                      $t        $a$g$d  $c$d  $h$x
-                        $t      $a$d    $a$g$d  $x
+$x                $t                $a$b    $x
+                    $t            $c$d$c$b$e$f$x
+                      $t          $c$d  $b$d  $a$x
+                        $t      $a$g$d  $c$d  $h$x
+                                $a$d    $a$g$d  $x
                               $g$d    $a$c$a  $c$g$x
                               $g$d  $c$g    $a$g$c$x
                             $d    $a$g  $e  $d$h$a$x
@@ -94,12 +94,4 @@ $x              $t                  $a$b    $x
   $c$e$h$d$g$d        $h$g$e$h$d              $A$D$E$C$F$z$h$d      $x
   $c$e$h$d$g$d$g$d  $h$g  $e$h$d              $h$w$D$G$C$w$z$d      $x
   $c$e$h$d$g$d$g$h$d$h$g  $e$h$d          $g$d$h  $A$D$E$C$F$z$h$d  $x
-$e$a$e$g$d$g$d$g$h$d$h$g  $e$d            $g$d$h  $e$w$D$G$C$w$z$d  $g$x
-$h$a$h$g$d$g$d  $h$d$h$g$e  $d    $g  $d  $g  $h  $a$d$A$D$E$C$F$z$h$g$x
-$a  $h$g$d$g$d  $h  $g  $e  $d    $g  $d$g    $h$e  $d  $w$D$G$C$w$z$d$x
-$a$e$h$g$d$g$d  $e$h$g  $e  $d    $g  $d$g  $d$h    $d    $A$D$E$C$F$z$x
-$a$e$h$d$g  $d  $h$g  $d          $g  $d$g$d              $h$w$D$G$C$w$l$x
-$a$e$h$d$g  $d  $h$g  $e  $a$d    $g  $d$g$d      $e  $a$d    $A$D$E$G$w$x
-$a$e$d            $g$h$e      $d                  $h    $e$d    $w    $z$x
-$e  $d$x      $g$d  $e$h    $e$d$x          $d  $e    $h$e$d$x$g$d    $x
 EOC

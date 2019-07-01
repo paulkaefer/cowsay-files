@@ -1,4 +1,4 @@
-# Buzz Lightyear (Toy Story)
+# Buzz Lightyear (Toy Story) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -42,17 +42,17 @@ $K = "\e[48;5;24m  ";
 $L = "\e[48;5;243m  ";
 
 $the_cow = <<EOC
-                                $t                                              $a                $x
-                                  $t                                        $a  $x                $a  $x
-                                    $t                                    $a$x                        $a$x
-                                      $t                                $a$x                            $b$x
-                                        $t                            $a$x  $b  $x  $c    $d  $x  $b  $x  $b$x
-                                          $t                        $a$x  $b  $x  $c$e        $d$x  $b  $x  $b$x
-                                            $t                      $a$x  $b$x  $f  $g$e    $g    $x$b  $x  $b$x
-                                              $t                  $a$x          $f$h$a$g$i$g$a$h$g$x  $b  $x  $b$x
-                                                $t                $a$x          $d$h$j$i    $j$h$d$x  $b  $x  $b$x
-                                                  $t              $a$x        $c$d$e  $i        $d$c$x  $b$x  $b$x
-                                                    $t          $a$x    $a$x$c$d$e    $i$e$i$e  $i$d$c$x        $b$x
+                                        $t                                      $a                $x
+                                          $t                                $a  $x                $a  $x
+                                            $t                            $a$x                        $a$x
+                                              $t                        $a$x                            $b$x
+                                                $t                    $a$x  $b  $x  $c    $d  $x  $b  $x  $b$x
+                                                  $t                $a$x  $b  $x  $c$e        $d$x  $b  $x  $b$x
+                                                    $t              $a$x  $b$x  $f  $g$e    $g    $x$b  $x  $b$x
+                                                      $t          $a$x          $f$h$a$g$i$g$a$h$g$x  $b  $x  $b$x
+                                                                  $a$x          $d$h$j$i    $j$h$d$x  $b  $x  $b$x
+                                                                  $a$x        $c$d$e  $i        $d$c$x  $b$x  $b$x
+                                                                $a$x    $a$x$c$d$e    $i$e$i$e  $i$d$c$x        $b$x
                                                                 $a$x  $a  $x$c$d$e    $i    $e  $i$d$c$x        $b$x
                                                                 $a$x  $a  $x  $d$e  $k$l    $k$i  $d$x          $b$x
                                                                 $a$x$a  $x    $d$e    $k    $i    $d$x    $a$x  $b$x
@@ -95,33 +95,4 @@ $w  $o$x                        $o    $r    $y$v      $x          $v  $x    $z  
                                                                       $v    $y      $x        $v    $y      $x
                                                                       $v    $y  $p$y$x        $v$p$v$y      $x
                                                                       $v    $y      $x        $v    $y  $v  $x
-                                                                    $v$y$v  $y    $x            $v  $y$v  $y  $x
-                                                                    $v  $y$v  $y  $x            $v      $y    $x
-                                                                    $v  $y  $v$y  $n$x        $n$v      $y    $x
-                                                                  $v    $y  $p  $n$q$n$x    $n$q$n$p  $v$y      $x
-                                                                  $v    $y    $p$n  $m$x    $m$n  $p$v    $y    $x
-                                                                  $v    $y    $v$m    $x    $m    $v      $y    $x
-                                                                    $v    $y    $v$m$x        $m$v        $y  $x
-                                                                    $v    $y    $v$x            $v      $y    $x
-                                                                    $v    $y    $v$x            $v    $y      $x
-                                                                  $v      $y    $v$x            $v    $y        $x
-                                                                  $v      $y    $v$x            $v  $y          $x
-                                                                  $v    $y        $v$x        $v    $y          $x
-                                                                $v      $y        $v$x        $v    $y            $x
-                                                                $v      $y        $v$x        $v    $y            $x
-                                                                $v        $y      $v$r$x    $o$v      $y          $x
-                                                                $o  $w$v    $y    $v$r$x    $o$v        $y  $w  $r$x
-                                                              $o  $r  $w  $v$o  $v$r  $x    $o  $v$o  $v$r$w$r      $x
-                                                              $o    $r    $o$r$w$o$r  $x    $o    $r  $o$r          $x
-                                                                $o  $L  $r$o$r  $o$r$x        $o  $r  $o$r$L  $o  $x
-                                                                  $o  $L    $o  $y$o$x        $o$v$o  $L    $o  $x
-                                                                $v      $L    $y  $o$x        $o$v  $L    $y      $x
-                                                              $v      $y            $o$x    $o$v        $y          $x
-                                                            $v      $y              $o$x    $o$v            $y        $x
-                                                          $o    $r$v$y              $d$x    $d$v              $y$r      $x
-                                                        $o    $r    $v$y        $d  $G$x    $d    $v          $o$r        $x
-                                                        $o    $r  $w$r$y  $d    $G  $x        $d        $v  $o    $r$w$r  $x
-                                                        $d$o$r          $d$G    $x                $d      $o      $r    $d$x
-                                                        $d              $G  $x                        $d                $G$x
-                                                          $d    $G      $x                                $G            $x
 EOC

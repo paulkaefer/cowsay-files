@@ -86,16 +86,4 @@ $the_cow = <<EOC
                       $m  $a$d  $a  $f$C$x  $C$f$r  $f$B$f$m  $x
                           $C$a  $B  $f$C$x    $C$f      $m$E$m$x
                         $D$r$f    $r$C$x    $D$s$B$f  $m$l$m$x
-                        $D$r$m      $x      $D$A$s$B$m$F$E$m$x
-                      $D$s$m$F$E$l$m$x      $D$m$A$m$F$E$m$x
-                      $D$m$F$l$E  $m$x      $D$m    $F  $m$x
-                      $D$m$F    $m$x          $D$m  $F$l$m$x
-                    $D$m$F$l$E$F$m$x          $D$m  $F$l$m$x
-                    $D$m$F$E$l$m$x          $D$s  $m$F  $D$x
-                    $D$f$F  $m$x              $D$m    $F$i$D      $x
-                    $D$A$G$A$D  $x          $D$l$m$y$m$B$m  $s    $D$x
-                  $D$H$m    $s$m$D$x        $D$F$l$y  $m        $s$l$D$x
-                  $D$A$m  $s    $D$x        $D$m$F$l  $m          $F$D$x
-                  $D$A$m  $l  $m$D$x        $D$m  $F$D$l        $F$A$D$x
-                  $D$A$l  $F  $l$D$x          $D    $x$D            $x
 EOC

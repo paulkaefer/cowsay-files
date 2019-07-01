@@ -77,28 +77,4 @@ $a$g          $b          $a$e$c  $d      $e$a                            $g  $a
                             $a    $g  $b      $g  $a        $g    $b        $g$x
                               $a$g    $b      $g$a            $g    $b        $g$x
                                 $g  $b      $g$a    $x  $a      $g    $b      $g$x
-                                $g  $b      $g$x                  $g    $b      $g$x
-                                $g  $b      $g$x                    $g    $b      $x
-                                $g  $b    $g  $x                    $g    $b      $g$x
-                                $g  $b    $g$x                        $g    $b    $g$x
-                                $g  $b    $g$x                          $g    $b  $g$x
-                                $g  $b    $g$x                          $g          $x
-                                $g$b    $g  $x                          $g          $x
-                                $g$b    $g  $x                          $g          $x
-                                $g$b    $g$x                          $g          $x
-                                $g        $x                          $g          $x
-                              $g          $x                          $g          $x
-                              $g          $x                          $g          $x
-                              $g          $x                          $g        $x
-                              $g      $x                              $g        $x
-                              $g      $x                                $g      $x
-                            $g        $x                                $g      $x
-                            $g        $x                              $g        $x
-                            $g        $x                              $g        $x
-                            $g        $x                            $g          $x
-                            $g        $x                            $g          $x
-                            $a        $x                            $g          $x
-                            $a          $x                            $a            $x
-                            $a                $x                      $a                  $x
-                            $a                $x                      $a                    $x
 EOC

@@ -22,7 +22,7 @@ $the_cow = <<EOC
             $t                                                                                                  $a          $x
               $t                                                                                                $a            $x
                 $t                                                                                              $a              $x
-                  $t  $b  $x                                                                                    $a                $x
+                      $b  $x                                                                                    $a                $x
                   $b            $x                                                                              $a                  $x
                 $b$c$b          $x                                                                              $a                  $x
                 $b                $x                                                                  $a                              $x
@@ -64,8 +64,6 @@ $the_cow = <<EOC
       $e    $g                        $e    $x            $k  $x    $k  $j$k  $x    $k  $x            $d  $x$l                $x$d  $x
       $e    $g                        $e    $x            $k  $x    $k        $x    $k  $x            $d  $x$l                $x$d  $x
       $e    $g                        $e    $x            $k  $x    $k  $j$k  $x    $k  $x            $d  $x$l                $x$d  $x
-      $e    $g                        $e    $x            $k  $x    $k        $x    $k  $x            $d  $x$l                $x$d  $x
-      $e    $g                        $e    $x            $k  $x    $k        $x    $k  $x            $d  $x$l                $x$d  $x
       $e    $g                        $e    $x            $k  $x    $k        $x    $k  $x            $d  $x$l                $x$d  $x
       $e    $g                        $e    $x            $k  $x    $k        $x    $k  $x            $d  $x$l                $x$d  $x
 EOC

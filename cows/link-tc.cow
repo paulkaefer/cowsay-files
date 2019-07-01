@@ -28,6 +28,7 @@ $v = "\e[48;2;137;108;186m  ";
 $w = "\e[48;2;85;53;115m  ";
 
 $the_cow = <<EOC
+                                      $t
             $a$x                        $t
               $a$b  $x                    $t
               $a$c  $b$x                    $t
@@ -79,16 +80,4 @@ $the_cow = <<EOC
                       $e      $x                                $e          $p  $x
                                                                 $u    $e  $p    $x
                                                                 $u    $e$p    $x
-                                                                $u    $p    $x
-                                                              $u    $p      $x
-                                                              $u    $p      $x
-                                                              $u    $p    $u$x
-                                                              $u$p        $u$x
-                                                              $u$e$p        $x
-                                                            $u      $p      $u$x
-                                                            $u    $p                $x
-                                                            $p$u$p                  $u$x
-                                                            $p                      $u$x
-                                                            $p                      $e$x
-                                                              $e    $x    $e        $x
 EOC

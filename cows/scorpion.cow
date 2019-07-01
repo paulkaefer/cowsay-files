@@ -1,4 +1,4 @@
-# Scorpion (Mortal Kombat)
+# Scorpion (Mortal Kombat) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -72,11 +72,4 @@ $the_cow = <<EOC
                   $i$g$a  $x                    $i$h$g  $x
                 $i  $g  $a$x                      $h  $g$e$x
               $i    $h$g$a$x                        $h$g  $e$x
-            $i  $a$i  $a  $x                        $h  $a$e$x
-          $a              $x                        $h$a    $x
-        $a              $x                            $a      $x
-                                                      $a      $x
-                                                      $a      $x
-                                                      $a      $x
-                                                        $a  $x
 EOC

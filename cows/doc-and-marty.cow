@@ -1,4 +1,4 @@
-# Doc and Marty (Back to the Future)
+# Doc and Marty (Back to the Future) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -127,20 +127,4 @@ $the_cow = <<EOC
                       $ae$af  $ae$F  $x                  $F$af      $x      $aa$I$Z$p$E$Y$H$aj$ad$aj$B$r$x      $a$b      $a  $x$a  $b      $a$x
                       $ae    $F$ae$x                    $F$ae$af      $x    $B$H$al  $M  $g$S$ag$g$aa$Y$r$x    $a$b      $a  $x$a  $b      $a$x
                       $ae    $F  $x                      $ae$af    $ae$x    $ah$Y$al$T$k  $S$ag  $ak$aa$Y  $x    $a$b      $a  $x$a    $b    $a$x
-          $am$x      $ae      $F$x                        $ae        $x    $M  $E$al$j  $Y$ag$I$ag$Y$aa$Y$x    $a  $b  $a  $x  $a    $b    $a$x
-            $an$x    $ae        $x                        $ae      $F$x    $M  $y$aa$j  $Y$I$ag$Y    $aa$x    $a    $k    $x    $a          $x
-            $an$x    $F  $ae    $x                          $ae    $F$x    $M$y$k  $y$M$Y$ak$aa$Y      $al$x  $a      $k  $x    $k$a        $x
-          $n$x      $F    $ae$x                            $ae  $F  $x    $k      $y$M$Y  $aa  $Y  $aa$ag$x  $a        $k$x    $k  $a    $x
-                    $F    $ae$x                    $an$ao$x  $ae  $F    $x  $k          $M$Y  $aa$Y  $ag  $x  $a        $k$x    $k      $a  $x
-          $am$x      $F      $x            $ap$x        $ao$x$ae  $F    $x    $k$y$k    $M$Y      $ag  $aj$x$a  $i$a  $k  $x    $k  $a      $x
-            $ao$x  $G$F  $ae$F$x              $ap$x      $ap$x  $ae$F    $x    $k$y$k$y$M  $Y  $aa$ag$al$L$I$x$a  $q$a$k    $x    $k    $i$a  $x
-    $n$x    $an$x  $F  $ae    $x              $ap$x        $ao$x$F    $ae$x$an$x$a$y  $E$ah$M$E  $Y$aa$I$aa$Y$ah$a  $q$i$a$k  $x  $k  $a  $o$a  $x
-    $n$x    $ao$an$x$ae      $x                $ap  $x      $ao$x$F  $ae  $x  $ao$aq$k$y$Q$ah$k$E  $Y$ag$aa$Y    $a$i$q  $a$k  $x  $k  $a$ar$q$a  $x
-      $as$n$x$ao$an$x$F      $x          $ap$x$ap$ao  $ap$x  $an$ap  $x$af$ae  $F$an$ao$aq$k$M$r$ah$k$M$E$aa$ag$Y    $r$k$q$V  $k  $x    $k  $a$q  $a  $x
-      $n$ap    $ao$an$af  $F$af$x        $ap      $ao    $x$ao    $ap  $ae    $F$an$ap$aq$k$M$r$ah$k$M$E$aa  $Y    $r$s$q  $z$k  $x    $k    $q$V$a  $x
-    $am$ap$ao  $ap$an$b$a  $E$M$x    $ap  $ao$at    $ao    $ap$ao        $af$au$af$F$av$ao$aq$k$y$Q$ah$k  $r$aa$ag$Y  $aa$ag  $R        $x      $k$V    $a$x
-  $an$ap$ao    $ap$an$E$M$E$aw$E$ap  $ao$at        $x      $at$ao$x      $M$a$M  $x$C$k$y$p$ah  $k  $E$Y$aa$ah$E  $aa$al$R        $x      $R  $m  $R$x
-$an$ao        $av$a    $d$U$E$x          $ao$x    $ao$x            $E  $a$M$x$k  $y$Q$Y$B$y$k  $Y$aa$E    $Y$ax$s$aq$R  $c$x      $R        $x
-$at$ao  $x    $E$a      $o$E$x            $ao$x  $at$ao$x        $M$a  $U$D$k    $M$r$H$ah$k  $E  $Y$E$r$Y$D$c    $aq$c  $x      $c$R  $s$as$x
-            $E        $x              $ao  $x$at  $ao      $at$l$a      $s$D$k$M$p$Y$as$av$E$y$E  $B$x    $l$a      $ax  $x      $c  $as$c    $k$x
 EOC

@@ -70,23 +70,4 @@ $the_cow = <<EOC
                       $i        $e  $a$x        $a$i    $e  $i  $f$x
                     $i  $c$f$i  $e  $a$x        $h$i    $c  $i$c$h$x
                   $i$a  $e$c$i  $x              $i  $h$a$b$e$i$e$c$x
-                $i$h$a    $e  $b$g$f$x          $h$i$h$a$b$c  $e$b$x
-                $i$h$e$c$f$e$a$c  $x            $h$i$e$d  $e  $b  $x
-          $b$x$i$h$b$c$d$c$e  $a  $x            $h$i$a$b$d$e  $b$x
-          $b$h$i$a$b$d$f$b$e$a  $x            $i$h$i$a$b  $a$e  $x
-          $b$h$i$a$b$c$b  $c$e$a$x            $b$x$i$h$e$a$e  $b$x
-          $a$h$i  $b$c$b  $c$e$x              $a$x$i$h  $i$a$e$b$x
-            $h$x$i$h$b  $c$e$a$x              $a$h  $i$h$a$e$b$x
-            $h$x$i  $a$b$c$e$a$x              $a$h  $i$h$a$e$c$h$x
-            $a$x$i  $a$b$e$a$x                $a$h$i    $e  $c$h$x
-            $a$x$i$h$a  $e$x                  $a$h$i    $a$b$d$h$x
-            $i$x$i$a$b$c$a$x                    $a$i    $h$c$d$x
-            $i    $b  $f$x                      $a$x$i  $h$b$d$a$x
-            $i  $h$b$g$f$x                      $a$x$h$i  $a$c$d$x
-            $i  $h$b$i$b$x                      $e$b$c$e$a    $h$e    $x
-          $e$i$e$b$i$h$g$c$x                    $i$e$a$c$a$h    $g$d$i$x
-          $i$e$h$a  $e$c$g$c$x                    $i$a  $c  $h$e  $i  $c$a$x
-          $i$c$i$h$a    $b    $x                  $a$i$a    $e  $i$e$c$d$g$c$a$x
-        $i  $a$i  $b  $a  $c$g  $c$e$x          $e$a$e$a  $e$c$i$h  $e    $c$g$d$a$x
-        $i  $a  $i  $b  $a  $c  $g  $c$x
 EOC

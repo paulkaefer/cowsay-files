@@ -1,4 +1,4 @@
-# Agent 47 (HITMAN)
+# Agent 47 (HITMAN) - cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -50,15 +50,15 @@ $S = "\e[48;5;247m  ";
 $T = "\e[48;5;88m  ";
 
 $the_cow = <<EOC
-                          $t                                                    $a    $b  $x
-                            $t                                            $c$a  $b$a      $b  $d  $x
-                              $t                                      $c$e$f$g        $h      $d    $x
-                                $t                                  $e$i$f$a$g        $a$h  $d          $x
-                                  $t                              $c    $j$f  $g      $h    $d            $x
-                                    $t                          $e$c$k  $l$i$g        $h    $d          $m$d$x
-                                      $t                      $c  $k    $l$j$a$g$a$g  $h    $d              $x
-                                        $t                    $c$k        $l$a$g      $h    $d                $x
-                                          $t                $n$k  $o  $k$o  $l$g$a$g$h    $p$q$d              $x
+                                    $t                                          $a    $b  $x
+                                      $t                                  $c$a  $b$a      $b  $d  $x
+                                        $t                            $c$e$f$g        $h      $d    $x
+                                          $t                        $e$i$f$a$g        $a$h  $d          $x
+                                            $t                    $c    $j$f  $g      $h    $d            $x
+                                              $t                $e$c$k  $l$i$g        $h    $d          $m$d$x
+                                                $t            $c  $k    $l$j$a$g$a$g  $h    $d              $x
+                                                              $c$k        $l$a$g      $h    $d                $x
+                                                            $n$k  $o  $k$o  $l$g$a$g$h    $p$q$d              $x
                                                             $n$k    $o  $k$l  $g    $h  $p  $d                  $x
                                                           $n$k      $o      $l$g$a$h  $r$p  $q$d      $m$d      $x
                                                           $n$k    $o    $k    $l$h    $p        $d      $m$d    $x
@@ -109,18 +109,4 @@ $the_cow = <<EOC
           $y                                                $M$n  $a$B  $s$G$F$i$y$T$O  $d  $s$k$G$k$d$A    $G$o$k              $G$k                          $o$v    $G$x
           $y                                                $B$A$n$B      $A$f$i$o$T$O  $d$B$d  $s$v$d$A    $G$o$k                $G  $k                      $u$v    $G$x
           $y                                                $B              $F$f$o$T$O  $A$h$d    $A        $G$o$k              $v$k  $G$k                  $o$e$k$v  $G$x
-        $y      $o                $y                      $k$B              $F$i$o$O$R$O$h  $d    $A        $e$o$k                    $G$k                $v$o$G$k$v  $G$x
-        $y    $o                    $y            $o        $u$B            $F$C$o$O$R$O$P$r$d    $A        $o$k                  $v$k$G$k                $u$e$k    $v  $G$x
-        $y    $o$y$o                $y$o                    $u$B            $F$o$O      $t$h$d    $A        $o$k                    $G$k                $v$u$e$k  $v  $u$G$x
-      $y      $o                    $y$o                    $u$B            $C$y$O      $t$h$d  $A          $o$k                    $G$k                $v$o$e$k  $v$e$u$G$x
-      $y        $o$y$o              $y$o                    $k$B    $h  $B  $C$O      $T$O$h$E$d$A          $o$k                  $v$o$k              $v$o$e  $k$o$G$y$v$G$x
-      $y        $o$y$o                $y$o                  $k$B      $h$B  $C$O      $T$O$h$d  $A          $o$k                  $v$u$k              $v$o$G$k$G  $y  $v$G$x
-    $y          $o$y$o                $y$o                    $u$B          $e$O      $T$R$h$d  $A          $o$k                  $u$k                $u$o$e$G$e$y$k    $G$x
-    $y            $o$y$o      $y$o    $y$o                    $u$B    $h$B  $e$O        $t$h$d  $A          $o$k                  $u$k              $v$u$k$G$e$y$v  $k  $v$G$x
-    $y    $o$y    $o$y$o      $y  $o    $y$o                  $u$B    $h$B  $e$O        $T$O$d$A          $o$k                $v$u$k              $v$u$o$k  $y$v      $k  $G$x
-    $y      $o$y  $o$y$o      $y  $o    $y  $o                $u$B    $h$A$e$O              $A            $o$k$v$k            $v$o$k              $v$u$o    $y$v      $k  $G$x
-  $y            $o$y$o$y$o  $y      $o    $y$o                  $u$B$h  $A$e$O              $A          $o$k$v$k              $u$k              $v$o      $y$v  $k  $v$k  $G$x
-  $y              $o  $y$o  $y      $o    $y$o                  $u$B  $h$A$e$O              $A          $o$k                  $u$k                $u$o  $y$k        $v$k  $G$x
-  $y              $o$y$o$y$o$y        $o    $y$o                $u$B  $h$A$e$O              $A          $o$k$v$k          $v$o$k                $v$o  $y$k      $v  $k        $x
-  $y                  $o$y              $o  $y$o                $u$B  $h$A$e$O              $A          $o$k$v$k            $u$k              $v$u$o  $y$k$v    $u$v$k        $x
 EOC

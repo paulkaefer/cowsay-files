@@ -1,4 +1,4 @@
-# Stephen Hawking
+# Stephen Hawking - cropped
 # by Diego Sanches - https://diegosanches.com/science-kombat
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -73,18 +73,4 @@ $the_cow = <<EOC
       $g          $f$e      $f  $g                $e          $g      $j  $g$j    $g  $e  $x
       $g    $f        $g$e  $g            $f    $g  $e$f  $e    $g          $j  $g$f$g  $e$x
       $g    $e        $f  $g  $f$g$f      $e    $g  $e$g                                $e$g$x
-      $g    $e            $g    $f$e            $g  $e              $g                      $x    $f$x
-      $g    $e            $g      $e            $g  $e$g            $e  $g    $e$g          $e    $g$x
-  $e  $g    $e    $g$f$e    $g        $e        $g  $e$g                  $e                  $f$g$x
-$g    $e$g          $f$e      $f$g$e$g$e  $g  $e$g  $e$g    $x$e$g      $e  $f                $g$x
-$g    $e$g          $e        $f$g    $e$g    $e$g  $e$g    $x$e  $g                          $x
-$g    $e$g        $e$g      $e$f$g    $e$x      $g$e$x      $e    $f$g$x        $g$e$x
-$g    $e$x$g  $x            $e$f$g    $e$x      $g$e$x      $e    $f$g$x      $g  $e$x
-$g    $e$x$g    $x          $e  $f$g  $e$x    $g  $e$g$x    $e    $f$g$x    $g  $e$x
-  $g  $x    $g  $x        $e    $f$g  $x      $g$e$g    $x  $e    $f$g$x  $g    $x
-            $g    $x      $e    $f$g$x      $g  $e$x$g      $e        $g      $x
-              $g    $x    $e    $f$g$x    $g  $e$x    $g                    $x
-                $g    $x  $e    $f$g$x  $g    $x            $g        $x
-                  $g      $e        $g      $x
-                    $g                    $x
 EOC

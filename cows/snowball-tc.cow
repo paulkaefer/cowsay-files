@@ -1,4 +1,4 @@
-# Snowball (Rick and Morty) - true color
+# Snowball (Rick and Morty) - true color, cropped
 # by Charlie M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
@@ -84,15 +84,4 @@ $the_cow = <<EOC
                                     $a$f$d$c  $d$x                  $d$a$f$c    $x
                                   $a$f$d  $c  $d$x                  $d$a$f$c    $x
                                   $a$f$d  $c  $d$x                  $a$c$f$c    $x
-                                $a$f  $d  $c    $x                $a$f$d$c      $x
-                                $a$f$d  $c      $f$x              $a$f$d$c  $d$c$x
-                            $s$u$v$w$c      $d    $f$x          $a  $f$d  $c$d  $x
-                          $u$y$u$v$y$w$c  $d    $c  $z  $x      $a  $f$d  $c$d$c$x
-                        $u$y$s$v$y$s  $w$c      $z    $x        $a  $f$d  $c  $d$f$x
-                          $w  $v$y$u$s$w$z        $x            $d$c$f$d  $c$d    $f$x
-                              $w      $z  $x                  $v$y$c              $x
-                                                            $v$y$s$v$y$u$w$c  $x
-                                                          $u$y$s$v$y$s    $w$x
-                                                          $w    $v$y$u  $w$x
-                                                                $w      $x
 EOC

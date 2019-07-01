@@ -71,28 +71,4 @@ $the_cow = <<EOC
                 $k$i$x        $k  $f    $g$x$k        $f$k$b$g$x
                 $k$i$x        $k      $f$g$x  $k  $f    $k$b  $x
                 $k$i$x        $k    $f  $g$x  $k  $f    $g$x
-                $k$i$x        $k$f$k$f  $g$x  $k  $f    $g$x
-                $k$i$x        $k$f$k$f  $g$x  $k  $f    $g$x
-                $k$i$x        $k$f$k$f$g$x    $k  $f    $x
-                $k$i$x        $k$f$k$f$g$x    $k  $f    $x
-                $k  $x        $k$f$k$f$g$x    $k  $f    $x
-                $k$i$x        $k$f$k$g  $x    $k  $f    $x
-                $k  $x        $k$f  $g  $x    $k  $f    $x
-                              $k$f$g$f$g$x    $k  $f    $x
-                              $k$f    $g$x    $k  $f  $g$x
-                            $k$f      $g$x    $k  $f  $g$x
-                            $k$f      $g$x    $k    $f$g$x
-                            $k  $f    $g$x    $k  $f  $g$x
-                            $k  $f    $g$x    $k    $f$g$x
-                              $k  $f  $g$x    $k$f$k  $g$x
-                              $k  $f  $g$x    $k      $g$x
-                              $k$f$k$g$x      $k  $f  $g$x
-                              $k$f  $g$x      $k  $f    $x
-                              $k$f  $g$x      $k  $f  $g$x
-                              $k$f  $g$x      $k$f$k$f  $x
-                              $k$f  $g$x      $k        $x
-                            $e$h  $k  $x        $k    $h$x
-                            $h  $e  $x          $h      $e  $x
-                            $h  $e  $x          $h$e        $x
-
 EOC

@@ -1,5 +1,5 @@
 # Ned Stark (Game of Thrones)
-# by Charlie M
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
 $x = "\e[m  ";          #reset color
@@ -24,6 +24,7 @@ $q = "\e[48;2;138;111;48m  ";
 $r = "\e[48;2;187;142;37m  ";
 
 $the_cow = <<EOC
+              $t
                 $t                  $a$b  $c  $x
                   $t              $a$b$a        $x
                     $t        $b$c$b$a    $d    $x
@@ -72,27 +73,4 @@ $the_cow = <<EOC
 $c          $o$a        $b    $l  $a$k  $c$j$i$p$c$k$b$c$a$c          $x
 $c  $o$c    $o$a        $b$c$b$l  $a$c    $j  $p$c  $b  $a$c      $b$c  $x
 $c    $o      $a      $b  $c$b    $a$k  $c$j$i$p$c$k$b$c$a$c      $b$c  $x
-$c      $o    $a      $b      $q$r$a$k  $c$j$i$p$c$k$b$c$a$c      $b$c  $x
-$c  $o        $a      $b  $c$b$q  $a$c    $j$i$p$c  $b  $a$c      $b$c  $x
-$c  $o        $a      $b  $c$b$q  $a$k  $c$j$i$p$c$k$b$c$a$c      $b$c  $x
-$c  $o        $a      $b      $k$q$a$k  $c$j$i$p$c$k$b$c$a$o$c    $b$c$o  $x
-$c    $o      $a      $b  $c$b    $c      $j$i$p$c  $b  $a$o$c    $b$c  $o$x
-$c      $o    $a      $b  $c$b$k  $c$k  $c$j$i$p$c$k$c  $a$o$c    $b$c  $o$x
-$b$c      $o  $a          $b  $k  $c$k  $c$j$i$p$c$k$c  $a$o$c    $b$c    $x
-$b  $c      $o  $a              $c        $j$i$p$c    $b$a$o$c    $b$c    $o$x
-$b  $c          $a      $b    $a          $j$i$p$a        $o$c  $b    $c  $o$x
-$b    $c        $a      $b        $a      $j$i$p$b      $a$o$c  $b    $c    $x
-$b      $c        $a    $b        $a      $j$i$p$b      $a$o$c  $b    $c    $o$x
-  $b    $c        $a    $b        $a      $j$i$p$b      $a$o  $c$b    $c    $o$x
-  $b      $c        $a    $b      $a      $j$i$p$b      $a$o  $c$b    $c    $o  $x
-  $b        $c      $a    $b      $a      $j$i$p$b      $a$o  $c$b    $c    $o  $x
-    $b      $c        $a  $b  $l$a        $j$i$p$a$l$b  $a$o  $c$b      $c  $o  $x
-    $b      $c  $o$c  $a  $b    $a        $j$i$p$a$b    $a$o  $c$b      $c  $o    $x
-      $b$c$b$c  $o  $c$a$l  $b  $a        $j$i$p$a$b$l  $a$o  $c$b      $c  $o      $x
-      $b    $c  $o$c    $b    $l$a        $j$i$p$a$b    $a$o  $c$b      $c  $o      $x
-      $b      $c$o$c$o$c$b$l  $b$a        $j$i$p$a$l  $b$a$o  $c$b    $c$o          $x
-      $b$c$b  $c        $l$b    $a        $j$i$p$a$b    $a$o  $c$b  $c$o          $x
-      $b      $c$o$c    $l  $b  $a          $j$a  $b    $a$o  $c  $b$o          $x
-          $b  $c  $g      $l$b  $x          $j$x  $b  $l  $a$o$c$o            $x
-                                                                      $o  $x
 EOC
