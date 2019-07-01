@@ -80,7 +80,7 @@ COWS=(
 #"r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett-tc" "chewbacca"
 
 #Super Heroes
-"wolverine-snes" "gambit" "cyclops" "superman"
+"wolverine-snes" "wolverine-genesis" "gambit" "cyclops" "superman"
 #"wolverine" "superman-batman" "superman-flying" "ironman-sm" "ironman2" "ironman3" "one-punch-man"
 #"spiderman" "deadpool-face" #"deadpool" "captain-america-sm" "thor" "hulk" "venom"
 
@@ -105,7 +105,7 @@ COWS=(
 #"tombraider" "lara-croft-sm" "lara-croft2-sm" "hl2-dog" "vortigaunt" "freeman" "freeman2" "deadspace-sm"
 
 #Misc
-"fsm" "fsm2" "good-vs-evil" "raptor-jesus"
+"fsm" "fsm2" "fsm-creation" "good-vs-evil" "raptor-jesus"
 "bobross-tc" "bobross2" "deadpool-bob-ross" "michael-jackson"
 "ghostbusters" "the-dude" "donald" "leprechaun"
 "wall-e-plant" "shrek" "donkey"
@@ -119,8 +119,7 @@ COWS=(
 #"frog" "guy-fawkes" "liberty-sm" "mr-robot-hal"
 
 #Increased Frequency duplicates
-"fsm2" "fsm2" "fsm2"
-"michaelangelo" "raphael" "donatello" "leonardo"
+"fsm-creation" "fsm-creation" "fsm-creation" "fsm-creation"
 )
 
 #Cows used for displaying error messages with errorsay
