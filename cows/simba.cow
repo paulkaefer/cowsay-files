@@ -2,7 +2,7 @@
 # by Brony57 - https://www.deviantart.com/brony57/art/Simba-Pixel-Art-For-the-Lion-King-RPG-644408678
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;208m  ";
 $b = "\e[48;5;166m  ";
@@ -16,7 +16,7 @@ $i = "\e[48;5;231m  ";
 $j = "\e[48;5;124m  ";
 
 $the_cow = <<EOC
-$x                                $t
+                                  $t
                                     $t                                                                $a  $x
                                       $t                                                  $a$x$a$x  $a  $b$a$x
                                         $t                                            $a              $c$a  $x

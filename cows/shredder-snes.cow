@@ -2,7 +2,7 @@
 # by Konami, original art from TMNT Tournament Fighters (SNES) - https://www.spriters-resource.com/snes/tmnttourney/sheet/37332/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;237m  ";
 $b = "\e[48;5;146m  ";
@@ -19,7 +19,7 @@ $l = "\e[48;5;217m  ";
 $m = "\e[48;5;174m  ";
 
 $the_cow = <<EOC
-$x                                $t
+                                  $t
                                     $t                $a$b  $a$c$x
                                       $t            $a$d$e$a    $c  $x
                                         $t        $a$d$e$a  $e  $a  $c$x

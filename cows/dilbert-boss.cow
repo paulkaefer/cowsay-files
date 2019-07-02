@@ -1,7 +1,7 @@
 # Pointy-haired boss (Dilbert)
 # by unknown - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $u = "\e[48;5;223m  ";  #skin color
 $r = "\e[48;5;215m  ";  #skin shadow

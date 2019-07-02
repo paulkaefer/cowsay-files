@@ -1,8 +1,8 @@
 # Hammerhead
-# by Charlie M
+# by KidsPictureShow - https://www.redbubble.com/people/kidspictureshow/works/30061902-sharks-the-kids-picture-show-pixel-art?p=canvas-print
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;242m  ";
 $b = "\e[48;5;239m  ";

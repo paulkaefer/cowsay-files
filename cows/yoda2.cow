@@ -2,7 +2,7 @@
 # by Z-Studios - https://www.deviantart.com/z-studios/art/Form-IV-Ataru-Yoda-combo-681176531
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;80;210;88m  ";
 $b = "\e[48;2;55;182;69m  ";

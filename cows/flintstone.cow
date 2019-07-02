@@ -2,7 +2,7 @@
 # by DaltonKeslar1206 - https://www.deviantart.com/daltonkeslar1206/art/Fred-Flintstone-Pixel-ier-Edition-588160800
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;237m  ";

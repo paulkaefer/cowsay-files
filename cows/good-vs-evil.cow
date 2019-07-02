@@ -1,8 +1,8 @@
 # Judgement day can wait.
-# by Charlie M
+# by obinsun - https://www.redbubble.com/people/obinsun/works/12763220-jesus-and-devil-playing-video-games-pixel-art
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;229m  ";
 $b = "\e[48;5;52m  ";

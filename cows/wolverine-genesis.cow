@@ -2,7 +2,7 @@
 # sprite from Wolverine: Adamantium Rage (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/wolverineadamantiumrage/sheet/40795/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;25m  ";
@@ -21,7 +21,7 @@ $n = "\e[48;5;223m  ";
 $o = "\e[48;5;196m  ";
 
 $the_cow = <<EOC
-$x                      $t
+                        $t
                           $t
                             $t                  $a$x    $b$c$x
                               $t                $a$x  $b$c$a$x

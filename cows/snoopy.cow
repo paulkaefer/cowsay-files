@@ -1,7 +1,7 @@
 # Snoopy
-# by Charlie M
+# by Unknown - http://www.minecraftpixelarttemplates.com/2014/07/snoopy.html
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $a = "\e[48;5;246m  ";  #gray
 $e = "\e[41m  ";        #red

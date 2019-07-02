@@ -1,8 +1,8 @@
 # Donald Duck
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/7b7bf49ed7038c5
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;21m  ";
 $b = "\e[48;5;32m  ";
@@ -25,7 +25,7 @@ $r = "\e[48;5;196m  ";
 $s = "\e[48;5;124m  ";
 
 $the_cow = <<EOC
-$x        $t
+          $t
             $t
               $t      $a$b    $a$x
                     $a$b        $a$c  $x

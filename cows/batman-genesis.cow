@@ -1,8 +1,8 @@
 # Batman
-# from Batman (Sega Genesis)
+# sprite from Batman (Sega Genesis) - https://www.spriters-resource.com/genesis_32x_scd/batman/sheet/11333/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;239m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;136m  ";
 $h = "\e[48;5;94m  ";
 
 $the_cow = <<EOC
-$x              $t
+                $t
                   $t
                     $t          $a$x
                       $t        $a  $x

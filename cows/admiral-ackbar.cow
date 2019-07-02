@@ -2,7 +2,7 @@
 # by @starwarspixel - https://twitter.com/starwarspixel/status/766938558875705344
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;25;25;25m  ";
 $b = "\e[48;2;120;68;66m  ";

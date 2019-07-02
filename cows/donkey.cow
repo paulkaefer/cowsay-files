@@ -2,7 +2,7 @@
 # by u/bakudas - https://www.reddit.com/r/PixelArt/comments/5882bg/oc_shrek/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;248m  ";
 $b = "\e[48;5;8m  ";
@@ -14,7 +14,7 @@ $h = "\e[48;5;236m  ";
 $i = "\e[48;5;88m  ";
 
 $the_cow = <<EOC
-$x                            $t                                              $a$b$x
+                              $t                                              $a$b$x
                                 $t                          $a  $x            $a$b$x
                                   $t                        $b$a  $x  $c$x  $a$b  $x
                                     $t                      $b$a  $d$c      $a$b$x

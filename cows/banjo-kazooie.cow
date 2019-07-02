@@ -1,7 +1,7 @@
 # Banjo Kazooie
 # by 2bitart - https://2bitart.tumblr.com/post/156383644985/banjo-kazooie
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $g = "\e[48;5;35m  ";   #green
 $a = "\e[48;5;246m  ";  #gray

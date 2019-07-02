@@ -1,8 +1,8 @@
 # Leonardo (Teenage Mutant Ninja Turtles)
-# by Konami, original art from TMNT: Turtles in Time
+# by Konami, original art from TMNT: Turtles in Time - https://www.spriters-resource.com/snes/tmnt4/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;33m  ";
 $b = "\e[48;5;26m  ";
@@ -18,7 +18,7 @@ $k = "\e[48;5;220m  ";
 $l = "\e[48;5;95m  ";
 
 $the_cow = <<EOC
-$x                $t
+                  $t
                     $t                $a$b$x    $b$x
                       $t            $b$a$b$x  $b$a$x
                         $t          $a    $b  $a  $x

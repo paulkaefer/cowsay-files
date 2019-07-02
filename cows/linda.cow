@@ -1,7 +1,7 @@
-# Linda
-# by Charlie M
+# Linda Belcher (Bob's Burgers)
+# by Unknown - http://rebloggy.com/post/gif-pixel-art-bobs-burgers-linda-belcher/128624408541
 
-$x = "\e[m  ";         #reset color
+$x = "\e[49m  ";         #reset color
 $b = "\e[48;5;236m  "; #fake black
 $r = "\e[48;5;9m  ";   #red
 $d = "\e[48;5;1m  ";   #dark red

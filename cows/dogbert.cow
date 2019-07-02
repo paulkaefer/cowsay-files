@@ -1,8 +1,8 @@
 # Dogbert (Dilbert)
-# by Scott Adams
+# by Scott Adams - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;231m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;124m  ";
 $h = "\e[48;5;255m  ";
 
 $the_cow = <<EOC
-$x          $t
+            $t
               $t
                 $t
                   $t

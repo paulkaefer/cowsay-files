@@ -1,7 +1,7 @@
 # Master Shake (ATHF)
-# by Charlie M, original artist unknown - https://www.pinterest.com/pin/348888302356462316/
+# Unknown - https://www.pinterest.com/pin/348888302356462316/
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #fake black
 $w = "\e[107m  ";       #white
 $l = "\e[48;5;14m  ";   #light blue

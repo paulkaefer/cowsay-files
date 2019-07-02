@@ -1,8 +1,8 @@
 # Michaelangelo (Teenage Mutant Ninja Turtles)
-# by Konami, original art from TMNT: Turtles in Time
+# by Konami, original art from TMNT: Turtles in Time - https://www.spriters-resource.com/snes/tmnt4/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;136m  ";
 $b = "\e[48;5;94m  ";
@@ -26,7 +26,7 @@ $s = "\e[48;5;137m  ";
 $u = "\e[48;5;70m  ";
 
 $the_cow = <<EOC
-$x            $t
+              $t
                 $t            $a$b  $x
                   $t        $a$c$a$b$x
                     $t    $a$c$a$b$d  $x

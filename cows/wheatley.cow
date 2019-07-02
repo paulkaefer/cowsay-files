@@ -2,7 +2,7 @@
 # by Jacob14 - https://jacobl14.wordpress.com/tag/portal-2-pixel-art/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;237m  ";
 $b = "\e[48;5;233m  ";

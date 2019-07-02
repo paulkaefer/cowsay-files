@@ -2,7 +2,7 @@
 # by Bwar - https://www.vg-resource.com/archive/index.php/thread-20583-12.html
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;236m  ";
@@ -15,7 +15,7 @@ $h = "\e[48;5;127m  ";
 $i = "\e[48;5;176m  ";
 
 $the_cow = <<EOC
-$x    $t            $a        $x
+      $t            $a        $x
         $t        $a    $b    $a  $x
           $t          $a  $b      $a$x
             $t          $a$b        $a$x

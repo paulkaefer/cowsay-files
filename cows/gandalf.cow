@@ -1,8 +1,8 @@
 # Gandalf (Lord of the Rings)
-# by Charlie M
+# by u/C-Squaredd - https://www.reddit.com/r/lotr/comments/98wfm2/i_made_some_gandalf_pixel_art/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;7m  ";
 $b = "\e[48;5;252m  ";

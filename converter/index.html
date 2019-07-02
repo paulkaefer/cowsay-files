@@ -84,12 +84,12 @@
               ctx.drawImage(img, 0, 0, img.width, img.height);
 
               //set background color to 1st pixel found
-              var cowFileVars = '$' + varNames[0] + ' = "\\e[m  ";          #reset color\n$t = "$thoughts ";\n';
+              var cowFileVars = '$' + varNames[0] + ' = "\\e[49m  ";          #reset color\n$t = "$thoughts ";\n';
               var cowFile = '';
               var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
               varMap[bgColor] = varNames[0];
               colorCount++;
-              var lastColor; // = bgColor;
+              var lastColor = bgColor;
 
               each(range(0, img.height), function(y) {
                 each(range(0, img.width), function(x) {

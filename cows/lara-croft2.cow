@@ -1,8 +1,8 @@
 # Lara Croft w/ bow & pick (Tomb Raider) - cropped
-# by Charlie M
+# by Iceztiq - https://twitter.com/iceztiq/status/610389394185261056
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;238m  ";
 $b = "\e[48;5;95m  ";

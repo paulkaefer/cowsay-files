@@ -1,8 +1,8 @@
 # Metaknight
-# by Charlie M
+# sprite from Super Smash Flash 2 - http://ch3ts.blogspot.com/2011/06/characters-in-super-smash-flash-2.html
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;234m  ";

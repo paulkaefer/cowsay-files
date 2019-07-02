@@ -1,0 +1,76 @@
+# Captain Falcon (F-Zero)
+# by u/andwupp - https://www.reddit.com/r/PixelArt/comments/adbjjg/oc_newbie_captain_falcon/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;167m  ";
+$b = "\e[48;5;124m  ";
+$c = "\e[48;5;179m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;237m  ";
+$h = "\e[48;5;180m  ";
+$i = "\e[48;5;137m  ";
+$j = "\e[48;5;240m  ";
+$k = "\e[48;5;189m  ";
+$l = "\e[48;5;223m  ";
+$m = "\e[48;5;243m  ";
+$n = "\e[48;5;239m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;215m  ";
+$q = "\e[48;5;235m  ";
+$r = "\e[48;5;222m  ";
+$s = "\e[48;5;94m  ";
+$u = "\e[48;5;248m  ";
+$v = "\e[48;5;58m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                    $a      $b    $x
+                  $t                $a$c$b    $c$b    $x
+                    $t            $a$b$c  $a$c  $b      $x
+                      $t          $a$b$a$c    $b      $c$x
+                                  $a$b  $a$c$b        $c  $x
+                                  $b$d    $e        $b$c$x
+                                  $b$d$f  $e$f  $e  $b  $x                      $c          $x
+                                $g$b$d  $e$h$e    $b    $g$x            $c    $i        $x
+                              $j$k$b$l            $b  $g$i$g$x      $c    $i          $x
+                              $j$k  $l    $h  $l  $b$i    $g$x      $c$i      $c        $x
+                                $j$k$c$l          $h$i  $c$g$x$c                        $x
+                        $j    $m$n$k$c        $h    $i$c                        $i        $x
+                      $j$m    $n    $c    $i$c                            $x              $c$x
+                    $j$m$n            $k$c                          $x$o$x
+                  $j$g$n            $k$n    $c                $j$x$o$p  $o$x
+                $k$q$g$n            $k$n$c$n    $q$n    $c$n  $j$x$o$p  $o$x
+            $i  $k$q$g  $n$m$g  $n  $k$n        $q$n          $g$o  $p  $o  $x
+        $r  $c  $i$k$q$g$m  $q$g  $n$k$n        $q$n      $j  $x$o$p    $o  $x
+      $r$c      $i  $k$q  $j  $q$g$n$k$n$g$q      $n  $g  $j$o  $p  $r$p  $o  $x
+      $r$c        $i  $k$j$x  $j$g$n$k$n    $g$q$n      $o      $p  $r$p  $o  $x
+      $r$c        $i  $x      $j$g$n$k$n    $g$q    $g  $o  $p    $r  $p  $o    $x
+      $c          $x            $j$n  $k$g  $q  $g$n    $o  $p$r        $p$o  $x
+        $c        $x            $j$n  $k$n  $g$q$n      $o$a$p$r        $p$o  $x
+          $c$r  $x              $j$n  $k$n    $q$g  $q$g$o$a  $r        $p$o  $x
+                            $d$x$s          $n          $o$a  $r    $p    $o  $x
+                          $d    $s$u$s$u$s  $u  $s    $j$x$o$a    $p    $o  $x
+                            $d$v            $u  $s$u$s$u$j$x$o            $x
+                          $v    $d$v        $n            $j  $x
+                        $v    $d$v$n                          $j  $x
+                      $v        $n              $g    $n          $j$x
+                    $v        $n        $g  $j$g    $n              $j$x
+                      $d$v$m  $g$m$n  $g  $j$x$j$g  $n              $j$f$x
+                      $j$m  $n$g$m$n  $g$j$x    $j  $g    $n        $f  $x
+                      $j$m$n  $g  $n$g$j$x          $j        $n$i$c  $f$x
+                    $j$m  $n$g  $n  $g$j$x                  $r$c$i$c    $x
+                    $r$f  $n$g$n  $g$j$x                    $r$c$i  $c  $x
+                  $r$c$f      $n  $j$x                      $r$c$i$c    $x
+                $r$c    $f  $c  $r$x                        $r$c$i  $c  $x
+              $r$c            $r$x                            $r$i$c  $f  $x
+              $r$c          $r$x                              $r$i  $f      $c$x
+              $r$c        $r$x                                $r$i$c    $f  $c  $x
+            $r$f$c      $r$x                                  $r  $x$c          $x
+            $r          $x
+EOC

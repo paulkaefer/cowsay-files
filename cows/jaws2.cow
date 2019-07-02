@@ -1,8 +1,8 @@
 # Jaws movie poster
-# by Charlie M
+# by Unknown - https://www.pinterest.com/pin/43487952631644243/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;243m  ";
 $b = "\e[48;5;231m  ";
@@ -10,7 +10,7 @@ $c = "\e[48;5;16m  ";
 $d = "\e[48;5;19m  ";
 
 $the_cow = <<EOC
-$x          $t
+            $t
               $t
                 $t                        $a    $x
                   $t                    $a        $x

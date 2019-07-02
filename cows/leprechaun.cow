@@ -1,8 +1,8 @@
 # Leprechaun
-# by Charc0al, original artist unknown - http://pixelartmaker.com/art/9a1e9eb9a4dd9d2
+# by Unknown - http://pixelartmaker.com/art/9a1e9eb9a4dd9d2
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;28m  ";
@@ -16,7 +16,7 @@ $i = "\e[48;5;180m  ";
 $j = "\e[48;5;223m  ";
 
 $the_cow = <<EOC
-$x                          $t                                        $a  $x
+                            $t                                        $a  $x
                               $t                                    $a$b$c$a  $x
                                 $t                                $a$b  $c    $a  $x
                                   $t                              $a$b$c          $a  $x

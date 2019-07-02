@@ -2,7 +2,7 @@
 # by BLZofOZZ - https://www.deviantart.com/blzofozz/art/Shredders-261283235
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;146m  ";

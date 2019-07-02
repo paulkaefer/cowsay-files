@@ -1,8 +1,8 @@
 # Ness (Earthbound)
-# by Charlie M
+# by Naruto[NU] - https://www.spriters-resource.com/custom_edited/earthboundcustoms/sheet/24917/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;102m  ";
 $b = "\e[48;5;248m  ";

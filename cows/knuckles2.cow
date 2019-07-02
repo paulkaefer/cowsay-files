@@ -1,8 +1,8 @@
 # Knuckles (Sonic & Knuckles)
-# by Charlie M
+# sprite from Sonic Battle (GBA) - https://www.spriters-resource.com/game_boy_advance/sonicbattle/sheet/10041/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;160m  ";
 $b = "\e[48;5;196m  ";

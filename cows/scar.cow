@@ -2,7 +2,7 @@
 # by happy_tree_12 - https://www.planetminecraft.com/project/scar-pixel-art/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;94m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;247m  ";
 $h = "\e[48;5;132m  ";
 
 $the_cow = <<EOC
-$x                    $t                                      $a                            $x
+                      $t                                      $a                            $x
                         $t                            $a                                            $x
                           $t                      $a                                                  $x
                             $t                  $a                  $b  $a                  $c    $a      $x

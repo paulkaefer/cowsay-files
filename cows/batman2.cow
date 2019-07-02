@@ -2,7 +2,7 @@
 # by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;18m  ";
@@ -17,7 +17,7 @@ $j = "\e[48;5;245m  ";
 $k = "\e[48;5;178m  ";
 
 $the_cow = <<EOC
-$x              $t                  $a$x      $a$x
+                $t                  $a$x      $a$x
                   $t                $a$b$x    $a$x
                     $t              $a$b$x    $a$b$x
                       $t            $a  $b    $a$b$x
@@ -64,8 +64,4 @@ $x              $t                  $a$x      $a$x
       $a    $b              $i  $g      $b$i  $g    $b      $a$x
       $a    $b              $i  $g      $b$i  $g  $b        $a$x
       $a    $b              $i  $g    $b  $i$g    $b        $a$x
-    $a      $b              $i  $g  $b    $i$g    $b        $a  $x
-    $a      $b              $i  $g  $b    $i$g    $b        $a  $x
-    $a      $b            $i  $g  $b    $i  $g  $b          $a  $x
-    $a      $b          $i  $g    $b    $i$g    $b          $a  $x
 EOC

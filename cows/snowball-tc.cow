@@ -1,8 +1,8 @@
-# Snowball (Rick and Morty) - true color, cropped
-# by Charlie M
+# Snowball (Rick and Morty) - true color
+# by Urserker - https://www.deviantart.com/urserker/art/Pixel-Art-Snowball-Snuffles-705626880
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;147;159;210m  ";
 $b = "\e[48;2;84;95;168m  ";

@@ -2,7 +2,7 @@
 # by chiwadesu - https://chiwadesu.tumblr.com/post/132206638943/pixel-art-bob-ross-lets-add-some-van-dyke
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;106;50;4m  ";
 $b = "\e[48;2;27;28;26m  ";

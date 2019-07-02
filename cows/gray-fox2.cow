@@ -1,7 +1,7 @@
 # Gray Fox (Metal Gear Solid)
 # by /u/Onceyougowalrus - https://www.reddit.com/r/PixelArt/comments/6arpxo/ocmetal_gear_solid/
 
-$x = "\e[m  ";            #reset color
+$x = "\e[49m  ";            #reset color
 $k = "\e[48;5;235m  ";    #black
 $w = "\e[107m  ";        #white
 $l = "\e[48;5;189m  ";   #light gray

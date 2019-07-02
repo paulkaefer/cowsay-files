@@ -1,8 +1,8 @@
-# zitz
-# by Battletoads (Arcade)
+# Zitz (Battletoads)
+# sprite from Battletoads (Arcade) - https://www.spriters-resource.com/arcade/battletoads/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;178m  ";

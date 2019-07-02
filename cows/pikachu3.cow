@@ -1,8 +1,8 @@
 # Pikachu
-# by Unknown
+# by Unknown - https://www.pngfly.com/png-ebqeco/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;239m  ";
@@ -19,7 +19,7 @@ $l = "\e[48;5;1m  ";
 $m = "\e[48;5;203m  ";
 
 $the_cow = <<EOC
-$x              $t              $a  $x                                          $a    $x
+                $t              $a  $x                                          $a    $x
                   $t            $a$b$a  $x                                  $a  $b$a  $x
                     $t          $a$b  $a  $x                              $c$b    $a  $x
                       $t        $a$b    $a$d$x                          $a$e$b  $a  $x

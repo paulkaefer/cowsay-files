@@ -1,8 +1,8 @@
 # Marth (Fire Emblem, Super Smash Bros)
-# by Charlie M
+# by thekrillmaster - https://www.deviantart.com/thekrillmaster/art/Marth-palette-swaps-577386081
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;17m  ";
@@ -90,13 +90,4 @@ $the_cow = <<EOC
           $i$H$G$i$x        $i$E$i$v  $b  $i$D$B$E  $B  $E$i$b  $v  $i$B$i  $v$q$i$x
           $i$H$i$x        $i$D$E$i$v  $b$i$D$B  $E  $B  $E  $i$b$v  $i$B$i    $c$i$x
         $i$H$G$i$x        $i$E$D$i$v$b  $i$D$B  $E  $B  $D$E$i$b  $v$i$B$i$x$i    $x
-        $i$H$i$x          $i$E$i$b  $d$i$D  $B  $E$D$B  $D    $i$v$b$i  $B$i$x
-      $i$H$G$i$x          $i    $v$d$v$i$D$B    $D  $B  $i      $b$d$v$i    $x
-      $i$H$i$x            $i$b$i$b$v$b$i    $B  $D  $i  $x  $i$b$v$b  $i$x$i$x
-    $i$H$G$i$x              $i$H  $b  $i$x  $i      $x      $i$b$F$H  $i$x
-    $i$H$i$x                $i$d  $F$i$x                    $i$F$d      $i$x
-  $i$H$G$i$x              $i$b$d  $v$i$x                    $i$d$b$v$d  $i$x
-  $i$H$i$x              $i$b$v    $b$i$x                    $i$v$b$v    $b$i$x
-$i$H$G$i$x            $i$b$v    $b$i$x                      $i  $b  $v    $b$i$x
-$i    $x              $i            $x                          $i            $x
 EOC

@@ -2,7 +2,7 @@
 # by Unknown - https://discourse.stonehearth.net/t/spoolicus-adventures-in-pixelmancing-or-seriously-what-does-it-take-to-get-an-update-around-here/6220/30
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;179m  ";
@@ -18,7 +18,7 @@ $k = "\e[48;5;220m  ";
 $l = "\e[48;5;11m  ";
 
 $the_cow = <<EOC
-$x              $t                                                                            $a  $x
+                $t                                                                            $a  $x
                   $t                                                      $a$x                  $a  $x
                     $t                                                  $a$b$a$x                $a    $x
                       $t                                          $a              $x          $a  $x$a$x

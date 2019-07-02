@@ -1,35 +1,35 @@
-# White Walker (Game of Thrones) - true color, cropped
-# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm, edited and converted by Charlie 'Charc0al' M
+# White Walker (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
-$a = "\e[48;2;254;254;254m  ";
-$b = "\e[48;2;203;219;252m  ";
-$c = "\e[48;2;155;173;183m  ";
-$d = "\e[48;2;34;32;52m  ";
-$e = "\e[48;2;108;121;198m  ";
-$f = "\e[48;2;95;205;228m  ";
-$g = "\e[48;2;89;86;82m  ";
-$h = "\e[48;2;63;63;116m  ";
-$i = "\e[48;2;69;40;60m  ";
-$j = "\e[48;2;50;60;57m  ";
-$k = "\e[48;2;172;50;50m  ";
-$l = "\e[48;2;82;75;36m  ";
-$m = "\e[48;2;138;111;48m  ";
-$n = "\e[48;2;246;164;86m  ";
-$o = "\e[48;2;102;57;49m  ";
-$p = "\e[48;2;167;94;45m  ";
-$q = "\e[48;2;132;126;135m  ";
-$r = "\e[48;2;217;87;99m  ";
-$s = "\e[48;2;232;180;216m  ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;189m  ";
+$c = "\e[48;5;248m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;104m  ";
+$f = "\e[48;5;81m  ";
+$g = "\e[48;5;240m  ";
+$h = "\e[48;5;60m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;237m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;101m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;215m  ";
+$o = "\e[48;5;95m  ";
+$p = "\e[48;5;173m  ";
+$q = "\e[48;5;244m  ";
+$r = "\e[48;5;167m  ";
+$s = "\e[48;5;182m  ";
 
 $the_cow = <<EOC
-$x                            $t                        $a        $x
-                                $t            $a$x  $a      $b    $a$x
-                                  $t            $a      $b$a$c$b    $c$x
-                                    $t            $a    $c$b$d  $e$b$d$x        $b$x
-                                      $t        $a    $c$e$b$d$f$d  $f$x      $b$x
+                        $t                              $a        $x              $b$x
+                          $t                  $a$x  $a      $b    $a$x            $b$x
+                            $t                  $a      $b$a$c$b    $c$x        $b$x
+                              $t                  $a    $c$b$d  $e$b$d$x        $b$x
+                                $t              $a    $c$e$b$d$f$d  $f$x      $b$x
                                             $a          $e$a$b$c$g$c$h$x    $b$f$x
                                               $a      $h$e$c$h  $g$h$x      $b$x
                                             $a      $h$e$c$h$c$h$e$c$x    $b$f$x
@@ -77,6 +77,4 @@ $x                            $t                        $a        $x
       $q$i  $o$s$o$d    $o$i$p$d$i        $c$q  $d      $g$d$c      $i  $o$j$i  $j  $d$k$i      $g  $k$i          $d$x  $j$x
       $g$i$o$k$r$d    $o$k$p$d$i    $d$i  $c$d  $i    $d  $c  $o    $i$o$i$j$i  $j$d$k$o$i      $g$k$i              $x    $j$x
       $g$i$o$k  $d    $r$o$p$d$i$j$i$d$i  $d    $i    $p  $o        $i$k$i$j$i  $d$o$r$o$i      $g$i  $o$i        $o$x
-      $d$g$o  $k$d  $k$o$p$d$i  $j$i$d$i    $o$d$i    $n$p$o    $i$d$i$r$i$j$o$i$o$k$s$o$i    $o$g$i$k$i          $o$x
-      $d$g$i$o  $d  $o  $p$d$i$j  $i$d    $i$o  $i  $n$p$o  $d$i$o$d$r$i  $j$o$i$r$k$s$o$i    $k$i$o$j$i        $o  $x
 EOC

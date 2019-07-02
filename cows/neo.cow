@@ -2,7 +2,7 @@
 # by 8bitbaba - https://society6.com/product/neo-of-the-matrix_print
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $c = "\e[48;5;180m  ";

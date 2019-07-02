@@ -2,7 +2,7 @@
 # by damnireekrad - https://www.deviantart.com/damnireekrad/art/Wall-E-Pixel-281236152
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;113m  ";
 $b = "\e[48;5;149m  ";
@@ -26,7 +26,7 @@ $s = "\e[48;5;137m  ";
 $u = "\e[48;5;203m  ";
 
 $the_cow = <<EOC
-$x    $t                                                  $a$b$x
+      $t                                                  $a$b$x
         $t                                                  $b$a$x$b$x
           $t                                                $c$a$b$x
             $t                                                $c$d$a  $x

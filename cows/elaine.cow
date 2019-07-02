@@ -1,8 +1,8 @@
 # Elaine Benes (Seinfeld)
-# by Charlie M (original art)
+# by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;87;56;51m  ";
 $b = "\e[48;2;58;32;23m  ";

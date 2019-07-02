@@ -1,8 +1,8 @@
 # Isaac (Dead Space) - cropped
-# by Charlie M
+# by lPetardol - https://www.deviantart.com/lpetardol/art/Dead-Space-Pixel-Art-702777348
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;241m  ";

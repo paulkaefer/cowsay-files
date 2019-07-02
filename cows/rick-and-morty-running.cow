@@ -2,7 +2,7 @@
 # by unknown - https://www.uihere.com/free-cliparts/minecraft-rick-sanchez-morty-smith-pixel-art-pixel-1725916
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black (charcoal)
 $w = "\e[107m  ";       #white
 $l = "\e[48;5;14m  ";   #light blue (rick hair)

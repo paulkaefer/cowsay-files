@@ -2,7 +2,7 @@
 # by Gustavo Viselner - https://dribbble.com/shots/2124684-R2d2-and-C3p0
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;179m  ";
 $b = "\e[48;5;94m  ";

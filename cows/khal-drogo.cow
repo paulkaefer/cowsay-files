@@ -2,7 +2,7 @@
 # by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;231m  ";
 $b = "\e[48;5;130m  ";
@@ -56,7 +56,7 @@ $Y = "\e[48;5;1m  ";
 $Z = "\e[48;5;161m  ";
 
 $the_cow = <<EOC
-$x                    $t                    $a$b$c$d$x
+                      $t                    $a$b$c$d$x
                         $t                $a$e$d  $f$d$x
                           $t              $g$h$i  $h$d$x
                             $t            $i$h$b$g$i  $x

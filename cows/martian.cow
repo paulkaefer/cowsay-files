@@ -1,8 +1,8 @@
 # Martian (Looney Tunes)
-# by Charlie M
+# sprite from Taz in Escape from Mars (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/escapefrommars/sheet/18640/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;94m  ";
 $b = "\e[48;5;178m  ";

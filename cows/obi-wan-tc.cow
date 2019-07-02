@@ -1,8 +1,8 @@
-# Obi-wan Kenobi (Star Wars)
+# Obi-Wan Kenobi (Star Wars)
 # by Z-Studios - https://www.deviantart.com/z-studios/art/Obi-Wan-Death-733880511
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;96;105;158m  ";
 $b = "\e[48;2;117;132;201m  ";
@@ -21,7 +21,7 @@ $n = "\e[48;2;136;138;103m  ";
 $o = "\e[48;2;166;178;201m  ";
 
 $the_cow = <<EOC
-$x                     $t
+                       $t
         $a$b$a$x        $t
       $a$b$c$b$a$x       $t
       $a$b$c$b  $x        $t

@@ -2,7 +2,7 @@
 # by PixelsNTing - https://www.deviantart.com/pixelsnting/art/Angry-Professor-Farnsworth-4-x-bigger-507254587
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;137m  ";
 $b = "\e[48;5;223m  ";
@@ -19,7 +19,7 @@ $m = "\e[48;5;249m  ";
 $n = "\e[48;5;237m  ";
 
 $the_cow = <<EOC
-$x                      $t                                                $a        $x
+                        $t                                                $a        $x
                           $t                                      $a      $b        $a  $x
                             $t                                  $a$b                    $a$x
                               $t                            $a  $b                        $a$x

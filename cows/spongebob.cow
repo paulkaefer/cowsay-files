@@ -1,8 +1,8 @@
-# Spongebob
-# by Charlie M
+# SpongeBob Squarepants
+# sprite from SpongeBob Squarepants: A Day in the Life of a Sponge - https://www.spriters-resource.com/v_smile/spongebobsquarepantsadayinthelifeofasponge/sheet/99519/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;244m  ";

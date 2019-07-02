@@ -1,8 +1,8 @@
 # Squirtle (Pokemon)
-# by cauchemarr - https://www.deviantart.com/cauchemarr/art/Squirtle-Minecraft-Pixel-Art-Pokemon-755493427
+# sprite from Pokemon Black & White (DS) - https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/36344/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;32m  ";
 $b = "\e[48;5;24m  ";
@@ -23,7 +23,7 @@ $p = "\e[48;5;238m  ";
 $q = "\e[48;5;38m  ";
 
 $the_cow = <<EOC
-$x        $t
+          $t
             $t
               $t
                 $t

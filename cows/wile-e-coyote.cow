@@ -1,8 +1,8 @@
 # Wile E. Coyote
-# by Charc0al, original art from Desert Demolition (Sega Genesis game)
+# sprite from Desert Demolition (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/desertdemolition/sheet/51902/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;99;69;33m  ";
 $b = "\e[48;2;33;32;0m  ";
@@ -13,7 +13,7 @@ $f = "\e[48;2;239;239;140m  ";
 $g = "\e[48;2;28;28;28m  ";
 
 $the_cow = <<EOC
-$x      $t
+        $t
           $t            $a$b$x
             $t          $a  $b$x
               $t        $c$a  $b$x

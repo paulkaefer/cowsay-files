@@ -2,7 +2,7 @@
 # by @ferotanman - https://twitter.com/ferotanman/status/922638436883943426
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;51;25;0m  ";
 $b = "\e[48;2;74;41;0m  ";

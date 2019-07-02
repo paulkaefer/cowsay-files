@@ -2,7 +2,7 @@
 # by 8bitbaba - https://www.redbubble.com/people/8bitbaba/works/30369561-ganesha-pixel-art?p=poster
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;226m  ";
 $b = "\e[48;5;137m  ";
@@ -15,6 +15,7 @@ $h = "\e[48;5;29m  ";
 $i = "\e[48;5;160m  ";
 $j = "\e[48;5;163m  ";
 $k = "\e[48;5;206m  ";
+$l = "\e[48;5;233m  ";
 
 $the_cow = <<EOC
                 $t
@@ -28,7 +29,7 @@ $the_cow = <<EOC
                 $b        $x$a            $x$b        $x
                 $b          $a$c$d$e$d$c$a$b          $x
                 $b          $c    $e$c    $b          $x$a    $x
-      $d        $x$b        $c$x$c    $x$c$b        $x  $a$f$a$x
+      $d        $x$b        $c$l$c    $l$c$b        $x  $a$f$a$x
           $b$x    $b        $c            $b        $x  $a    $x
           $b    $x  $b      $c            $b      $x  $b    $x
           $b    $x  $b    $a$g$c  $d$c  $g$a$b    $x  $b$a$b$x

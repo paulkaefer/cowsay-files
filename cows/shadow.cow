@@ -1,8 +1,8 @@
 # Shadow the Hedgehog (Sonic Adventure 2)
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/9c9d1ed967cc510
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;124m  ";
 $b = "\e[48;5;237m  ";

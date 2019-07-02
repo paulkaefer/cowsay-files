@@ -2,7 +2,7 @@
 # by Kenny - https://aminoapps.com/c/smash/page/blog/im-proud-of-you-junior-a-bowser-and-bowser-jr-pixel-art/7dfP_u4vWdv4lW4qdzkV4kaomr7vxj
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;124m  ";

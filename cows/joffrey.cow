@@ -2,7 +2,7 @@
 # by Cezary 'Charlie' tuczynski, edited and converted by Charlie 'Charc0al' M
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;179m  ";
 $b = "\e[48;5;216m  ";
@@ -80,11 +80,4 @@ $i$x  $s$x      $f$k$x  $s$x        $r    $x        $r    $x          $n$x
       $i$f$x$c$v$x      $d$x            $s  $v$x        $s    $w$x
         $i  $w$v$i    $d$x              $s  $v$x        $s    $v$x
           $k$i    $d$x                  $s  $v$x          $s  $v$x
-          $f$h$x                        $s  $v$x            $s$v$x
-                                        $s  $x              $s$v$x
-                                        $s  $x                $s$v$x
-                                        $s  $x                $s$w$x
-                                        $s  $x                $s  $w$x
-                                    $s      $x                $s    $v  $x
-                                  $s    $x$s$x                $s$x$s    $v$x
 EOC

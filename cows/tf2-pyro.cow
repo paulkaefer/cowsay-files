@@ -1,8 +1,8 @@
 # The Pyro (Team Fortress 2)
-# by Charlie M
+# by Unknown - http://www.lowgif.com/abab2367-law-firm.html
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;239m  ";

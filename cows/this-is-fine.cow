@@ -2,7 +2,7 @@
 # by Charc0al (original art) - based on http://gunshowcomic.com/648
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;178m  ";
 $b = "\e[48;5;172m  ";
@@ -22,7 +22,7 @@ $o = "\e[48;5;137m  ";
 $p = "\e[48;5;3m  ";
 
 $the_cow = <<EOC
-$x                            $t
+                              $t
                                 $t
                                   $t
                                     $t

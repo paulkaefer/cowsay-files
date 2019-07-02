@@ -2,7 +2,7 @@
 # by Sleeping-Demons - https://www.deviantart.com/sleeping-demons/art/Street-Sharks-391108423
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;27;28;26m  ";
 $b = "\e[48;2;105;58;44m  ";
@@ -16,7 +16,7 @@ $i = "\e[48;2;226;207;153m  ";
 $j = "\e[48;2;95;8;3m  ";
 
 $the_cow = <<EOC
-$x                      $t                                          $a$x
+                        $t                                          $a$x
                           $t                                      $a$b$a$x
                             $t                                    $a$b$a$x
                               $t                                  $a$c$a$x

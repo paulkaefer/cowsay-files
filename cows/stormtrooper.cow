@@ -1,58 +1,60 @@
-# Stormtrooper
-# by Charlie M
+# Stormtrooper (Star Wars)
+# by Unknown - http://pixelartmaker.com/art/e76cb92f171365d
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";            #end color
-$k = "\e[48;5;235m  ";    #black
-$w = "\e[107m  ";         #white
-$g = "\e[48;5;246m  ";    #gray light
-$r = "\e[48;5;240m  ";    #gray dark
-$l = "\e[48;5;14m  ";     #light blue
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;241m  ";
 
-$the_cow = <<EOC;
-               $t
-                $t            $r$k          $r$x
-                 $t       $r$k  $g$w      $r$k  $r$x
-                  $t    $k$r$w                $g$k  $x
-                      $k$g$w                  $g  $k  $x
-                    $r$k$w                  $g      $k$x
-                    $k  $w                  $g        $k$x
-                    $k$w                $g            $k$x
-                  $k$g  $k                                $x
-                  $k$w      $g                          $k$x
-                  $k$w$g$k        $g$w  $g$k        $g  $k$x
-                  $k$w$g  $k    $g$w      $g$k    $g    $k$x
-                  $k$w  $k$g  $w              $g  $k$g  $k$x
-                  $k$g  $w    $g$w          $g$w  $g    $k$x
-                  $k  $g      $w  $g$k  $g$w    $g    $k  $x
-                  $g$k$w$g$w    $k          $w    $g$w$g  $x
-                $k$w        $g$k  $w      $k  $g$w    $g  $k$x
-                $k$w$l$w  $g    $w          $g    $w$g$l$g$k$x
-                $k$w  $l$w                          $l$w$g$k$x
-                $k$w    $l$w        $k  $g  $w    $l$w  $g$k$x
-                $k$g$w    $g$k$g$w$k      $g  $k$g$w    $k  $x
-                  $k  $g  $k    $w$k      $g$k    $w  $k  $x
-                    $g$k  $g$k$g$w$k      $g  $k$g$k  $x
-                    $k      $w    $k      $g$w  $k    $g$x
-                  $k    $w$g      $k      $g$w      $k    $x
-                $k$g  $k$w          $g              $k$g$k  $x
-              $k$w    $g$w            $g  $w$g      $k$g$w  $k$x
-              $k$w  $g$k$w          $g$w          $g$k$g  $k  $x
-            $k          $w        $g  $w          $g$k    $w  $k$x
-            $k$w  $g$k  $w        $g  $w          $g$k$g$w    $k$x
-          $k$w    $g$k  $w        $g    $w  $g      $k  $g      $k$x
-          $k    $g$k    $g$w  $g$k            $g    $k  $g  $k    $x
-          $g$w  $g$k$g$k$w$g$k    $g  $k  $g  $k      $g$k  $g$w$g$k$x
-          $k$w    $g$k  $w  $g  $w  $k  $w  $g$k$w$g$k$g    $w    $k$x
-          $k$w      $g$k$w  $g  $w  $k  $w  $k  $w$g$k$g  $w      $k$x
-          $k$w    $g$k  $w  $g  $w  $k  $w  $g$k$w$g$k$g    $w    $k$x
-          $k$w  $g$k$w$k          $g$w$k    $w$k      $w$g$k$g$w  $k$x
-          $g  $w$g$k$w$k  $g    $w$k      $w      $g$k$w$g$k$g$w$g  $x
-            $k$g$w$k    $w$g$w$g$k                $w$k  $g$k$w$g  $x
-              $k          $g          $k$g          $k  $x$k    $x
-                        $k$w      $g  $k$w$g  $w  $k$x
-                    $g  $k$g          $k$w$g      $k$g  $x
-                  $g  $w          $g  $k$w$g  $w      $g  $x
-                  $g$k              $x$g$k              $g$x
-
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a                $x
+                $t      $a  $b                $a  $x
+                      $a$b                        $a$x
+                      $a$b                        $a$x
+                    $a$b                            $a$x
+                    $a$b                            $a$x
+                    $a                                $x
+                    $a$c                            $a$x
+                    $a$b$a        $b    $a        $b$a$x
+                  $a$b  $a    $b            $a    $b  $a$x
+                  $a$b$c$b                        $c$b$a$x
+                  $a$b$c  $b      $a    $b      $c  $b$a$x
+                  $a$b  $c$b    $a        $b    $c$b  $a$x
+                  $a  $c$b    $a  $b    $a  $b    $c$a  $x
+                $a$c  $b$c    $b            $c    $b$c  $a$x
+                $a$b  $c$b    $c$b$c    $b$c$b    $c$b  $a$x
+                $a$b$c$b      $c    $a$c    $b      $c$b$a$x
+                  $a$c$b$a    $b$c$a    $c$b$a    $b$c$a$x
+                    $a$b$a$b$a$b  $a    $b  $a$b$a$b$a$x
+                $a      $b      $a        $b      $a      $x
+              $a$b      $a      $b        $a      $b      $a$x
+            $a$b                                  $a$b      $a$x
+            $a$b  $a        $b    $a    $b        $a$b      $a$x
+          $a$b    $a                        $b    $a$b        $a$x
+          $a$b    $a                        $b    $a  $b      $a$x
+          $a        $b    $a                    $c$a$b$a        $x
+            $a$b  $a$b      $a                  $b$a$b      $a$x
+            $a$b  $a  $b    $a$b$a$b$a                $b    $a$x
+            $a    $b  $a    $b  $a    $b    $a$b      $a      $x
+            $a$b          $a$b      $a$b      $a$b            $a$x
+            $a$b        $a              $b    $a$b            $a$x
+              $a$b    $a$b            $a            $b      $a$x
+                $a      $b              $a    $b  $a        $x
+                    $a$b$a      $c        $a      $b$a$x
+                    $a$b$c$b  $a$b        $a$b  $c$b$a$x
+                    $a$b$c$b    $a$b    $a$b    $c$b$a$x
+                    $a$c$b        $a    $b        $c$a$x
+                      $a      $b  $a$x$a$b  $a      $x
+                      $a$b  $a      $x$a      $b  $a$x
+                      $a$b    $a  $x    $a  $b    $a$x
+                      $a$b      $a$x    $a$b      $a$x
+                    $a$b        $a$x    $a$b        $a$x
+                $a  $b          $a$x    $a$b          $a  $x
+              $a$b              $a$x    $a$b              $a$x
+              $a$c            $b$a$x    $a$c              $a$x
+              $a                  $x    $a                  $x
 EOC

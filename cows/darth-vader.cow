@@ -2,7 +2,7 @@
 # by Z-Studios - https://www.deviantart.com/z-studios/art/Vader-Lightsaber-Throw-729542643
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;238m  ";
@@ -37,7 +37,7 @@ $F = "\e[48;5;174m  ";
 $G = "\e[48;5;255m  ";
 
 $the_cow = <<EOC
-$x                $t                $a$b    $x
+                  $t                $a$b    $x
                     $t            $c$d$c$b$e$f$x
                       $t          $c$d  $b$d  $a$x
                         $t      $a$g$d  $c$d  $h$x

@@ -1,8 +1,8 @@
 # Tails (Sonic & Tails)
-# by Charlie M
+# by Paint Bucket - https://www.youtube.com/watch?v=yrCjaRF5Ig4
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;130m  ";
@@ -17,7 +17,7 @@ $l = "\e[48;5;196m  ";
 $m = "\e[48;5;246m  ";
 
 $the_cow = <<EOC
-$x        $t
+          $t
             $t              $a$b  $x                $b  $a$x
               $t            $a$c$d$b$x            $b$c  $a$x
                 $t          $a$c$e$d$b$x        $b$c$e$b$a$x

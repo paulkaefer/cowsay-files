@@ -2,7 +2,7 @@
 # by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;221m  ";
 $b = "\e[48;5;214m  ";
@@ -14,6 +14,7 @@ $g = "\e[48;5;107m  ";
 $h = "\e[48;5;60m  ";
 $i = "\e[48;5;94m  ";
 $j = "\e[48;5;130m  ";
+$k = "\e[48;5;233m  ";
 
 $the_cow = <<EOC
             $t
@@ -26,9 +27,9 @@ $the_cow = <<EOC
                 $a$c  $b$a  $d    $e  $b$x
                 $c$a$b$a  $d          $e  $x
                 $c$b$a    $d            $e$x
-                $c$b$a$x  $f  $x    $f$x$d$x
-                $c$b$x  $f  $x    $f$x  $d$x
-                $c$b$x  $f    $x  $f  $x$d$x
+                $c$b$a$k  $f  $k    $f$k$d$x
+                $c$b$k  $f  $k    $f$k  $d$x
+                $c$b$k  $f    $k  $f  $k$d$x
                 $c$b                    $d$x
                 $c$b$a  $d            $e$x
                 $c$b$a  $d              $e$x

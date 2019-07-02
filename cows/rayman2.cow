@@ -1,0 +1,91 @@
+# Rayman
+# sprite from Rayman Advance (GameBoy Advance) - https://www.spriters-resource.com/game_boy_advance/raymanadv/sheet/24892/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;130m  ";
+$c = "\e[48;5;178m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;146m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;245m  ";
+$h = "\e[48;5;223m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;160m  ";
+$k = "\e[48;5;54m  ";
+$l = "\e[48;5;92m  ";
+$m = "\e[48;5;96m  ";
+$n = "\e[48;5;53m  ";
+
+$the_cow = <<EOC
+                $t                    $a      $x
+                  $t                $a$b      $a$x
+                    $t            $a$b$c        $a$x
+                      $t        $a$b$c            $a        $x
+                        $t    $a$b$c        $d$b$c          $a  $x
+                              $a$b$d$a$b$c$a$b  $a  $b$c        $a$x
+                            $a    $b$d$a  $d$b$a$d  $a$b$c$a$c    $a$x
+                          $a$b  $a$b  $d$a$b$a$d      $a$c  $a$c    $a$x
+                        $a$b  $c  $b  $d$a$b$a$d$a  $d$a  $c  $a$c  $a$x
+                      $a$b  $c  $b    $a$d$a$d$a$x  $a$x  $a$c  $a$c$a$x
+                    $a$b  $c    $b  $a            $x        $a$c$a$c$a$x
+                    $a$b$c    $b$a  $e$f  $e  $f  $a$x      $a$c$a  $x
+                    $a$b      $a  $e$f      $e$f    $a$x    $a$c$a$x
+                      $a$b    $a$e$f              $g$a$x      $a$x
+                        $a$b$a  $f          $g$a$f$a          $x
+                          $a$x$a$f          $a  $f$a  $h      $a$x
+                              $a$f          $a  $f$a$h          $a$x
+                              $a$e$f        $a    $h              $a$x
+                                $a$e$f        $a$h                $a$x
+                                  $a$e$f    $a$h                  $a$x
+                                  $a$h$a    $h                    $a$x
+                                  $a$h                            $a$x
+                                  $a$h                          $a$x
+                                  $a$h                        $a$x
+                                    $a$h  $a$h              $a$x
+                                    $a$h    $a  $h      $a  $x
+                        $a              $h      $a      $x
+                    $a  $i              $a      $x
+                  $a$i    $j  $i        $a$x
+                $a$i$j$i  $j  $i$j  $i    $a  $x
+              $a$i  $j$i$j  $i$j      $i      $a$x
+              $a$i  $j$i$j  $i  $j          $i$a$x
+              $a$i$j  $i$j  $i        $j    $i$a$x
+              $a$i$j$i  $j  $i    $a            $x
+              $a$i$j$i  $j  $i  $a$k  $l  $e  $a$x
+              $a$i$j        $i$a$k  $l  $e$f    $a$x
+              $a$j$i$j      $i$a$k$l  $e$f  $e  $a$x
+                $a$j$i      $a$k  $l$e$f  $e$m$l$a$x
+                  $a          $k  $l$e$f$e$m$l  $a$x
+                  $a$n  $a    $k  $l$e$f$e$m$l  $a$x
+                  $a$n  $a    $k  $l$e$f$e$m$l  $a$x
+                  $a$n  $a    $k  $l$e$f  $e$m$l$a$x
+                    $a$n$a    $k  $l  $e$f    $e$a$x
+                    $a$n  $a  $k    $l  $e    $a$x
+                    $a$n    $a  $k    $l    $a  $x
+              $a      $n  $l  $a  $k    $a  $e  $a$x
+            $a$e      $a$n  $l  $n$k$n  $a$e$f    $a$x
+          $a$e$f      $e$a$n        $a  $e$a$f    $a$x
+        $a$e$f          $e$a        $e$f  $e$a$f  $a$x
+      $a$e$f              $e$a$x  $a$e$f$a$f$a$e$f$a$x
+      $a$e$f$e$f            $a$x  $a$e$f$a$f  $e$a  $x
+        $a$f$e$f    $a$f    $a$x  $a$e$f$e$a$e  $a$x
+      $a$e$f$e$f    $a$e$f  $a$x    $a$e$f$e$a  $x
+      $a$e$f  $e$f    $a$e$f$a$x      $a      $x
+        $a$e$f  $e$f    $a  $x
+          $a$e$f        $e$a$x      $a        $x
+            $a$e  $f    $e$a$x  $a  $c        $a    $x
+              $a  $e  $a        $c            $a$f  $a  $x
+                  $a  $c  $a$f  $a$b$c      $a$f$a  $c  $a$x
+              $a  $c    $a$f$a  $c$a$b$c  $a    $c    $a$f$a$x
+            $a$f  $a$c$a    $c      $a$b$c          $a$f  $a$x
+          $a$f$a    $b$c          $a    $b          $a$f  $a$x
+          $a$f$a$b      $c      $a$f    $a          $f    $a$x
+          $a$f  $a  $b      $c$a$f      $a$f            $a$x
+            $a$f    $a        $f        $a$f        $a  $x
+              $a$f                      $a          $x
+                $a  $f              $a  $x
+                    $a              $x
+EOC

@@ -1,8 +1,8 @@
 # Knuckles (Sonic & Knuckles)
-# by Charlie M
+# sprite from Sonic Pocket Adventure - https://www.spriters-resource.com/neo_geo_pocket/sonicpocketadventure/sheet/5993/
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;196m  ";
 $c = "\e[48;5;231m  ";
@@ -39,6 +39,4 @@ $the_cow = <<EOC
         $a$b$c  $b$f  $b$a  $b  $c  $b  $a$x
         $a$b      $f  $a$x$a$b          $a$x
         $a            $x    $a          $x
-
-
 EOC

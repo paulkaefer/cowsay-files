@@ -1,8 +1,8 @@
 # Rocko (Rocko's Modern Life)
-# by Charlie M
+# PixelArtus - https://www.pinterest.com/pin/199776933450026338/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;223m  ";
 $b = "\e[48;5;217m  ";

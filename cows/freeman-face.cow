@@ -2,7 +2,7 @@
 # by Jesus Alejandro Torrealba Flore - https://www.pixilart.com/art/gordon-freeman-v2-pixel-art-46ceb360af76a06
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;233m  ";
@@ -21,7 +21,6 @@ $n = "\e[48;5;234m  ";
 $o = "\e[48;5;88m  ";
 $p = "\e[48;5;238m  ";
 $q = "\e[48;5;66m  ";
-$r = "\e[48;5;166m  ";
 $s = "\e[48;5;131m  ";
 $u = "\e[48;5;237m  ";
 
@@ -72,11 +71,11 @@ $the_cow = <<EOC
                     $l$d$c$h$c$f  $g  $f      $c    $h  $c  $d  $b$n$m        $l  $x
                 $l  $m$c  $f        $n  $f        $c    $h$c$d  $b$n$m$o  $m      $l$x
               $l$m    $c  $f  $g$f$n      $f        $c      $d$n    $p$m$o  $m    $l$q$x
-            $q$m        $f  $c$d$k                $f  $c  $d$n      $p$m$o    $m  $l    $x
+            $l$m        $f  $c$d$k                $f  $c  $d$n      $p$m$o    $m  $l    $x
           $l$m          $f$c  $g$d          $k  $c  $f  $c$d$n        $m  $o    $m  $l  $x
         $l  $m          $f  $c  $n$k        $n$c    $g$f$d$b$n$p$n    $m    $o    $m$l  $x
       $l  $m  $o  $m    $f  $g$c  $f        $c      $g$f$n    $p    $n  $m  $o  $m$l    $x
-  $r$q$l  $m$o      $m  $o$f  $g$c  $n    $c      $g$f  $n  $p      $n  $m$o    $m$l    $x
+    $l    $m$o      $m  $o$f  $g$c  $n    $c      $g$f  $n  $p      $n  $m$o    $m$l    $x
   $l      $o        $m    $f  $g  $n  $f  $n$c  $g$f  $n    $p      $n  $m$o  $m$l      $x
   $l    $o          $m    $n$f      $n  $f          $n      $p      $n  $m$o  $m$l      $x
 $l      $o    $s$o  $m    $n  $f        $n$f      $b$n  $p          $n$m$o  $m$l    $f  $x
@@ -86,8 +85,4 @@ $l$b$l  $o  $s$o    $m    $n            $p            $n$p  $n    $o  $m$l    $b
 $f$b$l  $o    $s$o    $m  $p  $n$p$n    $p              $n      $o  $m$l    $b$f        $x
 $f$b$l  $o    $s$o      $m$p  $n$p$n    $p            $n    $b$o  $m$l    $b$f          $x
 $u$b$l  $o      $s$o    $m$p  $n$p  $n$p            $n    $o    $m$l    $b  $f          $x
-$f  $l  $o        $s$o  $m$n$p      $n$p        $n      $o    $m$l      $b$f            $x
-$f  $l  $o              $m$n$p                $n      $o    $m$l      $b  $f            $x
-$f  $l  $o                $m$n                      $o  $m  $l      $b      $f          $x
-$b$f$l    $o                $m                          $l      $b              $f      $x
 EOC

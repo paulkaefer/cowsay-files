@@ -1,8 +1,8 @@
 # Donald w/ hat
-# by Charlie M, original art by som3a982 - https://imgur.com/gallery/COpzY
+# by Charc0al, original art by som3a982 - https://imgur.com/gallery/COpzY
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;196m  ";
 $b = "\e[48;5;160m  ";

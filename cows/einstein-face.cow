@@ -1,8 +1,8 @@
 # Albert Einstein
-# by Charlie M
+# by MalitisOfficial - https://twitter.com/malitisofficial/status/1010473068974825472
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;255m  ";
 $b = "\e[48;5;254m  ";

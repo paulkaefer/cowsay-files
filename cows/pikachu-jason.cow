@@ -1,8 +1,8 @@
 # Pikachu Voorhees
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/4ecfa94211a15d0
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;214m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;249m  ";
 $h = "\e[48;5;94m  ";
 
 $the_cow = <<EOC
-$x                   $t
+                     $t
     $a  $x             $t
     $a      $x           $t                                               $a    $x
     $a        $x           $t                                         $a        $x

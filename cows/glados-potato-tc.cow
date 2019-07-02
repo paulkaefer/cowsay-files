@@ -1,8 +1,8 @@
-# GLaDOS Potato (Portal 2)
+# GLaDOS Potato (Portal 2) - true color
 # by Unknown - https://discourse.stonehearth.net/t/spoolicus-adventures-in-pixelmancing-or-seriously-what-does-it-take-to-get-an-update-around-here/6220/30
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;37;39;36m  ";
 $b = "\e[48;2;162;133;109m  ";
@@ -18,7 +18,7 @@ $k = "\e[48;2;254;255;252m  ";
 $l = "\e[48;2;234;210;41m  ";
 
 $the_cow = <<EOC
-$x              $t                                                                            $a  $x
+                $t                                                                            $a  $x
                   $t                                                      $a$x                  $a  $x
                     $t                                                  $a$b$a$x                $a    $x
                       $t                                          $a              $x          $a  $x$a$x

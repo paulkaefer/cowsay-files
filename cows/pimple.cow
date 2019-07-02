@@ -1,8 +1,8 @@
 # Pimple
-# from Battletoads (Arcade)
+# sprite from Battletoads (Arcade) - https://www.spriters-resource.com/arcade/battletoads/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;94m  ";
@@ -18,7 +18,7 @@ $l = "\e[48;5;109m  ";
 $o = "\e[48;5;231m  ";
 
 $the_cow = <<EOC
-$x                            $t
+                              $t
                                 $t
                                   $t
                                     $t              $a          $x

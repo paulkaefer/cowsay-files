@@ -1,8 +1,8 @@
 # Raphael (Teenage Mutant Ninja Turtles)
-# by Charc0al, original art from TMNT Tournament Fighters (SNES)
+# sprite from TMNT Tournament Fighters (SNES)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;250m  ";
 $b = "\e[48;5;245m  ";
@@ -24,7 +24,7 @@ $q = "\e[48;5;137m  ";
 $r = "\e[48;5;180m  ";
 
 $the_cow = <<EOC
-$x                    $a$x            $t                                                                              $a$x
+                      $a$x            $t                                                                              $a$x
                       $a$x              $t                                                                            $a$x
                     $b$a$x                $t                                                                          $a  $x
                     $a$b$x                  $t                                                                        $b$a$x

@@ -2,7 +2,7 @@
 # by Acclaim Entertainment (art from Spider-Man and Venom: Maximum Carnage)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;232m  ";
 $b = "\e[48;5;17m  ";
@@ -18,7 +18,7 @@ $k = "\e[48;5;31m  ";
 $l = "\e[48;5;124m  ";
 
 $the_cow = <<EOC
-$x                          $t
+                            $t
                               $t
                                 $t                $a        $x
                                   $t            $a    $b$c$d$a$x

@@ -1,8 +1,8 @@
 # Walter White (Breaking Bad)
-# by Charlie M
+# by BritishShadow15 - https://www.deviantart.com/britishshadow15/art/Walter-White-Breaking-Bad-Pixel-Art-445553427
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;180m  ";
 $b = "\e[48;5;223m  ";

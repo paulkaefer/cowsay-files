@@ -2,7 +2,7 @@
 # by pixelartshop - http://www.pixelartshop.com/news/jaws-finally-gets-a-background
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;238m  ";
 $b = "\e[48;5;243m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;210m  ";
 $h = "\e[48;5;137m  ";
 
 $the_cow = <<EOC
-$x                                  $t                                                                            $a$b$x
+                                    $t                                                                            $a$b$x
                                       $t                                                                        $a    $b$x
                                         $t                                                                    $a    $c$b  $x
                                           $t                                                                $a  $b$a$c$b  $x

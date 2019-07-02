@@ -2,7 +2,7 @@
 # by James Beaver - https://www.illmosis.net/art.php?art=sprites-tmnt&style=scrollboss
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;124m  ";
 $b = "\e[48;5;88m  ";
@@ -23,7 +23,7 @@ $p = "\e[48;5;240m  ";
 $q = "\e[48;5;244m  ";
 
 $the_cow = <<EOC
-$x                              $t
+                                $t
                                   $t                        $a$b$x
                                     $t                      $b$a  $b  $x
                                       $t            $a$b$x    $b$a    $c$d    $c  $x

@@ -1,8 +1,8 @@
 # Bomberman
-# by Charlie M
+# by u/mrbrownjeremy - https://www.reddit.com/r/PixelArt/comments/5o53dt/oc_bomberman/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;229m  ";
 $b = "\e[48;5;220m  ";
@@ -40,7 +40,7 @@ $I = "\e[48;5;104m  ";
 $J = "\e[48;5;240m  ";
 
 $the_cow = <<EOC
-$x              $t                                                                              $a$x
+                $t                                                                              $a$x
                   $t                                                                            $a$x      $b$x
                     $t                                                                  $a$x  $a  $b$x$b$a$b$x
                       $t                                                                $a$x  $a  $b  $a$b$x

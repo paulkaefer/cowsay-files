@@ -1,91 +1,53 @@
 # Rayman
-# by Charlie M
+# sprite from Rayman (GameBoy Color) - https://www.spriters-resource.com/game_boy_gbc/gbcrayman/sheet/32050/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
-$a = "\e[48;5;234m  ";
-$b = "\e[48;5;130m  ";
-$c = "\e[48;5;178m  ";
-$d = "\e[48;5;94m  ";
-$e = "\e[48;5;146m  ";
-$f = "\e[48;5;231m  ";
-$g = "\e[48;5;245m  ";
-$h = "\e[48;5;223m  ";
-$i = "\e[48;5;88m  ";
-$j = "\e[48;5;160m  ";
-$k = "\e[48;5;54m  ";
-$l = "\e[48;5;92m  ";
-$m = "\e[48;5;96m  ";
-$n = "\e[48;5;53m  ";
+$a = "\e[48;5;130m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;53m  ";
+$g = "\e[48;5;196m  ";
+$h = "\e[48;5;189m  ";
+$i = "\e[48;5;147m  ";
+$j = "\e[48;5;172m  ";
 
 $the_cow = <<EOC
-                $t                    $a      $x
-                  $t                $a$b      $a$x
-                    $t            $a$b$c        $a$x
-                      $t        $a$b$c            $a        $x
-                        $t    $a$b$c        $d$b$c          $a  $x
-                              $a$b$d$a$b$c$a$b  $a  $b$c        $a$x
-                            $a    $b$d$a  $d$b$a$d  $a$b$c$a$c    $a$x
-                          $a$b  $a$b  $d$a$b$a$d      $a$c  $a$c    $a$x
-                        $a$b  $c  $b  $d$a$b$a$d$a  $d$a  $c  $a$c  $a$x
-                      $a$b  $c  $b    $a$d$a$d$a$x  $a$x  $a$c  $a$c$a$x
-                    $a$b  $c    $b  $a            $x        $a$c$a$c$a$x
-                    $a$b$c    $b$a  $e$f  $e  $f  $a$x      $a$c$a  $x
-                    $a$b      $a  $e$f      $e$f    $a$x    $a$c$a$x
-                      $a$b    $a$e$f              $g$a$x      $a$x
-                        $a$b$a  $f          $g$a$f$a          $x
-                          $a$x$a$f          $a  $f$a  $h      $a$x
-                              $a$f          $a  $f$a$h          $a$x
-                              $a$e$f        $a    $h              $a$x
-                                $a$e$f        $a$h                $a$x
-                                  $a$e$f    $a$h                  $a$x
-                                  $a$h$a    $h                    $a$x
-                                  $a$h                            $a$x
-                                  $a$h                          $a$x
-                                  $a$h                        $a$x
-                                    $a$h  $a$h              $a$x
-                                    $a$h    $a  $h      $a  $x
-                        $a              $h      $a      $x
-                    $a  $i              $a      $x
-                  $a$i    $j  $i        $a$x
-                $a$i$j$i  $j  $i$j  $i    $a  $x
-              $a$i  $j$i$j  $i$j      $i      $a$x
-              $a$i  $j$i$j  $i  $j          $i$a$x
-              $a$i$j  $i$j  $i        $j    $i$a$x
-              $a$i$j$i  $j  $i    $a            $x
-              $a$i$j$i  $j  $i  $a$k  $l  $e  $a$x
-              $a$i$j        $i$a$k  $l  $e$f    $a$x
-              $a$j$i$j      $i$a$k$l  $e$f  $e  $a$x
-                $a$j$i      $a$k  $l$e$f  $e$m$l$a$x
-                  $a          $k  $l$e$f$e$m$l  $a$x
-                  $a$n  $a    $k  $l$e$f$e$m$l  $a$x
-                  $a$n  $a    $k  $l$e$f$e$m$l  $a$x
-                  $a$n  $a    $k  $l$e$f  $e$m$l$a$x
-                    $a$n$a    $k  $l  $e$f    $e$a$x
-                    $a$n  $a  $k    $l  $e    $a$x
-                    $a$n    $a  $k    $l    $a  $x
-              $a      $n  $l  $a  $k    $a  $e  $a$x
-            $a$e      $a$n  $l  $n$k$n  $a$e$f    $a$x
-          $a$e$f      $e$a$n        $a  $e$a$f    $a$x
-        $a$e$f          $e$a        $e$f  $e$a$f  $a$x
-      $a$e$f              $e$a$x  $a$e$f$a$f$a$e$f$a$x
-      $a$e$f$e$f            $a$x  $a$e$f$a$f  $e$a  $x
-        $a$f$e$f    $a$f    $a$x  $a$e$f$e$a$e  $a$x
-      $a$e$f$e$f    $a$e$f  $a$x    $a$e$f$e$a  $x
-      $a$e$f  $e$f    $a$e$f$a$x      $a      $x
-        $a$e$f  $e$f    $a  $x
-          $a$e$f        $e$a$x      $a        $x
-            $a$e  $f    $e$a$x  $a  $c        $a    $x
-              $a  $e  $a        $c            $a$f  $a  $x
-                  $a  $c  $a$f  $a$b$c      $a$f$a  $c  $a$x
-              $a  $c    $a$f$a  $c$a$b$c  $a    $c    $a$f$a$x
-            $a$f  $a$c$a    $c      $a$b$c          $a$f  $a$x
-          $a$f$a    $b$c          $a    $b          $a$f  $a$x
-          $a$f$a$b      $c      $a$f    $a          $f    $a$x
-          $a$f  $a  $b      $c$a$f      $a$f            $a$x
-            $a$f    $a        $f        $a$f        $a  $x
-              $a$f                      $a          $x
-                $a  $f              $a  $x
-                    $a              $x
+          $t
+            $t
+              $t
+                        $a$b      $x
+                $a$b$x$a      $b    $x
+              $a$b  $a    $c  $b$a$b  $x
+              $a$b  $c  $a$c$x$c  $b  $x
+                    $c$d    $x    $c  $x
+                  $c$d$e    $d$x
+                  $c$d$e  $c  $d    $x
+                  $c$d$e  $c$d        $x
+                    $c$d              $x
+                    $c$d$c$d        $c$x
+                    $c$d  $c        $x
+                      $c    $x
+
+                  $f$g    $f$x
+                $f$g  $f    $h$x
+                $f$g  $f  $h$f  $x
+                $f$g$f    $h$f  $x
+                  $f      $h  $f$x
+              $i      $f    $h$f$i    $x
+            $i$e      $i$f      $i      $x
+            $c$e        $f    $i  $c  $i$x
+            $c$i$e      $x  $c$i$c$i    $x
+            $c  $i$e  $i$x  $c  $i  $c  $x
+              $c  $i  $x      $c    $x
+
+                            $j  $e$j  $x
+              $j$e  $j$x  $j            $x
+            $e$j        $e$j        $e  $x
+          $j      $e  $j$c$e            $x
+          $e            $x$c            $x
+          $c            $x
 EOC

@@ -1,7 +1,7 @@
 # Agent 47 (HITMAN)
 # by @comicsworldgame - https://twitter.com/comicsworldgame/status/526127341580595201
 
-$x = "\e[m  ";            #reset color
+$x = "\e[49m  ";            #reset color
 $k = "\e[48;5;235m  ";    #black
 $w = "\e[107m  ";         #white
 $s = "\e[48;5;223m  ";  #skin color

@@ -1,8 +1,8 @@
 # Cthulhu
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/a8be8ed2e510d0e
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;95m  ";
 $b = "\e[48;5;235m  ";
@@ -14,7 +14,7 @@ $g = "\e[48;5;23m  ";
 $h = "\e[48;5;161m  ";
 
 $the_cow = <<EOC
-$x        $t                                                                $a$x
+          $t                                                                $a$x
             $t                                                          $a$x$a$x
               $t
                 $t                                                        $a$x

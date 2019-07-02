@@ -1,8 +1,8 @@
 # Snowball w/ mech suit (Rick and Morty)
-# by Charlie M
+# by Urserker - https://www.deviantart.com/urserker/art/Pixel-Art-Snowball-Snuffles-705626880
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;110m  ";
 $b = "\e[48;5;61m  ";

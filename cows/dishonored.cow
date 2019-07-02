@@ -2,7 +2,7 @@
 # by mirugin - https://www.deviantart.com/mirugin/art/Corvo-Attano-Dishonored-419703179
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;74;17;29m  ";
 $b = "\e[48;2;78;63;84m  ";

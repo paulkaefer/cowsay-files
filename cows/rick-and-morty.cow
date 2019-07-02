@@ -2,7 +2,7 @@
 # by u/Ramen_enthusiast - https://www.reddit.com/r/rickandmorty/comments/6p39qt/im_pixel_rick/
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #fake black
 $h = "\e[48;5;14m  ";   #hair color
 $m = "\e[48;5;130m  ";  #hair color

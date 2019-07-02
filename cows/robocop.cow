@@ -1,8 +1,8 @@
 # Robocop
-# by Charlie M
+# sprite from Robocop vs The Terminator (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/robocopvstheterminator/sheet/81098/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;17m  ";
 $b = "\e[48;5;60m  ";

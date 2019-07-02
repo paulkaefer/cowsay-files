@@ -1,7 +1,7 @@
 # Pickle Rick (Rick & Morty)
-# by Charlie M
+# by Unknown - https://www.pinterest.com/pin/236931630379492488/
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;233m  ";  #fake black
 $w = "\e[107m  ";       #white
 $g = "\e[48;5;40m  ";   #green

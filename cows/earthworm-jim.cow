@@ -1,8 +1,8 @@
-# earthworm-jim
-# by <authorName>
+# Earthworm Jim
+# sprite from Earthworm Jim (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/earthwormjim2/sheet/59469/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;131m  ";
@@ -17,7 +17,7 @@ $j = "\e[48;5;25m  ";
 $k = "\e[48;5;214m  ";
 
 $the_cow = <<EOC
-$x          $t
+            $t
               $t
                 $t
                   $t

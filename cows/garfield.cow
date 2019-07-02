@@ -1,8 +1,8 @@
 # Garfield
-# by
+# by BendyTheDesigner - https://www.deviantart.com/bendythedesigner/art/Sonic-and-NOOOOOOOO-763627919
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;166m  ";
 $b = "\e[48;5;172m  ";
@@ -19,7 +19,7 @@ $l = "\e[48;5;216m  ";
 $m = "\e[48;5;173m  ";
 
 $the_cow = <<EOC
-$x            $t                      $a$b$c$x
+              $t                      $a$b$c$x
                 $t                $a$b  $c    $x  $b$c  $x
                   $t            $d$b  $c      $b    $c    $x
                     $t          $a$b  $c$b$c  $b  $c      $x

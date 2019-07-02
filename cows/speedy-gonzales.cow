@@ -1,8 +1,8 @@
 # Speedy Gonzales
-# by Charlie M
+# by Unknown - https://www.pinterest.com/pin/450360031482324866/
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;208m  ";
 $b = "\e[48;5;178m  ";

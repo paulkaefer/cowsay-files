@@ -2,7 +2,7 @@
 # by Hot31 - https://www.kisspng.com/png-marth-fire-emblem-path-of-radiance-pixel-art-pixel-5380456/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;49;72;121m  ";
 $b = "\e[48;2;179;137;53m  ";
@@ -32,7 +32,7 @@ $A = "\e[48;2;209;176;119m  ";
 $B = "\e[48;2;114;68;37m  ";
 
 $the_cow = <<EOC
-$x                                    $t                $a$b      $a$x
+                                      $t                $a$b      $a$x
                                         $t            $a$b$a      $b$a$x
                                           $t          $a              $x
                                             $t        $a                $x

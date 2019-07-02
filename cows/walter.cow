@@ -1,8 +1,8 @@
 # Heisenberg (Walter White)
-# by Charlie M
+# by Unknown
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #black
 $k = "\e[48;5;236m  ";  #light black
 $s = "\e[48;5;223m  ";  #skin color

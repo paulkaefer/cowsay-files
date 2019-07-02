@@ -1,0 +1,68 @@
+# Bob Belcher (Bob's Burgers)
+# by cycoclash25 - https://cycoclash25.tumblr.com/post/169537357776/been-watching-bobs-burgers-lately-and-kind-of
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;215m  ";
+$f = "\e[48;5;252m  ";
+$g = "\e[48;5;113m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;242m  ";
+
+$the_cow = <<EOC
+              $t                                $a$x
+                $t                    $a        $x  $a$x
+                  $t              $a                $x$a$x
+                    $t          $a                    $x
+                      $t        $a                      $x
+                              $a                $b  $a  $x
+                              $a  $b                $a  $x
+                              $a  $b$c    $b$c    $b$a  $x
+                              $a$b  $c$a$c$b$c$a$c$b  $a$x
+                              $a$b  $c    $b$c    $b  $a$x
+                                $b                    $x
+                                $b    $a  $b$a  $b    $x
+                                  $b$a            $b$x
+                                  $b                $x
+                                    $b            $x
+                                    $b  $d    $b  $x
+                                      $b        $x
+        $e    $x                      $b        $x
+      $e        $x                $c  $f        $c  $x
+    $g$h$g$h$g$h$g$x        $f    $c  $f        $c  $f    $x
+      $e        $x        $f      $c  $f        $c  $f      $x
+    $e$i  $e$i  $e$x    $f        $c    $f    $c    $f        $x
+      $e        $x    $f          $c                $f          $x
+    $c            $b$x$b  $f      $c          $a$c  $f      $b  $x
+        $b        $x  $b    $x$f$c            $a$c    $f$x$b    $x
+            $b              $x$f$c          $f$c  $f$c$f$x$b    $x
+              $b            $x$c            $f$c  $f$c  $x  $b    $x
+                  $b      $x  $c            $f      $c  $x  $b    $x
+                      $b  $x  $c                        $x  $b    $x
+                              $c                        $x  $b    $x
+                              $c                        $x  $b    $x
+                              $c                        $x  $b    $x
+                            $c                            $x$b      $x
+                            $c                            $x$b      $x
+                            $c                            $x$b      $x
+                            $c                            $x$b    $x
+                            $c                            $x
+                            $c                            $x
+                            $c                            $x
+                            $c                            $x
+                            $c                            $x
+                            $c                            $x
+                            $c                            $x
+                              $j$c                  $j  $x
+                              $j      $x        $j      $x
+                              $j      $x        $j      $x
+                              $j    $x            $j    $x
+                              $j    $x            $j    $x
+                              $j    $x            $j    $x
+EOC

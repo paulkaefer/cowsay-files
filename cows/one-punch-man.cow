@@ -2,7 +2,7 @@
 # by u/V055K - https://www.reddit.com/r/OnePunchMan/comments/c046i3/no_spoiler_pixelartsaitama_by_me/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;167m  ";
 $b = "\e[48;5;234m  ";
@@ -16,7 +16,7 @@ $i = "\e[48;5;102m  ";
 $j = "\e[48;5;237m  ";
 
 $the_cow = <<EOC
-$x                             $t
+                               $t
         $a  $b$x                 $t                         $c        $x
       $a  $b    $x                 $t                     $c        $d$c$x
       $a$b    $a  $x                 $t                 $c          $d  $c$x

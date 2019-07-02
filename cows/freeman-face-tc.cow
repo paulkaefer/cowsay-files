@@ -2,7 +2,7 @@
 # by Jesus Alejandro Torrealba Flore - https://www.pixilart.com/art/gordon-freeman-v2-pixel-art-46ceb360af76a06
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;43;41;44m  ";
 $b = "\e[48;2;45;41;40m  ";

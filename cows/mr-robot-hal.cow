@@ -2,7 +2,7 @@
 # by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;241;251;245m  ";
 $b = "\e[48;2;180;199;179m  ";
@@ -54,7 +54,7 @@ $W = "\e[48;2;54;40;57m  ";
 $X = "\e[48;2;87;68;93m  ";
 
 $the_cow = <<EOC
-$x                    $t                              $a  $b$a$x
+                      $t                              $a  $b$a$x
                         $t                          $c  $d  $a  $x
                           $t                    $e  $c$b$f$d$e  $a$x
                             $t                $a$e$b$f$g$h$i$j$c$a  $x

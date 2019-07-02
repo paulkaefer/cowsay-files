@@ -1,12 +1,12 @@
 # Pikachu
-# by Charlie M
+# by Unknown - https://www.pinterest.com/pin/217087644514345343/
 
 $t = "$thoughts ";
 $b = "\e[48;5;0m  ";  #black
 $y = "\e[48;5;226m  ";
 $o = "\e[48;5;214m  ";
 $w = "\e[107m  ";
-$x = "\e[m  ";
+$x = "\e[49m  ";
 $r = "\e[41m  ";
 
 $the_cow = <<EOC;

@@ -3,7 +3,7 @@
 
 $r = "\e[45m  ";
 $b = "\e[44m  ";
-$x = "\e[m  ";
+$x = "\e[49m  ";
 $t = "$thoughts ";
 
 $the_cow = <<EOC;

@@ -2,7 +2,7 @@
 # sprite from The Death and Return of Superman (SNES) - https://www.spriters-resource.com/snes/deathandreturnofsuperman/sheet/18550/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;17m  ";
@@ -19,7 +19,7 @@ $l = "\e[48;5;220m  ";
 $m = "\e[48;5;214m  ";
 
 $the_cow = <<EOC
-$x                              $t
+                                $t
                                   $t
                                     $t
                                       $t                      $a        $x

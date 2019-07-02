@@ -1,8 +1,8 @@
 # Bulbasaur (Pokemon)
-# by Unknown - https://www.pngfind.com/mpng/iTJwiwi_bulbasaur-bulbasaur-pixel-art-hd-png-download/
+# sprite from Pokemon Black & White (DS) - https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/35063/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;22m  ";
 $b = "\e[48;5;112m  ";
@@ -20,7 +20,7 @@ $m = "\e[48;5;231m  ";
 $n = "\e[48;5;203m  ";
 
 $the_cow = <<EOC
-$x          $t
+            $t
               $t
                 $t                                          $a$x
                   $t                                    $a  $b$c  $x

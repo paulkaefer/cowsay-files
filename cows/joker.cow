@@ -2,7 +2,7 @@
 # by Spectral_Force - https://steamcommunity.com/sharedfiles/filedetails/?id=532050321
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;71m  ";
 $b = "\e[48;5;77m  ";
@@ -38,7 +38,7 @@ $G = "\e[48;5;91m  ";
 $H = "\e[48;5;90m  ";
 
 $the_cow = <<EOC
-$x        $t
+          $t
             $t
               $t
                 $t                      $a      $x

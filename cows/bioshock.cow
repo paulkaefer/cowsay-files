@@ -1,8 +1,8 @@
 # Big Daddy (Bioshock)
-# by Charlie M
+# by Siegfried Croes - https://siegfriedcroes.tumblr.com/post/177878329682/heres-the-result-of-a-pixel-art-giveaway-i-did-on
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;136m  ";
 $b = "\e[48;5;234m  ";
@@ -16,7 +16,7 @@ $i = "\e[48;5;102m  ";
 $j = "\e[48;5;233m  ";
 
 $the_cow = <<EOC
-$x            $t                        $a      $x
+              $t                        $a      $x
                 $t                  $a  $b      $a$c  $x
                   $t              $a$b        $c$b$c$b$c$x    $c$a$c    $x
                     $t          $c$a    $b  $d      $b  $c    $b  $d$x

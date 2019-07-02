@@ -2,7 +2,7 @@
 # by @jazzycrafts - https://theinsta-stalker.com/share/BxOR9ghFQFG
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;131m  ";
 $b = "\e[48;5;179m  ";

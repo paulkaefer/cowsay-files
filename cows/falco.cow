@@ -1,8 +1,8 @@
-# Falco Lombardi (Star Foc, Super Smash Bros)
-# by Charlie M
+# Falco Lombardi (Star Fox, Super Smash Bros)
+# by Captain Vega - https://www.deviantart.com/namelessvega/art/SSF2-Sprite-Falco-Melee-763604663
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;17m  ";
 $b = "\e[48;5;18m  ";

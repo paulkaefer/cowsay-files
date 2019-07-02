@@ -2,7 +2,7 @@
 # by unknown - https://www.nicepng.com/ourpic/u2q8e6i1w7w7u2w7_spiderman-pixel-art-pixel-art-minecraft-grid/
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;52m  ";

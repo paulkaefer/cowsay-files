@@ -1,8 +1,8 @@
 # Catdog
-# by Charlie M
+# by Unknown - https://www.pinterest.com/pin/390616967669864130/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;221m  ";
 $b = "\e[48;5;236m  ";

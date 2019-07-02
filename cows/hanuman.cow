@@ -2,7 +2,7 @@
 # by Karthik - https://society6.com/product/hanuman-pixel-art_print
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;88m  ";
 $b = "\e[48;5;214m  ";
@@ -13,7 +13,7 @@ $f = "\e[48;5;251m  ";
 $g = "\e[48;5;231m  ";
 
 $the_cow = <<EOC
-$x                          $t                                                                      $a    $b      $a    $x
+                            $t                                                                      $a    $b      $a    $x
                               $t                                                                $a$b                    $a$c$x
                                 $t                                                            $a$b        $a                $c$x
                                   $t                                                        $a$b    $a    $b              $a    $x

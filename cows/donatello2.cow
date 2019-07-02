@@ -1,8 +1,8 @@
 # Donatello (Teenage Mutant Ninja Turtles)
-# by Konami, original art from TMNT: Turtles in Time
+# by Konami, original art from TMNT: Turtles in Time - https://www.spriters-resource.com/snes/tmnt4/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;28m  ";
 $b = "\e[48;5;220m  ";
@@ -21,7 +21,7 @@ $n = "\e[48;5;237m  ";
 $o = "\e[48;5;95m  ";
 
 $the_cow = <<EOC
-$x            $t                                                                      $a  $x$a  $x
+              $t                                                                      $a  $x$a  $x
                 $t              $b          $c  $b                          $d        $e  $f$e  $a$d    $b                                      $g$x
                   $t            $b$h        $c$i$c$h                      $j      $d  $e  $f$e  $a$d$j  $h                                      $g$x
                     $t          $g          $c$i  $c$g                              $a    $f$e  $f$k    $g                                        $x

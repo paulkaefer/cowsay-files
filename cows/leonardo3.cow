@@ -2,7 +2,7 @@
 # by gabrielvicente96 - https://www.deviantart.com/gabrielvicente96/art/Leonardo-TMNT-472374991
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;28m  ";
@@ -23,7 +23,7 @@ $p = "\e[48;5;244m  ";
 $q = "\e[48;5;252m  ";
 
 $the_cow = <<EOC
-$x            $t                      $a          $x
+              $t                      $a          $x
                 $t                  $a$b$c  $d  $c$e$a$x
                   $t              $a$b$c$d        $c$e$a$x$a  $x                              $a      $x
                     $t          $a$b$c$d$c$b$f    $b  $a  $e  $a  $x              $a          $b$f  $b$e      $x

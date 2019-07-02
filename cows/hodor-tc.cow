@@ -1,8 +1,8 @@
-# Hodor (Game of Thrones) - true color, cropped
+# Hodor (Game of Thrones) - true color
 # by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;145;163;193m  ";
 $b = "\e[48;2;136;124;138m  ";

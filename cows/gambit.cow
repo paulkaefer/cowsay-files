@@ -2,7 +2,7 @@
 # original sprite from X-Men (SNES)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;72;40;8m  ";
 $b = "\e[48;2;104;64;0m  ";
@@ -21,7 +21,7 @@ $n = "\e[48;2;136;32;72m  ";
 $o = "\e[48;2;232;48;112m  ";
 
 $the_cow = <<EOC
-$x                    $t
+                      $t
                         $t
                           $t                        $a    $x$a  $b  $x
                             $t                $a    $b    $a$b  $x

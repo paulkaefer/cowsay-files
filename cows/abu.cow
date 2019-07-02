@@ -1,8 +1,8 @@
 # Abu (Aladdin)
-# by Charlie M
+# sprite from Aladdin (SNES) - https://www.spriters-resource.com/snes/aladdin/sheet/33/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;52m  ";
 $b = "\e[48;5;130m  ";

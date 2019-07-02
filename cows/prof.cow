@@ -1,8 +1,8 @@
 # The Professor (Futurama)
-# by Charlie M
+# from s06e26 of Futurama - https://www.youtube.com/watch?v=H4V6SsRZ2dA
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;236m  ";  #fake black
 $n = "\e[48;5;95m  ";  #pants color 2
 $s = "\e[48;5;223m  "; #skin color

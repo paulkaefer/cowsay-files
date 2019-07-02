@@ -1,8 +1,8 @@
-# Robocop - cropped
-# by Charlie M
+# Robocop
+# u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/98e6io/oc_robocop_for_my_board_game_project/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;60m  ";
 $b = "\e[48;5;103m  ";

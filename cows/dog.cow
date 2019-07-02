@@ -1,7 +1,7 @@
 # Snowball (Rick and Morty)
-# by Charlie M
+# by FlamethrowerMan09 - https://www.deviantart.com/flamethrowerman09/art/Rick-and-Morty-Snuffles-Snowball-695157267
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #fake black
 $v = "\e[48;5;14m  ";   #visor color
 $d = "\e[48;5;17m  ";   #dark blue (visor color)
@@ -41,4 +41,5 @@ $the_cow = <<EOC;
       $b$w    $b$w  $b$w  $b$w    $b      $x
         $b$w    $b$x$b$w  $b        $w  $b$x
         $b$w    $b$x$b$w    $b$w  $b$w    $b$x
+        
 EOC

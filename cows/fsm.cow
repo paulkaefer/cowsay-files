@@ -1,11 +1,11 @@
 # Flying Spaghetti Monster
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/c51f7a3b2fc7cc5
 
 $t = "$thoughts ";
 $y = "\e[48;5;226m  ";
 $o = "\e[48;5;214m  ";
 $w = "\e[107m  ";
-$x = "\e[m  ";
+$x = "\e[49m  ";
 $r = "\e[41m  ";
 $k = "\e[48;5;235m  ";    #black
 

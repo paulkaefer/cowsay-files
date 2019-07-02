@@ -2,7 +2,7 @@
 # by BLZofOZZ - https://www.deviantart.com/blzofozz/art/Batman-Sprites-344827631
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;233m  ";
 $b = "\e[48;5;8m  ";

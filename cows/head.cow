@@ -2,7 +2,7 @@
 # by unknown 4channer
 
 $g = "\e[47m\e[30m";
-$x = "\e[m";
+$x = "\e[49m";
 $the_cow = <<EOC;
      $thoughts
       $thoughts

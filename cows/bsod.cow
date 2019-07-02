@@ -1,8 +1,8 @@
 # Blue Screen of Death
-# by Charlie M
+# HtCRU - https://teepublic.com/user/HtCRU/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;237m  ";
 $b = "\e[48;5;236m  ";
@@ -43,7 +43,7 @@ $L = "\e[48;5;112m  ";
 $M = "\e[48;5;160m  ";
 
 $the_cow = <<EOC
-$x                              $t                    $c$d$e                                                          $d$c$x
+                                $t                    $c$d$e                                                          $d$c$x
                                   $t                $f$g$h$i                                                          $h$g$f$x
                                     $t              $f$j$i      $k$l                                        $k  $i      $j$f$x
                                       $t            $f$j$i    $k$m                                            $n$k$i    $j$f$x

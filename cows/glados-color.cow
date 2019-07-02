@@ -2,7 +2,7 @@
 # by luigisinbigotes - https://imgur.com/gallery/flwCv
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;238m  ";
 $b = "\e[48;5;234m  ";
@@ -33,7 +33,7 @@ $B = "\e[48;5;188m  ";
 $C = "\e[48;5;251m  ";
 
 $the_cow = <<EOC
-$x             $t                                                         $a  $b$a$c$b$a$b$x  $d$x      $e  $b$e    $f$e$f$e$b$e    $g$e  $f$e  $b$x
+               $t                                                         $a  $b$a$c$b$a$b$x  $d$x      $e  $b$e    $f$e$f$e$b$e    $g$e  $f$e  $b$x
                 $t                                                      $h    $b$a$c$b$x    $d$x        $e$b$e      $f$e$f$e  $b$e      $f$e  $b$a$x
                  $t                                                   $h$f  $a$b    $x      $d$x      $e  $b$e  $i$e$f$e  $f$e  $b      $e    $b$a$x
                   $t                                                  $h  $f$a$b    $x    $d$x        $e  $b$e      $b$f$e$f$e              $b$a$j$x

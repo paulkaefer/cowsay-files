@@ -1,8 +1,8 @@
 # Mr.X / Tyrant (Resident Evil 2)
-# by Charlie M
+# by Paul Conway - http://www.twipu.com/DoomCube/tweet/1100433479450484740
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;248m  ";
 $b = "\e[48;5;238m  ";
@@ -13,7 +13,7 @@ $f = "\e[48;5;122m  ";
 $g = "\e[48;5;99m  ";
 
 $the_cow = <<EOC
-$x                    $t                    $a          $x
+                      $t                    $a          $x
                         $t                $a$b  $a$b    $a$x
                           $t              $b    $a$b$c$b  $x
                             $t            $b    $d$b$c  $b  $x

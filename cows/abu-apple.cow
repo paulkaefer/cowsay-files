@@ -1,8 +1,8 @@
 # Abu w/ apple (Aladdin) - true color
-# original sprite from Aladdin (SNES)
+# original sprite from Aladdin (SNES) - https://www.spriters-resource.com/snes/aladdin/sheet/33/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;2;126;70;42m  ";
 $b = "\e[48;2;219;121;74m  ";

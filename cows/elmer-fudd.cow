@@ -1,8 +1,8 @@
 # Elmer Fudd
-# by Charlie M
+# by JayRay2k5 - https://twitter.com/jayray2k5/status/652606053381705728
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;94m  ";

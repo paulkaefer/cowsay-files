@@ -1,8 +1,8 @@
 # Roy, Jen, and Moss (The IT Crowd)
-# by Charlie M, original art from show
+# original art from The IT Crowd
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;94m  ";

@@ -7,7 +7,7 @@ These files are intended to supplement the cow files in /usr/share/cowsay/cows.
 
 ## examples
 
-[A sample of each cow file in this repository is here](https://github.com/paulkaefer/cowsay-files/blob/master/examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports full color.
+[A sample of each cow file in this repository is here](examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports color. True color (ending in '-tc') cows will only render in terminals that support full 24-bit color.
 
 ## .cowrc file
 This file allows you to configure a list of cows to randomly display when opening a new terminal session.
@@ -42,7 +42,7 @@ so you can clearly see which pixels are background and which are image. I usuall
 
 Try converting some of the [examples](https://charc0al.github.io/cowsay-files/converter/examples)!
 
-![Bart Simpson](https://charc0al.github.io/cowsay-files/converter/src_images/bart.png)
-![Boba-fett](https://charc0al.github.io/cowsay-files/converter/src_images/boba-fett.png)
-![Deadpool](https://charc0al.github.io/cowsay-files/converter/src_images/deadpool-face.png)
-![Ironman](https://charc0al.github.io/cowsay-files/converter/src_images/ironman.png)
+![Donatello](https://charc0al.github.io/cowsay-files/converter/src_images/donatello.png)
+![Link](https://charc0al.github.io/cowsay-files/converter/src_images/link.png)
+![Pikachu2](https://charc0al.github.io/cowsay-files/converter/src_images/pikachu2.png)
+![Batman](https://charc0al.github.io/cowsay-files/converter/src_images/batman.png)

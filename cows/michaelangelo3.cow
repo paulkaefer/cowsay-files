@@ -1,8 +1,8 @@
 # Michaelangelo (Teenage Mutant Ninja Turtles)
-# by Charc0al, original art from TMNT Tournament Fighters (SNES)
+# sprite from TMNT Tournament Fighters (SNES) - https://www.spriters-resource.com/snes/tmnttourney/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;22m  ";
 $b = "\e[48;5;28m  ";
@@ -21,7 +21,7 @@ $n = "\e[48;5;220m  ";
 $o = "\e[48;5;101m  ";
 
 $the_cow = <<EOC
-$x                    $t
+                      $t
                         $t                      $a$b      $a$c$x$d  $x
                           $t                  $a$e$f  $e  $b$a$d$g$h$d$x
                             $t              $a$e  $f  $e    $a$g$d$h$d$x

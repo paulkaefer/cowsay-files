@@ -1,7 +1,7 @@
 # Cartman (South Park)
-# by Charlie M
+# by shipfern2 - https://www.brik.co/blogs/pixel-art/cartman-pixel-art
 
-$x = "\e[m  ";         #reset color
+$x = "\e[49m  ";         #reset color
 $k = "\e[48;5;236m  "; #fake black
 $w = "\e[107m  ";      #white
 $r = "\e[48;5;1m  ";   #dark red
@@ -42,5 +42,4 @@ $the_cow = <<EOC;
                 $z$r                            $z            $x
                   $z                                          $x
                 $k                    $x  $k                    $x
-
 EOC

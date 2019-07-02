@@ -1,8 +1,8 @@
 # Samus Aran (Metroid, Super Smash Bros)
-# by Charlie M
+# by u/CashCatner - https://www.reddit.com/r/Terraria/comments/a98xbr/made_a_pixel_art_samus/
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;221m  ";
