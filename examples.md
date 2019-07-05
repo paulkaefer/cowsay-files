@@ -1,8 +1,4 @@
 
-## 47-tc.cow
-<img src="converter/src_images/47-tc.png" height="200" />
-
-
 ## 47.cow
 <img src="converter/src_images/47.png" height="200" />
 
@@ -86,10 +82,6 @@
 
 ## abu-apple.cow
 <img src="converter/src_images/abu-apple.png" height="200" />
-
-
-## abu-sword.cow
-<img src="converter/src_images/abu-sword.png" height="200" />
 
 
 ## abu.cow
@@ -510,10 +502,6 @@ Modified ATAT from Row  (the Ascii-Wizard of Oz)
 ```
 
 
-## bioshock-tc.cow
-<img src="converter/src_images/bioshock-tc.png" height="200" />
-
-
 ## bioshock.cow
 <img src="converter/src_images/bioshock.png" height="200" />
 
@@ -574,16 +562,8 @@ H@:         :HHHHHHHHHHHHHHHHHHX,    =@H
 <img src="converter/src_images/bob2.png" height="200" />
 
 
-## boba-fett-tc.cow
-<img src="converter/src_images/boba-fett-tc.png" height="200" />
-
-
 ## boba-fett.cow
 <img src="converter/src_images/boba-fett.png" height="200" />
-
-
-## bobross-tc.cow
-<img src="converter/src_images/bobross-tc.png" height="200" />
 
 
 ## bobross.cow
@@ -785,10 +765,6 @@ M###################@%=           =+%
 <img src="converter/src_images/captain-falcon.png" height="200" />
 
 
-## captain-falcon2-tc.cow
-<img src="converter/src_images/captain-falcon2-tc.png" height="200" />
-
-
 ## captain-falcon2.cow
 <img src="converter/src_images/captain-falcon2.png" height="200" />
 
@@ -968,10 +944,6 @@ M###################@%=           =+%
 ```
 
 
-## costanza.cow
-<img src="converter/src_images/costanza.png" height="200" />
-
-
 ## cthulhu-mini.cow
 ```
  ______________ 
@@ -983,10 +955,6 @@ M###################@%=           =+%
       ^(;,;)^
 
 ```
-
-
-## cthulhu-tc.cow
-<img src="converter/src_images/cthulhu-tc.png" height="200" />
 
 
 ## cthulhu.cow
@@ -1221,20 +1189,12 @@ snd     [_____________]
 <img src="converter/src_images/earthworm-jim.png" height="200" />
 
 
-## einstein-face-tc.cow
-<img src="converter/src_images/einstein-face.png" height="200" />
-
-
 ## einstein-face.cow
 <img src="converter/src_images/einstein-face.png" height="200" />
 
 
 ## einstein.cow
 <img src="converter/src_images/einstein.png" height="200" />
-
-
-## elaine.cow
-<img src="converter/src_images/elaine.png" height="200" />
 
 
 ## elephant2.cow
@@ -1394,10 +1354,6 @@ $@#MX %+;-                           .
 ```
 
 
-## freeman-face-tc.cow
-<img src="converter/src_images/freeman-face.png" height="200" />
-
-
 ## freeman-face.cow
 <img src="converter/src_images/freeman-face.png" height="200" />
 
@@ -1428,10 +1384,6 @@ $@#MX %+;-                           .
 
 ## fsm2.cow
 <img src="converter/src_images/fsm2.png" height="200" />
-
-
-## gambit.cow
-<img src="converter/src_images/gambit.png" height="200" />
 
 
 ## gandalf.cow
@@ -1502,10 +1454,6 @@ $@#MX %+;-                           .
 
 ## glados-color.cow
 <img src="converter/src_images/glados-color.png" height="200" />
-
-
-## glados-potato-tc.cow
-<img src="converter/src_images/glados-potato-tc.png" height="200" />
 
 
 ## glados-potato.cow
@@ -1601,10 +1549,6 @@ $@#MX %+;-                           .
 <img src="converter/src_images/good-vs-evil.png" height="200" />
 
 
-## gray-fox-tc.cow
-<img src="converter/src_images/gray-fox-tc.png" height="200" />
-
-
 ## gray-fox.cow
 <img src="converter/src_images/gray-fox.png" height="200" />
 
@@ -1697,10 +1641,6 @@ $@#MX %+;-                           .
 ```
 
 
-## hermes.cow
-<img src="converter/src_images/hermes.png" height="200" />
-
-
 ## hitman-face.cow
 <img src="converter/src_images/hitman-face.png" height="200" />
 
@@ -1711,18 +1651,6 @@ $@#MX %+;-                           .
 
 ## hl2-dog.cow
 <img src="converter/src_images/hl2-dog.png" height="200" />
-
-
-## hobo.cow
-<img src="converter/src_images/hobo.png" height="200" />
-
-
-## hobo2.cow
-<img src="converter/src_images/hobo2.png" height="200" />
-
-
-## hodor-tc.cow
-<img src="converter/src_images/hodor.png" height="200" />
 
 
 ## hodor.cow
@@ -1827,14 +1755,6 @@ $@#MX %+;-                           .
 <img src="converter/src_images/jamjars.png" height="200" />
 
 
-## jawa-engineer.cow
-<img src="converter/src_images/jawa-engineer.png" height="200" />
-
-
-## jawa.cow
-<img src="converter/src_images/jawa.png" height="200" />
-
-
 ## jaws.cow
 <img src="converter/src_images/jaws.png" height="200" />
 
@@ -1868,14 +1788,6 @@ jgs
 ```
 
 
-## jerry.cow
-<img src="converter/src_images/jerry.png" height="200" />
-
-
-## jesus-ripped-tc.cow
-<img src="converter/src_images/jesus-ripped-tc.png" height="200" />
-
-
 ## jesus-ripped.cow
 <img src="converter/src_images/jesus-ripped.png" height="200" />
 
@@ -1886,10 +1798,6 @@ jgs
 
 ## joffrey.cow
 <img src="converter/src_images/joffrey.png" height="200" />
-
-
-## john-snow-tc.cow
-<img src="converter/src_images/john-snow.png" height="200" />
 
 
 ## john-snow.cow
@@ -2000,24 +1908,12 @@ jgs
 <img src="converter/src_images/knuckles2.png" height="200" />
 
 
-## kramer.cow
-<img src="converter/src_images/kramer.png" height="200" />
-
-
-## kramer2.cow
-<img src="converter/src_images/kramer2.png" height="200" />
-
-
 ## krishna.cow
 <img src="converter/src_images/krishna.png" height="200" />
 
 
 ## kyle.cow
 <img src="converter/src_images/kyle.png" height="200" />
-
-
-## lahey-tc.cow
-<img src="converter/src_images/lahey-tc.png" height="200" />
 
 
 ## lahey.cow
@@ -2126,10 +2022,6 @@ H#,                     =;+/;,       ,#X
 <img src="converter/src_images/linda.png" height="200" />
 
 
-## link-tc.cow
-<img src="converter/src_images/link-tc.png" height="200" />
-
-
 ## link-toon.cow
 <img src="converter/src_images/link-toon.png" height="200" />
 
@@ -2227,10 +2119,6 @@ C{ ( o o )}
 
 ## mario.cow
 <img src="converter/src_images/mario.png" height="200" />
-
-
-## marth-tc.cow
-<img src="converter/src_images/marth-tc.png" height="200" />
 
 
 ## marth-toon.cow
@@ -2541,14 +2429,6 @@ C{ ( o o )}
 <img src="converter/src_images/ness.png" height="200" />
 
 
-## newman.cow
-<img src="converter/src_images/newman.png" height="200" />
-
-
-## night-king.cow
-<img src="converter/src_images/night-king.png" height="200" />
-
-
 ## nyan.cow
 ```
  ______ 
@@ -2572,10 +2452,6 @@ o        o         o      o     +
     o           +
 +      +     o        o      +    
 ```
-
-
-## obi-wan-tc.cow
-<img src="converter/src_images/obi-wan.png" height="200" />
 
 
 ## obi-wan.cow
@@ -2647,10 +2523,6 @@ o        o         o      o     +
 
 ## peach.cow
 <img src="converter/src_images/peach.png" height="200" />
-
-
-## peep-show-tc.cow
-<img src="converter/src_images/peep-show.png" height="200" />
 
 
 ## peep-show.cow
@@ -3153,10 +3025,6 @@ LOL===__        \
 ```
 
 
-## ron-swanson-tc.cow
-<img src="converter/src_images/ron-swanson-tc.png" height="200" />
-
-
 ## ron-swanson.cow
 <img src="converter/src_images/ron-swanson.png" height="200" />
 
@@ -3206,20 +3074,12 @@ LOL===__        \
 <img src="converter/src_images/scar.png" height="200" />
 
 
-## scarecrow-tc.cow
-<img src="converter/src_images/scarecrow-tc.png" height="200" />
-
-
 ## scarecrow.cow
 <img src="converter/src_images/scarecrow.png" height="200" />
 
 
 ## scary-terry-face.cow
 <img src="converter/src_images/scary-terry-face.png" height="200" />
-
-
-## scary-terry.cow
-<img src="converter/src_images/scary-terry.png" height="200" />
 
 
 ## scooby-doo.cow
@@ -3324,10 +3184,6 @@ LOL===__        \
 <img src="converter/src_images/sheik.png" height="200" />
 
 
-## sherlock-tc.cow
-<img src="converter/src_images/sherlock-tc.png" height="200" />
-
-
 ## sherlock.cow
 <img src="converter/src_images/sherlock.png" height="200" />
 
@@ -3414,10 +3270,6 @@ LOL===__        \
 
 ## snoopy.cow
 <img src="converter/src_images/snoopy.png" height="200" />
-
-
-## snowball-tc.cow
-<img src="converter/src_images/snowball.png" height="200" />
 
 
 ## snowball.cow
@@ -3574,10 +3426,6 @@ LOL===__        \
 <img src="converter/src_images/superman-cyborg.png" height="200" />
 
 
-## superman-flying-tc.cow
-<img src="converter/src_images/superman-flying-tc.png" height="200" />
-
-
 ## superman-flying.cow
 <img src="converter/src_images/superman-flying.png" height="200" />
 
@@ -3685,10 +3533,6 @@ LOL===__        \
 <img src="converter/src_images/the-dude.png" height="200" />
 
 
-## the-hound-tc.cow
-<img src="converter/src_images/the-hound.png" height="200" />
-
-
 ## the-hound.cow
 <img src="converter/src_images/the-hound.png" height="200" />
 
@@ -3746,10 +3590,6 @@ LOL===__        \
 <img src="converter/src_images/tina.png" height="200" />
 
 
-## toast-tc.cow
-<img src="converter/src_images/toast.png" height="200" />
-
-
 ## toast.cow
 <img src="converter/src_images/toast.png" height="200" />
 
@@ -3777,10 +3617,6 @@ LOL===__        \
    |    ::  @ | /
    !__________!/
 ```
-
-
-## tobias.cow
-<img src="converter/src_images/tobias.png" height="200" />
 
 
 ## tombraider.cow
@@ -3872,10 +3708,6 @@ LOL===__        \
 
 ## twoface.cow
 <img src="converter/src_images/twoface.png" height="200" />
-
-
-## tyrion-tc.cow
-<img src="converter/src_images/tyrion.png" height="200" />
 
 
 ## tyrion.cow
@@ -4070,20 +3902,8 @@ LOL===__        \
 <img src="converter/src_images/wheatley.png" height="200" />
 
 
-## white-walker-tc.cow
-<img src="converter/src_images/white-walker-tc.png" height="200" />
-
-
 ## white-walker.cow
 <img src="converter/src_images/white-walker.png" height="200" />
-
-
-## wile-e-coyote-error.cow
-<img src="converter/src_images/wile-e-coyote-error.png" height="200" />
-
-
-## wile-e-coyote.cow
-<img src="converter/src_images/wile-e-coyote.png" height="200" />
 
 
 ## wile-e-coyote2.cow
@@ -4158,10 +3978,6 @@ LOL===__        \
 <img src="converter/src_images/yoda.png" height="200" />
 
 
-## yoda2.cow
-<img src="converter/src_images/yoda2.png" height="200" />
-
-
 ## yosemite-sam.cow
 <img src="converter/src_images/yosemite-sam.png" height="200" />
 
@@ -4200,4 +4016,194 @@ LOL===__        \
 
 ## zorak.cow
 <img src="converter/src_images/zorak.png" height="200" />
+
+
+# True Color cows
+
+## 47.cow
+<img src="converter/src_images/47-tc.png" height="200" />
+
+
+## abu-sword.cow
+<img src="converter/src_images/abu-sword.png" height="200" />
+
+
+## bioshock.cow
+<img src="converter/src_images/bioshock-tc.png" height="200" />
+
+
+## boba-fett.cow
+<img src="converter/src_images/boba-fett-tc.png" height="200" />
+
+
+## bobross.cow
+<img src="converter/src_images/bobross-tc.png" height="200" />
+
+
+## captain-falcon2.cow
+<img src="converter/src_images/captain-falcon2-tc.png" height="200" />
+
+
+## costanza.cow
+<img src="converter/src_images/costanza.png" height="200" />
+
+
+## cthulhu.cow
+<img src="converter/src_images/cthulhu-tc.png" height="200" />
+
+
+## einstein-face.cow
+<img src="converter/src_images/einstein-face.png" height="200" />
+
+
+## elaine.cow
+<img src="converter/src_images/elaine.png" height="200" />
+
+
+## freeman-face.cow
+<img src="converter/src_images/freeman-face.png" height="200" />
+
+
+## gambit.cow
+<img src="converter/src_images/gambit.png" height="200" />
+
+
+## glados-potato.cow
+<img src="converter/src_images/glados-potato-tc.png" height="200" />
+
+
+## gray-fox.cow
+<img src="converter/src_images/gray-fox-tc.png" height="200" />
+
+
+## hermes.cow
+<img src="converter/src_images/hermes.png" height="200" />
+
+
+## hobo.cow
+<img src="converter/src_images/hobo.png" height="200" />
+
+
+## hobo2.cow
+<img src="converter/src_images/hobo2.png" height="200" />
+
+
+## hodor.cow
+<img src="converter/src_images/hodor.png" height="200" />
+
+
+## ike.cow
+<img src="converter/src_images/ike.png" height="200" />
+
+
+## jawa-engineer.cow
+<img src="converter/src_images/jawa-engineer.png" height="200" />
+
+
+## jawa.cow
+<img src="converter/src_images/jawa.png" height="200" />
+
+
+## jerry.cow
+<img src="converter/src_images/jerry.png" height="200" />
+
+
+## jesus-ripped.cow
+<img src="converter/src_images/jesus-ripped-tc.png" height="200" />
+
+
+## john-snow.cow
+<img src="converter/src_images/john-snow.png" height="200" />
+
+
+## kramer.cow
+<img src="converter/src_images/kramer.png" height="200" />
+
+
+## kramer2.cow
+<img src="converter/src_images/kramer2.png" height="200" />
+
+
+## lahey.cow
+<img src="converter/src_images/lahey-tc.png" height="200" />
+
+
+## link.cow
+<img src="converter/src_images/link-tc.png" height="200" />
+
+
+## marth.cow
+<img src="converter/src_images/marth-tc.png" height="200" />
+
+
+## newman.cow
+<img src="converter/src_images/newman.png" height="200" />
+
+
+## night-king.cow
+<img src="converter/src_images/night-king.png" height="200" />
+
+
+## obi-wan.cow
+<img src="converter/src_images/obi-wan.png" height="200" />
+
+
+## peep-show.cow
+<img src="converter/src_images/peep-show.png" height="200" />
+
+
+## ron-swanson.cow
+<img src="converter/src_images/ron-swanson-tc.png" height="200" />
+
+
+## scarecrow.cow
+<img src="converter/src_images/scarecrow-tc.png" height="200" />
+
+
+## scary-terry.cow
+<img src="converter/src_images/scary-terry.png" height="200" />
+
+
+## sherlock.cow
+<img src="converter/src_images/sherlock-tc.png" height="200" />
+
+
+## snowball.cow
+<img src="converter/src_images/snowball.png" height="200" />
+
+
+## superman-flying.cow
+<img src="converter/src_images/superman-flying-tc.png" height="200" />
+
+
+## the-hound.cow
+<img src="converter/src_images/the-hound.png" height="200" />
+
+
+## toast.cow
+<img src="converter/src_images/toast.png" height="200" />
+
+
+## tobias.cow
+<img src="converter/src_images/tobias.png" height="200" />
+
+
+## tyrion.cow
+<img src="converter/src_images/tyrion.png" height="200" />
+
+
+## white-walker.cow
+<img src="converter/src_images/white-walker-tc.png" height="200" />
+
+
+## wile-e-coyote-error.cow
+<img src="converter/src_images/wile-e-coyote-error.png" height="200" />
+
+
+## wile-e-coyote.cow
+<img src="converter/src_images/wile-e-coyote.png" height="200" />
+
+
+## yoda2.cow
+<img src="converter/src_images/yoda2.png" height="200" />
 

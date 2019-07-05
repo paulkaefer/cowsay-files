@@ -93,9 +93,9 @@ COWS=(
 
 PIXEL_COWS=(
   #Rick and Morty
-  "rick-and-morty-running" "snowball" "pickle-rick2" "pickle-rick" "scary-terry"
+  "rick-and-morty-running" "snowball" "pickle-rick2" "pickle-rick"
   "rick-and-morty2" "pickle-rick-face" "squanchy" "mr-pb" "plutonian" "pizza-phone"
-  "scary-terry-face" "dog" "head" "scary-terry" "meeseeks"
+  "scary-terry-face" "dog" "head" "meeseeks" # "true-color/scary-terry"
 
   #Adult Swim characters
   "mooninites" "master-shake" "frylock" "meatwad" "carl" "ignignokt" "err"
@@ -112,23 +112,24 @@ PIXEL_COWS=(
   "bob" "bob2" "louise" "tina" "gene" "linda"
 
   #Cartoons
-  "roadrunner" "roadrunner2" "wile-e-coyote" "wile-e-coyote2" "bugs-bunny"
-  "aladdin" "abu-sword" "scrooge-mcduck"
+  "roadrunner" "roadrunner2" "wile-e-coyote2" "bugs-bunny"
+  "aladdin" "scrooge-mcduck"
   "elmer-fudd" "daffy-duck" "taz" "speedy-gonzales" "yosemite-sam" "scooby-doo" "shaggy" "garfield" "donald-duck" "martian"
   "bart" "catdog" "charlie-brown" "snoopy" "spongebob" "rocko" "plankton" "homer-simpson"
   "abu" "abu-apple" "jafar" "buzz-lightyear" "genie" "stewie" "sylvester" "flintstone" "barney" "popeye"
+  #"true-color/wile-e-coyote" "true-color/abu-sword"
 
   #Dilbert
   "dilbert" "dilbert-boss" "wally" "dogbert" "catbert"
 
   #Futurama
-  "professor" "bender-md" "hermes" "zapp-kif" "roberto"
+  "professor" "bender-md" "zapp-kif" "roberto" #"true-color/hermes"
   "zoidberg" "fry-money" "hypnotoad" "farnsworth" "calculon" "robot-devil" "prof" "leela" "amy" "zoidberg2" "scruffy"
 
   #Game of Thrones
   "john-snow" "tyrion" "hodor"
-  "the-hound" "arya" "ned-stark" "khal-drogo" "varys" "night-king"
-  "melisandre" "tywin" "joffrey" "danerys" "white-walker"
+  "the-hound" "arya" "ned-stark" "khal-drogo" "varys"
+  "melisandre" "tywin" "joffrey" "danerys" "white-walker" #"true-color/night-king"
 
   #Life & Times of Tim
   "tim" "the-boss" "stu"
@@ -161,12 +162,12 @@ PIXEL_COWS=(
   "chef" "cartman" "kenny" "kyle" "stan"
 
   #Star Wars
-  "r2d2-c3po" "obi-wan" "yoda2" "ewok" "jawa-engineer" "jawa"
+  "r2d2-c3po" "obi-wan" "ewok" #"true-color/jawa-engineer" "true-color/jawa"
   "darth-vader" "phasma" "palpatine" "stormtrooper" "vader" "solo" "yoda"
-  "r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett" "chewbacca"
+  "r2d2" "c3po-color" "atst-atat" "greedo" "leia" "leia2" "biggs" "admiral-ackbar" "boba-fett" "chewbacca" #"true-color/yoda2"
 
   #Super Heroes
-  "wolverine-snes" "wolverine-genesis" "gambit" "cyclops" "superman"
+  "wolverine-snes" "wolverine-genesis" "cyclops" "superman" #"true-color/gambit"
   "wolverine" "superman-batman" "superman-flying" "ironman" "ironman2" "one-punch-man"
   "spiderman" "deadpool-face" "deadpool" "captain-america" "thor" "hulk" "venom"
 
@@ -179,9 +180,10 @@ PIXEL_COWS=(
   "donatello3" "raphael3" "michaelangelo3" "leonardo3" "raphael4" "leonardo4"
 
   #TV Characters
-  "kramer2" "newman" "larry2" "jerry" "costanza" "elaine"
-  "tobias" "ron-swanson" "toast" "moss" "it-crowd" "sherlock" "peep-show" "archer"
-  "lahey" "kramer" "larry"
+  "ron-swanson" "toast" "moss" "it-crowd" "sherlock" "peep-show" "archer" "lahey"
+  #"true-color/kramer2" "true-color/newman" "true-color/larry2"
+  #"true-color/jerry" "true-color/costanza" "true-color/elaine"
+  #"true-color/tobias" "true-color/kramer" "true-color/larry"
 
   #Video Game characters
   "47" "hitman" "hitman-face" "freeman-face" "leon" "subzero" "scorpion" "vault-boy"
