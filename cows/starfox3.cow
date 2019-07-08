@@ -1,0 +1,92 @@
+# Star Fox pointing blaster
+# by Max2809 - https://www.deviantart.com/max2809/art/Pixel-Fox-378709958
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;137m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;242m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;16m  ";
+$g = "\e[48;5;248m  ";
+$h = "\e[48;5;179m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;235m  ";
+$k = "\e[48;5;239m  ";
+$l = "\e[48;5;52m  ";
+$m = "\e[48;5;131m  ";
+$n = "\e[48;5;249m  ";
+$o = "\e[48;5;240m  ";
+$p = "\e[48;5;64m  ";
+$q = "\e[48;5;76m  ";
+$r = "\e[48;5;155m  ";
+$s = "\e[48;5;102m  ";
+$u = "\e[48;5;70m  ";
+$v = "\e[48;5;28m  ";
+$w = "\e[48;5;231m  ";
+$y = "\e[48;5;145m  ";
+$z = "\e[48;5;236m  ";
+$A = "\e[48;5;254m  ";
+$B = "\e[48;5;88m  ";
+$C = "\e[48;5;234m  ";
+$D = "\e[48;5;22m  ";
+$E = "\e[48;5;243m  ";
+$F = "\e[48;5;238m  ";
+$G = "\e[48;5;58m  ";
+$H = "\e[48;5;233m  ";
+$I = "\e[48;5;230m  ";
+
+$the_cow = <<EOC
+              $t              $a  $x      $a    $x
+                $t          $a$b$a$x      $a$c  $a$x
+                  $t      $a$b$d$e$a      $c    $a$f$x
+                    $t    $a$b$e$g$d$a$d    $c    $a$x
+                      $t$a$c$b$g    $h$g      $c  $a$x
+                        $a$c$b$h          $i  $c  $a$x
+                $a        $c  $b$h        $b  $c  $a$x
+                $a$j$k$j$a$l$c$g$i$b$h$b      $i$g$c$a$x
+                $a$k$m$k$a  $c  $g$i$b      $i$g$c  $a$x
+                $a$j$l$a$n$a$o$p$q$r$p$c        $g$c$a$x
+                $a      $s$a$e$u$p$v$u$c    $f  $i$c$a$x
+                $a$w$y$a    $c$u$p$r$u$g      $z$i$c$a$x
+                  $a    $c$a$c  $g    $d      $g$c  $a$x
+                $a$c$a  $c$a$e$g  $i      $a  $d$g$a$x
+                $a          $A$e$i$e$i$g  $a  $e  $x
+                $a$c    $a  $A$n$e            $s$e$x
+                $a$c    $a  $n$s$e$s  $e  $B$m$a$s$e$x
+                  $a$c$a  $n$s  $e$z  $s  $e$B$m$a$e$x
+                    $a    $s  $e$A  $n$z  $e  $l$a$s$e  $x  $f        $x
+                        $e    $n  $s  $C    $e$l$D$a$s$e$f    $c  $b$f      $x
+                          $e      $C        $e$D$p$a$s$e$c$f$l$C  $f$c  $b$f$x
+                            $e$s      $C      $e$p$a$s$e$f  $l$C  $c    $f$x
+                            $e$s$n          $s$e$p$D$a$e$x  $f    $c    $f$x
+                            $e$s$n$A        $n$e$E  $a$x        $f$b$f  $x
+                            $e    $n$A        $e$y$E$a$x        $f  $x
+                            $e    $n$A        $e$y$E$a$x        $f  $x
+                                  $e        $A$e$E  $a$x
+                          $j      $a$F      $e  $G$p$a$x
+                    $j    $c  $H          $p$G  $p  $a$x
+              $j    $c        $H$o    $H  $G    $a$D$a$x
+          $j  $c$b          $c$H$F    $H  $p$G$p$a$p$a$x
+        $s$n$A  $b            $H$o  $H      $p$D$a$p$a$x
+      $s$n$A      $b        $c$H$o  $H$o    $H$a$D$p$a$x
+      $s$A        $b      $c$j$H$F  $H      $F$H$D$p$a$x
+    $s$n$A      $n$c    $j  $x$H$F$H$p$G    $H  $D$a$x
+    $s$n$I  $A$n  $j    $x      $H$p$G    $p$a  $D$a$x
+    $s$n$I$n  $s  $x          $a  $G      $D$a$D$a  $x
+    $s$n  $s  $x            $a  $l$a            $B$a$x
+    $s    $x                $a$B  $l  $a    $n$a$B$a$x
+                            $a$m$B  $l$a  $z  $a$l$a$x
+                          $a$B$m$B  $a    $z$n$a$l$a$x
+                          $a$B$m  $B$a    $n$a$B$a$x
+                        $a  $l$B$m$B$a    $z$a$B$a$x
+                        $a$z$a        $C  $a  $l$a      $x
+                      $a  $z$C    $a  $C    $a    $C    $a$x
+                      $a$C          $a$l  $C              $a$x
+                      $a$C        $H$a$l    $C      $l    $a$x
+                      $a$l$C$H      $a      $l      $B    $a$x
+                        $a$B  $m  $B$a$x    $a              $x
+                          $a        $x
+EOC

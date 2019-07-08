@@ -1,18 +1,15 @@
 # Agent 47 (HITMAN)
-# by Charlie M
+# by @comicsworldgame - https://twitter.com/comicsworldgame/status/526127341580595201
 
-$x = "\e[m  ";            #reset color
+$x = "\e[49m  ";            #reset color
 $k = "\e[48;5;235m  ";    #black
 $w = "\e[107m  ";         #white
-
 $s = "\e[48;5;223m  ";  #skin color
 $u = "\e[48;5;223m  ";  #skin color light
 $z = "\e[48;5;224m  ";  #skin color lighter
 $v = "\e[48;5;216m  ";  #skin color dark
 $m = "\e[48;5;174m  ";  #skin color mouth
-
 $b = "\e[48;5;94m  ";     #brown
-
 $l = "\e[48;5;253m  ";    #lightest gray
 $h = "\e[48;5;251m  ";    #lighter gray
 $o = "\e[48;5;244m  ";    #light gray
@@ -20,7 +17,6 @@ $a = "\e[48;5;242m  ";    #light gray
 $j = "\e[48;5;238m  ";    #medium gray
 $d = "\e[48;5;237m  ";    #dark gray
 $y = "\e[48;5;234m  ";    #darker gray
-
 $r = "\e[48;5;196m  ";   #red
 $c = "\e[48;5;52m  ";    #darker red
 $q = "\e[48;5;88m  ";    #dark red

@@ -1,6 +1,8 @@
+# Wally (Dilbert)
+# by unknown - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;137m  ";

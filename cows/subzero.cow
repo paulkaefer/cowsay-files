@@ -1,0 +1,68 @@
+# Subzero (Mortal Kombat)
+# sprite from Motal Kombat 2 (SNES) - https://www.spriters-resource.com/snes/mortalkombat2/sheet/40960/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;32m  ";
+$f = "\e[48;5;45m  ";
+$g = "\e[48;5;38m  ";
+$h = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+          $t
+            $t        $a    $x
+              $t    $a        $x
+                $t  $a        $x
+                    $a  $b$c  $x
+                    $a  $d$c  $x
+                    $a  $e$f$g$x
+                    $a  $e    $x
+                  $a        $f      $g$x
+              $f$e$a        $f    $e$h$x
+          $g$f    $a        $f    $e$h$x
+        $f    $e$f$e$a      $e$g$e  $h$x
+      $g$e$f$e    $g$a      $e      $h$x
+        $e        $g$e$b$c$a$e      $c$x
+          $e$g  $e$a$b$c  $a$e    $h$b$x
+          $d$h$g  $a$d$c  $a$e    $a$c$x
+        $d$b$a$h  $a  $d$a  $e    $a$c  $x
+        $b$c$a        $h$a  $e    $a$b  $x
+        $d$c$a      $h  $a$h$e  $h$x$c$d$a$x
+        $c$a      $h    $a$h$e$h$a$x  $a  $x
+          $a      $h$e  $a$h$e$h$a$x$a    $x
+                  $a$e  $h    $a$x    $d$c$x
+                  $a$h    $a$h  $x    $a    $x
+                  $g$f$g$h  $g$f$a$x  $b$a  $x
+                  $a$g$e$h    $a  $x  $d$a  $x
+                $a    $h      $a  $x  $d$c$x
+                $a    $e      $h$a$x
+                $a    $e      $h$a  $x
+                $a    $e      $h$a  $x
+              $a      $h$e    $h$a  $x
+              $a      $h$e    $h$a    $x
+              $a      $h$e    $h$a    $x
+            $a        $h$e    $h$a    $x
+            $a        $h$e      $a    $x
+            $a        $h$e      $a      $x
+            $g  $a  $x$e      $h$a    $g$x
+          $g    $f$x            $a  $g    $x
+          $e  $f$e$x              $g    $e$x
+          $e    $a$x              $a$e  $f$x
+          $g    $e$x              $e$g    $x
+          $e      $x              $e$g$e$g$x
+          $g  $e$a$x              $e      $x
+          $g  $a$x                $a$e$g$x
+          $e  $a$x                $a$e  $x
+          $e  $x                    $e$f$x
+          $e  $x                    $e$f$x
+          $e  $x                    $e  $x
+          $e  $x                    $a  $x
+          $a  $x                    $a    $x
+        $a    $x                    $a      $x
+      $a    $x                          $a  $x
+EOC

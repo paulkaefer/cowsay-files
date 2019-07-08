@@ -1,0 +1,44 @@
+# Guy Fawkes mask
+# by Unknown - https://www.pinterest.com/pin/401875966730512285/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;250m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;218m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                          $a              $x
+                    $a    $b              $a    $x
+                  $a$b  $c                  $b  $a$x
+                $a$b$c                          $b$a$x
+              $a$b$c                              $b$a$x
+              $a$c  $a      $b$c      $b$a      $c  $a$x
+              $a$c$a$b  $a    $b$c  $b$a    $b  $a$c$a$x
+              $a  $c        $a  $c  $a  $c        $a  $x
+              $a$c          $b  $c  $b  $c          $a$x
+              $a  $c$a      $b  $c  $b  $a      $c$a  $x
+              $a$b$a          $b$c  $b$a          $b$a$x
+              $a$b$c$b      $c$a$c  $a$c$b      $c$b$a$x
+              $a$c$d  $c      $a$c  $a$c      $d  $c$a$x
+              $a$d      $c    $a$c  $a$c    $d      $a$x
+              $a$c$d  $c    $a$c      $a$c    $d  $c$a$x
+              $a$b$a$c      $a$c      $a$c      $a$b$a$x
+              $a$b$a  $c      $a$b  $a$c      $a  $b$a$x
+              $a$b$c$a                          $c$b$a$x
+              $a$b  $d$a        $c  $a        $d$b  $a$x
+                $a$c$b$d    $b          $d    $b  $a$x
+                  $a$c  $b$d              $b$c$b$a$x
+                  $a$b$c  $b    $a  $b    $c  $b$a$x
+                    $a$b$c      $a  $c      $b$a$x
+                      $a$b$c  $b$a  $b$c  $b$a$x
+                        $a$b$c$b$a  $b$c$b$a$x
+                          $a$b$c$a  $c$b$a$x
+                            $a          $x
+EOC

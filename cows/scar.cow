@@ -1,0 +1,67 @@
+# Scar (The Lion King)
+# by happy_tree_12 - https://www.planetminecraft.com/project/scar-pixel-art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;240m  ";
+$e = "\e[48;5;101m  ";
+$f = "\e[48;5;22m  ";
+$g = "\e[48;5;247m  ";
+$h = "\e[48;5;132m  ";
+
+$the_cow = <<EOC
+                      $t                                      $a                            $x
+                        $t                            $a                                            $x
+                          $t                      $a                                                  $x
+                            $t                  $a                  $b  $a                  $c    $a      $x
+                              $t              $a        $b  $a  $b          $a              $c            $a$x
+                                      $a              $b      $a$b    $d$b  $c  $a            $c            $a$x
+                                    $a$b    $a      $b                  $d  $a$c  $a                    $c  $a$x
+                                  $a$b$a$b$a    $b                      $a$d$a  $c  $a                    $c$a$x
+                                $a$b$a              $b                $a          $c$a                    $c$a$x
+                                $a$b$a                    $b        $a            $c    $a              $c$a$x
+                                $a$b$a                      $b      $a        $e$a  $c    $a          $c$a$x
+                                  $a$b$a            $f$a      $b  $a      $f$e$a    $c      $a            $x
+                                    $a          $b$a    $f$e$a$b  $a  $f$a        $c      $a$c$a          $x
+                                    $a          $b        $a$b    $a          $d  $c        $a$c$a          $x
+                                  $a          $b          $a$b    $a$c$d$c      $d$c        $a              $x
+                                  $a        $b          $a$b      $c    $d  $c  $d$c          $a              $x
+                                  $a          $b        $a$b      $c    $d    $c      $a  $c  $a              $x
+                                  $a          $b        $a$b      $c  $d        $c$a        $c$a              $x
+                                  $a        $b        $a$b        $c$a$d          $a                          $x
+                                  $a        $b  $c$a$c$a$b$c$b$c$b$a$c$a$d        $a                            $x
+                                  $a        $b$c$a    $c  $b$c$b$c  $a    $d      $a                            $x
+                                    $a      $b$a      $c          $a      $d      $a                            $x
+                                      $a                    $c    $a      $d        $a                            $x
+                                      $a              $g  $a          $g$a$d        $a                            $x
+                                    $a                $g    $a      $g$d$a$d        $a                            $x
+                                $a                      $g    $a    $g$a$d          $a                          $x
+                            $a                            $g    $a$g$d              $a                          $x
+                          $a                              $g      $a$g$d              $a                      $x
+                  $a                                        $g    $a$g$d        $g$d  $a                      $x
+            $a                                              $g    $a  $d    $a    $g  $a                        $x
+        $a                                                    $g$a            $h  $a                        $c  $a$x
+      $a                                                          $g$a    $h  $g$h  $a                      $c    $a$x
+    $a$x  $a                        $c      $a                    $g  $h$a    $g  $a                        $c    $a$x
+        $a                      $c              $a                      $g  $d$a    $g  $a                  $c    $a$x
+        $a                    $c                  $a              $g        $d        $g$a                  $c    $a$x
+      $a                      $c                    $a              $g    $d            $a                  $c    $a$x
+    $a  $x  $a              $c                        $a            $g    $d          $a                      $c  $a$x
+          $a              $b$c                        $a          $g      $d          $a                      $c$a$x
+          $a            $b$c                            $a        $g      $d          $a                        $x
+        $a          $b$a$c                              $a      $g        $d        $a                          $x
+  $a    $b$a      $b$a$b$c                              $a      $g        $d        $a                            $x
+$a$b      $a    $b  $a$b$c                                $a      $g$a$g  $d        $a                              $x
+$b        $a    $b$a$b$c                                  $a      $g$a$g  $d          $a                            $x
+$b        $a  $b      $c                                  $a        $g$a$g  $d        $a                        $x$a$x
+$b          $a$b    $c                                    $a            $g  $d          $a                      $x  $a$x
+$b          $a$b    $c                                      $a            $g$a$d          $a                  $x
+$b            $a$b  $c                                      $a              $d$a$d        $a                  $x
+$b                $c                                        $a                $d$a$d  $a$d$a                  $x
+$b                $c                                        $a                    $d  $a                    $x
+$b              $c                                          $a                      $d$a                    $x
+EOC

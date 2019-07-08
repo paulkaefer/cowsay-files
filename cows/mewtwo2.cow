@@ -1,0 +1,67 @@
+# Mewtwo (Pokemon)
+# by luckyworld2510 - https://www.deviantart.com/luckyworld2510/art/Pixel-mewtwo-GIF-607887476
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;240m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;188m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;54m  ";
+$g = "\e[48;5;141m  ";
+$h = "\e[48;5;250m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                  $a$b  $x
+                $t              $a$c    $b$x
+                  $t            $a$c    $b$x
+                    $t          $a$d$c  $d$b      $x            $a$b$x
+                      $t        $a$d$b$d      $c  $b    $x  $a$b$c  $b$x
+                                $a$b$d    $c            $b$e$c        $b$x
+                                $a$d      $c          $b  $c          $a$x
+                              $a$c$d      $c        $b  $c        $d$a$x
+                            $a$b$c$d        $c  $d$b$d$c        $d$a$x
+                            $e$c  $d                  $c    $d    $a$x            $f        $x
+                            $e$c$b$d                            $a$x          $f    $g      $f    $x
+                            $a$c$b$d        $b  $d            $a$x          $f          $g        $f  $x
+                            $d$g$d        $b$c    $d          $a$x        $f      $e$x  $f$e$f  $g    $f  $x
+                            $a$f$d      $b$c    $d$a$b$d    $a$x        $f    $e$x          $e$f  $g      $f  $x
+                            $a$b$d        $c  $a$b$a$d      $a$x        $f  $e$x                $e$f$g        $f$x
+                            $a$d    $c  $b$c$a$e$d$e$d      $a$x      $f      $x                  $e$f$g      $d$f$x
+                          $e$d    $c    $b$a$c$f$e$g$d    $a$d$a$x    $f    $x                      $f  $g  $d    $f$x
+                          $e$d  $a$c      $d            $x$a$d$a$x    $f    $x                      $e$f$g  $d    $f$x
+                            $a$d  $c$a$e$a$d          $x  $a$d  $a$x$e$f  $a    $x                    $f  $g  $d$g  $f$x
+                              $a$e  $d    $b$d  $b$a$e  $a$b$d  $a$x$e$f  $e$d  $a$x                  $e$f$g        $e$x
+                                    $e  $a  $b  $a$x    $e$b  $d$a$x$e$f$e$d$c  $d$a$x                  $f  $g    $f$e$x
+                              $a    $x    $a$b  $d$a    $b    $a$x  $e$f$e$d$c  $d$a$x                  $e$f        $e$x
+                            $a$c    $a    $b  $d          $a    $x  $f  $e  $d  $a$x                      $e$f    $e$x
+                            $a$d$c  $d$b    $d        $a  $d$b$e  $x  $e  $b$a$e  $x                        $e    $x
+                            $a$d$c  $d  $b  $d      $b$d  $b$a$d  $a$x$e$b    $e$g$f$x
+                            $e$d      $a$d        $a$d    $e$b$d$c  $a$b      $e  $a  $x
+                            $e$d    $b$d          $b$a$d  $e$b$d$c  $a$b        $e$d  $a$x
+                              $e$b  $a$d        $a$b$a    $b$e$b$d$a$b        $a$d$c  $d$a$x
+                              $e$a  $e$a$b    $a$b$a$x    $a$b$a  $b          $a$d$c  $d$a$x
+                              $e$b      $e  $a$b$a$x        $e  $a$b  $a$e$b    $e$d  $a$x
+                            $a$e$b  $d        $b$a$x            $e  $a$b  $e$a$e      $g$f$x
+                          $a$e$b  $d          $a$x                  $e    $a$f  $g      $f$x
+                        $a$b$e$b$d            $a$x                        $f    $g      $f$x
+                    $e$a$b$e$b$f  $b$d          $a$x                      $f    $g        $f$x
+              $e  $a$b  $a$e$a$d  $g$b$d      $a      $x                $f    $g          $f$x
+          $e$a$b        $a  $d      $f$d    $b$d  $c  $a  $x            $f    $g          $f$x
+        $e$b          $a$f$d        $f$b$d$a$d  $c        $a$x        $f    $g            $f$x
+      $e$b  $a$b    $a$h$f$d        $f$b  $a$d$c            $a$x  $f      $g              $f$x
+    $e$b    $a  $b$a$b$f$g  $d    $g  $f$a$d  $c              $a$f    $g                $f  $x
+    $e$b  $a$d$b  $a$b$f$g            $f$a$d  $c              $a$g                      $f  $x
+    $a$d$e$a$d$b$e$b  $f$g            $f$a$d  $c              $a$g                    $f  $x
+      $e$b  $e    $b  $f$g              $a$d  $c                $a$g                $f  $e$x
+        $e  $x  $e$b    $f$g            $f$b$d    $c            $a$g              $f    $e$x
+                $e$b    $f$g              $a$d      $c        $d$a$g          $f        $x
+                  $a$b    $f$g            $f$b$d        $c  $d  $a$g    $f            $e$x
+                  $e$b    $f  $g        $f  $e$d                $a$f                $e$x
+                    $e$b    $f  $g  $f        $e$d            $a$f                $e$x
+                      $e$b    $f                $e$d          $a$f              $e$x
+                        $a$b    $e$f              $e$b$d    $a$f              $e$x
+EOC

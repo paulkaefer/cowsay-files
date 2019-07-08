@@ -1,0 +1,74 @@
+# Joker (Batmen the Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;22m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;254m  ";
+$d = "\e[48;5;144m  ";
+$e = "\e[48;5;227m  ";
+$f = "\e[48;5;196m  ";
+$g = "\e[48;5;252m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;225m  ";
+$j = "\e[48;5;60m  ";
+$k = "\e[48;5;221m  ";
+$l = "\e[48;5;105m  ";
+$m = "\e[48;5;56m  ";
+$n = "\e[48;5;99m  ";
+$o = "\e[48;5;220m  ";
+$p = "\e[48;5;214m  ";
+$q = "\e[48;5;178m  ";
+$r = "\e[48;5;67m  ";
+$s = "\e[48;5;211m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                $a$b$x
+                  $t            $a$b$x
+                          $b$x$b$a$b        $x$b$x
+                          $b$x$a$b$a$b  $a  $b$x
+                            $b  $a$b  $a$b  $x$b$x
+                            $b$c  $b$a$b$c  $b$x
+                            $b$d$c        $d$b$x
+                          $c$b$e$d  $c$d  $e$b$c$x
+                          $c    $e$b$c$b$e$c    $x
+                            $c                $x
+                            $c$f$c$g$c$g$c$h$c$x
+                              $c$f$h$g$h$f$i$x
+                            $j$c$e$k$e$k$e$c$x
+                          $l  $c$f$e$k$e$f$c$m  $n  $l$x
+                    $m$l  $m$l$o$c$f    $c$p$l$m$n$l  $n$l$n$x
+                  $l$m$l  $m$l$q$c        $q$l$m$l  $n$m$n    $x
+                $l$n$m$l  $m$l$q$o$c    $o$q$l$m$n$l        $n$m$x
+              $l  $n$m$l$m$n$l$o$q$o$c$o$q  $l  $m$l  $m$l  $n    $x
+            $l  $n$m$n$m$l$m$l$o  $r    $o$q$l  $c  $n$m$l      $n$x
+          $l    $m$n  $m$l$m$l$o$r$o$r$o$r$q$l$c      $n$l    $m    $x
+        $l      $m  $n$m$l$m$l$o  $r$q$r$q  $l$s  $c  $l        $n    $x
+        $l    $n    $m$n$l  $m$l$o$r$o$r$q$l$s      $c  $m  $l$n    $l$m$x
+      $l    $m$n  $m$n  $l  $m$l$o      $q$l$c$s    $c    $l$m  $n$l$n  $x
+      $l    $m$n$m$n$x  $l  $m$l$o    $q  $l$m$s  $c      $n  $l    $n    $x
+      $l  $n  $m$n$x    $l    $m$l$o  $q$m  $n  $c      $l$m  $n$l    $n$l$x
+      $l  $m  $n$m  $x  $l      $m$l$o$q$m$l    $n$l$x$l$n$m$n        $m$l$x
+        $m$l$n    $m$x    $l      $m$q$m$l    $n$l$x            $m    $x
+        $l    $n$m$n$x    $l$n$l  $m$q$m$l  $m$n  $x
+          $l  $m$l$m$c  $x$l$n$l$m$o$q$o$m$l  $n$l$x
+            $m$l  $c      $l  $m$o    $q  $m$n$m$l$x
+              $m$c      $i$c$m$o  $q$m$o$q  $m  $l$x
+                  $c      $m$l$m$o$m$l$m$q$m  $n$l$x
+                    $c$i$m$n$m$l    $m$n$m  $n    $m$x
+                        $l$m$l      $m$n  $l$m$n    $x
+                        $l$m$l$m$l  $m$l$n$m$n      $m$x
+                      $m$l  $n$l$m$n$m$l$m$n      $m$n$x
+                      $l    $m$l$n$m    $n          $m$x
+                      $l$m$n$l$m$l$n$m$n$m$n          $x
+                      $l  $m$n$l$m$n$l$n  $m$n      $m$x
+                      $l$m$n$m$n$l$m$n$l      $m$n    $l$x
+                      $l$m$l$n$m$n  $m$l        $m    $n$x
+                    $l  $m$l  $n$m    $l      $n$m$n    $x
+                    $m$n  $l    $m    $n  $l    $n$m  $n$l$x
+EOC

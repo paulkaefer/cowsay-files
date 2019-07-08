@@ -1,0 +1,57 @@
+# Moltar (Space Ghost)
+# by bfadraw - https://www.deviantart.com/bfadraw/art/Space-Ghost-Gang-628526520
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;239m  ";
+$b = "\e[48;5;202m  ";
+$c = "\e[48;5;87m  ";
+$d = "\e[48;5;80m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;3m  ";
+$g = "\e[48;5;100m  ";
+$h = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t
+                    $t
+                      $t            $a      $b  $a      $x
+                        $t        $a        $b  $a        $x
+                                $a          $b  $a          $x
+                                $a        $b      $a        $x
+                                $a        $b      $a        $x
+                              $a    $c                  $a    $x
+                              $a  $c                      $a  $x
+                              $a  $c                      $a  $x
+                              $a  $c                      $a  $x
+                              $a  $c$d                  $c$a  $x
+                              $a  $d$e  $b          $e  $d$a  $x
+                            $a    $e$a  $b          $a  $e$a    $x
+                            $a          $b$f      $b$a          $x
+                            $a        $b  $f$g  $f$b  $a        $x
+                            $a        $b  $f$g  $f$b  $a        $x
+                            $a        $b  $f      $b  $a        $x
+                            $a        $b              $a        $x
+                            $a      $b                  $a      $x
+                            $a      $b                  $a      $x
+                $a      $b  $h$a  $b                      $a  $h$b  $a      $x
+            $a        $h$b    $h$a$b                      $a$h$b    $h$a        $x
+          $a          $h$b      $h  $b                  $h  $b      $h$a          $x
+        $a            $h$b          $h$b              $h$b          $h$a            $x
+      $a                $h$b          $h              $b          $h$a                $x
+      $a                $h$b                                      $h$a                $x
+      $a                  $h$b                                  $h$a                  $x
+    $a                    $h$b                                  $h$a                    $x
+    $a                    $h$b                                  $h$a                    $x
+    $a                      $h$b                              $h$a                      $x
+    $a                      $h$b                              $h$a                      $x
+    $a    $e$a                $h$b                          $h$a                $e$a    $x
+    $a    $e$a                  $h$b                      $h$a                  $e$a    $x
+    $a    $e$a  $e$a            $h$b                      $h$a            $e$a  $e$a    $x
+        $h  $a  $e$a              $h$b                  $h$a              $e$a  $h  $x
+        $b  $h    $a              $h$b                  $h$a              $h    $b  $x
+        $b        $h    $a          $h$b              $h$a          $h    $b        $x
+        $b              $a          $h$b              $h$a          $b              $x
+EOC

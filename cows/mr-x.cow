@@ -1,0 +1,67 @@
+# Mr.X / Tyrant (Resident Evil 2)
+# by Paul Conway - http://www.twipu.com/DoomCube/tweet/1100433479450484740
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;248m  ";
+$b = "\e[48;5;238m  ";
+$c = "\e[48;5;16m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;36m  ";
+$f = "\e[48;5;122m  ";
+$g = "\e[48;5;99m  ";
+
+$the_cow = <<EOC
+                      $t                    $a          $x
+                        $t                $a$b  $a$b    $a$x
+                          $t              $b    $a$b$c$b  $x
+                            $t            $b    $d$b$c  $b  $x
+                              $t          $b  $a$d$a$c  $b  $x
+                                          $c                $x
+                                    $b$a      $d    $a      $b    $x
+                                        $c                    $x
+                                        $e$c$d$c$e$c$d$c$e$c$e$x
+                                        $e    $b$e$b$e  $f$c$e$x
+                                        $g$f$e$g$f$g$e$f$e$c$g$x
+                                          $e$g$b$e$b$g$e$b$c  $x
+                                          $g          $b$g$c  $b  $x
+                                    $a$b$c$e$g$b    $g$e$g$c  $b  $a$x
+                                $a  $c    $g$e$g    $e$g$c  $b    $a$c$x
+                            $a  $c          $g$f    $g$c    $a$b    $a$c$x
+                        $d$a$c        $b$c            $g$c$b$a$b      $a$c$x
+                      $d$c            $b$c    $g$e  $g$c$b$a  $b      $a$c$b$a    $x
+                  $b$d$b$c    $b$c    $b  $c            $a  $b          $a$c  $d$a    $x
+              $d$a$b$c$a$b$c$b    $c  $b$a$b$c$b$a$b$c$b$a    $b$c$b    $a$c  $a$d$a      $x
+            $d$a    $b$c$a$b        $c  $a$b$c$a$b$c$a          $c  $b    $a$c$b$d$a        $x
+          $d$a        $b$c$a$b      $c  $b$a$c$b$c$a$b        $a  $c  $b  $a$c$b$d$a    $b  $a$x
+          $a  $d$b$a  $b  $c$a$b          $a$c  $b          $c  $b  $c$b    $a$c$d$a$d$a$b    $a$x
+        $d$b$d$a$b$a$b      $c$a$c$b    $a$b$c$a$b        $c              $a$c  $a  $d$b$c$b$c$a$x
+        $a$b$a$b  $a$b      $c  $a$c  $b$a$c$a$b        $c              $a$c  $b$a$b$d$b$c$b$c$b$a$x
+      $a$b  $a$b  $a$b$c$b    $c  $a$c  $b$c$a  $b  $c$b$c    $b  $a  $b$c  $b$a  $b$a$b$c$b$c  $a$x
+      $a$b        $c$b$c$b      $c$a$b$c$b$d$a$b$a$b      $a    $b$c        $b$c$a$b$a$b$c      $a$x
+    $a$b          $c$b$c$b    $a$c  $a$c  $d$a  $b$a      $b$c            $b$a$c$b  $c$b$c      $b$a$x
+    $a$c$b      $c  $b$c$b$a  $c    $a$c$d$a        $c        $b$c      $b  $c  $b$c  $b$c      $b$a$x
+    $a  $c            $a  $b$c$b  $c    $d$a    $c  $b$a  $c      $b  $c                        $b$a$x
+    $c  $a            $c      $b  $c  $d$a    $c$b$a    $d$b$c      $b$a    $b  $c              $b$a$x
+        $c              $b$c  $b  $c  $d$a$b$c$b$a      $d$a$c            $b$a    $b$c          $b  $x
+        $b$a$b    $c    $b$a$c$a$b$c$d$a$b  $a        $d  $a$b$c  $a$b$c          $b$a      $b      $x
+        $b$a  $b  $c    $b$a$c$a$c  $a$b  $a      $b$d  $a  $b$c  $a$b$c  $b$c    $x$c              $x
+        $b$a$d$a$b  $c  $b$a$c$a$c$d$b  $a      $b$a$d$a    $b$c$b    $c  $b$c$b$x  $b      $c    $b$x
+        $b  $a  $b  $c    $a$b$a$c$d$b$a      $b$a$b$a      $b$c$a$b  $c$b  $c$b$x$b$a$d$b    $c  $b$x
+        $b  $a  $b  $c    $b$a  $c$a$b$d  $a$b$a$b$a  $d  $b  $c$a$b$c  $b$c  $b$x$b$a$d$b    $c  $b$x
+        $c$b        $c    $b$a  $c$a$b$d  $c$b  $a    $d  $c$b$c$a$b$c  $b$c  $x  $b$a    $b  $c  $b$x
+        $c$b$d$a$b  $c$b$c  $a  $c$a$b$c    $b$a$b$a  $c    $b$c$a$b$c  $b$c$b$x  $b  $a$d$b  $c  $b$x
+        $b$a$c        $b$x$c$a  $c$a$b$a  $b$a$b$a        $c$b$c$b  $c$b  $c$b$x  $b    $a$b  $c  $b$x
+        $b        $c    $x$c$a  $c$a$b$a$b      $a    $b  $c$b$c$b  $c$b  $c$b$x  $b$c            $b$x
+        $b$d  $a  $b$c  $x$c$b$a$b$a$b$a$b      $a  $b  $c      $b  $c$b$c$b$x    $b$a  $b$c      $b$x
+        $b    $c$b$a$b$c$x$c$b$a$b$a$b$d  $b    $a  $b$a  $c    $b$c  $b$c$b$x    $b$a$d$a$b  $c$b  $x
+        $b$a$d$c      $b$x  $c$b  $c$b$d  $c$b  $a$b  $a  $c    $b$c      $b$x    $b$c            $b$x
+        $a$d  $a  $c    $x  $c$b$a$c$b$c    $b        $c        $b$c    $b$x      $b$a$d$a$b  $c$b  $x
+        $a$d$a    $b$c  $x  $c  $b$c$b                    $c            $b$x      $b  $a$b$c    $b  $x
+      $b$a$d$a  $b$c  $b$x  $c                                            $x        $b$d$a$b$c  $b  $x
+      $b$a      $b$c$b  $x  $a$b$a  $c$a$c$a              $c$a$c$a$c$b    $x        $b$d$a$b$c  $b  $x
+      $b$a  $c      $b$x    $b  $c    $b$c      $b  $c$b$c  $b$c$b$a$b    $x        $b$d$a$b$c  $b  $x
+      $b$a$d$a$b  $c$b$x    $b      $c$b$c$b              $c$b$c$b  $a$b  $x        $b$a  $b$c  $b  $x
+      $b$a$d$a$b  $c$b$x    $c                                    $b$a$c  $x        $b$a  $b$c  $b  $x
+EOC

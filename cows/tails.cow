@@ -1,54 +1,52 @@
 # Tails (Sonic & Tails)
-# by Charlie M
+# by Paint Bucket - https://www.youtube.com/watch?v=yrCjaRF5Ig4
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;130m  ";
 $c = "\e[48;5;214m  ";
 $d = "\e[48;5;172m  ";
 $e = "\e[48;5;231m  ";
-$f = "\e[48;5;232m  ";
 $g = "\e[48;5;242m  ";
 $h = "\e[48;5;152m  ";
 $i = "\e[48;5;33m  ";
 $j = "\e[48;5;21m  ";
-$k = "\e[48;5;124m  ";
 $l = "\e[48;5;196m  ";
 $m = "\e[48;5;246m  ";
 
 $the_cow = <<EOC
-      $t                  $a$b  $x                $b  $a$x
-        $t                $a$c$d$b$x            $b$c  $a$x
-          $t              $a$c$e$d$b$x        $b$c$e$b$a$x
-            $t            $a$c$e  $d  $b      $d  $b$c      $x
-              $t          $a$c$e$b$c              $d  $a  $d$c$x
-                          $a$d$b$c                  $b$c  $a$x
-                            $a$d$c  $a  $c  $a  $c  $a$b$a$c$x
-                            $a$d$c$f$e  $c  $e  $a$c$a$b  $a$x
-            $a$g      $x    $a$d$c$e    $c  $e    $c$a  $b$x
-        $a$g$h$e      $h$g$x$a$d$c$e  $i$c  $i$e  $c$a$x
-      $a$e  $h  $e        $g$a$d$c$e  $a$d  $a$e  $c$a$x
-  $a$g$e            $h$e  $a$g  $d$e  $j$h  $j$e  $g    $x
-      $a$g$e          $h$a$h$e    $d$e  $a  $e  $d$e  $h$x
-  $g  $h  $a$e          $h$a$g$e                  $a  $x
-$a$h        $a$e          $f$x$a  $h$e        $a  $h$e$a$x
-  $a$g$e  $h  $g$e        $d$a  $x$a  $g$h  $a$x$g$e  $g$x
-      $g$e  $h$a$h$e$h$e  $d  $a$x$b$c$e  $h$a$x$g$e    $a$x
-      $a$h$e  $h$g$e$c$h$e$d  $b$a$c    $e$h$a  $g$e    $a$x
-        $a$e    $a$h$c  $h$d  $a$d$c$a$c$e  $h$g$a$h$e$h$a$x
-        $a$h$e  $a$b$d$c  $d$a$b$c  $a$c$e  $h$a$b$a    $x
-          $h  $e$a$b$d  $c$a$e  $c$b$a$c$d$h$g$a$x$b  $x
-          $a$b$e$b$a$d    $a$g$a$e$f$a$c$b$a$d$b$x
-          $a$b$h$b$a$b$d$a$e    $a$b$a$c$a$b$c$b$x
-            $b    $d$b$a$e  $g$e$g$a$b$c$a$b$c$b$x
-            $a$b$d  $a  $e  $a$e$g$a$d  $a$b$c$a  $x
-              $a$b$d  $a$h$e  $a$b$a$h$e  $a$e  $k  $g  $x
-                $a$b$d  $a$h$e$g$a$k$l    $a$l      $e  $g$x
-                  $a  $b  $a  $b$a$h$e    $k$a$l  $e    $h$g$x
-                      $a    $x$a$h$e      $h$a$g  $m      $g$x
-                              $a$g  $m    $g$a              $x
-                                $a          $x
-
+          $t
+            $t              $a$b  $x                $b  $a$x
+              $t            $a$c$d$b$x            $b$c  $a$x
+                $t          $a$c$e$d$b$x        $b$c$e$b$a$x
+                  $t        $a$c$e  $d  $b      $d  $b$c      $x
+                    $t      $a$c$e$b$c              $d  $a  $d$c$x
+                            $a$d$b$c                  $b$c  $a$x
+                              $a$d$c  $a  $c  $a  $c  $a$b$a$c$x
+                              $a$d$c$a$e  $c  $e  $a$c$a$b  $a$x
+              $a$g      $x    $a$d$c$e    $c  $e    $c$a  $b$x
+          $a$g$h$e      $h$g$x$a$d$c$e  $i$c  $i$e  $c$a$x
+        $a$e  $h  $e        $g$a$d$c$e  $a$d  $a$e  $c$a$x
+    $a$g$e            $h$e  $a$g  $d$e  $j$h  $j$e  $g    $x
+        $a$g$e          $h$a$h$e    $d$e  $a  $e  $d$e  $h$x
+    $g  $h  $a$e          $h$a$g$e                  $a  $x
+  $a$h        $a$e          $a$x$a  $h$e        $a  $h$e$a$x
+    $a$g$e  $h  $g$e        $d$a  $x$a  $g$h  $a$x$g$e  $g$x
+        $g$e  $h$a$h$e$h$e  $d  $a$x$b$c$e  $h$a$x$g$e    $a$x
+        $a$h$e  $h$g$e$c$h$e$d  $b$a$c    $e$h$a  $g$e    $a$x
+          $a$e    $a$h$c  $h$d  $a$d$c$a$c$e  $h$g$a$h$e$h$a$x
+          $a$h$e  $a$b$d$c  $d$a$b$c  $a$c$e  $h$a$b$a    $x
+            $h  $e$a$b$d  $c$a$e  $c$b$a$c$d$h$g$a$x$b  $x
+            $a$b$e$b$a$d    $a$g$a$e$a  $c$b$a$d$b$x
+            $a$b$h$b$a$b$d$a$e    $a$b$a$c$a$b$c$b$x
+              $b    $d$b$a$e  $g$e$g$a$b$c$a$b$c$b$x
+              $a$b$d  $a  $e  $a$e$g$a$d  $a$b$c$a  $x
+                $a$b$d  $a$h$e  $a$b$a$h$e  $a$e  $g  $g  $x
+                  $a$b$d  $a$h$e$g$a$g$l    $a$l      $e  $g$x
+                    $a  $b  $a  $b$a$h$e    $g$a$l  $e    $h$g$x
+                        $a    $x$a$h$e      $h$a$g  $m      $g$x
+                                $a$g  $m    $g$a              $x
+                                  $a          $x
 EOC

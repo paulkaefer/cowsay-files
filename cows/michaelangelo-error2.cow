@@ -1,0 +1,67 @@
+# michaelangelo-error
+# by Konami, original art from TMNT: Turtles in Time - https://www.spriters-resource.com/snes/tmnt4/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;166m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;136m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;95m  ";
+$f = "\e[48;5;214m  ";
+$g = "\e[48;5;234m  ";
+$h = "\e[48;5;22m  ";
+$i = "\e[48;5;28m  ";
+$j = "\e[48;5;40m  ";
+$k = "\e[48;5;220m  ";
+$l = "\e[48;5;254m  ";
+$m = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t
+                                $a$x                $b              $x
+                                $a  $x          $b  $c$d$c      $b$e  $b  $x
+                              $a$f$a$x      $b  $c  $d$c        $b$e  $b$c$b  $x
+                  $a  $f  $a  $g$f$a  $x  $b$d$c    $d$c        $b  $e  $b$c$b    $x
+                    $f        $a$f  $a$x$b$d$c      $d$c        $d$b$e  $b$c  $b    $x
+                    $a  $f    $a$f  $a$b    $c      $d    $c    $d$b$e  $b$c  $b$d  $b$x
+                      $a  $f  $a      $b  $d$b$c    $b$c  $d$b$c$d$b$e  $b$c$b$d    $b  $x
+                        $a          $g$h$b  $d  $b  $c        $b    $e  $b  $c$b$d    $b  $x
+                            $a$f$g  $i      $b  $d$b$c          $d$b$e  $b$c$d  $b$d$b    $x
+                          $i$j$f$a$i$j          $i$d$b    $c    $d$b$e  $b$d  $b          $x
+                        $i$j  $f  $i$j          $i  $b$c$d$b        $e$b      $c$d  $b  $x
+                        $i$j  $f  $a$i$j        $i    $h  $b$d  $b$e  $b$c$b$c  $b    $h$x
+                        $i$j  $f  $j$i  $j        $i$j  $i$h$b    $e$b  $d$b      $h    $x
+                        $i$j  $f  $j  $h$i$j              $i$b  $e$b      $h    $i$h    $x
+                          $j  $f  $j  $i$h$i  $j            $b$e  $g      $h  $i    $h  $x
+                          $i$j$f$a$j    $i$h$i    $j        $f$b  $g  $h  $i        $h$x
+                            $i$g$a$j    $i  $x  $i  $j      $f$g    $h$i  $j  $i    $h$x
+                              $a$g$j    $g$i$x    $i  $j    $f$g  $h$i  $j    $i  $h$x
+                                  $i$j  $i$g$x    $i    $j$f$a$g$h$i$j      $i    $x
+                                  $h$i  $h  $x      $i$h$a  $g  $i$j      $i    $h$x
+                                  $j$h    $x      $j$h$g      $i$j      $i    $h$x
+                                  $j  $i  $a$x    $j$h$g    $h$j      $i$j$i$h$x
+          $k  $c$x          $i  $f$j$i      $x    $f  $g    $j      $i$j  $h  $x
+        $l$k      $c$x    $i$j  $f  $i    $x      $f  $a$g  $j    $i  $j$h  $x
+          $d$k          $c$i$j    $f$a  $x        $a$f$h$g  $f      $a    $j$i$x
+          $l$x$d$k        $h  $j  $h$a$x            $h    $g$a$f  $a    $j      $i$x
+          $m$x    $d$k  $i$j  $h      $x              $i$h  $a$f      $j          $x
+            $l$x        $i$j  $i$j$i$x                  $j$h$g$a$j                $x
+            $l$x        $i$j$h$j  $i$c  $x              $i$j$h    $i  $j          $i$x
+            $m$x          $h$j  $i$c    $x                $i$h      $i      $j    $i$x
+              $m$x          $i  $x$d$c$x                  $h            $i      $j$i$x
+              $l$x                              $j  $i    $j$i$h  $x  $h    $j      $x
+$d$k  $c$x    $l$x                              $j$h$i$j      $h  $x    $i$h  $j    $i$x
+$d$k    $c$x    $m$x                            $h  $j      $i  $h$x    $i$j$i$j      $i$x
+  $d$k    $c$x  $l$x                                $j  $i$h    $x  $j                $i$x
+    $d$k    $c$x  $m$x                                            $j  $h$j        $i  $x
+      $d$k    $c$x$l$x                                            $j$h$j        $i$h$x
+        $d$k    $x$l$x                                            $h$j        $h  $x
+          $d$k$d$x$m$x                                              $j  $h    $x
+            $d  $l$x
+EOC

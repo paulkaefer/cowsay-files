@@ -1,12 +1,12 @@
-# Bender
-# by Charlie M
+# Bender (Futurama)
+# by Unknown - http://www.minecraftpixelarttemplates.com/2013/04/bender-futurama.html
 
 $g = "\e[48;5;145m  ";  #plain gray
 $d = "\e[48;5;240m  ";  #darker gray
 $b = "\e[48;5;235m  ";  #fake black
 $s = "\e[48;5;236m  ";  #smoke
 $w = "\e[107m  ";       #white
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $c = "\e[48;5;95m  ";   #cigar
 $o = "\e[48;5;202m  ";  #orange
 $t = "$thoughts ";

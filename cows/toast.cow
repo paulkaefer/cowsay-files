@@ -1,0 +1,67 @@
+# Steven Toast (Toast of London)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;255m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;131m  ";
+$g = "\e[48;5;232m  ";
+$h = "\e[48;5;173m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                        $a              $x
+              $t                $a                        $x
+                $t            $a                            $x
+                  $t      $a                                    $x
+                        $a  $b  $a                                $x
+                      $b            $a                            $x
+                    $b  $a    $b      $a                            $x
+                  $b$a          $b    $c    $a                      $x
+                $b$a              $b  $c      $a                      $x
+                $b$a          $c                $a                    $x
+              $b$a        $c                    $a                      $x
+              $b$a      $c                        $a                    $x
+              $b$a    $c                            $a                  $x
+              $b$a      $c                          $a                  $x
+                $a      $c              $a      $c    $a                  $x
+                $a      $c          $a    $c            $a                $x
+                $a      $c          $a  $c              $a                $x
+                  $a          $c                        $a                  $x
+                  $a      $c                            $a                  $x
+                    $a    $c                            $a  $c  $a          $x
+                      $a  $c                                      $a        $x
+                      $a  $c                                    $a          $x
+                        $a  $c                                  $d$a        $x
+                          $a$c      $a      $c                $d    $a    $x
+                            $c  $a              $c          $d          $a$e$x
+                              $c$a          $c              $d        $e    $x
+                              $a  $f    $c                $d        $e        $x
+                                $c                      $d        $e        $g$e  $x
+                                $d$c                $h$d        $e        $g$e        $x
+                            $d      $c            $h  $d      $e        $g$e                $x
+                            $d        $c      $h    $d      $e        $g$e                      $x
+                          $d                $h      $d      $e      $g$e                          $x
+                          $d                $h    $d      $e      $g$e                              $x
+                            $d              $h    $d      $e      $g$e            $g$e                $x
+                              $d            $h  $d        $e    $g$e            $g$e                    $x
+                            $e$g$d        $h    $d      $e    $g$e              $g$e                      $x
+                            $e  $g$d      $h  $d      $e    $g$e              $g$e                        $x
+                          $e  $g$d      $h  $d      $e    $g$e              $g$e                          $x
+                          $e  $g$d      $h$d      $e      $g$e              $g$e          $g$e              $x
+                          $e  $g$d    $h  $d      $e        $g$e          $g$e              $g  $e          $x
+                        $e  $g$d      $h$d      $e          $g$e          $g$e                  $g$e          $x
+                        $e$g$d      $h$d      $e          $g$e            $g$e                    $g$e        $x
+                        $e$g$d      $h$d    $e          $g$e            $g$e                        $g$e      $x
+                      $e$g$d                $e          $g$e            $g$e                          $g$e    $x
+                    $e  $g$d              $e          $g$e              $g$e                            $g$e  $x
+                    $e$g$d              $e          $g$e                $g$e                            $g$e  $x
+                  $e  $g$d            $e          $g$e                  $g$e                              $g$e$x
+                  $e$g$d              $e        $g$e                    $g$e                              $g$e$x
+                  $e$g$d            $e        $g$e                    $g$e                                  $g$x
+EOC

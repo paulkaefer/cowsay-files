@@ -1,0 +1,78 @@
+# Bowser (Mario series)
+# by Kenny - https://aminoapps.com/c/smash/page/blog/im-proud-of-you-junior-a-bowser-and-bowser-jr-pixel-art/7dfP_u4vWdv4lW4qdzkV4kaomr7vxj
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;1m  ";
+$c = "\e[48;5;196m  ";
+$d = "\e[48;5;172m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;221m  ";
+$g = "\e[48;5;229m  ";
+$h = "\e[48;5;22m  ";
+$i = "\e[48;5;208m  ";
+$j = "\e[48;5;28m  ";
+$k = "\e[48;5;202m  ";
+$l = "\e[48;5;34m  ";
+$m = "\e[48;5;59m  ";
+$n = "\e[48;5;254m  ";
+$o = "\e[48;5;66m  ";
+$p = "\e[48;5;231m  ";
+$q = "\e[48;5;145m  ";
+$r = "\e[48;5;52m  ";
+$s = "\e[48;5;214m  ";
+$u = "\e[48;5;226m  ";
+$v = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                      $a  $x
+              $t                  $a$b$a$x
+                $t              $a$b$c$a$x$a    $x
+                  $t            $a$b$c$b$a$b  $a$x
+                          $a$x$a$b$c  $b    $c$a$x
+                        $a$b$a  $b$c  $b  $c  $a$x                          $a$x
+                        $a$c$b$a$c        $b$c$a    $x                    $a$d$a$x
+                        $a$c  $b$c          $b$a$e$d$a  $x              $a$d  $a$x
+                      $a  $c            $b      $a$d$f$d$a$x          $a$d$f$d$a$x
+                    $a    $c              $b    $a$e$g  $d$a$x      $a$e$d$g$d$a$x
+                  $a$e$a  $c    $b  $c$b        $a$e$g    $e$a$x  $a  $d$f$g$d$e$a$x
+                $a$d$e$a  $c  $b  $c$b      $h  $a$e$f$g  $e$a  $x$b$d$i  $g$d  $a$x
+                $a$d  $e$a$b$c$b  $j  $h$c    $b  $e$f$g  $e$a$h        $i  $k$d$a$x          $a  $x
+                $a$d$e$b$e$a$c$b$j$l  $b$c$b  $h$i$k$d$g$f$e$a$h                  $x$a$x      $d$a$x
+                $a$e$b$c$a$h$b$j$l$j$c  $b$c  $b$h$i$k  $b$a$m$h          $j    $h    $a$x  $d  $a$x
+                  $a$b$c$h  $b$l  $b$c      $b$h    $e$d  $e  $a$m$h    $j$l    $j  $h  $a$d    $a$x$a        $x
+                  $a$b$c$h$l$h$l$j$b$c  $b$n$j$h  $d$g      $f$e$a$m$o$h    $j  $h        $a        $d  $f$d$a$x
+                      $b$c$j$l  $b$c  $b$n$p$q$j$e$g          $f$e$a$q  $o$j$l    $h  $l$h$b  $d$g      $d$e$a$x
+                      $a$b$j$l  $c  $b$m$p$n$j$h$f$g          $f$d$a$m$n  $o$j$l  $j$h$l$j$b$k$d$g    $f$d$a$x
+                  $a    $b$h$j$h$c$b$a  $p$j$h$e$f$g          $f$d$e$a$n    $h  $j  $h$l$j$h$i$k$f$g  $d$e$a$x
+                $a$e$d$f$d$e$h        $j  $d$g      $f$d  $g$f  $e  $a$n      $q$h$j$h$l  $j$b$i$k$d$f$d$a$x
+              $a$e$f$g        $d$e$d  $g              $e    $f$d$e  $a$n  $p    $n  $q$h$l$j  $d$i$d  $a$x
+            $a$e$f$g                                $d$e$n$e      $r$a$q$n  $p        $n$o$l$j  $h$b  $a$x
+            $a$e$f$g  $f$e$g                      $f$e$q$n$r$e  $r$a  $m$q$n  $p        $n$o$j    $h  $a$x
+            $a$e  $g  $d$g                      $f$e$p$q$n$r$e    $a    $m$o$n  $p        $n$o$h      $a$x
+            $a$e$f$g                          $f$e$p  $q  $r$e    $a        $m$o$q$n$p      $q$h        $a$x
+            $a$e$d$f$g    $f$g              $d$e$o$p  $q  $r$d$e  $a              $o$n$p    $n$o$h      $a$x
+              $a$d  $f$g$f  $g      $f    $e  $q$p$q$p$o$e$d    $r$a  $e      $a    $q$n$p  $n$q$j  $h$b$d$a    $x
+              $a$e$d  $f                $e  $p$q$p  $q$o$e$d    $a$n$o$a  $i  $e  $a$o$n$p  $n  $j  $h$d$f$g$f$d$a  $x
+            $a$e$a$e  $d  $f      $d$e  $r$o$q$o$q  $o$e$d    $e$a$o$a        $i$e  $a$n$p  $n  $j  $h$k$g      $f$d$x
+          $a$e$i$s$a    $e      $r    $g            $f  $d    $a$e$a      $q$n$a$i$e$a$q$p  $n  $j  $h$k$f    $d$e$a$x
+          $a$i$u      $s$a      $e$g                    $f$d$e$x$e    $a  $o$q$a  $e$a$q$p$n    $h$j$h$b$k$e  $a  $x
+        $a$i$u          $a$n$q$a$e$f$g  $d  $f$g        $f$d$a$e$i      $e$a          $q$n      $h  $j$h$b$e$a$x
+        $a$s$u          $a$q$o$a  $e$d    $e$r$e$f    $d$e$a$e    $i      $e$a        $q$n      $j$h$j$h$a  $x
+        $a$u            $s$a                              $e$s$i$e  $i$s  $i$e$a$o$n$a$q$n      $j$h    $a$x
+        $a$u          $v  $e$a      $i$e$a$r$s$u              $s$i$s        $e$a  $o$a$q$n    $q$h  $j$h$a$x
+        $a$i$s$u    $s$i    $a  $o$q$a  $r$e$u                    $s        $e  $a    $q$n    $o$h$j  $h$a$x
+        $a$i                $e$a$q$n$a$r$a$i$u                      $s    $i$e$a$r  $a$q$n    $o$j  $h  $x
+        $a$e$i                $e$a        $s$u                      $s    $i$e$a$e$r$a$q$n  $q$o$h      $d$a$x
+          $a  $e$i        $e  $a  $q$a    $i$u$v$u                  $s    $e$a$e  $r$a$q      $o$h      $d$e$a$x
+              $a  $e    $a    $r$q$n$a    $e$i$s$u                $v$s  $i$a$e$i$e$r$a$q      $o$h    $k  $f$e$a$x
+                  $a    $x  $r$e$a        $e  $i    $s$v$u        $s  $i$a$e$i  $e  $a$o$q    $o$h    $b$f    $e$a$x
+                            $r$e$d$f  $e$a    $e$i          $s      $e$a$e$i      $e$r$o$q      $h  $a$b$e  $d  $a$x
+                            $e$r$e  $d      $e$a    $e  $i        $a  $e$s      $i  $e$a$q      $h  $x$a        $x
+                        $a$e$i$r$d$f              $e$a            $e$s            $i  $a$q      $o$a$x
+                        $a$e$i$r$e$f                      $e  $i$s                  $i$e$a$q      $a$x
+                      $a$e$i    $r$d$f                    $e$i$s                      $e$a$o$q  $o  $a$x
+EOC

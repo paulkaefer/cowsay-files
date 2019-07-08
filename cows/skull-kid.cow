@@ -1,0 +1,87 @@
+# Skull Kid (Legend of Zelda Majora's Mask)
+# by xxiseyik30harperxx - https://www.deviantart.com/xxiseyik30harperxx/art/Skull-Kid-pixel-art-688067887
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;90m  ";
+$h = "\e[48;5;53m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;22m  ";
+$k = "\e[48;5;201m  ";
+$l = "\e[48;5;40m  ";
+$m = "\e[48;5;33m  ";
+$n = "\e[48;5;82m  ";
+$o = "\e[48;5;21m  ";
+$p = "\e[48;5;237m  ";
+$q = "\e[48;5;28m  ";
+$r = "\e[48;5;18m  ";
+$s = "\e[48;5;130m  ";
+
+$the_cow = <<EOC
+    $t            $a    $x
+      $t      $a  $b  $a$x  $a      $x
+        $t    $a$b$c$b$a$x  $a$b  $c$a  $x
+          $t  $a$b$c$b$a$x$a$b        $c$a$x
+              $a$b$c$b$a    $b  $c  $a    $x
+          $a$x  $a$b$c$b$a$b    $a  $x
+          $a$x  $a$b$c$b$a$b$c$a$x
+        $a$b$a$x  $a$b$c$a$c$a$x
+        $a$b  $a$x$a$b$c  $a  $x                          $a  $x
+        $a$c$b  $a$c$a$b$a    $x    $a$x                $a$b$a$x
+          $a$c  $b$a    $d  $a  $x  $a$x              $a$b$c$b$a$x
+            $a  $c  $a$d$a          $d$a$x          $a$b$c  $b$a$x
+                $a          $c  $a  $d$a$x      $a  $b$c$b  $a$x
+              $a$c  $a$c        $a  $e$d$a      $b      $a  $x
+                $a      $c    $a$f    $e$a$b      $a    $x
+                    $a$b$a    $f  $g    $a          $x
+                    $a$b  $a$h$g    $f$g$f$g$a$f$a      $x
+                    $a$b  $a$h              $f$g$f  $a$b$a          $x
+                  $a$c$a    $h      $i      $h$g$h  $a$c  $b    $a$x
+              $a      $c  $a$h    $i  $f$e$i  $h      $a        $x
+      $a        $c      $a  $h    $i$f$d$f$e$i$h  $i  $a$x
+      $a$c            $a  $f$h    $i$e$f$j$f$i$h$i  $e$a$x
+        $a$c    $a    $d  $f$d$h  $i  $e$f$e$i$h$i$e$f$a$x
+          $a    $x    $a    $j$d$h  $i            $f$j$a$x
+                      $a$c$a$k$l$d  $h  $i        $e$i$a$x
+                    $a$c$a$d$k  $l$j$d  $h  $i  $h$d$a$f$a$x
+                    $a  $d  $a  $m$l  $j$d$h$i$h$d$a    $x
+                  $a$c$a        $m  $j$h  $i  $l$a$k$a$x
+                $a$c    $a$x$a$m$a  $h  $i  $a        $x
+              $a$c    $a$x$a        $m$a    $m$a$x                $a  $x
+                $a    $x$a$b    $a$m$a$j$n$j$a    $x            $a$o  $a$x
+                      $a$b    $p$a  $j  $n  $q$a$b$a$x          $a$f$d$f$a$x
+                    $a$b    $p    $b$p$j$n  $j$a  $x          $a$o        $a$x
+                      $a  $p    $a$p  $b$j$n  $j$a  $x      $a$o  $a  $r  $a$x
+                    $a  $c$a$p$a$x$a$p$b$q  $n$p$a$c$a$x  $a$o$r$a  $p$a$r$a$x
+                    $a$c$p$a  $x  $a$p  $b    $p$a$p$c$a    $o$a$p$c$a$c$a$x
+                  $a$p  $a  $x    $a$p  $b    $p  $a$p  $j$a      $p$a$p$a$x
+                  $a$p  $j$a  $x$a$p$f$p    $f  $p$a$p  $n$j  $n  $j  $q$a$x
+                    $a$n$q  $j$a  $f$b$f$b$f$b  $f$a    $n  $j$q$j$d$x$q$a$x
+                  $a$n  $q$j$n$a  $s$p$f$p$s$b  $f$a$x$a  $j$q  $s  $a  $x
+                  $a      $j      $a$s$p    $s  $p$a$x  $a$j$a      $x
+                          $a  $j$a$p  $b$a$b  $p    $a$x  $a$x
+                              $a  $p$b  $a$p$b  $a$b$a$x
+                                $a$b  $p$a$p$b  $a$b$a$x
+                              $a$b    $a$j$a$b  $a    $x
+                              $a$p$a  $j$q  $a    $q$a$x
+                              $a$j$n  $j$q$a  $j$n  $a$x
+                              $a          $x$a        $x
+                              $a$c  $a$x    $a$c  $a$x
+                            $a$p$a$p$a$x    $a$p$c$a$x
+                            $a$c$p$a$x    $a$p$c$p$a$x
+                        $a    $p$c$a$x  $a$p$c$p$a$x
+                        $a$b      $a$x  $a$b    $a$x
+                        $a  $p$b$p$a$x    $a$p  $a$x      $a$x
+                          $a$p  $a$x      $a$p  $a  $x  $a  $x
+                        $a$b  $p$a$x    $a$d$p$b    $a  $b$a$x
+                      $a    $b$p$a$x    $a$p$d$b          $a$x
+                    $a$p        $a$x    $a$s$d$p  $b    $a$x
+                    $a$p        $a$x    $a              $x
+EOC

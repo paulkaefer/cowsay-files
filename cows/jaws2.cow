@@ -1,0 +1,56 @@
+# Jaws movie poster
+# by Unknown - https://www.pinterest.com/pin/43487952631644243/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;243m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;16m  ";
+$d = "\e[48;5;19m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t                        $a    $x
+                  $t                    $a        $x
+                    $t                $a            $x
+                      $t            $a                $x
+                        $t          $a                $x
+                                  $a                    $x
+                                  $a                    $x
+                                $a          $b$a          $x
+                                $a                        $x
+                              $a$c$a      $b    $a      $c$a$x
+                              $a                            $x
+                            $a          $b        $a          $x
+                            $a                                $x
+                          $a          $b            $a          $x
+                          $a      $b                    $a      $x
+                        $a      $b      $a        $b      $a      $x
+                        $a    $b      $a$b$c$b$c$b$a$b      $a    $x
+                      $c$a    $b    $a$c$b$c$b$c$b$c$a$b    $a    $c$x
+                      $c$a  $b    $a$b$c$b$c    $b$c$b$a$b    $a  $c$x
+                      $a  $b    $a$c$b$c            $b$c$a$b  $a    $x
+                    $a    $b    $a$c$b$c            $b$c$a$b    $a    $x
+                    $a  $b    $a$b$c                    $b$a$b  $a    $x
+                    $a  $b    $a$b$c                    $b$a$b    $a  $x
+                  $a    $b  $a$b$c    $b$c  $b$c  $b$c    $b$a$b  $a    $x
+                  $a    $b  $a$b$c    $b$c  $b$c  $b$c    $b$a$b  $a    $x
+                  $a  $b    $a$c  $b$c$a            $c$b$c  $a$b    $a  $x
+                  $a  $b  $a$c    $b$a$b            $a$b$c    $a$b  $a  $x
+                  $a  $b  $a$c$b$c$a$b                $a$c$b$c$a$b  $a  $x
+                $a$b      $a$c$b$a$b                    $a$b$c$a$b      $a$x
+                $a$b      $a$c$b$a$b                    $a$b$c$a$b      $a$x
+                $a$b    $a$c  $a$b                        $a$c  $a$b    $a$x
+                $a$b    $a$c  $a$b                        $a$c  $a$b    $a$x
+                $a$b    $a$c$a$b                            $a$c$a$b    $a$x
+              $a$b      $a$c$a$b                            $a$c$a$b      $a$x
+              $a$b      $a  $b                                $a  $b      $a$x
+          $d  $a$b        $a$b                                $a$b        $a$d  $x
+      $d        $b                                                        $d        $x
+          $d            $b                                        $d            $x
+              $d                                                            $x
+                  $d                                                  $x
+                        $d                                      $x
+EOC

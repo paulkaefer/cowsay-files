@@ -1,0 +1,63 @@
+# Mew (Pokemon)
+# by Stanleyjo - https://www.deviantart.com/stanleyjo/art/Mew-Pixel-Art-517712578
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;224m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;25m  ";
+$f = "\e[48;5;167m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;75m  ";
+$j = "\e[48;5;174m  ";
+
+$the_cow = <<EOC
+          $t                                                          $a  $x
+            $t                                                    $a  $b  $a$x
+              $t                                                $a$b    $c$a$x
+                $t                                            $a$b    $c  $a$x
+                  $t                                        $a$b    $c  $a$x
+                                                          $a$b      $c  $a$x
+                                                          $a$b    $c  $a$x
+                                                        $a$b  $c    $a$x
+                                                        $a$c      $a$x
+                            $a  $x                    $a$c    $a  $x
+                          $a$b  $a$x                  $a$c  $a$x
+                    $a        $b$a$x                $a$c  $a$x
+                $a    $b        $a$x                $a$c$a$x
+              $a$b                $a$x              $a$c$a$x
+        $a    $b                    $a$x            $a$c$a$x
+    $a  $b                          $d$x              $a$c$a  $x
+    $a$b                $c$b        $e$a$x              $a$c  $a        $x
+    $a$c    $b            $f$b      $e$a$x                $a  $c        $a    $x
+      $a$c  $b      $g  $h$b          $a$x                    $a        $c    $a  $x
+        $a$c  $b  $g$d$i$d$h$b        $c$a$x                            $a    $c  $a$x
+        $a$c  $b  $h$e$i$d  $b          $a$x                                  $a  $c$a$x
+          $a$c  $b$h$e  $d  $b        $c$a$x                      $a  $x          $a$c$a$x
+          $a$c    $b$f  $c            $a$x                      $a$b  $a$x          $a$c$a$x
+            $a$c                $a    $x                        $a$b  $a$x            $a$c$a$x
+              $a  $c      $a      $x              $a  $x      $a$b  $c$a$x              $a$c$a$x
+                  $a    $c      $a        $x    $a$b  $a$x    $a$b$c  $a$x              $a$c$a$x
+                    $a$c        $b$a$b  $c$a$x  $a$b$c$a$x  $a$b  $c$a$x                  $a$c$a$x
+                    $a  $b          $a  $c$a$x$a$b  $c$a$x  $a$b$c  $a$x                  $a$c$a$x
+                $a  $b                  $a$x  $a$b$c  $a$x$a$b  $c  $a$x                  $a$c$a$x
+              $a$c$b                      $a$x$a$b$c$a$x  $a$b$c$f$a$x                    $a$c$a$x
+            $a$c  $b  $c$a$c$b              $a$b  $c$a  $x$a$c  $f$a$x                    $a$c$a$x
+            $a$c$a$c$a  $c  $b              $a$b$c$f$a$b$a$c  $f$a$x                      $a$c$a$x
+              $a    $x$a$c    $b      $a      $b$f  $a$b$a$c  $f$a$x                    $a$c$a$x
+                        $a$c    $b$c$a$b  $a$b  $f$a$c          $a$x                    $a$c$a$x
+                        $a$c      $a$b    $a$b$c$f$a$c        $a$x                    $a$c$a$x
+                          $a$c    $a$c$b  $a$b$c  $a$c$a  $c  $a$x                    $a$c$a$x
+                          $a$c                  $a$c  $a$x$a  $x                    $a$c$a$x
+                            $a$c                $a$c$a$x                          $a$c$a$x
+                              $a$c        $a$c  $a  $x                          $a$c$a$x
+                                $a  $c    $a    $j  $a$x                    $a  $c$a$x
+                                    $a    $x    $a$j  $a  $x          $a    $c  $a$x
+                                                  $a  $c  $a          $c    $a  $x
+                                                      $a  $b$c        $a    $x
+                                                          $a          $x
+EOC

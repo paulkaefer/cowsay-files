@@ -1,0 +1,71 @@
+# Ryu (Street Fighter)
+# sprite from Street Fighter II (Sega Genesis)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;196m  ";
+$e = "\e[48;5;173m  ";
+$f = "\e[48;5;187m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;95m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;223m  ";
+$k = "\e[48;5;130m  ";
+$l = "\e[48;5;215m  ";
+
+$the_cow = <<EOC
+              $t
+                $t                    $a    $x
+                  $t              $a$b    $a  $b$c$x
+                    $t        $a$b      $a  $c  $b$d$x
+                            $a$b      $a  $d$c$a  $b$d$x
+                          $a$b$e$b  $a  $d  $b$a    $c$d$x
+                          $a$b  $a$b$a$d  $a$e$a    $f$g$h$g  $i      $f$x
+                          $a$b$a  $c$b$a$b  $j$a    $h$i$h$i  $h$a  $h$f$i$x
+                          $a  $b$d  $a$b$e    $a$e$k$g$i$g$i$h$b$k  $b$h$f  $x
+                            $a        $i$j$e$b$e$j$e$i$f$g$i$b$e$l$j$e$b$h$i$g$x
+                            $a$x$a$e  $j$e$l$b$e  $g$i$g  $i$b$l$j    $k$b$g$i$x
+                              $a$x$b$e$j$l  $b$e  $i$g$h$g$f$b$e$l$j$l$k$b$a$i$x
+                                    $b  $l  $b$k$g$i$h$g$f$g$b$k$e$l$e$k$b  $i$x
+                                $k$e$h$l$j$b  $k$i$g$h$i$f$b  $e$l  $k$b    $i$x
+                              $k$e$f$g$b$a    $i  $h$g$i$g$b$e$l$j  $e$k$b  $f$x
+                              $e$l$f$g$b$l$b  $a  $h$g$f$g$b    $k$l  $k$b  $f$x
+                              $e$j$i$h$j$a$b    $a      $e        $k$l$e$b  $g$x
+                              $e$l$i$a$j$a$b    $a$b  $k$j      $l$e    $b  $g$x
+                              $k$l$i$b$l$j$a    $b    $l$j        $l$e$k$b  $g$x
+                              $b$k$i$b$k$b$e$a    $b  $e$j      $l  $k  $b$g$h$x
+                              $b  $i$a$b      $a      $k$e$l      $e$k$b  $g$a$x
+                              $k  $i$a$k$e$h$f$g$a    $b$k  $e    $k$b  $g  $a$x
+                            $k$l  $i$h$b  $g$i$h$g$i$b    $k      $b    $g$h$a$x
+                            $k$j$l$h$f$b$k$f$i$h$f$i    $b    $k$e$l$b$g  $a$x
+                            $k$j  $k$h$f$b$f  $h$f        $g$b        $g$h$a$x
+                            $k$e  $k$b$h$g  $f$a$f                  $g  $a$x
+                            $b        $a$h$g  $a$f                $g  $h$a$x
+                          $l$j$l$k$a$b$x$a$h$g$a$g$f          $g    $h  $a$x
+                        $k$e  $b    $a$x  $a$h$g$a$g            $h    $a$x
+                      $k$l$k$b  $k$j$e$b  $a                            $x
+                      $k$e$b    $j$b    $l$b$a      $h$g$f  $g$h$a      $x
+                      $b$k$a$b  $j  $l$b$k$b$a                          $x
+                      $b  $a    $l$b      $g  $f$a              $f  $h  $x
+                        $b  $a  $j$l  $b$g    $f$g  $a    $h$g$f  $g    $h$x
+                            $b$a  $e$b$a$f$i$g  $f$h$a$g$a  $f$g    $i$f$g$x
+                                  $b  $a$f  $i$g  $a  $g$a  $g    $i  $h$f$g$x
+                                      $a$g$f  $i$g$a  $h$a  $g  $i  $f$a$f$g$x
+                                      $a  $g$f    $a  $g$a  $i      $f$a$h$f$x
+                                      $a    $g$f  $a  $f$a  $i      $f$a  $f$x
+                                    $a  $h  $a$h$g$a  $f$a  $i    $f  $a$g$a$x
+                                    $a$h  $g  $a      $f$a  $f      $g$a$f$g$x
+                                    $a$h$g      $h$a        $g      $h$f$i$g$x
+                                  $a$h  $g    $f  $a                $f$i  $f$g$x
+                                  $a$h  $g  $f    $a  $h$a    $h$g$f  $i  $f$g$x
+                                  $a$h  $g  $f    $a  $h$a  $h$g  $f  $i    $g  $x
+                                  $a$g$h$g$f  $i$f$a  $h$a  $g    $f  $i    $f$g$x
+                                $a  $g$h$g$f  $i  $f$a$h$a$h$g    $f    $i  $f$g$x
+                                $a  $g    $f  $i    $g$h$a$h$g      $f  $i    $g  $x
+                                $a  $g    $f$i      $g$h$a$h$g      $f  $i    $f$g$x
+                                $a  $f$g  $f$i    $f$g$h$a  $g        $f  $i  $f$g$x
+EOC

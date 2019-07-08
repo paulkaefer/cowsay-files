@@ -1,0 +1,70 @@
+# The Riddler (Batman the Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;36m  ";
+$b = "\e[48;5;29m  ";
+$c = "\e[48;5;116m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;92m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;174m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;23m  ";
+$k = "\e[48;5;54m  ";
+$l = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t            $a        $x
+                    $t        $a$b  $a      $x
+                              $c            $x
+                              $c            $x
+                            $b    $a  $c    $b$x
+                              $d  $e  $b$a  $x
+                              $d  $e$f  $e$f$x
+                              $e$d$f$g  $f$g$x
+                              $h$e  $f  $e$f$x
+                                $e$h$e      $x
+                                $e  $h    $e$x
+                                $e        $x
+                      $a      $b$i  $e    $x
+                  $b$a      $b$a$i    $c$i$a$b    $x
+                $b  $a      $b$a$i    $c$i$a        $b$x
+                $a  $b$a      $b$a$i$c$f$c$i$b  $a      $b$x
+                $a  $b  $a  $b$a  $i$f$c$f$i$a  $b$a      $x
+              $b$a    $b$a  $b$a    $c  $f$i$a  $b$a  $b  $x
+            $a          $b$a$b$a    $c$f$c$i$a$b  $c  $a$b$x
+            $a          $b$a  $b$a    $f$c$a  $b  $a$b  $a$x
+          $a    $b$a  $b  $a    $b$a$b$c  $a  $b$a$b  $a$b$x
+          $a    $b        $a      $b$a      $b$a  $b    $x
+        $a        $b  $j$b$a        $b$a  $b$a  $b  $a$b$x
+        $a  $b  $a$x    $j$b$a        $b  $a  $b  $a  $b$x
+        $b$a$b$j$b$x      $b$a        $b    $a$b  $a  $b$x
+          $a        $x      $a      $b    $a  $b  $a  $b$x
+          $a      $j$e$x    $a      $b$a      $b  $a  $b$x
+            $a  $j$e$h$f  $x$b$a    $b$a      $b  $a  $x
+              $a$x$k$f    $k$b$a    $b$a      $b  $a$b$x
+                    $f    $b  $a    $b$a        $b$a$b$x
+                    $k$f$b  $a      $b$a      $b  $a$b$x
+                  $k$f  $k$b$a      $b$a      $b  $j  $x
+                    $k    $a        $b$a        $j$e  $x
+                        $b$a        $b$a      $b  $f    $k$x
+                        $l$b  $a    $b$a    $b  $f        $k$x
+                        $i$l  $a    $b$a      $b  $f$c$f  $k$x
+                        $i    $l              $b$x$c$f  $k$x
+                        $i$l  $i    $l$i$l    $b$x$c    $x
+                        $i$l          $i$l  $i  $x  $i$x
+                        $i$l          $i$l      $x  $i$x
+                        $i$l        $i  $l      $x  $i$x
+                        $i$l      $i    $l      $x  $i$x
+                        $i$l      $i  $l        $x  $i$x
+                      $i  $l        $i$l        $x  $i$x
+                      $i  $l        $i$l        $x  $i$x
+                      $i  $l        $i$l        $x  $i$x
+                      $i  $l      $x$i$l        $x  $i$x
+EOC

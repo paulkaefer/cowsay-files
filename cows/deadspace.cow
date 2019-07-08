@@ -1,8 +1,8 @@
-# Isaac (Dead Space)
-# by Charlie M
+# Isaac (Dead Space) - cropped
+# by lPetardol - https://www.deviantart.com/lpetardol/art/Dead-Space-Pixel-Art-702777348
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;236m  ";
 $b = "\e[48;5;241m  ";
@@ -56,11 +56,11 @@ $Y = "\e[48;5;186m  ";
 $Z = "\e[48;5;228m  ";
 
 $the_cow = <<EOC
-      $t                $a    $b$c$d$e  $d$c$x
-        $t            $a  $b$f$b    $c$e$g$d$c$x
-          $t        $a  $b$f$c$h$b$f$b$c$a$g$d$c$x
-            $t      $g  $f$b$c$f  $b$f$b  $a$g$d$g$x
-                  $b$g      $f$b  $f$i$j    $a$g$d$c$x
+    $t                  $a    $b$c$d$e  $d$c$x
+      $t              $a  $b$f$b    $c$e$g$d$c$x
+        $t          $a  $b$f$c$h$b$f$b$c$a$g$d$c$x
+          $t        $g  $f$b$c$f  $b$f$b  $a$g$d$g$x
+            $t    $b$g      $f$b  $f$i$j    $a$g$d$c$x
                   $f$b  $g      $b$k  $i$j$l$a    $d  $x
                   $m$f  $b  $g      $b$k$j$n$j$a  $m$a$d$x
                   $m    $f  $b  $g    $k  $m$o  $a      $m$x
@@ -112,17 +112,4 @@ $N$K$r$K$k$m  $B$w$a  $o  $g$M$g$a$g  $o$g        $O$H$g  $m      $k      $m$a$m
                                       $o  $g              $a    $o      $i    $M$B$e$i$o$g  $o  $i$e$y$e$k        $o$x                $C  $x  $k    $C$i  $y  $i$x      $g$o$e    $o$g$x
                                         $o    $g                            $i$g$e$B  $g      $o$y  $e    $k$C  $k$a$o$x                                $i    $y  $x      $C$o      $g$x
                                           $o    $g        $o    $g    $i    $g$e$B$e$B$g      $o  $e$y$e  $k$C  $k$a  $x                                    $i  $y  $x      $g$o  $g$x
-                                            $o                $g$o$g    $C  $e    $B  $g    $a$o$a$o$e    $k$m$C  $k  $m$x          $s$Z$x                      $i$y$x          $o$g$x
-                                                  $g              $e$g  $o$C  $e$B$e$i$e$g$x$o$a$o    $e$m      $k  $y$m  $x        $A$E$g  $x                                  $g$x
-                                                  $o  $g          $e$g  $o  $C    $x$e$g  $x  $o      $m  $e$m    $k$y  $m  $x      $o$s$Z$o$g$a$x
-                                                    $a$o      $g$x                            $o          $k$y    $i$y$i$y$m$g$x    $g$a$C$o$e$m$a$x
-                                                        $o    $x                              $o      $a$o  $i              $m$g$x  $g$o  $m  $e$m$o$x
-                                                        $i$a$x                                  $o      $a$o    $i      $M  $i$m$g$x$g$o  $m      $o$x
-                                                                                                  $o        $a$o    $i    $I$h$i$m$g$o$m          $o$x
-                                                                                                    $o        $a  $o      $i$I$h$i$m    $o$m  $k  $o$x
-                                                                                                            $o    $a$o      $i$I$h$m$o$a  $o$k$e$k$o$x
-                                                                                                                $o            $i$h$k$m$a    $o$k  $o$x
-                                                                                                                        $o      $i$k  $a  $m  $o  $x
-                                                                                                                          $o      $C$k  $a  $m  $k$o$x
-                                                                                                                            $o  $g$T  $A$C$a    $M$o$x
 EOC

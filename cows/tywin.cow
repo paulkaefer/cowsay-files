@@ -1,0 +1,83 @@
+# Tywin Lannister (Game of Thrones) - cropped
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;189m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;248m  ";
+$e = "\e[48;5;179m  ";
+$f = "\e[48;5;131m  ";
+$g = "\e[48;5;53m  ";
+$h = "\e[48;5;167m  ";
+$i = "\e[48;5;176m  ";
+$j = "\e[48;5;124m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;184m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;143m  ";
+$o = "\e[48;5;166m  ";
+$p = "\e[48;5;52m  ";
+$q = "\e[48;5;235m  ";
+$r = "\e[48;5;8m  ";
+$s = "\e[48;5;95m  ";
+$u = "\e[48;5;236m  ";
+$v = "\e[48;5;237m  ";
+$w = "\e[48;5;238m  ";
+$y = "\e[48;5;244m  ";
+
+$the_cow = <<EOC
+          $t              $a    $x
+            $t          $a    $b  $c$x
+              $t        $a$d  $a$b  $x
+                $t      $a  $e$f$a  $x
+                  $t    $b$a$e$f$g$e$x
+                        $e$c$b  $f$b$x
+                        $g$a$c$d$e$f$x
+                        $h$g$a$d    $x
+                        $i$j$g$d$a$c$x
+                      $i$j$g$k$g  $x
+                  $h  $g    $k$e$g$x
+              $h$g  $j$k    $g      $x
+            $i$j$g$k  $j      $g  $j$g  $x
+          $i$j  $h$g$k        $e$g$f$k$g$x              $l$c  $x
+          $h$k  $h$g$k$j      $k$g$k  $g  $x            $e$l  $x
+        $h$k    $j$g$j  $l  $j  $k$g$k  $g$x            $m$n  $x
+        $j$k  $g    $k$j$e  $j  $e$g$o$k$g$x          $b$m$b  $x
+        $g          $k  $j  $e$j  $g$j$k$p  $x        $e$f$e  $l$x
+        $q$g        $k      $j    $g$j$k$p  $x      $j$g$f$b  $x
+        $q  $g$k$q$g    $k      $e$g$f$g$p  $x    $h$g  $r$m$x
+        $q$g$k  $q$g$k$g    $k$g        $p  $g$x$i$g    $m$l$n$x
+        $j  $k$g$q$g  $k$j  $k  $g$k  $g$p      $g    $x
+        $h$k$q      $g  $k$j      $g$k$p      $g    $x
+        $g  $q      $k  $g$k  $j$e$g$f$x$g        $x
+          $j$q      $g$j$k$g  $k$g    $x  $g    $x
+            $j$q    $s  $u$g          $x
+              $j$q  $u  $s    $l$o$u  $x
+                $q  $g      $u$o$s    $x
+                  $g$k  $j  $g$o  $q$s$x
+                $g    $k$g$k$j  $k$q$s$x
+                $i$j$k    $g      $q$s$g$x
+              $i$h$j  $k    $g    $q$s$g$x
+              $h$k$j  $k$g    $j$g$q$s$g$x
+            $h$j$k$j$k$g$k    $j$g$k$s$g$x
+            $h$k  $j$g$k  $g  $k$g$k$s$g$x
+            $j$k$j$k    $g$k$g$h$q$k$s$g  $x
+          $h$k            $j$h$q  $j$s$g  $x
+          $h$k          $j$h  $q  $k$l$g  $x
+          $j$k        $j$h    $q  $j$o$g  $x
+          $j$k      $j        $q  $j$g    $x
+          $j$k        $j    $q    $j$g    $x
+          $q$j$k        $g$k$q    $j$g  $k$x
+          $q  $j  $k$g    $k$x$q  $j  $k$q$x
+          $q      $j    $k  $x$q          $x
+        $u$q        $x        $q          $x
+        $u$q      $x          $q          $x
+      $u          $x          $q          $x
+      $q$u      $x              $q        $x
+    $v  $q    $x                $q    $u  $x
+    $w$v      $x                $u        $x
+    $w  $v    $x              $v  $u    $x
+EOC

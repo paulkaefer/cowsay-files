@@ -1,0 +1,63 @@
+# Aladdin with Abu & Lamp
+# by johanvinet - http://pixeljoint.com/pixelart/81940.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;203m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;17m  ";
+$g = "\e[48;5;181m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;130m  ";
+$j = "\e[48;5;166m  ";
+$k = "\e[48;5;131m  ";
+$l = "\e[48;5;215m  ";
+$m = "\e[48;5;1m  ";
+$n = "\e[48;5;178m  ";
+$o = "\e[48;5;172m  ";
+$p = "\e[48;5;59m  ";
+$q = "\e[48;5;214m  ";
+$r = "\e[48;5;94m  ";
+$s = "\e[48;5;209m  ";
+
+$the_cow = <<EOC
+                        $t                        $a$b$x
+                          $t                  $c    $b$x
+                            $t              $c          $x
+                              $t          $c  $d$c        $x
+                                $t        $c    $d$c$d$c    $x
+                                  $t        $c$d$e  $d$c  $x
+                                              $d  $e  $c  $x
+                                              $c$d$e$d$c$x
+                                                  $d  $f$x
+                                            $f$d      $f  $x
+                                          $f$d  $e  $d$f$e  $x
+                                        $d$f$d  $e  $d$f$d$e  $x
+                                        $d$f  $d      $f  $d$e  $x
+                                      $d  $f  $d  $e$d$f  $x$d$e  $x
+                                      $d  $f  $d  $e$d$f  $x$d$e  $x
+                                        $d  $f$a  $b$a$f  $d    $x
+                                          $d  $a  $b$a$d      $x
+                                            $d$a  $b  $d  $x
+                                              $g  $h    $x
+                                            $g  $h        $x
+                                            $g  $h        $x
+                                          $g    $h          $x
+                                          $g  $h            $x
+                                        $g    $h$g$h          $x
+        $i    $j$f  $k$x    $j  $x      $g    $h$g$h          $x
+        $i$d$l$i$j$f$x    $j$x  $j$x  $g    $h  $g$h            $x
+        $c$d$c$i$l$x      $j$x$j  $x  $g    $h  $g  $h          $x
+        $d$l  $i$j      $x$j$x        $g    $h  $g  $h          $x
+    $i$x$d$l$i$m$l$j  $x  $j$x        $g    $h  $g    $h        $x
+    $d$i$x$i  $m$e$x        $j$x      $g                $h      $x            $n$x  $i$o  $x
+    $d$x$i$m$i$m$i$j$x      $j$x      $p$g    $p$x    $p$g    $p$x  $o$i$x  $i$o  $x$o$x$o$x
+            $i    $j  $x  $j$x          $d  $x            $d  $x      $i$o$i$o$q  $o$r  $x
+        $i    $x$i$x  $j  $x            $d$x                $e$x          $i  $n$i  $x
+    $d$i  $x    $s  $x                $d  $x                $d$e$x          $o$q$o$x
+
+EOC

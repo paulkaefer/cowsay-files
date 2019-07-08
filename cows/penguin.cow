@@ -1,0 +1,67 @@
+# Penguin (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;233m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;8m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t
+                          $t                                    $a        $x
+                            $t                                $a            $b$x
+                              $t                              $a              $b$x
+                                $t                          $a            $b    $x
+                                                            $a          $b        $x
+                                                            $a          $b        $x
+                                                        $c        $a  $b        $x
+                                      $c$x            $c            $a$b        $x
+                                      $c$x  $c    $x$c      $d    $c  $b    $x
+                                    $c$x  $c              $e        $c    $x
+                                    $c                $e$c  $e$f  $e  $c        $x
+                                      $a$b$g$b$c      $e$c$e  $g  $d$e    $a$b$x
+                                    $g  $a$c        $e      $g$h  $g$f$e$h  $x          $h  $x
+                                  $b  $a$g$a$c$g$i$h$e      $g$h$c$g$e  $c$h$x    $b$h  $x
+                              $g$a    $g$a$b$g$i  $h$e    $c$e$g  $d$e    $g$x$b  $x
+                            $g$a$c  $b  $a  $g$i  $h$e    $c$e  $d$e$f$e  $d$b$x
+                            $a  $b  $c$b$a$b$g$i    $h$e  $c$e$d$e$d$e$d$f    $x
+                        $g$b        $a$c$b  $g$i    $h$e  $c$e$d$f    $e$d$c$x
+                      $g$b          $a$c$b  $g$i      $h$e$c$d$e  $d      $b$a$x
+                    $g$b            $a$c$b    $g$i    $h$c$e    $d      $g  $b$a$x
+                  $g$b              $a$c$b      $i    $c$h  $e    $d  $h$i  $g  $x
+                  $g$b              $a$c$b    $g$i      $h    $e  $d$h  $i$g$b$a  $x
+                $g$b                $a$c$b  $g$i      $g$h  $g  $c$b$c$g$a$i$g  $a$x
+                $g$b                $a$c$b  $i        $g$h$b$a$b$c$b$c$a$g$i  $g$a$c$x
+                $g$b                $a$c$b  $g$i        $h$b$a$h$g$a$b$h$c$i  $g$a$c$b$x
+              $c$g$b              $a$c$b      $g$i      $h    $b  $c$g$b$h$i  $g$b  $c$b$x
+              $c$g$b              $a$c$b    $a$g$i      $g$h  $g$a$c$b  $h$i    $b    $c$b$x
+            $g$c$g$b            $a  $c$b    $a$g$i      $g$h  $g  $h$g$b$f$i  $g$b  $c$b  $c$x
+            $b$c$g$b          $a    $c$b    $a  $g$i    $g$f$h        $f$d$i  $g$b    $c$b  $c$x
+          $g$b$c$g$b          $a    $c$b      $a$g$i    $g$d$f$h    $f$d$f$i$g  $b    $c$b    $h$e$d    $x
+          $g$a$c$g$b        $a      $c$b      $a  $g$i  $g$f$d$f$h$f$d$f$d$i$g$b      $c$b  $h$e      $d  $x
+          $g$a$c$g$b        $a      $c$b        $a$g$i  $g$d$f$d$f$d$f$d  $i$g$b      $c$b$h$d$e    $d$e$d  $x
+        $g$a$b$c$g$b  $a$b  $a$b  $a$c$b          $a$g$i$g$d  $f$d$f$d    $i$g$b        $c$h$e      $d  $x  $d$x
+        $g$b  $a$c$g$b$a$b      $a$b  $c$b$a$b    $a$g$i$g$d    $f$d      $i$g$b        $c$h$e  $d$b$e  $d$x
+        $g$b    $a$b        $a$b    $c$a$h$b      $a$g$i$g$d    $f    $d  $i$g$b        $a$h$e    $b  $e$d$x
+        $g$b    $a    $b  $a        $c$h  $d  $b    $a$i$g$d    $f$d      $i$g$b        $a$x$h$e$b    $x$e$x
+        $g$b        $a  $b$a$b$a  $c  $h$e  $d  $b  $a$g  $d    $f$d      $i$g$b        $a$x  $i$b  $g$x
+        $g$b        $a$c$g$h$b  $a$c$h$e      $d    $b$a$g$d    $f$d      $i$g$b        $a$x$g$i  $b$i  $x
+        $g$b            $c$g$b$h$c$a$h$e        $d$b$d$a$g$d    $f    $d  $i$g$b        $a$x$g$i$g$i  $x
+        $g$b            $a$c$g$a$b$c$h$e        $d$b    $a$f$d  $f$d      $g$b          $a$x$g$i    $x
+        $g$b                $c    $b    $e        $d$b  $a$d    $f$d    $f$g$b          $a$g        $x
+        $g$b                              $e  $b$e  $b  $a$f              $b            $a$g        $x
+          $g$b                            $e  $b  $e$b  $c$i    $g    $i  $a$b          $a$g$i    $g$x
+          $g$b                              $e$b        $c$i              $a$b        $a$g  $i    $x
+          $g$b                              $e$b        $c$i              $a$b        $a$g  $i$g  $x
+          $g$b                                          $c$i              $a$b        $a$g        $x
+            $g$b                                      $c  $i              $a$b        $a$g$i    $g$x
+EOC

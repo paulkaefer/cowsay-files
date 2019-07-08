@@ -1,0 +1,62 @@
+# Gray Fox (Metal Gear Solid)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/PixelArt/comments/6arpxo/ocmetal_gear_solid/
+
+$x = "\e[49m  ";            #reset color
+$k = "\e[48;5;235m  ";    #black
+$w = "\e[107m  ";        #white
+$l = "\e[48;5;189m  ";   #light gray
+$m = "\e[48;5;147m  ";   #medium gray
+$d = "\e[48;5;97m  ";    #dark gray
+$y = "\e[48;5;54m  ";    #darkest gray
+$z = "\e[48;5;94m  ";     #dark brown
+$b = "\e[48;5;130m  ";     #brown
+$s = "\e[48;5;223m  ";    #light brown
+$i = "\e[48;5;215m  ";    #slightly darker but still light brown
+$u = "\e[48;5;81m  ";     #light blu
+$c = "\e[48;5;63m  ";     #medium blu
+$e = "\e[48;5;17m  ";     #dark blu
+$o = "\e[48;5;208m  ";    #orange
+$g = "\e[48;5;214m  ";    #light orange
+$r = "\e[48;5;196m  ";    #red
+$t = "\e[48;5;192m  ";    #tan
+$p = "\e[48;5;218m  ";    #pink
+$j = "$thoughts ";
+
+$the_cow = <<EOC;
+            $j                                                                                                                                $w  $x
+              $j                                                                                                                          $w  $l  $x
+                $j                                                                                                                    $w  $l  $x
+                  $j                                                                                                              $w  $l  $x
+                    $j                                                                                                        $w  $l  $x
+                      $j            $w    $l$m$d$x                                                                        $w  $l  $x
+                        $j        $w    $l    $m$d$x                                                                  $w  $l  $x
+                                $w      $l$r$d$l$m$d$x                                                            $w  $l  $x
+                                $w      $l$m  $d$m$d$x                                                        $w  $l  $x
+                                $l$m  $l      $d$m$d$x                                                    $w  $l  $x
+                          $t  $x$l        $m    $d  $x                                                $w  $l  $x
+                        $t$x    $l$m  $l$m  $d  $l$d$x                                            $w  $l  $x
+                          $t  $x$m$w$o$m  $d$m  $d$k$x                              $o  $x    $w  $l  $x
+                              $t$p$g$o$d  $m    $d$k$y$z$b  $z    $k    $l  $b    $o$g  $o$w  $l  $x
+                              $b  $w  $m  $d$m  $k$y$s    $i  $z$b$y  $c$w$l$b$i$b$g$o$w  $l  $x
+                            $s$i  $r$l$m$r$m    $k$c$s      $i$z$b$y$c$y$l    $i$b$o  $l  $x
+                          $i$s  $i$y$m$d$m    $k$c  $s    $i  $b$i$k    $y$k  $i$s$i$o  $x
+                          $i$s    $u$y$m  $k  $y  $c    $i$b$z$x        $k      $b  $i$x
+                            $i$s$i$u  $y        $c    $y$k    $x      $k      $x
+                              $b    $i$u      $c$u  $y    $k$x        $k  $x
+                                $s$i  $c$k$c$y      $c  $y$k  $x
+                                $y$s$i$u$k$c    $y          $k$x
+                              $c$y$u  $c  $k$y  $c    $k  $c$y$x
+                            $c  $y$u$c    $k    $c$u$y  $c$u  $c$z$x
+                        $c    $y$c$y$u$c  $k      $u$c$y$c  $u$s  $i$x
+                      $s  $c$y$c$y  $u$c$y$x      $k  $y    $s  $i$b$x
+                    $s    $i$c  $y$k$c$l$c$y$x        $k  $y$s  $i$b$x
+                  $s    $i  $y  $k$x$w$l$c$y$x        $k$y  $s$i  $b$x
+                $k  $s$i  $y  $k$x  $w$l$c$y$x          $k$y$c$u$y$x
+              $k$c  $y$i$y  $k$x      $w$c$y$x            $k$c  $y$x
+            $s  $i$y    $k  $x        $w$m$y$x            $k$b  $i$x
+          $s  $i  $y  $k$x            $w$m$y$x              $i$s$i  $x
+        $c  $y      $k$x              $m$z$y$x              $s$y  $i  $x
+    $c  $y  $c  $y$k$x              $z    $x                $y  $c  $y$x
+    $c$y        $k$x            $b    $z$b  $x              $y$c$y    $x
+
+EOC

@@ -1,0 +1,54 @@
+# Ewok (Star Wars)
+# by fuckyeah-pixels - https://fuckyeah-pixels.tumblr.com/post/45945519890/amp
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;254m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;208m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;214m  ";
+$g = "\e[48;5;136m  ";
+$h = "\e[48;5;173m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;202m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;215m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+        $a$x      $t
+        $a$x        $t
+        $a$x          $t
+      $b  $a$x
+      $c$b$a$x
+      $b$c  $x        $d    $e$d$f  $d$x
+      $c$e$b$x  $e    $d      $e$d$f  $e    $x
+        $c  $x$e$c  $e$d    $e$d    $f$e$c  $e$x
+        $e$x  $e  $c$d  $c          $d$f$c$e  $x
+        $c$x    $e$d  $c$e          $c$d$f$e$x
+        $e$x      $d$c  $g$e$g$h$e$g$c  $f$x
+        $c$x      $d$c$g$x$c$e  $c$x$g$c$d$x
+        $e$x      $d$c$h$i$g$x  $g$i$h$c$d$x
+        $e$x    $d    $i$h$g      $h$i$c$d  $j$x
+        $e$x  $j$d    $e$g$e$k  $e$g$e$d  $e  $x
+      $e$l  $g$c$j$d    $e$c$x  $c$e$d$j$e$g$e  $x
+    $e  $h$g$e$c  $j$d              $j$g$e  $g$e  $x
+    $c$e$l    $e$c  $j  $d    $j    $g$e  $g    $e  $x
+    $c$e$h$g$e$c  $e    $j    $g$h  $g$e        $g$e$x
+      $c$l  $g$e$c  $e  $g  $h  $i  $h$g$e$c$e$g$e    $x
+        $c$e  $c  $e  $g$h  $i    $h$i$g$e  $c$e  $g$e  $x
+        $c$x$c  $e  $g$h  $i  $a$i  $h$g$e$c  $e        $x
+        $c$x    $e    $g$h$i$a    $h  $g$e  $c$e    $l  $x
+        $e$x  $d  $j  $c                    $x$e$l$e$g$l$x
+        $c$x$d  $f$d  $j$g$i$a$i  $h$g  $e  $x  $g$x$g$l$x
+        $e$x$d  $f  $j$e$g$h      $g$e    $c$x
+        $c$x  $d  $c$e$c$e$g      $e$c$e$g$e$x
+        $e$x    $c$e$g$e$c          $e$g  $e$x
+        $e$x    $e    $g$e$c$x  $c$e    $g$e$x
+        $e$x    $c$e$c$e  $c$x  $c$e  $c$e$c$x
+        $e$x  $c$l$c$l$e  $c$x  $c$e  $l$c$l$c$x
+EOC

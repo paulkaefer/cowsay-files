@@ -1,0 +1,45 @@
+# Stewie Griffin (Family Guy)
+# by Unknown - http://pixelartmaker.com/art/f77f4c2ac05392c
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;226m  ";
+$e = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t                      $a                    $x
+              $t                $a  $b  $a$b  $a$b  $a$b  $a  $x
+                $t          $a  $b  $a$b$a$b  $a$b  $a$b      $a  $x
+                  $t      $a$b  $a$b                              $a$x
+                        $a$b$a$b                                $a$b$a$x
+                      $a$b                                            $a$x
+                    $a$b$a$b  $a      $b                $a      $b  $a$b$a$x
+                    $a$b              $a  $b        $a  $b              $a$x
+                  $a  $b      $a      $b                $a      $b      $a  $x
+                $a$b        $a$b      $a$b            $a$b      $a$b        $a$x
+                $a$b$a$b    $a          $b            $a          $b    $a$b$a$x
+                $a$b      $a$c  $a  $c  $a$b  $a$b  $a$c  $a  $c  $a$b      $a$x
+                  $a  $b  $a$c          $a$b    $a$b$a$c          $a$b  $a  $x
+                      $a$b  $a$c      $a$b    $a$b    $a$c      $a$b  $a$x
+                        $a$b  $a      $b          $a$b  $a      $b  $a$x
+                          $a$b            $a      $b              $a$x
+                            $a  $b            $a$b            $a  $x
+                                $a  $b                    $a  $x
+                                  $a                        $x
+                                $a$d$a$e$a$d        $a$e$a$d$a$x
+                              $a$d  $a$e$a$d        $a$e$a$d  $a$x
+                            $a$d    $a    $d        $a    $d    $a$x
+                          $a$d      $a$d  $a        $d  $a$d      $a$x
+                          $a$d      $a$d  $a$e    $a$d  $a$d      $a$x
+                          $a$d    $a$e$a  $e        $a  $e$a$d    $a$x
+                          $a        $e                    $a        $x
+                          $a$b    $a$e                    $a$b    $a$x
+                            $a$b  $a$e                    $a$b  $a$x
+                              $a    $e                    $a    $x
+EOC

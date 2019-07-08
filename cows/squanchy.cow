@@ -1,0 +1,47 @@
+# Squanchy (Rick & Morty)
+# by Wase Quazi - https://dribbble.com/shots/2877207-Rick-And-Morty-Pixels
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;215m  ";
+$b = "\e[48;5;173m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;137m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;184m  ";
+$g = "\e[48;5;24m  ";
+$h = "\e[48;5;52m  ";
+$i = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t          $a$x
+                $t      $a  $x
+                  $t    $a  $x
+                      $a    $x
+              $b  $x$a      $x$a    $x
+              $b  $a$c$a        $c$a$x
+        $c$x    $b$a$c  $a  $c  $a$x  $d$x
+      $c$x$c$x  $e$f$a$e$f  $a$c$x  $c$d  $x
+    $c    $x    $f  $a$f    $a$x    $d  $c$x
+      $c  $x  $c$f$g  $f    $c$x    $d  $c$x
+      $a$x  $c$h  $c    $h  $c  $x  $d$c  $x
+      $b$x  $c$h            $c$x  $a$d    $x
+        $b$x  $c$h        $c$x  $a$b$d    $x
+          $b$x  $c$i  $c  $x  $a$b$x$d    $x
+            $b  $a$c  $a      $b$x
+                $a$c  $a  $b$x
+                $a$c  $a$b$x
+                $a$c$a  $x    $i$x
+                $a$c$a  $x  $i$x
+                $a$c$a  $x  $c$x
+                $a      $x  $c$x
+              $a$b$a  $c$a$c$x
+              $a$b$x    $a$x
+              $a$x      $a$x
+              $b$x      $a$x
+            $a$b$x      $a  $x
+          $c    $x      $c    $x
+EOC

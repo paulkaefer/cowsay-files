@@ -1,7 +1,7 @@
 # Phillip J Fry - "Shut up and take my money!"
-# by Charlie M
+# by ndbigdi - https://www.deviantart.com/ndbigdi/art/shut-up-and-take-my-money-perler-559048247
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $h = "\e[48;5;208m  ";  #hair color
 $s = "\e[48;5;223m  ";  #skin color

@@ -1,0 +1,72 @@
+# Scrooge McDuck
+# by Arcanjulo - https://kandipatterns.com/patterns/characters/uncle-scrooge-19305
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;240m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;196m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;244m  ";
+$i = "\e[48;5;147m  ";
+$j = "\e[48;5;153m  ";
+$k = "\e[48;5;94m  ";
+$l = "\e[48;5;172m  ";
+$m = "\e[48;5;220m  ";
+$n = "\e[48;5;17m  ";
+$o = "\e[48;5;27m  ";
+$p = "\e[48;5;20m  ";
+$q = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                  $a$b$c  $b  $x
+                $t              $a$b  $c  $b    $a$x
+                  $t            $b    $c  $b      $a$x
+                    $t          $b  $a$c$a$b        $a$x
+                                $b  $c  $a$b          $x
+                                $d  $e  $b            $x
+                              $d  $f$e$f  $d$b      $a$x
+                        $c$a  $c    $a  $f    $b  $a$x
+                      $c$b                $a$f$d$a$x
+                    $a$b$c$g$h$b$h$g  $i$b    $d$x
+                    $a$b$g$i$g$i$g$i  $g  $h$b  $x
+                      $b$i$j$i$g$i$j  $i$g  $h$b  $x
+                        $j    $g$j      $i$g$i$b  $a$x
+                        $j$h$j$g$h$j    $i$g  $h$b$a$x
+                      $h$j$b$j$g$b$j    $i$g  $i    $x
+                  $k$j$h$l$b$g$h$b$j    $m$l$g    $i$x
+                $k$l$m    $l$j$h$j    $m    $l$g$i$x
+                $k$l$k  $l$m            $l$m$l$i$g$i$x
+                  $k      $l$m      $l  $m$k$h  $i$h$x
+                          $k$l$m  $l$k    $x    $h$x
+                            $k      $f$d$x
+                            $f$d$f$e  $f$d$x
+                            $f$l$f$e    $d$n$x
+                        $n$f  $l$d$e  $f$o  $n  $x  $h  $x
+                      $n$p$o$d$l$d$f$o        $p$n$h$j$h$x
+                      $n$o              $p$o    $p$n$j$h$x
+                  $f  $n$o              $n$o      $n$j$h$x
+        $h      $f  $p$f$o            $h$f$e  $f$o$p$n$h$x
+      $h$q  $j  $e  $p$f    $o      $h$g  $j$f$e$f$p  $h$x
+      $q$k  $h$j$e  $f$n$p$e      $h$j$h$g  $j$e  $p$n$h$x
+    $q$k$q$a$h$j$e$f  $n$o        $h$g      $j$e  $n$h$x
+    $q$k$a$h$j    $f  $n$o    $n$o$h$g      $j$e$f$n$h$x
+    $q$k$a$h      $x  $p$o  $n$j$p$o$h$g  $j$h$f$d$h  $x
+    $q$k$q$x          $n$o$n$j    $o  $p$n        $h$x
+    $q$k$q$x            $p$h$j      $p  $n  $h$l$k$x
+    $q$k$q$x              $h  $j      $h    $l  $k$x
+    $q$k$q$x              $l$k$h          $x$m  $l$k$x
+    $q$k$q$x              $f$l  $k  $x      $f$m  $l$d$x
+    $q$k$q$x              $d$f    $d  $x    $f$e      $d$x
+    $q$k$q$x            $f$e  $f  $d    $x  $f  $e  $f  $d$x
+    $l$k$q$x          $f$e      $f  $d  $x$f$e      $f    $d$x
+    $l  $k$x      $l    $m  $l  $f  $d  $f$e            $f  $x
+    $k$l$k$x  $l  $m    $l    $f    $x$l$m              $l$d$x
+                                        $l  $m  $l  $m  $l$x
+EOC

@@ -1,0 +1,55 @@
+# Roadrunner (Looney Tunes)
+# by @undefinist - https://twitter.com/undefinist/status/652693737097703424
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;55m  ";
+$b = "\e[48;5;75m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;226m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;142m  ";
+$g = "\e[48;5;124m  ";
+$h = "\e[48;5;166m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;53m  ";
+$k = "\e[48;5;60m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                      $a  $x
+                      $t              $a$x$a  $x
+                        $t            $a          $x
+      $b      $x          $t        $a        $x
+        $b      $x          $t      $a          $x
+            $b    $x                  $a      $x
+        $b        $x                    $a      $x
+      $b          $x                    $a    $x
+            $b      $x                  $a      $x
+        $b          $x                  $c$a    $x
+              $b    $x                $c  $a$d  $a$x
+            $b      $x          $d$x  $e$d  $f  $d$x
+                $b  $x    $g    $d        $f  $d  $x
+        $b          $x      $g    $d        $f$d$x
+            $b      $x                $d  $f$b$x
+                $b  $x                    $b  $x
+          $b          $x                  $b  $x
+              $b      $x                  $b  $x
+                  $b  $x                  $b$x
+              $b      $x                  $b$x
+                  $b    $x                $b$x
+                $b      $x                $b$x
+                    $b    $x            $b  $x
+                $b        $x          $b    $x              $h  $x
+                    $b      $x    $a      $b$x          $h    $i$h  $x
+                        $b    $x$j$a      $b  $x    $h    $x  $h$i$h  $x
+        $h$e$x            $b$a    $j$a  $b$k$b  $h    $x        $h$x$e$x
+      $h$i$h$x        $a          $b        $k$b$h$x            $e$x
+      $h$i$h$x    $a        $h$b        $x
+      $h$i$h$e$x    $h    $x
+        $h$i$h$x$h    $x
+          $h      $x
+
+
+EOC

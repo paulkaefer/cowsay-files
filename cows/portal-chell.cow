@@ -1,0 +1,83 @@
+# Chell (Portal)
+# by @worldofaheather - https://twitter.com/worldofaheather/status/984833072724979713
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;104m  ";
+$h = "\e[48;5;103m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;188m  ";
+$m = "\e[48;5;18m  ";
+$n = "\e[48;5;95m  ";
+$o = "\e[48;5;137m  ";
+$p = "\e[48;5;208m  ";
+$q = "\e[48;5;202m  ";
+$r = "\e[48;5;166m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t            $a        $x
+                            $a              $x
+                          $a                  $x
+                        $a                      $x
+                        $a              $b  $a  $x
+                        $a          $b      $a  $x
+                      $a            $b        $a$x
+                    $a      $b$a  $b$c  $b  $c$a$x
+                    $a    $d$b  $a$b$e$c$b  $c$x
+                    $a      $d$b              $x
+                  $a          $d$b            $x
+                  $a        $x$d$b    $c  $b$x
+                    $a      $x$b$d  $b    $x
+                  $a        $x$b$d    $x
+                $a        $x$b  $d    $x
+                $a      $b$f  $g$b      $x
+                $a    $b    $f  $h$b    $h$f  $x
+                $a  $b      $f    $h$b    $h$f  $x
+                $a  $b        $f    $h$b  $h$f    $x
+                $a$b          $f                  $d$x
+                  $b    $d  $b$f  $c$f      $c  $f$d  $x                                                $i  $x
+                  $b    $d  $f  $c$f$c$f$c  $f      $e              $x                                $i$x  $i$x
+                  $b  $d    $f    $c$f            $e                    $x                  $j    $x$i$x
+                  $b  $d$x$f                    $e                        $x              $j        $x
+                $b    $d$x$f                  $e                          $i$k$l          $j        $i    $x
+                $b  $d  $x  $f                $e                          $i$m$k          $j$e      $i          $x
+                $b  $d$x      $g$f  $b        $e                          $i    $j        $e          $i  $x    $i$x
+                $b$d      $b                    $e                      $i      $j        $e            $i$x
+              $b  $d$b              $d  $b      $e                      $i    $b      $e                $x
+              $b  $d$b      $d      $n  $h    $n$x$e                $i      $b        $e              $x
+              $b      $d      $o        $n    $o  $x    $e        $x  $b            $x$e          $x  $i$x    $i$x
+              $d          $x$o            $n$o    $x                      $b      $x                    $i    $x
+                $d  $x      $n    $o        $n$o  $x
+                            $p$f  $n      $q$p  $n$x
+                        $p    $f$p  $f$q    $p  $f$n$x
+                    $p      $f$p$q    $f  $q  $p    $x
+                $q                $f$q    $r$q$p    $f$x
+                $q            $f    $q    $r$q  $p  $f$x
+                $q        $f      $q      $r$q  $p    $x
+                  $q  $f        $p$q      $r  $q$p    $x
+                  $q$p$q    $p    $q    $r$q$r$q$p  $q$x
+                      $q  $p    $q$p$q  $r$q$r$p    $q$x
+                    $q    $p    $q$p$q  $r$q$p$r$q  $x
+                    $q  $p    $q$p  $q  $r$q$p      $x
+                    $q  $p    $q$p    $q$r$q$p      $x
+                    $q  $p    $q$p      $r$q$p      $x
+                    $q  $p    $q$p      $q  $p      $x
+                    $q$p      $q$p      $q  $p      $x
+                    $q$p        $q  $p$x$q  $p      $x
+                  $q  $p          $x    $q  $p      $x
+                  $q  $p          $x    $q  $p      $x
+                  $q  $p        $x        $q$p      $x
+EOC

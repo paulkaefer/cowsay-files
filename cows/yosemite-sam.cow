@@ -1,8 +1,8 @@
 # Yosemite Sam
-# by Charlie M
+# by Unknown - https://www.brik.co/blogs/pixel-art/yosemite-sam-pixel-art
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;223m  ";
 $b = "\e[48;5;209m  ";

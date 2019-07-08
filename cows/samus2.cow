@@ -1,0 +1,71 @@
+# Samus Aran (Metroid)
+# by BerserkerOx - https://www.deviantart.com/berserkerox/art/Super-Smash-Bros-Ultimate-Sprite-760019333
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;1m  ";
+$c = "\e[48;5;203m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;215m  ";
+$g = "\e[48;5;229m  ";
+$h = "\e[48;5;46m  ";
+$i = "\e[48;5;155m  ";
+$j = "\e[48;5;59m  ";
+$k = "\e[48;5;249m  ";
+$l = "\e[48;5;234m  ";
+$m = "\e[48;5;58m  ";
+$n = "\e[48;5;185m  ";
+$o = "\e[48;5;23m  ";
+$p = "\e[48;5;37m  ";
+$q = "\e[48;5;31m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                            $a$b  $c  $b  $x
+          $d    $e    $x  $a$b  $c        $b$x
+        $d$e  $f      $e$a$b      $c    $g$c$b$e  $f  $x
+      $d$e$f    $g$e  $f$e$a$b      $c$b$c$g$b$e      $f$x
+      $d$f    $g$e$g$f$e$f$e$b$a$h$i$b$c    $b$a$e      $f$x
+    $d$e        $g  $f  $e  $b$a$h$i$g$b    $a  $e      $f$x
+    $d$e$f          $d$f  $e$b  $c$i$g$i$h  $a  $e        $x
+    $d$e$f          $h$f  $e$j$k$b  $c$i$h  $a$l$e  $d$e  $x
+    $d$e        $f      $e$d$l$j$k$a$b$c$k$a$j$l  $e      $x
+    $d$e$d      $e$f  $e  $d$l  $j  $k$b$j$a$l$b$l$e    $d$x
+      $d$l      $d  $e  $d$b  $l      $a  $b    $l  $e  $d$x
+        $l    $j    $d  $b$c  $b$l      $a$c  $b$l$d    $x
+        $d$e    $d$e$d$b$a  $c  $b$l  $a$c  $a$b$e$j  $x
+          $e  $d$f$e$d$b  $h$a$c          $a$b$a$e$d$x
+          $d$e$f  $e  $a$b  $h$a$g$c      $a$b$e  $d$x
+          $d$e$g$f$e  $d$a$b  $h$a$g$c  $a$b$a$e  $d$x
+            $e$g$f$e  $d$m$a  $b$a$b    $a$b$d$e  $d$x
+            $d$e$f$e  $d$n$m  $a  $b    $a$d$e$d$e$d  $x
+            $l$d$o  $d$l$m$n$m  $a      $d$f  $e$d    $x
+            $o  $p  $q  $n$m$n$m      $d$f  $e    $d$x
+          $o$q$p  $g$p  $q  $m$d      $e$f$e    $d$x
+        $o  $q$o  $p$g  $p$q$d$f$e$d$f  $e    $d$x
+        $o  $q$p  $o$q$p$g$p$f$d$f$e$d$e    $d$x
+        $o  $q    $p$o$q$p$g$d$e$f  $d  $e$d$x
+          $o$q    $p$o$q    $p$d$e$d$p$q$d$x
+            $o  $q              $d$p$g$p    $x
+              $d$o    $q            $p$g$o$g$p$x
+              $d$e$f$e$o    $q        $o$p  $l$o$x
+              $d$e  $f$e$f$e$o    $q  $o$q$l$p$o$x
+              $d$e    $g$f  $e$l$n$o    $q$l$q$o$x
+              $d$e$f$e$g$f  $e$l$m$l$n$d$o    $f$x
+              $d$e$f$e$f$g$f$e$l  $n  $d$e    $f$x
+                $d$e$f  $g$f$e$x  $m$n$m$e    $f$x
+                $d$e$f        $e$x  $m$n$d$e    $f$x
+                  $d$e$f$e  $d  $x  $m$n  $d$e  $f$x$d$x
+                  $d$e    $d$f$d$x    $m$n  $d$e  $d  $x
+                    $e$d  $f$g$d$x      $m    $d  $e$d$x
+                  $d  $e$f$g$e$d$x      $d    $e    $d$x
+                $d$e  $f  $g$e$d$x    $d$e        $d$x
+                $d$e$f  $g$f$d$x      $d$e      $d$x
+                $d$e  $f$g$e$x        $d$e      $d$x
+                $d$e  $f  $d$x      $d$e      $d$x
+EOC

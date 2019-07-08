@@ -1,0 +1,54 @@
+# Bomberman
+# by PXLFX - https://www.deviantart.com/pxlflx/art/Bomberman-pixel-art-519395316
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;214m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;228m  ";
+$d = "\e[48;5;162m  ";
+$e = "\e[48;5;175m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;241m  ";
+$h = "\e[48;5;67m  ";
+$i = "\e[48;5;187m  ";
+$j = "\e[48;5;230m  ";
+$k = "\e[48;5;247m  ";
+$l = "\e[48;5;152m  ";
+$m = "\e[48;5;172m  ";
+$n = "\e[48;5;238m  ";
+$o = "\e[48;5;32m  ";
+
+$the_cow = <<EOC
+        $t
+          $t                                                              $a$x
+            $t        $b    $x                                          $a$c$a$x
+              $t    $b$d    $b$x                                        $a$c  $a$x
+                  $b$d    $e$d$b$x                                      $a$c  $a$x
+                  $b$d        $b$x                                      $b$a  $x
+                    $b$d    $b$x                      $b                $f  $b$x
+                  $b            $x                $b  $g      $b$h  $b$f  $b$x
+            $b    $i$j        $i$b    $x        $b$g    $k$g$b$h  $l$h$b  $x
+          $b$i$j                    $i$b$x    $b$g          $b$h$l    $h  $b$x
+        $b$i$j                        $i$b$x  $b$g$k  $g    $b$h  $l$h    $b$x
+        $b$j  $m                    $j  $b$x$b$g  $k  $g    $n$b$h      $b$n$b$x
+        $b$j$m$a  $b$a        $b$a  $m$j$b$x$b$g$k    $g      $n$b      $n  $b$x
+        $b$j$m$a  $b$a        $b$a  $m$j$b$x$b$g$k  $g          $n          $b$x
+        $b$j$m$a  $b$a        $b$a  $m$j$b$x$b$g                $n          $b$x
+        $b$j$m$a  $b$a        $b$a  $m$j$b$x$b$g                $n          $b$x
+        $b$i$j$m                    $j$i$b$x$b$n$g            $n            $b$x
+          $b$i$j                    $i$b  $x$b$n    $g      $n              $b$x
+            $b                          $i$b$d$b$n                        $b$x
+            $b$i$b$o            $b$i      $b$d  $b$n                      $b$x
+          $b$j$i$b$o            $b$j  $b          $n                    $b$x
+        $b$j$i$b$o                $b  $x          $b  $n            $b  $x
+        $b$j$i$b$o                $b$x                $b            $x
+      $b              $a    $b      $x
+      $b$d    $b$o                $b$x
+        $b      $j$o            $i$b$x
+              $b$j$i$o        $i  $b$x
+              $b$j  $i$b    $j  $i$b$x
+            $b          $x$b          $x
+            $b$d      $b$x$b$d      $b$x
+EOC

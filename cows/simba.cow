@@ -1,0 +1,61 @@
+# Simba (The Lion King)
+# by Brony57 - https://www.deviantart.com/brony57/art/Simba-Pixel-Art-For-the-Lion-King-RPG-644408678
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;208m  ";
+$b = "\e[48;5;166m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;215m  ";
+$f = "\e[48;5;186m  ";
+$g = "\e[48;5;233m  ";
+$h = "\e[48;5;1m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                                  $t
+                                    $t                                                                $a  $x
+                                      $t                                                  $a$x$a$x  $a  $b$a$x
+                                        $t                                            $a              $c$a  $x
+                                          $t                                          $a                $b  $d$x
+                                            $t                                      $a    $c$a              $d$x
+                                              $t                                    $a    $b    $a          $e$x
+                                                $t                                  $a    $b        $a            $x
+                                                  $t                                $a    $b$d$f$g$b$a$d$a  $h    $x
+                                                                            $a            $b$d$f$i$g$e  $d$h$d  $e  $x
+                                                                            $a            $b$e$f$j$e$a$e            $x
+                                                                            $c$b  $a                  $e          $d$x
+                                                                            $c$b      $a          $e          $d  $e$x
+                                                                            $c$b        $a        $e    $d    $e    $x
+                                                  $a          $x              $c$b      $a          $e            $x
+                                      $a                          $x            $c      $a          $e        $x
+                                  $a                                                                    $x
+                                $a                                                                    $x
+                              $a      $x  $a                                                          $x
+                            $a    $x      $a                                                          $x
+                          $a    $x        $a                                                          $x
+    $c$x                $a    $x          $a                                                          $x
+  $c$x                  $a  $x          $a                                                    $e$a    $x
+$c  $x                $a  $x            $a          $e    $a                                $e  $a  $x
+$c  $x              $a  $x            $a            $e      $a                          $e      $a  $x
+$c    $x        $a    $x            $a            $e            $a                    $e        $a$x
+$c      $x  $a      $x            $a                $e                $a              $e      $a  $x
+  $c    $a      $x              $a              $x$a    $e          $a              $e    $a      $x
+                                $a        $x      $a      $e        $a            $e  $a          $x
+                                $a      $x        $a      $x          $a                          $x
+                                $a      $x        $a      $x          $a                        $x
+                                $a      $x        $a        $x        $a          $x$a          $x
+                              $a        $x        $a          $e$x    $a          $x$a          $x
+                              $a    $e    $x        $a    $e      $x  $a          $x$a          $x
+                              $a  $e        $x        $a$e          $x$a          $x  $a          $x
+                              $a$e            $x      $e          $x  $a          $x  $a        $e      $x
+                                $e            $x                      $a            $x$a      $e          $x
+                                  $e    $x                            $a            $x  $a  $e            $x
+                                                                        $a        $e      $a$e            $x
+                                                                        $a    $e                        $x
+                                                                          $a  $e            $x
+                                                                          $a$e            $x
+EOC

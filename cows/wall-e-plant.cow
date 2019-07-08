@@ -1,0 +1,77 @@
+# Wall-E w/ plant
+# by damnireekrad - https://www.deviantart.com/damnireekrad/art/Wall-E-Pixel-281236152
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;113m  ";
+$b = "\e[48;5;149m  ";
+$c = "\e[48;5;71m  ";
+$d = "\e[48;5;66m  ";
+$e = "\e[48;5;239m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;247m  ";
+$h = "\e[48;5;243m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;138m  ";
+$k = "\e[48;5;7m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;238m  ";
+$n = "\e[48;5;101m  ";
+$o = "\e[48;5;8m  ";
+$p = "\e[48;5;248m  ";
+$q = "\e[48;5;179m  ";
+$r = "\e[48;5;222m  ";
+$s = "\e[48;5;137m  ";
+$u = "\e[48;5;203m  ";
+
+$the_cow = <<EOC
+      $t                                                  $a$b$x
+        $t                                                  $b$a$x$b$x
+          $t                                                $c$a$b$x
+            $t                                                $c$d$a  $x
+              $t                                        $a$b$x$c$a$b$c  $x
+                $t                                    $a$b$a$c$a$x$c$x
+                  $t                                $c      $x$a$x
+                    $t                                        $a$x
+                      $t                                        $a$x
+                                                          $e    $c$x
+                                                            $f  $c$e$x
+                                                    $e$g$e$x$e$f$e  $f$x
+                                                  $e$g$h  $e$h$e  $f$x
+                            $i  $j    $x        $j$e$g$h    $e$h$e$f$x
+                          $i$j$k$f  $k$j$l$i$j$x$l$f$e  $h$e    $f  $x
+                        $l$j$k  $f  $k$l$k$f  $j$l$f      $j    $e  $x
+                    $l$m$n$l$k  $f$o$k$m$k$f  $p$l$j      $l      $x
+                  $l$n$m$n$l  $k  $l  $m$l$f$o$p$q$l$x$m  $x
+                $j$l  $m$f$n$l    $m    $l$k$p$r  $q$x$q  $x
+                $i$j$f  $h      $m        $l$e  $r$q      $x
+              $l  $h      $s$h$e      $h  $k      $x$q    $x
+              $h      $e$s    $h$e$h$x    $e      $x$q  $x
+                $e$x$e$f$e$s$q  $x      $k      $x  $s$q$x
+                  $e  $x    $s$q  $x  $f      $x    $q$s$x
+                              $s$q$x  $p    $q$x  $s  $q$x
+                              $s$q$x$f      $x    $s    $x
+                              $s  $x$q  $p$s$k$f$k$s  $x
+                            $e$s    $q    $k$i$f$k$s  $x
+                          $q    $p  $s$q$s$p  $j$p  $x
+                    $q  $p      $e  $p$s$e  $p$j$p  $x
+                $q    $p$e      $p  $q$p$e$s$q      $x
+                $q  $p$e$p      $q      $e$s  $q    $x
+                  $q  $p$q        $s  $q  $e$s$q      $x
+                  $q  $s$q    $s  $q        $e$s$r    $x
+                  $q$s$q$s    $q            $e$s$r    $x
+                  $q  $s  $q                $e$s$r    $x
+                    $q                        $e$q$r    $x
+                    $q$e$h  $e$q              $e$q$r    $x
+                    $h$f$e$f$h    $q              $r$e$u$x
+                    $e$h  $f  $h$e  $q            $s$r  $x
+                  $h  $e  $h$f  $h    $q    $s        $x
+                $e        $h$f$h$f$h$e  $s      $h$e  $x
+                $f$h  $e$h$f    $h$f$h  $f  $e$f  $h  $x
+            $f$e$h$e  $h$f    $h$e$f$h$e  $f  $e$f$h$e  $x
+            $e$h$f$e    $h$f      $e$f$h  $f  $e$f  $h  $x
+            $f$e$f$e    $h$f    $e  $f$h$e  $f      $h$e  $x
+            $f$e  $f  $h$f  $e$f  $e    $h  $f        $h  $x
+              $f                        $h$f        $h  $x
+EOC

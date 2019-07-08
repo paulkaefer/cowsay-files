@@ -1,0 +1,79 @@
+# link2
+# by GoldStud - https://www.spriters-resource.com/custom_edited/supersmashbroscustoms/sheet/75830/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;22m  ";
+$d = "\e[48;5;34m  ";
+$e = "\e[48;5;172m  ";
+$f = "\e[48;5;221m  ";
+$g = "\e[48;5;167m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;123m  ";
+$j = "\e[48;5;21m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;223m  ";
+$m = "\e[48;5;103m  ";
+$n = "\e[48;5;94m  ";
+$o = "\e[48;5;136m  ";
+$p = "\e[48;5;66m  ";
+$q = "\e[48;5;59m  ";
+$r = "\e[48;5;250m  ";
+$s = "\e[48;5;188m  ";
+$u = "\e[48;5;130m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a          $x
+                $t          $a  $b$c$b$c  $a    $x
+                  $t      $a$b  $c$d$c$a$e$f    $a$x
+                          $a$d$c$d$c$a$f    $e    $a$x
+                        $a$b$d$c$b$a$f$a$e      $a    $x
+                        $a$b$c  $a$e$a$e$f$e$a    $e$a$x
+                        $a$b$c    $a  $f$e$a$g  $a$e$a$x
+                      $a$b$c$a      $e  $a    $g$a$e$x
+                      $a$b$c$a$h  $a$e$a$g$i$j$a    $x
+                      $a$c    $a$h$g$a  $h$k$a$h$a$x
+                      $a$c      $a      $l  $h    $a$x
+                      $a$c          $a$g$h    $g$a$x
+                      $a$c      $b$c$g$a$g$h  $a$x
+                    $a  $c  $b$c    $m  $a      $x
+                  $a$d$b  $c$d  $c$k$m    $c    $a$x
+                $a$d$b  $c$b  $d$b$c$k  $c$b  $c$a  $x
+              $a$c$b$c$b$c$b$c  $d$c$k$c  $d$b$c  $b$a$x
+            $a$m$c    $b$c                    $b$c$b$a$x
+            $a$m    $c      $b$c$b$d$c$b$n    $c$a$b  $a$x
+          $a$m$k  $m$a  $c  $b$c  $b$e  $o$n$c$a$c$b$c$a$x
+          $a$m$a$n  $a$x$a$n$c    $n  $e$b$c  $a$c    $a$x
+            $a$n$o  $a$x$a$n    $o  $n$d  $b$c$a  $c$m  $a$x
+            $a$o  $n$a      $o$n$c  $b  $c$b$c$a  $m$k  $a$x
+              $a$n  $a      $c              $a$x$m    $n  $a$x
+              $a$n    $a  $p$c$a$q                                        $x
+              $a$n      $q$p        $q  $p  $q        $p  $q    $p    $r      $x
+        $a      $n    $a$e$p          $q  $p    $q      $p  $q    $p$r            $x
+        $a      $n    $a$e$p$r          $s  $r  $s      $k  $s                    $x
+                $a$h$a$h$a$p  $r        $s  $r  $s      $k  $s                $x
+                  $a      $c  $a$r        $s  $r  $s      $k  $s          $x
+                    $a      $c$b    $c  $b  $c$a$x  $a$g$a$g$a  $x
+                      $m$a$m$a    $b  $c  $a      $x  $a  $h$a$x
+                      $a$m      $a        $m    $a$x    $a  $x
+                      $a$m$k    $a$x  $a$m  $k  $a$x
+                      $m  $k  $a$x      $a$m$k    $a$x
+                    $a$m$k    $a$x      $a$m  $k  $a$x
+                    $a$m    $a$x        $a  $m    $a  $x
+                  $a$u$a      $x        $a$u$a    $e$a$x
+                  $a$u  $e$u$a$x          $a$u$e    $u$a$x
+                  $a  $u$e$u$a$x          $a$u  $e$u$a  $x
+                  $a$n$a      $x            $a        $x
+                  $a$n  $o$n$a$x            $a$o    $a$x
+                $a$n$o  $n$a$x              $a$n$o$n$a      $x
+                $a$n$o$n  $a$x              $n      $o      $a$x
+              $a$n$o    $n$a$x              $a$n  $o      $n$a$x
+              $a$n  $o  $n$a$x              $a$n    $o$n    $a$x
+              $a$n        $a$x              $a    $n$a        $x
+                $a        $x
+EOC

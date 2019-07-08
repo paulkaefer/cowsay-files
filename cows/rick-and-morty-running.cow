@@ -1,23 +1,19 @@
 # Rick and Morty
-# by Charlie M
+# by unknown - https://www.uihere.com/free-cliparts/minecraft-rick-sanchez-morty-smith-pixel-art-pixel-1725916
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black (charcoal)
 $w = "\e[107m  ";       #white
 $l = "\e[48;5;14m  ";   #light blue (rick hair)
 $m = "\e[48;5;130m  ";  #brown (morty hair)
-
 $u = "\e[48;5;223m  ";  #skin color
 $v = "\e[48;5;216m  ";  #skin color 2
-
 $d = "\e[48;5;238m  ";  #dark gray
 $g = "\e[48;5;251m  ";  #light gray
 $e = "\e[41m  ";        #red
-
 $j = "\e[48;5;21m  ";   #blue
 $b = "\e[44m  ";        #blue jeans
-
 $y = "\e[48;5;11m  ";   #yellow
 $o = "\e[48;5;11m  ";   #yellow light
 

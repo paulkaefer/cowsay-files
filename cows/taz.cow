@@ -1,0 +1,63 @@
+# Taz (Looney Tunes)
+# sprite from Taz in Escape from Mars (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/escapefrommars/sheet/18640/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;172m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;223m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                      $a$x        $a          $x        $a$x
+                    $t                    $b$a$x  $a  $b          $a$x  $a$b$a$x
+                      $t                  $a$b$a$b$a      $b      $a  $b  $a  $x
+                        $t                  $a$b            $a  $b      $a  $x
+                          $t          $a$b  $a  $b  $a    $b  $a$b  $a            $x
+                                    $a$b$c$b  $a      $d  $a$b    $a$d  $a    $b$c$a$x
+                                    $a$c$e  $b  $a  $d      $a    $d      $a$b$c$e$a$x
+                                    $a  $b$c$b$a  $d          $a$d        $b  $e$a$x
+                                    $a            $d    $a$d  $b$d  $a$d  $b$a$b$a  $x
+                                  $a$b        $c$b$d        $a    $b$d$b$c  $e$c$b  $a$x
+                        $a  $x  $a$b  $b  $c            $b$a  $d$g$a$b  $e  $c$b$e  $b$a$x  $a    $x
+                      $a$b  $a  $b    $c$e              $c$b$a      $b$c$e      $b$a$c$b$a  $b    $a$x
+                    $a$b            $c$b$e                $c$b$a  $b$c$e            $a$b            $a$x
+                  $a$b  $a  $b          $c$e      $b    $c  $e      $c$b  $e      $b$c$b  $a    $b    $a$x
+                $a$b    $a$x$a    $b$a$b$e    $b$a        $b        $a    $b$e    $c$a    $x    $a$b    $a$x
+              $a$b    $a$x    $a$b    $c$e    $b$a$g  $a$g  $a$g  $a$g  $a$b$e      $b$a$x        $a$b    $a$x
+          $a  $b    $a$x      $a$b  $c    $e  $a  $g$d$a  $d$a$d$a  $d$g$a$b$e    $c$e$a$x          $a$b    $a$x
+        $a$b        $a$x      $a$b  $a$b$c$e  $a    $d$a            $d$a  $b$e  $c$b$a$x              $a$b    $a  $x
+      $a$b          $a$x      $a$b      $c$e  $b$a                        $b$e  $c$b$a$x              $a$b        $a$x
+    $a$b    $a$b      $a$x    $a$b      $c$e  $b$a                        $b$e  $c$b$a$x              $a$b          $a$x
+    $a$b  $a$b  $a$b    $a$x  $a$b      $c$e  $b$a  $h    $a    $h    $a  $b$e  $c$b$a$x            $a$b      $a$b    $a$x
+    $a$b$a$b    $a  $b  $a$x  $a$b        $e    $a$h        $a$h        $a$b$e  $c$b$a$x          $a$b    $a$b  $a$b  $a$x
+      $a$b    $a$x$a$b    $a$x$a  $b      $c$e  $a$h          $a$h      $a$b$e  $c$b$a$x          $a$b  $a  $b    $a$b$a$x
+      $a$b    $a$x  $a$b  $a$x  $a  $b    $c$e  $a$h          $a$h      $a$b$e$c  $a$x          $a$b    $a$x$a$b    $a$x
+      $a$b  $a$x      $a  $x      $a$b    $c$e  $b$a$h                $a  $b$e$c$b$a$x          $a$b  $a$x  $a$b    $a$x
+      $a$b  $a$x                    $a$b    $c$e$b$a$h              $a$d$b$e  $b$a$x              $a  $x      $a$b  $a$x
+      $a$b  $a$x                    $a$b    $c$e$b$a$h$a$h        $a  $d$g$e$c$b$a$x                          $a$b  $a$x
+        $a  $x                        $a$b    $e$b$a  $d$a$h$a$h  $d$a$g  $e$c$a$x                            $a$b  $a$x
+                                      $a$b    $c$e$a$g$d$a  $d$a  $g$a$b  $e$b$a$x                              $a  $x
+                                        $a$b  $c$e$a$g    $a$g  $b    $c$e$c$a$x
+                                        $a$b    $e  $b          $e        $b$a$x
+                                          $a$b  $e                  $c$e$c$a$x
+                              $b$x        $a$b  $e              $c  $e  $b$a$x
+                              $a$b  $a$x    $a$b$e  $c          $e    $c$a$x
+                                $a  $b  $a    $b$c$e                  $c$a  $x
+                                    $a  $b  $a$b$c$e                $c$b$a  $x
+                                        $a  $b      $c            $b        $a$x
+                                        $a$b                                  $a$x
+                                      $a$b      $a                      $b      $a$x
+                                      $a$b    $a$x                      $a$b    $a$x
+                                        $a  $b  $a$x                  $a$b  $a  $x
+                          $a        $x      $a$b  $a$x              $a$b  $a$x    $a          $x
+                        $a$b$a$b$a$b$a    $x  $a$b$a$x            $a$b  $a$x  $a  $b  $a$b$a$b$a$x
+                      $a$b$a$b$a$b        $a      $b$a$x        $a$b  $a      $b        $a$b$a$b$a$x
+                      $a$b$a$b$a$b                    $a$x    $a$b                      $a$b$a$b$a$x
+                      $a                                $x    $a                                  $x
+EOC

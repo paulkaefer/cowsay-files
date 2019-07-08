@@ -1,0 +1,71 @@
+# Lara Croft (Tomb Raider) - cropped
+# by Iceztiq - https://twitter.com/iceztiq/status/610389394185261056
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;244m  ";
+$c = "\e[48;5;248m  ";
+$d = "\e[48;5;238m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;237m  ";
+$h = "\e[48;5;189m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;80m  ";
+$k = "\e[48;5;239m  ";
+$l = "\e[48;5;69m  ";
+$m = "\e[48;5;65m  ";
+$n = "\e[48;5;60m  ";
+$o = "\e[48;5;101m  ";
+$p = "\e[48;5;227m  ";
+$q = "\e[48;5;94m  ";
+$r = "\e[48;5;137m  ";
+$s = "\e[48;5;245m  ";
+
+$the_cow = <<EOC
+          $t                              $a              $x
+            $t      $b  $c$x            $a                  $x
+              $t    $b$c  $x          $d$a      $d$e    $d  $x
+                $t  $b  $c$x          $d        $a$f      $d  $x
+                  $t$b$c  $x          $d        $a$f      $d  $x
+                    $b  $c$x          $d    $f$d$a$f$g$f  $d  $x
+                    $b  $c$x          $d    $f$d$a$f      $d  $x
+                    $b    $x            $d  $f  $a$f      $d  $x
+                    $b    $x            $g$d  $f  $a$f    $x$d$x
+                    $b    $c$x      $g  $x  $e$f          $x  $d$x                                      $h                    $x
+                    $b$i$e$c$x  $g  $x      $e      $x                                                $c$h  $c  $h  $c$h$c$h  $x
+                    $i$e$f  $d  $x        $g$e      $a$j$f      $x                                    $c                    $x
+                    $i$e$b$k$x        $f$d$e    $f  $a$f                                    $x      $k  $f$c    $x
+                    $b$c$b$k$x      $f$d$e$f      $j$e$a$f  $e    $f                              $i$k  $f$k$e$h$x
+                $d$g$b$c$i$x        $g$j$f    $j    $e$d$e                                        $i    $e  $c  $x
+            $d  $x  $b$c$e$x        $j                $e$g$x                                        $i$e  $x
+          $g  $x      $e  $f$x      $j                $l$g$x                                        $c    $x
+      $g  $x           $e $f $x     $j              $l$m$d$x
+  $g$d  $g$x            $e  $f $x   $l      $j    $l$m$g$d$x
+$g  $d  $x               $e$f    $x $e$m    $l    $m  $d$x
+$g  $d$x                  $e  $f    $e$m  $l$m      $d$x
+$g  $x                      $e  $f  $e  $m  $l    $m$x
+$g$x                          $e        $m  $l      $x
+  $g$x                            $e  $x$m  $l    $j  $x
+    $g$x                                $m$l  $j        $x
+                                        $l  $j            $x
+                                        $l$j          $n    $x
+                                      $i$l$j    $n    $k    $x
+                                      $i$o$p  $k      $d    $a$x
+                                      $d$q$o  $k$d    $a      $x
+                                     $i $g$a  $d$k  $a        $x
+                                    $i$g$d    $a  $d$k    $a$n    $x
+                                    $e  $d        $a    $d$i$k$n  $x
+                                    $e      $r    $x$f    $e$k$n  $x
+                                   $e         $r$x  $f      $e$k    $x
+                                  $e           $x    $f  $k$i$k$n  $x
+                                  $i     $e   $x      $k  $e  $k    $x
+                                  $s    $i    $x       $e$f  $e  $x
+                                  $e   $s    $x         $f        $x
+                                  $e        $x           $f        $x
+                                 $e         $x            $f        $x
+                                $e         $x              $f        $x
+                                $e        $x                $f        $x
+EOC

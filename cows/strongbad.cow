@@ -1,7 +1,7 @@
 # Strongbad (Homestar Runner)
-# by Charlie M
+# by Unknown - https://www.brik.co/blogs/pixel-art/strong-bad
 
-$x = "\e[m  ";         #reset color
+$x = "\e[49m  ";         #reset color
 $k = "\e[48;5;236m  "; #fake black
 $w = "\e[107m  ";      #white
 $r = "\e[48;5;1m  ";   #dark red

@@ -1,0 +1,69 @@
+# Amy Wong (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;222m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;221m  ";
+$g = "\e[48;5;11m  ";
+$h = "\e[48;5;203m  ";
+$i = "\e[48;5;217m  ";
+$j = "\e[48;5;224m  ";
+$k = "\e[48;5;153m  ";
+$l = "\e[48;5;255m  ";
+$m = "\e[48;5;231m  ";
+$n = "\e[48;5;178m  ";
+$o = "\e[48;5;65m  ";
+$p = "\e[48;5;179m  ";
+$q = "\e[48;5;229m  ";
+$r = "\e[48;5;113m  ";
+$s = "\e[48;5;139m  ";
+$u = "\e[48;5;175m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+            $a        $x
+          $a              $x        $a    $x
+        $a                      $b$a  $b    $x
+          $a              $b$a$b$a$b          $x
+        $a          $b$a$b$a    $b  $a$b      $x
+      $a          $b$a  $b$a  $b$a  $b        $x
+        $a        $b$a      $c  $d$a$b  $x
+          $a    $b$a  $e$a  $d    $a$b    $x
+        $a      $b$a  $c$d          $a$b  $x
+        $a      $b$a$c$d$a  $d    $b$a$b  $x
+          $a        $f$a$c$f$a$d$a$d$a$x
+              $a$e$c          $d$c$d$x
+                $c$e$c  $d    $c$d$c$x
+                    $c$d  $c$d        $x  $g$x
+                    $e$c$d  $c    $x              $g$x
+                    $e$c$d      $x      $g$x  $g$x
+                  $h$i$e$c$d$i$x
+                $h$i$j$i$e$c$j  $x    $k  $l      $m$x
+              $h  $i  $j      $i$j$x    $n  $g    $x
+            $h  $i$j  $i$j  $i$j    $x    $n$g  $x
+            $h$j  $i$j  $i  $j      $x    $c$k$x
+            $h$i$j$h$j    $i$j  $i$j      $c$d  $x
+          $h  $i  $h$i$b$o$c$j  $h$i$j    $c  $d$x
+          $h  $i    $c$d  $i$j  $h$i  $j  $c  $d$x
+            $h  $i$e$c$d  $j    $x        $k$l$m$x
+              $h$i$e$c$d  $i$j  $x
+                  $e$b  $o  $c$f$x
+                  $e$b$p$q  $d  $x
+                  $h$b$p$q  $d  $x
+                  $h$o$p  $q$j    $x
+                  $h$o$p  $q$h$j  $x
+                  $h$o  $r  $x$h$j  $x
+                $c    $d$x    $c  $d$x
+                $b  $s  $x    $b  $s$x
+                $b  $s$x      $b  $s$x
+                $b    $s  $x  $b    $s$u$x
+EOC

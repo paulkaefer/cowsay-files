@@ -1,0 +1,67 @@
+# Squirtle (Pokemon)
+# sprite from Pokemon Black & White (DS) - https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/36344/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;32m  ";
+$b = "\e[48;5;24m  ";
+$c = "\e[48;5;39m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;254m  ";
+$g = "\e[48;5;95m  ";
+$h = "\e[48;5;255m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;131m  ";
+$k = "\e[48;5;94m  ";
+$l = "\e[48;5;130m  ";
+$m = "\e[48;5;186m  ";
+$n = "\e[48;5;229m  ";
+$o = "\e[48;5;52m  ";
+$p = "\e[48;5;238m  ";
+$q = "\e[48;5;38m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                            $a      $b  $x
+                        $a  $c          $b  $x
+                      $a$c                  $b$x
+                    $b$c                      $b$x
+                  $b$c                          $b$x
+                  $b$c            $a$c          $b$x
+                $b$a$c          $a$c$a    $c    $a$b$x
+                $b$d$c            $a$e$f  $a$c$a  $e$x
+                $b$g$a$c          $e    $f$b$a    $e$x
+                $b$e$a$c          $e  $g$d$b$a    $e$x
+                $b$e$c            $h$e$g$d$b$a    $e$x
+              $b$c                $g$e$g$d$a      $e$x
+              $e$c  $a$c$a$c          $a          $e$x
+                $e$b$c              $a  $b$a    $e$x$b$a$b    $x
+        $a$x$a$x  $e  $c  $a$b        $i  $a    $b$a  $c  $a  $e$x
+        $b$c$a$b$e  $a$e  $i$j      $i  $a    $e$a$c    $b$a$e$x
+      $a$c      $a  $e$a  $i        $a    $b$e$b$c    $b  $a$e$x
+      $b$c            $e$b$a          $e  $k$d$a$c    $a  $e$x
+        $b$a$c        $a  $b$e        $l    $b$c  $a      $e$x
+          $b$a          $k$l$m      $l    $b$a$c  $a  $b$e$x
+            $b  $a    $k  $m      $k      $b$a        $e$x        $b      $x
+                $e  $a$k$n$k      $l$m    $k$b$a    $e$o$x    $b  $a$c  $a$b$x
+                    $k$n  $m$l$n      $m  $k$l$e    $l  $o$x$b$a$c        $a$b$x
+                    $k$n    $l$n      $m$l    $o$d  $l  $o$b$a$c            $b$x
+                    $k$n    $l$n      $m$k$m$l$o$d  $l  $e$a    $c  $b  $c  $a$e$x
+                    $k  $m$n$k$n    $m$k$m  $l  $d  $l$e$o$a    $c$b$c  $b$c$a$e$x
+                    $k$n$l$k    $l  $k  $m    $k$l$d  $l$o$a    $b$a$c    $a  $e$x
+                  $a$k$n    $k$n    $m$l$k$m  $k$o$d  $l$o$a    $e$a        $e$x
+                $a  $k$m$n  $l$n      $m$l$k$l$a  $b$d$l$e$a    $e$a        $e$x
+              $a  $c  $k$m  $l$m$n    $m$l  $a$c  $a$b$d$e$a      $e$a    $e$x
+              $a$c    $b$k      $l        $a$c      $a$b$a          $e    $x
+              $a$c      $b$k$l  $k      $l$b$c      $a$b$a      $e    $x
+              $b$a$c  $a  $b$k  $l      $p$b$a$c  $a    $e      $x
+                $e$a          $e$k  $e      $a          $e$x
+                $b$a        $e  $x          $b$a        $e$x
+              $b$c$a$b$c$a$e  $x            $e$a          $e$x
+                $e  $x$e  $x                $e$b$a$e$q$b$e  $x
+EOC

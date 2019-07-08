@@ -1,0 +1,64 @@
+# Yoda - true color
+# by Z-Studios - https://www.deviantart.com/z-studios/art/Form-IV-Ataru-Yoda-combo-681176531
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;80;210;88m  ";
+$b = "\e[48;2;55;182;69m  ";
+$c = "\e[48;2;189;230;185m  ";
+$d = "\e[48;2;253;255;251m  ";
+$e = "\e[48;2;104;163;67m  ";
+$f = "\e[48;2;151;163;144m  ";
+$g = "\e[48;2;87;140;53m  ";
+$h = "\e[48;2;62;110;39m  ";
+$i = "\e[48;2;186;197;179m  ";
+$j = "\e[48;2;111;150;91m  ";
+$k = "\e[48;2;37;75;21m  ";
+$l = "\e[48;2;23;56;9m  ";
+$m = "\e[48;2;27;28;26m  ";
+$n = "\e[48;2;131;141;124m  ";
+$o = "\e[48;2;46;24;20m  ";
+$p = "\e[48;2;85;95;79m  ";
+$q = "\e[48;2;73;74;83m  ";
+
+$the_cow = <<EOC
+               $t
+                $t
+        $a  $x   $t
+      $b$c$d$a$x  $t
+      $b$c$d$a$x   $t
+      $b$c$d$a$x    $t
+      $b$c$d$a$x     $t
+        $b$c$a$x      $t
+        $b$c$d$a$x     $t
+        $b$c$d$a$x      $t
+        $b$c$d$a$x       $t
+          $b$c$a$x        $t
+          $b$c$d$a$x
+          $b$c$d$a$x    $e    $x
+          $b$c$d$a$x$f$g  $e    $f$x  $e$g$x
+          $b$c$d$a$g$h$i$j$g$e    $g  $k$x
+            $b$c$a$k$h$f$g  $e  $g$l$k$x
+            $b$c$d$a$k$g$h$m$h  $m$k  $x
+            $b$c$d$a$k$g    $e  $g$x
+            $b$c$d$a$k$h$g$e    $g$x
+              $a    $f$k$h$g    $m$i$x
+              $f$d$i$m  $k  $m  $n$f$i$x
+              $g$e  $d$m$o  $m$f$i$n$i$x
+              $g$e$h$i$m    $i$d  $i$n$x
+              $h      $d    $f$d$i  $x
+              $i$e  $g$i$d$i      $f$x
+              $n$h  $g$p$i$f$i$f$n$f$x
+              $n$e  $g$p$f$n      $f$x
+                  $n$p  $f$n$p$n$i$f$x
+                  $n$p  $n$p$n  $f$i$x
+                    $f$m$o$n    $f$i$x
+                    $f$m$o$n$f  $n$i  $x
+                    $n$m$o$n$f    $i  $x
+                    $n$m$o$n$f$i$f$i  $x
+                  $f$n$m$o$n$f$i      $x
+                  $f$m    $n$f  $i      $x
+                  $n$k$p    $f    $i    $x
+                $g$h$g  $k$q  $k$g$h$k$g$x
+EOC

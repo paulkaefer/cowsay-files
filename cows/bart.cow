@@ -1,0 +1,72 @@
+# Bart Simpson (The Simpsons)
+# by PXLFLX - https://www.youtube.com/watch?v=J22mLMF8p94
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;229m  ";
+$e = "\e[48;5;252m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;1m  ";
+$h = "\e[48;5;202m  ";
+$i = "\e[48;5;216m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t              $a$x    $a$x  $a$x  $a$x  $a$x
+                $t      $a$x  $a  $x$a  $x$a  $x$a  $x$a  $x
+                  $a$x  $a  $x$a$b$a$b$c$a$b$c$a$b$c$a$d$a$x
+            $a$x  $a  $x$a$b$a$b$c$b$c  $b$c  $b$c    $d$a$x
+        $a$x$a  $x$a$b$a  $c$b$c                      $d$a$x
+        $a    $b$a  $c$b$c                            $d$a$x
+        $a$b$a$b    $c                                $d$a$x
+        $a$b        $c                                $d$a$x
+          $a$b      $c                                $d$a$x
+          $a$b        $c                              $d$a$x
+          $a$b        $c                              $d$a$x
+            $a$b      $c                              $d$a$x
+            $a$b      $c                              $d$a$x
+            $a$b      $c                              $d$a$x
+            $a$b        $c                              $d$a$x
+            $a$b        $c                              $d$a$x
+            $a$b        $c                                $d$a$x
+              $a$b      $c      $a          $c  $a            $x
+              $a$b      $c  $a  $e$f        $a  $e    $f    $a$x
+              $a$b    $c  $a$e  $f            $a$e  $f        $a$x
+              $a$b    $c  $a$e  $f            $a$e$f          $a$x
+              $a$b    $c$a$e  $f                $a$f            $a$x
+              $a$b    $c$a$e  $f  $a  $f        $a$f$a  $f      $a$x
+                $a$b  $c$a$e  $f  $a  $f        $a$f$a  $f      $a$x
+                $a$b  $c$a$e  $f                $a$f          $a$x
+                $a$b  $c  $a$e$f              $a$e  $a      $f$a$x
+                $a$b    $c$a$e  $f            $a    $d      $a$x
+              $a    $b  $c  $a  $e$f      $a  $d    $c      $a$x
+            $a$c    $b  $c      $a        $c              $a  $x
+            $a$c$a  $b  $c                        $b$a    $b$a$x
+            $a$c$a$b    $c                          $b    $c$a$x
+              $a$c  $b  $c                                $d$a$x
+                $a  $b  $c                                $d$a$x
+                $a$b  $c                                    $d$a$x
+                $a$b  $c  $a$c                              $d$a$x
+                $a$b  $c  $b$a  $c                        $d$a$x
+                $a$b  $c    $b  $a                          $x
+                $a$b  $c        $b            $a  $x
+                $a$b  $c              $a      $x
+              $a  $b  $c            $a$x
+            $a$g  $a$b  $c          $a$x
+            $a    $g$a  $c          $a$x
+          $a$g  $h$a$g  $a              $x
+        $a$g  $h    $a$g$h        $i$a$h$a$x
+        $a$g  $h    $i$a$g$h        $i$a$h$a$x
+      $a$g    $h      $i$a$g$h        $i$a$h$a$x
+      $a$g    $h      $i$a$g$h        $i$a$h$a$x
+      $a$g    $h      $i$a$g$h        $i$a$h  $a$x
+    $a$g        $h      $i$a$g$h        $i$a$h$a$x
+    $a$g  $a        $g$h$i$a$g$h        $i$a$h$a$x
+    $a$g$a$b        $a$h$i$a$g$h        $i$a    $x
+      $a$b$c        $b$a$h$a$g$h        $i$a  $x
+EOC

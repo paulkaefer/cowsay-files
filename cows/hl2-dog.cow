@@ -1,0 +1,61 @@
+# Dog (Half Life 2)
+# by /u/mkmcPixels - https://www.reddit.com/r/HalfLife/comments/avgaxh/collection_of_16bit_style_half_life_2_sprites/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;103m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;181m  ";
+$g = "\e[48;5;179m  ";
+$h = "\e[48;5;60m  ";
+$i = "\e[48;5;9m  ";
+
+$the_cow = <<EOC
+            $t                $a$b$c$x
+              $t              $a$b$c  $x
+                $t          $a  $b$c  $d$x
+                  $t      $a$e$c$b$c  $e$d  $f  $x
+                      $a  $e$c$g$b$c    $e$d  $f  $x
+                    $a$e  $g    $b$c      $e$d  $f  $x
+                  $a$e  $g  $c$e$b  $c  $g  $e  $d$f$x
+                $a$e    $g$c$e$h$b      $g    $c$e$x
+              $a$e    $g  $e$h$e$b$f    $e$g    $c$x  $d$f$x
+            $a$h$e    $g  $e$h$e$f$d$e$d$f$e$g    $x  $d$f  $x
+            $a$h  $e  $g$c$e$h$e$f$e    $f$e$g    $e$x$d$f    $x
+          $a$h$e$h$e  $c  $e$h$e$f$d$e$d$f$e$c$g  $e  $d$f      $x
+          $a$h  $e      $c  $e$h$b$f    $e$c    $e  $d  $f      $x
+          $a$h      $e  $c    $e$b        $c  $g$e  $d    $f  $e$d$x
+            $a$h        $e$c    $b    $c    $g  $e            $d$i  $x
+          $a$e  $h        $e$c    $b$c      $g  $x$d        $e$d$i  $x
+          $a$h  $e  $h      $e$c  $b$c    $g  $x  $d    $f    $e$d$x
+          $a$h      $e            $b$c    $x$e$x  $e$d$f        $x
+            $e  $h    $x    $e    $b$c    $x$e$x$e$x$d$f      $x
+          $a$h  $e  $d  $x        $a$b$c  $x  $e$x    $d$f$x
+          $a$h      $e  $x        $a$b$c    $x
+            $a$h        $d$x      $a$b$c    $x
+            $a$e$h    $d  $x        $a$b$c  $x
+            $a$e        $x    $a$b  $e  $c    $x
+            $a$e$h      $d$x  $a$b      $e  $c$x
+          $a$d$e$d$h    $d$x  $a$b    $f$b  $e$x
+          $a$d$e$d$e$h$d  $x    $a$b$f$e$f$c  $x
+          $a$d$e$d$e  $h$e$x      $a$b$f$c$b$c  $x
+            $e              $x      $a$b$c  $b$c  $x
+          $a$g$e$h$d$e    $h$e$x      $a$b$c  $b$c  $x
+          $a$g$e$h  $d$e$h$e$h$e$x      $a$b$c  $b$c    $x
+            $a$g$e$h$d$e  $h$e$h$e$x      $a$b$c  $b$c    $x
+              $a$e$h$d  $e  $h$e$h$x        $a$b$c  $b$c    $x
+              $a$f$e          $h$e$x          $a$b$c  $b$c  $e$b$c  $x
+            $a$g$e$f  $a$e  $h$e$h$x            $a$b  $c$b$e$b$c    $x
+          $a$g  $e    $x$a$e  $h$e$x              $a$b    $e$b$c    $x
+          $a$g$e$d$x    $a$e$h$e$x                  $a$b    $e        $x
+          $a$e$h$d$x    $a$e$h  $x                    $a$e  $h$f  $e$h$f$x
+        $a$e      $x      $a$e    $x                  $a$h$e  $h$f  $e$h$f$x
+      $a$h$f$e$h$d$e$g$e$g$e  $h  $e$f$e$f$x          $a$h$e      $f  $e$f  $x
+      $a$h$f$e$h$d$e$g  $e$g$e$h  $e$f  $e$f$x        $a$h$f$e    $h  $e$h  $x
+        $a$f$e  $h$d$e$g  $e$g$e$h  $e$f  $e$f$x      $a$h$f$e              $x
+                                                          $h$f$e$h$f  $e$h$f$x
+EOC

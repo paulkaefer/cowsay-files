@@ -1,0 +1,63 @@
+# Statue of Liberty
+# by Unknown - https://www.pinterest.com/pin/166844361179487967/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;222m  ";
+$b = "\e[48;5;179m  ";
+$c = "\e[48;5;84m  ";
+$d = "\e[48;5;35m  ";
+$e = "\e[48;5;78m  ";
+$f = "\e[48;5;29m  ";
+
+$the_cow = <<EOC
+                 $t
+        $a$x      $t
+        $a$x       $t
+      $b$a$x        $t
+    $b$a  $b$x       $t
+    $a$b  $a$x        $t
+  $c          $x       $t
+    $d      $x          $t
+      $e  $x
+    $c  $e$c$x                      $c$x
+    $c  $e$c$x            $e$x      $c$x      $e$x
+    $c$e$d$c$x            $e$c$x  $c  $e$x$c  $d$x
+      $d    $x              $d$e$x$d$e  $c  $d$x
+      $e  $d$x      $d$e    $d  $e$d          $e  $x
+      $e  $d$x          $d  $c          $e  $d  $e  $d$x
+      $e  $d$x              $d$f            $d$x
+      $e    $d$x              $f    $e$f    $x
+        $e  $d$x              $f  $e$c$e$f  $x
+        $e    $d$x            $f$e$c    $e$f$x
+        $e    $d$x            $d$c$f$c$f$e$d$x
+          $e    $d  $x        $d$e  $c$e$f$d$x
+          $e        $c      $d  $f$e$c$e$f      $x
+            $e      $c  $e      $d$f$d$f    $e$f$d$x
+            $e    $d$c$e          $d$f    $c    $e$d$x
+          $d$f  $d$c$e    $d$e  $c$e      $c$f$c$e$d$x
+          $d$f  $c  $e                    $c$f$c$e$d$x
+          $c$f$c$e      $d$e    $c$e      $c$f$c$e  $d$x
+              $e      $d  $e  $c$e      $c$f  $c$e  $d$x
+              $e    $d  $e    $c$e      $c$f  $c$e  $d$x
+                $e$d    $e$d  $c$e    $c$d$f  $c$e  $d$x
+                  $d        $c$e    $c$d  $f  $c$e  $d$x
+                  $d      $c$e    $c$d    $f$e$c$e  $d$x    $c$x
+                  $d    $c$e    $c$e$d$f$d$f$d$c$e  $d$e$x$e$c  $x
+                  $d  $c$e    $c$e$d  $f$d$f$d$c$e  $d$e$d$c      $x
+                  $d$e      $c$e$d$e$d$f$d$e$d$c$e  $d    $c    $e  $x
+                  $d$e    $c$e$d  $e$c$f$d$e$d$c$e  $d  $c      $e  $x
+                  $d$e  $c$e$d  $e$c$d$f$e    $c$e  $d$e$c$e$d  $e$x
+                  $e$c  $e$d  $e  $c$d$f$e  $d$c$e  $d$e$c$f$e$d$x
+                $e$c$e  $d  $e    $c$d$f$e  $d$c$e  $d$e$c$f  $d$x
+                $d$e$f$d  $e    $c$d  $e  $d$c  $e  $d      $x
+                $d$f  $d$e      $c$d  $e    $c$e    $d  $x
+                  $d    $e      $c$d$e    $d$c$e    $d$x
+                  $e$d$e      $c$d  $e$c$e  $c$e    $d$x
+                  $e$d$e    $c$d    $e    $d$c$e    $d$x
+                  $e        $c$d    $e    $d$c$e    $d$x
+                  $e        $d$e    $c$e  $d$c$e    $d$x
+                  $e      $c$d$e$d  $c$e    $c$e    $d$x
+                  $e    $c$d$e      $c$e    $c$e    $d$x
+EOC

@@ -1,8 +1,8 @@
 # Mr. Meeseeks!
-# by Charlie M
+# by Unknown - https://www.pngkey.com/detail/u2q8o0e6a9t4t4w7_rick-and-morty-perler-bead-pattern-mr-meeseeks/
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #fake black
 $l = "\e[48;5;14m  ";   #light blue
 $w = "\e[107m  ";       #white

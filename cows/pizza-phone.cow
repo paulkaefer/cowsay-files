@@ -1,0 +1,86 @@
+# Pizza slice w/ phone (Rick and Morty)
+# by PixelArtus - https://www.pinterest.com/pin/142004194481405011/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;131m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;222m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;232m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;215m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;233m  ";
+$j = "\e[48;5;161m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;244m  ";
+$m = "\e[48;5;101m  ";
+$n = "\e[48;5;187m  ";
+$o = "\e[48;5;144m  ";
+$p = "\e[48;5;230m  ";
+$q = "\e[48;5;223m  ";
+$r = "\e[48;5;229m  ";
+$s = "\e[48;5;137m  ";
+$u = "\e[48;5;231m  ";
+$v = "\e[48;5;180m  ";
+$w = "\e[48;5;238m  ";
+$y = "\e[48;5;138m  ";
+$z = "\e[48;5;240m  ";
+$A = "\e[48;5;243m  ";
+$B = "\e[48;5;234m  ";
+$C = "\e[48;5;179m  ";
+$D = "\e[48;5;216m  ";
+
+$the_cow = <<EOC
+              $t                            $a$b  $x
+                $t                        $a$c  $d$b$e$x
+                  $t                      $a$c    $d$f$x
+                    $t                    $a$c    $g$a$h$x
+                      $t                  $a$c      $d$a$i$x
+                                          $a$c        $d$a$e$x
+                                        $e$a$c$j  $c    $d$k$e$x
+                                        $a$c$j      $c    $d$a$x
+                              $l$m$l  $x$a$c$j      $c      $a$x
+                            $l$n      $l$a$c  $j  $c  $j  $c$d$b$x
+                      $a    $o  $n$p  $l$a$c          $j  $c$d$k$x
+                    $a$q$c  $a$o$p    $a$c                    $d$b$x
+                  $a$q$r$c  $a$p    $s$c$p    $c    $p    $c  $d$k$x
+                  $a$c    $s  $p  $o$a$p$f$u  $p$c$p$f$u  $p$c$d$a$x
+                  $a$c$d$v  $n  $o$w$a$u$f$u    $c$u$f$u    $c$d$k$x
+                  $a$v$a$y$p  $o$z$x$a$u        $c$u        $c$d$a$x
+                  $a  $o$n$p$n$A$x$i$a$u        $c$u        $c$d$a$e$x
+                    $l$o$p  $l$x  $a$c$u        $c$p$u      $c  $d$k$e$x
+                    $l$o$p  $m$x  $a$c  $u    $c    $u    $c    $d$k$e$x
+                    $l$o$p  $l$x  $a$c                    $r$c  $d$k$e$x
+                    $l$m$A  $x  $a$c        $k$u      $b$c      $d$a      $B$x
+                      $a$c$r$a    $c$j  $c  $k    $a$b$k$c      $a$c      $a$e$x
+                      $e$s$c  $q$d$a$j  $c    $k    $a$c        $a      $c  $a$B$x
+                        $B$a  $s$c$j    $c    $C    $c    $d$c  $d$a  $B$a$c  $a$x
+                          $b$a$d$c$j    $c                $j$D$c$d$j$a$x$a$c  $a$e$x
+                          $i$d$c    $j$c                $j    $c$d$j$a$x$e$a$r$d$B$x
+                        $e$a$c                $j    $c  $j    $c$d$j$k$x  $a$r$c$a$x
+                      $a  $c    $j  $c      $j        $c  $j$c  $d$a  $x  $a$q$c$a$x
+                $a    $c$r$c  $j      $c  $j          $c      $d  $a  $e$a$q$r$c$a$x
+      $e$a      $c          $j        $c  $j        $c$r$c    $d  $k$e$a$q$r  $c$a$x
+      $a$q    $d    $c      $j        $c    $j    $c          $d$a$k$e$a$q$r$c  $a$x
+    $k$q            $d  $c    $j    $c                      $d  $a$k$x$e$a$c  $d$e$x
+    $k$d$q            $D$d    $c                          $C$d  $a$k$x  $B$a$d$k$x
+    $k$d$D  $q          $D                          $d    $a      $k$e$x  $B$h$e$x
+    $k$a$d  $D  $q            $D                  $q$d$a          $x
+      $k$a  $d    $q                                $v$a        $k$x
+        $k  $a    $d      $q                      $v$a$d    $k$a$e$x
+            $k    $a    $d          $q            $a$d      $k  $e$x
+                  $k    $a  $d                    $a$d      $k$x
+                        $k    $a            $d    $a$d    $a$k$x
+                            $k              $a          $d$k$e$x
+                          $k$d$k$x      $a$d$k            $x
+                          $k$c$k$x      $a$c$k$x    $e$x
+                          $k$c$a$x      $a$c$k$x$e$x
+                          $k$c$a$x      $a$c$k$x
+                          $k$c$a$x      $a$c$k$x
+                        $k$c  $k$x      $k$c$k    $x
+                      $k$c    $k$x        $k$c    $k$x
+                        $k    $x            $k      $x
+EOC

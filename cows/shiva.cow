@@ -1,0 +1,75 @@
+# Shiva "The Destroyer"
+# by unknown - https://www.pinterest.com/pin/361836151306516330/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;101m  ";
+$b = "\e[48;5;195m  ";
+$c = "\e[48;5;240m  ";
+$d = "\e[48;5;36m  ";
+$e = "\e[48;5;121m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;253m  ";
+$h = "\e[48;5;247m  ";
+$i = "\e[48;5;178m  ";
+$j = "\e[48;5;94m  ";
+$k = "\e[48;5;30m  ";
+$l = "\e[48;5;125m  ";
+$m = "\e[48;5;227m  ";
+$n = "\e[48;5;197m  ";
+$o = "\e[48;5;53m  ";
+$p = "\e[48;5;131m  ";
+$q = "\e[48;5;173m  ";
+$r = "\e[48;5;232m  ";
+$s = "\e[48;5;233m  ";
+$u = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+            $t                                                      $a$x
+              $t              $b$x                                $c$a$x$c$x
+                $t          $b$d$e$x                              $a$f$c$x
+                  $t    $b$d    $x$e$x                            $f    $c  $x
+                    $t    $b$d    $e$x      $g$x$g$x            $f$a$f    $x
+                          $d    $x        $g  $x$g  $x          $f$a  $x  $f$x
+                        $e$d  $x          $g  $h$g  $x          $i$f$a$j$x
+                        $d  $x          $h$g    $h$g$h$x        $f$i$f$x$j$x
+                        $e$d$x        $g  $h$g  $a$c$h$x$h$x    $i$f$i  $j$x
+                      $e  $d$x          $g  $a      $c$h  $x  $c  $i$f$x$j$x
+                      $e  $d$e$x          $g  $a    $c$h$x    $c    $i  $j$x
+                    $e$d$e$k$e$x            $f$e$f$c$f$x        $f    $c$x
+                    $e$d$k  $d$x            $c    $g$h$x        $c  $f  $x
+                      $d    $e    $x        $f$a$g$a$c$x    $c      $f$x        $e$x
+    $b$x                $d  $e    $d  $x$j$c  $f$g$a$c$j  $c$f$c  $f  $x      $d$e$x
+    $d$b$x                  $d    $k$d$i$j$c    $f    $l$i  $c$f    $x        $d$k  $x
+  $e$d$e$x                      $d$k  $i$m  $c  $f    $l$j$i$c$f  $k$d  $x  $k    $e$x
+  $d      $b$x              $e  $d  $a  $m$i$j$a  $c  $l$j  $f  $k$d  $k    $e$k$d$e$x
+  $e$d  $b$x    $d$e  $x  $e  $d$k$a    $c$j$m  $a$c  $n$i  $f$k            $d$k  $x
+    $e$d  $e  $d  $e    $d  $k    $a    $c  $m$i$j$m  $j  $i$f$x  $k$d$x
+        $d  $k  $e$d$e  $d  $x$d  $c      $f  $c  $m$i$l$n$l$k$x
+                  $e$d  $x      $c$a  $f    $c$a$c$n      $l$d$x
+                                $a    $f$l$f$a$c$n$l$n  $l$k$d  $x
+                                $a  $f$x  $l$n  $l$o$l$o  $k$d    $x
+                            $c    $f  $x    $p    $o    $p$x$k    $e$x
+            $c$x        $i$m$c$f$a  $x      $p  $q    $p  $x  $e  $d$e$x
+              $c  $x$a$i$m$f$m$f$a$c$x      $l  $q    $p  $l$x$k$e  $d$k  $e  $x
+                $f  $a$f  $m$f$m$f$x      $l  $n$l  $n$o$l$o$x    $k$d  $k$e$k$e$x
+                $a$f$a$f$c$m$f$i$x      $n    $l$n$l$n$o$l  $x          $k  $e$k$d$x
+            $a$c$f    $c$x$i$x$i$x    $n    $l  $n$r$s  $l  $o$x$a  $x    $k    $d$x
+                    $j$x$j$i$j$x      $n  $l  $n  $s    $r$l$j$i$a      $x  $d$x$d$x
+                      $j  $x        $l    $a  $m$c  $f$r$c      $i$c  $a$c$a$x
+                                  $u    $a    $c$m$c  $a    $c  $i$r    $a$x
+                                  $u    $c$a$c$f$m$f  $a  $f  $j$s    $r$s  $x
+                                  $s    $a$c$f$i$c    $f        $r      $s  $x
+                                  $u  $s$a$c$a$f$c  $o        $x  $r$s  $r$x
+                                    $u$s$f      $o            $x
+                                    $l$o                    $l$x
+                                    $l$o                    $l$x
+                                    $n$l$o                  $l$x
+                                    $n  $o                  $l$x
+                                    $n  $o                  $l$x
+                                    $n  $o                  $l$x
+                                      $n  $o                  $l$x
+                                      $n  $o      $l$o        $l$x
+                                        $n$o      $l$x
+EOC

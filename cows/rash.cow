@@ -1,0 +1,77 @@
+# Rash (Battletoads)
+# sprite from Battletoads (Arcade) - https://www.spriters-resource.com/arcade/battletoads/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;22m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;185m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;28m  ";
+$h = "\e[48;5;34m  ";
+$i = "\e[48;5;40m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;254m  ";
+$l = "\e[48;5;244m  ";
+$m = "\e[48;5;235m  ";
+$n = "\e[48;5;109m  ";
+$o = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+                          $t
+                            $t
+                              $t
+                                $t
+
+                                    $a  $b    $a          $x
+                          $a        $c$d$e  $f$b$a    $c$g$a$x
+                  $a    $c  $a$c$g$h$d$e        $f$b$a        $x
+                $a$i  $g$c$a$c  $h  $d$f  $j    $f$e$b$a$k$a    $x
+              $a$g$i$h  $g$c$a$c$h$g$b$f  $j$k  $j$d$f$a  $l$a$h$c$m    $a$x
+          $a    $c$h  $g  $c        $a$d$e$f$j  $l$j$d$f$a  $b$h$g$c$i$h$c$a    $x  $a      $x
+        $a$c$g$c$a$c      $m$c    $a  $b$d$e  $f$d  $b$d$f$d  $b$c  $h  $g$m$h  $g$a$i  $h  $a$x
+      $a$c$i$h$g$c$a$m    $a$c    $a    $b$d  $f    $d$b        $c  $g  $c$m$c$g$h  $g$h$g$c  $a$x
+      $a$i    $h  $g$a    $m$a$m$a          $b$d    $f$e$f$d$a$c        $m$a$m$c    $h$c$a      $x
+      $a$c$h$i    $h$g$c$a          $b      $a  $b$d    $b$a  $m$c$a$m  $a$m      $a$h$a$x
+      $a$m$c$g$h$i  $h$g$c$g$h  $i$a$b$d    $b  $a  $b  $a$m    $a                  $c$a$x
+        $a$m    $c            $i$g$c$a$d$f    $d$b  $a          $x                  $a  $x
+          $a              $c$i$g$h$c$a$f      $d$f  $d  $a$x
+                        $a$c$g$c$h$c$a$f      $d$f  $d  $a$x
+                          $a    $h$a$b$d    $b  $d    $b$a$x
+                            $a$i$h$a  $b      $a$b    $a$x
+                            $a    $c$a        $b$a    $x
+                              $a  $c$b$f  $d$b  $a$x
+                              $m$a$c$b$f$d  $b$a      $x
+                          $a$m$g  $c$a$b$f$d$a  $m  $a    $x
+                      $a$c$i    $g$c$a$b$f$b$a$m$c    $m$a  $x
+                  $a  $i    $h$g$c$m$a$b$d$b$a$m$g$h$g  $c$m$a$x
+                $a$h$i  $g    $c  $m$a$b$d$a  $c$g  $h    $g$m$a  $x
+              $a$h$g        $c  $m  $a  $b$a$m$c  $g    $h  $g  $m$a$x
+            $a$g$c$m$g$c  $m  $c$a          $m    $c  $g    $c$g  $m$a$x
+          $j$l$k  $a$m    $a  $m  $a            $m  $c      $g  $k        $a$x
+        $a        $k$a            $x          $a  $m          $l$j  $a  $j$k$a$x
+      $a$j$a        $l$a    $x                    $a  $m    $l$j$a    $n$k$j$a$x
+      $a              $j$a$x                          $a    $l$a$n$o$a$o$n$a  $x
+      $a$n  $a$n  $a  $k$a$x                              $a$m$a$k$n$a          $x
+      $a$n$k$a$n$k$a  $l$g$a$x                              $a    $j$k  $l  $j$a$x
+        $a          $k$a$g$a$x                              $a  $j$k$m  $g$m  $a$x
+        $a  $j$l$k  $a$h  $a$x                                $a$l$m$g$h  $i$c$m$a$x
+          $a        $g$h$i$a$x                                  $a$m$g  $h$i$h$c$a$x
+              $a$m$c$g$h$i$a$x                                    $a$m$g$h  $i$g$a$x
+                $a$m$c$g$h$g$a$x                                    $a$c$g$h$i$h$a$x
+                  $a$m$g$h  $a$x                                      $a$m$g$h$i$a$x
+                    $a$m$g$h$a$x                                        $a$c$h$i$a$x
+                      $a$c$h$a$x                                          $a$c$h$c$a$x
+                        $m$h$a  $x                                          $a$h$g$a$x
+                        $a$c  $a$x                                          $a$h  $a$x
+                    $a  $c  $h$c$a$x                                        $a$c$i$g$a$x
+          $a        $h  $g$h  $c$a$x                                      $a$c$g$i$h$g$a$x
+        $a$h$a$h  $g$a  $h$g$m$a$x                                      $a$h  $a$i$m$g$h$a$x
+      $a$h$a$h$c$a  $i  $c$m$a$x                                      $a$h  $a$g$i$c$a$h  $a$x
+      $a$g$a$g  $a$i$g$c$m$a$x                                        $a$g  $a$g$h$c$a$g$h$a$x
+        $a      $g    $m$a$x                                            $a    $c  $m$a$m  $a$x
+                $a      $x                                                    $a          $x
+EOC

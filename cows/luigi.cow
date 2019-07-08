@@ -1,0 +1,57 @@
+# Luigi
+# sprite from Super Mario World (SNES) - https://www.spriters-resource.com/snes/supermarioallstarssupermarioworld/sheet/53666/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;29m  ";
+$b = "\e[48;5;115m  ";
+$c = "\e[48;5;178m  ";
+$d = "\e[48;5;72m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;239m  ";
+$k = "\e[48;5;55m  ";
+$l = "\e[48;5;98m  ";
+$m = "\e[48;5;141m  ";
+$n = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t
+            $t    $a      $x
+                $a$b  $c$b$a$x
+              $a$b  $d$c  $a$x
+            $a$b$d  $e$f        $x
+          $a$b$d  $f              $x
+          $a$d  $f  $g  $h$g$f  $x
+        $a$d  $f  $h$g$f$i$f$x
+        $j$i  $f  $i$g$f$i$f$x
+        $j$h$i$f  $i            $j$x
+        $j$h$i$f    $i$f$h$i  $h$j$x
+          $j$h  $f$i$f    $h  $f    $x
+          $f$j$h  $i    $f      $x
+          $f$j$h  $i      $h$j$x
+              $j$h  $i  $h$j$x
+            $a  $j$h    $j$x
+        $a$d    $k$j    $k  $x$j    $x
+      $a$d  $b$d$a$l$k$d$b$k  $g    $j$x
+      $a$d$b  $j    $l$k$d$b$k  $g  $j$x
+      $a$d$b$j$c$g  $j$k$d$b  $k$c  $j$x
+      $a$d$j$c  $g    $j$k$d  $k  $j$x
+        $a$j$c    $g  $j$g$k  $g$k$x
+          $a$j$c    $j$g  $m  $g$k$x
+            $k$j    $l$m      $l$f  $x
+          $f$k  $l  $m      $l$f$c$e$f$x
+        $f$n$k$l$m$k$l      $f$c$e$n$f$x
+      $f  $n$k$m$l  $k    $l$f$e  $f  $x
+      $f$n  $k$l    $k$x  $k$f$e$n$f  $x
+      $f$e$n$k$l$k  $x      $f$n$f  $x
+      $f$c$e$k  $x            $f    $x
+        $f  $x
+
+EOC

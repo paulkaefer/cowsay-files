@@ -1,0 +1,37 @@
+# Abu (Aladdin)
+# sprite from Aladdin (SNES) - https://www.spriters-resource.com/snes/aladdin/sheet/33/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;130m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;215m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t              $a    $x
+                $t          $a$b    $a$x
+                  $t$c  $a  $b  $d  $b$a$x
+                  $c  $a$b    $a  $b$d$a  $x
+                  $c$a$b$d$e  $b$e$a$d$b$a$x
+      $a$b  $a$x    $a$b$d$e$f$d$f$x$b$a$x
+    $a$b$a  $b$a$x$a$d$b$d$e$f$d$f$x$a$x
+    $b$a$x  $a$b$x$a$d$b$d$e  $d$e$x
+    $b$a$x  $a$b$x  $a  $d$b$d  $a  $x
+            $a$b$x      $a$b  $d  $b$a$x
+            $a$b$x      $a          $x
+          $a$b$a$x    $a$b$a$d$a$x
+          $a$b$x    $a  $b$a$d$a  $x
+          $a$b$x    $a  $d$b$a$b$a$x
+          $a$b$x    $a  $d  $a$d$a$x
+          $a$b$a$x$a$b$a$d  $a$d$a    $x
+            $a$b$a$b  $a$b$d$a$d$a$b$a$x
+              $a  $b  $a  $d$a$b$a$b$a$x
+                  $a$b$a  $b$a$b$a    $x
+              $a$d$b  $a$b$d  $a$d$a$d$a$x
+EOC

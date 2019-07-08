@@ -1,0 +1,67 @@
+# Mr. Freeze (Batman the Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;247m  ";
+$b = "\e[48;5;254m  ";
+$c = "\e[48;5;8m  ";
+$d = "\e[48;5;9m  ";
+$e = "\e[48;5;153m  ";
+$f = "\e[48;5;243m  ";
+$g = "\e[48;5;25m  ";
+$h = "\e[48;5;33m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;110m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                  $a          $x
+              $t              $a              $x
+                $t          $a    $b      $a    $x
+                  $t        $a  $b          $a  $x
+                    $t      $a  $b$a$b    $a    $x
+                            $a  $b  $a$b$a$b$a  $x
+                            $a  $b$c  $b$c  $a  $x
+                            $a$c  $d  $c$d  $a  $x
+                            $a$b  $c  $e$c  $a  $x
+                            $a  $b          $a  $x                                      $c$x
+                      $f  $x$a  $b          $a  $x                                  $f$c    $x
+                      $c$f$x$a  $b  $a  $b  $a  $x                                $f    $c$x
+                        $a  $b$a$b        $a    $x                              $c$f    $x
+                  $g$x$a  $f$a  $c        $a    $x                        $c    $f    $x
+                $g    $a$f  $g$h$g$h        $g$h$x                      $f$a$f$c$f$a$x$c$f$x
+              $g      $h  $f          $a$f  $a  $h$g  $h$g$x          $a$f        $x$a$c$x
+              $g    $h$g  $f$a$f$c  $f$a$f        $h$g  $h$x        $c  $f      $c$f$c$x
+            $g    $h$g  $h$f    $a  $c          $f$a  $h$g$h$x    $f    $c$a$f  $c  $x
+            $g$i  $g      $f$c$f$a$f                  $g    $x      $f    $c$a  $c$x
+            $i  $j$i$h$g  $f$c$f$a$f                $a$h$g  $x      $b  $a$b$a  $c  $x
+            $i  $j$i$g  $h$a$c$f$a$f                    $g  $x      $e$k$e$b  $f$c$x
+            $i  $j$i  $g  $a$c  $a  $f          $a    $f$g$i$x    $g$e      $b$x
+            $i$j$i    $g  $a$f$c$f$a$f                $h$j$i$x    $g$h$e  $k$x
+          $i  $j$i    $g$k$f$a$f  $a  $f$a$f$a    $f  $g$j$i$x  $g$h  $g  $x
+          $i  $j$i    $a$c$a$c$a$f$c$a$f  $a$f  $a$f  $i  $g$x$i$h$g    $x
+          $i        $x$a$c  $a$c$f$c$a$f$j    $f$a$f$j$i$g  $i$j$i$g  $h$x
+          $i        $x$a$c  $a$f    $a$j        $f  $j$i$h$g$j$i    $g$x
+        $g          $x$a$c    $a$f$a$j    $i$j    $h$j$g$h$g$i    $x
+        $g$h          $a  $c  $h$g  $j  $i    $j  $g    $h  $g$h$g$x
+        $g            $a$c    $h  $g$i$a$c$i$c$a$i$g  $x$h$g$h$g$x
+        $g          $x$a$c    $h  $g$i  $a$c$a$i  $g  $x  $h$x
+          $g$i$j$i  $x$a  $c  $h$g  $h$i        $h  $g$x
+            $i$j$i  $x  $a$c$g$h  $g  $h$i    $h$g$h$x
+            $i$j$i  $x    $a$i  $g$h$g  $h    $g$h$j$i$x
+              $i    $g$x    $i      $g$h$g      $j  $i$x
+              $i$g    $x  $i    $j  $i$g  $h$g$i$j  $i$x
+              $g$h    $x  $i    $j  $i  $g  $i  $j  $i$x
+              $g$h  $e  $k$i  $j  $i    $j$i    $j  $i$x
+                $h$e      $k$i$j  $i    $x$i    $j  $i$x
+                  $e    $k$e$j  $i    $x  $i    $j  $i$x
+                    $e$k$e$k$j$i    $x    $i    $j  $i$x
+                      $e$k$j  $i    $x    $i    $j  $i$x
+                      $i  $j$i    $x        $i$j  $i  $x
+                    $i  $j  $i  $x          $i$j  $i  $x
+                    $i$j  $i    $x          $i$j  $i$x
+                  $i  $j$i    $x            $i$j  $i$x
+EOC

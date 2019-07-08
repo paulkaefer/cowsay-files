@@ -1,0 +1,76 @@
+# Ned Stark (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;34;32;52m  ";
+$b = "\e[48;2;69;40;60m  ";
+$c = "\e[48;2;50;60;57m  ";
+$d = "\e[48;2;217;160;102m  ";
+$e = "\e[48;2;238;195;154m  ";
+$f = "\e[48;2;20;20;20m  ";
+$g = "\e[48;2;143;86;59m  ";
+$h = "\e[48;2;179;120;81m  ";
+$i = "\e[48;2;132;126;135m  ";
+$j = "\e[48;2;155;173;183m  ";
+$k = "\e[48;2;89;86;82m  ";
+$l = "\e[48;2;102;57;49m  ";
+$m = "\e[48;2;105;106;106m  ";
+$n = "\e[48;2;203;219;252m  ";
+$o = "\e[48;2;82;75;36m  ";
+$p = "\e[48;2;254;254;254m  ";
+$q = "\e[48;2;138;111;48m  ";
+$r = "\e[48;2;187;142;37m  ";
+
+$the_cow = <<EOC
+              $t
+                $t                  $a$b  $c  $x
+                  $t              $a$b$a        $x
+                    $t        $b$c$b$a    $d    $x
+                      $t        $a  $b$a$d$e  $d$x
+                        $t      $a$b$a$f$d$f$b$g$x
+                                $a$f$d$f$e$h$g$d$x
+                            $b  $f  $d$f$h$d$g$e$x
+                          $b  $a$f  $g$f$g$f    $x
+                        $a      $f$a$h$f    $d$a$x
+                        $a    $c  $a$b$h$f      $i$x
+                        $i    $j  $a$b$j$h$c$b  $a$i  $x
+                    $i  $k    $i  $a$h$b$i$b$j$b  $k$j$i$x
+                  $i$j$i$k  $i$k  $a$b$h$b$i$e$j$b$k$c$j  $x
+                $i$j$k    $i$j$k  $a$l$b$g$a    $c$k  $c$i$x
+                $k$i$k  $i$j$c$k$j$a$l$a  $l$g  $a$i  $k  $i$x
+              $i$j$i$k    $c$k$j$i$a$k$a$g    $l$b$a  $i$k    $i  $x
+              $j$i$k$c$k  $c$i  $a$k  $a$l$g  $l  $b$a  $k$i  $j$i$x
+            $i$j$i$c$k  $c$k  $a$l  $k$a$g    $l  $b$g$a  $k$i$j  $i$x
+            $j$i$k$c  $b  $c$a$l    $a    $l      $b$l$g  $a$i$k$j  $i$x
+          $i  $k$i$k$c    $a$b  $l$c  $a        $l        $b$a$j$i$k$i$x
+          $i    $k      $a  $b$c      $a$b$g    $a$l    $b$m$a$i$j$k$i$x
+          $i$k  $b$k  $a$m  $a          $l$g  $l$a  $l  $b$k$i$a$j$k  $c$x
+          $c  $b$k  $a$k$i  $b$g      $b$l$g    $a$l$a$b$c  $k$a$c$i$k$c$x
+          $c        $a$c$k  $b$l  $g$l    $g    $a$l  $a$c$k$c$a$c$b$k$c$x
+          $c$b$c  $a$c      $b$l          $b$h$a$l      $a$c$k$a$c$b  $c$x
+          $c$b$c  $a$k$c$k  $b$l      $a  $m$i$m$l    $a    $c$a$c$b  $c$x
+        $c  $b$c  $a$c      $b$a      $b  $m$i$m$l    $a      $c  $b  $c$x
+        $c$b$c    $a        $l  $j$e$j  $i        $j  $e$j$a  $c  $b  $c$x
+        $c$b$c    $a          $b          $c$i$c$b    $a      $c    $b$c$x
+      $c  $b$c    $a          $b          $j$c$n$b    $a      $c    $b$c$x
+      $c  $b$c    $a          $b          $j  $n$b    $a    $c      $b$c$x
+      $c  $b$c    $a          $l      $b  $j  $n$b$l  $a    $c      $b$c$x
+      $c  $b$c  $o$a        $b$a  $l$g  $b$j  $n$l  $a      $c      $b$c$x
+    $c    $b$c  $o$a      $b      $a$g$b$l$j  $p$l$a$b$a    $c      $b$c$x
+    $c    $b$c  $o$a      $b$c  $b$l  $a  $j  $n$a$c$b$a    $c      $b$c$x
+    $c          $o$a      $b$c  $b$l$b$l$a$j  $p$c  $b  $a  $c    $b$c  $x
+    $c          $o$a      $b      $l  $a  $j$i$p$c$k$b  $a$c    $b$c  $x
+    $c      $o$c$o$a      $c  $b$l    $a$c$j  $p$c  $b  $a$c    $b$c  $x
+    $c          $a      $b$c  $b$l$b$a$k$c$j  $n$c$k$b$c$a$c    $b$c  $x
+  $c          $o$a      $b      $l  $a$k$c$j$i$p$c$k$b$c$a$c    $b$c  $x
+  $c    $o$c  $o$a      $b$c  $b$l  $a$c  $j  $p$c  $b  $a$c    $b$c  $x
+  $c      $o$c$o$a      $b$c$b$l$b$l$a$k$c$j$i$p$c$k$b$c$a$c    $b$c  $x
+  $c        $o  $a      $b    $l  $a$k  $c$j$i$p$c$k$b$c$a$c          $x
+  $c  $o$c  $o  $a      $b$c$b$l  $a$c    $j  $p$c  $b  $a$c          $x
+  $c      $o  $a        $b$c$b$l  $a$k  $c$j$i$n$c$k$b$c$a$c          $x
+$c          $o$a        $b    $l  $a$k  $c$j$i$p$c$k$b$c$a$c          $x
+$c  $o$c    $o$a        $b$c$b$l  $a$c    $j  $p$c  $b  $a$c      $b$c  $x
+$c    $o      $a      $b  $c$b    $a$k  $c$j$i$p$c$k$b$c$a$c      $b$c  $x
+EOC

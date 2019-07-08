@@ -1,0 +1,69 @@
+# Bender (Futurama)
+# by Unknown - http://www.minecraftpixelarttemplates.com/2013/04/bender-futurama.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;145m  ";
+$c = "\e[48;5;240m  ";
+$d = "\e[48;5;188m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;202m  ";
+$g = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+            $t                  $a  $x
+              $t              $a$b  $a$x
+                $t              $a$c$x
+                  $t            $c$b$x
+                    $t          $c$a$x
+                            $a        $x
+                          $a$b  $a  $d$a$x
+                        $a$b          $d$a$x
+                      $a$b                $a$x
+                      $a$b                $a$x
+                    $a                $b  $a$x
+                  $a$b                $a$c$a$x
+                  $a              $b  $a$c$a$x
+                $a  $e  $a$e$a$e  $a$b$a$c$a$x
+  $a$x$a$x      $a  $e$a$e$a$e$a$e$a$b$a$c$a$x
+                $a  $e    $a$e    $a$b$a$c$a$x
+      $a$x        $a                  $b$c$a$x
+        $a  $x        $a$b              $c$a$x
+          $a  $x      $a              $b$c$a$x
+              $f  $g      $a$e$a$e$a$e$a$c$a$x
+              $f  $g      $a$e$a$e$a$e$a$c$a$x
+                      $a              $c  $a$x
+                        $a$b            $a$b$a$x
+                      $a$b$a            $b    $a$x
+                    $a$b                        $a$x
+                  $a    $b                  $a    $x
+                  $a$b  $a                  $b$a$b$a$x
+                $a  $b                              $a$x
+              $a$b$a$b  $a                    $b    $a  $x
+              $a$b$a$b$a$b                $c$a$b    $a    $x
+            $a$b  $a$b$a$b                $c$a$b  $a  $b  $a$x
+            $a  $b$a$b$a$b              $c  $a$b  $a  $b$a  $x
+          $a$b    $a$b$a    $b          $c  $a$b  $c$a$b$a$c$a$x
+          $a  $b$a  $b$a$e$a$b          $c  $a$b  $c  $a$b$c$a$x
+        $a$b  $a$x$a$b$a    $b          $c  $a$b  $c$a$x$a$b$a$x
+        $a$b  $a$x$a$b$a$b              $c  $a$b  $a$x  $a      $x
+        $a      $x$a$b$a$b              $c$a$b    $a$x  $a$b$c$a$x
+        $a$b  $a$x$a$b$a$b              $c$a$b    $a$x  $a$b  $a$x
+        $a$b  $a$x$a$b$a$b              $c$a$b    $a$x  $a      $x
+        $a      $x$a$b$a$b              $c$a$b    $a$x  $a$b$c$a$x
+        $a$b  $a$x$a$b  $a$b            $c$a$b  $a$x    $a$b$c$a$x
+        $a$b  $a$x$a$b    $a              $b  $a$x    $a$b$a  $x
+        $a      $x  $a$b                      $a$x  $a$b$c  $a$x
+        $a$b  $a$x    $a$b                  $a$x  $a  $b$c$a$x
+      $a$b      $a$x  $a                      $x$a$b$c$a  $x
+      $a$b      $a$x$a$b    $a$x  $a$b$c  $a$x$a$b  $c$a$x
+      $a$b$a$b$a  $x$a      $x    $a$c  $a$x  $a  $c  $a$x
+        $a    $x  $a$b  $a$x    $a        $x  $a$c  $a$x
+                  $a$b  $a$x    $a$c    $a$x  $a      $x
+                $a      $x      $a$b  $a$x
+                $a$b  $a$x      $a      $x
+                $a$b  $a$x      $a$b$c$a$x
+                $a      $x      $a$b$c  $a$x
+EOC

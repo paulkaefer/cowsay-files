@@ -1,0 +1,52 @@
+# Chef (South Park)
+# by Unknown - http://www.minecraftpixelarttemplates.com/2012/11/chef-south-park.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t                      $a      $x
+            $t$a    $x$a          $b      $a        $x
+            $a$b    $a$b                            $a$x
+          $a$b                                        $a$x
+          $a$b                                  $a$b$a$x
+            $a      $b  $a    $b    $a  $b      $a  $x
+            $a  $b  $a    $b  $a    $b  $a          $x
+              $a$b    $a$b      $a$b      $a$b    $a$x
+              $a$b    $a$b      $a$b      $a$b    $a$x
+              $a$b    $a$b                $a$b    $a$x
+              $a$b    $a$b                $a$b    $a$x
+              $a$b$c  $b  $c    $b$c    $b  $c  $b$a$x
+              $a$c        $b    $c$b    $c        $a$x
+              $a$c      $b  $a$b    $a$b    $c    $a$x
+              $a$c      $b      $c$b        $c    $a$x
+              $a  $c      $b  $c    $b  $c        $a$x
+              $a  $c        $a$c    $a$c          $a$x
+              $a  $c      $a            $c    $a    $x
+                $a  $c  $a$c  $b    $c  $a$c$a      $x
+                  $a    $c  $b        $c  $a    $x
+                  $a    $c    $a    $c    $a    $x
+              $a      $d$a                $d$a            $x
+            $a$d  $b  $d                    $b  $d        $a$x
+          $a$d      $b                        $d            $a$x
+        $a$d        $b                        $d              $a$x
+      $a$d  $c$d    $c$b                      $d                $a$x
+    $a$d    $c  $d$c  $b                      $d                  $a$x
+  $a$d      $c        $b                      $c$d    $c$d        $a$x
+  $a$d    $c                $b                $c  $d$c  $d        $a$x
+  $a$c  $d  $c            $b                  $c            $d    $a$x
+$a$c                    $b                $c              $d        $a$x
+$a$c                $b                      $c            $d        $a$x
+$a$c            $b                              $c          $d$c    $a$x
+$a$c          $b    $a  $b$a$b$a$b$a    $b$a    $b$c                $a$x
+  $a$c      $b    $a$b    $a$b$a$b$a$b    $a$b      $c            $a$x
+    $a$c  $b      $a$b    $a    $b$a    $b$a    $b    $c        $a$x
+      $a$b        $a$b    $a$b$a$b$a$b    $a$b          $c    $a$x
+    $a$b            $a  $b$a$b$a$b$a    $b$a$b            $c  $a$x
+
+EOC

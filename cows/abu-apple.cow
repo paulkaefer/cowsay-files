@@ -1,0 +1,45 @@
+# Abu w/ apple (Aladdin) - true color
+# original sprite from Aladdin (SNES) - https://www.spriters-resource.com/snes/aladdin/sheet/33/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;126;70;42m  ";
+$b = "\e[48;2;219;121;74m  ";
+$c = "\e[48;2;186;112;75m  ";
+$d = "\e[48;2;248;146;99m  ";
+$e = "\e[48;2;86;44;3m  ";
+$f = "\e[48;2;62;62;76m  ";
+$g = "\e[48;2;116;122;186m  ";
+$h = "\e[48;2;238;224;215m  ";
+$i = "\e[48;2;135;15;0m  ";
+$j = "\e[48;2;255;183;112m  ";
+$k = "\e[48;2;217;96;90m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a    $x
+                $t            $a$b  $c$a$x
+                  $t        $a$b$d  $b  $a$e$f  $x
+                    $t    $a  $d$c$a  $c$b$c$a$g$e$x
+        $f$x          $t  $a$c$b$a$h$b$h  $c  $e$f$x
+      $i$f$i  $x            $a$c$h$e$j$h$f$d$c$e$x
+    $i$k$a$k$i  $x            $a$h$e$j$h$f$d$c$j$e$x
+    $i$k$h$k  $i$x              $h  $j$h  $d$c$j$e$x
+    $i$k    $c$i$x                $j  $a$j$c$a$e$x    $b  $x
+    $i$c    $e$a              $b$c$e  $c$j$a$x      $b$a  $b$x
+    $j  $d$c$a$c  $b        $c$a$d$j    $a$b$a$x  $b$a$x  $a$b$x
+        $b  $a            $c$b$c$a      $c$d$b$a$x$b$a$x  $a$b$x
+                          $a  $d  $c$b  $d$b$c$e$x$b$a$x  $b$x
+                              $d$a    $c$b$c$e$x  $b$a$x
+                                $e$c$e$a  $e$x  $c$b$a$x
+                                $e$b$e    $x    $b$a$x
+                                $a$b  $a$x    $c$b$a$x
+                            $a  $c$b    $a    $b$a$x
+                          $a$c    $e$a$b$d$b$c$e$x
+                          $a$c  $e$x  $a$b$d$b$e$x
+                            $a$c$e$x    $a$b$e$x
+                              $a$e$x    $a$c$x
+                          $b$d    $x    $j    $c$e$x
+EOC

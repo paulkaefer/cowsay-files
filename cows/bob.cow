@@ -1,7 +1,7 @@
 # Bob Belcher
-# by Charlie M
+# by Unknown - https://giphy.com/gifs/rvoMMtlqibZYY
 
-$x = "\e[m  ";            #end color
+$x = "\e[49m  ";            #end color
 $h = "\e[48;5;235m  ";    #hair
 $d = "\e[48;5;240m  ";    #dark gray pants
 $d2 = "\e[48;5;238m   ";  #darker gray

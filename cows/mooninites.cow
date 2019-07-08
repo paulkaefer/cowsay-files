@@ -1,8 +1,8 @@
 # The Mooninites
-# by Charlie M
+# by Charc0al (original art)
 
 $t = "$thoughts ";
-$x = "\e[m  ";     #end color
+$x = "\e[49m  ";     #end color
 $g = "\e[42m  ";   #green
 $b = "\e[44m  ";   #blue
 $b1 = "\e[44m $x"; #blue 1 space

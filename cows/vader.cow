@@ -1,7 +1,7 @@
 # Darth Vader
-# by Charlie M
+# by JBrosGaming - https://www.youtube.com/watch?v=f_USp9m9Dkc
 
-$x = "\e[m  ";            #end color
+$x = "\e[49m  ";            #end color
 $k = "\e[48;5;235m  ";    #black
 $l = "\e[48;5;246m  ";    #light gray
 $y = "\e[48;5;240m  ";    #dark gray

@@ -1,0 +1,64 @@
+# Sherlock
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;223m  ";
+$d = "\e[48;5;238m  ";
+$e = "\e[48;5;240m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;234m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t              $a        $x
+                $t        $a                $x
+                  $t    $a                    $x
+                      $a                        $x
+                      $a              $b$a      $x
+                      $a              $b$a      $x
+                    $a            $b$a  $b$a      $x
+                      $a            $b      $a      $x
+                    $a            $b$a$b    $a    $x
+                      $a  $b                $a$b$a$x
+                        $a$b                    $a$x
+                          $b                  $a$x
+                            $b              $x
+                            $b              $d$x
+                            $e$b            $d  $f$x
+                          $d$e$b            $d  $f  $x
+                        $f$d  $e$b        $d    $f    $x
+                      $f  $e  $d  $b    $d      $f      $x
+                  $f      $e        $d          $f          $x
+                $f        $e            $d      $g$f          $x
+              $f          $e              $d  $g  $f            $x
+            $f            $e                $g    $f        $g    $x
+              $f          $e                $g  $f        $g        $f$x
+            $g    $f      $d$e            $h$g  $f      $g        $f  $x
+            $g$f        $g$d  $e          $g    $f              $g$f    $x
+            $g$f        $g$d    $e      $h$g    $f              $g$f    $x
+            $f          $d        $e$h    $g    $f                      $x
+          $f          $g$d          $h    $g    $f                      $x
+          $g$f        $d            $h    $g    $f                        $x
+          $g$f        $d            $i$h$g      $f                        $x
+        $g  $f        $d          $i  $h$g      $f                        $x
+        $g  $f      $g$d          $i  $h$g      $f                          $x
+        $g  $f      $g$d        $i  $h$g        $f            $g$f          $x
+        $g  $f      $g$i            $h$g        $f            $g$f          $x
+      $g    $f      $g$i            $h$g        $f            $g$f            $x
+      $g    $f      $g$i            $h$g        $f            $g$f            $x
+      $g    $f      $g        $h    $g          $f            $g$f            $x
+      $g    $f      $g        $h    $g            $f          $g$f            $x
+      $g    $f      $g          $h$g              $f          $g$f            $x
+      $g    $f      $g          $h$g              $f          $g$f            $x
+    $g      $f    $g            $h$g              $f        $g  $f            $x
+    $g      $f    $g                              $f        $g  $f            $x
+    $g      $f    $g                                $f      $g  $f            $x
+    $g      $f    $g                                $f      $g$f              $x
+    $g        $f$g                                  $f      $g$f              $x
+EOC

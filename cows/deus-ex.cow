@@ -1,0 +1,74 @@
+# Adam Jensen (Deus Ex)
+# by @DeusEx - https://twitter.com/deusex/status/615890538366148608
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;23m  ";
+$g = "\e[48;5;101m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;250m  ";
+$j = "\e[48;5;254m  ";
+$k = "\e[48;5;237m  ";
+$l = "\e[48;5;174m  ";
+$m = "\e[48;5;131m  ";
+
+$the_cow = <<EOC
+                      $t                      $a  $x$a$x$b$x
+                        $t                $a      $b$a  $b$x
+                          $t            $a            $b  $x
+                            $t          $a    $b  $c$a$b$a$b$x
+                              $t        $a$b$a  $b$c    $b  $x
+                                        $a$c$a$b$c        $x
+                                      $a  $d$a$c  $e    $c$x
+                                        $a$d$a$c    $e  $c$x
+                                        $c$a  $d$c        $x
+                                      $f$c  $a  $d$b$d  $x
+                                      $f  $b$c$a  $b$d$c$x
+                                    $g  $f$b    $a    $x
+                                $g      $f  $b  $f  $b$g  $x
+                              $f$g      $f  $g  $f  $g    $f  $x
+                        $h    $f  $g  $f  $g        $f  $g$f  $h$x
+                      $h  $e$h  $f      $g          $f        $h    $x
+                      $h$e$h$i$h  $g$f  $g          $f        $h$e$h$x
+                      $h    $i$h  $g$f  $g          $f    $g$h  $e$h  $x
+                      $h  $i$f$h  $g$f  $g          $f  $g$h  $e$h$e$h$x
+                      $h  $f$e$h$g  $f$j$g          $j$f$g$h  $e  $h  $x
+                  $h    $e    $h$b$f    $g            $k$b  $h$e  $h  $x
+                  $h$e$h$e  $h$b$k  $g                $k  $b$h$e  $h$x
+                  $h$e$h    $k    $f$g                $k  $b$h  $e  $x
+                  $h$e$h  $x$k    $b$g                  $b$k  $h    $x
+                  $h  $e$h$x  $b    $f  $j$g      $j$f  $b  $k$h$e$h$x
+                  $h$l$h  $x  $b$f      $j$g      $j$f      $x$h$e$l$x
+                  $h    $x    $b$f$k$g              $b  $k$f$x$h  $e$x
+                $h    $x        $k  $f$g              $f$k  $h    $e$x
+                $m$e$h$x      $f    $j$g              $j$f  $h        $x
+                $e  $h$x      $f  $g                  $b  $f$h  $e  $m$x
+                $e  $h$x        $b$g                $h  $b$x$h  $e    $x
+                $h$e$h$x  $e$x  $h  $g              $h  $x  $h  $e$h$e$x
+            $e$x$e$h  $x  $e$x  $h  $b$g          $b$h  $x  $h  $e$h  $x
+            $e  $h    $x$e  $x  $h  $b              $h  $x  $h  $e$h$x
+            $i$e$h    $x$e  $x$f  $h$f  $h      $f  $h$f  $x$h    $e$x
+            $i$e$h      $e  $x$h    $f  $h      $f  $h  $f$x$h  $e  $x
+            $i$e$h    $x$e  $x$f  $h$f  $h$f$k$h$f  $h$f$h$x  $h$e  $x
+            $e$i$k$h  $x$e$i$x$h          $f$k$h          $x  $h  $e$x
+            $e$x$k$h  $x        $k  $f$k  $f$k    $g  $k$g$x  $h  $e$x
+            $e$x$k  $h  $x      $k  $f    $k    $b$f  $k$g$x  $h    $x
+                $k$i$h  $x    $k    $f      $k  $f    $k  $x  $h    $x
+                $k$i$h  $x    $k  $f      $k    $f      $k$x  $h$e  $x
+                $k$i$x        $k  $f      $k    $f  $g$f$g$x$h  $e  $x
+                $k$i$x        $k$f      $k    $f      $g  $k$h  $e  $x
+                $k$i$x        $k  $f    $b  $k  $f    $k  $b$g$e    $x
+                $k$i$x        $k  $f    $g$k              $b$g$x
+                $k$i$x        $k  $f    $g$x$k        $f$k$b$g$x
+                $k$i$x        $k  $f    $g$x  $k$f    $k  $b$g$x
+                $k$i$x        $k  $f    $g$x$k            $b$g$x
+                $k$i$x        $k  $f    $g$x$k        $f$k$b$g$x
+                $k$i$x        $k      $f$g$x  $k  $f    $k$b  $x
+                $k$i$x        $k    $f  $g$x  $k  $f    $g$x
+EOC

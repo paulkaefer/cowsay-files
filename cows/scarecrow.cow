@@ -1,0 +1,72 @@
+# Scarecrow (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;221m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;178m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;223m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                $a    $b  $x
+                $t              $a    $b  $x
+                  $t            $a    $b  $x
+                    $t          $a    $b  $x
+                                $a    $b  $x
+                                $a    $b  $x    $a  $x
+                                $a$c  $d  $a    $b  $x
+                                $c    $d$a  $b    $x
+                              $c  $a$b    $e$b$f$x
+                            $a    $b  $g  $e$h$x
+                          $a  $b  $g  $a$b$e$h$e$x
+                        $a$b  $g$i$g$a$i$b$h$e$h$e$g  $j$x
+                      $b  $x$f$e$g$j$g$b$g  $e  $h$g$k$d$k$d$x
+                    $b$x    $e$h$g      $i$f$h$e$g$l$c  $d    $x
+                            $h$e$j$a$i$g$f$g$j$e$l$c    $d$k  $x
+                            $k$m$g$j$g    $j$g$e$k$c    $d$c$k$x
+                            $c$l$m$g$j    $g$m$l$c$k$d$k$c  $k$x
+                            $c$d$l$m$g$m$g$l  $c    $k  $c  $k$x
+                            $c$d$k$m$l$m$l$k$c      $k$d$c  $d$x
+                            $c$d$c$k      $c    $k        $c$k$x
+                            $c$d$c    $k  $c  $k$d  $k$d$x$c  $k$x
+                            $c$d$c  $k$c      $k$d$c  $d$x$c  $d$x
+                            $c$d$k$c      $k  $d$c  $k$d$x$c  $k$x
+                            $c$d  $k  $c$k$d  $c  $k$d  $x$c    $x
+                            $c$k$d$k      $d$c  $k  $d$x    $c  $k$x
+                            $c$k$c$d      $k$c  $k$d$x      $c  $k$x
+                            $c$d$c    $k  $c    $k$x        $c    $k$x
+                            $d  $c  $k$c      $k$d$x        $d$c  $k$x
+                          $c$d$c  $d$k  $c  $k$d$x        $k$c    $d$x
+                        $c  $d$c  $d$k  $c$k  $d$x        $k$c    $x
+                        $c  $d$k$c  $d  $k    $d$x        $c    $d$x
+                        $c  $d$k$c  $k$d        $x        $c    $d$x
+                      $c  $d$x$m$k$c  $k    $m$g$x        $c  $k$x
+                    $c  $d$x$k$c$m        $g$k$m$k  $x    $c  $k$x
+                    $g$c$d  $c      $d$k  $g$k$m$k$d$x    $g$k  $x
+                  $c  $g$d$x$b$c$b$c$d$k$b$m$b$m$b$x      $c$g$x
+              $m      $d$x  $a$b$a  $b$a$b$m$b  $x      $c    $k$x
+            $m$x$g$m    $x  $a            $m$b  $x    $m  $c$k    $x
+            $m$x$m$g  $m$x  $a      $b$a    $b    $x$m        $d$k$x
+                $m$x$m    $x$m$a    $b$a      $b$a$b$m$x  $m    $x
+              $m$x  $m$x$m  $x$a$b$a  $b  $a      $b$m$x  $m$g$m$x
+              $m$x  $m$x      $a$b  $a$b    $a    $b$x    $m$g$m$x
+                $m$x  $m$x      $a  $b  $x$b  $a  $b$x  $m$g$m$g$x
+                                $b$a  $b$x    $a    $b$x  $m$g$m$x
+                                  $a  $b$x      $a  $b$x    $m$x
+                                  $a  $b$x      $a  $b$x
+                                  $a  $b$x      $a    $b$x
+                                  $a  $b$x      $a    $b$x
+                                  $a  $b$x        $a    $b$x
+EOC

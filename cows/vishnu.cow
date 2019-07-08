@@ -1,0 +1,75 @@
+# Vishnu (Hindu god)
+# by 8bitbaba - https://imggra.com/media/1974993642931380665
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;202m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;45m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;39m  ";
+$g = "\e[48;5;201m  ";
+$h = "\e[48;5;127m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t
+                      $t
+                        $t                $a$x
+                          $t            $a$b$a$x
+                            $t        $a$b    $a$x
+                                      $a$b$a$b$a$x
+                                    $b$a  $b$a  $b$x
+                                    $a  $b    $a  $x
+                                      $b$c    $b$x
+              $b  $c$b  $x          $d$c        $d$x
+            $b$x  $c$x  $b$x        $d$c$d$c$d$c$d$x          $e  $c  $x
+              $b        $x          $d$c        $d$x            $e    $c$x
+              $c    $x            $d  $c        $d  $x          $e      $x
+              $c    $x            $d  $c        $d  $x            $c$e  $x
+              $c  $x            $d    $f$c    $f$d    $x            $c  $e$x
+              $c  $x            $d    $e$f    $e$d    $x            $c  $x$e$x
+              $b  $x            $c  $e$c        $e$c  $x            $b  $x
+                $c  $x      $c      $e$b$c    $b$e$c      $x      $c  $x
+                $c  $x    $c        $e$c$b    $c$e$c        $x    $c  $x
+                $c    $x  $c        $e$c        $e$c        $x  $c    $x
+                  $c  $x$g$c  $x$c$f$e$c        $e$f$c$x$c  $g$x$c  $x
+                  $c    $g$c  $x$c$f$e$c        $e$f$c$x$c  $g$c    $x
+                    $c  $g  $c$x  $c$f$e$f$c$f$e$f$c$x  $c$g  $c  $x
+                    $c$g    $x    $c  $e$c    $e$c  $x    $g    $c$x
+                      $g      $x  $c  $e$c    $e$c  $x  $g      $x
+                      $c$g    $x    $c  $e$c$e$c  $x    $g    $c$x
+                      $c  $g    $x  $c  $e$c$e$c  $x  $g    $c  $x
+                    $c  $x  $g  $x$c    $e$f$e$c    $x$g  $x  $c  $x
+                  $b$c  $x  $g  $x$b$c  $e$c$e$c  $b$x$g  $x  $c  $b$x
+                  $b$c$x    $g  $x$b  $e$c    $e$b  $x$g  $x    $c$b$x
+                $b$c  $x    $g  $x$h$b$e$b    $e$b$h$x$g  $x    $c  $b$x
+                $b  $x      $g$x$h    $e$b$e$b$e$h    $x$g$x      $b  $x
+                $c  $x    $g  $x$h    $e$b    $e$h    $x$g  $x    $c  $x
+                $c  $x    $g  $h    $e$b$h$b$h$b$e$h    $g  $x    $c  $x
+                $c    $x  $g  $h  $b$e$b$h    $b$e$b$h  $g  $x  $c    $d$x
+                $c$b$c$x  $g  $h$b  $e$b$h    $b$e$b  $h$g  $x  $c$d$c$x
+                $c$b$x    $g  $b  $a$e$b$h    $b$e$a$b  $g  $x    $d$c$x
+                  $c$x    $g  $b$a  $e$h        $e$a  $b$g  $x    $c$d$x
+                    $b$x  $g  $a    $e$h        $e$a    $g  $x        $d$x$g$x
+                    $b$x  $g  $a    $e$h        $e$a    $g  $x          $g    $x
+                    $b$x  $b$g$x$a  $e$h        $e$a  $x$g$b$x        $g    $x
+                      $b$x$b  $x$a    $e$h    $e$a    $x$b  $x          $g$x
+                      $b$x$b  $x$a    $b$e    $b$a    $x$b  $x
+                      $b$x  $b$x$a    $b        $a    $x$b$x
+                        $b$x    $a  $b$a$b    $a$b$a  $x
+                        $b$x      $a$b$a  $b$h$a$b$a$x
+                          $b$x    $b$a      $h$a  $b$x
+                          $b    $x$a        $h$a    $x
+                        $b    $a$b$a    $b$a$h$b$a  $x
+                      $b        $a$b$a  $b$a$h$b$a  $x
+                      $b        $a$b$a$b$a  $h$a$b$x
+                      $b      $a  $b$a    $h  $a  $x
+                        $b$a    $b$x$a    $x$a    $x
+                          $b    $x    $c  $x$c  $x
+                                    $c    $x$c    $x
+                                  $c    $x    $c    $x
+                                $c    $x        $c    $x
+EOC

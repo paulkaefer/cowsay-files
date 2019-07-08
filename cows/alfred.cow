@@ -1,0 +1,67 @@
+# Alfred (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;248m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;7m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t          $a      $x
+            $t      $a          $x
+                  $b  $a$b  $a$c  $x
+                  $a          $c  $x
+                  $b$d$a$b$d$a$c$e$x
+                  $a          $e$a$x
+                  $a$e$a          $x
+                  $a  $b$a      $x
+                  $a$b$a$b$a    $x
+                  $a          $e$x
+                    $a    $e    $x
+                      $e        $b  $x
+                      $f$e$f$e$d$b  $f$b  $x
+                  $b  $f    $d  $b$f$b      $x
+              $b  $g$f  $d$f$d  $b            $x
+            $b  $g$f$b$d      $b  $f$b        $x
+            $b$g$f$b  $d$f$d  $b$f$b    $g  $b$x
+            $b$g  $f$b$d      $b  $f$b$g      $b$x
+            $b$g$f$b  $d$f$d  $b$f$g          $b$x
+          $b$g  $f  $b$d    $b$f$b  $g          $x
+          $b$g  $f$g$f$d$f$d$f$b  $g$f$b$g      $x
+          $b$g  $f$g$a$e$d$g$b$g$f$g$f$b$g      $x
+          $b$g$f  $a$e$a$e$g$b$g  $b$f$b$g      $x
+        $b$g  $d$a    $e    $g$b$g$b$f$b$g      $x
+        $b$g$d  $a  $e$a$e$g$b$g      $b$g      $x
+        $b$g$d  $a    $e$b    $g    $f$b$g      $x
+        $b$g$d$f$h    $f$b      $g  $f$b$g      $x
+          $b$g$d  $f    $b  $g      $f$b$g      $x
+            $g  $f      $b$g        $f$b$g      $x
+                $b$f    $b$g        $f$b$g      $x
+                $b$f      $g        $f$b$g      $x
+                $b  $f$g            $f$b$g  $b$x
+                $b  $f  $g          $f$b$g    $x
+                $b$f$g  $f$g        $f$b$g    $x
+                $b$g      $f  $b$g  $f$b$g  $b$x
+                $b$g      $f$b$f  $b$f        $x
+                $b$g      $f$b$g  $f$h$d  $f$d$x
+                $b$g      $f$b$g    $h$d      $x
+                  $b$g    $f$b$g    $a      $f$x
+                  $b$g    $f$b$g  $a        $f$x
+                  $b$g    $f$b$g  $a$e$a$e$a$f$x
+                  $b$g    $f$b$g    $a$e$a$e$f$x
+                  $b$g    $f$b$g          $f  $x
+                  $b$g      $f$g          $f  $x
+                  $b$g      $f$b$g        $f  $x
+                  $b$g      $f$b$g        $f  $x
+                  $b$g      $f$b$g        $f  $x
+                  $b$g      $f$b$g          $f$x
+EOC

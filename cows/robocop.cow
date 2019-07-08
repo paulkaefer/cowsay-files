@@ -1,0 +1,73 @@
+# Robocop
+# sprite from Robocop vs The Terminator (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/robocopvstheterminator/sheet/81098/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;17m  ";
+$b = "\e[48;5;60m  ";
+$c = "\e[48;5;67m  ";
+$d = "\e[48;5;110m  ";
+$e = "\e[48;5;24m  ";
+$f = "\e[48;5;153m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;237m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+              $t          $a$b$c  $d  $b$e$x
+                $t      $a  $e$b$c$f$g  $d$b$x
+                  $t  $a$c$a$e$b$c  $d$g  $f$b$x
+                    $t$a$h    $a  $b        $d$x
+                      $a$c$a$e$b$e$f$c  $g  $d$x
+                      $i    $e$i$f$b$c$i      $x
+                      $h$i      $a$b    $d$g$d$x
+                        $h  $i  $e$h$j$k    $x                                        $c$f    $g$a          $f          $g  $x
+                          $a$i  $c$k$j  $k  $e$x                                      $i$c$b$e$b$g$f      $c$b          $a$c$x
+                          $i      $c$a    $e$d$x                                      $i$f$c  $b        $e    $b  $c  $b$c$g$x
+                            $i              $a$x                                      $i$g  $i$c      $x
+                            $i            $x                                          $i    $g$i$c$i$x
+                  $e  $f$b$e$b  $i          $c$i$x$g$e$x                          $i    $b  $i    $x
+                $e$h  $f$g$a  $d$g$c$e$b$e$a$e$a$i$a$b$d$e$x            $i      $h  $i          $g$x
+              $h$a$h  $e$g$f$h  $a$h$d  $e$a$c$b  $i$a$i$e$c$e$a$e    $i      $a  $i        $d$g$x
+            $h$a  $f$h$e$f  $i  $a$b$a$c$g$c$a$b$c$b$i          $c    $i$e$a  $i        $x$i  $x
+          $i$a  $f$e  $c$f$c$i    $a$b$a$c$g$c$e$a$d$b$i      $g      $i            $x
+        $a$i  $h$e    $f$c$i        $b$i$a$f$g$c$e$b$g$e$i$a$c$i$c$g$c$i        $x
+      $i  $e  $i  $a  $e$i          $a$e$i$c$f$g$c$i$e  $i$a$i  $a    $e$i  $x
+    $i  $a$e  $f  $e  $c$a$i        $h$c$a    $e  $i$a  $i$a          $e$x
+    $a$e$a$i    $c$f$i  $h$i          $c$f$g  $b  $c$i      $a$b    $x
+    $e$a$i$a$h$i        $h$i        $h$d$f$g$c$b  $f$b$a$x
+    $b$i$a$b$a$h$i      $h$i      $h$a$b$d$c  $g$e$i$c$h$x
+    $a$i  $a$h  $a$i          $a$h$a$e$c    $g$h$i  $h  $x
+    $a$i          $h$i    $a$i  $a  $h$a$e$c$h$i  $a$i$x
+      $i                  $e$i$h    $a$e$b$i$b$d$e$i$x
+        $i    $x$i    $e$x$i    $a$b  $a$i            $x
+                  $i  $x    $i            $h$b$d$c$i  $x
+                  $i$x        $i                    $x
+                  $a$x      $i              $h    $i  $x
+                            $i  $a$h$i  $h$a$b$d$c$a$i$x
+                          $a$h  $d$g$i                $x
+                        $a$i$h$a$b$h$g$c$i    $a$i$a$i$x
+                      $i  $h$a$b$c    $g$c$i  $a  $h$i$h$x
+                    $i    $h$a$c  $f$c$d$g$i  $h$i      $b$x
+                    $i    $a$h$i$d$g$c$d$g$f$i          $b$h$x
+                    $h$i  $b$a$i$d$g$c  $d$g$i          $f$c$x
+                    $a$i  $a$h$i$d$f$c  $f$g$i        $h$f$c$a$x
+                    $a$i  $h  $b$f$d$b$c$g  $i        $h$f  $a$x
+                    $i$a$i$h  $b  $c$b$f$g$c$i      $h$d$b$f$c$h$x
+                      $h$i    $b$g  $e$g  $c$i    $h$a$b$e$c$f$h$x
+                      $i    $h$i$c$e$c$g$d$c$i    $h$e$b$a$d$c$a$x
+                      $a$i  $h  $f$d$b$g  $e$i  $a$i$a$d$b$c  $i  $x
+                      $a$i  $h$b$f$c$e$c  $e$i$h$a$i$a$c$b$c  $e$h$x
+                      $a$i$h  $b$f$c$g  $c$i  $h  $i$h$b$c$e$c  $i$x
+                      $a$i$h$a$b$c$b$g$c$e$x$i  $h$i$h$a$c$b$c  $a$x
+                      $i  $h$a$c  $e$g$c$e$x$a$i  $h$i$a$b  $c  $h$x
+                      $i  $h$i$f$h$e$d  $x    $a$i$h  $a$b  $c$b$a$x
+                      $i      $b$h$d$c$e$x    $a$i  $h$a  $b$c$b$a$x
+                        $h$c$f$c$h$c$e$a$x      $a$i    $e$c$d$f$i$x
+                      $i        $e  $a$x        $a$i    $e  $i  $f$x
+                    $i  $c$f$i  $e  $a$x        $h$i    $c  $i$c$h$x
+                  $i$a  $e$c$i  $x              $i  $h$a$b$e$i$e$c$x
+EOC

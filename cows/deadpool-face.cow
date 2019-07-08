@@ -1,0 +1,65 @@
+# Deadpool
+# by unknown - https://www.pngkit.com/view/u2e6a9w7r5r5o0w7_deadpool-deadpool-logo-pixel-art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;240m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+                  $t                                  $a              $x
+                    $t                          $a                        $x
+                      $t                      $a                          $b$x
+                        $t                  $b$a                          $b  $x
+                          $t                $b$a                          $b  $x
+                            $t            $b    $a                      $b      $x
+                              $t          $b  $c  $a                    $c$b    $x
+                                $t      $b    $c    $a              $c      $b    $x
+                                  $t    $b    $c      $a          $c    $d$c$b    $x
+                                        $b  $c$d  $c    $a      $c    $d  $c$b    $x
+                                        $b  $c$d  $c    $a      $c    $d    $c$b  $x
+                                        $b  $c$d  $c    $a      $c  $d      $c$b  $x
+              $c  $x                    $b  $c  $d  $c    $a  $c  $d      $c  $b  $x                $c  $x
+            $c    $x                    $b$c      $d  $c  $a  $c  $d  $c        $b$x                $c    $x
+          $c        $x                  $b$c          $d$c$a  $c$d$c            $b$x              $c        $x
+            $c        $x                $b$c      $e  $c  $a  $c  $e  $c        $b$x              $c      $x
+            $c        $x                $b$c$d$c$e      $c$f$a$c$e      $c      $b$x            $c      $x
+              $c        $x              $b$c$d$c      $d$c$f$a$c$d$c    $d  $c  $b$x            $c      $x
+                $c        $x            $b  $c$d$c  $d$c$a$f  $c  $d      $c  $b  $x          $c      $x
+                $c        $x            $b  $c    $d$c  $a$f  $a$c  $d  $c  $b  $x            $c      $x
+                  $c        $x            $b  $c      $a$f    $a$c          $b  $x          $c      $x
+                    $c      $x            $b  $c    $a$f    $a    $c      $b    $x        $c        $x
+                    $c        $x          $b    $c$a$f    $a        $c  $b    $x          $c      $x
+                      $c        $x          $b    $f    $a            $b      $x        $c        $x
+                      $c        $x          $b    $f  $a              $b      $x        $c      $x
+                        $c        $x        $b    $f  $a              $b    $x        $c        $x
+                        $c          $x        $b  $f  $a              $b    $x        $c      $x
+                          $c        $x        $b  $f    $a            $b  $x        $c      $x
+                            $c        $x    $c$b    $f      $a        $b  $x      $c        $x
+                            $c        $x    $c$b    $f    $a        $b      $x    $c      $x
+                              $c        $x$c    $b    $f    $a      $b    $c  $x$c        $x
+                              $c        $a$c    $d$b    $f    $a$b    $c    $b$c        $x
+                                $c    $a    $c$d$c    $b            $c      $b$d$c      $x
+                                  $c$a      $b$d$c                $d$c    $b$c  $d$c  $x
+                              $a        $b$a$b    $c              $d$c  $b  $c    $d  $c$x
+              $c            $a          $b            $c        $d$c$b    $c        $d  $c    $x
+          $c    $d      $c    $a          $b                              $c        $d        $c  $x
+        $c                    $a        $b                              $c        $d              $c  $x
+      $c                        $a$b    $a      $b                      $c      $d              $c        $x
+    $c      $d  $c              $b$a                $b                $c        $d            $c              $x
+  $c    $d        $c            $a      $b        $a  $b            $c          $d    $c$d  $c            $d$c  $x
+  $c  $d        $c$d$c        $a                  $b                $c          $d$c  $d$c              $d$c      $x
+$c    $d        $c$d$c        $a  $b$a  $b      $a    $b            $c                  $b$c            $d      $c  $x
+$c  $d        $c    $d$c    $a  $b$a          $b                  $a$c                  $b$c          $d          $c  $x
+$c  $d      $c      $d$c  $a  $b$a                $b    $a$b$a$b$a    $c              $b    $c        $d          $c  $x
+$c  $d    $c          $d$c$a$b$a                    $b  $a$b$a      $c          $a    $b    $c      $d$c$d        $c    $x
+$c$d    $c                $b  $a                    $b  $a$b$a    $g$c        $a        $b    $c    $d$c  $d      $c    $x
+$c$d    $c              $b    $f$a                  $b  $a$b$a    $g$c      $a          $b    $c    $d$c    $d  $c      $x
+$c  $d$c                $b    $f  $a                $b  $a$b$a  $g$c      $a  $f  $a      $b  $c  $d$c                  $x
+EOC

@@ -1,0 +1,66 @@
+# Charmander (Pokemon)
+# sprite from Pokemon Black & White (DS) - https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/35067/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;202m  ";
+$b = "\e[48;5;124m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;222m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;4m  ";
+$g = "\e[48;5;32m  ";
+$h = "\e[48;5;25m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;196m  ";
+$k = "\e[48;5;220m  ";
+$l = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                          $a  $b    $x
+                      $a  $c        $b  $x
+                    $a$d$c              $e$x
+                  $a$d    $c            $e$x
+                  $a$d    $c              $e$x
+                $a$c  $d$c        $a$c    $e$x
+                $a$c            $a$c      $a$e$x
+                $f$a$c          $a$c$f  $a  $e$x
+                $g$a$c            $f  $h$b$a$e$x
+                $i$c              $i$e$g$b$a$e$x
+                $e$c              $i$h$g$b$a$e$x                        $j$x
+              $b$f$c              $b$g  $a  $e$x                        $j$k$x
+              $b$d    $c            $a      $e$x                        $j$k$x
+              $b$d  $c  $a$c      $a  $b$a  $e$x                      $j$l$k$x
+                $b$c            $a$b  $a  $e$x          $b  $x        $j$k  $l$x
+                $e  $c      $b  $e$i$a    $e$x  $b      $a$e$x        $j$l$k  $j$x
+          $b  $x    $e      $j  $b$a      $b    $c      $a$e$x        $j$k$j$k$l$x
+          $e$a$b    $e$a  $b    $a  $e$a  $c          $a    $e$x    $j      $k  $j$x
+          $e$a$c    $a$e  $c  $a$e  $a      $c  $a      $e  $x      $j  $l$j  $k$l$j$x
+        $e$a    $c  $a    $e    $a                    $e$x          $j$k  $j$k    $j$x
+          $e  $a                                  $e  $x            $j$l$k        $j$x
+              $e  $a      $b$a$l    $a      $b  $e$x                $j$l    $k  $l$j$x
+                    $e$a  $b$l        $a  $c  $e$x                    $j$l$j$l  $j  $x
+                      $e$b$a$d        $l$c    $e$x                      $j  $b$j  $x
+                        $b$l$d          $c    $a$e$x                      $b  $j$x
+                        $b$d            $c      $e$x                      $b$d$e$x
+                        $b$d            $c        $e$x                    $b$c$e$x
+                      $b$l$d            $l$c      $e$x                  $b$c  $e$x
+                      $b$d                $c      $e$x              $b  $c  $a$e$x
+                    $b  $d                $a$c      $e$x      $b    $c    $a$e$x
+                  $b$c$a$l$d            $l$a$c      $a$e$b    $c        $a$l$e$x
+                  $b$c  $a$l$d      $l  $a$c          $e$a      $c  $a$l  $e$x
+                $e$c    $b$l            $a$c          $a$e$a        $l  $e$x
+                $e$c      $e$l          $a$c        $a  $e$a    $l    $e$x
+                $e$c      $a$e$l        $b$a$c    $a    $e$l      $e  $x
+                  $e$c  $a    $e  $l    $b$a            $e$l  $b  $x
+                    $e$a          $e      $b$a        $e$b    $x
+                    $e$a      $e  $x        $b$a      $e$x
+                  $e$a        $e$x          $b$c    $a$e$x
+                $e$i$b$i$a  $e$x            $b$a$c    $a$e$x
+                  $e        $x                $e$i$b$i$b$i$e$x
+EOC

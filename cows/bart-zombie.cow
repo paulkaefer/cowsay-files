@@ -1,0 +1,95 @@
+# Zombie Bart Simpson (The Simpsons)
+# by Albert Montoya - https://albertmontoya.com/tag/bart-simpson/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;160m  ";
+$d = "\e[48;5;178m  ";
+$e = "\e[48;5;221m  ";
+$f = "\e[48;5;217m  ";
+$g = "\e[48;5;167m  ";
+$h = "\e[48;5;210m  ";
+$i = "\e[48;5;174m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;106m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;149m  ";
+$n = "\e[48;5;185m  ";
+$o = "\e[48;5;148m  ";
+$p = "\e[48;5;231m  ";
+$q = "\e[48;5;188m  ";
+$r = "\e[48;5;253m  ";
+$s = "\e[48;5;255m  ";
+$u = "\e[48;5;29m  ";
+$v = "\e[48;5;252m  ";
+$w = "\e[48;5;143m  ";
+$y = "\e[48;5;228m  ";
+$z = "\e[48;5;232m  ";
+$A = "\e[48;5;70m  ";
+$B = "\e[48;5;136m  ";
+$C = "\e[48;5;197m  ";
+$D = "\e[48;5;35m  ";
+$E = "\e[48;5;254m  ";
+$F = "\e[48;5;31m  ";
+$G = "\e[48;5;38m  ";
+$H = "\e[48;5;74m  ";
+$I = "\e[48;5;32m  ";
+$J = "\e[48;5;11m  ";
+
+$the_cow = <<EOC
+            $t
+              $t            $a$x    $a$x  $a$x  $a$x    $a$x  $a$x
+                $t          $a  $x$a  $x  $a$x$a$b$a$x$a  $x$a  $x
+                  $t        $a$b$a$b  $a  $b$a$b      $c$b$a$b  $a$x
+                            $a$b      $d  $b        $c$b        $a$x
+                            $a$e$b      $d$b        $c$b        $a$f  $x
+                            $a$e$b                  $c$b        $a$g$h$x
+                            $a$e$b  $h$b                      $a$g$h  $g$i$x
+                            $a$e$b  $h$b$h$b        $c$b      $a$h  $g$h  $x
+                            $a$e$b$h  $b                      $a$g$h      $g$x
+                            $a$e$b  $h  $b          $c$b      $a$g$h  $g  $h$x
+                            $a$e$b$h$b                        $a$h          $x
+                            $a$e$b$h  $b$h$b                  $a$g  $h$g$h$g$x
+                            $a$e$b  $h$b                      $a  $h$g$h    $x
+                            $a$e$b                                $j  $g$h$x
+                            $a$e$b                                    $a$h$a$x
+                            $a$e$b            $k            $b    $l$b    $a$x
+                            $a$e$b          $k$b            $k$b$l$h$b    $a$x
+                          $a$b                              $k$b      $h$b$a$x
+                          $a$j    $a  $b    $a$j    $a  $b    $k$b    $h$b$a$x
+                        $a  $m  $n$b$a  $b$a$m  $b    $a  $b    $k$b  $h$b$a$x
+                        $a$o    $b      $a$o      $b      $a$b        $h$b$a$x
+                      $a$m$o$a    $j  $a$m$o      $b        $j$b        $j$x
+                    $a$m$a    $p$q  $h$a$o$a            $b    $a$b      $a$x
+                    $a  $h  $p  $a$p  $a  $h$r          $a  $b$a$b      $a$x
+                      $a  $h$p  $s$p$u$a$h$p        $a$p$s$v$a  $b      $a$x
+                      $a                  $h$p              $i$a$b      $a$x
+                      $a  $m$w$m$n$b    $a$j$a  $u    $p$a  $j$a$b      $a$x
+                        $a        $h$b$a$b    $a    $u  $o$p$a$b        $a$x
+                        $a$y$b            $a$b        $m$o$a$b          $a$x
+                        $a$e  $b            $z$a$b    $o$a$b          $j$a  $x
+                        $a    $b              $a        $h$b        $A$b    $a$x
+                        $a$b  $a    $b      $a$b                $k  $b$a  $b$a$x
+                        $a$e$b              $a          $b  $A$m  $b  $e$a$b$a$x
+                        $a$e$b  $h$b                        $a$c$a$b$a$b  $a$x
+                        $a$e$b      $h  $b          $a  $b$a$q$a  $c$b$a  $x
+                      $a$b                          $a$b$a  $p$a$q$a$b$a$x
+                      $a  $b  $d$b  $d$b  $B$b    $a    $r$a$p$a$p$a$b$a$x
+                        $a  $b$a$b  $a$b  $a$b    $a$u$s$p$a        $b$a$x
+                          $a                                $p$a$c$b  $a$x
+                                            $a  $b$a$b$a$p  $c$a  $b  $a$x
+                                              $a  $b    $a$c$a$C$b$h$b$a$x
+                                                $a  $b  $D$b  $c$b$h$b  $a$x
+                                                  $a$e$b      $c$b    $a$h$a$x
+                                                  $a$e$b      $c$b  $a$h$c$a$x
+                                                  $a  $b        $a  $c$a  $c$a$x
+                                                  $a$c$a  $b  $a$c  $a$c      $a$x
+                                                  $a$c  $a$b  $a$c$a$h$c        $a$x
+                                                $a$c    $a$b$a  $c$a$h$c$h$c    $a$x
+                                              $a  $c    $a    $c$a$h  $c$b  $c    $a$x
+                                            $a$c$a$c$b$c    $h$c$a$h$c  $b  $c    $a$x
+                                        $a  $c$a$h$c$b  $c      $a$h$c              $a$x
+EOC

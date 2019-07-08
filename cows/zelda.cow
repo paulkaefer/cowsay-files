@@ -1,0 +1,88 @@
+# Zelda (The Legend of Zelda)
+# sprite from Super Smash Flash 2 - http://ch3ts.blogspot.com/2011/06/characters-in-super-smash-flash-2.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;32m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;179m  ";
+$g = "\e[48;5;24m  ";
+$h = "\e[48;5;58m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;146m  ";
+$k = "\e[48;5;255m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;8m  ";
+$n = "\e[48;5;102m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;235m  ";
+$q = "\e[48;5;250m  ";
+$r = "\e[48;5;96m  ";
+$s = "\e[48;5;53m  ";
+$u = "\e[48;5;101m  ";
+$v = "\e[48;5;95m  ";
+$w = "\e[48;5;144m  ";
+$y = "\e[48;5;239m  ";
+$z = "\e[48;5;138m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t      $a          $x
+                  $t  $a$b    $a  $b$a$x
+                    $a$b$c  $b    $a$b$a$x
+                    $a$b  $c  $b    $d$b$a$x
+                  $a$b    $e$b$f$b$f$g$f$a$x
+                  $a$b      $e$f$e$b$e$b$e$a$x
+                  $a$b$a$h$e$h$c    $h$c$h$a$x
+                $a      $b$a    $c$i$c$a    $x
+                $a$c  $a$b$a$j$a$i  $c$a  $x
+                  $a$c$a$b$a$k$d$i    $g$a$x
+                  $a$g$a$b$a$c$i    $b$c$a$x
+                  $a$b$a$b$a$c  $i$b$c$a  $x
+                $a$b  $l$m$a  $b$c  $a$m$l$x
+                $a      $n$l$c$a    $l$n$a  $x
+            $a  $f  $e$a$b$a$c    $b$a$b$a$e$a  $x
+            $a$h$a$e  $l$n$l$c      $l$n$l$e$h$a$x
+              $a$g$a$h$e$a$b$a$e$f$o$e$a$b$a  $x
+              $a$f$h$a$h$l$m$l$d$e$f$h$l$m$l$h$a$x
+              $a$e$a$m$a  $l$b$a$p      $l$b$a  $x
+              $a  $m$q$m$a  $b$a$r  $s$r$a$b$a  $x
+                $a$n  $m$a$l$m$a$s$p$a$s$l$n$a$x
+                $a$q  $a  $l$n$l$a  $p$a$l$m$l$x
+                $a$k$q$a$b$a$l  $s  $p$a$m$l  $x
+                $a$k$q$a$b$a$s$r$s$a$p$a$m$n$a$x
+                $a$k$a    $p$r  $n$b  $p$a$n$m$a$x
+              $a$n$k$a  $p$h$r$s$a$m$a$p$a$m$n$a$x
+              $a$n$q$a  $s$r$e$a$m$n  $a$h$m$n$a$x
+              $a$n$q$a$p$s  $a$f  $g$f$e$a  $m$a$x
+              $a$q$k$a$s  $p$a$m$e$f$e$n$a  $m$a$x
+            $a$n$k  $q$a$p$a$m$g$n$g$n$g$a  $n$q$a$x
+            $a$q$k$n$q$a  $n$e$n  $d$n$h$a    $q$a$x
+            $a$q$k$a$n$a$m$q$e$h$n  $e$h$m  $a$n$a$x
+              $a$q$a  $q$k  $e$l$h$e$l$h$m  $a$m$a$x
+              $a$n$a$k      $e$u$v  $u$h$m$n$a  $x
+                $a  $k      $e$l$w$u$l$h$m$n$a$x
+                $a$q$k$q$k  $e$u$e  $w$h$m$n$a$x
+                $a$k  $q$k  $e$m$e  $m$h$m$n$a$x
+              $a$n$k  $q$k  $e$w$n  $w$h$m$q$l$a$x
+              $a$n$k  $q$k  $e$u$w  $u$h$m$q$l$a$x
+              $a$n$k  $n$k  $e$y$w  $y$h$n$q$l$a$x
+              $a$q$k  $n$k  $e$y$w$u$y$h$n$q$l$a$x
+              $a$q$k  $n$k  $e$y$u  $y$h$n$q$m$a$x
+            $a$n$k  $n$q$k  $e$y$w$u$y$h$n$q$m$a$x
+            $a$n$k  $n$q$k  $e$y$w$y  $h$n$q$m$a$x
+            $a$n$k  $n$k    $e$u$y  $u$h$n$q$m$a$x
+            $a$q$k  $n$k    $e$y$u$w$y$h$q  $m  $a$x
+          $a$m$q$k$q$n$k      $e$w$y$u$h$q  $m$n$a$x
+          $a$n$q    $m$k      $e$w  $h$q$k$q$m$n$a$x
+        $a$m$n$q  $n$m$k        $e$u$h$k  $q$m$n$a$x
+        $a$n  $q  $m  $q$k      $q$e$q$k  $q$l$n$a$x
+      $a$v      $m    $n$k                $n$l$v$l$a$x
+      $a      $v  $l  $n$q$k  $q    $k    $n$l$v$a  $x
+              $a      $v      $z      $v    $a    $x
+EOC

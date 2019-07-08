@@ -1,0 +1,54 @@
+# Agent 47 (Hitman)
+# by bakudas - https://www.deviantart.com/bakudas/art/Pixel-Dailie-018-Hitman-629225462
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;184m  ";
+$d = "\e[48;5;237m  ";
+$e = "\e[48;5;8m  ";
+$f = "\e[48;5;240m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;180m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;160m  ";
+$k = "\e[48;5;189m  ";
+$l = "\e[48;5;60m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t
+                                $t
+                                  $t
+                                    $t
+                                      $t          $a    $x
+                                                $a        $x
+                                              $a          $x                                        $b$x
+                                              $a          $x                                      $c$x
+                                              $a          $x
+    $d  $e$f      $e  $x                      $a          $g$x                                        $f$e  $f        $e$d      $x
+            $e  $f$g    $x                    $a        $h$i$g  $x                                  $g    $f    $e  $f$x
+              $g$f  $g      $x                  $a    $h$i    $g      $x                $g              $f$g$x
+                $g  $f$g            $x    $g    $i$h  $i    $g                                      $f  $g$x
+                  $g                              $j  $i  $g                                    $f    $g$x
+                        $g                      $k$j  $i$k$g                              $x
+                              $g                $k$j  $k$g                  $x
+                                    $g        $k$i$j    $g              $x
+                                          $g  $k$i$j    $g            $x
+                                          $g  $k$i$j    $g            $x
+                                          $g  $k$i  $j  $g          $x
+                                          $g  $k$i  $j  $g          $x
+                                          $g  $k$i  $j    $g        $x
+                                        $g    $l$k$i  $j  $g        $x
+                                        $g    $l$k$i  $j  $g        $x
+                                      $g      $l$k$i    $j  $g        $x
+                                      $g    $l  $k$i    $j  $g          $x
+                                    $g      $l  $k  $i  $j  $g          $x
+                                    $g    $l    $k  $i    $j  $g          $x
+                                  $g      $l  $k    $i      $j$g            $x
+                                  $g    $l    $k      $i    $k  $g            $x
+                                $g      $x      $k    $i        $k$g              $x
+                                                    $k  $i        $k$g              $x
+EOC

@@ -1,7 +1,7 @@
 # Kenny (South Park)
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/b45b2b61f65cae0
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $g = "\e[48;5;35m  ";   #green
 $a = "\e[48;5;246m  ";  #gray

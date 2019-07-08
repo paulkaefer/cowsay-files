@@ -1,0 +1,72 @@
+# Cyclops (X-Men)
+# sprite from X-Men: Mutant Apocalypse (SNES) - https://www.spriters-resource.com/snes/xmenapoc/sheet/6536/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;226m  ";
+$g = "\e[48;5;160m  ";
+$h = "\e[48;5;178m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;19m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;31m  ";
+$m = "\e[48;5;197m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t                    $a    $x
+                          $t            $a    $b    $a  $x
+                            $t        $a        $b$a  $x
+                                      $a$b  $a$c$d$c$x$a$x
+                                      $a$e  $a$b$f  $b$x
+                                      $e$b$f$a$b$g    $x
+                                      $e$a$h$a  $f  $b$x
+                                      $e$i$e$j$i$d  $c$x
+                                    $e$k$l$e$l$i$d$c$x
+                                    $e$j$l$e$j$i$d  $x
+                                  $e$j$i    $e  $a$c$x
+                              $a$b$h$f  $b$j  $k  $e$x
+                          $a  $b  $h$b        $i  $j$b$h$b$x
+                      $e$k              $b$h$f  $b$i$j$b$h$b$j$x
+                    $e$k$j$i  $j$k$l$i$k    $b$f$h$b  $h$f$b$i$j$x
+                  $e$k$j$i$l  $i$j$k  $j    $k  $b$a$f$a$e$h$b$i$j$x
+                  $e$k$j$i$l$i$l$i$e$k$j$i  $l$i$k  $f$e$m$a$b$i$j$x
+                  $e$k$j$i  $l  $i$e$k$j$i  $l  $i$k$h$f$b$a$b$i$j$x
+                $e$k    $j$i$l  $i$e  $k$j$i    $j  $k$h$f$h$b$i$j$x
+                $e$j$i$j$k$j  $i$k$e    $k        $j$k  $a    $i$j$x
+              $e$k$i  $k$j$i$j$e  $j$k$e$k  $j$i$l$i$k$i$a$h$f$k  $x
+              $e$j$i$k$j$i$l$i$e$k$i  $e$k$j$i$l  $i$k$l$a$h$f$j  $k$x
+              $e$j  $k$j$l  $i$e$k$j$l$e$k  $j  $k    $i$a$h$f$j$i$k$x
+              $e$j  $e$k$i  $k$e$k  $j$i$e$k$e$k$j$k    $a$h$b$j$i$k$x
+            $e$k$j  $k$e$k  $e  $k$j$k    $e$k$j  $k$j$k$a    $j  $k$x
+            $e$j  $i$j$e  $x$e  $k$j$i$l$j$e$k$j  $k$j$k$h$f$j  $k$x
+          $e$k$j  $l$i$e$x    $e  $j$i$l$k$e    $k    $a    $j  $k$x
+          $e$j    $i$l$j$k$x    $e$j  $i$k$e$k$j  $k  $h$f$j$i  $j$k$x
+          $e$j$i$j$i$l$i$k$x    $e$k$j$i$k$e          $b$a$j$i    $k$x
+          $e$k$i$j  $i  $k$x  $a$b$h$a$f$a$h$f$e  $a$m$e$h$a$i    $k$x
+            $e$j$i$j$i  $k$x  $a$b  $a$b$a$b  $e$m$e    $b$a$j$i  $j$k$x
+            $e$k$i$j  $i$k$x  $a$b$h$a$h$a$h$f$e  $a$m$e$h$a$k$j$i$j$k$x
+              $e$j$i$b    $x    $a$b          $e        $b$a$e$j  $k  $b$x
+              $e$j$b$h$f  $b$x$a$b      $h    $f        $h$b$x$k  $h  $b$x
+                $a$h$b      $x$a$b    $h    $f      $h  $b  $x$e$b  $a$h$b$x
+                $a$b$h$f  $b  $a$b    $h    $f        $h$b  $x$a$b$a$h  $b$x
+                $a$b  $a  $b  $k        $b$h$f          $k  $x  $a$b  $a$b  $x
+                $a$b$a$b$h  $b$a$k$j    $k$b$f        $h$k$j$k$x$a$b$a$h  $b  $x
+                  $a$b$h$f  $h  $a$j  $i$j$k$h$f    $h$k  $i$k$x  $a$b  $h  $b$x
+                  $a$b$h$f    $b$h$a$i$l$i$k$b$h    $k    $i$j$k$x$a$b  $h  $b  $x
+                  $a$b$h$f    $b  $a$l  $i$j$k$b$h$b$k    $j$i$k$x$a$b  $h$a$h$b$x
+                  $a$b$h$f    $h$b$a$l$i$j  $k$b  $k  $i$j$k$i$k$x$a  $h$a$b$h$b$x
+                  $a$b$h  $f  $h$b$j$i$j$k$j$i$k$e  $k$i  $k$j$k$x$a$b$a$b$h$b  $x
+                    $a$b          $j  $k$j  $l$k$e$j$k$i$l$j$k  $x  $a$b      $x
+                      $a$b      $i$k  $j$i$k$l$k$e$j$e$i$l$i$k$i$k$x  $a$b  $x
+                      $a$b    $h$b$k$j$i$l$k$i$e  $j$e$j$i  $k$i$k$x
+                      $a$b  $h$f$h$b$k$i$l$k$j$e  $k$e$k$j  $k$i$k$x
+                      $a$b    $h$f  $h$k$i$k  $e  $k$e  $k        $x
+EOC

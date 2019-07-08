@@ -1,8 +1,8 @@
-# Obo-Wan Kenobi (Star Wars)
-# by Charlie M
+# Obo-Wan Kenobi (Star Wars) - cropped
+# by Z-studios - https://www.deviantart.com/z-studios/art/Obi-Wan-Death-733880511
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;67m  ";
 $b = "\e[48;5;60m  ";
@@ -84,23 +84,4 @@ $the_cow = <<EOC
                   $h$C  $h  $C$h$C$g  $h  $g$h    $g$h    $x
                   $g$h    $v$h$C  $g  $h  $g$h    $g  $h  $x
                   $g  $h  $v$u$h$g    $h  $g$h    $g  $h  $x
-                  $f$g$h  $v$u$v$h$g  $h  $g$h  $g    $h    $x
-                  $f$g$h  $v$u$v  $h      $g$h  $g    $h    $x
-                  $f$g$h  $v$u$v  $u$v$h  $g$h  $g    $h    $x
-                  $f$g$h  $v$u$v  $u$v$h  $g$h  $g    $h    $x
-                  $f$g$h  $v  $u$v    $h  $g$h  $g    $h    $x
-                  $f$g$h  $v$u      $v$u$h$g$h  $g      $h  $x
-                  $f$g$h  $v$u          $h$g  $h$g      $h  $x
-                  $f$h    $v$u          $h$g  $h$g      $h  $x
-                  $f$h    $v$u          $h$g  $h$g      $h  $x
-                  $f$h  $v  $u          $h$g  $h$g  $h$g  $h  $x
-                  $g$h  $v  $u          $h$g  $h$g  $h$g  $h  $x
-                  $g$h  $v$u            $v$h$g      $h$g  $h  $x
-                  $g$h  $v$u            $v$h$g      $h  $g$h  $x
-                  $g$h  $v$u            $v$h$g      $h  $g$h  $x
-                  $g$h  $v$u            $v$h$g      $h  $g  $h$x
-                  $g$h  $v$u        $v$u$v$h$g      $h    $g$h  $x
-                $g  $h  $v$u        $v$u  $h$g    $h      $g$h  $x
-                $g  $h  $v$u        $v  $u$h$g    $h              $x
-                $g  $h  $v  $u    $v      $h$g    $h              $x
 EOC

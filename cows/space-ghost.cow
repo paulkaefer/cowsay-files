@@ -1,0 +1,56 @@
+# Space Ghost
+# by bfadraw - https://www.deviantart.com/bfadraw/art/Space-Ghost-Gang-628526520
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;226m  ";
+$b = "\e[48;5;233m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                          $t
+                            $t          $a              $x
+                                      $a$b              $a$x
+                                    $a$b                  $a$x
+                                    $a$b                  $a$x
+                                    $a$b                  $a$x
+                                  $a$b        $a$b          $a$x
+                                  $a$b        $a$b          $a$x
+                                  $a$b$c    $b      $c    $b$a$x
+                                  $a$b  $c    $b  $c    $b  $a$x
+                                  $a$b                      $a$x
+                                  $a$b                      $a$x
+                                $a$b    $d    $b  $d    $b    $a$x
+                                $a$b  $e      $d  $e  $d  $b  $a$x
+                                $a$b  $e                $d$b  $a$x
+                                $a$b  $e    $b      $e  $d$b  $a$x
+                                $a$b  $e                $d$b  $a$x
+                                $a$b  $e                $d$b  $a$x
+                                $a$b  $e                $d$b  $a$x
+                              $a$b      $e            $d$b      $a$x
+                              $a$b      $e            $d$b      $a$x
+                              $a$b        $e  $d$e    $b        $a$x
+                              $a$b                              $a$x
+                          $a    $b                              $a    $x
+                      $a      $b                                  $a      $x
+                  $a        $b                                      $a        $x
+            $c      $a        $b                                  $a        $c      $x
+          $c            $a      $b                              $a      $c            $x
+          $c                $a    $b                          $a    $c                $x
+        $c                      $a  $f                      $a  $c                      $x
+        $c                            $f      $b  $f      $c                            $x
+        $c                              $f    $b  $f    $c                              $x
+      $c                                  $f$b      $f$c                                  $x
+      $c                                    $b      $c                                    $x
+      $c                                      $b  $c                                      $x
+      $c                                                                                  $x
+      $c                                                                                  $x
+      $c                                                                                  $x
+EOC

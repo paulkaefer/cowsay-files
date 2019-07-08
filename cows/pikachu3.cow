@@ -1,0 +1,65 @@
+# Pikachu
+# by Unknown - https://www.pngfly.com/png-ebqeco/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;130m  ";
+$e = "\e[48;5;11m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;172m  ";
+$h = "\e[48;5;229m  ";
+$i = "\e[48;5;232m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;174m  ";
+$l = "\e[48;5;1m  ";
+$m = "\e[48;5;203m  ";
+
+$the_cow = <<EOC
+                $t              $a  $x                                          $a    $x
+                  $t            $a$b$a  $x                                  $a  $b$a  $x
+                    $t          $a$b  $a  $x                              $c$b    $a  $x
+                      $t        $a$b    $a$d$x                          $a$e$b  $a  $x
+                        $t      $a  $b$e$f$d$x                        $d$e  $b$a    $x
+                                  $a$g$e  $f$d$x                    $d$f$e    $a  $x
+                                  $a$e      $d$x                    $d$e      $a  $x
+                                  $c$f$e    $f$d$x                $d$e      $f$a$x
+          $d  $x                    $c$e    $f$d$x$d          $x  $d$e    $f$a$x
+        $d$e  $d$x                  $c$f$e  $d  $g$h      $e  $g$d$e      $c$x
+      $d$e      $d$x                  $c$f$d$h              $e          $c$x
+      $d$e        $g$x                  $d$e  $h        $e            $c$x
+    $d$e            $x                $d$g$i$f$e          $f$i  $f$e$d$c$x
+  $d$e              $g$x              $d$i$j$i$e          $b$j$i$a$e$f$c$x
+  $d$e                $d$x          $d$e$a$i$a$e          $i  $b$a$e$f$d$x
+$d$e                    $d$x        $c$e$f$a$f$e$c$g$e    $f$a  $f    $g$c$x
+$d$e                    $d$x        $a$k$e                        $l$f  $a$x
+$a$e                  $f  $d$x      $a$m$e  $g$d$a  $d  $e      $m$l  $f$a$x
+  $a  $e              $f    $d$x    $a$m$e    $f$a$l  $f$e      $m$l  $f$a$x
+      $a  $e        $f        $d$x    $a$e      $l$m$l$e        $m$l  $f$a$x
+          $a  $e    $f        $a$x    $a$e        $m$f$e        $f$l$g$f$c$x
+              $a  $f        $a$x        $a$e                  $f        $g$c$x
+                  $a$f    $c$a$x        $c$e              $f              $a$x
+                    $f  $a$x          $d$e      $f                $g$e$f  $a$x
+                    $f  $g$a$x        $c$e          $g$f          $e    $f$a$x
+                  $c$f    $g$a$x      $c$e            $g$f        $e    $f$a$x
+                  $a$g$f$g    $c$x  $c$e  $f$e        $d$f      $d$e  $f$g$a$x
+                    $c  $g    $c$x  $c$e  $g$f$e      $f$a$f  $d$f$e$f  $d$a$x
+                        $a$g$c$x  $d$e      $d$f$e      $h$c$f$d  $f  $c$f$c$x
+                        $a$d$a$x$c$e          $d  $f$e  $a$f    $a    $f  $g$c$x
+                      $a$d    $c$d$e              $d$c$a$f      $a$f        $a$x
+                      $a$d    $c$e                    $f                    $a$x
+                        $a  $d$a$e                $f                        $a$x
+                            $a  $e                $f                      $a  $x
+                              $c$f$e            $f                        $a$x
+                                $c$f$e      $f      $g        $f        $a$x
+                                $a$g$f            $g              $f$g$a$x
+                                  $a$g$f        $c$a    $c$d    $g$d$a$c$x
+                                    $a$d$g  $d  $c$x        $a$g  $f    $c$x
+                                  $c$f$e  $f$g$c$x            $a  $g$f$d$f$c$x
+                                $c$e    $f$a  $x                  $c$a    $x
+                                $a$g$d$g$a  $x
+                                  $a    $x
+EOC

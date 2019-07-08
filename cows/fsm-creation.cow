@@ -1,0 +1,65 @@
+# Creation of Adam w/ Flying Spaghetti Monster
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;226m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;214m  ";
+$e = "\e[48;5;229m  ";
+$f = "\e[48;5;24m  ";
+$g = "\e[48;5;88m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;202m  ";
+$j = "\e[48;5;94m  ";
+$k = "\e[48;5;22m  ";
+$l = "\e[48;5;65m  ";
+$m = "\e[48;5;180m  ";
+$n = "\e[48;5;137m  ";
+$o = "\e[48;5;236m  ";
+$p = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+             $t                                                                                       $a    $x
+              $t                                                                                    $b$c  $a$x
+               $t                                                                                   $b$c  $a$x
+                $t                                                                                    $b  $d  $x
+                 $t                                                                                           $d$x
+                  $t                                                                  $a    $x                  $d$x              $b$x
+                   $t                                                               $b$c  $a$x                    $d$b$x    $d$b$d$x
+                    $t                                                              $b$c  $a$x                      $d$b$d$b$d$x$b$e$b$e          $b$x
+                     $t                                                               $b      $x                      $d$e$d$b  $d  $x              $b$e$x
+$f                $x                                                                          $b$x                  $d$b$d$g$h$g$h$g$d$e  $b$e  $b$x
+$f                  $x                                                                          $d$x      $e  $x    $b$g  $h          $d$b$e$b    $e  $x
+$f                    $x                                                                          $d$b$x    $b$e$x$d$b$g$h$i    $h$i$h  $b$e$x      $e  $x
+$f            $j      $f  $x                                                                        $d$b$d$x  $b$e$d  $g$h  $i$g$h$i$h  $d$e$d$x      $e$b$x
+$k$f        $j        $f    $x                                                                $d$e        $d$x$d$b  $d$g$h  $i        $h$d$e$d$e$x    $d$e$x
+$l  $k  $f$j      $m  $f        $x                                                      $e$b                $e  $d$b$d$g$h    $i    $g$h$d$e$d$e$d$x    $b  $x
+$l      $k$j    $m    $f        $x                              $b      $x            $b$d$x    $g$h$g$h$g  $c$b$e$d  $g  $h  $g$h      $d$e$d$b$e$d$x  $b$e$x
+$l        $j  $m      $f          $x                $m          $x    $b  $x        $b  $x    $g  $h    $g$h$g$c$b  $d$g  $h$g$h$g$h  $g$b$e$d$x$b$e$x  $d$e$x
+$l          $m  $n$m  $f          $x          $m    $n  $m  $x          $b$e$d$x  $b  $x    $g  $h  $i$h$i$h  $g$d      $g  $h$g      $c$b$e$b$x$b$e$x  $d$e$x
+$k$m    $n  $m    $n  $m                          $n  $x                  $b        $d$x  $b$g  $h    $i    $h$g$d$b$c$d$c$g        $c$b$e$x$e$x  $e$x    $b$x
+$k$m            $n  $m                        $n  $x                                      $b$g  $h      $i  $h$g$c$e$c$b$c$d$c$d  $c$b$e$x  $e$x  $e$x    $b$x
+$k$m                      $n$m        $n        $x                                      $b$c$g    $h$g$h$i$g$h$g$d$e$c$e$c$b$c$b$e$c$e$x  $d$e$x  $e$x    $b$x
+$k$m          $n$m        $n$k      $f    $m      $n$x                                  $b$e$g$h$g$h$g  $h  $g  $d$e$c$e$c$e$c$b$e$b$x    $b$e$x  $e$x    $b$x
+$k$m$n$m      $n$m      $n  $l  $k    $m          $n$x                              $d  $e$d  $g  $h$g$h      $d  $b$c$e$c$e$c$b$d$e$x    $b$d$x  $e$x    $d$x
+$k$m$n$m    $n  $m      $n  $l      $m    $n$m    $n$f    $x                      $e$b$d$e$c$e    $g    $h$g$c$d  $e$c$b$c$e$c$d$b  $x  $b$d$x    $e$x    $d$x
+$k$m$n$m$n      $m$n        $k$l  $m            $n$k$f          $x              $b  $x  $d$x  $b  $e  $c    $d  $b$c$d$b$e$d$b  $d$b$e$x$b$x    $d$x
+$k$m$n$m              $n    $k  $m      $n$m    $n$k    $f        $x          $b$x      $e$x  $d      $e    $b  $e$d  $b$e$c$e$x  $b$e$x
+$m  $n  $m            $n      $m      $n$m      $n$l  $k    $f      $x    $d  $x      $b$e$d  $x      $d  $b$e$b$d$b$x$d$b$c$e$x    $b$e$x
+$m    $n$m                  $n$m      $n$m      $n$l    $k    $f      $x              $b$x        $d  $b    $x$d$b$x  $d$b$e$b$x    $d$e$x
+$k$m$n$k$n$m                $n$m      $n$m    $n$l            $k  $f    $x        $b    $x    $b  $x$b$e$b$x$d$b$x  $b$d$x$e$x        $b$x
+$k        $n$m              $n          $m    $k        $l        $k$f    $x  $b    $x            $e$b$x  $b  $x  $d$b$x  $d$e$x        $b$x
+$k          $n$m    $n                $m    $n$k                    $f      $x                $e$b$x    $b$d$x  $b  $x    $d$x$b$e$x    $b$x
+$l            $n$m                    $n$m$n$l              $k        $f      $x                      $b$x    $b$x      $d$b$x
+$l              $n$m                    $n  $l              $k          $f      $x                  $b$x                $b$x
+$k$l              $n  $m                      $n$l      $k                $f      $x                                  $b$x
+$k      $l                $n$m                  $n  $k        $l          $k    $f  $x                                $d$x
+$o  $k                      $n            $m      $n    $l                  $k  $f    $x
+$o  $k    $o  $k  $j          $o  $k    $o$n  $m        $n$l                  $k  $f    $x
+$k  $o    $k  $o$j              $k$o    $k    $n  $m      $n      $l        $k    $f      $x
+$k  $o    $k$l  $p  $j$p  $j        $o  $k  $o$k  $n    $m              $n$m$k    $f        $x
+$k  $o    $l      $p            $j    $o$k  $o  $k            $n    $m  $n$m$k    $f            $x
+EOC

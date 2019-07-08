@@ -1,0 +1,80 @@
+# The Terminator w/ shotgun - cropped
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9gkibo/oc_terminator_i_made_as_part_of_my_latest_live/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;209m  ";
+$e = "\e[48;5;167m  ";
+$f = "\e[48;5;251m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;233m  ";
+$i = "\e[48;5;102m  ";
+$j = "\e[48;5;196m  ";
+$k = "\e[48;5;244m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;237m  ";
+$n = "\e[48;5;131m  ";
+$o = "\e[48;5;234m  ";
+$p = "\e[48;5;243m  ";
+$q = "\e[48;5;8m  ";
+$r = "\e[48;5;238m  ";
+$s = "\e[48;5;59m  ";
+$u = "\e[48;5;246m  ";
+$v = "\e[48;5;240m  ";
+$w = "\e[48;5;94m  ";
+$y = "\e[48;5;241m  ";
+$z = "\e[48;5;235m  ";
+$A = "\e[48;5;242m  ";
+$B = "\e[48;5;137m  ";
+
+$the_cow = <<EOC
+                  $t                $a      $x
+                    $t            $a  $b$c$b$a$x
+                      $t          $a  $d$e$f$g$x
+                        $t        $a$h        $x
+                          $t      $a$i$j$h$g$h$x
+                                  $a$b$k$f$g  $x
+                                  $a$b  $g    $x
+                                    $l$b$g  $c$x
+                                  $m$l      $x$n  $c$x
+                              $m  $o$l      $n  $c$m      $x                                                        $o$x
+                          $m    $o  $l    $p$m    $o  $m    $x                                  $m                  $q$m$x
+                        $m$o  $r  $o$p      $n  $c$r$o  $m          $x        $i$m    $i$o    $m  $s$m$s  $m  $k$i$u  $m$x
+                      $m$o  $r$o  $v$k      $m  $o  $r$o  $m$o$m                  $o$m  $o                              $x
+                      $m$o$r$o    $v$k    $n  $c$r$o  $r$o$m$o    $m            $o    $m  $o                            $x
+                    $m  $o  $k$r  $v$k    $m    $o$k$r$o                                              $x    $k$m$x
+                    $o      $r$o  $r$k  $n  $c$o  $r$o                        $w    $o      $k$x            $m$x
+                    $o$m$o    $r$o  $k  $m    $o  $r$o      $x    $o      $w      $o    $m    $x            $m$x
+                      $m  $o    $r$o$y  $o      $r$o    $x            $w            $o$m$o$x  $m  $x    $m  $x
+                      $m$o        $r$y$n  $c$o$r$o      $x        $z$w            $x$o$m$x        $m    $x
+                      $m$o        $r$y$m    $o$r$o    $x          $z  $w        $x
+                      $m$o          $n  $c$y$A$o      $x            $z  $w    $x
+                    $m$o    $k$a  $o$m    $y$m$o      $x              $z  $w$x
+                  $m  $o    $a$o  $n  $c$y  $k$o$a  $o$x
+                  $m    $o  $a$o  $m    $y  $m$o    $x
+                $m$o      $x$o$n  $B$o$y    $k$o    $x
+                $m  $o    $x$n$B$m  $o$y    $m$o    $x
+              $m    $o  $x  $m  $o    $y    $k$o    $x
+              $m  $o    $x$o        $y      $m$o$a  $x
+            $m  $o    $x$o          $w$v$f$w$o  $a$o  $x
+          $m  $o    $x  $o      $k$w  $v  $w$k$o$a$o  $x
+          $o      $x    $o        $m        $o    $m  $x
+      $y$o        $x      $m      $a$m    $a$m  $o      $x
+      $y$o  $g$o  $x    $m        $a$m  $a$m      $o$x$o$x
+      $y$o$g    $x      $m    $a$o          $m    $o$x$o$x
+      $y$o$g$x          $m        $a$o    $m        $o$x
+    $y  $o$x            $m        $o      $m        $x
+    $y$o$x              $m      $o          $m      $x
+    $y$o$x              $z      $o  $x  $o    $z    $x
+    $y$o$x              $z$m  $a$o  $x    $o  $m      $x
+                        $m      $o  $x    $o  $a$m    $x
+                        $m      $o$x      $o    $m    $x
+                        $m    $a$o$x      $o    $m    $x
+                        $m    $o  $x      $o    $m    $x
+                        $m    $o  $x        $o  $a$m  $x
+                        $m  $a$o  $x        $o    $m  $x
+EOC

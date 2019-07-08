@@ -1,0 +1,76 @@
+# Sterling Archer (Archer)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;240m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;8m  ";
+$g = "\e[48;5;238m  ";
+$h = "\e[48;5;246m  ";
+$i = "\e[48;5;66m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;59m  ";
+$l = "\e[48;5;248m  ";
+$m = "\e[48;5;247m  ";
+$n = "\e[48;5;254m  ";
+$o = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+          $t                                        $a                $x
+            $t                                $a$b  $a  $b$a              $x
+              $t                            $a$b$a                          $x
+                $t                        $a                                  $x
+                  $t                    $a  $b    $a                        $b$a$x
+                    $t                $a    $b      $a      $b$a    $b$a  $b$a    $x
+                      $t            $a    $b$a      $b    $a  $b  $a  $b  $a$b$a  $x
+                        $t          $a  $b  $a  $b$a      $b$a    $b$a  $b$a        $x
+                                  $a    $b$a        $b$a    $b$a  $b$a  $c$a$b$a    $x
+                                  $a          $c        $a          $c  $d$a  $b$a  $x
+                                  $a        $d      $c        $d          $c$a      $x
+                                  $a      $e$d                              $a      $x
+                                  $a      $e$d                              $a      $x
+                                  $a      $e$d                              $c$a    $x
+                                  $a      $c$d                                $a    $x
+                                  $a      $c$d                  $c$e    $c  $d$c$a  $x
+                                  $a    $e$c$d$c$e$c$d          $e$a        $e$d$a  $x
+                                $a      $c  $e$a        $e$d$e$d            $a$c$a  $x
+                              $a$e$c$a  $c$e  $c  $f$g$a  $d$c$d  $c$g  $e$c$d$e$g$a$x
+                              $a$e  $c$a$c    $e$h$i$j$g$c  $d  $c$k$l$i$m$a$c$d$a$c$a$x
+                              $a$e$c$e$a$d      $c$e  $c    $d    $e  $c  $d    $c  $a$x
+                              $a$e  $c  $d              $c  $d                  $c$d$a$x
+                              $a$e$c    $d              $c  $d                  $c$d$a$x
+                                $a$e$c    $d            $c$e$d                $c$d  $a$x
+                                $a$e$c  $e$d          $c  $d    $c$d          $e$d$e$a$x
+                                $a$e$c$e$c$e$d        $c  $d      $c$d      $c  $e$a$x
+                                  $a    $c$e$d        $c            $d      $e$d$a$x
+                                      $a$c  $d                                $c$a$x
+                                      $a$e$c$d    $c$d                        $a$x
+                                        $a$c$d  $c$d        $c$d        $c$d  $a$x
+                                        $a$c  $d$c$d$c    $e      $c$e$d$c$d  $a$x
+                                        $a$e$c$d                            $c$a$x
+                                        $a$e$c$d          $c    $d          $a$x
+                                        $a$e  $c$d      $c$e    $c$d      $c$a$x
+                                        $a$d$e$c  $d                    $c$a  $x
+                                      $a  $d  $c$e$c$d                $e  $c$a$x
+                                    $a  $n$a$d    $e  $d    $c$d    $e  $c  $a$x
+                                  $a    $n  $a$d    $e                $c  $e$a  $x
+                                $a$g  $a$n    $o$d    $c          $e  $c  $a      $x
+                              $a$g    $a$n      $a$c$d      $c  $e$c    $a$h  $a    $x
+                            $a$g      $a$n        $a  $c$d    $c      $a$h      $a    $x
+                        $a    $g      $a$h$n          $a  $d    $c  $a$h        $a        $x
+                    $a  $g$a$g        $a$h$n              $a  $c  $a$h  $n  $h  $a            $x
+                $a  $g  $a  $g        $a$h  $n                $a  $n        $h  $a                $x
+            $a  $g      $a$g            $a$h$n              $a      $h$n      $h$a                    $x
+    $a      $g        $a  $g            $a$h$n            $a          $n      $h$g$a                        $x
+$a  $g                $a$g              $a$h  $n        $a        $g$a$h$n    $h$a$g$a                            $x
+$g                  $a    $g            $a$h  $n      $a                $h$n  $h$a$g  $a                              $x
+$g                      $a    $g$a$g      $a$h  $n  $a$g$h$a          $g  $n  $h$a$g  $a                                $x
+$g                        $a    $g        $a$h      $a$h  $a          $h$a$h$n$h$a$g    $a                              $x
+$g                        $a  $g            $a$h  $a$h      $a      $h    $a$n$h$a$g      $a                            $x
+$g                      $a  $g                $a$g  $h$n  $h$g$a    $h$n$h  $a    $g      $a          $g  $a            $x
+EOC

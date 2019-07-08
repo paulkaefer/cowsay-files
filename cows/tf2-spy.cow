@@ -1,0 +1,70 @@
+# The Spy (Team Fortress 2)
+# by UltraBananaBuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-Spy-350069023
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;66m  ";
+$b = "\e[48;5;233m  ";
+$c = "\e[48;5;24m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;174m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;27m  ";
+$i = "\e[48;5;238m  ";
+$j = "\e[48;5;202m  ";
+
+$the_cow = <<EOC
+                          $a$x           $t       $b            $x
+                          $a    $x         $t   $b$c            $b$x
+                            $a    $x          $b$c    $d        $c$b$x
+                              $a  $x        $b$c    $d            $b$x
+                              $a  $x        $b$e    $d              $b$x
+                          $a    $x          $b    $f  $d    $c  $d  $b$x
+                        $a    $x          $b$f$b$f    $d        $c$d$b$x
+                        $a  $x            $b$d$f  $d                $b$x
+                        $a  $x          $b$c$d                      $b$x
+                          $a  $x        $b  $d                    $b$x
+                            $a$x          $b$e      $d        $b  $x
+                              $a$j$d      $b$e    $f$d      $b  $x
+                                        $b$e    $f  $d    $b$d$b$x
+                                          $b$f$e$f$d    $b$d  $b$x
+                                          $b$e  $d$b    $d  $b    $x
+                                          $b      $d    $b  $g$e$b$x
+                                              $b  $d$b  $g$e  $b$c$b$x
+                                          $b  $g$b  $g$e    $b$c  $h$b  $x
+                                      $b  $h$b$g$b$c$b$g$e$b$c  $h      $b$x
+                                    $b$h$b      $h$c$b    $c  $h          $b  $x
+        $b$x                        $b$h$b$d$c$b$c  $b$c$b$h                  $b$x
+      $b$g$b$x                      $b  $h$b$d$c$b    $d$b$h                    $b$x
+      $b$g$b$x                    $b$h$b$h$b$d          $b$h            $c      $b$x
+        $b$g$b$x  $b      $x      $b$h$b$c$b$d          $b$h      $c      $h    $b$x
+      $b  $g$b    $g    $i$b$x  $b$h$b$c  $b$d        $b$c            $h  $c    $b$x
+      $b$c$b$g    $a    $i$b$x  $b$h$b$c    $b$d$b      $c          $h$c      $b$x
+        $b$c$b$a          $i$b  $h  $b$c    $b  $g$e$b  $c      $b$c          $b$x
+        $b$d$b  $a        $i$b  $h  $b$c    $b$g$b  $h  $b$c    $b$c          $b$x
+        $b$d$c  $b    $a    $i$b$h$c$b$c      $b$h      $b$c    $b$c        $b$x
+        $b$d  $c      $b$a  $i$b$h$c$b$c    $b$h$c  $h    $b$c$b$h$c        $b$x
+          $b$d$b          $a  $i$b$c$b$c    $b$c      $h  $b$c$b$h$c        $b$x
+          $b$d$c        $b$a  $i$b$c$b$c      $b$c    $h    $b$h$c        $b$x
+            $b$d$c      $b$a    $i$b  $c      $b$c      $h  $b$h$c        $b$x
+              $b        $a  $b        $c        $b$c      $h  $c        $b$x
+                $b$c$b      $c    $b  $c          $b$c      $h$c        $b$x
+                  $b  $c      $b  $x$b$c          $b$c                $b$x
+                      $b      $x    $b$c            $b$c              $b$x
+                                    $b$c              $b$c          $b$x
+                                    $b$c              $b$c          $b$x
+                                    $b$c                $b$c      $b$x
+                                    $b$c                  $b        $x
+                                    $b$c                          $b$x
+                                    $b$c                        $h$b$x
+                                    $b$c$b$c                  $h    $b$x
+                                    $b$c$b$c              $h    $c$h$b$x
+                                  $b$h$c$b$c        $h        $c  $h$b$x
+                                  $b$h$c$b  $h            $c    $h  $b$x
+                                  $b$c$b$c$b$h        $c      $h      $b$x
+                                  $b$c$b$c  $b$h                      $b$x
+                                  $b$c$b$c    $b$c$h                  $b$x
+                                  $b  $c        $b$c  $h              $b$x
+EOC

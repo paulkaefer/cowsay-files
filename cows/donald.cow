@@ -1,8 +1,8 @@
 # The Donald
-# by Charlie M
+# by som3a982 - https://imgur.com/gallery/COpzY
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;185m  ";
 $b = "\e[48;5;215m  ";
@@ -14,10 +14,10 @@ $g = "\e[48;5;196m  ";
 $h = "\e[48;5;236m  ";
 
 $the_cow = <<EOC
-              $t
-                $t
-                  $t
-                    $t$a          $x
+        $t
+          $t
+            $t
+              $t      $a          $x
                     $a              $x$a$x
                     $a  $b        $a  $x
                   $a    $b$a  $b$a$x

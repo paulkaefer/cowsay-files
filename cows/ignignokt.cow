@@ -1,7 +1,7 @@
 # Ignignokt, from the Mooninites (ATHF)
-# by Charlie M
+# by Charc0al (original art)
 
-$x = "\e[m  "; #end color
+$x = "\e[49m  "; #end color
 $g = "\e[42m  ";
 $b = "\e[44m  ";
 $b1 = "\e[44m $x";

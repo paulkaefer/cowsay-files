@@ -1,0 +1,74 @@
+# Lara Croft w/ bow & pick (Tomb Raider) - cropped
+# by Iceztiq - https://twitter.com/iceztiq/status/610389394185261056
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;238m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;189m  ";
+$g = "\e[48;5;248m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;244m  ";
+$j = "\e[48;5;235m  ";
+$k = "\e[48;5;8m  ";
+$l = "\e[48;5;239m  ";
+$m = "\e[48;5;240m  ";
+$n = "\e[48;5;125m  ";
+$o = "\e[48;5;167m  ";
+
+$the_cow = <<EOC
+            $t                          $a  $b      $x
+              $t                    $a    $b        $a  $x
+                $t                $a    $b            $a$x
+                  $t              $a  $b              $a  $x
+                    $t            $a  $c$b            $a  $x
+                      $t          $a$c$d  $c$b        $a  $x
+                        $t        $a$c$d    $c$b    $a    $x
+                                  $a$e$d      $c$b  $a    $x
+                                  $a$c$d    $e$c$a$b$a    $x
+                                  $a$c$d        $a      $x
+                                  $a$c$d        $a    $e$x
+                                $b$x  $d        $a  $e  $a$x
+                                  $a  $x$c    $b$x  $e  $a  $x
+                              $e        $c      $x  $e    $a  $x
+                                $e$f$e$c$e  $a$e$c$g$f$e    $a  $x
+                                $c$f$e$d  $a  $d$c$g$h$c$e    $a    $x
+                                $c$f$e$a$d      $c$g$h$c$d$e$a$e$a      $x
+                              $c  $i  $a$d    $c$f$g$f$c$d  $e$a$e  $a    $x
+                              $c  $i  $a$b$c  $f$g  $f$c$d  $e$a  $e    $a  $x
+                              $c  $i$g$i$a$f  $g      $c$d    $e$a$x$e$x$e  $a$x
+                            $c    $i    $a$b$g        $c$d    $x$a$x  $e$x  $e$x
+                            $c    $i      $a$i$g      $c  $d    $x$a$x  $e$x  $e$x
+                            $c      $i    $a  $i    $x  $c$d    $x$e$x  $e$x  $e$x
+                          $c      $x$i      $a$i    $x    $c$d    $x$a$x  $e$x
+                          $c$d$c  $x  $i    $e  $g$e$x    $c$d    $x$e$x  $e$x
+                        $c$d  $c$x    $i      $e    $a$x    $c$d    $e$x
+                        $c$d  $c$x  $i    $g  $i$e  $a$x    $c$d    $e$x
+                      $c$d    $x    $i    $g  $i    $e$a$x    $c$d  $e$x
+                      $c$d  $x      $i    $g$i  $g$i$e$a$x    $c$d    $x
+                      $c$d  $x    $i    $g        $i  $e$a$x    $c$d  $x
+                    $c$d  $x      $j$i  $g$k  $g$e      $a$x    $c$d  $x
+                    $c$d  $x      $j$l  $k$e    $j$e  $b$e$x      $c$d  $x
+                    $c$d$x      $j  $e  $m$j  $e$j  $a$b$e$x      $c$d  $x              $b  $x
+                  $c    $n$a$x  $j      $a$m  $a    $b    $x        $d  $x              $a$x
+                  $c  $a    $x  $j  $a      $b            $x        $c$d$x            $b$x
+                  $c    $a$x$i$j    $a$j  $a$b        $a$b  $x      $c$d$x          $a$x
+                $n$a$c  $x$i  $j  $e$a    $j$b    $a  $b    $x      $c$i$x        $b$x
+              $o$n$a$c  $x$k  $j  $e$a      $j  $a    $b    $x    $m$k$c$x      $a$x
+            $o$n$a$x      $e$j  $e$a    $b  $a  $j    $b      $x  $c$k$i$x  $a  $x
+          $o$n$a$x        $e$j  $e$a    $b  $a      $b$j        $e$a$k$i$e  $x
+$i$x      $o$n$a$x          $e$j  $e$a    $b$a$x  $a      $b    $x    $c$m$x
+$i$x    $n  $a$x            $e$j  $e$a        $x  $a      $g  $f  $x
+$k$i$x$n  $a$x              $e$j  $e$a        $x    $g      $b    $x
+$k$m  $n$a$x                $e$j    $e  $a    $x    $a      $g$f    $x
+$m$a  $x                  $m  $j      $e    $x      $g    $a$b    $x
+$m    $x                  $m  $j  $a  $j    $x      $a      $b    $x
+$m  $k  $x                    $j$a        $x          $a    $b      $x
+  $m  $k  $x                  $j$a    $b  $x          $a      $b    $x
+      $m  $k$x                $j$a  $b    $x            $a    $b    $x
+            $m$x              $a    $b    $a$x          $a      $b  $x
+EOC

@@ -1,0 +1,73 @@
+# Indiana Jones
+# by Christina Rodriguez - https://www.interest.pics/render/pins/462674561711691886/c2aba
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;137m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;237m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;223m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;251m  ";
+$l = "\e[48;5;7m  ";
+$m = "\e[48;5;243m  ";
+$n = "\e[48;5;248m  ";
+$o = "\e[48;5;179m  ";
+$p = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t        $a      $x
+                    $t    $a        $x
+                      $t  $a  $b      $x
+                        $b  $c$a        $x
+                      $d    $e  $f$a      $x
+                    $d    $f$e$f      $g$x
+                        $d$c$f$h      $x
+                          $g$f$i      $x
+                        $g$c$i$f$i    $c$x
+                    $c$b$c$b$j$i$f  $c    $x
+                  $c$b  $c$b  $j$a$i$j$c  $g$x
+                $c$b  $c$b    $j$i$a$j$c$b$c$x
+              $c$b  $c  $b  $k$j$i$j$c$b    $c$x
+            $c$b        $c  $l$j$a$j$c  $b  $c$x
+            $c$b    $c$b    $c$j$i$j$c$b$c$b$c$x
+            $c$b    $c  $b  $j$c$j$k$c$b$c$b  $c$x
+          $c$b    $c  $b$c$b  $m$c$k$c$b$c$b  $c$x
+          $c$b    $c    $b    $k$j$c$n$c$b$c$b$c$x
+          $c$b    $c      $b  $k  $j$c  $b$c$b  $c$x
+          $c$b    $c    $b$c$b  $k$j  $c$b$c$b  $c$x
+          $c$b    $c      $b    $k  $j$c$b$c$b  $c$x
+        $c$b      $c          $b$a$o$a$c$b$c$b$f$a$x
+        $c$b    $c$x$c  $b      $c      $b  $f$i  $a$x
+        $f$b  $c  $b    $c      $e$g$f$c  $b$i  $f$i$x
+        $i    $g$c$b    $c$g    $e$g$p$e$g$c  $i$f$i$x
+        $i  $f$i$c    $g  $e$f  $e$g$f    $e$g$c$f$x
+        $f    $i$c    $e$f    $e$g  $e$f  $e$g$x
+              $f$c  $g$f    $e$g    $e$f  $e$g$x
+                $c  $g$f    $e$g$x$g$e$f    $c$x
+                    $g$f    $e$g$x$g$e$f    $g$x
+                  $c$e$f  $e$g$x    $g$e$f$p$e$g$x
+                  $c$f    $e$g$x    $g$e$f  $e$g$x
+                  $g$f  $e  $g$x    $c$e$f    $g$x
+                $g  $f$e  $g$x      $g  $e$f  $g$x
+                $g$f$c  $g$c$x      $g  $e$c  $g$x
+              $c$f    $e$c$x          $g$e      $x
+              $g$f    $g  $x          $g$e$f  $e$x
+              $g$f  $e$c$g$x          $c$e$f  $d$x
+            $g$f  $e$g  $x            $g  $e$f    $x
+            $g$f$e$g    $x            $g  $e      $x
+              $g    $c$x                $g$c$g  $c$x
+              $c      $x                  $c    $x
+            $d    $c$x                    $c$d    $x
+          $d    $c  $x                    $c  $d    $x
+        $d    $c    $x                    $c    $d    $x
+        $d  $c      $x                    $c      $d  $x
+EOC

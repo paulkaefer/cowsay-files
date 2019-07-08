@@ -1,0 +1,65 @@
+# Batman
+# sprite from Batman (Sega Genesis) - https://www.spriters-resource.com/genesis_32x_scd/batman/sheet/11333/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;242m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;247m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;136m  ";
+$h = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t
+                    $t          $a$x
+                      $t        $a  $x
+                                $a  $x
+                                $a$b$a$x
+                                $a$c$d$a  $x
+                              $a$d$e$b$d  $a$x
+                              $a$e  $c$d$b$a$x
+                              $a$e$c$d$e$c$a$x
+                              $a$c$d$b$d  $b$a$x
+                            $a$d$b$d  $f  $a$x
+                          $a  $b$c$d  $b$f$a$x
+                        $a$b$c  $e$b$a    $x
+                      $a        $b$e$c$d$a  $x
+                    $a  $d$c$e$c$a  $b$c$d$a  $x
+                    $a$d$c$e$c$b  $d$a    $g$a$x
+                    $a$d$b$c$b$d  $b$e$c$a$h$a$x
+                  $a  $b$d$b$c$b$d$a$b$e$c$b$a  $x
+                  $a  $c$d$c$e$c$d$a$d$b$d  $a  $x
+                  $a  $d  $b  $d$a$d$b$c  $d$a      $x
+                  $a  $b$d$a        $d$b$d$a$d  $c$b$a$x
+                $a$b$a$b$a$b$d  $a          $d$b$d$e$a$x
+                $a$c$a  $c$b  $d$a$d  $b$d$a  $d  $c$a$x
+                $a$c$a  $c    $b$d$b$e$b$d$a  $d  $b$a$x
+                $a$c$a  $d$b$d      $c$d  $a$d$a      $x
+                $a$c$a    $d    $a$d$b$d  $a      $x
+              $a$b  $a  $b  $a            $d$a$x
+              $a$c$b$a            $c$b$d$a  $x
+              $a$c$b$a    $d$b  $d$a$b$d$a  $x
+              $a$c$d$a  $d$b  $c$b$d$a  $b$a$x
+              $a$c$d$a  $d$b$c    $d$a$b$c$d$a$x
+            $a$b$c$d$a  $b  $c$e$c$d$a$b$c$b$a$x
+            $a$b$c$d$a  $b$c  $e$c$d$a$b$e$c$d$a$x
+            $a$c$b$d$a  $b$c$e  $c$d$a$b$c$e$b$a$x
+            $a$c$b$a    $b$c$e  $c$d$a$c  $e$c$d$a$x
+            $a$e$b$a    $b$c$e$c  $d$a$c$b$c$e$b$a$x
+            $a$e$b$a    $b$c$e$c$b$d$a$b$c  $e$b$a$x
+          $a$b$e$d$a    $d$c  $b  $d$a$d$b$c$b$c$d$a$x
+          $a$c$e$d$a    $d$b$d$c$b$a  $d  $b$c$e$b$a$x
+          $a$c$e$d$a    $d  $e  $b$a    $d$b$c$e$b$a$x
+          $a$c$e$d$a    $d  $e$c$b$a      $d$b$c$b$a$x
+          $a$c$e$d$a  $d$b$c$b  $d$a    $d$b$e$c$b$a$x
+          $a  $b$d$a  $b$e$c$b$d$a      $b$c  $a    $x
+          $a$d$a    $b$c$a    $d$a            $b$d$a$x
+          $a$b$d$a      $c$b$d$a  $d$a  $d$b$c$b$d$a$x
+          $a$c$d$a$d$b$c$b  $d$a  $d$a  $d$b$c$b$d$a$x
+          $a$e$d$a$d$b$c$b$d  $a$d$a    $d$b$c$b$d$a$x
+EOC

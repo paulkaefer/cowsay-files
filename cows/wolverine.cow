@@ -1,0 +1,78 @@
+# Wolverine (X-Men)
+# by Gustavo Viselner - https://dribbble.com/shots/2962048-Wolverine
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;172m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;214m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;131m  ";
+$g = "\e[48;5;216m  ";
+$h = "\e[48;5;241m  ";
+$i = "\e[48;5;138m  ";
+$j = "\e[48;5;24m  ";
+$k = "\e[48;5;33m  ";
+$l = "\e[48;5;124m  ";
+$m = "\e[48;5;221m  ";
+$n = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t            $a$x                            $a$x
+                    $t          $a$x                            $a$x
+                      $t          $a$x                        $a$x
+                        $t        $a  $x                    $a  $x
+                          $t      $a  $x                    $a  $x
+                                  $a    $x                $a    $x
+                                  $a    $x$b  $c        $x$a    $x
+                                  $a    $b    $c        $d$a    $x
+                                  $a      $b  $c      $d$a      $x
+                                    $a      $b  $c$d  $a      $x
+                                    $a          $b$a          $x
+                                      $a    $e$a    $e$a    $x
+                                        $a      $c$a      $x
+                                        $a$f  $g      $f$a$x
+                                        $a$f$h$i      $f$a$x
+                  $j$k    $x          $a$b$a  $i    $a  $c$a$x      $k      $x
+                  $j$k          $j  $a  $b$a  $i    $a  $c$a  $j$k          $x
+                      $j          $b$a  $b        $d$c    $a  $j        $x
+                      $f$j        $b$a  $b  $d            $a  $j      $f$x
+                    $f        $d      $a$d        $c      $a$c  $f    $g  $x
+                    $f  $g    $b$d$c    $a$c  $d$c      $a$c    $f  $g    $x
+                    $f  $g    $b$d$c    $a$c            $a$c    $f    $g  $x
+                  $f    $g    $b$d  $c        $d$c              $f    $g    $x
+                  $f  $g      $b  $d$c        $d$c              $f    $g    $x
+                  $f  $g    $x$b  $d                          $b$x$f    $g  $x
+                  $f  $g  $x  $b                                $x  $f    $g$x
+                $f  $g    $x  $b      $d      $b$d      $c  $d$b$x  $f    $g  $x
+                $f$g    $x    $b      $d$c  $d$b$d$c    $d$c$d$b$x    $f  $g  $x
+                $f$g    $x    $a      $d$c  $d$b$d$c    $a      $x    $f  $g  $x
+                $f$g  $x        $a$b  $d$c  $d$b$d$c      $d$a$x        $f  $g$x
+              $f  $g  $x        $b    $d      $b$d      $c$d$b$x        $f  $g  $x
+              $f  $g$x          $a      $c  $d$b$d$c  $a      $x          $f$g  $x
+              $j  $k$x          $a  $b$d$c  $d$b$d$c      $a  $x          $j$k  $x
+              $j$k  $x          $b    $d      $b$d      $c$d$b$x          $j$k  $x
+              $j$k  $x          $a      $c  $d$b$d$c  $a      $x          $j  $k$x
+              $j$k$x            $a  $b$d$c  $d$b$d$c    $d$a  $x            $j$k$x
+              $j$k$x            $b      $d    $b$d        $b  $x            $j$k$x
+              $j$k$x            $b                            $x            $j$k$x
+              $j$k$x            $l        $m        $l        $x            $j$k$x
+              $j$k$x            $l  $n    $m$l    $m$n        $x            $j$k$x
+              $j$k$x            $l  $n    $m        $n        $x            $j$k$x
+              $j$k$x            $b$j                          $x            $j$k$x
+              $j$k  $x          $b$d    $k            $d$c    $x          $j$k  $x
+              $j$k    $x        $b$d$c    $k        $d  $c    $x        $j$k    $x
+              $j$k    $x      $b  $d$c    $j        $b$d$c      $x      $j$k    $x
+              $j      $x      $b  $d$c    $x        $b$d$c      $x      $j      $x
+              $e$x$e$x$e$x    $b  $d$c    $x        $b  $d$c    $x    $e$x$e$x$e$x
+              $e$x$e$x$e$x    $b  $d$c    $x        $b  $d$c    $x    $e$x$e$x$e$x
+              $e$x$e$x$e$x    $b  $c      $x        $b    $c    $x    $e$x$e$x$e$x
+                $e$x$e$x$e$x  $b  $c    $x            $b  $c    $x  $e$x$e$x$e$x
+                $e$x$e$x$e$x  $b  $c    $x            $b  $c    $x  $e$x$e$x$e$x
+                $e$x$e$x$e$x  $b  $c    $x              $b  $c  $x  $e$x$e$x$e$x
+                  $e$x$e$x$e$x$b  $c  $x                $b  $c  $x$e$x$e$x$e$x
+                  $e$x$e$x$e$x$b  $c  $x                $b  $c  $x$e$x$e$x$e$x
+EOC

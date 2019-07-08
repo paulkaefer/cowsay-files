@@ -1,0 +1,57 @@
+# Hypnotoad (Futurama) - 8-bit color
+# by JefferyTheSpaceWalrus - https://imgur.com/gallery/g6q1syu
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;3m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;172m  ";
+$f = "\e[48;5;179m  ";
+$g = "\e[48;5;60m  ";
+$h = "\e[48;5;195m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+              $a        $x              $a        $x
+            $a$b        $a$x          $a$b        $a$x
+            $a$b$c$a$c$b$a$x        $a  $b$c    $b$a$x
+            $a$c$a    $c$a  $x  $a  $d$a$c$a    $c$a$x
+            $a$b$c    $b$a$d$a  $d    $a$b$c$a$c$b$a$x
+            $a$b      $a  $d          $a$b        $a$x
+              $a      $d                $a        $d$a$x
+                $a$d                              $e$a$x
+              $a$e$d                $e                $a$x
+              $a$e  $d          $e                      $a$x
+            $a$e    $d    $e                            $a$x
+          $a$e                                      $d  $e$a$x
+            $a                        $e      $a$e  $d  $e$a$x
+            $a$f                      $a    $e  $a$e  $d  $e$a$x
+            $a$f                            $a$e      $d  $e$a$x
+              $a$f                        $a$e                $a  $x                    $a    $x
+                $a$f                        $a$e              $a$g$a    $x            $a$d    $a  $x
+                $a$f                              $e        $a$g  $a$d  $a  $x      $a$d          $a$x
+                $a$f                              $e        $a$g  $a$d    $e$a$x  $a$d              $a$x
+                $a$f                              $e      $a$g    $a$d    $e  $a$x$a$d              $a$x
+                $a  $f                              $e$a  $g    $a$e$d$e$d    $e$a  $d                $a$x
+                $a$g$a  $f                      $a    $g        $a$e    $d    $e$a  $d    $a$d        $a$x
+              $a  $g    $a                      $g            $a$e        $d    $e$a$d  $a$d          $a$x
+            $a$e$a  $g                                    $a  $e            $d  $e$a$d  $a$d        $a$x
+            $a$e$a$f$a  $g                        $a      $e      $d    $e        $d  $a$d          $a$x
+            $a$e  $a$f  $a                        $f      $e      $d$a$d$e        $d  $a$d          $a$x
+            $a$e  $a$f              $a$h      $a$f        $e      $d$a$d    $e    $d$a$d            $a$x
+            $a$e$a$e$a$f            $a$h      $a$f        $e      $d  $a$d  $e  $d  $a$d          $a$x
+              $a  $e$a$f              $a      $f          $a$e      $d  $a$e$d$e$d$a  $d          $a$x
+                $a$e$a  $f                                  $a  $e      $a$e    $d$a$d          $a$x
+        $a        $e  $a$f                                  $a$e          $a$e$d  $a$d          $a$x
+      $a$e      $a$e    $a$f                                  $a  $e      $a$e$d  $a$d        $a$x
+    $a$e$a$e    $a$e    $a$f                          $a        $e        $a$e$d  $a$d      $a$x
+      $a$e$a$e  $a$e      $a    $f                  $a$e                $a$e  $a  $d          $a  $x
+        $a$e    $a$e          $a$f                  $a      $e        $a      $d                  $a  $x
+          $a      $e      $a                            $e        $a  $x      $d    $a  $d$a    $d    $a$x
+                    $a$e$a$e$a$x                          $a$e$a$x            $a$x    $a$d  $a$x
+                    $a$e$a  $x                              $a$x                        $a$d$a$x
+EOC

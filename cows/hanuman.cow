@@ -1,0 +1,70 @@
+# Hanuman (Hindu god)
+# by Karthik - https://society6.com/product/hanuman-pixel-art_print
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;214m  ";
+$c = "\e[48;5;237m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;102m  ";
+$f = "\e[48;5;251m  ";
+$g = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                            $t                                                                      $a    $b      $a    $x
+                              $t                                                                $a$b                    $a$c$x
+                                $t                                                            $a$b        $a                $c$x
+                                  $t                                                        $a$b    $a    $b              $a    $x
+                                    $t                                                    $c$b    $a  $b                        $c$x
+                                      $t                                                $c$a$b    $a$b              $a              $x
+                                        $t                      $a  $x                  $a$b    $a$b          $a      $b          $a$b$a$x
+                                          $t                    $b$a$x                  $a$b  $a  $b        $a  $b                $a$d$b$x
+                                            $t                $a$b  $a$x              $a$b    $a$b        $a$b                  $a    $x
+                                                            $a$b      $a$x            $a$b  $a  $b      $a$b                  $a  $b$c$x
+                                                    $e$f$x$a$b  $a  $b  $a$x$f$e$x    $a  $b$a$b    $a  $b                  $a  $b  $a$x
+                                                  $e  $f$x$e$a  $b  $a  $f$x$f$c$e$x  $a  $b$a$b  $a  $b                $a  $b      $a$x
+                                                  $c$f$e  $f$e$a      $e$g$e$f  $c$x  $a$b$a$c$b$a  $b              $a  $b        $a$x
+                                                  $c$f$e  $d    $e  $d    $e$f$e  $x$c  $a$b  $a$b          $a        $b        $a  $x
+                                                  $c$f$e    $g  $f  $g  $e$c$f$e$c    $b      $c$a          $b                  $a  $x
+                                                  $c  $f$c$e    $f  $e    $c$e  $d    $b  $a  $b$a$b                          $a  $x
+                                                    $c  $e$c$e$d$e  $d$e$g$e$c$d          $b$a$b$a  $b                      $a    $x
+                                                        $c  $e          $f$c$d  $x        $a    $b  $a    $b            $a      $c$x
+                                                        $f$e              $f$x              $b$a$b        $a              $b  $c$x
+                                                    $a  $c$e$g$e      $g$e  $x              $d$a$b                          $c$x
+                                              $a$b      $c  $g          $e$f$x                  $a$b                    $a$x
+                                        $a$b        $a  $d$f$e          $f      $e$c$x            $c$d$a$b            $a$x
+                            $e    $c$b        $a$d      $f    $e      $f  $e$f  $g  $c$x                $d        $x
+                        $e    $c    $b  $a$x$a$c$f      $d$f$e$f$c  $f$e    $f  $e$f$g$c$x
+                    $c$d$e  $c$f  $e$c$x      $f$g$e$f  $g$c$e$f      $e$d$f      $e$f  $x
+                $c$d$c  $e$d    $e$f$x      $c$f  $e$g      $c$e      $d$c$e$f          $x
+  $a  $x  $c$d  $c  $d$c  $d$e    $c$x    $c$a$b$e$f$g      $d        $e$f$e$f          $x
+$a$b  $c$d$c  $d$c  $x      $e    $a$c$x  $a$b  $a$e$g      $e$f$e  $f      $d$f      $e$c$x
+$b      $d$c  $x            $c$a  $b$a$c$x$f$b    $c$g      $f              $d  $e  $b$a$b$a$x
+$a$b  $a$x                    $b      $a$e$g$f$b$a$e  $g    $f  $d$f        $e$b        $a$f$e$x
+  $a  $x                      $b        $a$f  $e$a$e    $f$g  $f$d$f    $e$d  $b    $a  $f$g$f$x
+                              $b        $a$e$g$d$a$c$e$d  $e    $d  $e$d        $b$a$f    $g$f$x
+                              $a$b        $a$d$g$b$a$e    $d    $e  $d  $g$f$e$d$e$g$f    $g$f$d$x
+                              $a$b        $c$g$d$c  $f  $e              $f    $d  $f    $d  $f  $x
+                              $c$b    $a    $d  $x  $e  $c$e              $f    $d  $e$f$d$f$g  $x
+                                $c$a$b$a  $d  $x    $c$e$c$e                $f$d  $x$e$f      $e$d$x
+                                  $c  $d  $x          $e        $d$e        $d  $x  $a$e  $a    $c$x
+                                                      $e$f$e    $d$e$f  $e  $d$x    $a$b$a$b    $c$x
+                                                      $e$g$e    $d$e$f      $d$x  $a$b          $c$x
+                                                      $e$f$e    $d  $g$f$g  $c$d$x$a$b          $x
+                                                      $a        $c$d$c        $a$x  $a$b      $a$x
+                                                    $c$a                $c$d$a  $c$x$a$b      $a$x
+                                                  $c$a                        $c$x  $c$b      $c$x
+                                                $c$a                            $x    $a$b  $a$x
+                                              $c$b  $a                          $c$x  $a      $x
+                                            $c$b            $a                    $x  $e      $x
+                                          $c$a  $b            $a                  $e          $x
+                                        $c$b  $a    $b          $a                $d$e        $x
+                                        $b        $a  $b          $a              $d$c        $x
+                                      $a$b          $a$b      $a$b$a              $d        $x
+                                    $c$b            $a$b            $a              $f  $g$x
+                                    $a$b            $a$b      $d$b          $a      $c$x$g$f$x
+                                    $a        $b      $a$b  $d  $b                  $x  $f$g$x
+                                    $e$g$f      $a$b    $d    $x$b  $a  $b    $a  $b$x    $g$e$x
+EOC

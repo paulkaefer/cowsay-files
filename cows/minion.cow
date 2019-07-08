@@ -1,0 +1,98 @@
+# Minion the sleepy cat
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;14;7;5m  ";
+$b = "\e[48;2;23;19;12m  ";
+$c = "\e[48;2;33;30;19m  ";
+$d = "\e[48;2;74;71;50m  ";
+$e = "\e[48;2;66;62;42m  ";
+$f = "\e[48;2;32;31;28m  ";
+$g = "\e[48;2;96;89;63m  ";
+$h = "\e[48;2;117;101;66m  ";
+$i = "\e[48;2;49;44;28m  ";
+$j = "\e[48;2;149;143;115m  ";
+$k = "\e[48;2;179;162;125m  ";
+$l = "\e[48;2;109;103;76m  ";
+$m = "\e[48;2;57;53;37m  ";
+$n = "\e[48;2;48;49;45m  ";
+$o = "\e[48;2;53;55;42m  ";
+$p = "\e[48;2;46;45;33m  ";
+$q = "\e[48;2;203;181;147m  ";
+$r = "\e[48;2;136;121;85m  ";
+$s = "\e[48;2;39;33;18m  ";
+$u = "\e[48;2;65;67;54m  ";
+$v = "\e[48;2;84;79;54m  ";
+$w = "\e[48;2;122;122;108m  ";
+$y = "\e[48;2;129;123;95m  ";
+$z = "\e[48;2;87;84;66m  ";
+$A = "\e[48;2;96;84;51m  ";
+$B = "\e[48;2;159;141;105m  ";
+$C = "\e[48;2;76;67;39m  ";
+$D = "\e[48;2;233;211;178m  ";
+$E = "\e[48;2;78;79;69m  ";
+$F = "\e[48;2;56;50;28m  ";
+$G = "\e[48;2;167;161;133m  ";
+$H = "\e[48;2;104;103;84m  ";
+$I = "\e[48;2;65;66;61m  ";
+$J = "\e[48;2;88;90;80m  ";
+$K = "\e[48;2;142;143;124m  ";
+$L = "\e[48;2;102;103;96m  ";
+$M = "\e[48;2;46;33;14m  ";
+$N = "\e[48;2;38;26;18m  ";
+$O = "\e[48;2;185;156;104m  ";
+
+$the_cow = <<EOC
+                        $t
+                          $t
+            $a$b$x          $t
+            $c$d$e$c$x        $t                                              $f$b$x
+            $b$e$g$h$i$x                                                  $b$j$k$e$x
+            $a$d$l$g$h$m$x        $a  $n  $o$p$b$a$x                    $i$k$q$r$c$x
+              $s$g$l  $h$e$x    $f$n  $m$n$o  $u  $o$c$x            $c$l$k$q$k$v$x
+              $c$w$y$l  $r$l$b$o$e$n$o$m$o      $u  $d$u  $o  $b  $d$k$q      $z$x
+              $p$A$l$y$g$y$B$k$y$l$v$m$o      $u$o  $e$d$z$v$d$e$A$q          $f$x
+              $a$C$g$l      $r  $A$l$d$m$o        $m$o$e$d  $i$v$q$D$q      $E$x
+                $m$g  $v$g  $A$h$C$e    $E$e$g$u$m  $z      $F$r$D    $q$D$q$a$x
+                $i$l$y$j$y$l$v$C$A$i  $d$z$u$z  $m$p$d$e$d  $l$B$D        $y$x
+                $i$g    $l$g$A$l$A$C$d$v$d$u$m$g$e$m$e$v$d$g$y$B$D        $j$x
+                $c$d$g$l$y  $l$y$g  $v$C$g$d$v$l$e  $s$l$y  $G  $k$q$D  $q$B$p$a$x
+                $f$m$v$y$j$y$g$d$e$d$e  $g$e$d$j$v  $e$l$y$z$j$G  $k$q  $k  $l$g$u$z$p$x
+                $p    $v  $e    $F$m    $e$m$c$l    $v$z$j$m$v$j$G$j$k    $q$k$y$l$g  $l$H$e$n$b  $a  $x
+                $m$s$c$i$m$i$F  $e$m$i  $F$m$c$e$v$e  $m$l  $g$j$G$j$B$r$k  $q$G$l$v  $d$l$y$j  $y$l$d  $z$m$b$x            $a  $b$a$b$a  $x
+              $a$e    $m$i$F  $e$d$e$m$C$i  $e$b$s$i$m$i$F$l    $G$r$B$r$B  $k$q$y$v$d$e$g$j$G$q  $j$r    $y$l$H$E$n$f  $n$I$E$J$E$H$K$w$E$I$n$f$x
+              $p$d$e  $F$e    $d$A$F$i$e  $b$e$i$s$e$d$m$d$l$y$g$k$y$k$r$g$r$k  $B$g$e$i$l$k$q$G  $j  $r$l$g    $z$u$I$o$I  $d$v  $l  $j$y  $l$z$E$n$f$x
+            $f$d  $F  $e$d$e$i$e$l$C$m$F$g$s$i$e$s$e    $h$r$j$g$k$y$B$r$v$C$h$B$r$v$C$e$y$G  $j$y  $l$g$d$e  $d$v  $d$v      $e  $d  $v$l  $g$l  $z  $p$n  $I$n$f$x
+          $f$d$e$F  $e  $s$c$s$i$C$e    $v$F  $C$s$F$d$v$y$r$B  $k$B$h$r  $y$C$l$g$v  $g$y$B$j$g$l$g$v$e$F$e$v$z$e$d$m  $i$m$i  $m$e      $v  $g$H$d  $z$H$J$w$J$L  $n$a$x
+          $f$e$m$F$m$i$c  $i    $s$i$F$C      $F$s  $e$l$r$B  $r$h    $r  $B  $h$l  $g  $l$r$h  $g$v$F$m  $i    $c      $m$e$F$d  $e        $v$e$d      $z    $H$L      $I$a$x
+          $a$i    $c$b$c$i$C$i  $m$s$i$g$h$A$F$M$F$s$F$A$r$q$r  $h$A  $r$B$q$k$r$A$g$l      $h$A  $F$i$m$F  $e  $m$i$F$e$d        $e        $z$d$z  $H$z  $d  $z$J$E$y  $L$I$x
+          $f$e  $m  $i$m$e$v  $F$i  $m$F$d$h$A$N$M  $C$h$B  $A  $F  $g$r$B$k  $A$g$w$y$g          $d$e$v    $l$v$d  $F$i  $e    $i$m$e  $m$z    $g$H$w  $l$H$l$H$J$y$G  $j$w$b$x
+        $b$w$G  $j  $y$l$g$v$g  $v$F$s  $i$e$F$b  $M$A$r$O$B$F$M  $F$g$A$h  $l$g  $d      $v$e$F    $e$F    $i      $F$e$F$d  $v$d  $H$z    $j  $G$j  $G$j    $G$j$G      $j$o$x
+      $b$K$q  $k$B    $G$j$y$e$i$s$i$s$c$i$m$e$s  $F$A$h$O  $h$e$A  $v$e$F$m$d$F    $e$F$i  $s    $i    $m  $s    $i$M$i$e    $d    $H$w  $K$j  $G  $y$l$y$H  $y$j$G$j      $E$a$x
+    $a$z$k    $j$r$B$r$y$r$B$g$m$N$s  $i$F$e  $M$s$M$C$h$O$r$A  $h    $v$g  $e$F$i$F  $i$s$c  $b  $c$b$N$c$m$e$i$s  $i  $m  $d$v$l$w$H        $z$H$K  $l$H$w$d$z$H$w$j$y$l$H$J$f$x
+    $b$l$r  $d$s  $m$v$g$h$r  $C$c      $F$e$C$F$N$b$F$A$h  $C$A$v    $l$g$A$e$F$s  $i$c$b$s$b  $c$b  $c$N  $c$s$i$s$i  $e$z$l$w$j    $G$K$H$J$E  $z$H  $z$w$H$u$E$H$y$j$y$l$H$n$x
+    $p$g  $v$i$c$N  $c$M$d$z$d$g$d$c    $s$M$F  $N$b$s$F$C  $F$C  $v$C$g$v  $e$F$i  $s      $c$N$c$b            $c  $p$u$z$y$j  $G        $w$H  $J$E$u$E  $z$w$I  $E$l$y$H$y$H$n$x
+    $e$g$v    $e  $i$N$c$i  $c$s$e$z$m$s  $N$s  $N$b  $M    $F$A  $g  $C$F    $d$s      $i  $s$N$c              $p$o$u$E$H$l$y    $j$K$G  $K$w$H$E$I  $u$m  $z$E$I  $u$E$H  $z$J$x
+  $f$d$v$C$d  $v$g$e$c$N$i  $N  $i  $s$b  $N$b  $s$N  $M  $F$C$h$r      $l$F$s$F$e  $i$N  $b        $c  $p$m$u$z$J    $E      $J$w$K      $G$K$w$H$J$E$I  $u  $E  $I$n  $I  $E$J$x
+  $u$v$d$F      $i$c$N  $c$s$N$c$i$s  $b      $N$s$N$b$N$M$C$h    $r$l    $d$F$i    $N$b        $c  $o$E$H$y$j$G$j$y$H$J$E$u$E$J  $H$K  $G$K$w$H$J      $E$I$E  $I  $n$f$n  $I$p$x
+$a$z$v$e$d$e$i$s$c$b  $N$c$N  $c$b$x  $a          $b  $s$F$C$F    $C$e$v$g$v  $C$s$c$s$b      $c$p$d$w$K$G        $j$K  $w$H$E  $L$w  $K    $w  $L$J$L$I        $n  $f    $n  $a$x
+$b$z$m$i$d  $m$M$i$N$b$N    $b$a$x                  $N$F$C$d$m$i$e$d$v$d    $e    $F$v$F$c  $p$o$u$E$H$K$G      $j  $K  $w$H  $L      $w$K  $w  $J$L  $I          $n$f        $x
+$f$d$c$b$f$s$M$N$s$N$c$z$i$a    $x                $a$e$C  $F$i$s  $i$F  $d$e$F$e$C    $e$o    $u$I$u  $H$y  $j$y$w  $K    $w  $L  $E$L$w      $L$J$L$J  $E$I$n      $f      $b$x
+$m  $s$c$b      $a$b$N$w$m$a$x                    $i$g$C$F  $e$C    $v    $e$m$e$v$g$l  $H$d$u  $E      $z$H  $K$w    $K    $w$J$u$E$L  $w$L$w$J$I  $J$I$E$I$n$f$n$f        $a$x
+$E$e$F$s$c$s$N$b$a  $b$N  $a$x                  $a$i$C    $A  $h  $A$v    $e  $g$l$y$l  $H$z$d$I$E$J  $u  $H        $w$K  $w  $J  $L$J$L        $I  $E  $I$n        $f  $a$x
+$p$F    $s    $N$a    $b  $a$x                  $b$F$C$A      $C$F$M$F$C$l  $y    $l  $y$H$z  $E    $u$m$u$H    $z$H$J$H  $w$H$L  $J$L        $I$n  $I$n  $p$f    $b$a$x
+$c$C$e$m$i$s  $N$a$N$m$N$b$a$x                  $s$C  $A$C    $i$N$c$i$e$g$l            $H$z  $E  $d$u    $J$H$z  $d$E$H$w  $H$L    $E$L    $J$I  $u$I$n$b$a  $x
+$c$d$i$s$i  $c$N$b$E$z$b$a  $x                $a$F$C$A$F      $s$c  $b$s$m$d$z      $H  $z  $H$E$u    $E$J  $u$I$E    $J$H$J$L    $I  $L    $E  $I$f$b$x
+$b$m$c$N      $b$a$N  $a    $x              $a$b$F    $s$i$s$c$b  $c    $p$e$z  $d$z$H$z$H  $z  $u  $E$J$E$u$I  $E$u  $J          $I$J$L    $E$n$a$x
+$a$i$c$s$i  $M$N$b  $a      $x            $a  $N$F  $c$N$c$b          $c$p$m$d      $z  $H$z  $u    $I$u$I$u$E    $u  $E  $J$z$H$E  $L    $n$b$x
+  $c  $N  $s$N$b$a$b$a  $x              $a    $s$F$s$N$b$c$b            $c$p$i$m$e    $H$z    $u$m$o$u  $I$E  $J$u$E$u    $E$z$J    $L$E$b$x
+    $a  $b$N$b$a      $x              $a  $b  $N$b                    $c$b$c$i$m$i$m$d$e$d$e$m$o$m$u$o  $u  $E$u$E$e$o$u    $J$H$J$E$f$a$x
+      $a$x$a        $x              $a      $b$a      $b$a    $b          $c  $p  $o$p  $m$p$m$o    $m$p$I$E$u$E$u$o    $u$E$H$J$p$a$x
+                                  $a                        $b  $a  $b        $c    $p$o$m$p$o  $p    $u$I$u$E$o$u$o  $m$E$J$n$x
+                                  $a                              $b$a$b  $c      $p              $o    $m$u$d$u  $o$e  $n$a$x
+                                $a                              $b        $c$b$f$c$p$c  $p$c  $p$o  $m$o  $u$o$d$m  $f$a$x
+                                $a                                $b          $N$c            $p$m  $p      $o  $c$x
+                            $a                                    $b  $a$b  $N    $c$b$c      $p              $a$x
+EOC

@@ -1,0 +1,49 @@
+# Bugs Bunny (Looney Tunes)
+# sprite from Bugs Bunny Rabbit Rampage (SNES) - https://www.spriters-resource.com/snes/bugsbunnyrabbitrampage/sheet/44964/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;239m  ";
+$b = "\e[48;5;252m  ";
+$c = "\e[48;5;145m  ";
+$d = "\e[48;5;242m  ";
+$e = "\e[48;5;254m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;217m  ";
+$h = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+                        $t
+                         $t
+                          $t                                      $a  $x
+                           $t                                   $a$b$c$a$x  $a$x
+                            $t                                  $a$b$c$a$x$a$b$a$x
+                             $t                           $a  $x$a$b$c$a  $b$c$a$x
+                              $t                        $a$b  $a  $b$c$d$b$c$d$a$x                                        $a          $x
+                               $t                       $a$b    $d$b$c  $b$c$a$x                                        $a$e    $d$e  $a$x
+                $f$x            $t                        $a$b      $c$b$c$a$x                                        $a$e$b    $e$d$b$e$a$x
+              $f$d$a$x           $t                         $a$b          $c$a$x                                      $a$d    $b  $e$b  $e$a$x
+      $f$a$x  $f$d$a$x            $t                          $a$b$d$b$d$b  $a$x                                      $a$e    $d$b      $d$e$a$x
+    $f$d$a$x$f$d$g$a$x                                          $a$c$d$b$d$b$c$a$x                                  $a$e$b    $e$b  $d$b$a$d$e$a    $x
+    $f$h$d$a$f$d$g$a$x                                            $a$d    $b$c$a$x                                  $a$e$b          $a$d$b$a$e$d$b  $a$x
+    $f$h$d$a$f$d$g$a$x                                            $a$b  $d  $c$a$x      $a    $x                      $a$b            $a$b    $e$d$c$a$x
+    $f$h$d  $f$d$g$a$x                                              $a  $c  $a$x      $a$e$b$a$x                        $a  $b                $e$d$c$a$x
+    $f$h$d  $a$d  $g$a$x                                          $f$h$d$a  $x        $a$e$b$a$x$a  $x                      $a  $b              $e$a$x
+      $f$h$d  $a$d$g$a$x                                          $f$h$d  $a$x$a  $x$a$e$b$a$x$a$b$a$x                          $a  $b          $e$a$x
+      $f$h$d  $a$d$g$a$x                $a    $x                  $f$h$d  $a  $e  $a$b    $a  $b  $a$x                              $a$d$b    $d$b$e$a$x
+      $f$h$d  $a$d$g  $a$x          $f$a$e$h$e$a$x                $f$h$d  $a  $b  $e$d$b        $a$x                                  $a$d$b  $a$d$e$a$x
+      $f$h$d    $a$d$g$a$x        $f$h$g$e$h$b$e$a$x            $f$h$d  $a$x  $a$b            $a$x                                    $f$h$d$b  $a$b$a$x
+        $f$h$d  $a$d$g$a$x    $f  $h  $d$h$c$h  $e$a$x          $f$h$d  $a$x    $a$b  $d      $a$x                              $f    $h$d  $b      $a$x
+        $f$h$d    $a$g$a$x$f  $h  $d$h  $e$h$a$h$b$a$x          $f$h$d  $a$x  $a$d    $e        $a  $x                    $f    $h    $d      $b    $a$x
+        $f$h$d    $a$d$g$f$h  $d  $h  $c$e$b$h$a$b$e$a$x      $f$h$d  $a$x$a  $e      $b        $e  $a  $x          $f    $h    $d              $b$a$x
+          $f$h$d  $a$d$a$h$d  $h    $d$e$b  $h$a$b$e$a$x      $f$h$d  $a  $e  $b                    $e  $a  $x$f    $h    $d            $f      $d$a$x
+          $f$h$d    $a  $h$d$h$d$h  $d$e$b$h$a  $b$e$a$x    $a$h$d    $a$e$b                            $e  $a$h    $d            $f    $h$d  $c  $a$x
+            $f$h$d  $a  $d    $h$d  $e$b  $h$a  $b  $a      $h$d    $a$b                                $h    $d            $f        $h$d    $e$b$a$x
+              $f$h$d  $a$d          $e$b  $h$a  $b  $h$b$a$h$d    $a$b                        $h        $d            $f    $h        $d      $e$b$a$x
+                $f$h$d  $a$d        $e$b    $h  $b  $h$a$h$d    $a$h                          $d                $f    $d                      $e$b$a$x
+                  $f  $d            $e$b          $c$h  $d    $a$d                                          $f  $d                            $e$b$a$x
+                      $f$a$d        $e$b          $d  $h$d  $a$d                                        $f                                $d  $e$b$a$x
+                        $f  $a$d      $e$b      $c$a$f                                                  $x                                $f  $a  $x
+                            $f        $a          $x
+EOC

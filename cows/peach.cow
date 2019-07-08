@@ -1,0 +1,77 @@
+# Princess Peach (Super Mario)
+# by Unknown - http://pixelartmaker.com/art/2c695b13de1c86c
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;123m  ";
+$e = "\e[48;5;206m  ";
+$f = "\e[48;5;87m  ";
+$g = "\e[48;5;3m  ";
+$h = "\e[48;5;222m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;225m  ";
+$k = "\e[48;5;219m  ";
+$l = "\e[48;5;220m  ";
+$m = "\e[48;5;80m  ";
+$n = "\e[48;5;200m  ";
+$o = "\e[48;5;231m  ";
+$p = "\e[48;5;188m  ";
+$q = "\e[48;5;212m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                $a$x$a  $x$a$x
+              $t            $a              $x
+                $t          $a$b$a$c  $a$b$a$x
+                  $t      $a$d  $c  $e    $f$a$x
+                          $a$f$d$b    $e$b$f$a$x
+                            $a      $b$a    $x
+                          $a$g  $c$g$a$g$c$g$a$x
+                        $a$g$c      $g$c  $g$a  $x
+                    $a  $g$c                $g  $a$x
+          $a$x    $a$g$c                        $g$a$x
+            $a    $g$c                            $a  $x
+          $a$g$c                                      $a$x
+            $a$c                                    $g$a$x
+          $a$g  $c          $g  $c                  $a$x
+            $a$g  $c          $g      $c    $g    $c$g$a$x
+              $a$g        $c  $g$a  $g  $c$g  $a  $g  $a$x
+                $a  $g      $c$a$h  $a$g    $a$h$a$g$a$x
+                $a    $g    $c$a$h    $a    $h$a    $x
+              $a$g  $a$g$a  $c$a$h$i$a$i    $a$i$a  $x
+        $a      $c  $g$a$i$a$c$a$i  $a$i    $a$i$a  $x
+          $a$c        $a$h$a$c  $a$i$a$i    $a$i$a$g$a$x
+          $a$g$c      $g$a$d$a$c$a$i          $h$a$g$a$x
+            $a  $c  $g$a$f  $d$a$i    $a  $i$h$a$d$a$x
+          $a$g          $a$f$a    $i      $h$a  $f$a$x
+            $a$g      $a                    $j  $a$x
+            $a$g    $a$k$j    $k$a$j      $k$a$k$j$a  $x
+            $a$g  $a$k$j        $k$a$j$k$l  $k$a$k$j$a$x
+            $a$g  $a$k$j          $a$j$l$m$d$l$a$k$j$a$x
+            $a$g  $a$k$j    $k  $a$j  $k$m  $l$a$k  $a$x
+              $a$g  $a$k$j$k$j$a  $n$j$k  $l$k$a$c$a$x
+                $a$g  $a      $o  $a$n      $a$p  $a$x
+                $a  $g      $a$o$p  $a$j    $a$o$p$a$x
+          $a      $g      $a  $p    $o$a$j  $a$o$a$x
+            $a$c$g      $a$k  $a$p$o  $p$a  $p$o$a$x
+              $a$c$g  $a$k$j$k  $a$o        $a$p$a$x
+                $a$c$a$k$j    $k  $a$p$o    $p$a$o$a$x
+                  $a$k$j          $k$a$p$o    $p$a$k$a$x
+                $a$k$j              $k$a$p$o$p$a$k$j$a$x
+                $e$k  $j              $k$a    $k$j    $a$x
+              $a$q  $a$j                $k    $a$j    $a$x
+            $a$e$q$a$e  $q  $a$j                $a$j  $e$a$x
+          $a$e  $q$a$e$q  $a$e$q            $e  $a$q  $e$a$x
+          $a$e$q  $a$e$q  $a$e$q              $e$a$q  $e$a$x
+          $a$e$q$a$e  $q$a$e  $q              $e  $a$q$e$a$x
+        $a$e  $q$a$e$q  $a$e$q                  $e$a$q$e  $a$x
+        $a$e$q  $a$e$q  $a$e$q                  $e$a$q$e  $a$x
+        $a$e  $q$a$e$q  $a$e$q                  $e$a$e    $a$x
+          $a$e  $a$e$q  $a$e$q                $e  $a$e$a  $x
+            $a    $e    $a$e    $q          $e  $a    $x
+                  $a          $e              $a$x
+EOC

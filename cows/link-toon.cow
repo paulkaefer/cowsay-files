@@ -1,0 +1,69 @@
+# Link (Legend of Zelda)
+# by u/ProminentDetail - https://www.reddit.com/r/PixelArt/comments/8rrw55/oc_zelda_link/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;22m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;2m  ";
+$e = "\e[48;5;52m  ";
+$f = "\e[48;5;130m  ";
+$g = "\e[48;5;221m  ";
+$h = "\e[48;5;241m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;180m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;110m  ";
+$m = "\e[48;5;166m  ";
+$n = "\e[48;5;88m  ";
+$o = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                          $a        $x
+                    $t                  $a    $b        $a$x
+                      $t            $c$a$d            $b  $a$x
+                        $t        $c$a$b    $d          $b$a$c$x
+                              $e$c$a$b$d    $b    $d  $b  $a$c$x
+                            $f$g  $f$a$b    $d    $b$a$b$a$c  $x
+                          $f$g$f  $g$f$e$f      $e$d$b$a$e$c  $x              $h$i$x
+                          $f$g$f  $e  $f$g        $e$a$f$j  $c$x            $h$k$i$x
+                          $f$g$f$e$f  $e      $f$g$f$e$j  $c$x            $h$k$l$i$x
+                            $e$g$c  $f        $e$g$f$e$j$c  $x            $h$k$l$i$x
+                              $e$c$f$j    $c  $e$g  $f$c$a$c$x          $h$k$l  $i$x
+                                $c$f$j    $c$j  $e$f$g$c$a$c$x          $h$k$l  $i$x
+                                  $c$f$j      $f$e$c$f$c$a$c$m$e$x      $h$k$l  $i$x
+                                $c$a$e$f      $e    $c    $e$n$m$e$x  $h$k$l  $i$x
+        $h                    $a$b  $a$e      $i$c$a$e  $c$e  $n$m$c$x$h$k$l  $i$x
+        $h$k      $l        $c$b  $a$b$a$l    $a$c$e  $m$e$c$e  $c$x  $h$k$l  $i$x
+        $h$k$l$o            $c$b  $c$d$a$k  $a$b$e  $m$a  $c    $x  $h$k$l  $i$x
+        $h$k$l$o$c            $a$b$c  $b$k$a$b$d$c$e$b      $c$x    $h$k$l  $i$x
+        $h$k$l$o$c        $e$l$i$c$b$a$b  $c    $e$b        $a$c$x  $h$k$l  $i$x
+        $h$k$l$o$c$o  $c  $m$l  $a$b  $a  $c$e  $a$b    $d  $b$c$x  $h$k$l  $i$x
+        $h$k$l$c$o  $c$e  $m$i$l$a$b    $c$e  $a  $c$b  $i  $c  $x$h$k$l  $i$x
+      $h$k$l$o$c$o$l$e$m  $e$m$o$c$b  $e$m$e$b  $d$b$c  $l$k  $i$h  $k$l  $c$x
+      $h$k$l$o    $e$l$m$n$e  $n$c  $e$m$e$b  $d$b$a$c  $l$k$i$k  $i$k$l  $c$x
+      $h$k$l$o    $e$m$e      $c    $e$a$b      $a$c$e$c$i$l$i$l$k$i$k$l$i  $x
+      $h$k$l$o    $e$m  $n$c      $b$g    $e          $c  $i  $l  $k$i  $k  $i$x
+        $c  $o      $c  $l$o$c  $a$b$g$e$g$e$m  $n$e$c    $e$n$m$l        $k$i$x
+            $c  $o    $c        $a$b$a      $b    $a    $c  $e  $m$e$m  $l$i$x
+                $c  $o    $c  $o$c$b    $a  $b      $a    $c  $e  $m  $n$i$x
+                    $c  $o$c  $o$k$c      $a$b  $d  $b$a$c    $e$m  $n$e$c$x
+                        $c    $o$k$l  $i  $c      $i      $c  $l  $e  $c$x
+                              $o$k  $l  $i$c$x$i$k    $i  $c$i$k$l$i$x
+                              $c$k    $l$i$c$x$c$k    $i$l$c$i$k$l$c$x
+                              $c$m    $i$c  $x$c$k    $l$k$l$c$i$c$x
+                              $c  $e  $m$e$c$x  $c$k      $l$c$x
+                                $e$n  $m  $c$x    $c$k  $m  $c$x
+                                $e$n$m$n$e$c$x    $e$m    $e$c$x
+                            $e      $m  $n$e$x    $e      $n$e$c$x
+                          $e$n$m    $e$m$n$e$x    $c  $n  $m  $c$x
+                        $e$n$m          $x          $c$n$m    $c$x
+                          $n$m        $x            $e$n$e      $c$x
+                                                    $e$m      $e$c$x
+                                                      $n$m    $n$c$x
+                                                      $n$m    $n$e$x
+                                                        $n$m  $n$x
+EOC

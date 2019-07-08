@@ -1,0 +1,62 @@
+# Ganesha (Hindu god)
+# by 8bitbaba - https://www.redbubble.com/people/8bitbaba/works/30369561-ganesha-pixel-art?p=poster
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;226m  ";
+$b = "\e[48;5;137m  ";
+$c = "\e[48;5;221m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;203m  ";
+$f = "\e[48;5;202m  ";
+$g = "\e[48;5;94m  ";
+$h = "\e[48;5;29m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;163m  ";
+$k = "\e[48;5;206m  ";
+$l = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t
+                    $t
+                      $t
+                        $t        $a$x
+                                $a    $x
+                              $a        $x
+                            $a            $x
+                $b        $x$a            $x$b        $x
+                $b          $a$c$d$e$d$c$a$b          $x
+                $b          $c    $e$c    $b          $x$a    $x
+      $d        $x$b        $c$l$c    $l$c$b        $x  $a$f$a$x
+          $b$x    $b        $c            $b        $x  $a    $x
+          $b    $x  $b      $c            $b      $x  $b    $x
+          $b    $x  $b    $a$g$c  $d$c  $g$a$b    $x  $b$a$b$x
+          $b  $x      $h  $a$g$c  $d$c  $g$a$h  $x    $b$a$b$x
+          $b  $x    $h  $a$b$g$c  $d$c  $g$b$a$h  $x  $b  $x
+          $b    $x$c    $a$b$g$h$c$d$c$h$g$b$a$h$d$a$x$b  $x
+            $b    $c    $a$b$g$h$c$d$c$h$c$b$a$h$a  $b    $x
+            $b    $c      $b$g$h$c$d$c      $b$c    $b  $x
+              $b  $c      $b$g$h$c        $b  $c      $b$x
+                $a$c    $a$b$g$h$b$c    $g$c$a$c      $a$x
+                  $a    $c  $g$h$b    $h$g$c  $a      $x
+              $f    $x  $c    $g$h    $g$c    $x  $f    $x
+            $f        $i$c      $g    $c      $i$f        $x
+          $f            $i$c                $i$f            $x
+          $f              $i  $c        $i  $f              $x
+            $f            $i    $a$b$a$i    $f            $x
+        $j  $f          $i    $a$c$j$c$a$i    $f          $j  $x
+      $k  $j$a  $i        $a  $c  $j$c  $a  $i        $a  $j$k  $x
+        $k  $j  $a  $j$a  $j$c  $j$k$j$c  $j$a  $j$a  $j  $k  $x
+        $k  $j      $k$j    $c$j$k    $j$c$j    $k$j      $k  $x
+        $k    $j  $k    $j    $k        $j    $k    $j  $k    $x
+      $k      $j$k        $j$k            $j$k        $j$k      $x
+      $k      $j$k      $j$k                $j$k      $j$k      $x
+      $k      $j$k      $j$k                $j$k      $j$k      $x
+      $j  $k  $j$k      $j$k                $j$k      $j$k  $j  $x
+          $j        $k    $j$k    $j$k    $j$k    $j        $x
+                    $j    $h$j    $h$j    $h$j    $x
+                  $h                                $x
+                    $h        $x  $h$x  $h        $x
+EOC

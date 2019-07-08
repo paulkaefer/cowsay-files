@@ -1,0 +1,39 @@
+# Daffy Duck (Looney Tunes)
+# by sprite from Bugs Bunny Crazy Castle 4
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;253m  ";
+$c = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t        $a$x
+                        $a    $x
+                      $a    $x
+                      $a      $x
+                    $a    $b$a$x
+                    $a    $b  $a$x    $a  $x
+                  $a      $b$a  $x  $a$c$a$x
+                $a$c    $a$b$a      $c  $a$x
+                $a$c  $a$c$a$c        $a$x
+                $a$c    $a$c          $a$x
+                  $a        $c      $a$x
+                      $a$b$a        $x
+                  $a        $x  $a    $x
+              $a              $x$a    $x
+            $a      $c  $a            $x
+            $a    $x  $a          $x
+              $a$c$a          $x
+                  $a        $x
+              $a            $x      $a    $x
+            $a$c  $a      $c$a$x  $a$c  $a$x
+          $a$c  $a$c$a$x  $a$c$a  $c    $a$x
+          $a$c  $a  $x      $a$c$a$c  $a$x
+          $a$c$a$x            $a$c  $a$x
+          $a    $x              $a  $x
+EOC

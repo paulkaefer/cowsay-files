@@ -1,0 +1,83 @@
+# Marth (Fire Emblem)
+# by Hot31 - https://www.kisspng.com/png-marth-fire-emblem-path-of-radiance-pixel-art-pixel-5380456/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;60m  ";
+$b = "\e[48;5;179m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;32m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;167m  ";
+$h = "\e[48;5;59m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;233m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;249m  ";
+$n = "\e[48;5;235m  ";
+$o = "\e[48;5;248m  ";
+$p = "\e[48;5;95m  ";
+$q = "\e[48;5;245m  ";
+$r = "\e[48;5;228m  ";
+$s = "\e[48;5;210m  ";
+$u = "\e[48;5;254m  ";
+$v = "\e[48;5;231m  ";
+$w = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+                                      $t                $a$b      $a$x
+                                        $t            $a$b$a      $b$a$x
+                                          $t          $a              $x
+                                            $t        $a                $x
+                                              $t      $a  $c$a$c$a      $x
+                                                      $a$c        $a$c$x
+                                                        $c        $a$c$x
+                                                        $c        $a$x
+                                                        $c          $x
+                                                          $c    $d  $x
+                                                    $e        $d$b  $x
+                                                $e              $b$f$g$e  $x
+                                              $e$h        $b$i$e  $b  $e      $x
+                                              $j$h        $b$i  $h$b$e        $x
+                                            $j$h            $b$i$h$b$h$e        $x
+                                          $j$h      $b$h  $b$i  $h$b$h    $e    $x
+                                        $j  $b$h  $b$h$b  $i  $k$h$b$h          $x
+                                      $j  $b          $h$b$i  $k$l$h$b$h  $b    $x
+                                    $j      $m      $b  $i  $k$l  $h$b    $h    $x
+                                  $j      $m            $i$k$l  $i  $h    $i$b$i$x
+                                $j      $k  $c  $m        $l  $i            $b$i$x
+                              $j      $k    $c      $m  $k  $i              $b$i$x
+                            $j    $k      $c        $k      $i              $b$i$n$x
+                          $j    $k      $c        $k        $i  $j              $n  $x
+                        $j    $k      $h      $c$j    $k    $j        $k  $o    $n$p  $x
+                      $j    $k  $j$k  $h      $c$j    $k          $j$k  $o$k  $o$k  $p    $x
+                      $j    $k  $j$k$h        $j        $k      $j  $k  $o      $k$q      $x
+                    $j    $k  $j$k  $h        $j        $k  $i$b$i        $b$k$b$x$p$q  $x
+                  $j      $k  $j$k  $h      $j$k$j      $k$i  $b$i        $b$k$b$x$p    $c$x
+                  $j    $k  $j$k    $h    $j  $k  $j      $b$i$b$i        $b$k$b$x$q$p$c$x
+                $j      $k  $j$k  $h    $j      $k  $j  $i$b  $i          $b$k$b$i$q$c  $x
+              $j        $k  $j$k$j$h    $j        $k  $i$b$k$b$i          $b$k$b$i$q$x
+              $j      $k  $j  $k$j$h  $j            $i$b$k  $b$i          $b$k$b$i$q$x
+            $j        $k  $j  $k$h    $j          $i$b$k  $b  $i          $b$k$b$i$x
+            $j        $k  $j  $h      $j        $i$b$k    $b$i          $b$k  $b$i  $x
+          $j          $k$j    $h$r$h$c$j      $i$b$k    $b  $i          $b$k    $b$i$j$x
+          $j          $k$j    $r  $c$j        $i$b$k    $b$i            $b$k    $b$i  $x
+        $e$j          $k$r  $g$f$r      $j  $i$b$k    $b  $i          $b$k      $b$i  $j$x
+        $e$j          $r    $s$g$r  $j$r$j  $b$k    $b  $i            $b$k        $b$i  $j  $x
+      $e$j          $r  $j$r      $j$r  $j$b$k      $b  $i          $b$k          $b  $i$j    $x
+      $e$j          $r  $j$u  $j  $r  $j  $b$j    $k$b$i            $b$k  $n    $k$j$b$i$b$j      $x
+      $e$j        $k$j$r$u    $j$r  $j            $b  $i          $k    $n        $j$b  $i$b$j        $x
+      $e$j        $k$j  $u  $j                      $n$i        $j  $k$n          $j  $b$i$b$j          $x
+    $e  $j        $k$j$u    $j                    $n      $i    $j  $k$n          $j  $b$i$j              $x
+    $e  $j        $k$j$u  $j                      $n        $i$b$j  $k$n          $j  $b$i$j              $x
+  $e    $j        $k$u    $j                    $n      $l$n  $b$j    $n          $j  $b$i$j            $e$j$x
+  $e    $j        $k$u    $j                    $n      $l$n  $j      $n      $l$n$j  $b$j        $x  $e    $x
+  $e    $j        $u    $k$j                    $n$l$n  $l$n$j      $q$n    $l$n  $j          $x        $e  $x
+  $e    $j        $u    $k$j                  $n    $l  $n  $j    $q$p$q$n$l$n  $l$j        $x          $e  $x
+  $e    $j      $u    $j$k$j                $v$n          $j      $p  $n$l      $n$j    $x              $e$x
+  $e      $j    $u    $j  $k$j            $v    $n    $l  $j    $p    $v$n        $j  $x
+  $e      $j  $u    $j      $k$j        $v  $b$v  $n$l$n$j      $p  $v  $b  $v    $x
+EOC

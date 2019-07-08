@@ -1,0 +1,71 @@
+# Venom (Spider-Man)
+# by Acclaim Entertainment (art from Spider-Man and Venom: Maximum Carnage)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;232m  ";
+$b = "\e[48;5;17m  ";
+$c = "\e[48;5;18m  ";
+$d = "\e[48;5;19m  ";
+$e = "\e[48;5;243m  ";
+$f = "\e[48;5;24m  ";
+$g = "\e[48;5;7m  ";
+$h = "\e[48;5;239m  ";
+$i = "\e[48;5;248m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;31m  ";
+$l = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t
+                                $t                $a        $x
+                                  $t            $a    $b$c$d$a$x
+                                    $t          $a$e$a  $d$f$d$a$x
+                                              $a  $g$a  $c$d  $h$a$x
+                                              $b$a$g$i$a$b$c  $i$a$x
+                                              $c$a$e$i$h$a$b$h$g$a$x
+                                              $c$a$h$e  $a$b$i  $a$x
+                                        $a    $b$a  $d$a$b$c$d$c$a$x    $j        $x
+                                  $a    $c$d$f$a$i$e$a$b$c$d  $c$a$x  $j        $x
+                                $a$b$d$k$f$d$c$a$f$e$g$d      $h$a    $j  $x
+                    $a            $d$a$d$b$c$a  $c$b$h$i$g  $i$a$d$b$j  $x
+                  $a  $c$f$d  $c$a  $d$f$d$b$a$f$a$d$a$j    $a$d$j$l  $d$a$x
+                $a  $f$k$c$b$a    $c$f$c$b$a$b$d$a$b$h$a$j$l    $j  $f$k$f$a$x
+                $a$d$f$c$a  $c$a$b$d$a      $b  $a  $f$i$a  $j    $a$c$f$d$a$x
+                $a$c$b$a  $c$d$a$b$c$d$a$d$f$k$f$b$a$b$f$i$g$i$b$a$i$b$c$d$a$x
+              $a  $b$a  $b$d$f$b$a$d$i$d$a  $c$d$a    $c$d$k$f$a$c$i$a$c$f$a$x
+              $a$b$c$a$b  $d$c$b$a  $i$e$a        $i$a        $b$d$g$i$c$f$b$a$x
+              $a$c$d$a$b$c  $b$a    $i$g$c$a      $e$a    $b$g$a$e$g  $b$d$f$d$a$x
+              $a$d$b$a  $b  $a    $h$i$g$i$c$a    $h$e  $i  $b$h$g  $i$a$d$f  $b$a$x
+            $a$f$d$b$a$b$c$a    $h  $g    $h$c$a  $h$e$i$g$h$b$g    $e$a$c$k  $f$a$x
+          $a$d$f$b$a$b$c$d$b$a  $h$e$i$g  $i$c$a  $h$i  $g  $i$g  $i$h$a$c$f$k$f$a$x
+          $a$f$d$a$b$c$f  $c$a  $h  $e$i$g  $i$a  $e$g$e$g      $i$e$h$a$b$c$d  $a  $x
+          $a$k$b$a$b$d$k$d$b$a  $h    $e  $i    $g$h$e$i$g  $i$e$h    $a    $b$d$c$a  $x
+          $a$f$c$a$c$f  $c$a  $h            $e$h$e$g$h$g$h  $c$b$h  $a      $b$c$d  $b$a$x
+          $a$c$b$c$d$c$b$a    $h          $a  $h$g  $i$g$h$b$a    $h$a    $b  $d$f  $d$b$a$x
+          $a  $c$a$b  $a    $h  $e$i    $h$c$a    $g$e$g$b$a        $x$a$c$d$b$d$f$k$d  $a$x
+        $a$b$c$b  $a        $h$i  $g$i$e$c$a      $g$h$i$c  $a    $x  $a$b$f$a$c$f$k  $d$a$x
+        $a$c$d$a$c$a  $b$a$h  $e$i  $h$a          $i$h$e$d$c$b$a$x      $a$d$b$a$d$f$k  $a  $x
+        $b$d$c$a$d$a$c$a$x$a$h  $i$e$d$c$a$c$b$a  $e$h  $k$d$a  $x      $a$b$c$a$c$d$a    $b$x
+      $a$d$f$d$b    $d$a$x  $a$h$e$k$d$b$d$f  $k$e$h$i$h$f$b$a$x          $a        $d$f$d$c$a$x
+      $c$f$k$f$c$a$c$b$a$x    $a$h$f$b$a$b$c$d  $h  $e$i$b  $a$x              $a  $b$d$c$f  $a$x
+      $b$d$k$d$b$a$c$a$x      $a$c$f$b$a        $h  $i$g$k$f$a$x                $a$b$f$a  $c$f$a$x
+      $a$c$k$c$a  $b$a$x      $a$c$f$b$a$c$f$k  $i$g  $e$d$b$a$x                $a  $b$d  $f$k$a$x
+      $a$b$f$b$a    $x        $a$b$f$c$a  $c$d$c$h  $i$h$a    $x                $a  $d$f  $d$f$a$x
+      $a  $d$a    $x          $a  $d  $b$a$b$a  $h  $i  $k$d$a$x                  $a  $d$b$a$f$a$x
+      $a  $c$d$f$d$a$x      $a$d$b$a$f  $c$d$f$k$g  $h$e$d$b$a  $x                $a  $f    $d$b$x
+      $a  $f  $c$d$b$x      $a$k$d$a$b$d$b$d$f  $e$f  $h$c$a$b  $a$x                $a  $c$b  $x
+      $a$f$c$a  $f$b$x      $a$d$f$d$a$b$a$c$d  $h$d  $c$a  $c$d$a  $x                $a    $x
+      $a$k$f$d  $b$a$x    $a$c$b  $c$a$b$a  $b  $c  $b$a  $b$d$f$d$b$a$x
+      $a$f$d$f  $d$a$x    $a$b$a      $c  $a              $b$c$f$k$f$b$a$x
+      $a$f$a$b$d$a  $x    $a            $b$d$b$a            $b$d$k  $f$c$a$x
+      $b$d$f    $a  $x  $a      $b    $a        $d$c$a          $f$k  $d$a$x
+        $b  $c$a  $x    $a      $c$d$b$a  $b$a  $c$b$a  $b$c$b$a  $f$k$f$c$a$x
+          $a    $x      $a$b$a  $d$f$c$a  $b$a  $b$a    $c$d  $b$a  $f$k$d$a$x
+                        $a$c$a$b$d$k$d$a$b$c$a          $c$f$k$d$b$a$c$f  $c$a$x
+                        $a$d$a$b$f$k$f$a$b$d$c$a        $b$d$f$k$d$b$a$b$d$c$b$x
+                        $a$f$a$b$d$k$f$a$b$f$d$a$x$a      $b$d$f  $d$a  $b$c$b$a$x
+                        $a$d$b$a$c$k$d$a$b$k$d$a$x  $a      $b$c$d$f$d$b$a$b  $a$x
+EOC

@@ -1,0 +1,42 @@
+# Catdog
+# by Unknown - https://www.pinterest.com/pin/390616967669864130/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;221m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;16m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;63m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t
+              $t
+                $t      $a$x        $a$x
+                      $a  $x      $a  $x
+                    $a  $b$x    $a  $c$x                                      $a  $c$x
+                $b  $a    $b  $a  $c  $x                                  $a$c$a$c$d  $x
+                $d    $a$d    $a  $c  $x                                $a$c$d  $a$d$e$d$x
+                $d  $e$d$e$d  $a  $c  $x                                $c$a$d    $a$d$x
+                $f$d  $f$d  $a      $c$x                            $c$a$c$a  $d$e$d$a    $x
+              $f          $a              $x                    $c    $a$c$a    $d  $a  $g    $x
+            $a    $f    $a                                  $c        $a    $d$a      $g        $x
+                  $a                $c      $a                $c    $a        $d$a    $g        $x
+                    $a              $c        $a                          $c  $a$d$a  $g        $x
+                        $c        $a                                    $c    $x    $a  $g    $x
+                            $c        $a      $c                  $a        $x
+                                  $a        $c                      $a      $x
+                                  $a  $x$a$x  $c          $x        $a      $x
+                                    $a      $x                      $a      $x
+                                    $a      $x                      $a$x$a$x
+                                    $a      $x                      $a$x$a$x
+                                  $a    $x$a$x                      $a$x$a  $x
+                                  $a        $x                      $a      $x
+                                  $a        $x                      $a      $x
+                                        $a  $x                      $a  $x
+EOC

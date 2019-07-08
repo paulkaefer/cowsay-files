@@ -1,8 +1,8 @@
 # Tim (The Life & Times of Tim)
-# by Charlie M
+# by Charc0al (original art)
 # Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;94m  ";
 $b = "\e[48;5;242m  ";
@@ -78,7 +78,4 @@ $the_cow = <<EOC
         $f$u  $f$x  $f$r                                $f$x    $f$s$u    $f$x
         $f$u  $f$x  $f$r                                $f$x    $f$u      $f$x
         $f$u    $f$x$f$r                                $f$x  $f$s$u      $f$x
-        $f$u    $f$x$f$r                              $f  $x  $f$u      $s$f$x
-        $f  $u    $f  $r                              $f  $x$f$s$u    $s$f$x
-          $f$u    $f  $r                            $f      $s$u    $s$f$x
 EOC

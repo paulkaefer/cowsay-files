@@ -1,0 +1,64 @@
+# Professor Farnsworth (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;209m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;229m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;238m  ";
+$h = "\e[48;5;67m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;153m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;231m  ";
+$m = "\e[48;5;251m  ";
+$n = "\e[48;5;138m  ";
+$o = "\e[48;5;60m  ";
+$p = "\e[48;5;250m  ";
+$q = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+
+                  $a$b  $c$x
+                $d$b  $c  $e    $x
+              $d$b  $f$c        $e  $x
+              $d$g$b$c    $b  $c$b  $e$x
+                $d$b$c$b$c            $e$x
+                $d$b  $c$h  $i    $c$h$i  $x
+                  $a$b  $h  $j  $i$c$h$j$i$x
+                  $k    $h  $j    $k  $j  $x
+                $d  $b  $h  $j    $c$b  $j$x
+                $d$b$c  $b        $c  $b  $e$x
+                  $b  $c                  $x
+                      $c        $b$c      $e$x
+                  $l$d$b  $c  $b$c          $e$x
+                $m$l$d    $b$c$b$c$b$x
+            $n$m$l  $d  $b$m$x
+          $n$m$l    $o  $j  $l$x
+          $n$m$l    $o  $j  $l  $x
+        $n$m$l$m$l  $o$j    $l$m$l$x
+        $n$m$l  $m$l$o$j    $l$m$l$x
+        $n$m$l  $m$l$o$j    $l$m$l  $x
+      $n$m    $l$m$l$o$c$e$j$b$m$l  $x
+      $n$m    $l  $p$d$j    $l$b$e$l$x
+      $n$m      $l$d$b$c  $j$b$c  $x
+        $n$m    $l$d$b  $c$j$b  $c$x
+            $n      $d$b$j    $b$c$x
+            $m    $l  $o$j      $l$x
+            $m    $l  $k        $l$x
+            $m    $l  $g        $l$x
+            $m    $l  $g$x$k$g  $l$x
+            $m    $l  $g$x$k$g  $l$x
+            $m      $l$g$x  $k$g  $l$x
+              $m      $g$x  $k  $g$l$x
+                $k    $j    $q$k$g$j  $x
+                $b  $o$j    $b  $o$j  $x
+EOC

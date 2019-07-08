@@ -1,0 +1,57 @@
+# Bulbasaur (Pokemon)
+# sprite from Pokemon Black & White (DS) - https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/35063/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;22m  ";
+$b = "\e[48;5;112m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;70m  ";
+$e = "\e[48;5;118m  ";
+$f = "\e[48;5;23m  ";
+$g = "\e[48;5;38m  ";
+$h = "\e[48;5;45m  ";
+$i = "\e[48;5;252m  ";
+$j = "\e[48;5;196m  ";
+$k = "\e[48;5;1m  ";
+$l = "\e[48;5;255m  ";
+$m = "\e[48;5;231m  ";
+$n = "\e[48;5;203m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t                                          $a$x
+                  $t                                    $a  $b$c  $x
+                                        $d      $a      $b$d  $a$d$c$x
+                                    $d  $e          $b    $d$b$a$d$c$x
+                                  $d$e                $d  $b  $d$a$c$x
+            $f  $x              $d$e        $f$c$d    $e$b    $d$a$c$x
+          $g$h  $f  $x$g                $f  $h  $c$e      $b    $a$d$c$x
+          $g$h    $g  $h              $f$h      $c$e      $b    $a$d  $c$x
+          $g$h$g$h    $g    $h                  $c$e      $b    $d$a$d$c$x
+          $g  $h    $g      $h                  $g$c$e    $b    $d$a$d  $c$x
+          $g$h      $g    $h        $f  $h      $g$c$e  $b      $d  $a$d$c$x
+          $g$h                    $f$i  $f$h    $g$c$e$b      $d    $a$d  $c$x
+        $g$f$g$h      $g  $h    $f$j$k$l$i$f$g      $c$b    $d      $a$d  $c$x
+        $f$j$g$h    $g    $h    $f$j$k$m$l$f$g      $c$f$d          $a$d  $c$x
+        $f$j$l$g$h  $g  $h    $f$j$l$k  $m$i$g      $c$f$d        $a$d    $c$x
+      $g$l$k$m$g$h            $f$k$m$n  $l$i$g      $f$g$f$d      $a$d    $c$x
+      $g$m$k  $g$h            $f$k  $n  $i$g        $f$g  $f$d  $a$d    $c$x
+      $g$c$h                            $g  $f$g            $f  $d      $c$x
+      $f$g$c$h  $g$h  $g$h          $f  $c  $g  $f$g    $f  $g  $f$d  $c$x
+      $f$g$m$k  $h        $g$f$c    $m$f$g      $f$g    $f    $g  $f$c$x
+        $f$g  $f$k                  $f$g      $f$g        $f  $g    $f$x
+          $c  $g  $f$k$j$n      $f$g      $c  $g        $f$g        $f$x
+              $c  $g                $c    $g    $f$g  $f$g    $f$g    $c$x
+              $f$g$c                $g          $f$g  $c$g  $f    $g  $c$x
+              $g$h    $g$f$g          $f$h  $g    $f$c$g    $f    $g  $c$x
+                $g  $h  $g$f$c$g    $f$g  $h  $g  $f$c$g    $f    $g  $c$x
+                $g  $h  $g    $c    $f$g    $h$g  $f$c$g      $f$g  $c$x
+                $g$h      $g  $c$x  $g$h$g  $h$g  $f$x$c$f$g$f$g$f$g$c$x
+                $l$g$h$g$h$g  $c$x  $g$h      $g$c$x  $f$l$f$l$f$l$f$x
+                $f$l$f$l$f$g$c$x    $f$h$g$h$g  $c$x    $c        $x
+                  $c        $x    $f$l$f$l$f$l$c$x
+                                    $c        $x
+EOC

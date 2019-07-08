@@ -1,0 +1,69 @@
+# Leonardo (Teenage Mutant Ninja Turtles)
+# by Konami, original art from TMNT: Turtles in Time - https://www.spriters-resource.com/snes/tmnt4/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;33m  ";
+$b = "\e[48;5;26m  ";
+$c = "\e[48;5;28m  ";
+$d = "\e[48;5;40m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;245m  ";
+$g = "\e[48;5;22m  ";
+$h = "\e[48;5;94m  ";
+$i = "\e[48;5;237m  ";
+$j = "\e[48;5;136m  ";
+$k = "\e[48;5;220m  ";
+$l = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                $a$b$x    $b$x
+                      $t            $b$a$b$x  $b$a$x
+                        $t          $a    $b  $a  $x
+                          $t        $a    $b$a$b  $x
+                                    $a$b$a$b$a$b  $x
+                                    $a  $b  $c$d        $c$x
+                                    $b$a$x$c$d            $c$x
+                                      $b$x$b$d            $x$a$x
+                                      $b$c$b  $d        $a$x$a$c$x
+                                        $c  $b  $a  $e$x$a$d    $c$x
+                                      $c    $d$b$a  $e$x$d        $c$x
+                                      $c  $d                      $c$x
+                                      $c  $d                      $c$x
+            $f$x                $c    $g$c$d                      $c$h$x
+            $e$x              $c  $d$c$g  $c$d  $g  $c$d        $c$i  $h$x
+            $e$x          $c$d        $c$g  $c$d    $g    $c  $g$d    $j$h$x
+            $e$x          $d  $c  $d    $c  $g      $c    $g  $d          $x
+            $e$x        $c$d    $c$d$c    $j$c$g$d  $c  $g$j  $c$d          $x
+            $e$x    $c$a$c    $d$c    $j  $k  $h$j  $k        $j$c$d        $c$x
+            $e$x  $d    $b$c        $j$k      $h$j$k            $c$d  $c  $d  $c$x
+            $e$x$d      $b$g$c  $g$c$j$k        $j$k            $c  $g$c$d  $a  $x
+            $e$d          $g        $j$k        $j$k  $f  $k    $c$g  $c$d    $a$x
+          $c$e$d          $b$g        $j$k      $j$k  $f$e  $f$k$d    $a$d    $a$x
+        $a  $e$d    $c  $g$b  $x    $g$j$k      $j  $k  $f$e$d          $a$d    $x
+      $a$i  $e$i$c  $g    $x          $j$k        $j$k    $c$d          $a$d    $x
+    $c$d$f  $e$i$b$g$x                $g$j      $h  $j  $c    $d      $c$a$d    $x
+    $c$d$f  $e  $b$x                  $g$j$k    $j$h$j  $c  $g  $d    $c$b$g    $x
+    $c$d$f  $e  $d$x                    $g$k      $j$k  $c$g  $c    $f$b  $g  $x
+    $c$d$f  $e  $d$x                    $g$j$k    $h$j$k  $g$c    $f$e$i$h$i$x
+    $c  $f    $e$x                        $g$j    $f$e$f$l    $i$f$e$i$f$i  $x
+    $g$c$f$e    $x                          $i$l  $e  $f$l    $j  $g$d$i$f$d  $x
+    $c$g$f      $x                          $h$l  $f  $i      $j$g$c$d  $i$f$d  $x
+      $c    $i$x                            $c$h$i$l$k$l      $i$g$c  $d  $i$f$d$a$x
+          $i  $x                          $c    $l  $j$i$l    $i$g$c    $d  $i$f$a$x
+                                          $c    $l$i$j  $i$l$i$j$g  $c    $b$a$i$e$x
+                                        $c        $j    $h$i$j  $g  $c  $b    $a$f$e$x
+                                        $c      $g    $j  $h$i$j$g    $c$b      $c$f$e$x
+                                        $d  $c  $g        $x      $g  $b      $g$c$d$f$e$x
+                                      $d      $c$g      $x          $g$b$g      $c  $d$f$e$x
+                                      $d      $c  $g    $x            $b$g    $c      $x$f$e$x
+                                      $d      $c  $g  $x                $g    $c  $g  $x  $f$e$x
+                                    $d      $c  $g  $x                    $g        $c$d$x  $f$e$x
+                                    $d      $c  $g$x                        $g    $c$d  $c$x  $f$x
+                                    $d      $c$g  $x                          $c  $d      $c$x
+                                  $a  $d  $c  $g$x                            $c  $d$c$g$d$c$x
+                              $c$a      $b    $x                                $c$d  $g$x
+                            $c$d$c$a    $b    $x                                  $c$d$x
+EOC

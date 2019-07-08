@@ -1,0 +1,83 @@
+# King Joffrey (Game of Thrones)
+# by Cezary 'Charlie' tuczynski, edited and converted by Charlie 'Charc0al' M
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;179m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;227m  ";
+$e = "\e[48;5;101m  ";
+$f = "\e[48;5;166m  ";
+$g = "\e[48;5;238m  ";
+$h = "\e[48;5;94m  ";
+$i = "\e[48;5;215m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;131m  ";
+$l = "\e[48;5;167m  ";
+$m = "\e[48;5;25m  ";
+$n = "\e[48;5;124m  ";
+$o = "\e[48;5;23m  ";
+$p = "\e[48;5;174m  ";
+$q = "\e[48;5;53m  ";
+$r = "\e[48;5;17m  ";
+$s = "\e[48;5;237m  ";
+$u = "\e[48;5;8m  ";
+$v = "\e[48;5;244m  ";
+$w = "\e[48;5;248m  ";
+
+$the_cow = <<EOC
+                        $t            $a$x$b$x$c$x$d$x$a$x
+                          $t            $a$e$c$e  $f$b$x
+                            $t          $a$b$d$c$d$b$a$x
+                              $t        $e$g$h    $e$c$x
+                                $t      $h$i    $f$h$b$x
+                                        $h$j$f$j$h$k$f$x
+                                        $h$i$b$i$f$i$h$x
+                                        $h$f$h$f  $h  $x
+                                            $b$i$k$h$x
+                                            $k  $h$x
+                                          $l$k$l    $x
+                                        $m$n$i$n$h$l$x
+                                      $o$i$h  $n$h  $f$d$p  $x
+                                      $l$o$n$h$n$f$n$l  $h$p$x
+                                      $n$q$m$n  $f$n    $q$n$x
+                                      $f$q$o$n$l  $i$n$q$l$h$p$x
+                                      $h$q  $m$l$d$l$q$n$l$n$p$x
+                                      $h$q  $m$i$l$n$q$l    $h$p$x
+                                      $h$q  $m$l$n$h$q$n$l  $h$p$x
+                                      $h$n$q$m$f$h$q    $n    $p$x
+                                    $h$q$n$q$o$h  $q$l$r  $l$n$h$p$x
+                                    $h$q$b$q$o$n$h$n$l$r  $l  $h$p$x
+                                    $h$q$n$q$o$f$h$l$r      $l  $p$x
+                                    $h$q$i$q  $m$n$l$q$r$q$r$x$n  $p$x
+                                  $h  $q$n$h$q$m$l$q  $r$q  $x$l$n$p$x
+                                  $n$q  $n$q  $o$l$q  $r$o$q$x$l  $n$x
+                                $n$h$q$x$n$q  $o$l$q$r$o  $x  $l    $x
+                                $n$q  $x$s    $x$q  $r$o  $x  $l  $n$x
+                              $n$q    $x$s    $x$m$q$r$o  $x  $l  $n$x
+                        $f$d$x$h$q    $n  $h$n$q$m$q$r$o  $x  $l  $n$x
+                        $k$f$q      $x$n$f$h$f$q$m$q  $o$m$x  $l  $n$x
+                        $k$h$i$q    $h$n$i$h$b$n$q$m$q  $o$m$x$l$n  $x
+                      $s$k$b$f$q    $h$f$n$h$n$f$q$m$q  $o$m$x$l$n  $x
+                    $s$k$s$h  $q    $n$f$n$h$n$b$q$m$q  $o  $f$l$n  $x
+                    $s$k$s$h  $q    $n  $f$h$i$l$n$q$o$q$o$b$i$n    $x
+                  $s$u$k$s$f$x$q  $h$n  $i$h$d$l$n$l$o$q$i$f$i$n    $x
+                $s$x$k$h$s$x  $q  $h$n$i$n$r$n$d$l$n$p$q$i  $f$n    $x
+                $s$x$k$h$s$x  $q  $n  $f$n$r$n$f$l  $p$q$o    $n    $x
+              $s$x  $k$h$s$k$x$q  $n    $f$r$f$n$l  $n$p$o  $m$n    $x
+            $s$x  $k$h$k$s$x    $q$n    $f$r$i$n$l    $p$o  $m$n    $x
+          $s$x    $k$h$x$s$x    $h$n  $i$n$r$n$i$n$l  $p$o$m$x  $l$n  $x
+          $s$x    $d$h$x$s$x    $h$n  $f$n$r$n$f$n$l    $p$x    $n$l$n$x
+        $s$x    $i  $x  $s$x    $h$n    $f$r$f$n  $l    $p$x      $n$l$n$x
+      $s$x      $i$k$x  $s$x      $q$r      $x      $r    $x        $n  $x
+$i$x  $s$x      $f$k$x  $s$x        $r    $x        $r    $x          $n$x
+  $i$s$x      $f$k$x    $s$x          $r  $x          $q    $x
+  $d$x        $k$h$x    $s$x          $r  $x            $q  $x
+  $d$f$x      $k$h$x    $s$x          $r  $x            $q    $x
+    $d$f$x  $k$v$x      $s$d  $x      $r    $x          $q    $x
+      $i$f$x$c$v$x      $d$x            $s  $v$x        $s    $w$x
+        $i  $w$v$i    $d$x              $s  $v$x        $s    $v$x
+          $k$i    $d$x                  $s  $v$x          $s  $v$x
+EOC

@@ -1,0 +1,63 @@
+# Roadrunner (Warner Bros)
+# by Charc0al, original artist unknown - https://www.pinterest.com/alibles/perler-bead-warner-brothers-pixel-art-graphs/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;75m  ";
+$c = "\e[48;5;55m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;220m  ";
+$f = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+                          $t
+              $a  $x        $t
+            $a$b  $a$x        $t
+        $a    $b  $a$x          $t              $a      $x
+      $a$b          $a$x          $t          $a$c      $a    $x
+        $a$b        $a$x            $t  $a$x$a$c              $a$x
+          $a$b        $a$x              $c$a$c      $a      $c$a$x
+          $a  $b        $a$x            $c$a$c  $a  $x      $a  $x
+        $a$b                $x          $c    $a$x
+        $a$b                $a$x        $a$c  $a$x
+          $a  $b              $a$x        $a$c  $a$x
+            $a$b                $a$x        $a$c$a    $x
+          $a$b                  $a$x          $a$c$d  $a$x  $a$x
+            $a$b                $a$x        $a$c  $d    $a  $e$a$x
+              $a  $b            $a$x        $a$c    $d$a  $e  $a$x
+                  $a$b          $a$x      $a$e                $a$x
+                $a$b            $a$x    $a$e          $a$e  $a$x
+                  $a$b          $a$x      $a$e          $a  $x
+                    $a  $b      $a$x        $a      $b  $a$x
+                        $a$b    $a$x                $a$b$a$x
+                        $a$b    $a$x                $a$b$a$x
+                        $a$b    $a$x                $a$b$a$x
+                        $a$b    $a$x                $a$b$a$x
+                          $a$b  $a$x                $a$b$a$x
+                        $a$b    $a$x                $a$b$a$x
+                          $a$b  $a$x                $a$b$a$x
+                            $a$b  $a$x              $a$b$a$x
+                            $a$b  $a$x              $a$b$a$x
+                              $a$b  $a$x          $a$b  $a$x
+                                $a$b  $a            $b  $a$x
+                                  $a$b  $c        $b    $a$x
+                                    $a$b  $c      $b    $a$x
+                                  $a$b      $c  $b    $a$x
+                                $a$b              $a  $x
+                                $a$f$b$a          $x
+                                $a$f  $a$x
+                                  $a$f$a$x
+                                  $a$f$a$x
+                                  $a$f  $a$x
+                                    $a$f$a$x
+                                    $a$f$a$x
+                                    $a$f  $a$x
+                                      $a$f$a$x
+                                      $a$f$a$x
+                              $a    $x$a$f  $a$x        $a      $x
+                            $a$f    $a$f      $a        $f      $a$x
+                          $a$f                                    $a$x
+                            $a                                      $x
+EOC

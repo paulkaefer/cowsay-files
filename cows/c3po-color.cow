@@ -1,0 +1,74 @@
+# C3PO (Star Wars)
+# by Gustavo Viselner - https://dribbble.com/shots/2124684-R2d2-and-C3p0
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;179m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;222m  ";
+$d = "\e[48;5;254m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;233m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;240m  ";
+$i = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+              $t            $a    $b  $x
+                $t        $a$c  $a  $b  $x
+                  $t      $c  $a      $b$x
+                    $t    $c  $a      $b$x
+                          $a$b$a  $b$a$b$x
+                        $a  $d$b  $d$b  $a$x
+                        $b$a$b$a  $b$a$b  $x
+                        $b$c$a      $b    $x
+                          $c$a$e  $a$b  $x
+                          $c$a    $b    $x
+                              $c$b  $x
+                              $a$b  $x
+                          $c    $b    $x
+                  $c$b$a$c$b              $a$x
+                $c$b$a    $b        $a      $b  $x
+              $c$b  $a  $b        $a    $b        $x
+            $c$b    $a  $b        $a    $b        $x
+          $c$b  $x  $a  $b        $a  $b          $x
+          $b  $x    $c  $b    $c    $b        $c$a$b$x
+        $c$b$x      $a  $c    $b  $a$b    $x  $b$c$a$b$x$b$x
+      $c$b  $x      $a$c$b    $c$b        $x    $b$c$a$b$x$b$x
+      $c$b  $x      $c$a$c    $b$c$b      $x      $b$c$a$x  $b$x
+        $c$b  $x    $c$a$c$b$c$b$c$b      $x        $b        $x
+        $c$b  $x      $c  $b$c$b$c$b    $x          $a  $b$x$b$x
+        $c$b  $x      $c$b$c$b  $f$b    $x      $a  $b  $x
+        $c$b  $x      $f$b    $g$f  $b  $x  $a  $b  $x
+          $c$b$x      $f$h$f$g$f$h$f$x  $a  $b    $x
+          $c  $b$x  $c$b$f  $g$f$c$a    $b    $x
+        $c$i$c$i$c$x$c  $b    $c$b$c$a$b  $x
+          $c$x$c$x    $a  $b$c$b$c$a$c$a$x
+          $c$x$c$x    $a  $b  $c$a$c$b  $x
+                    $c$a  $b  $c  $b    $x
+                    $c$a$b$a  $c$a$b    $x
+                    $c$a$b    $c$a$b    $x
+                    $c$a$b    $c$a$b    $x
+                    $c$a$b  $x$c$a$b  $x
+                    $c$a$b  $x$c$a$b  $x
+                    $c$a$b$c$b$c$a$b$c$b$x
+                  $c  $a$c$b$c  $a$c$b    $x
+                  $c      $b$c      $b    $x
+                  $c  $a$c$b$c  $a$c$b    $x
+                  $c  $a$c$b$c  $a$c$b    $x
+                    $c$a  $c$b$c$a  $c$b$x
+                      $c$a$b$x  $c$a$b$x
+                      $c$a$b$x  $c$a$b$x
+                      $c$a$b$x  $c$a$b$x
+                        $c$a$b$x  $c$a$b$x
+                        $c$a$b$x  $c$a$b$x
+                          $c$a$b$x  $c$a$b$x
+                          $c$a$b$x  $c$a$b$x
+                          $c$a$b$x  $c$a$b$x
+                          $c$a$b$x  $c$a$b$x
+                          $b$a$b$x  $b$a$b$x
+                      $c  $b    $c  $b    $x
+                $b                      $x
+              $b                        $x
+EOC

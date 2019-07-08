@@ -1,0 +1,76 @@
+# Peter Pan (Hook)
+# sprite from Hook (SNES/Genesis) - https://www.spriters-resource.com/snes/hook/sheet/31590/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;222m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;232m  ";
+$h = "\e[48;5;88m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;22m  ";
+$k = "\e[48;5;112m  ";
+$l = "\e[48;5;166m  ";
+$m = "\e[48;5;28m  ";
+$n = "\e[48;5;191m  ";
+$o = "\e[48;5;221m  ";
+$p = "\e[48;5;103m  ";
+$q = "\e[48;5;239m  ";
+$r = "\e[48;5;52m  ";
+$s = "\e[48;5;250m  ";
+$u = "\e[48;5;137m  ";
+$v = "\e[48;5;227m  ";
+$w = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a$x  $a$x
+                $a$x$a  $x$a  $x$a$x
+                $a  $b$c$a$d$a    $x
+              $a$b$a    $b$a$c$a$c$a$x
+              $a$b$a  $d$e$d$b$a$b$a$x
+                $a$f$a$b$f    $c$a  $x
+              $a  $c$a$c$a$f$d$c$a$x
+              $a  $c  $b  $a$c$b$x
+                $a  $c$d$e$g$c$a$x
+                  $a$b$f  $d$f$c$x
+                $a    $c$f$d$b$a$x                                      $h$i$h$x
+            $a$j$k$j$a$b$c  $b$j  $x                                  $h$l$h$l  $h$x$h    $x
+          $a$m$e$n$k$b$a      $k  $m$j$x                            $h  $l$i      $h$e$o$l$h$x
+          $a$j$e  $n    $a  $n$a$k  $m$x                          $i$h$e$l$i$h    $o$l      $h$x
+          $k$m$k$n  $a$n      $k$a    $x                          $h$a$o$h$a$p$a$l$i$h$i$h$x
+        $f$k$m$a$k$a$m$k$n  $e$k$a$m  $c$x                          $q$l$a$q$a      $i    $h$x
+      $c$f$d$a    $k$m$a$n  $e$a  $j$c$d$c$x                        $a    $f  $d$c$a  $l$h$x
+    $b$e$d$b$a$x$a$m$n$m$a$e$a$j$a$x$b$c$f  $x                      $b$d$f$r  $c$a    $i  $h$x
+    $c$f$c$a$x    $a$j$k  $m  $a$x  $a$c$f  $d$a$x                  $r$d$r$c    $a    $h  $x
+    $c$f$b$a$x      $a$b$c$d$b$a$x    $a  $d$f$c$a$x                $r$c$a  $b$c$a$f$a      $x
+    $b$d$b$x    $j$m$a  $b$c$a  $j$x      $a$b$d$c$d$e$f$b$x        $d$f$a  $e$b$c$d$a  $q$x
+    $b$f  $a$x$j$m$k$n$j  $m  $k$j$x        $a$b$c$f$r$c$f$b$r$x    $r$b$c$f$d$a$r$a$q  $s$q$x
+    $d$f  $a  $m$k$n$e  $n    $k$m$x          $a$d$r$f  $d$f$b$r$x    $r$c$b$q$p$e$s  $p$q$x
+    $c$f$c$a  $m$k$n$j$n$e$n$k$a$k$x            $a$r$d  $c$g  $r$b$r$x$r  $d$e  $p$s  $q  $x
+    $a$c$f$x$j$m$a$n$m  $n  $k$j$k$x              $r$b$d$g$r$g$u$c$d  $c$d$f    $d$s      $q$x
+      $a  $x$a$j$a$m$n$a$n$a$k$j$a$x                $r$g$r$g  $d$r$d    $f  $d$c$b$p$s$q    $x
+            $a  $j$k$n$a$n$a  $m$j$x                $g$u$r  $g$d$u$d$f$c$b$r$a  $q$p  $s$p$q  $x
+              $a$m$n$k$a    $j$m  $x                $r$d$r$a$d$r$u$r    $x  $q  $p      $q$r$q$x
+                $n$e$m$a$x  $a$m$k$x                  $r  $d$r$v$r$x        $q$a$q$p$r$b$c  $q$x
+              $j$n  $a$x    $a$m$n$x                      $r$v    $r$x  $r$b$a$b$a  $c$d  $c$x
+              $m  $j$x        $a$j$x                          $e$v  $r  $b$c$b$a$q$p$s    $p$q$x
+            $j$k$m$a$x      $a$j  $x                            $e$v  $r$c$b$a        $q$p$s$p$x
+            $k  $j$a$x      $a$j  $x                              $e$v  $r$q$s  $h$p  $q$a$q$p$q$x
+            $k$m$a$x          $a$j$x                              $r$e$v  $r$s  $i$s  $p  $q$a$p$x
+          $b$j$a$x            $a$j  $x                            $r$d$e$v  $r$p$q$a  $q    $a$p$x
+        $b$d$a$c$a$x          $a  $j$b$x                          $r$d$b$e$v  $r$p  $i$a    $i$r$x
+      $a$c$f$d$c$a$x        $a$b$d$c$b$a$x                        $r$c$b  $e$v  $r$q$h$p$q$o$i  $r$x
+      $a$c    $b$a$x        $a  $c$b$a  $x                          $r$b$a$q$e$v  $r$a$q$l  $h$i$r$x
+        $a$b  $a$x            $b$c  $x$a$b  $a$x                      $a$p$q  $e$v$w$a  $h  $i$h$r$x
+    $a$c$f$d$c$b$a$x          $a    $b$c$d$c$b$a$x                    $a$p$q$a  $e$v$i$o  $l$i$r$x
+  $a$c$d      $c$a$x                                                              $e$l      $i$r$x
+  $a            $x                                                                  $r          $x
+
+EOC

@@ -1,7 +1,7 @@
-# Gene
-# by Charlie M
+# Gene Belcher (Bob's Burgers)
+# by Unknown - http://rebloggy.com/post/gif-pixel-art-bob-s-burgers-gene-belcher/128805484976
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;236m  ";  #fake black
 $s = "\e[48;5;223m  ";  #skin color
 $w = "\e[107m  ";       #white

@@ -1,0 +1,63 @@
+# Donald Duck angry
+# sprite from Magical Quest 3 Starring Mickey and Donald (GBA) - https://www.spriters-resource.com/game_boy_advance/magicalquest3starringmickeyanddonald/sheet/44195/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;26m  ";
+$b = "\e[48;5;12m  ";
+$c = "\e[48;5;18m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;60m  ";
+$g = "\e[48;5;254m  ";
+$h = "\e[48;5;146m  ";
+$i = "\e[48;5;208m  ";
+$j = "\e[48;5;226m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;160m  ";
+$m = "\e[48;5;88m  ";
+$n = "\e[48;5;214m  ";
+$o = "\e[48;5;166m  ";
+$p = "\e[48;5;197m  ";
+
+$the_cow = <<EOC
+              $t                                  $a        $x
+                $t                              $a  $b      $a$x
+                  $t                          $c$a  $b      $a$x
+                    $t                        $c$a      $b  $d$x
+                      $t                    $c$b$a  $d      $c$x
+                        $t                $c$b$a$d  $c      $x
+                          $t              $c$b$a$c  $d        $x
+                                $d  $x$c  $a  $c$d  $e      $d$x
+                                  $d$c$a    $c$d$e        $d$x      $f$g$h  $f$x
+                                    $c$a  $c$d$e        $d$x      $f$h$g  $h  $f$x
+                                      $c    $d$e      $d$x        $f$h$g    $h  $f$x
+                                              $d      $x          $f$g$f$g    $h$f$x
+                                                                $c  $h$g$f$h    $f$x
+                                                              $c$i  $c  $h    $f$x
+                                                  $f        $c$b    $i$j$c$f  $x
+                                              $f  $h$g    $h$f$b  $a    $c$x
+                                            $f$h  $g        $h$g$a  $c  $x
+                    $c                $x  $f$h$g  $f$h  $g    $h$a$c$x
+                $c  $a            $i$a$c$x$f$h$g$h$g$f$h  $g$h  $c$x
+            $f$c  $i  $a$b    $a$k  $a$f    $h$g$h$g  $f$h    $f$x
+          $f$h  $g  $c$i$j$c  $a$k$l$k$a$f$h  $g$h$g  $h$f$h$f  $x
+        $f$h    $g    $c  $a  $b$k$l  $c$k  $i$g  $h$g$h$d$i$h$d$x
+        $f$h  $g      $h$c$a$b    $k  $m$l$k  $n$i          $n        $o$x
+      $f  $h$g      $h  $a  $b        $k$l$p$k$i$m$i$n            $i  $o$x
+      $f    $h$g$h$g$h$f$a    $b        $k  $x$m$k$m$i$n    $i$o    $m$x
+      $f$h$f$h$g$h  $f$c$a    $b        $c$x  $m$l$m$o        $m    $x
+        $f$h$f      $h  $c$a    $b      $c$f$x  $m$l$m        $x
+        $f$h$g$h  $g    $h$c$a        $c$h$f$x    $m      $x
+        $f$h$g              $c        $h$f$x        $o    $x
+        $f$h$g                  $h      $f$x    $o  $i    $o$x
+          $f$h$g  $o  $g          $h  $f$x    $o$n$i  $m  $i$o$x
+            $f$h$o$n$i$o$g    $h  $f  $o$x    $o$i$m        $o$x
+              $f$o$n$i$o$h      $f$i$n  $o$x  $o$i$m          $x
+                $o$n  $i$o$h$f  $o  $i  $n$o$x$o$i$m        $x
+        $o$n      $o$i    $o$x      $o$i  $n$o$i  $m        $x
+      $o$n            $i    $o$x      $o$i      $m        $x
+    $o$i                      $o$x      $o$i  $m        $x
+    $m                          $x        $m        $x
+EOC

@@ -1,0 +1,70 @@
+# Max Payne
+# by Unknown - https://www.pinterest.at/pin/819092250949902036/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;254m  ";
+$f = "\e[48;5;243m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;237m  ";
+$i = "\e[48;5;101m  ";
+$j = "\e[48;5;58m  ";
+$k = "\e[48;5;247m  ";
+$l = "\e[48;5;238m  ";
+$m = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t        $a          $x
+                $t    $a            $x
+                  $t  $a    $b  $a  $x
+                      $a  $b$c  $b$x
+                      $c$a$c      $x
+                        $b$c      $x
+                      $d$c$b$c    $d$x
+                  $d    $e$c$b    $e$d  $x          $f$g      $a$x
+                $h  $d    $e$c  $e$d$h  $x      $d$f    $d$f  $h$x
+              $h      $d  $i$e$i$d$h$d    $h$d$c        $d$x
+              $a$h        $d$i$j$d      $h  $d$c  $b  $x
+              $d$a$h        $i  $d  $h      $d  $c$d$x
+              $d  $a$h                      $d$h$d  $x
+                $d  $a  $h          $a    $d$h$d  $x
+                $a  $d  $a          $d    $h$d  $x
+                $h$a    $d            $a$d  $x
+                  $h$a    $j$i  $k$a    $x
+                  $h    $a$k$j$i  $a$h  $x
+                  $h    $a$k$j$i  $a$h  $x
+                  $h    $a$k$j$i  $a$h  $x
+                  $h    $a$k$j$i  $a$h  $x
+                  $h    $a$d      $a$h    $x
+                $h      $a$d    $l$a$h    $x
+                $d    $h$a$l      $a$d    $x
+                $h  $d$h$a$l$m  $l$a$d$h  $x
+                $h  $d$h$a$l$d$m$l$a$d$h  $x
+                $h  $d$h$a$l$d$m$l$a$d$h  $x
+                $d  $h  $a$l$d$m$l$a$h$d  $x
+              $h      $a$l$m$d$m$l$a$h    $x
+              $h      $a$l$m$d$m$l$a$h    $x
+            $h        $a$l$m$d$m$l$a$h    $x
+            $h        $a$l$m$d$m$l$a$h    $x
+            $h      $a$l  $m$d$m$l$a$h    $x
+            $h      $a$l$m  $d$m$l$a$h    $x
+          $h        $a$l$m$d    $l$a$h      $x
+          $h        $a$l$m$d    $l$a$h      $x
+          $h      $a$h$m  $d    $l$a$h      $x
+        $h        $a$l$m  $d    $m$a$h      $x
+        $a  $h    $a$l$m  $d    $m$l$a$h      $x
+            $a    $l$m  $d      $m  $h$a    $x
+              $l    $m  $d        $m      $x
+              $m        $x        $m      $x
+              $m      $x          $m      $x
+              $m      $x          $m        $x
+            $d    $m  $x          $m  $d      $x
+          $d        $m$x          $m$d        $x
+EOC

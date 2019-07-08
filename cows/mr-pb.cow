@@ -1,0 +1,44 @@
+# Mr.PB (Rick & Morty)
+# by Wase Quazi - https://dribbble.com/shots/2877207-Rick-And-Morty-Pixels
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;73m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;184m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;116m  ";
+$g = "\e[48;5;58m  ";
+$h = "\e[48;5;237m  ";
+$i = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t          $a  $x
+            $t        $a  $x
+                      $b  $x
+                  $a          $x
+                    $c    $d$x
+                    $c    $d$x
+                $a$e$c$a$e  $x
+                $e  $c$e    $x
+                  $c$d$c$d$x
+                  $d$c$a$d$x
+                $c$a  $c$d$x
+                $c    $d$x
+                $c  $d  $x
+              $f        $x
+            $f$x$f  $b$x$f$x
+            $d$x$f  $b$x  $c$x
+              $d$f$b  $x$c$x
+                $g    $c$x
+                $h$x$g$x
+                $h$x  $g$x
+                $d$x    $c$x
+                $d$x      $c$x
+              $i  $x      $i  $x
+
+EOC

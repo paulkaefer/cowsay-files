@@ -1,0 +1,74 @@
+# Professor Farnsworth (Futurama)
+# by PixelsNTing - https://www.deviantart.com/pixelsnting/art/Angry-Professor-Farnsworth-4-x-bigger-507254587
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;137m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;152m  ";
+$e = "\e[48;5;23m  ";
+$f = "\e[48;5;116m  ";
+$g = "\e[48;5;167m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;236m  ";
+$m = "\e[48;5;249m  ";
+$n = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+                        $t                                                $a        $x
+                          $t                                      $a      $b        $a  $x
+                            $t                                  $a$b                    $a$x
+                              $t                            $a  $b                        $a$x
+                                $t                  $a      $b                            $a$x
+                                                  $a$b                                    $a$x
+                                              $a      $b          $a    $b                $a$x
+                                            $a$b              $a  $b                      $a$x
+                                        $a      $b          $a$b                        $a$x
+                                      $a$b          $c        $b                        $a$x
+                                $c      $b$c    $b$c$d        $c    $b                  $a$x
+                              $c$d$e$d  $c$f    $c$d    $e$d    $c$f$c$b                $a$x
+                              $c$e$d  $e$c        $d  $e$d      $c$f  $c$b              $a$x
+                              $c$d  $e$d$a$b    $c$d$e$d    $e$d$c$f  $c$b            $a$x
+                              $c$d$e$d$a$b      $c$d      $e$d  $c$f  $c    $b        $a$x
+                                $c  $a$b      $a$b$c$d        $c$f    $c$b  $c  $b  $a  $x
+                                  $a$b          $a$b$c        $f    $c$b        $c    $a  $x
+                                  $a$b          $a$b    $c          $b                    $a$x
+                                $a$b    $a      $b        $a$b                      $a$b  $a$x
+                                $a$b  $a$b                $a$b                  $a  $b    $a$x
+                                  $a  $b                    $a$b                $a$b      $a$x
+                                $a$b                          $a$b                    $a  $x
+                            $a  $b                              $a$b                $a$x
+                          $a$b                  $c          $b    $a$b        $a$b  $a$x
+                            $a                  $x          $c$b  $a$b          $a  $x
+                                                      $c          $b$a$b        $a$x
+                                                      $c          $b$a$b      $a$x
+                                                      $c  $g    $c$b$a$b      $a$x
+                                                  $a  $c  $g    $g$b          $a$x
+                $a    $x                        $a$b    $c  $g    $b            $a$x$i$x
+              $a$b    $a$x                        $a  $b                          $i$j$i$x
+            $a    $b    $a  $x                        $a$b              $a$b  $a$b$i$j  $i$x
+          $a$b    $a$b$a$b  $a$x                        $a$b              $a$b  $k$l$i$j  $i$x
+          $a    $b  $a$b    $a$x                          $a$b            $a$b  $l$d$i$j  $i$x
+        $a$b    $a  $b    $a$x                              $a$b  $a$b      $c$l$d  $i$j    $i$x
+        $a$b      $a$b  $a  $x                                $a$b  $a$b    $l$d    $i$j      $i$x
+        $a$b      $a$b$a$b$a$x                              $l  $b    $l    $d      $i$j        $i    $x
+        $a$b$a$b  $a  $b  $a$x                              $l$d$l    $d            $i$j      $m$j    $i  $x
+        $a$b  $a  $b      $a$x                            $i$l$d                  $l$i$j      $m$j        $i$x
+        $a$b    $a$b  $a  $x                          $i  $j$l  $d              $l$d$i$j      $m$j          $i$x
+        $a$b  $a$b  $a  $x                          $i$j        $l$d      $l    $d  $i$j      $m$j            $i$x
+          $a$b      $a$b$a$x                      $i$j            $l      $d        $i$j    $m$j                $i$x
+          $a$b        $a$b$a$i$x              $i  $j            $l$d              $i$j      $m$j    $i$j          $i$x
+            $a$b$a$b    $a$b$i  $x          $i$j          $i$j  $l$d              $i$j      $m$j    $i$j            $i$x
+            $a$b  $a$b    $i$j  $i$x      $i$j            $i$j  $l$d              $i$j      $m$j    $i$j            $i$x
+              $a$b  $a$b$i$j      $i$x  $i  $j            $i$j  $l$d              $i$j    $m$j      $i$j              $i$x
+              $i$a$b  $i$j          $i  $j  $i$j          $i$j  $l$d              $i$j    $m$j      $i$j              $i$x
+            $i  $n$a$i$j                $i$j              $i$j  $l$d              $i$j    $m$j      $i$j                $i$x
+          $i  $n  $i$j                                  $i$j    $l$d              $i$j    $m$j        $i$j              $i$x
+          $i$n  $i$j                                    $i$j    $l$d              $i$j    $m$j        $i$j                $i$x
+          $i$n$i$j                                      $i$j    $l$d              $i$j  $m$j          $i$j                $i$x
+            $i  $j                                      $i$j  $l$d              $i$j    $m$j            $i$j              $i$x
+EOC

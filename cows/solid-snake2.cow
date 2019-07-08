@@ -1,0 +1,72 @@
+# Solid Snake (Metal Gear Solid)
+# by Unknown - https://66.media.tumblr.com/c27bc23d326a693af79c452bef52eac3/tumblr_nef650fjLB1s5mfvio1_500.gif
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;247m  ";
+$e = "\e[48;5;249m  ";
+$f = "\e[48;5;8m  ";
+$g = "\e[48;5;240m  ";
+$h = "\e[48;5;246m  ";
+$i = "\e[48;5;241m  ";
+$j = "\e[48;5;242m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;244m  ";
+$m = "\e[48;5;243m  ";
+$n = "\e[48;5;59m  ";
+
+$the_cow = <<EOC
+                        $t
+                          $t
+                            $t        $a      $x
+                              $t    $a          $x
+                                $t  $b$a$b      $x
+                                    $b          $x
+              $b      $x      $b    $c        $a$x
+        $b    $x      $b      $x    $c$a    $c$a  $x
+      $b$x                      $b  $a$c    $a    $x
+    $b$x                $b      $x  $a$c$a$c$a$d$x
+                  $b    $x            $a    $d  $x
+              $b  $x                  $e$d    $e$b$f$x
+            $b$x              $d  $f$b$d$e    $d$b$f$e  $x
+            $b$x            $d  $e$f$b$e  $d$e  $b$f$e      $x
+        $b  $x              $d  $e$f$b$e  $d$e  $g$f$e$d  $e  $x
+                            $d  $e$f$b$e  $d$e  $f$e$d        $h$x
+                            $d    $e$i$e  $d$f  $i$e$d        $h$x
+                              $d$h  $f      $d    $b$f$x$d      $h$x
+                              $f  $j$k$d  $l$d    $j$k$x  $d    $f$x
+                              $l$m$b$f$d$l    $d$b$j$f$x    $h$f$m$x
+                            $h$l$m$j$f$k$d$l$d  $j$k$x        $l  $m$x
+                            $d$f$m$x$b$f$d  $f  $j$f$x        $l  $m$x
+                          $d  $h$x  $j$f    $l$d  $f$x      $h$f$m$x
+                          $d  $h$x    $d    $l$d$b$j$k$x    $d  $f$x
+                          $d$h$x    $j$b$f$j    $b$j$k$x    $d  $h$x
+                          $f$n$x    $j  $f$e$d  $j  $f$x    $d$h$x
+                        $d$i$n$x    $f$d$e    $f$j  $f$x    $f$n$x
+                        $f  $n$x    $f$h$d$e  $f$d$f  $x  $f  $n$x
+                        $f$n$x    $e  $d$f$e  $d$h$e$d$h$x$i$d$h$x
+                          $n$x  $f$e  $d$f$e  $i$e  $d$h$x$f  $n$x
+                              $e  $f$d  $h$f$x$f$e    $d$h$x
+                            $e    $d$f$d$h$x  $d  $e  $d$h$x
+                            $h$e$d    $f$x      $d$e  $d$h$x
+                          $d  $i$f$d$h$x        $d$e    $h$x
+                          $e$d    $f$x          $d$e$f$h$f  $x
+                        $e  $d  $h$x              $f$d    $h$x
+                        $e  $d$h$x                  $d$e  $h$x
+                        $d    $h$x                  $d$e  $h$x
+                          $d    $h$x                  $d$e  $x
+                          $e$d  $f$x                    $e  $h$x
+                            $h$f$h$x                    $d  $h$x
+                            $e$d$l$x                    $f$d  $f$x
+                              $l  $m$x                  $d$f$h  $x
+                              $l  $m$x                    $d  $m$x
+                                $l  $m$x                  $l  $m$x
+                            $d  $l  $m$x                    $l$m$x
+                        $l$d$l      $m$x                    $l  $m$x
+                          $l    $x                        $l    $m$x
+                                                          $l$d  $m$x
+EOC

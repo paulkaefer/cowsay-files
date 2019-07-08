@@ -1,0 +1,63 @@
+# Krishna (Hindu god)
+# by artkarthik - https://www.redbubble.com/people/artkarthik/works/26417464-krishna-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;41m  ";
+$b = "\e[48;5;24m  ";
+$c = "\e[48;5;178m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;249m  ";
+$f = "\e[48;5;67m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+                                              $t                                            $a$x
+                                                $t                                        $a  $x
+                                                  $t                            $b$x    $a  $b$x
+                                                    $t                  $c  $x$b        $a$b$a$x
+                                                      $t                  $c    $b      $a    $x
+                                            $c$x        $t              $c          $b  $a  $x    $c$x
+                                        $d$x$c$x$d$x      $t          $b  $c            $a$x    $c    $x
+                                      $d  $x    $d  $x      $t          $b      $e  $c  $x
+                                          $e    $x                  $b    $f$b      $e$b$x  $d$x$e    $x$d$x
+                                    $c  $x$e$d$e$x$c  $x            $b    $f  $b$e    $b$x  $d$x$e    $x$d$x
+                                          $e    $x                $b      $f  $b$f$e  $b$x      $e  $c$x
+                                      $d  $x    $d  $x            $b        $f    $e  $x          $e  $x
+                                        $d$x$c$x$d$x            $b          $f    $x              $c  $x
+                                            $c$x                $b          $f  $b    $x        $c  $x
+                                                      $f$x$f$x      $b      $f  $b    $x
+                                                $f$x  $f$x  $f$b  $f$x  $b  $c      $x                  $e$d$c      $g$d$x
+                                                  $f    $d    $f    $d          $g$d              $g$d      $c      $g$d$x
+    $d$g$c      $d  $g$d                $g$d                $g$f    $d  $b  $f      $c$e  $x                $d$x
+    $d$g$c      $d$e$x                      $b$c    $f  $b$c$b  $e$f$b$c$b    $f  $c$f    $x                  $d$x
+                                          $b$c        $b  $c$b  $c    $b$c$b  $f  $c$f    $e$x                $d$x
+                                            $b$c    $d  $x  $b  $c    $b  $c$b$f$c$b$f  $e  $x              $d$x
+                                                $d      $x    $b$c      $b  $c  $b$f    $e  $x              $d$x
+                                                $d      $x    $b  $c      $b    $f      $e$x                $c  $x
+                                                  $d    $x      $b$c      $b  $c$f    $e  $x              $c$x
+                                                    $d  $x      $b$c        $d  $c$f$e  $b$x
+                                                    $d  $x      $b  $c      $f$d  $c  $b  $x
+                                                  $d    $x        $b$c      $f$d    $b  $d$x
+                                                  $d    $x        $b  $c  $f  $e$d        $x
+                                                  $d    $x          $b$d$f  $e$b$d          $x
+                                                  $d    $x          $b  $d  $b  $d          $x
+                                                  $d    $x            $b$d  $b  $d          $x
+                                                $d      $x            $h  $d  $h    $d      $x
+                                                $d      $x              $h$d  $h      $d    $x
+                                                $d    $x              $c  $d    $c  $h  $d  $x
+                                              $d      $x              $c  $d      $c$h$c$h$x
+                                              $d      $x            $c      $d      $c      $x
+                                              $d      $x            $c  $h  $d        $c    $x
+                                            $d        $x          $h      $c  $d        $c  $x
+                                            $d$x                  $c            $d        $c  $x
+                                                                  $c            $d            $x
+                                                                $c                $d        $c$x
+                                                              $c                  $d    $c    $x
+                                                              $c                $h$c          $x
+                                                              $c              $h  $c          $x
+                                                              $c              $h$c            $x
+                                                              $c              $h$c          $x
+EOC

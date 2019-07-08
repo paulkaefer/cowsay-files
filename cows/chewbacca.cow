@@ -1,0 +1,67 @@
+# Chewbacca the Wookie (Star Wars)
+# by unknown - https://www.sccpre.cat/show/iomJboi_chewbacca-avatar-aang-pixel-art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;172m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;167m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;246m  ";
+$h = "\e[48;5;8m  ";
+
+$the_cow = <<EOC
+        $t                $a            $x
+          $t          $a  $b            $a  $x
+            $t      $a$b    $c    $b$c  $b  $a$x
+                  $a$b        $c  $b$c$b    $a$x
+                  $a$b  $c                $b  $a$x
+                $a$b      $c                  $a$x
+                $a$b$c      $a  $c    $a  $c  $a$x
+                $a$b$c      $a  $c    $a  $c  $a$x
+              $a$b$c        $a  $c    $a  $c  $b$a$x
+              $a$b$c$b  $c        $a$c      $b  $a$x
+              $a$b    $c        $a    $c        $a$x
+              $a$b  $c                          $a$x
+              $a$b$c    $b$c    $a        $c  $b$a$x
+              $a$b$c  $b$c    $a$d        $a$c  $a$x
+            $a$b  $c$b$c      $a$e        $a$c  $a$x
+            $a$b$c            $a            $c$a  $x
+          $a$c    $a$c                        $a  $x
+        $a  $c  $a$c                        $a$f  $a$x
+        $a$c$a  $c$a    $c                $a$f$g$f  $a$x
+      $a$c  $a$c      $a$c$a$c  $a$c    $a$f    $g$a  $x
+      $a$c              $a  $c$a    $c$a$f$g$f  $a$c  $a$x
+    $a$b  $c      $a$c  $a$c$a$c    $a$f    $g$a$c  $b$a$x
+    $a$c          $a$c            $a$f$g$f  $a              $x
+    $a$c          $a$c          $a$f    $a          $h$a$h$a$x  $a    $x
+  $a$c  $b$c    $a$c    $a      $f$g$a    $h            $a              $x
+  $a$b  $c    $b$a$c  $a                                                $x
+  $a$c      $b  $a                    $c      $a  $c        $a$x$a    $x
+  $a$c    $b  $a  $c    $a    $c              $a  $c        $a$x
+  $a$c                                    $b$a    $c$b$c    $a$x
+    $a$b$c                        $b$c    $b$a    $c$b$a$b$a$x
+    $a$b  $c$a$c                  $b    $a  $c  $a  $b$a    $x
+      $a  $b$a$c    $b$c    $b$c$a        $c    $a$x$a  $x
+        $a    $b$a$c$b$c$b  $a    $c            $a$x
+          $a$f$a    $b$a    $c              $b$c$a$x
+          $a$f    $a    $c    $b      $c    $b$c  $a$x
+        $a$f          $a$c  $b$a        $c    $b$c$b$a$x
+        $a$f          $a$c  $b$a$x  $a$b$c        $b$a$x
+        $a$f        $a$c    $b$a$x    $a$b$c$b$c      $a$x
+          $a$f      $a$c    $a$x      $a$b  $c        $a$x
+            $a      $c    $b$a$x        $a  $c    $b$c  $a$x
+              $a$c        $b$a$x          $a$c  $b$c    $a$x
+            $a$c      $b$c$b$a$x          $a$b$c$b$c  $b$a$x
+            $a$c$b$c    $b$a  $x          $a$b$c        $a$x
+            $a$c$b  $c  $b$a$x            $a$b$c    $b$c$a$x
+          $a$c          $a  $x            $a  $c  $b  $c$a$x
+          $a$c$b$c$b$c  $a$x                $a$c        $a    $x
+        $a$b            $a$x                $a$b$c            $a$x
+        $a$g  $a$g  $a$g  $a$x              $a$b$c$b$c    $g  $a$x
+        $a$g  $a$g  $a$g  $a$x              $a$b$c$b    $a$g  $a$x
+        $a                  $x              $a                  $x
+EOC

@@ -1,0 +1,75 @@
+# The Ventriloquist (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;73m  ";
+$f = "\e[48;5;152m  ";
+$g = "\e[48;5;110m  ";
+$h = "\e[48;5;247m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;19m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;221m  ";
+$n = "\e[48;5;173m  ";
+$o = "\e[48;5;235m  ";
+$p = "\e[48;5;130m  ";
+$q = "\e[48;5;137m  ";
+$r = "\e[48;5;216m  ";
+$s = "\e[48;5;238m  ";
+$u = "\e[48;5;236m  ";
+$v = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+              $t
+                $t                                      $a        $x
+                  $t                                $b$a          $c$d$x
+                    $t                            $b$a          $c$b  $x
+                      $t                          $b$a          $b    $d$x
+                                                  $b$e  $a$e  $a$c$b$d$x
+                              $b    $d    $x      $e$f$g$e$f$g$e$a$b$h$x
+                              $b      $d      $x  $e$g$f$c$g$f$e$a  $c$x
+                              $b      $d      $x    $e  $a$e  $a  $c$x
+                              $i      $j$i$j$i$x    $a          $c$x
+                            $j  $i$j$i$b        $d$x$a  $c    $a$c$x
+                            $b        $k$c$k  $b$l$x  $a        $c$x
+                              $m$k$c$k$m  $n$k$l$x      $c$a    $c$x
+                              $o$m$p$c$o$m$c$q$x        $c      $x
+                              $q$p$r$c      $l$j$x    $o  $c$o  $s  $u$x
+                            $i$c$q$c  $p$c  $q$i  $j$s$o        $s$u$s$u  $x
+                        $v        $o  $p$c$q$i  $j  $s  $b    $s    $o$s  $u$x
+                          $j$i  $c$a$c$q  $i$j  $i$j$s  $b    $s  $o$s  $u$o$x
+                          $j  $i$o$c$q$o$i$j$i$j$i$j$s  $b    $s  $u$s$o$s  $o$x
+        $o$x$o$x          $i$j$i$j$b$o$i$j$i  $j$i$j$s  $b    $s$u$s$o$s      $x
+      $o                      $i  $j$i$j$i    $j$i$j$s  $b    $s$o$s$o$s    $o$x
+        $o$x$o$x  $o$l  $o    $i  $j  $i      $j$i$j$s  $b  $s$o$s$o$s      $u$x
+            $o$x    $o$l  $a$c$h$j  $i$j$i$a    $i  $s  $b  $o$s$o$s      $u$x
+            $o$x      $o$l$c$a$h$j$i    $a      $i  $o$s$b$s$o  $s        $u$x
+                        $o$l  $j  $i  $a$i$j$a$c$i$u$s$o    $u$s$o$u$s  $u$x
+                            $j$i$j  $i$j$i$a  $c$a$c$u$s      $o$s$o$s  $u$x
+                            $i            $a$c$a$c  $u$s              $u$x
+                            $j$i      $j$a$c$a$u$c  $o$u  $o$s      $u$o$x
+                              $i$j  $i  $c$a$s  $u  $s  $u$o$u  $o$u$o  $x
+                              $i  $x$i  $x  $s  $u$s        $o        $u$x
+                              $i$j$x$i  $x  $s  $u$s$o$s    $u$s    $u$o$x
+                                $i$j$x$j$x  $s  $o$s                $u  $x
+                                $i$j$i$j  $x$s  $o$s                $u  $x
+                                  $o$b$i$j$x$s  $o$s                $u  $x
+                                $b  $o$x$o$b$s  $o$s                $u  $x
+                                $o$x  $b  $o$s  $u$s                $u  $x
+                                $o$x  $o$x  $s  $u$s                $u$o$x
+                                      $o$x  $o$s$o$s                $u$o$x
+                                              $o$u$s                $o  $x
+                                                $o                    $u$x
+                                                $s      $o$s      $u    $x
+                                                $s      $o$s      $u    $x
+                                                $s      $o$s      $u$o$u$x
+                                                $s      $o$s        $u  $x
+                                                $s      $o$s        $u  $x
+EOC

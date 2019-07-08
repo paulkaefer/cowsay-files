@@ -1,0 +1,64 @@
+# Metal Gear (Metal Gear series)
+# by Adam Grant - https://www.deviantart.com/adam-grant/art/Metal-Gear-Pixel-554334895
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;109m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;66m  ";
+$e = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+                              $t
+                                $t
+                                  $t
+    $a    $x                        $t
+  $a$b    $a  $x                      $t
+    $c$b      $a$x                      $t
+      $c  $b    $d  $x                    $t
+    $a    $c  $b    $d$x                    $t
+  $a$b    $a$d$c  $b  $d  $x                  $t
+    $c$b      $d  $c$b    $d$x                  $t
+      $c  $b      $d$c  $b  $d  $c$d    $x                                            $d      $x
+          $c$b      $d  $c$b    $d$c  $b$d$x                                        $a$b      $c$x
+            $c  $b      $d$c  $b  $d  $c$b$c$x    $a    $d              $x        $a$b        $c$d$x
+                $c$b      $d  $c$b    $d$c$e$a    $d                          $x$a$b        $c$d$b$c$x
+                  $c$b        $d$c  $b  $e$a$d      $b$a$d        $c$b  $d    $b$a$b      $c$d$b  $c$x
+                    $c  $b        $d$c  $e$a$d    $b$a$d      $b  $c$b  $d    $c$d$b    $c$d$b    $c$x
+                        $c$b        $c  $e$a$d  $b$a$d      $b    $a$c$a  $d  $c$d$b  $c$d$b      $c$x
+                          $c  $b    $c  $e$d  $b$a      $d$b      $c$e  $a$d  $c$e$c  $d$b      $c$x
+                              $c    $e  $d    $b$a$d    $b      $c  $e  $a$d    $c$e$d$b      $c$x
+                              $c$e  $c$e$d    $b$a$d    $b  $e  $c$b$e  $a$d    $b$c$e$c      $x
+                                $c  $b  $c$d  $b$e    $b$e    $c$b  $e    $a  $d$c    $e  $x
+                                    $c$b  $e      $c$e$b$e    $d$b  $e  $c  $e  $x  $e  $x
+                                      $c    $e  $c$b$c$d$e  $d$b    $e$c      $e$x
+                                            $c$e$b  $d$e  $d$b      $e$c    $x
+                                                  $a    $d$b      $e$c    $e  $d    $x
+                                      $d  $c      $a$d    $b    $e$c    $e$c    $b  $d$x
+                                  $d  $b      $c$a$d    $b    $e$c    $e  $c  $b      $d$x
+                                $a$d$b      $c  $a$d    $b  $c$e$c    $e$c  $d$b        $d$x
+                              $a$d$b      $c$b$c    $e  $c  $d  $e$c  $e$c$b  $d$b        $d$x
+                              $a      $d$b      $c  $e$c$d    $c  $e$c$e$b    $d$b      $d$a$x
+                              $a$d  $b  $c$b      $e$c$d    $c    $e$c$e$b      $d    $a    $x
+                              $a$d$b    $c$b    $e$c$d$e  $d$c  $x  $c  $e$b  $d$b      $d$a$x
+                              $d$b      $c$b  $e$c    $d$e  $d$x      $c$e$b$c  $b        $d$x
+                                $a  $b  $c    $e$c      $d  $x        $c$e$c  $b        $a  $x
+                                  $b      $c$e$c      $e  $c$x        $c$e  $c$b          $x
+                                        $e    $c    $e  $c$e  $x      $c  $e            $x
+                                      $c      $e$c$e    $c$e  $x        $c          $e$x
+                      $a$x      $a$x$d    $c    $e    $c$e    $x        $c  $d          $x
+                    $a$b$c$e$d$a$b$c$b    $d  $c  $e  $c$e  $x      $e  $d  $b    $a$b    $x$a$x
+                    $d$b$c$e$b$d$b$c$b      $d  $c$e$c$e  $x        $e  $d$b$d  $c$b$a$d  $c$b$a$x
+                  $d$b$c$e$b$d$b$c$e$b  $d  $b$d$c    $e  $x        $e  $d$b  $e$c$b$d$b$e$c$b$d$x
+                  $d$b$c$e$b$d$b$c$e$d  $b    $d$c  $e  $x            $e$d$b  $e$c$b$d$b$e$c$b$d$x
+                $d$b$c$e$b$d$b$c$e$b          $d$c  $e  $x            $e$d$b    $e$c$b$d$b$e$c$b$d$x
+                $d$b$c$e$b$d$b$c$e$b          $c  $e  $x                $e$c$b  $e$c$b$d$b$e$c$b$d$x
+              $d$b$c$e$b$d$b$c$e$b          $c$e      $x                $e$c$b  $e$c$b$d$b$e$c$b$d$x
+              $d$b$c$e$b$d$b$c$e$c$b      $c$x$e    $x                  $e  $c$b  $e$c$b$d$c$e$c$b$d$x
+                $c$e$c$b  $c$e$c    $b$c  $x    $e  $x                    $e  $c$b$e$c$b$d$c$e$c$b$d$x
+                  $c      $e$c        $x                                  $e    $c$e$c$b$d$c$e$c$b$d$x
+                                                                          $e  $x$c$b$e$c      $e$c$x
+                                                                                  $c  $e$c      $e$x
+EOC

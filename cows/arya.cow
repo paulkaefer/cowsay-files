@@ -1,0 +1,70 @@
+# Arya Stark (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;69;40;60m  ";
+$b = "\e[48;2;102;57;49m  ";
+$c = "\e[48;2;246;164;86m  ";
+$d = "\e[48;2;238;195;154m  ";
+$e = "\e[48;2;143;86;59m  ";
+$f = "\e[48;2;34;31;52m  ";
+$g = "\e[48;2;223;113;38m  ";
+$h = "\e[48;2;138;111;48m  ";
+$i = "\e[48;2;217;160;102m  ";
+$j = "\e[48;2;82;75;36m  ";
+$k = "\e[48;2;132;126;135m  ";
+$l = "\e[48;2;167;94;45m  ";
+$m = "\e[48;2;155;173;183m  ";
+$n = "\e[48;2;254;254;254m  ";
+$o = "\e[48;2;50;60;57m  ";
+
+$the_cow = <<EOC
+              $t            $a        $x
+                $t        $a$b    $a    $x
+                  $t    $a$b$a$b$a$c$d$a$x
+                    $a          $c    $a$x
+                      $a    $c$a$c$b$e$x
+                      $a    $f$g  $c  $x
+                        $a$f  $e$g  $e$x
+                      $g$b$x  $e  $x
+                $c$g$e$b  $h$i$b  $x
+              $g$e$b      $j$h$i$h$e$x
+            $e$a$b$e$b      $j$h  $b$g$x
+          $e$a$b    $a$b    $h$j$h$b  $x                                              $k  $x
+        $l$a$b    $a  $b      $h$b$a  $x                                          $m  $x
+      $l$a$b    $a$x$a  $e$b  $a$b$a  $x                                      $n  $x
+    $g$a  $b  $a$x  $b$a$b$e$b$a$b$a  $x                                  $n  $x
+      $h  $j$a$x    $e$b$a$b$a$b$a    $x                              $n  $x
+      $i$h  $x      $g$b  $a$b$a      $x                          $n  $x
+      $i$h    $x    $g$b  $a$x$e$a    $x                      $n  $x
+      $d$h$j  $x  $e$b  $a$b$x$f  $j$o$x          $m  $x  $n  $x
+        $i$h    $x$f$b  $a$b$x  $i$o$j$h$j$x        $m$n  $x
+        $i$h$d  $x$f        $x    $h$j  $h  $j$e$g$c  $m$x
+        $i$d$o  $x$b$f        $x    $j      $a  $e  $c$m$x
+          $i$o$c  $b$f$b$a$b    $x    $o$j  $a  $g$c$x
+          $i$h$c  $f$b  $a$h$a    $x    $o$j$o$x
+            $g$b  $f$e  $a$h$j$a  $x      $o$j$x
+              $b$f$e    $a$o$j    $x
+              $h$j$o        $j      $x
+            $i$h        $o    $j      $x
+            $i$h      $o          $j  $x
+            $d$h    $o$j$x$o  $j        $x
+          $d$i$h  $j$h$j$x  $o    $j      $x
+          $d$h  $j$h$j$x      $o    $j    $x
+          $d$h      $j$x        $a$o  $j    $x
+          $d$h    $j$x            $a$o$j    $x
+          $i$h  $j$x                $a    $o$j$x
+          $h  $j$o$x                  $a$o$j  $x
+          $j  $o$j  $x                $a    $o  $x
+          $j$a  $o  $x                $a$o      $x
+            $a    $o  $x                $a$o      $x
+              $o      $x                  $a$o    $x
+                $o    $x                    $o    $x
+                  $o    $x                    $o    $x
+                    $o    $x                  $o$j$o$x
+                    $o$b$o$x                  $j$o$a  $x
+                  $e$b  $x                      $a        $x
+                $e$b    $x                          $a      $x
+EOC

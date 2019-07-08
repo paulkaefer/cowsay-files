@@ -1,0 +1,52 @@
+# Wheatley (Portal 2)
+# by Jacob14 - https://jacobl14.wordpress.com/tag/portal-2-pixel-art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;233m  ";
+$c = "\e[48;5;245m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;240m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;254m  ";
+$h = "\e[48;5;238m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;110m  ";
+$k = "\e[48;5;188m  ";
+$l = "\e[48;5;7m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t
+              $t  $a  $x    $b      $x$b      $x  $a  $x
+                  $a$c      $b      $x$b      $c    $a$x
+                  $a  $x                          $a  $x
+                  $a                    $x        $a  $x
+                $a    $d  $e$d        $e$a  $x    $a  $x
+              $a      $f$d  $e$d        $e$d$a$x$a    $x
+            $a$f$a  $f    $d  $e        $d$e$d$a      $x
+          $a$f  $a  $f      $e  $d  $e$d$e  $d  $a  $x
+          $a$f            $e$f      $e$d    $e$d  $a$x
+        $a$f$a$f        $e  $f  $e      $f  $e  $f  $a$x
+        $a$f$a$g$f    $e$f  $e  $d      $e  $f  $e$f$a$x
+      $a$h  $f$a$g$f  $e$f$e$d              $e$f$e$f$a$x
+      $a$h  $f$a$g  $e$f  $h$e$b$i$j  $i$b$e$h$f$g$e$g$a$x
+      $a$h  $f$a$g  $e$g$h$e$b$i$j      $i$b$e$h$g$e$g$a$x
+      $a$h  $f$a$g  $e$g$h$e$b$i$j$d  $j$i$b$e$h$g$e$g$a$x
+      $a$h  $f$a$g  $e$g$h$e$b$i$j$d  $j$i$b$e$h$g$e$g$a$x
+      $a$h  $f$a$g  $e$g$h$e$b$i$j      $i$b$e$h$g$e$g$a$x
+      $a$h  $f$a$g  $e$g  $h$e$b$i$j  $i$b$e$h$g  $e$a$x
+        $a$f$a$k      $e$g$e$f              $e$g$e$g$a$x
+        $a$f$a$k      $e$k  $e  $f      $e  $g  $e$k$a$x
+          $a$k          $e  $k  $e      $k  $e  $k$a$x
+          $a$l    $k      $e$k      $e$k    $e$l  $a$x
+            $a$l            $e  $k  $e$l$e  $l  $a$x
+          $a      $l      $e$l  $e      $l$e$a    $x
+          $a  $x  $a  $l$e$l            $a  $x$a  $x
+          $a    $x    $a                $x    $a    $x
+            $a    $x      $b      $x$b      $x  $a    $x
+              $a  $c      $b      $x$b      $c    $a  $x
+EOC

@@ -1,0 +1,78 @@
+# Popeye the Sailor
+# by /u/lostinthestorm - https://www.reddit.com/r/PixelArt/comments/a9gocp/cc_popeye_sprite/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;230m  ";
+$c = "\e[48;5;188m  ";
+$d = "\e[48;5;220m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;215m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;160m  ";
+$l = "\e[48;5;24m  ";
+$m = "\e[48;5;31m  ";
+$n = "\e[48;5;234m  ";
+$o = "\e[48;5;130m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+                  $t          $a    $x
+                            $a$b    $a$x
+                          $a$c$b      $a$x
+                      $a  $c$b        $a$x
+                    $a$c$b    $a  $d$a    $x
+                  $a$c$b  $a      $d$a      $x
+                  $a$c$a      $e      $x        $a  $x
+                    $a    $e  $f$g$f$g$e    $x  $a  $x
+                    $f$e  $h$g$f$g$f$e$g$i  $a  $x
+                  $f$h$f$h$g      $i  $e$a  $g$e$x
+                  $f$h    $g$h$g        $e$g    $e$x
+                    $f  $h$g$e$h$g    $e$i$h$g$h$e$x
+                        $j$g$a$e      $g  $i$h$e$x
+                        $f$h$g$a  $g        $e$x
+                          $j$h      $g    $h$j$x
+                          $f$h$f$h        $j$x
+                            $f$h$f    $j  $x
+                            $f$g  $f$x
+                          $j$k$h$g  $j        $x
+                        $j$k    $h$g    $k    $j$a$x
+                      $a    $j$k      $h$g$k  $a    $x
+                    $a            $j$k  $h$k$j$a    $x
+                  $a$l  $a            $j$k  $a    $l$a$x
+                $j$h$a  $x  $a            $j$a  $l  $a$x
+              $j$e$h$f$x      $a                    $j$x
+            $j$e$h$f$x          $a        $d$a  $f$h$j$x
+          $j$e$h$g$j$x          $a              $f$h$j$x
+          $j$h$g  $j$x          $a        $d$a  $f$h$g$j$x
+        $j$h  $g  $i$j$x        $a              $j$h$g$j$x
+        $j$h  $g$f$g$j$x        $a        $d$a  $j$h$g$j$x
+        $j$h  $f$g$f$i$j$x      $a              $j$h  $g$j$x
+        $f$h  $g$f$g  $j$x    $a                $f$h  $g$j$x
+        $f$h$f$h$f$g$f$i$j$x$a$l$d$a            $f$h  $g$j$x
+        $f$e$h$f    $g  $j$x$a$l  $d  $a        $f$h  $i$j$x
+        $f$e$h  $f$h    $g$f$l        $d$i  $d$l$f$h  $i$j$x
+          $f$h        $j  $f$l            $m  $l$f$h  $g$j$x
+          $f$e$h  $j  $h$e$f$l              $m$l$f$h    $j$x
+          $f$j$h$j$h  $e$f$a$l          $a$l$m$l$f$h  $j$f$x
+            $f$j$h$j$e$f$x$a$l        $m$a$l  $a$f$h$j$h$f$x
+              $f      $x  $a$l        $m$a$l  $a$f      $x
+                        $a$l          $m$a$l  $a$x
+                        $a$l          $m$l    $a$x
+                        $a$l        $m$l      $a$x
+                      $a$l          $m$a$l    $m$a$x
+                      $a$l          $m$a$l    $m$a$x
+                    $a$l            $m$a$l    $m$a$x
+                    $a$l            $m$a$l      $a$x
+                    $n                          $f  $x
+                  $n$f          $o    $n$f    $o    $f$x
+                  $n$f                $o$n$f        $o$f$x
+                  $n$f                  $n$f          $n$x
+EOC

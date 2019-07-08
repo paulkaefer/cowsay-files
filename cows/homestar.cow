@@ -1,0 +1,68 @@
+# Homestar (Homestar Runner)
+# by quad - http://quadsprites.smackjeeves.com/comics/767170/homestar-runner-sprite/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;246m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;160m  ";
+$e = "\e[48;5;26m  ";
+$f = "\e[48;5;39m  ";
+$g = "\e[48;5;255m  ";
+$h = "\e[48;5;1m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                                    $a  $x
+              $t                                $a$b$a$x
+                $t        $c    $x              $a$b$a$x
+                  $t    $c$d    $c  $e      $x    $a$b$a    $x
+                        $c$d    $a  $e$f    $e  $a$b$a$b  $a$x
+                          $c$d$a$b    $e$f      $e$a$x$a  $x
+                            $a$b        $e$f  $e    $x
+                          $a$b  $x$b  $x$b$e        $x
+                          $a$b$x$b  $x$b      $e      $x
+                        $a$b  $x  $b$x  $b    $g$e    $x
+                        $a$b                  $g  $e  $x
+                      $a              $b      $g    $a$x
+                    $a$b                      $g    $a$x
+                      $a$b                  $g    $a$x
+                        $a$b                $g    $a$x
+                          $a$b              $g    $a$x
+                          $c$a        $b    $g    $a$x
+                          $c$d        $a          $x
+                          $c$d            $h    $c$x
+                        $c$d    $a$d        $h    $c$x
+                        $c$d  $a$g$a$d      $h    $c$x
+                      $c$a    $b  $g$a    $d  $h    $c$x
+                      $c$d$a$b      $g$a$d    $h    $c$x
+                      $c$d  $a$b  $g$a$d      $h    $c$x
+                      $c$d  $a    $g$a$d      $h    $c$x
+                      $c$d$a$g$a$d$a$g$a$d    $h    $c$x
+                      $c$d$a  $d    $a  $d    $h    $c$x
+                      $c$d                    $h    $c$x
+                      $c$d                    $h    $c$x
+                        $c  $d            $h    $c  $x
+                            $c                  $x
+                              $a$b$g$a$b$g$a$x
+                              $a$b$g$a$b$g$a$x
+                              $a$b$g$a$b$g$a$x
+                              $a$b$g$a$b$g$a$x
+                              $a$b$g$a$b$g$a$x
+                              $a$b$g$a$b$g$a$x
+                            $a$b  $g$a$b$g  $a$x
+                            $a$b  $g$a$b$g  $a$x
+                            $a$b  $g$a$b  $g$a$x
+                            $a$b  $g$a$b  $g$a$x
+                            $a$b  $g$a$b  $g$a$x
+                            $a$b  $g$a$b  $g$a$x
+                            $a$b  $g$a$b  $g$a$x
+                      $a    $b    $g$a$b  $g  $a    $x
+                  $a  $b          $g$a$b    $g      $a  $x
+                $a$b              $g$a$b          $g    $a$x
+              $a$b              $g  $a$b              $g  $a$x
+              $a$b            $g    $a$b                $g$a$x
+            $a$b      $g          $a$x$a$b              $g  $a$x
+EOC

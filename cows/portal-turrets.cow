@@ -1,0 +1,55 @@
+# Sentry Turrets (Portal)
+# by @balavicknesh - https://twitter.com/balavicknesh/status/991577120081002496
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;110m  ";
+$c = "\e[48;5;237m  ";
+$d = "\e[48;5;60m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;1m  ";
+$h = "\e[48;5;230m  ";
+$i = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+                                $t
+                                  $t
+                                    $t
+                                      $t
+                                        $t
+                                          $t                  $a$b$a$x
+                                            $t              $a  $b$a  $x
+                                              $t      $a$x  $a  $b$a  $x  $a$x
+                                                    $a  $x  $a  $b$a  $x  $a  $x
+                $a$b$a$x                            $a  $c$x$a  $b$a  $x$c$a  $x
+              $a  $b$a  $x                        $a    $c  $a  $b$a  $c  $a    $x                        $a$b$a$x
+            $a    $b$a    $x                      $a  $c  $a    $b$a    $c  $a  $x                      $a  $b$a  $x
+          $a      $b$a      $x                    $a  $d$c$a  $e    $a  $c$d$a  $x                    $a  $b$a    $x  $a$x
+          $a      $b$a      $x                    $a  $c$f$a$e$g  $h$e$a$f$c$a  $x                  $a    $b$a    $x  $a  $x
+        $a        $b$a        $x                  $a  $c$f$a$e$g    $e$a$f$c$a  $x                  $a    $b$a    $x$c$a  $x
+        $a        $b$a        $x                  $a  $d$c$a$e$g    $e$a$c$d$a  $x                  $a    $b$a    $c  $a    $x
+        $a      $e    $a      $x                  $a  $c  $a  $e    $a  $c  $a  $x                  $a    $b$a      $c  $a  $x
+        $a    $e$g  $h$e$a    $x                    $a  $c$x$a  $b$a  $x$c$a  $x                    $a  $e    $a    $c$d$a  $x
+        $a    $e$g    $e$a    $x                    $a  $x  $a  $b$a  $x  $a  $x                    $a$e$h$g  $e$a  $f$c$a  $x
+        $a    $e$g    $e$a    $x                      $a$x  $a  $b$a  $x  $a$x                      $a$e$g    $e$a  $f$c$a  $x
+        $a      $e    $a      $x                            $a  $b$a  $x                            $a$e$g    $e$a  $c$d$a  $x
+          $a      $b$a      $x                      $a    $x  $a$b$a$x  $a    $x                    $a  $e    $a    $c  $a  $x
+          $a      $b$a      $x                    $a    $x  $c$f    $c$x  $a    $x                  $a    $b$a    $x$c$a  $x
+            $a    $b$a    $x                      $a  $c$x  $c$x$i$x$c$x  $c$a  $x                  $a    $b$a    $x  $a  $x
+              $a  $b$a  $x                        $a  $x$c  $x  $i$x  $c  $x$a  $x                    $a  $b$a    $x  $a$x
+      $a    $x  $a$b$a$x  $a    $x                $f$x          $i$x          $f$x                      $a  $b$a  $x
+    $a    $x  $c$f    $c$x  $a    $x              $d$x          $i$x          $d$x              $a    $x  $a$b$a$x  $a    $x
+    $a  $c$x  $c$x$i$x$c$x  $c$a  $x              $d$x          $i$x          $d$x            $a    $x  $c$x$f$x$c$x  $a    $x
+    $a  $x$c  $x  $i$x  $c  $x$a  $x              $d$x          $i$x          $d$x            $a  $c$x  $c$x$i$x$c$x  $c$a  $x
+    $f$x          $i$x          $f$x              $d$x                        $d$x            $a  $x$c  $x  $i$x  $c  $x$a  $x
+    $d$x          $i$x          $d$x              $d$x                        $d$x            $f$x          $i$x          $f$x
+    $d$x          $i$x          $d$x              $d$x                        $d$x            $d$x          $i$x          $d$x
+    $d$x          $i$x          $d$x                                                          $d$x          $i$x          $d$x
+    $d$x                        $d$x                                                          $d$x          $i$x          $d$x
+    $d$x                        $d$x                                                          $d$x                        $d$x
+    $d$x                        $d$x                                                          $d$x                        $d$x
+                                                                                              $d$x                        $d$x
+EOC

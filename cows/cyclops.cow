@@ -1,0 +1,74 @@
+# Cyclops (X-Men)
+# sprite from The King of Fighters '99 (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/thekingoffighters99/sheet/52987/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;215m  ";
+$c = "\e[48;5;166m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;229m  ";
+$g = "\e[48;5;12m  ";
+$h = "\e[48;5;220m  ";
+$i = "\e[48;5;226m  ";
+$j = "\e[48;5;196m  ";
+$k = "\e[48;5;27m  ";
+$l = "\e[48;5;17m  ";
+$m = "\e[48;5;4m  ";
+$n = "\e[48;5;208m  ";
+$o = "\e[48;5;39m  ";
+
+$the_cow = <<EOC
+                          $t
+                            $t                          $a$x
+                              $t                    $a$b$x  $a$x
+                                $t                $a  $c  $a$x
+                                  $t            $a$b$a$d$a  $x$a  $x
+                                              $a    $d$a$b  $a$x$a$x
+                                              $e      $f  $d$b$a$x
+                                              $g$h  $e$i  $d$i$h$x
+                                              $g$i  $h$j        $x
+                                              $k$i  $j          $x
+                                              $l$a$c$m$a    $b$x
+                                              $m$e  $m$b$f  $b$x
+                                            $l$m$e$l$m$k$b$f$b$x
+                                            $l$m$l$e$k  $b$f$b$x
+                                          $l  $m$l    $k$f$b  $x
+                                        $a  $l  $m  $d$l$k$b$f$x
+                                  $a$h$i  $h$m$k$m    $k$a$n$h$c$a  $x
+                            $m    $a$n      $a$k$m  $a  $i$h$n$l$m$k$o$k$m$l$x
+                          $m$o$k  $m$a$c$a  $h$k  $a$h  $n  $m  $l$k  $o  $k$l$x
+                        $m$o$k$o  $m$c$h$d$a  $h$i$n$m$k  $o  $k$m  $k$o    $k$l$x
+                      $m$k$o    $k  $h$a$j$d$j$i$n$c$o          $k$l$m$o    $k$m$x      $a  $x
+                    $m  $o$k    $m$k$h$i$d$j$d$h$n$k$o            $k$m$k        $x    $a$i$h$x
+                    $l$m$o$k$m    $k$a$n$i  $h$a$k$m$k$o        $k    $l$m  $k  $l$x  $i$a  $n$h$x
+                    $m  $k$m$l    $m$k  $h  $a$k$m$l$k              $m$l    $m  $l$x  $i$h$i    $n$x
+                    $m    $l        $k  $n$i$k$m$l$m$l$m$k      $m    $l          $x  $n  $a  $n$c$x
+                    $m    $l      $m$l$m$n$i$l  $m$k$m$l  $m        $l      $m  $l$x  $a  $n$i  $h$x
+                    $l$m$l$m  $l$m  $k$l$c$h$k                $m$l      $m    $k$l  $x$a        $c$x
+                    $l$m$l$m  $l$m  $k  $c$h$k                  $m$l    $m$k  $m  $l$x$a    $c$n$c$x
+                    $l  $m    $l$m  $k  $m$n$k$m          $k  $m$l  $m$l$m$k      $m$l$a$c$n    $x
+                    $l$m      $l  $m$k  $m$n$m                      $k$l  $m$k      $l$c$a    $c$x
+                  $l$m      $l      $m$k$l$n$m    $k  $m        $k$m$k$l$m$l$m$k  $m$l$c$n  $c$a$x
+                  $l$m    $l    $x$l$m  $l$n$l$m$k      $m      $k$l$m$x$l$m$l$m  $l$m  $n  $c  $x
+                $l  $m      $l$x  $l$m  $l$n$a$k          $m  $k$m$l$m$x$l  $m$l  $m$k  $c$n$c$a$x
+                $m      $l    $x    $l$m$l$n$a$k          $m  $k$m$l  $x  $l$m  $l$k    $l    $x
+              $m$o$k$m$l$m$l$x      $l    $c  $o        $k  $l$m$l  $x      $l$m  $k        $l$x
+            $m$k$o  $k$m$l$x        $l$m$l$c  $o          $k$l$m$a$x          $l  $k      $m$x
+          $c$n$a$o    $m$l$x        $c$m$l$a$c$o          $k$l$a$c$x          $l  $k    $m$l$x
+        $a$h  $i$o    $k$l$x        $n$a$c$a$c$k$o        $k$c$a$n$x            $m$k  $m$l$x
+        $c    $a$o    $k$l$x        $n$a$n$c$a  $d      $a  $c$a$n$x            $m    $l$x
+        $h  $n$c$o  $k  $l$x        $a  $h$c$n$a$d    $j$n  $c$a$n$x            $l    $x
+      $a$c$n$c  $h$o$k$m$x          $c$n$c  $n$a$d    $j$n  $c$n  $x
+    $h$i$h$n  $h  $k$m$l$x          $c$h$n  $a  $d      $a  $c$h  $x
+    $n$a$n      $c$m$l$x            $c$h  $n  $c  $n    $c  $n$h  $x
+    $c$n$a$h$n  $a$l$x              $l$h  $n                  $h$a$l$x
+    $a$i$c$n$a$n$x                  $l$a$n                    $a$m  $l$x
+    $a  $i$a$d$a$x                $l$m  $n                    $m$k$m  $x
+            $n$x                  $l$m      $n              $a$m$k  $m$x
+                                  $m        $n            $c$l$m$k    $x
+                                  $m        $a$n        $a$l  $m  $k  $l$x
+                                $l$m        $l$c$n      $l    $m  $k  $l$x
+EOC

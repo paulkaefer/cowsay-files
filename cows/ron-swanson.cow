@@ -1,0 +1,72 @@
+# Ron Swanson (Parks and Rec)
+# by @ferotanman - https://twitter.com/ferotanman/status/922638436883943426
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;179m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;216m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;189m  ";
+$l = "\e[48;5;30m  ";
+$m = "\e[48;5;95m  ";
+$n = "\e[48;5;231m  ";
+$o = "\e[48;5;109m  ";
+$p = "\e[48;5;239m  ";
+$q = "\e[48;5;236m  ";
+$r = "\e[48;5;242m  ";
+$s = "\e[48;5;61m  ";
+$u = "\e[48;5;243m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t            $a                $b$x
+                            $a  $c    $d$c  $d$c    $b  $x
+                        $a  $c$d$c                      $b$x
+                      $a  $c$d      $c                    $b$x
+                    $a  $c$d          $c$d$c$d$c            $b$x
+                  $a  $c$d  $b$d                $c$d$c        $b$x
+                  $a$c    $d$b        $d        $c$d$c$d$c      $b$x
+                $a  $c      $d$b$e    $b    $d                $c$b$x
+                $a$d$c    $b  $e            $b$d    $b      $d$c$b$x
+                $a$d$c$d  $b  $e$f        $e  $b    $e    $b  $d$b$x
+                $a$d    $b  $e$f              $e      $f  $e$b  $x
+                $a$d    $b$e$f                              $e$b$x
+                $a$d  $b  $g$f                              $e$b$x
+                $a$d  $b$e$f                                  $b$x
+                $a  $d$b$e$f                                  $b$x
+                  $a$b  $e  $f  $h$d    $f$e$f    $e$f        $x
+                  $i$a  $e      $g$e  $b    $e$f$e$g$f  $d  $f$x
+                  $j$a  $e    $f$h$k$x$l$d$f$e$f$e$g$b  $j$f  $x
+                  $j$a  $e  $f  $e  $h  $e    $f$e$m$k$x$l$e$f$x
+                  $j$f$a$e$f      $e    $f$e  $f$e  $h  $e$f  $x
+                  $j$e$a$e$f            $g$e  $f  $e    $f    $x
+                  $f  $e  $f            $g$e$f                $x
+                    $j$f$e$f            $e  $f  $n$f          $x
+                    $j$f$e$f          $e  $j$e$f  $e$f      $x
+                    $j$n$f$e$f        $c  $b      $c$e$f    $x
+                    $j  $n$e$f  $g$c  $d            $c$e$f  $x
+                    $j  $n$f    $c$d                  $c$f  $x
+                    $j    $n$f  $d  $b$f            $b$d$f$x
+                $o$k  $j    $n$f$g$f    $e        $f    $j$x
+              $p$o$k    $j    $n$g$f                  $j  $x
+            $p  $q$o$k    $j    $f                  $j  $k$p$x
+          $p      $q$k      $j      $f            $j  $k$p  $q$x
+      $r  $p        $q$k      $j                    $k$q$p    $r    $x
+    $r  $p          $q$o$k      $j                $k  $q$p      $r      $x
+$r      $p            $q$k        $j            $k  $o$p          $r        $x
+$r              $p    $q$o$k          $j    $k      $q$p    $r              $x
+$r            $p        $q$o$k                    $o$q$p  $r                $x
+$r          $p            $q$o$k      $q$s  $b$k  $q$p      $r              $x
+$r        $p              $q$o$k    $u$s      $u$o$q$p        $r            $x
+EOC

@@ -1,0 +1,82 @@
+# Zombie
+# by Genbaku - https://www.deviantart.com/genbaku/art/Zombie-walk-pixel-509725509
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;66m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;109m  ";
+$e = "\e[48;5;152m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;23m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;100m  ";
+$k = "\e[48;5;186m  ";
+$l = "\e[48;5;235m  ";
+$m = "\e[48;5;234m  ";
+$n = "\e[48;5;236m  ";
+$o = "\e[48;5;239m  ";
+$p = "\e[48;5;101m  ";
+$q = "\e[48;5;144m  ";
+$r = "\e[48;5;88m  ";
+$s = "\e[48;5;253m  ";
+$u = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+          $t
+            $t          $a              $x
+              $t    $a$b$c$d$e          $a  $x
+                  $f$a  $b$d      $e        $a$x
+                $f$g  $a    $c$d$h$d$e        $a$x
+              $f$g$a$d    $a$d$h$a$d  $e$h  $e$a$x
+              $f$g$a$d        $a$g$h$d  $c$e$h$d$x
+              $f$g  $a$d  $h$a$d$a$b$a$d  $c$e  $d$x
+                $f$c  $d  $c$a$d$e$a$g$a$h$d$e  $d$x
+                  $b$h$c$d$g$e      $h$a$c$d$e  $d$x
+                $f$g$a$d  $g$e        $g$d$a$e  $g$x
+              $f$g    $a$d$a$f        $d  $a$f  $x
+                $f$a  $g$a  $g$f$i$f$a$d    $g$i$d$x
+                $f$a$g$a$d$b$g  $f$g$d  $a$d$g$f$d$x
+                $f$a  $c$d      $b$h$d$h$a$e$h  $d$x
+                $f$g$a$g$b  $h$c  $d    $g$e$h$e$d$x
+                  $f  $g$a$j$k$l$j$c$l$c  $e$b$d$x
+                      $f$g$b$l    $k$l$k$l$k$l$d$x
+                    $m$l$g$d$l$k$l            $d$x
+                  $m$l  $g  $a$d$c$h$c$k$l$k$c$d$x
+                $m$n  $l  $g$a  $e      $c$e$d$x
+                $m$g$n$o$l$n$g  $a$c$d      $x
+              $m$h$b$o  $l$o$n  $g$b  $g$n$o$n$x
+              $m$g$m$o  $n  $l$o$n$b$g$p$n$o$n$o$x
+            $m$n  $o  $m$l$n$l$o  $b$p$q$o$l$n$o$x
+            $m$n$o$n$m$l  $o$n$l$o$r$b$s$o$l$o$n$x
+            $m$n$o  $m$l  $o    $b  $q$s  $n$l$o$x
+          $m$l$n$o$m$l  $n$l  $n$b$r$b$q$s$n$l$o$x
+          $m$l  $n$m$l  $n  $l$s  $b$r$b$o$l$n$o$x
+          $m$l$n$o$m$l    $o$n$q  $b$r$b$o$l$n$o$x
+          $m$l$n$o$m  $l$n  $o$n$q$b$r$b$o$l$n  $x
+          $m  $n$o  $m$l    $n$o$b$r$b$s$n$l$n$o  $x
+            $m$n$o  $x$l  $q$l$n$b$r$b$n  $l$m$o  $x
+            $m$l$n  $x$d$l$q  $l$s$b$p$l  $x$m$n$o$x
+              $n$q  $a$h$q$s  $q  $p$s$n$o$x  $q  $x
+                $f$g$c$d$p    $l$p$q$s$m$n$o$x$f$b$h$x
+              $f$g$a  $d$l        $q$s$m$n$o$x  $f$a$x
+                $f$g$f$l  $n    $l$p$s$m    $x  $f$g$x
+                  $f$l  $g$n      $l$q$s    $x    $f$x
+                  $m$l  $g$a$o$n  $l$q      $x
+                  $m$l$n  $c$h$o$n  $p  $n$x
+                  $m  $n$o$d$e$o$n$l  $n    $x
+                    $m$n$o      $n$m$n  $o  $x
+                  $m  $l$n$o  $n$m  $n$o    $x
+                  $m$l$m$l$o  $n$x$m$l$o    $x
+                $m$l    $m$o  $x  $m$l$o    $x
+                $m$l$n$l$n$l$x  $m$l$n$l$o  $x
+              $m$l  $n    $x    $m$l  $n    $x
+            $m$l      $n$x    $m$l  $n    $x
+            $m$l  $n      $x  $m      $n  $x
+            $m$l  $m      $x  $m$l      $u$x
+            $m    $l    $u  $x  $l  $u      $x
+              $l  $u        $x  $l          $x
+EOC

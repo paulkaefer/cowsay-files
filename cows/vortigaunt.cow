@@ -1,0 +1,50 @@
+# Vortigaunt (Half Life 2) - true color
+# by /u/mkmcPixels - https://www.reddit.com/r/HalfLife/comments/avgaxh/collection_of_16bit_style_half_life_2_sprites/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;94;89;49m  ";
+$b = "\e[48;2;24;24;31m  ";
+$c = "\e[48;2;137;119;74m  ";
+$d = "\e[48;2;69;62;40m  ";
+$e = "\e[48;2;83;65;67m  ";
+$f = "\e[48;2;219;114;43m  ";
+$g = "\e[48;2;245;167;58m  ";
+$h = "\e[48;2;68;56;59m  ";
+$i = "\e[48;2;160;155;190m  ";
+
+$the_cow = <<EOC
+              $t
+                $t              $a    $x
+                  $t        $b$a    $c  $x
+                    $t    $b$a  $c        $a$d$a    $c$x
+                      $t$b$d$c$a  $c    $d  $a    $c$e$f$x
+                      $b$d  $c  $a  $c$d  $a    $e$f$c      $x
+                    $b$d  $a$c    $a$d$a  $d  $c    $e$f  $g$f$x
+                  $b$d  $c$a  $c  $a      $d$c$e$c    $e$f    $x
+                $b$d  $c    $a              $e  $c$a$c        $x
+              $b$d$c      $d$a    $d$c  $a$h$c  $a            $x
+            $b$d$c      $d$a    $d$c  $e$h    $x    $a$e      $x
+          $b$d  $c  $d$b$d  $a  $d$c  $e$h    $x        $i$x$i$x
+          $b$d$a  $x  $b$d$a  $c$a$d$c    $h    $x
+        $b$d$c$a$x    $b$d    $c  $a$d$c    $h    $x
+        $b$d$c  $x    $b$d  $a      $d$e$c  $x$h    $x
+        $b$d$c$x      $b$d$a  $c    $x$e$c$e$c$x$h      $x
+      $b$d  $c$x        $b$d$a  $c  $x$e$c$e$c$x  $h      $x
+      $b$d$a  $c$x      $b$d  $a  $d  $x            $h$x$h$x
+        $b$a$b$c  $x  $b$d            $x            $h$x$h$x
+        $b$c$x$b$c$x  $b$d      $a  $d  $x        $h$x$h$x
+        $b$c$x$b$c$x$b$d  $c  $a$d$a    $x
+                  $b$d  $c    $a$d  $a$c  $x
+                $b$d  $c    $a$x$b$d$c    $x
+              $b$d  $a$c$a  $x    $b$d$c  $x
+            $b$d  $a    $x        $b$d$c  $x
+            $b$d  $a$x          $b$d$a  $x
+              $b$d  $x        $b$d$a  $x
+              $b$d$c$x      $d  $a$c$x
+              $b$d$c$x      $d$a$c$x
+                $b$d$c$x      $d$a$c$x
+                $b$d$a$h$e  $x  $d$a  $h$e  $x
+                $b$e$d$a$h$e  $x$e$d$a  $h$e  $x
+EOC

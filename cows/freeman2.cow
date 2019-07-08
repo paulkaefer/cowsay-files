@@ -1,8 +1,8 @@
 # Gordon Freeman w/ gravity gun (Half Life 2)
-# by Charlie M
+# by unknown - http://www.minecraftpixelarttemplates.com/2013/09/gordon-freeman-half-life.html
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;94m  ";

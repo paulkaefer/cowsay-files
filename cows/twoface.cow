@@ -1,0 +1,76 @@
+# Twoface (Batman the Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;7m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;31m  ";
+$f = "\e[48;5;153m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;30m  ";
+$i = "\e[48;5;25m  ";
+$j = "\e[48;5;173m  ";
+$k = "\e[48;5;180m  ";
+$l = "\e[48;5;221m  ";
+$m = "\e[48;5;38m  ";
+$n = "\e[48;5;124m  ";
+$o = "\e[48;5;36m  ";
+$p = "\e[48;5;230m  ";
+$q = "\e[48;5;223m  ";
+$r = "\e[48;5;214m  ";
+$s = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                  $a  $x  $b$x
+                $t            $a    $b        $x$b$x
+                  $t        $a      $c  $b  $c$b$x
+                            $a  $d  $e  $f$c$g$c$g$x
+                            $a$d    $e  $h$a$x
+                            $a$d    $h$a  $h$i$x
+                          $d$a$d$j$k$a$l  $m$e$x
+                          $d  $b$a$b$m$a$l$m$e$x
+                            $d      $h  $m$i$g$x
+                            $d      $h$n  $o$x
+                            $d    $j$n$l  $n$x
+                              $d$p  $q$k$n$x
+                              $j$d$j$n  $h$x
+                          $c$a$j$d  $e  $m$b$g$x
+                      $b$c$b$a  $j$d$e$m$b  $a$g$a$g$x                    $m  $x
+                  $b  $c$b  $g$a      $b  $c$a  $g$a  $x                  $r  $m$x
+              $b    $c$b    $a$g$a$g$c$b$c$b$a    $g$a    $x            $m$r$l$m$x
+          $c$b        $c  $b$a  $g$b$a$c$b  $a  $g$a        $g$x        $m$x$i$m$i$x
+        $b  $c$b        $c$b  $a  $b$a$b  $g$a$g$a        $g$a  $x      $m$i$m$i$m$i$x
+        $b    $c$b    $c$b    $a  $b$a$b  $g$a  $g$a    $g$a    $g$x    $i$m$i$m$i$m$x
+        $b    $c$b      $c$b  $c$a$b$a$b$g$a  $g$a      $g$a      $g$x  $b$m  $i$m$x
+        $b      $c$b    $c$b  $c$a$b$a$b$g$a  $g$a    $g$a          $x$a  $b$m  $x
+        $b      $c$b      $c$b  $c$b$a$g$a  $g$a      $g$a          $g$a    $b$x
+        $b        $c$b      $c$b$c$b$a$g$a          $g$x  $a                  $x
+        $b        $x$b        $c$b$c$g$a            $x      $a              $x
+        $b        $x$b              $a              $x        $a          $x
+        $b      $x  $b              $a              $x          $a      $x
+        $b      $x    $b            $a            $x              $a  $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $b            $a            $x
+        $b      $x    $c            $a$g        $a$x
+        $b      $x    $b            $a            $x
+          $b  $c$x    $b            $a            $x
+          $c  $a$x    $b            $a            $x
+          $a  $k$s$x  $b            $a            $x
+            $d    $g$x$b          $x  $a          $x
+            $d    $k$x$b          $x  $a          $x
+            $d  $j$k$x$b          $x  $a          $x
+            $d$k$d$g$x$b          $x  $a          $x
+                      $b          $x  $a          $x
+EOC

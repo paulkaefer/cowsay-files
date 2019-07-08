@@ -1,0 +1,69 @@
+# The Hulk
+# by Unknown - http://pixelartmaker.com/art/084d81970c4f921
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;243m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a    $x$a    $x
+                $t      $a                    $x
+                      $a                        $x
+                    $a                            $x
+                  $a                              $x
+                    $a                              $x
+                  $a                              $x
+                  $a                $b$a            $x
+                    $a  $b$a  $b$a$b    $a          $x
+                    $a$b$a  $b    $a  $b  $a  $b$a$x
+                    $a      $b  $a    $b    $a$b$a$x
+                      $a$c$b$a$b$a$c$b  $a  $b$a  $x
+                      $a$b  $a$b          $a    $x
+                      $a$b  $a  $b        $a  $x
+                      $a  $b            $a$b  $a  $x
+                    $a$b$a$b$c    $b  $a$b        $a    $x
+              $a    $b    $a$b      $a    $b            $a      $x
+            $a$b    $a$b    $a      $b    $a  $b                $a$x
+          $a$b    $a$b          $a$b                            $a$x
+          $a$b  $a$b          $a$b                                $a$x
+          $a$b  $a$b          $a$b                $a$b            $a$x
+          $a$b  $a$b                              $a$b        $a$b$a$x
+            $a$b$a$b          $a$b              $a    $b      $a$b  $a$x
+            $a$b  $a$b      $a      $b      $a    $b$a  $b  $a$b    $a$x
+          $a$b      $a      $b      $a      $b    $a$b$a$b          $a$x
+          $a$b      $a$b      $a$b          $a$b    $a  $b          $a$x
+        $a$b  $a$b  $a$b$a            $b      $a$b  $a    $b    $a$b  $a$x
+        $a$b  $a$b  $a  $b    $a$b    $a$b      $a  $x  $a$b    $a$b  $a$x
+        $a$b    $a      $b                  $a  $x        $a    $b    $a$x
+      $a$b        $a$x$a$b$a            $b  $a  $x        $a$b        $a$x
+      $a$b        $a$x$a  $b    $a$b    $a      $x        $a$b      $a$x
+      $a$b      $a$x  $a$d$a              $d  $a$x        $a$b$a$b  $a$x
+      $a$b  $a  $x  $a$d$a$d              $a$d  $a$x    $a    $b    $a$x
+    $a$b      $a$x  $a$d$a$d              $a$d  $a$x  $a$b          $a$x
+    $a$b        $a$x$a  $d          $a$d    $a    $x$a$b          $a$x
+    $a$b    $a$b$a$x$a$d      $a$d  $a$d        $a    $b$a$b      $a$x
+    $a$b    $a  $x$a$d        $a$d  $a$d          $a$x$a  $b      $a$x
+      $a  $b  $a$x$a$d          $a  $d            $a$x$a$b    $a  $x
+          $a  $x  $a$d          $a$x$a$d          $a$x  $a    $x
+                  $a$d          $a$x$a$d      $a$d  $a$x
+                  $a$d$a  $d$a$d$a$x  $a$d  $a$b$a$d$a$x
+                  $a    $b$a  $d$a$x  $a$d  $a$b$a$d$a$x
+                  $a$b      $a  $x      $a  $b    $a  $x
+                  $a$b  $a$b  $a$x      $a$b$a$b  $a$b$a$x
+                    $a  $b  $a  $x        $a$b$a  $b  $a$x
+                    $a$b  $a$b$a$x        $a$b        $a$x
+                    $a$b  $a$b$a$x          $a$b        $a$x
+                      $a$b$a$b$a$x            $a$b      $a$x
+                      $a$b$a$b$a$x              $a$b      $a$x
+                      $a$b    $a$x                $a$b    $a$x
+                  $a  $b    $a  $x                $a$b      $a$x
+                $a$b$a$b  $a$b$a$x                $a$b        $a$x
+              $a$b$a$b        $a$x                $a$b$a$b$a$b$a$x
+                $a            $x                    $a        $x
+EOC

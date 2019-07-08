@@ -1,0 +1,69 @@
+# Scruffy (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;161m  ";
+$c = "\e[48;5;203m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;167m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;102m  ";
+$j = "\e[48;5;251m  ";
+$k = "\e[48;5;23m  ";
+$l = "\e[48;5;229m  ";
+$m = "\e[48;5;153m  ";
+$n = "\e[48;5;60m  ";
+$o = "\e[48;5;17m  ";
+$p = "\e[48;5;94m  ";
+$q = "\e[48;5;130m  ";
+$r = "\e[48;5;234m  ";
+$s = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t
+                    $a  $b  $c$x
+                $a    $b    $c$x      $c$x
+            $a        $b$a  $b$c$x  $c$x
+            $a          $b          $x
+            $a        $b    $d  $a$x
+            $a  $e$d            $f$x
+            $a$e$d          $f      $x
+              $e$d  $g  $h$g$f  $h$g$x
+            $e$f$d    $g    $f  $g  $x
+            $e$f        $d  $f$e  $d$x
+              $e$d$f  $d$f$i    $j  $x
+                  $d$f  $i$j          $x
+                  $d$f$i  $j$i$j  $i$j$x
+              $h$d$f    $d      $x
+            $h  $k$f  $d$f  $d$x
+          $h  $k    $e$d    $f$x
+        $h  $k    $e$d      $f  $x
+      $h  $k$h$k$e  $d$e$f    $l  $x
+      $h    $k$h$e    $d  $f$m$k$x
+      $h      $k    $h$m$h  $m$k$x
+    $h        $k    $h$m$h  $m$k  $x
+    $h      $k    $h$n$m$h  $n$h$k$x
+    $h      $k    $h$n$m$h  $m$h$k  $x
+  $h      $k    $h$n$m  $h  $n$h$k  $x
+  $h            $k$n$m  $h  $m$h  $k$x
+  $h          $k  $n$m  $h$m$h    $x
+  $h            $k$n$m  $h$m$h  $x
+      $o      $n$p    $q$h$m$x
+      $r      $p$h  $k$h  $m$x
+      $h          $k$h    $n$k$x
+      $h          $k$g$h  $m$k$x
+      $h          $k$g$h  $n$k  $x
+      $h    $p  $q                      $x
+      $o  $i  $s$j$i$j  $i$j  $i$j  $i$j$x
+      $o$s  $i  $j                        $x
+
+EOC

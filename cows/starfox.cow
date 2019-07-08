@@ -1,0 +1,76 @@
+# Fox McCloud (Star Fox, Super Smash Bros)
+# by BerserkerOx - https://www.deviantart.com/berserkerox/art/Super-Smash-Bros-Ultimate-Sprite-760019333
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;173m  ";
+$c = "\e[48;5;222m  ";
+$d = "\e[48;5;239m  ";
+$e = "\e[48;5;230m  ";
+$f = "\e[48;5;195m  ";
+$g = "\e[48;5;109m  ";
+$h = "\e[48;5;236m  ";
+$i = "\e[48;5;28m  ";
+$j = "\e[48;5;34m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;167m  ";
+$m = "\e[48;5;210m  ";
+$n = "\e[48;5;31m  ";
+$o = "\e[48;5;45m  ";
+$p = "\e[48;5;22m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                              $a$b$c$b$x
+                $t                        $d$a$b$a$b$c$x
+                  $t                  $d$a  $b$a$c$e$b$f$x
+                    $t              $d$a$b  $a$c$e  $b$g$f$x
+                      $t          $d$a$b    $a$b$c$e$b$d$g$x
+                                $d$g$b    $c$b$a$b$e$b$e$d$x
+                              $d$g$a$b  $c              $e$x
+                              $d  $f$g$b  $c              $e$x
+                            $d$g$f    $g  $b  $c  $e  $c  $e$x
+                            $d$g$f        $g  $b$c$a$e  $c$e$x
+                            $d$g$f            $g$b  $a$e$b$c$x
+                              $d  $g  $f      $d$b$a$f$a$e$x
+                            $a$b  $a$d  $g    $h$d$i$j$h$b$x
+                              $a$b$c    $b$d  $b$c$d$i$j$e$c$x
+            $c  $b$c$a$x  $g$f$g$a  $b  $c        $b$c$e      $h$x
+          $c$a$c$a$b$a$g  $f$g$d$k$l$a$b    $c  $b$e          $a$x
+        $c$b$a$h  $g  $c$g$f$g$k$l$m$l$a  $b    $c$e  $h  $c$b$x
+        $b  $h    $a$c$b$g$f$g$k$l$m  $l$k$a      $c    $b$x
+      $d$h          $a$g$f$g$f$d$k$l$k  $m$l$k$n$o$h$g$f$g  $x
+      $d$h          $f$g$f$g$f$g$k$m    $l$k$n$o$d$g$f$g$f  $g$x
+      $d$h        $f$g    $d$o$f$h$l$m$l  $k$h$d$g$f$g$f    $k$l$x
+      $d$g$h    $g    $d$h$d$o$f$h$m  $l$k$h$g  $f  $g$f    $k$l$x
+        $d$g      $d$h$b  $d$n$o$h$l    $k$d$g$f$o  $g  $f    $k$l$x
+          $d    $h$a$b    $d$g$o$d$k$l$k$h$g$f$o  $n$d$g  $f    $k  $x
+                  $a$b    $d$f$n$d$p$k$h  $g$f$o$n  $g$d$g    $f    $x
+                  $a$b    $d$f$g$d$i  $p$d$g$f$n  $g$d$x$d$g$f      $g$x
+                  $a$b    $d$o$f$d$i  $p$d$g$f    $g$d$x  $f$d  $g$f  $x
+                  $a$b    $h$n$f$d$p  $h$d$g$f  $o$n$d$x$d$g$h  $d$g$f$x
+                  $a$b      $h$g$h  $b$c$h$g    $o$n$d$h    $a$b$h$g$d$x
+                    $a$b      $h  $b$a  $h  $d      $b$a$l$h$a  $b$d$x
+                    $a$b  $d  $h$a$c$b$h    $p    $c  $h$k$l$h$a$h$d$x
+                      $a$d$g$h$a$h$p            $i$c$b  $a$k  $h$d$x
+                      $d$g$h$a$h$p$i$p        $i    $b$c$h$k$h  $x
+                    $d$g$h$p  $i      $p$h$p$i        $p$c$h  $x
+                    $d$h$p$i          $p$h$p$i        $p  $h$x
+                      $h$i        $p    $h  $p$i    $p    $h$x
+                    $h$p$i      $p    $h$x$h$p            $h$x
+                    $h$p$i    $p    $h$x    $h$p        $h$d$x
+                    $h$p          $h$x        $h        $g$f$g$x
+                      $h$p    $h  $d$x          $d$g$d  $f    $x
+                      $d$h    $d$f$g$x            $d$g$f$g$f  $g$x
+                      $d$g$d$g$f  $g$x              $d$g$f$g  $d$x
+                        $d$g  $f  $g$x                $d$g$f  $g$x
+                        $d$g      $f$g$x                $d$f    $g$x
+                          $d$g  $f  $g$x                $d$g$f    $x
+                          $d  $g$f    $x              $d$g$d$g$f  $d$x
+                          $d  $g  $f$g$d$x            $d    $g$f$g$d$x
+                      $k$l$k$g$f  $g$d  $x          $k$l$m  $g  $d$x
+                    $k$l    $k$g  $d  $x          $k$l    $m  $d$x
+                    $k          $d$x              $k          $x
+EOC

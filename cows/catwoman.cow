@@ -1,0 +1,70 @@
+# Catwoman (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;243m  ";
+$d = "\e[48;5;249m  ";
+$e = "\e[48;5;37m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;196m  ";
+$i = "\e[48;5;246m  ";
+$j = "\e[48;5;240m  ";
+$k = "\e[48;5;226m  ";
+
+$the_cow = <<EOC
+                  $a          $t              $x
+              $a  $x            $t            $a    $x
+          $a  $x                  $t                $a    $x
+        $a$x                        $t                    $a  $x
+      $a$x                            $t                      $a  $x
+      $a$x                $b$a  $x                                $a  $x
+      $a$x          $a  $b$a$b$a$b$x                                  $a  $x
+      $a$x              $a$b$a  $x$a$x      $c$x            $a$x          $a$x
+        $a$x            $b$a$x      $a$x      $c$b$a    $c$a$c$x            $a$x
+          $a$x          $b$a$x        $a$x    $b$a        $c$x                $a$x
+            $a$x        $b$a$x          $a$x  $b$a        $c$x                  $a$x
+            $a$x      $a$b$a$x            $a$x$a          $c$x                    $a$x
+              $a$x    $a$b$a$x              $a$d$a      $d$c$x                      $a$x
+    $x        $a$x    $a$b$a$x                $e$f$a  $e$f$c$x                      $a$x
+    $a    $x  $a$x    $a$b$a$x                $a  $g  $a  $c$x                        $a$x
+          $a  $x      $a      $x              $a$g        $a  $x                      $a  $x
+                        $a$b$a$x              $g  $h    $g  $x$a$x                      $a$x
+                        $a$b$a  $x              $g        $x    $a  $x                  $a$x
+                        $a  $b  $a    $d    $x    $g    $x          $a  $x              $a$x
+                          $a        $d  $i$d$c$x  $c$j$c$x              $a  $x          $a$x
+                              $a  $d$i  $c$d$i  $c      $d  $i  $c  $x      $a  $x    $a$x
+                                  $j$c    $d$i        $c$i          $c$a$x      $a    $x
+                                        $j  $d$c$i                  $b$a  $x
+                                          $j$i              $c$j$c  $a$b  $a$x
+                                          $d    $c$i      $c$j      $a    $b$a  $x
+                                        $d  $i            $c    $x    $a    $b  $a$x
+                                        $c$i      $c$i      $j$x          $a    $b$a$x
+                                        $j$c    $i$j$c  $i$c$x              $a  $b$a$x
+                                          $j  $i    $j  $c$j$x                $a  $b$a$x
+                                          $i  $c$i  $c  $j$x                    $a$b$a$x
+                                    $a$x$i    $c$i  $c$j$x                        $a$b$x
+                                  $k$i      $c$i    $j$x                          $a$b$x
+                              $d    $k$a$i$c$i    $c$x                              $b  $x
+                            $d$i$c$d$i  $k$i    $c$a$x                              $a    $x
+                          $d$i    $c$i$c$i$k$a$c  $x$k$x                          $a    $b$a$x
+                        $d$i    $c  $i        $k  $a$x                          $b$x$a    $b$x
+                      $d$i      $c$j      $i    $c$x                                  $a$x$a$b$x
+                      $d$i  $j$c$i            $c$x                                      $a$x$a$x
+                    $d$i$c$j$c$i            $c  $x
+                  $d$i$c$j$c$i            $c  $x
+                  $d$i  $j$c$i      $c      $x
+                  $d$i$c$j$c$i  $c    $j$x
+                $d$i  $c$j$c    $j$x
+                $d$i$c  $a$c    $x
+              $i  $c  $x$a    $x
+            $i  $c    $x$a$b$x
+          $i  $c    $x$a  $x
+      $a$i    $c  $x$a$b$a$x
+      $a$i  $j$c$x$a$b$a$x
+    $a        $b$x$a  $x
+EOC

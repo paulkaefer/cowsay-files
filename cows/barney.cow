@@ -1,0 +1,49 @@
+# Barney Rubble (The Flintstones)
+# by unknown - https://www.brik.co/blogs/pixel-art/bernard-rubble-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;220m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;247m  ";
+$e = "\e[48;5;95m  ";
+$f = "\e[48;5;167m  ";
+$g = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+                  $t
+                    $t              $a          $x
+                      $t          $a              $x    $a$x
+                                $a                  $x$a$x
+                              $a        $b$a$b$a          $x
+                            $a  $c    $b$c    $b$c  $a      $x
+                                $c      $b$c$b$c  $a        $x
+                              $c        $b$c$b$c  $a    $x$a$x
+                            $c        $d$c    $d$c  $a$c$x
+                          $c      $d  $c        $d  $c    $x
+                          $c    $d      $c    $d      $c    $x
+                            $c$d                $b$d  $c    $x
+            $c$x          $c  $d    $b$d      $b  $d  $c  $x                $c$x
+          $c    $x        $c  $d      $b          $d  $c  $x$e$x          $c    $x
+          $c      $x    $e$c  $d        $b  $f  $b$d  $c  $e  $x        $c    $x
+        $c              $e    $d        $b  $f$b$d  $e$c$e    $x$c              $x
+    $c                  $e        $d  $b      $d$e          $c                    $x
+    $c                  $e            $d    $e              $c                      $x
+  $c        $x  $c      $e        $g$e  $d$e                $c                        $x
+    $c    $x      $c    $e          $b  $d$b  $g$e          $c          $x  $c      $x
+                    $c  $e              $b$e              $c          $x      $c  $x
+                      $c$e          $g$b$e$b  $e        $c          $x
+                        $e                    $g$e      $c        $x
+                        $e                                  $x
+                        $e                                  $x
+                        $e                                  $x
+                        $e                                  $x
+                        $e                                  $x
+                          $e                              $x
+                          $e                              $x
+EOC

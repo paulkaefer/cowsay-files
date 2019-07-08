@@ -1,0 +1,70 @@
+# The Pyro (Team Fortress 2)
+# by Unknown - http://www.lowgif.com/abab2367-law-firm.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;172m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;88m  ";
+$h = "\e[48;5;1m  ";
+$i = "\e[48;5;17m  ";
+$j = "\e[48;5;116m  ";
+$k = "\e[48;5;137m  ";
+$l = "\e[48;5;179m  ";
+$m = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t              $a    $b  $x
+                  $t          $a      $b    $x
+                    $t        $a    $b$c$b    $x
+                      $t      $a    $c    $b  $x
+          $d  $e$x            $a    $c$a$c$b  $x
+        $d  $e  $a$x          $a      $c$a  $b  $x
+        $e  $a      $x    $f  $a                $x
+        $a      $f  $g  $f    $a  $c$a        $c$a$x
+        $a    $f$g  $h  $g$f    $a$c$a      $c$a    $x
+          $c$f$g$h        $g$f  $a  $c  $a$c$a    $x
+          $f$g$h            $g$f$a      $c$x$a  $x
+        $f$g$h  $g$h$g$h      $g$f$a  $c  $x
+      $f$g$h  $g          $h$g  $b  $c$a$c  $x
+    $f  $g                      $b$a  $c  $f  $x
+  $f  $g    $f$a$g  $f  $g  $b  $c  $e$d$c$f    $x
+$a$f          $c  $f    $g  $b$a  $c  $e$a$g$f  $x                                                        $i$x
+$a  $f  $c      $d$a  $f$b  $c  $e$d$a$c$f$g$f  $x
+  $a  $c      $d    $a  $b$a    $c$e$a$f$g  $f    $x                                                      $i$x
+    $c      $e$d  $c  $a$c  $e$d$a$c$a$f$g  $f    $x                                                    $i  $x
+        $c$e    $c      $a  $c$e$a$f  $g      $f  $x                                    $a$b        $c$x$i$x
+        $e    $c        $a  $c  $a$f$g        $f      $x    $b      $a$b$a$b      $a$b$a$b          $c$i  $x
+              $c            $a  $f  $g    $b                  $a      $b$a$b$a          $b        $a$c$j$i$x
+                $c          $a$f  $a              $c    $b  $a                  $x    $a$b    $a  $c$j  $i$x
+                  $c          $a        $c        $e  $c$b$c                  $x      $a          $c$j$i$x
+                $c            $a        $g    $f  $e  $a  $c          $x              $a          $c$i$x
+              $c$a  $c              $a                    $x
+              $c$a  $c          $a  $c$a$k            $a      $x$c        $x
+            $c$a    $c      $a        $k$a$k$l      $k  $a$k$a$c    $x$c  $x
+            $c$b$a$b$a        $f$a    $k              $m    $a$c          $x
+          $c$b        $a          $c$a$m$a$k      $m    $a$m$a$c    $x$c  $x
+          $c                        $a$m                    $a$c        $x
+          $a                          $m$a$m            $a    $x
+          $a$f              $x      $a$m              $a$x
+          $f  $h  $g    $f$x          $a              $f$x
+        $f      $h  $g  $f$x            $f      $c  $f  $x
+        $f        $g  $f  $x              $f            $x
+        $f  $c      $f  $x                    $c        $x
+      $c  $f          $x                      $c    $a  $x
+      $c          $x                          $c      $x
+      $c    $a  $x                            $c    $x
+      $c        $x                            $c$a    $x
+    $c      $x                              $c    $a  $x
+  $c  $a    $x                              $c            $a$x
+$c      $a  $x                              $c              $a$x
+$c            $a$x
+$c              $a$x
+EOC

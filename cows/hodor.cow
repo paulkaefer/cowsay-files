@@ -1,8 +1,8 @@
-# Hodor
-# by Cezary 'Charlie' tuczynski
+# Hodor (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;109m  ";
 $b = "\e[48;5;102m  ";
@@ -73,37 +73,4 @@ $the_cow = <<EOC
               $e$d$c  $b$d$i        $d$c$d            $e$d                $e    $x
               $d$e$c$b$d$i    $h  $k$i$c$d        $m  $e$d            $m$d  $e  $x
               $b$e  $c$g$i$h  $g$i$g$d$c$d      $m$d$m$e$d$c$d        $m  $d  $e$x
-              $b$e    $i$h$g$i$g    $c$d        $m  $d$e$d$c$d          $o$d$m$e$x
-              $b$e    $g$i$g    $k$g$c$d        $m    $d  $b$d$c$d      $m    $x
-            $a$b$e      $g  $k$g$k$e  $d      $m      $d  $c  $d        $m$d  $x
-            $a$c$d$e      $g$k$g$e      $l  $m      $l$d  $c  $b$d          $x
-            $a$c$d$e                $d  $e  $l      $e$d  $c    $d  $c$d  $x
-            $a$d    $e            $d    $e          $c$d    $c$b$d  $c$d  $x
-          $b  $d    $e            $d      $e      $d$c$d    $c    $d      $x
-          $b$c$d        $c$e    $d                $c  $d      $b$c$b$d    $x
-        $b  $d        $c        $d                $c  $d        $c$b$d    $x
-          $b$d      $c        $d                  $c    $d      $c$b$c  $d$x
-              $e$d  $c        $d        $c$e    $d$c    $d$e    $d$b$c  $d$e$x
-              $e  $d$c      $d        $c$e      $d$c  $e                    $x
-            $p$m$e  $c      $d        $e          $c  $e                    $x
-          $q$l$d$m$e$c  $e  $d  $e      $x      $e    $x$e  $d$e    $d      $x
-        $q$l  $d$m$e            $x$e  $x                $m  $d              $x
-        $q$l$d$l$m      $d  $m  $x                    $l$d              $e$d$x
-      $q$l  $d$m        $d  $m  $x                    $q$m    $e    $d$e  $d$x
-      $q$d$l$d$m$d$m  $d$m$d$m  $x                    $q$m$d$e$m  $d    $e$d$x
-      $p$d$m$l  $m$d      $m$d  $x                    $l$d  $e$d            $x
-      $p$d$m          $d      $x                        $l$m$d$e        $d  $x
-      $l$d$m$d$m      $d  $m  $x                          $m    $e  $m$d$e$d  $x
-      $l$d$m  $d  $m$d  $m$d$x                              $m  $d$e$d    $e$d$x
-        $d$m      $d      $x                                    $d  $e$d  $e$d$x
-        $d  $m    $d  $m$x                                        $d  $e$d$e  $x
-        $m$d  $m$d  $m$x                                            $m$e  $d  $x
-      $l$m      $d  $m$x                                            $e$m  $d  $x
-      $l$d    $m$d$m$x                                              $e    $d    $x
-      $q$d$m  $d  $m$x                                              $e$d$e$d      $x
-    $q  $l  $m$d    $x                                              $m$d$e$d        $x
-  $q$d$m    $l$d    $x                                              $l$m$e  $d    $c    $x
-$a  $b  $c$d      $m$x                                              $l$d$e  $d  $c$b    $x
-$a$b        $c$d  $m$x                                              $m$d$e$d  $c$b      $x
-$b            $d  $m$x                                                    $d    $r      $x
 EOC

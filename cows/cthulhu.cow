@@ -1,0 +1,52 @@
+# Cthulhu
+# by Unknown - http://pixelartmaker.com/art/a8be8ed2e510d0e
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;168m  ";
+$d = "\e[48;5;29m  ";
+$e = "\e[48;5;96m  ";
+$f = "\e[48;5;35m  ";
+$g = "\e[48;5;23m  ";
+$h = "\e[48;5;161m  ";
+
+$the_cow = <<EOC
+          $t                                                                $a$x
+            $t                                                          $a$x$a$x
+              $t
+                $t                                                        $a$x
+                  $t          $b$x        $b$x                            $a$x
+                            $b  $x        $b  $x                        $a$x
+                          $b  $x            $b  $x                    $a$x  $a$x
+                        $b      $x        $b      $x                  $a$x
+                      $b      $x            $b      $x                $a  $x
+                    $b            $x    $b            $x              $a    $x
+                    $b                                $x                $a$c$a$x
+                  $b              $d  $e$b              $x            $a        $x
+                  $b            $d    $f$e$b            $x              $a$c$a$x
+                $b            $d    $f    $e$b            $x          $a  $c  $a$x
+                $b          $g$d  $f        $e$b          $x          $a$c  $a$x
+              $b            $g$d  $f        $e$b            $x          $a    $x$e$x
+              $b            $g  $d  $f    $e  $b            $x        $e$x    $g$e$x
+            $b                $g  $d  $f$g$e$b                $x      $g$x$e$x$e$g$x
+            $b          $g  $b  $g$d$g$f$g$b    $e    $b      $x      $e    $g    $x
+          $b          $d$b    $h$b$d$b$g$b$h$b$g  $f  $e$b      $x  $e$g    $x
+          $b        $g$f$d$b        $d$b          $g  $f$e$b  $e    $g$x
+          $b        $g$f  $b        $d$b$g  $b      $g  $f$e  $g    $x
+        $b            $g$f$b    $d$b$f$b$d$b$g$b          $g  $b  $x
+        $b        $x$b$g  $b    $d$b$g$b$d$b  $g$b  $x  $b        $x
+        $b      $x  $b$g  $b  $g$b$g$f$g$b$g$b  $g$b$x    $b      $x
+        $b    $x    $b$d$b  $g$b  $g$b$g$b  $g$b      $x    $b      $x
+      $b    $x      $b$d$f$b    $d$b    $d$b  $g$b    $x      $b    $x
+      $b  $x      $b  $d$f$b    $d$b$g$b$d$b    $g$b    $x        $b$x
+      $b$x      $b      $d$f$b            $d$b            $x      $b  $x
+    $b  $x      $b      $d$f$b                            $x        $b$x
+    $b$x        $b        $d$b                            $x        $b$x
+    $b$x          $b      $g$f$b    $x  $b              $x
+                    $b  $f    $b  $x      $b          $x
+                  $b  $g$b$f$b$f$b$x      $b            $x
+                $b    $g$b$g$b$g$b  $x  $b                $x
+EOC

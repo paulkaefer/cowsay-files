@@ -1,0 +1,74 @@
+# The Dude (The Big Lebowski)
+# by JudeBuffum - https://judebuffum.com/the-big-lebowski
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;181m  ";
+$g = "\e[48;5;95m  ";
+$h = "\e[48;5;138m  ";
+$i = "\e[48;5;97m  ";
+$k = "\e[48;5;55m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t                          $a      $b$a    $x
+            $t                    $a        $b$a        $x
+              $t                $a        $b  $a          $x
+                $t            $a      $b$c  $a$b$a  $b$a      $x
+                  $t          $a  $b$d    $c$b  $a    $b$a    $x
+                            $a  $b$d        $c$a$b$a            $x
+                            $a$b$d          $c$b$a$b    $a        $x
+                            $b  $d            $c$a$b$a$b$a          $x
+                          $a$b  $d        $b    $a$b$a$b$a            $x
+                          $a  $b$d      $b  $e$b$a$b$a                  $x
+                          $a  $b$d  $b          $a$b$a$b$a  $b$a          $x
+                          $a$b                  $a$b$a$b$a          $b$a  $x
+                          $a  $b  $e$b$d  $b        $a$b$a      $b$a  $b  $x
+                            $b        $d    $c    $a$b$a$b$a              $x
+                            $a$b      $d    $c    $a        $b$a            $x
+                          $a    $b  $c$d  $b$c  $b$c$a    $b$a      $b  $a    $x
+                          $a    $b$c    $b$a      $c  $b              $a      $x
+                          $a    $b$c    $a$d  $c$a  $c    $b    $a            $x
+                          $a  $b$a$b$c$a$d$a  $c  $a  $c      $b  $a          $x
+                          $a      $b$c$a$c$b$a$c  $a    $c  $b$a  $b      $a  $x
+                            $a  $b    $a$c  $a          $c$b    $a  $b  $a$b  $f$x
+                            $a  $b$a$b$a                $b$c$b      $a  $b  $f    $b$x
+                              $a    $b  $a            $b$c        $b      $f        $b$x
+                                  $a$b  $a          $b  $c            $b  $f          $b$x
+                                  $a$b  $a      $b    $c  $d    $c      $b$f  $g$f    $b$x
+                                    $b    $a$b    $c    $d            $c$b$f  $g$f    $b$g$f  $x
+                                            $b  $c  $d                  $b$f  $b$f    $b$f          $x
+                                          $g$b  $d                    $c$b$f  $b$f  $b$g$f            $x
+                                        $g$b$f$b$d                    $b$f  $g$f    $b$f                $x
+                                      $g$b$g  $e$d                    $f    $b$f    $b$f                  $x
+                                    $f$g  $f$g$e$d                    $f  $g$f    $b$g$f                  $x
+                                  $f$g$b$f  $e  $d                  $f    $g$f    $b$g$f  $g$f              $x
+                                $f  $b$f  $h$e  $d              $e  $f    $g$f  $b$g$f                        $x
+                                $f$b$g$f  $e    $d            $e  $f      $b$f  $b$g$f            $g$f        $x
+                              $f  $b$g$f$g$e      $d      $e      $f      $b$f  $b$f    $g$f      $g$f          $x
+                              $f$b$g$f  $g$e      $d    $e      $f      $g$f  $b$g$f    $g$f                    $x
+                            $f  $b$g$f  $e                      $f      $b$f  $b$g$f    $g$f              $g$f    $x
+                            $f$b$g$f  $h$e                      $f    $g$f  $b$g$f                        $g$f    $x
+                          $e    $g$f  $g$e                    $f      $g$f  $b$g$f              $g$f      $g$f    $x
+                      $e      $i$g$f  $e                      $f      $b$f$b$g$f                                    $x
+                  $e        $i    $f$g$e                      $f    $b$f  $b$g$f        $b$f  $g$f      $g$f        $x
+                  $e  $i          $f$g$e                    $f      $g$f$b$g$f        $g$b$f  $g$f      $g$f        $x
+                  $b$i      $b  $i  $e                      $f    $b$f  $b$g$f        $g$f                          $x
+                $b  $k$i$b$i        $e                      $f    $b$f  $b$g$f        $g$f$b$g$f      $g$f          $x
+              $b  $k  $i      $e$i  $e                    $f      $g$f$b$g$f          $g$f$b$g$f  $b$g$f              $x
+              $d  $k  $i      $e$i  $e                    $f      $g$f$b$g$f          $g$f  $b$f$b$g$f                $x
+            $c$d    $k$i          $e$i$e                  $f    $b$f  $b$g$f          $g$f  $b  $g$f                  $x
+            $b$c$b  $k$i        $e  $i$e                  $f          $b$f            $g$f$b  $g$f                    $x
+              $c$b$k  $i    $k  $e$i  $e                  $f    $h$f$b$g$f            $b$f$b$f                        $x
+            $d        $b$i  $k  $e  $i$e                $f      $g$f$b$f                $b$f                            $x
+            $c    $d    $i    $k$i$e$i$e                $f          $b$f              $b$f$g$f    $b$g  $f              $x
+            $b$c$d$b    $i      $e    $i$e              $f    $g$f$b$g$f              $b$g$f  $b  $g    $f              $x
+              $d        $i        $k$i  $e              $f    $g$f$b$f              $g$b$g$f$b    $g  $f                $x
+EOC

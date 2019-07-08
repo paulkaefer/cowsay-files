@@ -1,0 +1,58 @@
+# The Grinch
+# by Unknown - https://www.pinterest.com/pin/69313281745667293/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;40m  ";
+$e = "\e[48;5;227m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;28m  ";
+
+$the_cow = <<EOC
+      $t
+        $t                                $a      $x
+          $t                            $a  $b    $a$x
+            $t                      $a  $b        $a$x
+                                  $a$b              $a$x
+                                $a$b        $a$b    $a$x
+                $a    $x      $a$b            $a$b  $a$x
+              $a$c    $a$x  $a$b            $a  $b    $a  $x
+            $a$c      $a$x$a$b            $a$x$a$b        $a$x
+            $a$c        $a$b              $a$x$a$b          $a$x
+            $a$c          $a$b            $a$x  $a$b          $a$x
+              $a$c$a$c      $a  $b      $a$x      $a  $b        $a$x
+                $a$d$a$c        $a  $b    $a$x        $a$b      $a$x
+              $a$d    $a$c          $a  $b  $a$x        $a$b  $a$x
+            $a$d        $a$c            $a$b$a$x        $a$b$a$x
+            $a$d  $a  $d  $a  $c          $a    $x        $a$x
+          $a$d        $a$d    $a  $c          $a    $x  $a$c$a$x
+          $a$d          $a$d    $a    $c            $a$x$a$c  $a$x
+          $a$d                $a$d    $a  $c        $a  $c    $a$x
+      $a  $d      $a      $d        $a          $c$a$x$a$c    $a$x
+    $a$d    $a$d    $e  $a    $d$a    $e  $d    $a$x  $a$c  $a$x
+    $a$d      $a  $d$e  $f  $e$a$e$f  $e  $d$a  $d$a  $x$a$c$a$x
+  $a$d            $a$e        $d$e      $a  $d        $a$x$a$x
+  $a$d  $a$d        $a$e    $d$g$d$e  $a$d            $a$x
+    $a$d  $a      $d        $g    $d$a$d$a  $d$a  $d  $a$x
+    $a$d    $a$d              $a$d          $a$d    $a$x
+      $a$d    $a  $d            $a$d        $a$d    $a$x
+        $a  $d    $a$d          $a$d      $a$d    $a$x
+      $a$c  $a  $d  $a$d        $a$d  $a  $d  $a  $x
+    $a  $c      $a  $d$a  $d  $a$d  $a$d    $a$x
+  $a$c              $a$d  $a$d  $a  $d  $a    $x
+  $a$c                $a$d  $a  $d    $a  $c  $a  $x
+    $a    $c            $a$d      $a    $c        $a$x
+      $a$b$a$c            $a      $d  $a$c        $a$x
+    $a$b    $a  $c          $a$d    $a$c        $a  $x
+  $a$b          $a  $c        $a    $c      $a  $b  $a$x
+$a$b                $a$c                  $a$b        $a$x
+$b                  $a$c                  $a$b          $a$x
+$b                    $a  $c          $a  $b              $a$x
+$b      $a$b              $a  $c    $a$b                    $a$x
+$b    $a    $b                $a    $b              $a$b      $a$x
+$b  $a$x  $a$b                                    $a$x$a$b      $a$x
+EOC

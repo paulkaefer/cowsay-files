@@ -1,0 +1,68 @@
+# Zapp Brannigan and Kif Kroker (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;178m  ";
+$b = "\e[48;5;11m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;71m  ";
+$g = "\e[48;5;77m  ";
+$h = "\e[48;5;83m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;235m  ";
+$k = "\e[48;5;255m  ";
+$l = "\e[48;5;88m  ";
+$m = "\e[48;5;203m  ";
+$n = "\e[48;5;161m  ";
+$o = "\e[48;5;138m  ";
+$p = "\e[48;5;251m  ";
+
+$the_cow = <<EOC
+                                  $t
+                                    $t
+                                      $t
+                                        $t
+                                          $t                      $a$b$x
+                                                $a$x$a  $b              $x
+                                                  $a  $b                $x
+                                                $a  $b$c$d    $e  $d$b$x
+                                                $a  $c$d  $e        $x
+      $f      $g$x                              $a  $c$d$e            $x
+    $f    $g    $h$x                            $a  $c$e  $i$j$e  $i$j$x
+    $f  $g        $h$x                          $c$d  $e$i    $e$d$i  $x
+    $f  $g        $h  $x                        $c$d          $e  $d  $x
+    $f    $g          $h$x                          $c$d    $e        $x
+    $f  $g  $h  $g  $h  $x                          $c$d$i$k$e          $x
+      $f  $g$j$i$g  $j$i$x                          $c$d$i$k$i$k$i$k$x
+    $f    $g$i    $g$i  $h$x                        $c$d  $e        $x
+        $f        $g$f  $x                        $l$c$d    $e    $d$x
+          $f  $g    $h$x                          $l  $c$d    $e    $m$x
+          $f    $g  $h$x                        $a$b$l$n    $m$d$m    $a$b$a$b  $x
+            $f  $g    $h$x            $a      $b  $l$n$l$n  $m      $n$m  $b  $x
+            $f  $g$f$x                  $a  $b$a$l  $n  $l  $n      $m$n$b  $m$x
+          $l$n$m$f$n$m$x                  $a  $b$l  $n    $m            $b$m  $x
+    $a  $b  $n$m$f$n$m$a$b$x            $a$n  $a$b$l$n  $m            $n$l$m  $x
+      $a$b  $n  $m    $b$x            $a$n  $m$n$l  $n  $m            $n$l$n$m  $x
+      $n$a$b$n$m      $b$m$x        $l  $n$m$l$n$l    $n  $m          $n$l$n$m  $x
+      $a$m$b$n$m      $n$m$x        $l  $n$m  $l$i$l  $n  $l  $n        $o$i$m  $x
+      $a$m$l$n  $m    $n$m$x          $l  $m  $i    $l$n$l$n$m          $p$i      $x
+      $n$m$l$n  $m    $l$m$x              $l$i      $l$n    $m          $p  $i  $x
+      $n$m$l$n  $m    $l$m$x              $p$i        $l$n$m            $p  $i$x
+      $n$m$l  $n$m      $n$x                $p$i      $l$n$m            $p$i$x
+      $n$m$l  $n$m      $n$x              $o  $i      $j    $a$b    $j  $i    $x
+    $p  $i$j  $a$b    $j$i$x              $o$p    $i$j        $a$b$j    $o$i  $x
+      $p$i$j    $a$b$j  $i$x                $p  $i$l    $n  $m          $p  $x
+      $p$i$l$n  $m      $i$x                    $l        $n  $m          $x
+    $o$p$i$l  $n  $m      $x                      $c    $d  $e$x$c$d$e  $x
+  $o$p  $i$f    $x$f  $o$i$x                      $c  $d  $e  $x$c$d$e  $x
+    $p$i$x$f$g$h$x$f$h$o$x                        $c  $d  $e  $x$c$d  $e$x
+          $f$g$h$x$f$g$x                        $o$p$d$p$i  $x    $o$p$e$i$x
+          $o$i  $x$p$i$x                        $o$p    $i  $x    $o$p$i  $x
+          $o$p$i$x$o$i$x                        $o$p    $i  $x    $o$p  $i$x
+          $o$p  $i  $p$i  $x                  $p    $i      $x    $o$p    $i  $x
+
+EOC

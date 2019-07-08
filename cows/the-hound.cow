@@ -1,8 +1,8 @@
 # The Hound (Game of Thrones)
-# by Cezary 'Charlie' tuczynski
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;235m  ";
 $b = "\e[48;5;238m  ";
@@ -24,11 +24,11 @@ $q = "\e[48;5;58m  ";
 $r = "\e[48;5;16m  ";
 
 $the_cow = <<EOC
-          $t                                      $a        $x
-            $t                                  $a              $x
-              $t                                $a      $b$a  $c$a    $x  $a  $x
-                $t                              $a$d$e$c$f$a$c$a          $x
-                  $t                            $d  $e$b$c  $a      $x
+                                  $t              $a        $x
+                                    $t          $a              $x
+                                      $t        $a      $b$a  $c$a    $x  $a  $x
+                                        $t      $a$d$e$c$f$a$c$a          $x
+                                          $t    $d  $e$b$c  $a      $x
                                                 $a$b$a$e  $a        $x
                                                 $a$g$b$a$b$a              $x
                                                 $g$d$f$b$e$a            $x
@@ -74,32 +74,4 @@ $h$d    $g$h        $k  $h$x              $a              $j  $k$j$c$a$j    $a$p
           $h$i$x                $a$c  $a$c    $k$a  $m          $c$j$c$j$k$c$j$i$x
           $h  $x                $a$c$a$c    $j$k$a$c  $m  $l$m    $k$c$j$k  $c$i$x
           $h$i$x              $a$c  $a$c    $k$j$a$c  $m          $k$j  $k  $c$k$i$x
-          $h  $x              $a$c  $a$c$j  $k$c$a$c    $m  $l$m    $k$j$k  $j  $i$x
-          $h$i$x              $a$c  $a$c$j  $k$c$a$c  $x$m  $l$m    $k$j  $k  $j$h$x
-          $h$i$x              $a                  $c$k$x$m    $l$m    $k$j$k  $j$k$h$x
-          $h  $x                $c    $a        $c  $k$x$m    $l$m    $a            $x
-          $h$i$x                $c$q  $c          $k$x  $m    $l$m    $c      $p$b  $x
-          $h$i$x              $a  $c  $q    $c    $k$x      $m  $l$m    $p  $q$c$p$b$x
-          $h$i$x              $c  $a            $c  $x      $m  $l$m    $p      $d$b  $x
-          $h  $x                $c$j$k  $j$c  $a$x                $m    $j$i    $h  $b  $x
-          $h$i$x                $c  $j$c  $a  $k$x                  $a$j$c$j$k  $j  $h$x
-          $h$i$x                $c  $j$c  $a$j$k$x                  $a$j$c$j$k  $j  $h$i$x
-          $h$i$x                $a            $c$x                    $c$j  $c$j$k  $j$i$x
-          $h$i$x                $c  $j$c  $a  $k$x                    $c$a    $c      $j$i$x
-          $h$i$x                $c  $j$c  $a$j$k$x                      $c$j$c$a$c$k$j  $i$x
-          $h$i$x                $a          $c$x                        $c$j  $c$j$k  $j$i$x
-          $h$i$x                $c  $j$c$a  $k$x                          $c$a  $c      $j$x
-          $h$i$x                $c  $j$c$a$j$k$x                            $c$j$a  $k$j$h  $x
-          $h$i$x                $c$a      $c$x                                $c$j$c$k$j  $h$x
-          $h$i$x                  $c    $a$k$x                                  $c$j$c    $j$x
-          $h$i$x                  $c  $a$j$x                                      $c  $k$j$h$x
-          $h$i$x                  $c  $a$c$x                                        $c$k$j$h$x
-          $h$i$x                $j$c$a$c$x                                          $a$c$j$k$x
-          $h$i$x                $c$j$c$a$c$x                                          $a$c$j$x
-          $h$i$x              $c    $k$a$c$x                                          $a$k  $x
-          $h$i$x            $j$c      $j$a$x                                          $k$j  $x
-          $h$i$x      $c  $j  $c      $j$a$x                                          $j    $h$x
-          $h$i$x    $c$j$k    $j  $c    $a$k$x                                      $a$j$k    $h$x
-          $h$i$x    $c$k  $h    $k$c    $a$k$x                                      $a$j$h  $k$j$k$x
-            $i$x    $c$r  $k    $c$x                                                $a        $c  $x
 EOC

@@ -1,8 +1,8 @@
 # Doomguy (DOOM)
-# by Charlie M
+# by RetroPixelWorld - https://www.teepublic.com/t-shirt/1944232-pixel-praetor
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;234m  ";
 $b = "\e[48;5;234m  ";

@@ -1,0 +1,52 @@
+# SpongeBob Squarepants
+# sprite from SpongeBob Squarepants: A Day in the Life of a Sponge - https://www.spriters-resource.com/v_smile/spongebobsquarepantsadayinthelifeofasponge/sheet/99519/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;244m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;33m  ";
+$f = "\e[48;5;196m  ";
+$g = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t          $a    $x$a      $x  $a      $x$a    $x
+            $t      $a$b$c$a    $c  $a      $c  $a    $c  $a$x
+                  $a$b$a$c                                $a$x
+                $a$b$c$a$c      $a$c$a$c      $a$c$a$c    $a$x
+                $a$c  $a$c      $a    $b$c    $a    $b$c  $a$x
+                $a$c  $b$c    $a$d      $b$c$a$d      $b$c$a$x
+              $a$b$c    $b$c$a$d          $a$d          $c$a$x
+            $a$c  $a  $c$a$c$a$d    $e$a$d$a$d  $e$a$d  $c$a$x
+            $a$c  $a  $c$a$c$a$d    $a      $d  $a    $d$c$a$x
+            $a$b$c$b  $c$a$c$a  $d  $e$a$e$a$d  $e$a$e$c  $a$x
+              $a$c      $a$c    $a$d      $a            $c$a$x
+              $a$c        $b$c    $a      $c          $a$c$a$x
+                $a$c$a  $c$a$c              $a        $c  $a$x
+                $a$c$b  $c$a$c$a  $c              $a$c    $a$x
+                $a$c      $a$c    $a$c            $a$c    $a$x
+                  $a$c    $b$c      $a              $c    $a$x
+                  $a$c      $b$c      $a$d  $a$d  $a$c    $a$x
+                  $a$d  $c  $a$c$b$a$c  $a  $c$a  $c      $a$x
+            $a    $d    $c  $a$c  $b$c                  $d$a      $x
+          $a$c$d    $a$d  $c$a$c                  $b$a$c$d    $c  $a$x
+          $a$c$a    $x$a$c  $b$c    $a$c$d$b$d$c$b$c$a$c  $d  $c  $a$x
+          $a$c$a$x    $a$d    $a$d      $f    $d      $a$d$a    $c$a$x
+          $a$c$a$x    $a$d      $a$d    $f    $d    $a$d$a$x  $a$c$a$x
+          $a$c$a    $x$a$b              $f    $b        $a$x  $a$c$a$x
+          $a$c    $a$x$a$g              $f    $g        $a      $c$a$x
+          $a$c    $a$x$a$g                $f$g        $a    $c    $a$x
+            $a    $x  $a$g  $a  $g  $a  $g  $a  $g  $a      $c    $a$x
+                      $a$g            $a$g          $a    $x$a    $x
+                        $a    $g    $a$x$a  $g    $a$x
+                              $a$c$a$x      $a$c$a$x
+                            $a$d$a  $x    $a$d$a  $x
+                            $a  $b$a  $x  $a  $b$a  $x
+                            $a    $b$a  $x$a    $b$a  $x
+                            $a          $x$a          $x
+EOC

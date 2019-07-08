@@ -1,0 +1,75 @@
+# Fox McCloud (Star Fox, Super Smash Bros)
+# sprite from Super Smash Flash 2 - http://ch3ts.blogspot.com/2011/06/characters-in-super-smash-flash-2.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;248m  ";
+$g = "\e[48;5;243m  ";
+$h = "\e[48;5;102m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;89m  ";
+$k = "\e[48;5;161m  ";
+$l = "\e[48;5;65m  ";
+$m = "\e[48;5;253m  ";
+$n = "\e[48;5;236m  ";
+$o = "\e[48;5;8m  ";
+$p = "\e[48;5;250m  ";
+$q = "\e[48;5;88m  ";
+$r = "\e[48;5;125m  ";
+$s = "\e[48;5;174m  ";
+$u = "\e[48;5;124m  ";
+$v = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+                      $t                            $a  $x
+                        $t                        $a$b$c$x$a  $x
+                          $t                    $a$b$c$d$a$e$b$a$x
+                            $t                $a$e$c$d$e$f$g$b$a$x
+                              $t            $a$h$b$c$e$b  $f  $a$x
+                                $t        $a$h$i  $b  $c    $d$f$a$x
+                                  $t      $a$i$j  $c          $d$a$x
+                                        $a$h$i$j$k$j$c$f$d$c  $d$g$a$x
+                                        $a$h$i$j$k  $c$e$f$d$c  $g$a$x
+                                        $a$h  $i$j$h$c$e$d$l$d$b$a$x
+                                        $a$h$e  $c$h$b  $m$n$a$e$b$a  $x
+                                          $a$e$b$c$h$b    $e$o$f  $a    $x
+                                          $a  $b    $h$f  $d      $f$a$x
+                                        $a$e$b  $e$f$h$e  $d$f  $g$a$x
+                                          $a  $b  $e$f    $g  $a  $x
+                                      $a    $h$a                $x
+                                  $a  $h$p$h$e$i$q$k  $r  $i$h$f$a  $x
+                              $a  $q$e$h  $p$g$e$i$q  $i  $g$f  $a$f$a  $x
+                            $a      $i$e$h$p$f  $e$i  $e$g$f  $d$e$a$f  $a  $x
+                            $a$e  $h$a  $e$f$d$p$e$l$i$e$f$d  $p$e$a$h  $f  $a$x
+                            $a$h    $s  $a$f$d  $e$l  $e$d$a$f$h$a  $e  $a    $x
+                            $a$h$s      $a  $f$p$e$l$n$e$d$a$f$h$a$d$a$q$i$q$a$x
+    $h$x          $e        $a$s$a$s$a$s$a$b$a$e$n$g  $n$e$p$f$e$a  $h$e$q$i$a$x
+    $h            $c        $a$c$a$b$a$b$a    $e$g$d  $g$e$h$e$a$b$e    $h$k$a$x
+    $h$f          $d  $c      $a$c$a$e$a$u  $a$u$h$d$p$h$e  $a$b$e$b$e$h$e$q$a$x
+      $h$f$d            $c            $u$c$a$n  $u$h  $a$e$f$a$e$c$s$e$s$a  $x
+      $h$f  $d              $c      $u$c$a$n      $a    $e$f$a$b$a$c$e$s$a$x
+        $e$f      $d      $c        $u$a$u  $n  $u$a    $e$h$f$a  $c$a$c$a$x
+          $e$h  $f  $d    $b        $a$n    $u$n$u$a      $e$h$e  $a$x$a$x
+            $e    $h$f  $d$b        $a$l  $n  $u$n  $a  $n  $e$l$n$a$x
+                  $e  $h$f  $h$b  $a$l  $n    $a$x    $a$n  $l    $a$x
+                      $e$h  $b    $a$l  $n  $a$x      $a$n$l  $n  $a$x
+                        $n    $e  $a$l$n    $a$x      $a$n$l  $n  $a$x
+                              $n  $a$l$n    $a$x        $a$n$l  $n$a$x
+                                  $a$n      $a$x        $a$n$l$n    $a$x
+                                    $a$n      $a$x        $a$n      $a$x
+                                      $a$n$q$n  $a$x      $a$n    $l$a$x
+                                      $a$k$q  $i$a$x        $a$n      $a$x
+                                        $a$k$q  $i$a$x        $a$n$q$n$a$x
+                                          $a$k$q  $a$x        $a$k$q$i$a$x
+                                      $a  $v$a$q$i$a$x        $a$k$q  $i$a$x
+                                  $a  $e  $v  $a  $x          $a          $x
+                                $a$q    $v    $a$x            $a$v        $a$x
+                                $a$k  $q  $v$a$x            $a$v    $e    $a$x
+                                  $a        $x              $a$e  $k    $q$v$a$x
+EOC

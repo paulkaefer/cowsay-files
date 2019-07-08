@@ -1,8 +1,8 @@
-# Tina Belcher
-# by Charlie M
+# Tina Belcher (Bob's Burgers)
+# by Unknown - https://giphy.com/gifs/pixel-art-tina-belcher-PTzqCfLCd2wtW
 
 $t = "$thoughts ";
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;236m  ";  #fake black
 $k = "\e[48;5;235m  ";  #fake black - glasses
 $s = "\e[48;5;223m  ";  #skin color

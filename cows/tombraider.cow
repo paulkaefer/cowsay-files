@@ -1,0 +1,74 @@
+# Lara Croft (Tomb Raider)
+# by Unknown - https://www.pinterest.com/pin/486177722260662956/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;185m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;179m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;202m  ";
+$h = "\e[48;5;7m  ";
+$i = "\e[48;5;72m  ";
+$j = "\e[48;5;237m  ";
+$k = "\e[48;5;243m  ";
+$m = "\e[48;5;238m  ";
+$n = "\e[48;5;137m  ";
+$o = "\e[48;5;235m  ";
+$p = "\e[48;5;94m  ";
+$q = "\e[48;5;59m  ";
+$r = "\e[48;5;245m  ";
+$s = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                          $a$x
+                  $t    $b      $x
+                      $b          $x            $a$x
+                      $b    $c$b  $x      $a$x  $d$a$x
+                      $b    $e$c$b$x      $d$x    $f  $x
+                    $b  $c$b$e  $b$x            $a$f    $x
+                    $b  $e$b$e  $b$x          $f  $a$g$f  $x
+                    $b  $c$e    $x              $f  $g  $f$x
+                    $b  $e$c  $b$x              $f$g    $f$x
+                    $h$i$e  $h$i$x                $j$g$j$x
+                  $e$h$i$e    $h$i$x                $j  $x
+                  $e  $h$i$e  $h$i$x              $j  $x
+                $e    $h$i  $h    $i$x            $j  $x
+                $e  $h$m$i          $x            $j$x
+                $e  $m    $i        $e$x        $j  $x
+              $e  $c$x$m            $e$x        $j$x
+              $e  $c$x  $m    $i  $c$e  $x      $j$x
+              $e  $c$x  $m  $i$m  $x$c$e    $x$j$c$x
+              $e$c$x  $m  $i      $x  $c  $e  $j$n$x
+            $o$e$c$x  $m$i$m    $i$x      $c    $n$x
+            $e$o$x  $m  $i          $x        $c$x
+            $e$c$x  $m$i  $p$i      $x
+          $j$e$o$x$q$m$i$p    $i$p  $i$x
+          $o$c$o$x$m  $p            $x
+        $o$j$x    $m    $p    $m$p  $x
+        $o$j$x      $m  $p    $m$p    $x
+      $o$j$x        $m  $p    $m$p    $x
+      $o$j$x      $m  $p    $m  $p    $x
+                  $m  $p    $m$p$r  $x
+                  $m  $p    $k$r    $x
+                  $m  $p    $k$r  $p$x
+                $m  $p    $x$m$p    $x
+                $m  $p    $x$m$p    $x
+                $m  $p  $x  $m$p    $x
+              $m  $p    $x  $m$p    $x
+              $m  $p    $x$m  $p  $x
+              $m  $p  $x  $m  $p  $x
+              $m  $p  $x  $m  $p  $x
+            $m  $p    $x  $m  $p  $x
+            $m  $p    $x  $m$p    $x
+            $o  $s  $x    $o  $s  $x
+            $o$s    $x    $o  $s  $x
+          $o  $s    $x    $o$s      $x
+        $o$s        $x    $o$s      $x
+EOC

@@ -1,8 +1,8 @@
 # Snowball w/ mech suit (Rick and Morty)
-# by Charlie M
+# by Urserker - https://www.deviantart.com/urserker/art/Pixel-Art-Snowball-Snuffles-705626880
 # Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;110m  ";
 $b = "\e[48;5;61m  ";
@@ -83,17 +83,4 @@ $e$x$b$e$b$e$b$c$e$b$x              $e$a$g$e$c  $x                $c$e$b$e$b$c$e
                                   $e$a$g  $c$e$x                $e$c        $x
                                   $a$c$g$d$e  $x                $e$g$c      $x
                                 $a$g$e$c  $e$x                  $e$a$g$c    $x
-                              $a$g$e  $c  $e$x                  $e$a$g$c    $x
-                              $a$g$e  $c  $e$x                  $a$d$g$c    $x
-                            $a$g  $e  $c    $x                $a$g$e$c      $x
-                            $a$g$e  $c      $g$x              $a$g$e$c  $e$c$x
-                        $z$d  $A$c      $e    $g$x          $a  $g$e  $c$e  $x
-                      $z$g$z$d$g$A$d$c$e    $c  $A  $x      $a  $g$e  $c$e$c$x
-                    $z$g$z$d$g$z  $A$c      $A    $x        $a  $g$e  $c  $e$g$x
-                      $A  $d$g$z  $A          $x            $e$c$g$e  $c$e    $g$x
-                          $A          $x                  $d$g$c        $d$c  $x
-                                                        $d$g$z$d$g$z$A$d  $x
-                                                      $d$g$z$d$g$z    $A$x
-                                                      $A    $d$g$z  $A$x
-                                                            $A      $x
 EOC

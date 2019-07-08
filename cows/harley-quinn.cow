@@ -1,0 +1,66 @@
+# Harley Quinn (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;160m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;253m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;74m  ";
+$h = "\e[48;5;238m  ";
+$i = "\e[48;5;240m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;254m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t                  $a  $b$x
+                    $t          $c  $d$a    $b$x
+                      $t        $c  $x  $d$a  $b  $e$x
+                        $t              $d$a    $b$e        $x
+                                        $d$a      $b$e        $x
+                                      $a    $f    $a$e  $x  $e$x
+                                      $d$a  $f$e$f  $e  $x  $c  $x
+                                      $d$a  $e$f$e$f$c$x    $c  $x
+                                      $d$a$f$e$g$f$e  $x
+                                      $d  $f  $e  $g$f$x
+                                        $d$f$a$f  $e  $x
+                                        $d$f  $a  $c$x
+                                        $f$c$f  $c$x
+                                      $e  $f$c$x
+                                    $e      $f$x
+                                  $e        $f    $x
+                                $e  $d$e      $f$e$x
+                                $e$b$a$e            $x
+                                $e$d$e                $x
+                                $e  $a$e            $x
+                                $e                $x    $h$x$i      $x
+                                $e    $x$e$d$a$b$x        $i$h      $x
+                                $e  $x  $e$d$a$b$x$c  $b$j  $i$h$x
+                                $e          $b  $c$f  $a    $b$x
+                                  $e              $c  $d$a$b$x
+                                      $e          $f  $b$a$b$x
+                                    $e  $b$d$a$b$k$c$x
+                                  $e  $d  $a  $b$x
+                                $d$e  $d$a    $b$x
+                              $d$b$e$d$a        $b$x
+                              $d$e  $a            $b$x
+                            $e  $a$e$a            $b$x
+                            $e$d$a$e$a              $b$x
+                            $e$b$e    $d$a          $e$x
+                          $e          $x  $d$a      $e  $x
+                          $e          $x    $d$a    $b$e$x
+                          $e          $x    $d$a        $b$x
+                          $e        $x        $d$a    $e$b$x
+                          $e        $x          $a    $e  $x
+                          $e      $x            $d$a    $e$b$x
+                        $e        $x              $d$a    $b$x
+                        $e      $x                  $d$a  $b$x
+                        $e    $x                      $a    $b$x
+                        $e    $x                        $a  $b$x
+EOC

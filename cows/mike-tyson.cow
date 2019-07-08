@@ -1,0 +1,74 @@
+# Mike Tyson - cropped
+# by Carre Offensif - https://www.pinterest.co.uk/pin/27373510205932422/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;215m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;232m  ";
+
+$the_cow = <<EOC
+       $t             $a                            $x
+         $t         $a                                $x
+           $t     $a                                    $x
+                $a                                      $x
+                $a                                        $x
+              $a                                          $x
+              $a                                            $x
+            $a        $c$a      $c    $a$c$d$c$a    $c$a    $x
+            $a        $c                $d$e      $c$e$d$a  $x
+            $a        $c        $d      $e    $f  $e    $c$a$x
+            $a        $c      $d$f  $e      $f    $e    $c$a$x
+            $a              $c$d$f    $e  $f      $e    $c$a$x
+            $a                $c$d$e$f$e  $f        $e  $d$a$x
+            $a        $c      $d$e          $f      $e    $a$x
+            $a      $c$a  $c$d  $e        $f      $d  $f$e$a$x
+          $c  $a                $c$d$c$e  $f$e$g$a    $c$f$d  $x
+          $d$c$a        $c$a      $c    $d$c$a    $c    $e$a$d$x
+          $e$c$a                      $c  $a          $c$d$a$d$x
+          $e$d$a            $h$a    $c$e$d$a    $h$a  $d  $e$d$x
+          $c  $a    $c    $a      $c  $e  $d  $c  $d$e      $d$x
+          $a          $e$d    $c    $d$e$f$d$e$f$e  $f  $e  $d$x
+            $a        $f  $e$c    $d  $e$f$e$d$f  $e$f  $e  $d$x
+            $a      $c$e$f$d$a  $d  $e  $f$e$d$c$e  $f$e  $c  $x
+              $a    $c    $a    $d$e    $f  $e$c$a$c$e  $d$x
+                $a          $c  $a  $c  $d  $e  $c$a$c$d  $x
+                $a          $c  $a      $c$e$f  $d$a  $c$d$x
+                $a            $c    $d  $e$f  $e$d$a$d$c$d$x
+                $a                  $c      $a    $c$d$c$d  $a      $x
+                  $a            $h$a  $h    $a    $d$c$a  $d$a  $c      $d        $x
+                  $a      $c$a    $f      $e    $d$c$a    $d$a  $c  $d          $e      $x
+                  $a        $c$a    $e$d$e$f$e$d  $a  $c$a    $c$d    $e  $d      $e    $f      $x
+                  $a        $c  $a          $c$d$c$a$c  $a  $c$d  $e                            $f    $x
+                  $a          $c  $a      $d$e  $a  $c      $d  $e                $d$e            $f$e$x
+                  $a          $c  $d    $e    $a  $c  $d      $e        $c$d  $e$d      $e            $x
+                $a              $c  $d      $a      $c$d$e    $f  $e  $a$c$d$e$d  $c  $d$e            $x
+              $a                                  $c  $d$e  $f  $e  $a$c$d$e  $a$c  $d  $e          $f$x
+            $a                                      $c  $d$e$f$e$a  $c$d$e$f$d$a$c  $d$e            $f$x
+          $a                                    $c  $a  $c$e  $a  $c$d$e$f  $d$a$c$d$e      $f        $x
+        $a$c    $a                            $c      $d  $a    $c$d  $e$f  $d$a$c$d$e      $f        $x
+      $a  $c$d$c    $a              $d$c  $a      $d    $a    $c$d  $e  $f  $e$d$c$d  $e    $f        $x
+    $a  $c  $d  $i      $a            $d  $c$a  $d  $e$j$a  $c$d  $e      $f  $e$d    $e      $f      $x
+  $a  $c$d  $e$i          $d  $a$c$a$c$e$d      $e    $a  $c$d  $e                $d      $e    $f    $x
+$a$j$c$d$e  $i              $d$c$d$c  $e$f    $e    $a  $c$d  $e                  $d    $c$d  $e  $f  $x
+$a$c$d$e  $i                  $e$d  $e  $f    $e    $a$c$d  $e                      $d$a$c  $d  $e  $f$x
+$c$d$e  $i                      $e  $f$e    $f$e                                        $d$a$c$d  $e  $x
+$d$e  $i                          $f    $e    $d    $e                              $f  $e$d$a$c$d  $e$x
+$e  $i                              $f$e      $d$c$d$e                              $f    $e$d$a  $c$d$x
+$d$i                                  $d$e    $d$c$d  $e                            $f    $e$d$a    $c$x
+$i                                      $d$e  $d$c  $d$e                                    $d$a      $x
+$i                              $h  $i  $d$e$f$e$c$a$d  $e                                $d  $a      $x
+$i                            $h  $i    $d  $f$e$c$a$c$d  $e                        $f  $e$d$a        $x
+$i                            $h  $i    $c$d$f$e$c$a$c$d    $e                      $f  $e$d$a        $x
+$i                                      $d$e$f$e$a    $c  $d  $e                    $f$e$d$c      $a  $x
+$i                  $h$i              $a$d$e$f$e$a      $c  $d  $e                    $d$c  $d  $c$a  $x
+$i                $h$i              $a  $d$e$f$e$a        $c  $d  $e                  $c  $d$e$d$c$a  $x
+$i              $h$i              $a    $d  $f$e$a        $c    $d  $e            $f  $e  $f$e$d$c$a  $x
+EOC

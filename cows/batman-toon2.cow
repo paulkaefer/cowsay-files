@@ -1,0 +1,69 @@
+# Batman
+# by BLZofOZZ - https://www.deviantart.com/blzofozz/art/Batman-Sprites-344827631
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;242m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;250m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;174m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;7m  ";
+$j = "\e[48;5;248m  ";
+$k = "\e[48;5;130m  ";
+$l = "\e[48;5;137m  ";
+$m = "\e[48;5;215m  ";
+
+$the_cow = <<EOC
+            $t                  $a$x              $a$x
+              $t              $a  $x            $a  $x
+                $t            $a$b$a$x$a      $x$a$b$a$x
+                  $t          $a$b$a  $b      $a  $b$a$x
+                    $t      $a$b  $a$b    $c    $b$a  $x
+                            $a$d$b      $c        $b$a$x
+                            $a$d$b    $c            $a$x
+                          $a$d  $b    $c            $b$a$x
+                          $a$d    $b    $c            $a$x
+                          $a$d      $a  $b$c          $a$x
+                          $a$d      $a$e$a$b$c      $b$a$x
+                            $a$d    $a$e$f$a  $c    $b$a$x
+                            $a$d    $a  $e$f$a  $b$c$a$x
+                            $a$d    $b  $a        $c$a$x
+                              $a  $b    $g          $a$x
+                              $a$b$a$b$g$h$a    $h$a$x
+                            $a  $c$b$a  $g  $h  $a$x
+                        $a  $c$i$a$c$a$b$a      $x
+                      $a$c$j$b$j$i$a    $b  $c$a    $x
+                    $a$c$j$i  $b$c$b$j  $a    $j$a$c$a$x
+                    $a$b$j  $i$b  $c$j$a  $j$b$j$a    $x
+                  $a$c  $b  $j$b$j$b$c$j  $a$b$a$j$a  $x
+                  $a$j$b$c$i$b$c$j$b$c      $a$c  $a$j$a$x
+                  $a$c$b$c$j$a  $c$j$b      $j$b  $a$j$a$x
+                $a$c$b$c$i$a$d  $a$c$j$b$c  $b$j  $a$j$a$x
+                $a$c$j$b$j$a$d$b$d$a$j$c$b$j$b$j$a  $c$a$x
+              $a      $j$a$d  $b$d$a                  $x
+              $a  $d  $a  $d$b  $d$a$k$l$k$l$k$l$k$a$d$a$x
+            $a$c$a$d$b  $a$d$b  $a$l  $m$l$m$l$m$l$a$d$a$x
+            $a$b$a$d$b$c$b$a$b$a                    $d  $a$x
+          $a$c$b$a$d$b$c$b  $a  $c$j$a$d$b$c$b$d$a    $d$a$x
+          $a$b$a  $d$b$c$a$b$a$c$j  $i$a$d$b$d$a$i$c$a$d$a$x
+        $a$c$b$a  $d  $b$a    $c$j  $i$j$a$d$a$j$i$j$a$d$a$x
+        $a$b$a$d  $a  $d$b$a  $b$c$j  $b  $a$j    $i$a  $d$a$x
+        $a$b$a$d$b  $c$a    $c$b$c  $b$c$a$c  $b$c$j$a$d$b$c$a$x
+      $a$c$b$a$d$b  $c    $a$c  $b  $c$a$d$a$c  $b$a$d  $b$c$a$x
+      $a$b$a$d$b  $c      $a$c$j$c    $a$d$a$c  $j$c$a$d$b$c$a$x
+      $a$b$a$d$b  $c    $a$c$j$i$j$c$a$d$b$a$c  $i$j$a$d  $b$c$a$x
+      $a$b$a$d$b    $c$b$a$c$j$i$j$c$a$d$b$a$c$j$i  $a$d  $b$c$a$x
+      $a$b$a$d  $b    $d$a$c$j$i  $a$d$b$d$a$d$j$i  $a$d  $b$c$a$x
+      $a$b$a    $d$b$d  $a$d$j$i$j$a$d$b$d$a$d      $a    $d$b$a$x
+      $a$b$a$x  $a$d$a  $d$b$d    $a$d  $x$a$d$b    $a$x  $a    $x
+      $a$b$a$x    $a    $d$b$c$b$a$x$a  $x$a$d$b$c$b$a$x      $a$x
+        $a  $x      $a$d$b$c  $b$a$x      $a$d$b$c$b$d$a$x
+                    $a$d$b$c$b$a$x          $a$d$b$c$b$d$a$x
+                    $a$d$b  $d$a$x            $a          $x
+                    $a          $x
+EOC

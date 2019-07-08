@@ -1,7 +1,7 @@
 # Stan (South Park)
-# by Charlie M
+# by Unknown - http://pixelartmaker.com/art/b45b2b61f65cae0
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $w = "\e[107m  ";       #white
 $r = "\e[41m  ";        #red

@@ -1,0 +1,72 @@
+# Scooby Doo
+# by Hitomi Tanaka - https://www.se7ensins.com/forums/threads/hitomi-tanakas-minecraft-pixel-art-templates.875994/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;130m  ";
+$c = "\e[48;5;213m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;212m  ";
+$f = "\e[48;5;24m  ";
+$g = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+                $t                    $a  $x
+                  $t                $a  $b$a$x
+                    $t            $a$c$a$b$a$x
+                      $t          $a$c  $a$x
+                        $t          $a  $b$a$x
+                                  $a$c$a$b  $a$x
+                                  $a$c$a$b    $a$x                          $a$x
+                                  $a$c  $a$b  $a$x                        $a$b$a$x
+                                  $a$c$a      $b$a    $x            $a    $b  $a$x
+                                    $a    $b        $a    $x      $a$b        $a$x
+                                      $a    $b  $a  $b  $a    $x$a$b  $a  $b$a$x
+                                    $a$d    $a  $d  $a  $b$a    $b  $a$c  $a$x
+                                  $a$d      $a$d    $a$b      $a$b  $a$c  $e$a$x
+                  $a              $d  $a      $d    $a$b            $a$c    $a$x
+              $a            $b    $a$d$a  $b$a    $d$a$b            $a$c  $a$x
+            $a                $b    $a  $b  $a      $b              $c  $a$x
+            $a                  $b            $a  $b                $a  $x
+        $a                      $b                                    $a$x
+      $a$b  $a                  $b                                    $a$x
+      $a$b  $a                  $b                $a$b                $a$x
+      $a$b    $a              $b                    $a$b                $a$x
+      $a$b      $a        $b                        $a$b  $a$b          $a$x
+        $a$b$a$b  $a$b                        $a    $b                  $a$x
+        $a$b      $a$b        $a$b              $a$d$b    $a$b          $a$x
+          $a$b    $a$b              $a$b          $a$b    $a$b          $a$x
+            $a$b  $a$b                            $a$b  $a$b            $a$x
+            $a$b    $a$b                        $a$b    $a$b            $a$x
+            $a$b      $a$b                    $a  $b    $a$b            $a$x
+            $a$b  $a        $b            $a  $d$a$b    $a$b            $a$x
+              $a  $x  $a  $d$a            $d    $a$b  $a$b              $a$x
+                    $a$b  $a$d                $a$b    $a$b              $a$x
+                    $a$b    $a  $d        $a  $b    $a$b                $a$x
+                      $a$b      $a        $b        $a$b              $a$x
+                        $a  $b                    $a$b                $a$x
+                        $a$b$a  $b              $a$b                  $a$x
+                        $a$b                  $a$b                    $a$x
+                          $a  $b          $a  $b                      $a$x
+                          $a$b$a          $b                        $a$x
+                        $a$b                                        $a$x
+                        $a$b                                      $a$x
+                      $a$b                                        $a$x
+                    $a$b                                        $a$x
+                  $a  $b                                        $a$x
+                $a$f$a$b                                        $a  $x
+              $a$f$a$b                                        $a$f$a$x
+              $a$f  $a$b                                      $a$f$a$x
+              $a$f  $a    $b                              $a  $f  $a$x
+              $a$f$a    $f$a                              $f      $a$x
+              $a$f$a  $f                                      $a  $x
+                $a  $f                                    $a  $x
+            $a          $f                        $a      $x
+          $a$g      $a$x$a                        $x
+        $a$g        $a$x
+        $a$g        $a$x
+        $a$g    $a  $x
+        $a      $x
+EOC

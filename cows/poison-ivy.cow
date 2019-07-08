@@ -1,0 +1,69 @@
+# Poison Ivy (Batman: The Animated Series)
+# by Gwendal Uguen - https://www.flickr.com/photos/gwendalcentrifugue/25877125780
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;160m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;35m  ";
+$h = "\e[48;5;29m  ";
+$i = "\e[48;5;84m  ";
+$j = "\e[48;5;78m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t      $a$b  $a  $x
+                    $a$b      $c  $x
+                  $c$a$b  $a$b      $a  $x
+                $c  $a    $b$c$a  $b$c$a$b$x
+                $a$b$a$b$d    $c      $b  $x
+                $a$c$a  $d          $c$b$x
+                $a  $c$d$e  $d      $a$x
+                $a  $f$d$e$g$e$d  $e$a$b$x
+                $a$c$f  $d      $g$e$a$x
+                $c  $b$f$d    $f$d$a$x
+                $c$a$b$f$d  $b  $d$a$x
+              $c  $a$b  $f$d    $a$b  $x
+              $a      $b$f  $d$c$a$b    $x
+            $a$b$f$d$c$b$f$d          $b$x
+          $c$a$f$d    $b$d                $x
+          $a$c$f$d                $g  $d    $x
+          $c$a$f$d      $g    $d$g      $d      $x
+            $c$f$d  $f$h$g            $h$d          $x$h$x
+              $f$d  $h  $g        $h  $x  $d        $g$x$h$x
+              $d    $h        $g    $x        $d$h$g$x$h$x
+              $f$d  $x$h  $g          $x      $h$g    $x
+                $f$d$x    $h$g        $x      $g    $x
+                $f$d$x      $h$g        $x  $g    $x
+          $h$x$f$d  $x      $h$g          $h$g  $x
+          $h  $f$d  $x      $h$g            $h$x
+            $h$f$d  $x    $h$g                $x
+          $h$x$h$d  $x    $h$g                $x
+            $h  $g$d$x    $h$g              $i$x
+              $g    $x  $h$i      $g      $i  $x
+              $h$g  $x  $j$i        $g    $i  $x
+                $h$g$x  $j$i        $g  $i    $x
+                $h$g$x  $j$i        $j$i      $x
+                $h$g$x  $j$i        $j$i      $x
+                $h$g$x  $j$i        $j$i      $x
+                $h$g$x  $j$i        $j$i      $x
+              $h  $g$x    $j$i      $j$i      $x
+              $h$g$x$g$x  $j$i      $j$i    $x
+              $h  $x$g$x  $j$i      $j$i    $x
+              $h  $x        $j$i    $j$i    $x
+                $h$x        $j$i    $j$i  $x
+                $h$x          $j$i  $j$i  $x
+                              $j$i  $j$i  $x
+                              $j$i  $j$i$x
+                              $j$i  $j$i$x
+                              $j$i$j$i  $x
+                            $j  $i$j$i  $x
+                            $j$i  $j$i$x
+                          $j  $i  $j$i$x
+EOC

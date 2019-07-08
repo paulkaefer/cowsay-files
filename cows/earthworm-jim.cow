@@ -1,0 +1,70 @@
+# Earthworm Jim
+# sprite from Earthworm Jim (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/earthwormjim2/sheet/59469/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;131m  ";
+$c = "\e[48;5;174m  ";
+$d = "\e[48;5;254m  ";
+$e = "\e[48;5;17m  ";
+$f = "\e[48;5;61m  ";
+$g = "\e[48;5;146m  ";
+$h = "\e[48;5;124m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;25m  ";
+$k = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+                  $t
+                          $a          $x
+                        $a$b      $c$b$a$x
+                      $a$b$c  $b$c    $b$a  $x
+                      $a$b$c$b$a$b      $c$b$a$x
+                      $a$c$b$a$x$a  $c    $b$a$x
+                      $a$c$b$a$x  $a$b    $c  $a    $x
+                  $a  $b  $a$x  $a  $b$c        $b  $a$x
+                  $b    $a$x  $a$b$c  $b$c    $b  $c  $a$x
+                              $a$c$d    $b$c$b$c$d  $b$a$x
+                              $a  $d      $b  $d    $a$x
+                            $a  $d$c$d    $a$b$d  $b$a$x
+                          $a$b$c$d  $c$b    $d  $b$a$x
+                      $e  $b$c$d      $c$b$c  $a$f  $x
+                  $e$f  $g    $f$b    $c$a$g$d      $e$x
+                $e$f  $d        $g$b    $a  $d      $f$x
+              $e$f  $g$d          $g$h    $i$j$d$g$f  $x
+              $f    $g$d            $f$h  $i$e$j$d$f$g$e$x
+              $f    $g$d              $g$f$k  $e$j$g$f  $x
+              $e$f  $g$d                  $f$e$g$e$f  $g$e$x
+              $e$f    $g$d                  $g$f$e  $f$g  $x
+                $e$f    $g        $d            $e  $f  $d$f$x
+                  $e$f            $g$d            $f$e$j    $e$x
+                    $f              $g$d        $f$j    $e$i  $x
+                      $f                $g  $d$j    $k  $i$e$j$e$x
+                        $e$f    $g  $f        $j  $k  $j    $e$j$e$x
+                          $e$f    $g$d$g$f$e  $j$i$k$j        $e  $x
+                            $e$f    $d  $f$e$f$j$e$i$j          $e  $x
+                                $f  $g$f$e$f$g$f$j$e  $j          $e$x$e  $j$e  $x
+                                  $f  $e                  $j        $e$j    $e$x
+                                  $e    $f  $g$d  $f$e      $j            $e$x
+                                  $e$f  $d          $f$e      $j          $e$x
+                                  $e$f  $d  $g    $d  $g$f$x  $e$j          $e$x
+                                  $e$f$g$d$g$f  $e$f$d    $f$x  $e$j          $e$x
+                                  $e$f$g$d$f$x$e      $f$d  $g$f$e$j            $e$x
+                                  $e$f$d  $e$x$e        $f$g$d  $f$e$j  $e    $j  $e$x
+                                  $e$f$d$g$e$x$e      $x    $f$g$d$f$e  $x    $e  $x
+                                  $e$f$d$f$x  $e    $x          $f$d$f$x
+                                  $e$f$d$f$x  $e    $x          $e$g$d$f$x
+                                  $e$f$d$f$x                      $f$d$g$e$x
+                            $e$f    $g$d$e$x                      $f$d  $f$x
+                    $f      $g$d  $g    $e$x                        $f$d  $f$x
+                  $e$g$f$j    $e  $x                                  $f$g  $e$x
+                  $f  $j      $x                                        $e$g$f$x          $f  $g$d$g$f  $x
+                $f$g$f$g$d$g$f  $j$x                                      $f$g$f$x$f  $g$d$f$d      $g$f  $x
+              $e$g  $d  $f$g$d    $f$x                                      $e$g$d$f$d  $g  $d      $f$d$g$x
+              $j                $e$f$x                                        $j                    $e$j$f$e$x
+EOC

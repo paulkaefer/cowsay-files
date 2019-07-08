@@ -1,0 +1,33 @@
+# The Cheat (Homestar Runner)
+# by Unknown - https://www.pinterest.com/pin/354095589426022970/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;220m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;228m  ";
+$e = "\e[48;5;229m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+
+                  $a$x$a$b$x                $c  $d$x
+                    $a  $x      $c            $d  $x
+                  $b$a$b$a  $c    $b$c$b$c    $d$x
+                $b  $a      $c    $b$c$b$c  $d$x
+                    $a      $c            $e$x
+                    $b$a  $c          $e      $x
+                  $a      $c          $a$e      $x
+                  $a$b$a  $c              $e    $x
+                $b$a      $c              $e    $x
+                $a$b$a  $c                $e  $b$x
+              $b$a      $c              $e    $c  $x
+              $a  $x$b$a$c                $e  $c$b$c$x
+                  $b  $a  $c                $e$x$c  $x
+                $a      $c                    $d$x
+                $b$a  $b$c  $x        $c        $d$x
+EOC

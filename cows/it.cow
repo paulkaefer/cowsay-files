@@ -1,0 +1,72 @@
+# Pennywise (It)
+# Unknown - https://www.teepublic.com/t-shirt/1910853-pennywise-it-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;214m  ";
+$c = "\e[48;5;202m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;60m  ";
+$f = "\e[48;5;94m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;130m  ";
+$i = "\e[48;5;7m  ";
+$j = "\e[48;5;208m  ";
+$k = "\e[48;5;236m  ";
+$l = "\e[48;5;103m  ";
+$m = "\e[48;5;210m  ";
+$n = "\e[48;5;221m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t                      $a                        $x
+                    $t            $a      $b                        $a      $x
+                      $t      $a  $b    $c  $b                    $c  $b    $a  $x
+                          $a  $b$c                  $b    $c                  $b$a  $x
+                        $a$b  $c  $d              $c        $d              $c  $b  $a  $x
+                      $a$b$c  $d      $a        $d    $c$d    $a        $d      $c  $b$a  $x
+                    $a$b$c  $d    $a  $e        $a  $d    $a  $e        $a  $d    $c  $b$f$a$x
+          $a        $b$c    $d$a  $e  $g      $e    $a    $e    $g      $e  $a  $d$c    $b$f$a      $x
+        $a$h$b  $h$a$b$c  $d$a$e  $g  $i      $g    $e    $g    $i      $g  $e  $a$d$c  $b$f$h$b  $h$a$x
+        $a$h$j$c$f$b$c  $d$a$e$g  $i    $g                            $i    $g  $e$a$d$c  $b$f$c$j$h$a$x
+        $a$c    $f$b$c  $d$a$e$g$i    $g                                $i    $g$e$a$d$c  $b$f$c    $a$x
+    $a    $c$j  $c$b$c$d$a$e$g  $i  $g                                    $i  $g  $e$a$d$c$b$c$j$b$c$a  $k$x
+    $h$f$h$j$c  $j$b$c$d$a$e$g$i    $g                                    $i    $g$e$a$d$c$b$j$c  $j$h$f$h$x
+    $a$h$c$h$j    $c  $d$a$e$g$i    $g                                    $i    $g$e$a$d$c  $j    $c  $h$f$x
+    $a$h$j$b$j    $c$j$d$a$e$g$i  $g                                      $i    $g$e$a$d$j$c$j        $h$f$x
+      $a$c  $j  $h$c$j$d$a$e$g$i  $g                                        $i  $g$e$a$d$j$c$h$j$b$c  $a$x
+        $a$c$j$b$j$c$j$d$a$e$g$i  $g                                        $i  $g$e$a$d$j$c$j$b$j$c$a$x
+          $a$h$b  $j  $d$a$e$g$i  $g                                        $i  $g$e$a$d$j  $b  $h$k$x
+          $a$f$j$b  $j$h$a$e$g$i  $g                                        $i  $g$e$a$h$j$b  $j$f$a$x
+          $a$f  $b  $c$h$d$a$l$g$i  $g                                    $i  $g$l$a$d$h$c$j$b$f  $a$x
+            $a$k$j$b$c  $d$a$e$g$i  $g                                    $i  $g$e$a$d$c$h$b$j$k$a$x
+            $a$d$f$j$b$c$d  $a$l$i  $g                                    $i  $l$a$d  $c$b$j$f$a  $x
+              $a$d$f$b$j$d  $a$e$i    $g$m$g                        $m$g$i    $e$a$d  $j$b$f$d$a$x
+                $a$d$f$b$c$d  $a$l$i  $g$c$g                        $c$g$i  $l$a$d  $c$b$f$d$a$x
+                $a$d$f$b$j$d  $a$e$i  $g$c$g                        $c$g$i  $e$a$d  $j$b$f$d$a$x
+                $a$f$b$h  $c$d$a$e$i    $c$g                        $c$i    $e$a$d$c$h  $b$f$a$x
+                $a$f$h$d  $h$d$a$l      $c$i  $g                $i  $c$l      $a$d$h$d  $h$f$a$x
+                $a$f$h$a  $d  $a$l$e    $d$l  $i  $g        $i  $l  $d$e    $l$a$d  $a  $h$f$a$x
+                  $a  $x  $a$d$a$i$l$e  $f$k$e$l$i  $g    $i  $l$e$k$f$e  $l$i$a$d$a$x  $a  $x
+                          $a$k$a$i$e$k$n  $a$e    $l$i    $l$e    $a$n  $k$e$i$a$k$a$x
+                            $a  $i  $g$k$n$a$n  $k$e$l$g$i$e$k$n  $a$n$k$g$i  $a  $x
+                              $a$i$g    $k      $i  $l$g  $i  $k      $g    $i$a$x
+                                $a$g    $c$g  $i    $l$g    $i  $g  $c$g    $a$x
+                                $a$g  $c$g      $i  $l$g    $i$g      $c$g  $a$x
+                                $a$i$c$g        $d      $c  $d$g        $c$i$a$x
+                                $a$i$d$g    $l$g$k$d$c    $g$k$g$l$g    $d$i$a$x
+                                  $a$g$d$g  $l$g  $k        $g  $l$g  $d$g$a$x
+                                    $a$g$f$l$g                    $l$f$g$a$x
+                                      $a$g$k$d    $g        $d    $k$g$a$x
+                                      $a$g  $k$d$g$d        $g$d$k$g  $a$x
+                                        $a$l$g$k$d$g        $d$k$g$l$a$x
+                                        $a$l$g  $k$d$g    $d$k$g  $l$a$x
+                                          $a$g  $k$d        $k$g  $a$x
+                                            $a$g  $k        $g  $a$x
+                                              $a$g            $a$x
+                                                $a$g        $a$x
+                                                  $a        $x
+EOC

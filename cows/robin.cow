@@ -1,0 +1,71 @@
+# Robin (Batman the Animated Series)
+# by RGZNSK - https://www.behance.net/gallery/45634123/Batman-The-Animated-Series
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;174m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;95m  ";
+$f = "\e[48;5;208m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;22m  ";
+$i = "\e[48;5;226m  ";
+$j = "\e[48;5;77m  ";
+$k = "\e[48;5;161m  ";
+$l = "\e[48;5;214m  ";
+$m = "\e[48;5;209m  ";
+$n = "\e[48;5;61m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t        $a$x
+              $t      $a            $x
+                    $a                $x
+                      $a                  $x
+                        $b$a$b    $a    $x
+                        $c  $a$c  $b$a  $x
+                        $a$b  $a  $b$a  $x
+                        $d$a  $d  $a$b  $x
+                        $a$c$b$a  $b$c$b$x
+                        $c    $b    $x
+                        $c      $b  $x
+                        $c      $b$e$x
+                            $e      $x
+                          $a          $x
+                      $a                      $f$x
+                    $a                    $f  $g$a$x
+                  $a        $g$a      $f  $g  $h  $x
+                  $a      $g    $i    $g    $j$h  $x
+                  $a    $g$i  $k$a    $g  $j$h      $x
+                $a    $h$k    $a$i$l$a  $g$j  $b$e$h$x
+                $a    $h$k$i  $a$i$a$l$a$g$j$c$b  $h$x
+                $a  $h  $k      $a    $g  $j$c  $b$e$x
+                $a  $e  $f$i  $k  $g      $f  $c$b$e$x
+                $a$e$c$b$f$k      $g      $f$c  $b  $x
+                $a  $c$b$f$k      $g      $c  $b  $x
+                $a  $c  $e$k      $g    $j$c$b  $a$x
+                $a  $f$c$h$i      $f  $j$h  $m$a  $x
+                $a  $f$j$h$i      $f$j$h    $f$a  $x
+                $a  $f  $j$k      $g$j$h  $f  $a  $x
+                $a  $f$j$h$k      $g$j  $h  $f$a  $x
+                $a  $f  $j$k      $g  $j$h  $f$a  $x
+                $a  $f  $j  $k  $j$h    $f    $a  $x
+                $a  $f$j    $h  $j$h    $f    $a  $x
+                $a  $f$j  $h    $j$h    $f    $a  $x
+                $a  $f$j    $h    $j$h    $f  $a  $x
+                $a  $f$j  $h  $f  $j  $h  $f  $a  $x
+                $a  $f$j  $h  $f  $j  $h  $f  $a  $x
+                $a  $f$j  $h  $f  $j  $h  $f  $a  $x
+                      $j  $h  $x  $j  $h  $x
+                      $j  $h  $x  $j  $h  $x
+                      $n  $a  $x    $n$a  $x
+                      $n  $a  $x    $n$a    $x
+                      $n  $a  $x    $n$a    $x
+                      $n  $a  $x    $n$a    $x
+                      $n  $a  $x    $n  $a  $x
+                  $n    $a    $x$n  $a      $x
+EOC

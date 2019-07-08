@@ -1,0 +1,73 @@
+# Minion (Despicable Me)
+# by VicblahDesigns - https://www.deviantart.com/vicblahdesigns/art/Minion-Pixel-Art-541008062
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;239m  ";
+$b = "\e[48;5;102m  ";
+$c = "\e[48;5;184m  ";
+$d = "\e[48;5;251m  ";
+$e = "\e[48;5;248m  ";
+$f = "\e[48;5;142m  ";
+$g = "\e[48;5;226m  ";
+$h = "\e[48;5;100m  ";
+$i = "\e[48;5;254m  ";
+$j = "\e[48;5;58m  ";
+$k = "\e[48;5;233m  ";
+$l = "\e[48;5;234m  ";
+$m = "\e[48;5;236m  ";
+$n = "\e[48;5;241m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+                  $t
+                        $a$x  $b$x
+                  $b$x    $a$x  $a$x$b$a$x
+                    $b$x$b$a$b  $a$b  $a$b$x
+            $b$x  $a$x$b$c    $d              $x
+              $b$x$a  $c  $d$e            $b$e$d$x
+            $a$x$b$c    $d  $e$f            $b$e$d$x
+              $a$c  $g  $d$e  $h$g$c        $f$b$e$x
+              $b$c$g  $d  $e  $h$g$c$a        $b$e$d$x
+            $a$g    $e  $d$e  $h$g$a  $c    $f$b$e$d$x
+            $b$g  $e    $d$e  $h$g  $c      $f$b$e$d$x
+            $g  $e    $b    $e  $h  $g$c    $f$b$e$b$x
+            $g$d$e  $b$f$b    $e    $h      $e  $b  $x
+            $d$e  $b$f  $g  $b    $e          $b$c  $x
+          $d$e$b  $f  $g      $b              $c    $x
+          $d$b$f    $g                    $c        $x
+          $d$b$f$g                  $c              $x
+          $d$b$c$g              $c                  $x
+              $c$g            $c                    $x
+              $c$g              $c                    $x
+              $c$g            $d  $e$d$i$e$d$i$e$d$h$c$x
+              $c$g    $j$e$d$e$d$i$e$d$i$e$d$i$e$d$h$c$x
+              $c$g    $j$e$d$e$i$k            $l$d$h$c$x
+              $c$g    $j$e$d$k                $l$j$h$c$x
+              $c$g    $c$k                    $l$j$h$c$x
+              $c$g    $c$k                    $l$j$h$c$x
+              $c$g      $c$k                  $l$j$h$c$x
+                $g        $c$d  $k            $l$j$h$c$x
+                $g          $c$d$e$d$i$e$i  $e$i$d$c  $x
+                $g            $c                      $x
+              $c$g                  $c                  $x
+            $c$g                      $c            $f$g$c$x
+            $c$g                            $c      $f$g  $x
+            $c$g                                $c  $f  $g$x
+            $c$g$f  $g  $c    $d                    $x$f$g  $x
+          $c$g$f$x$b$e$d                        $i$d$x$f  $a$x
+          $c$g$f$x$b$e$d$i$d              $e    $i$d$x$m$a    $x
+          $c$g$f$x$b$e$d$i  $d                $i  $d$x  $m  $a$n$x
+          $a  $m$x  $e$d$i    $d              $e$i$d$x    $a$m$a$x
+          $a  $m$x  $e$d$i      $d                  $x    $m$x$a$x
+        $a    $m$x  $e$d                $e  $f$g$c$x
+        $a  $m  $x    $g    $f$e          $f$g$c$x
+        $a    $x        $g  $f  $b      $f$g$c$x
+          $a  $x        $g  $f$x        $f$g$c$x
+                        $a  $m$x        $m$a  $x
+                      $a$n$a$m  $x      $m$a  $n$x
+                      $n$a    $m$x      $m$a    $n$x
+EOC

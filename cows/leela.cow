@@ -1,0 +1,73 @@
+# Turanga Leela (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;127m  ";
+$c = "\e[48;5;141m  ";
+$d = "\e[48;5;89m  ";
+$e = "\e[48;5;53m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;216m  ";
+$h = "\e[48;5;223m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;95m  ";
+$k = "\e[48;5;173m  ";
+$l = "\e[48;5;217m  ";
+$m = "\e[48;5;251m  ";
+$n = "\e[48;5;110m  ";
+$o = "\e[48;5;153m  ";
+$p = "\e[48;5;255m  ";
+$q = "\e[48;5;60m  ";
+$r = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                $a    $x                    $a$x
+            $a  $b    $a  $x        $a      $c$a$x
+          $a$d  $b        $a$x  $a  $c      $a$x$a  $x
+        $a$d  $b            $a  $b          $c$a$c  $a$x
+          $a  $d$e$b      $f  $b              $c$a  $x
+          $a$d$b        $a$f$d$b  $c  $b        $c$a$x
+        $a$d$b        $a    $d$b$c$b    $c$b      $c$a$x
+        $a$d  $b  $d$e$a  $d$b        $g$b        $c$a$x
+      $a$e$d  $b$d$e$a  $d  $b      $g$h$g  $b      $a$x
+      $a$e  $d      $a$e$d$b      $g$h    $g  $d  $b$c$x
+      $a$e  $d      $a$e$d  $b  $g$h    $i      $a$d$b$x
+      $a$e  $d      $a$e  $d$b  $g$h$i      $a$i$a  $b$x
+        $a$e  $d    $a$e  $d  $b$g$h$g$i        $h$a$b$x
+        $a$e  $d    $a$e  $d$j$g$b$g$h$g    $h$g$h$a  $x
+        $a$e    $d    $a$e  $g$h$b  $h              $a$x
+        $a$e    $d    $a  $e    $k$g$b$h  $l    $a  $x
+          $a$e    $d    $a    $e$k$g  $h        $a$x
+          $a$e    $d    $a$x  $a  $k$g  $h    $a$x
+            $a$e    $d    $a$x  $a$j  $k$a    $x
+              $a$e    $d  $a    $i$j$g  $i$a  $x
+                $a$e    $d$a$g$i  $g  $h  $i$h$a$x
+                  $a$e  $d$g$h  $i  $g$h  $i  $h$a$x
+                $a$e    $g$h    $m$i  $h$g$i  $h$a$x
+                $a$e  $k$h    $g$m$i            $h$a$x
+              $a$d$a$k$g  $h$g  $m$i            $h$a$x
+                $a  $k$g    $m    $i          $g$h$a$x
+                  $a$n$o    $p$m$i    $m    $g$h$a$x
+                    $a$n$o    $p$m$i        $g$a$x
+                      $a$n$g  $h$m  $i      $g$a$x
+                        $a  $k$g$h$m  $i    $g$h$a$x
+                        $a$k  $g$h$m  $i    $g$h$a$x
+                      $a$g  $h  $a$f        $a  $x
+                        $a        $f          $a$x
+                        $a      $f  $a  $f    $a$x
+                      $a      $f    $a  $f    $a$x
+                      $a      $f  $a      $f  $a$x
+                      $a      $f  $a      $f  $a$x
+                      $a$q        $a  $q      $a$x
+                      $a$r    $q$a$x$a$q$r$d  $a$x
+                    $a$q        $a$x$a$q        $a$x
+                    $a$r    $d  $a$x$a$r    $d  $a$x
+                      $a        $x    $a        $x
+EOC

@@ -1,0 +1,80 @@
+# Megazord (Power Rangers)
+# by Tú Bùi - https://dribbble.com/shots/2560662-Mighty-Morphin-Power-Rangers
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;188m  ";
+$b = "\e[48;5;255m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;167m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;124m  ";
+$h = "\e[48;5;249m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;214m  ";
+$k = "\e[48;5;247m  ";
+$l = "\e[48;5;88m  ";
+$m = "\e[48;5;32m  ";
+$n = "\e[48;5;76m  ";
+$o = "\e[48;5;25m  ";
+$p = "\e[48;5;250m  ";
+$q = "\e[48;5;24m  ";
+$r = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+                      $t
+            $a$x        $t
+          $a  $b$x        $t
+          $a  $b$x          $t                    $c$x
+          $a  $b$x            $t            $d$x  $c$x  $d$x
+          $a  $b$x              $t        $d$b$x  $c$x  $b$d$x
+          $a  $b$x                $t    $d$b$d$x  $c$x  $d$b$d$x
+          $a  $b$x                    $d$b$d$x  $e$c$f$x  $d$b$d$x
+          $a  $b$x                    $d$b$d$x$e  $f    $x$d$b$d$x
+          $a  $b$x                    $d$b$d$g$d  $f$d  $g$d$b$d$x
+          $a  $b$x                    $d  $b$g$b  $d$b  $g$b$d  $x
+          $a  $b$x                      $d  $a$c  $b$c  $a$d  $x
+          $a  $b$x                      $d  $g$d  $h$d  $g$d  $x
+          $a  $b$x$i    $x                $d$g$e$h$a  $f$g$d$x                $i    $x
+          $a  $b$i        $x                $f$e$a    $f  $x                $i          $x
+          $a  $b$i$c  $i    $x$g            $d                          $x$i    $c  $i      $x
+      $i  $a  $b$c      $i  $f$h$a        $h$d            $a$b        $a$i    $c        $i      $x
+        $i$a  $b$d$c$d$c  $i$f$a$h$a    $h$a  $b        $a$b$a$b    $a$b$i  $c  $d$c$d$c    $i$x
+          $a  $b$c$d$c$d$c  $f$a$h$a    $h$a$b$a$b    $a$b  $a$b    $a$b$i$c  $d$c$d$c$d$c  $x
+          $a  $b$c$d$c$d$c  $j$a  $h$a$h$a  $b$a$b    $a$b    $a$b$a$b  $c    $d$c$d$c$d$c$x
+          $a  $b$c$d$c$d$c  $k$l      $a    $b  $a$b$a$b        $d      $k$c  $d$c$d$c$d$x
+          $a  $b$c$d$c$d$c$k  $l        $a  $b  $a$b$a$b      $d        $k  $c$d$c$d$c$x
+          $a  $b$x  $k    $h$k$x$l        $a$b    $a$b      $d        $x$k$h$k$h  $x
+        $a    $b  $x  $h    $x    $l        $g            $d        $x    $h    $x
+        $a    $b  $x$b        $x    $e$l    $g$d        $g$d    $e$x    $b        $x
+        $a    $b  $x$b        $x    $e  $l  $g$d$c$m$c$d$g$d  $e$i$x    $b        $x
+        $a    $b  $x$b        $x    $e  $h$l$g$d$c$m$c$d$g$d$h$i  $x    $b        $x
+        $a$j$a$c$b$x  $a    $x        $e$a$h$g$d$c$m$c$d$g$h$a$i$x        $b    $x
+        $a$j$a$c$b$x$i      $f$x      $e$a  $e$d$c$m$c$d$e$a  $i$x      $e        $f$b    $i$x
+        $a$j$a$c$b$i$f  $i$f  $x      $e$h  $e            $h  $e$x      $e    $f    $b$i$b$i  $x
+        $a$j$a$c$b$f  $i$f    $x      $b  $m  $d        $m  $b  $x  $c      $j$f$i$f$b$i$b$i    $c        $x
+      $a$j$a  $b$c$b$i$c$f    $x      $b    $m$d$c    $d$m$b    $x$c$f$e    $j$f$i$f$b$n$b$i    $c$e$f    $c$x
+      $a  $h    $b  $d$c$f    $x      $b      $d        $b      $c$f    $e  $j$f    $b    $f  $i$c$e  $f    $c$x
+      $a$x$h    $e$b$d$c$f  $x      $d        $e        $d      $c          $j$f$n  $c$i$c$n  $i$c            $x
+        $i    $f$i$e$d$c$f$x      $d          $e        $d      $c$f      $e$b$f$i  $c$d$c$i  $f$b$e$f      $c$x
+        $i    $f$i$e$d$c$x        $d          $e        $d      $c$f      $j$b$f$i    $c$i    $f$b$j$e$f    $c$x
+        $i    $f$i$e$d$x          $d            $e    $d          $c$f$c  $e$b$f  $i          $f$b$e$c  $f$c$x
+        $i    $f$i$x                $b          $f    $b          $c  $f  $e$b  $e$f$i      $x$b  $e$f  $c  $x
+        $i    $f$x                    $k  $b    $f    $b    $h  $x$c$f    $j$b  $e  $b    $i$x$b  $j$e$f  $c$x
+            $e  $x                    $h  $k  $x        $h      $x  $c$f$c$x$a$b$x  $b$a$b$x  $a$b$x$c$f$c$x
+            $f  $x                $b  $i  $b$a$x        $a$b$i  $b  $x$c$x  $a  $x  $a    $x  $a  $x  $c$x
+            $e  $x                $b  $i  $b$a$x        $a$b$i  $b  $x      $a  $x  $a    $x  $a  $x
+            $f  $x                $b$i  $b$a$x            $a$b$i  $b$x              $a    $x
+            $a  $x              $b  $i  $b$a$x            $a$b$i  $b  $x            $a$h$a$k$x
+            $b$x                $b      $a$x                $a$b      $x            $k$h  $k$x
+                            $j  $a  $b  $a$x                $a$b  $a  $m  $x        $k  $h$k$x
+                            $c  $j  $a    $x                $a    $m      $x
+                            $c$j$b  $c    $j  $x        $o  $m  $o$b  $m  $x
+                          $c  $j$b$d$b$c  $j  $x        $o  $m$o$b$d$b$m    $x
+                          $c  $j$b$d$b$c  $j  $x        $o  $m$o$b$d$b$m    $x
+                          $c  $j$a$b$c  $j  $i$x        $i$o  $m$o$b$a$m    $x
+                        $c  $j$b$a  $c  $j  $x            $o  $m$o$a  $b$m    $x
+                        $c  $j$b  $a$c  $j  $i$x        $i$o  $m$o$a$b  $m    $x
+EOC

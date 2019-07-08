@@ -1,0 +1,42 @@
+# Sylvester the cat
+# by Unknown - https://www.brik.co/blogs/pixel-art/sylvester-the-cat-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+          $t              $a$b$x
+            $t      $b  $x$a$b$x
+              $t    $a  $b$a  $b$x
+                $t    $a  $b$a$b  $x
+                      $b          $x
+                      $b  $a$b    $x
+                    $b  $a  $b      $x
+                  $b$a$b$a  $b        $a  $x
+                  $b$a$b$a  $b    $a          $x
+                  $b$a$b$a  $b  $a              $x
+        $c        $a$b  $a$b$a                $x
+      $c            $a        $d$a              $x
+      $c            $a        $d$a                $x
+        $c          $a      $d$a                  $x
+        $a  $c    $a        $d$a                  $x
+          $a              $d$a    $b$x  $a  $x$a  $x
+            $a  $x$a$d    $a  $b  $x            $a$x
+                      $a    $b  $x
+                    $b$a    $b$x
+                $b  $a    $b      $x
+              $b  $a      $b        $x
+            $b  $a      $b          $x
+            $b$a        $b          $x
+          $b  $a      $b              $x
+          $b  $a      $b                $x
+        $b    $a      $b                $x
+      $b      $a      $b                  $x
+      $b      $a      $b      $x$b          $x
+      $b      $a        $b    $x$b          $x
+EOC

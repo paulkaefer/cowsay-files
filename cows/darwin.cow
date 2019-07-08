@@ -1,0 +1,75 @@
+# Charles Darwin
+# by Diego Sanches - https://diegosanches.com/science-kombat
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;224m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;248m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;237m  ";
+$h = "\e[48;5;60m  ";
+$i = "\e[48;5;16m  ";
+$j = "\e[48;5;236m  ";
+$k = "\e[48;5;240m  ";
+
+$the_cow = <<EOC
+                $t                      $a            $x
+                  $t                  $b    $a            $x
+                    $t              $c$d  $b  $a            $x
+                      $t            $c$d    $b$a              $x
+                        $t        $c$d      $b    $a            $x
+                                  $c$d$b$c$d$b    $a              $x
+                                  $c  $b  $d$b    $a    $b    $a  $x
+                                $c    $b$e$d$b$a  $c    $d$b$c    $x
+                                $c    $e  $d$b  $c  $f  $e$b$f  $x
+                                $c    $g  $c$b      $e    $a  $b$x
+                                $c  $g    $c$d$e$b        $a  $b$x
+                            $h  $g        $d    $e$b  $e$b  $a$c$x
+                        $h        $g  $h$g$c  $d    $c  $e    $d$c$x
+                    $h            $g$h  $g$c  $d        $c    $d  $x
+                  $h    $g$h    $g$h      $c    $d    $c$e  $d    $x  $a      $x
+                $h      $g  $h  $g$h        $c    $d  $c      $d$c$x  $b$a      $x
+                $h      $g        $a    $b$e$c    $d$c$d$c$d$c$d$c$i$a  $e$a    $x
+              $h      $g        $a  $e      $c    $d            $c$g$b    $e$b$a  $x
+            $h      $g        $a      $b  $e$c    $d              $g  $e    $b$e  $x
+          $h    $g        $h  $a    $b$e  $f$c    $d$c$d        $c$g  $e    $b$e  $g$x
+        $h    $g  $h          $a    $b  $e$f  $c      $d        $c$f$g  $e      $g$h$x
+      $h                      $b    $e  $f      $c    $d        $c$f$g          $h  $x
+      $h                  $g$h$f$e    $f    $g$f$c      $d$c$d$c  $f$g  $h          $x
+      $g$h              $g    $h$f        $h$g  $f$c        $d$c$f    $g  $h      $g$x
+      $g  $h        $g            $f    $g$h$g  $f  $c      $d$c$f    $g  $h      $g$x
+      $f$g  $h  $g            $f      $g  $f$h$g  $f  $c    $f        $g    $h  $g$x
+        $f$g              $f        $g      $f$h$g$f                  $g    $h$g  $x
+          $f  $g      $f          $g          $f$g  $f                  $g      $x
+              $f                $g              $f              $x$f        $g$x
+                  $f          $g                  $f  $g      $f$x
+                  $f    $g                $h    $g$f$g        $f$x
+                    $f$g                $h      $g$f$g        $f$x
+                    $f$g              $h        $g$f$h$g        $f$x
+                    $f$g            $h          $g$f$h  $g      $f$x
+                    $f$g          $h            $g$f$h  $g      $f$x
+                    $f$g        $h            $g  $f$h    $g      $f$x
+                  $f$g        $h            $g    $f$g$h      $g    $f$x
+                  $f$g      $h              $g  $f$g    $h        $g  $f$x
+                  $f$g    $h              $g  $f    $g      $h      $g  $f$x
+                $f$g    $h            $g    $f$j    $f$g        $h      $g$f$x
+                $f$g  $h          $g      $f$j        $f  $g              $f$x
+              $f$g  $h          $g      $f$j              $f  $g          $f$x
+              $f$g$h        $g      $f  $j                    $f        $g$f$x
+              $f$g$h    $g        $f$j                                  $f$x
+              $f$g$h$g        $f  $j        $f        $j      $k            $x
+              $f$g        $f  $j          $f              $j    $k          $x
+              $f$g  $f    $j      $k$j  $f                $j    $k            $x
+                $f  $j        $k    $j  $f              $x  $j    $k            $x
+                $f$j        $k      $j$f              $x      $j  $k            $x
+                  $j      $k        $j$f          $x          $j    $k            $x
+                  $j      $k        $j$f$x                      $j    $k          $x
+                    $j  $k          $j$x                          $j    $k        $x
+                    $j  $k          $j$x                          $j    $k        $x
+                    $j  $k          $j$x                            $j    $k    $j$x
+                    $j$k          $j$x                              $j      $k  $j$x
+EOC

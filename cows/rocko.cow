@@ -1,0 +1,43 @@
+# Rocko (Rocko's Modern Life)
+# PixelArtus - https://www.pinterest.com/pin/199776933450026338/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;217m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;81m  ";
+$f = "\e[48;5;140m  ";
+$g = "\e[48;5;216m  ";
+$h = "\e[48;5;203m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t        $a  $x  $b  $x
+                $t      $a  $x  $b  $x
+                  $t    $a  $x  $b  $x
+                            $a$x    $b$x
+                            $a$x    $b$x
+                            $a          $x
+                          $a              $x
+                          $a$c    $a  $c    $x
+                          $a$c  $d$a  $d$c  $x
+                        $a  $c    $a  $c    $a$x
+                      $a                          $x
+                      $a  $c$a                      $x
+                        $a  $c  $a        $d    $c$a$x
+                            $e$b  $a      $d      $a$x
+          $a        $x    $f  $e$b    $a          $x
+          $a        $x    $f$e          $f$x
+                $a        $e    $f  $e  $f  $x
+                $a      $e      $f$e        $x
+                $a      $f$e$a$e          $f$b$x
+                  $a    $f  $a$e    $a$e$f  $b$x
+                        $e  $a$e  $a    $e  $b$x
+                          $a  $g  $h      $b  $x
+                        $g$a  $g      $h  $b  $x
+                        $g            $h      $x
+EOC

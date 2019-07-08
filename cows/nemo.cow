@@ -1,0 +1,39 @@
+# Nemo (Finding Nemo)
+# by Unknown - https://www.brik.co/blogs/pixel-art/finding-nemo-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                    $a  $x
+                $t            $a    $b  $a$x
+                  $t        $a$b    $c  $b  $x
+                          $a$b$c              $x                  $b      $x
+                          $a$b$c                  $b  $a$x      $b$c      $b$x
+                          $a$b$c              $b  $a  $b  $x    $c          $b$x
+                          $a  $b$c          $b$a    $b$c      $x$c          $b$x
+                            $a  $b$c      $b$a  $b  $c                      $b$x
+                              $a$b$c      $b$a$b$c            $a$c          $b$x
+                          $a    $b$c      $b$a$b$c            $d$a$c        $b$x
+                        $a$b  $a  $b$c    $b$a$b$c            $d$a$c        $b$x
+                        $a$b$c$b$a  $b$c  $b$a$b$c  $a  $c    $a  $c      $b$x
+                        $a$b$c  $b$a  $b$c$b$a$b$c$a$d  $a$c          $x
+                            $c  $b$a  $b$c$b$a$b$c$a$d  $a$c          $x
+                        $b$a  $c$b$a  $b$c  $a$b$c$a    $c            $x
+              $a$b$c      $b$a$c  $b$a$b  $c$a$b$c              $b$c$x
+            $a$b$c          $b$a$c$b$a  $b$c$a$b$c      $b      $c  $x
+          $a$b$c              $b$a$c$b$a$b$c  $a$b$c              $x
+          $a$b$c              $b$a$c$b$a$c      $a  $c          $x
+          $a$b$c                $b$x    $c    $x$c  $a      $x
+          $a$b$c                $x  $b$c      $x$b$c  $x
+            $a$b$c            $x      $b$c    $x  $b  $x
+              $a$b$c        $x          $b  $x
+                $a$b  $c$x
+EOC

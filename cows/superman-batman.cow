@@ -1,7 +1,7 @@
 # Superman and Batman
-# by Charlie M
+# by mysansa - https://imgbin.com/png/rjijhLH5/pixel-art-youtube-png
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #black
 $a = "\e[48;5;246m  ";  #gray
 $d = "\e[48;5;240m  ";  #dark gray

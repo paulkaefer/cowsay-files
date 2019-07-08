@@ -1,0 +1,62 @@
+# Plankton (Spongebob Squarepants)
+# by Unknown - http://www.minecraftpixelarttemplates.com/2013/02/plankton-spongebob.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;29m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;72m  ";
+$d = "\e[48;5;222m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;88m  ";
+$h = "\e[48;5;217m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a            $x
+                $t        $a                  $x
+                    $a          $x    $a        $x
+                $a                $x    $b          $x
+              $a      $x$a  $x$a    $b  $c$a        $b    $x
+          $b  $a  $x    $a$b$x  $a      $c            $b    $x
+            $a$b$x    $a  $x$b$x  $a    $c          $b    $c$b$x
+          $a    $b$x$b  $a$x      $a  $c        $b      $c    $b$x
+        $b  $x        $a$b  $x  $b$a$c$b                  $c    $b$x
+          $b  $x    $b$a$x      $b$a$b            $d      $b$c  $b$x
+        $a$x          $b$x      $b$a$c    $b$d        $e$d  $b$c  $b$x
+      $b    $x      $a  $b$x    $b$c      $b$d      $e    $d$b$c  $b$x              $b$x
+        $a$x        $a$x          $b$c    $b$d      $e    $d  $b$c  $b$x          $b$a$b$x
+        $a$x      $b    $x        $b$c    $b$d        $e$d    $b$c  $b$x        $b$a  $b$x
+      $b    $x      $a$x            $b$c  $b$d                $b$c  $b$x      $b$a    $b$x
+        $a$x                        $b$c    $b$d              $b$a$c$b$x    $b$a    $b$x
+                                      $b$c    $b$d        $b  $a  $c  $b    $a    $b$x
+                  $b    $x            $b$c    $a$b        $a    $c    $b$a      $b$x
+                $b$c    $b$x            $b$c    $a          $c        $b$a    $b$x
+                $b$c  $b            $x  $b$c                          $b$a    $b$x
+                  $b$c$a  $c        $b      $c                $b    $c$b$a  $b$x
+                    $b    $c                        $b        $f  $b$c  $b  $x
+                          $b    $c$a    $c        $b$f  $b$f  $b    $c  $b$x
+                                $b      $a  $c    $b            $a  $c  $b$x
+                                        $b  $c    $b$g  $b  $g$b$c      $b$x
+                                          $b$c    $b$g$b$h  $b    $c    $b$x
+                                          $b$c    $b$g$b$h$b  $f  $b$c  $b$x
+                                          $b$c    $b$g$b  $f  $b  $a$b$c$b$x
+                                          $b$c    $b$g$b$f$b  $c$a$c$a$c$b$x
+                                            $b$c    $b$f$b$c            $b$x
+                                            $b$c      $b$c              $b$x
+                                            $b$c  $a$c    $a$c          $b$x
+                                            $b$c    $a$c$a$c          $b$x
+                                            $b$c      $a$c            $b$x
+                                              $b$c                    $b$x
+                                              $b$c                  $b$x
+                                              $b$c  $a        $c  $b  $x
+                                              $b$c$b              $a$b$x
+                                            $b$c  $b$x        $b$a  $b$x
+                                            $b$c$a$b$x        $b$a  $b$x
+                                          $b$c  $b$x            $b$a$b$x
+                                          $b$c  $b$x            $b$a$b$x
+                                          $b    $x                $b$x
+EOC

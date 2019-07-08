@@ -7,7 +7,7 @@ These files are intended to supplement the cow files in /usr/share/cowsay/cows.
 
 ## examples
 
-[A sample of each cow file in this repository is here](https://github.com/paulkaefer/cowsay-files/blob/master/examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports full color.
+[A sample of each cow file in this repository is here](examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports color. True color (ending in '-tc') cows will only render in terminals that support full 24-bit color.
 
 ## .cowrc file
 This file allows you to configure a list of cows to randomly display when opening a new terminal session.
@@ -37,11 +37,12 @@ Tips for creating pixel art cows:
 a display of your terminal color palette and the corresponding color codes.
 - If you are scaling down a pixel art image from a larger size, make sure to set "Interpolation" to None/Off or you will get
 color bleed between pixels
-- It is helpful to use a background color that is bright and very different from all other colors on your image 
+- It is helpful to use a background color that is bright and very different from all other colors on your image
 so you can clearly see which pixels are background and which are image. I usually use hot pink or neon green.
 
 Try converting some of the [examples](https://charc0al.github.io/cowsay-files/converter/examples)!
 
-![Boba-fett](https://charc0al.github.io/cowsay-files/converter/examples/boba-fett.png)
-![Donatello](https://charc0al.github.io/cowsay-files/converter/examples/donatello.png)
-![Snowball](https://charc0al.github.io/cowsay-files/converter/examples/snowball.png)
+![Donatello](https://charc0al.github.io/cowsay-files/converter/src_images/donatello.png)
+![Link](https://charc0al.github.io/cowsay-files/converter/src_images/link.png)
+![Pikachu2](https://charc0al.github.io/cowsay-files/converter/src_images/pikachu2.png)
+![Batman](https://charc0al.github.io/cowsay-files/converter/src_images/batman.png)

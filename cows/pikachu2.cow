@@ -1,0 +1,58 @@
+# Pikachu
+# by Unknown - http://pixelartmaker.com/art/76fbd551f8a651c
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                                                          $a  $x
+                  $t                                                    $a      $x
+                                                                    $a          $x
+                                                                  $a$b    $a    $x
+            $a          $x                                      $a$b      $a  $x
+            $a    $c    $a      $x                            $a$b      $c$a  $x
+                $a  $d$b      $c$a      $x$a            $x$a  $b      $c  $a$x
+                  $a  $d$c$b          $c$a$b            $a$c$b      $c  $a$x
+                    $a  $c    $b                                $c    $a$x
+                      $a  $c      $b                          $c$a$c$a$x
+                          $a  $c$a$b                            $c$a$x
+      $a$x                    $a$b                                $a$x
+      $a  $x                  $a$b    $a  $b              $a  $b  $a$x
+      $a$c$a$x              $a$b    $a  $e$a$b          $a  $e$a$b$c$a$x
+      $a$b$c$a$x            $a$b    $a      $b          $a      $b$c$a$x
+      $a$b  $c$a$x          $a$b      $a  $b              $a  $b    $a$x
+      $a$b    $c$a$x      $a$b  $f  $b          $a  $b          $f  $b$a$x
+      $a$b      $c$a$x    $a$b$f      $b                      $f      $a$x
+      $a$b        $c$a$x  $a$b$f      $b  $a$b  $a  $b  $a$b  $f      $a$x
+      $a$b          $c$a$x$a$b  $f  $b      $a  $b  $a  $b      $f  $b$a$x
+      $a$b            $c$a    $b                                    $a$x
+      $a$b              $c$a  $c$b                                $c$a$x
+        $a$b              $a$x$a$b                                $a$x
+          $a$b          $a$x$a$c$b            $c      $b          $c$a$x
+            $a$b      $a$x  $a  $b              $c  $b              $a$x
+          $a$b      $a$x    $a$b          $a$b          $a$b        $a$x
+          $a$b        $a$x$a$b    $a$b    $a$b          $a$b    $a$b$a$x
+            $a$b        $a  $b    $a$b      $a$b      $a$b      $a$b  $a$x
+              $a$b  $c  $d$a$b    $c$a$b    $a$b      $a$b    $a$c$b  $a$x
+                $a$c    $a  $b    $c$a$b    $a$b      $a$b    $a$c$b  $a$x
+                  $a$c$d  $a$b      $c$a$b  $a$b      $a$b  $a$c$b    $a$x
+                $a$d      $a$b        $c$a  $b          $a  $c$b      $a$x
+                  $d      $a$b                                        $a$x
+                    $a  $d$a$c$b                                      $a$x
+                        $a    $b                                    $a$x
+                            $a$c$b                                  $a$x
+                              $a$b          $c        $b          $a$x
+                                $a$c$b$c  $a            $c  $b$c$a$x
+                              $a$b    $a    $x          $a  $b    $a$x
+                              $a        $x                $a        $x
+EOC

@@ -1,0 +1,78 @@
+# Scary Terry (Rick and Morty)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;65;42;44m  ";
+$b = "\e[48;2;82;53;55m  ";
+$c = "\e[48;2;65;45;42m  ";
+$d = "\e[48;2;63;40;42m  ";
+$e = "\e[48;2;68;41;42m  ";
+$f = "\e[48;2;135;36;94m  ";
+$g = "\e[48;2;208;73;151m  ";
+$h = "\e[48;2;76;85;147m  ";
+$i = "\e[48;2;38;38;38m  ";
+$j = "\e[48;2;239;237;113m  ";
+$k = "\e[48;2;62;43;44m  ";
+$l = "\e[48;2;81;15;33m  ";
+$m = "\e[48;2;241;238;192m  ";
+$n = "\e[48;2;154;26;49m  ";
+$o = "\e[48;2;91;110;68m  ";
+$p = "\e[48;2;132;172;87m  ";
+$q = "\e[48;2;99;107;95m  ";
+$r = "\e[48;2;62;87;80m  ";
+$s = "\e[48;2;78;174;144m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                              $a$x
+                $t                          $a$b$a$x
+                  $t                  $a$x  $a$b  $a$x
+                    $t              $a$b$a  $b      $a$x
+                      $t          $a$b    $a$b      $c$x
+                        $t        $a$b    $a$b        $a$x
+                                  $a$b                  $x
+                                $a$b                    $a$x
+                                $a$b                    $d$x
+      $a    $x                $a$b                        $a$x
+          $a                      $e$b                      $a$x
+              $a          $f    $a          $b              $a$x
+                  $a    $f$g    $h  $a    $b$a        $b    $a  $x
+                      $f$g        $f$h    $a  $b      $a      $b$a  $x
+                      $f$g        $i$j  $i  $h$a  $b                $k$x
+                      $f$g  $f$g$i$j        $i$h$a                                  $x
+                    $f    $g$f$g$i$j    $i$j  $i$h          $j$i$g$f$x
+                    $f$g    $f$g$i$j    $i$j  $i$g  $i$j$i$j  $i$g$f$x
+                  $f$g      $f$g$i$j    $i$j  $i$g  $i$j$i$j  $i$g$f$x
+                    $f$g      $f  $i$j        $i$g  $i$j$i$j  $i$g$f$x
+                      $f  $g      $f$i$j    $i$f$g  $i$j      $i$g$f$x
+                      $f$g    $f$g  $f  $i$f$g  $f  $g$i      $g  $f$x
+                      $f$g  $f$g$i            $g          $f$g    $f$x
+                    $f$g  $f$g$i$l      $i$m  $i              $g  $f$x
+                  $f$g    $f$g$i$l      $i$m$i$l    $i$m  $i$l$i$g$f$x
+                $f$g  $f$g$f$g$i$l        $i$l      $i$m$i$l    $i$g$f$x
+                $f$g  $f$g$f$g  $i$l  $i$m$l$n    $l  $i$l      $i$g$f$x
+                  $f$g$f$g  $f$g$i$l$i$m  $n  $i$n  $l  $i$l    $i$g$f$x
+                    $f$g      $f$g$i  $m  $n$i$m$l$i$l$i$m$i$l  $i$g$f$x
+                  $f$g          $f$g$i      $m  $i$m$i$m  $i$l$i$g$f$x
+                  $f  $g          $f$g      $i                $g$f$x
+                    $f$g  $f$g      $f      $g                $f$x
+                    $f$g$f$g      $f  $g    $f          $g    $f$x
+                    $f  $g      $f$g        $f$g$f$g  $f$g  $f$x
+                    $f  $g                  $f$g$f$g  $f$g  $f$x
+                $o$x$f$g$f$g                            $f  $x
+              $o$p$o$f$g$f$g    $f$g          $f$g      $f$x
+              $o$p  $o$g$f$g    $f$g          $f$g$f$g  $f$x
+            $o$p    $o$g        $f$g          $f        $x
+            $o$p      $f$g        $f$g      $f$g      $f$x
+            $o$p    $o  $f$g        $f      $g$f  $g  $f$x
+            $o$p  $o$p  $o$f    $g        $f  $x  $f  $x
+          $o$p    $o$p    $o  $p$f        $x
+          $o$p    $o$p              $o$p$o$x
+          $q$r$p  $o$p              $o$p$o$x
+          $r$s$r$p$o$p  $o  $p      $o$p$o$x
+          $r$s  $r$o$p  $r  $p          $o$x
+        $r$s    $r$p  $o$s  $o$p    $r$p$r$x
+        $r$s    $r$p  $r$s  $r$p  $r$s$r$s$r$x
+EOC

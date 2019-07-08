@@ -1,0 +1,67 @@
+# Plutonian (Rick & Morty)
+# by PixelArtus - https://www.pinterest.com/pin/142004194481405011/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;131m  ";
+$b = "\e[48;5;229m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;232m  ";
+$e = "\e[48;5;52m  ";
+$f = "\e[48;5;210m  ";
+$g = "\e[48;5;167m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;23m  ";
+$k = "\e[48;5;157m  ";
+$l = "\e[48;5;174m  ";
+$m = "\e[48;5;209m  ";
+$n = "\e[48;5;74m  ";
+$o = "\e[48;5;80m  ";
+$p = "\e[48;5;44m  ";
+$q = "\e[48;5;123m  ";
+$r = "\e[48;5;95m  ";
+$s = "\e[48;5;38m  ";
+$u = "\e[48;5;125m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                    $a    $x
+                $t                $a$b$c$b$a$x
+                  $t    $a    $x  $a$b    $a$x$d$a    $x
+                        $a$c$b$a$e  $a$b$a$e  $a$b$c$a$x
+                        $a$b  $a$f  $a$b$a$f  $a$b  $a$x
+                        $a$b  $a$g  $a$b$a$g  $a$b  $a$x
+                          $a$b  $a    $b$a$g$a$b  $a$x
+                          $g$b      $h$b$h$b      $a$x          $d$x
+              $a  $d$x    $a$h$b                $h$a$d$x  $d$a  $x
+              $g$f$a$x  $d$e$a$g  $i$b    $g    $a$e$x    $a$f$a$x
+              $a$f$a$x    $j$k      $g  $a$k      $j$x    $a$f$a$x
+                $a$l$a$x$j$k  $j$k    $b$k    $j$k  $j$x$g$f$a$x
+          $d$a    $g  $a$j$k$j    $k  $b$k  $j    $k$j$a$g    $a  $x
+            $a$f$a$g  $a$j$k  $j$k    $b$k    $j$k  $j$g    $a$f$a$x
+              $a$g    $m  $b$k      $b    $k      $b$m  $g    $a$d$x
+                $a  $m  $b                            $m  $a  $x
+              $d$x$e$m$b  $e  $c$e$c$e$c$e$c$e$c$e  $b  $m$e$x
+      $d$x        $e$m$b  $e                        $b  $m$e$x
+      $e      $x  $e$m$b  $e                        $b  $m$e$x
+    $e$m  $g$m$e$x$e$m  $b  $e  $c$e$c$e$c$e$c$e  $b  $m  $e$d$x
+    $e$m      $e  $d$a$m  $b                        $m  $e$x
+    $e$m      $b  $e  $a$m                    $n$o$n$m$e    $x
+    $d$e$m  $b  $m    $a  $e$a                $p$q$o$a  $m  $e$x
+        $e  $b$m    $g  $m$e  $g            $r$n$o$s$a$g$m    $e$x
+          $d$e  $a  $g$m  $b$e    $a      $e      $b$m  $g$m$b  $e$x
+                $e  $a$m  $b                        $m  $a  $b  $e$x
+                $e    $m  $b                        $m  $g$m  $e$d$x
+                $e$u$e$a$m  $b                    $m  $a  $m$e$x
+                $e$u  $e$g$m                          $a$e    $d  $x
+                $e$u    $e$a  $m                  $a  $e$u  $e$d  $x
+                $e          $a                      $e        $d  $x
+              $d    $x    $e$a$b  $a$e    $a$b    $m$a$e$x    $d  $x
+          $d$x$d      $x  $e$a$m  $e$x    $e$m      $e$x        $d$x
+        $d$x$d          $e  $m    $e$x    $e$m      $e$x  $d$x
+          $d            $e$m    $e$x        $e$m      $e$d  $x
+          $d            $e      $d  $x    $d  $e        $d  $x
+EOC

@@ -1,0 +1,73 @@
+# Shredder (Teenage Mutant Ninja Turtles)
+# by Konami, original art from TMNT Tournament Fighters (SNES) - https://www.spriters-resource.com/snes/tmnttourney/sheet/37332/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;146m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;189m  ";
+$e = "\e[48;5;60m  ";
+$f = "\e[48;5;53m  ";
+$g = "\e[48;5;89m  ";
+$h = "\e[48;5;126m  ";
+$i = "\e[48;5;164m  ";
+$j = "\e[48;5;200m  ";
+$k = "\e[48;5;131m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;174m  ";
+$n = "\e[48;5;181m  ";
+
+$the_cow = <<EOC
+                                      $t
+                                        $t
+                                          $t                        $a$x
+                                            $t                    $a$b$c$x
+                                              $t                  $a$d$a$x
+                                                            $c  $a$c$d$b$c  $x
+                                                          $c$a$e  $c$b$d$a  $c$x
+                                                      $b$c$a$e$b  $a$b$d$a$e$a$c$x
+                                                      $b$a$e$b$d$b$a$b$d$a$b$e$c$b$x
+                                                      $b  $a$e$b  $a$b$d$a$b$e$c$b$x
+                                                      $c$d  $c$a  $c$b$d$c    $d$e$x
+                                                      $c$b$d  $e$c$e$b$d$e$d  $b$c$x
+                                                    $c$a$c$b$d              $b$c$x
+                                                    $c$e$b$c  $b$d      $b  $c$e$c$x
+                                                    $a$e$b$c      $b$d  $c    $e$c$x
+                                                  $c$e$a$c    $a$e$c          $e$c$x
+                                                  $c$e$b$c  $a$c          $a$c  $e$c$x
+                                                $c$a$e$b$c  $a$e$c      $e$a$c  $e$c$f$g$h$i  $g$x
+                                            $f  $a$e$b$c$f$c$a$e$b$d$b$e  $a$c  $e$c$f$h$i  $f  $g$x
+        $d$x                              $f$h$g$a$e$b$f  $c$a$e$b    $e$a$c      $g$i$j$h$f      $x
+        $d$x    $c          $x          $c$f$i  $h$e$b$f  $g$c$a$b    $e$a$f$g  $h$i$j$i$f$k$l  $c$x
+        $d  $x$c$l$k$m$n  $c$x        $c$l$f$i    $h$g$f  $g  $c$a$b  $a$f$g  $h  $i  $f$k$m  $k$l$c$x
+        $a$d$c      $l    $c  $x    $c$l$k$g$h$i    $h$g$f$g$h  $g$c  $f  $g$h  $i  $g$f$m$n  $m$k$c$x
+        $d$e$c  $k$m$n  $c$l$n$c$x  $l$k$m$g$h        $g$f$g$h  $g  $f  $g          $f$k$m$n    $m$l$c$x
+        $d$a  $l$c  $l  $c$m$n$c$x$c$l$m  $g      $f$g    $f$h$g  $f$g  $h    $g    $l$m    $n  $m$l$c$x
+        $d  $a$c$m  $n  $l$k$c$x  $c$l$m  $g  $h  $g$f$g  $f$g$f  $g$h$i    $h  $g$c$k  $m      $k$c  $x
+        $b$d$a$l$c$l  $c$k$c$x  $c  $l$k$m$g$h$i    $g$f      $g  $i    $j  $i$h$g$l$k              $c  $x
+          $b$c  $m  $n$c$l$c$x$c$l$k    $l$f$h$i  $j$i$h$g$f$g$h$i  $j    $i$h  $g$l    $c$l$k$m    $k$l$c$x
+            $c            $x$c$l$m      $k$f$h$i  $j  $i$h$f$h$i  $j    $i  $h$g$f$l$c    $k$m$n    $m$k$l$c$x
+            $c    $a    $c$x$l$m  $n  $m  $f$h  $i  $j$i$h$g$h$i          $h  $g$f$c      $k$m$n      $m$k$c$x
+          $a  $c    $a$c    $k$m$n    $m  $f$g$h$i    $h  $g$h$i      $h    $g$f    $c    $l$k$n      $m$k$l$c$x
+          $b$a$e$a$c$k$m$c  $k$m$n  $m  $k$f$g$h        $g$f$h              $g$f    $c$l$c  $k$m$n    $m$k$l$c$x            $c  $x
+        $e$b$c$d$a$c$k$e$a$l  $m      $k$l$f$g  $h    $g  $f$g$h          $g$f    $g$f$l$c  $l$k$m    $k$l$c      $x    $c  $m  $c$x
+        $b$e$c$d$e$c  $a$k  $c$k$m  $k  $c  $f$g      $f      $g        $f  $g$f  $g$f$l$c    $l$k      $l$c$l$c  $l$c  $k$l$n$l$c$x
+        $b$x$b$d$e$c$k$m$n$m$c$l$k  $l  $c    $f        $g  $f            $g    $f$g  $f$c  $l$c$l    $c      $a$k$c  $k  $l$c$m$l$c$x
+            $d$a$b$a$l$k$n  $c  $l  $c  $l$c$x  $f$g$f              $g    $h  $g$f$g    $f$c$l  $c        $a$k  $c        $m$k$c$n$m$c$x
+            $b$a$b$a$l$k$m  $a$c      $l$c$x    $f  $g$h$g$f$g$i$g$f$g  $h    $g$f  $g$f  $c  $l  $c    $a$m  $a$c  $k$c$m$c$n$m$c$n$k$x
+            $c$a$e$b$c$l$k$a$e$c$l  $c  $x      $f  $h$i$g$f$h$i  $h$f$g  $h  $g$f        $x$c  $l$c$k$a$e$n$e$n$a$c$l$c$k$n$c$n$m$c  $x
+            $b$a$d$b$c$a  $e$l$c    $x            $f$g$h$g$f  $g$h  $g$f  $g  $f$g$f    $x    $c  $l$k$a$e$n$e$n$c    $m$c$k$m$c$l$c$x
+          $b$e$c$d$e$b$c$l  $c    $x              $f$g$f          $g$f        $h$g  $f$x          $c$l$c$a$m$a$m$l$c  $k$m$c$l$c    $x
+          $b$e$b$d$e$b$a$c    $x                  $f  $g$i$g$f$g$h$i  $g$f$g  $h$g  $f$x          $c$l$c  $k$c$a$e  $c  $k$c      $b$x
+          $b$x$d  $a$e$a$x                          $f$g$h$i$f$g  $i  $h$f  $c        $x            $c$a  $e$b  $e$a$c        $e$b$d    $x
+              $d$x$c  $a$x                          $c                      $a  $c    $x            $c$e$b  $e$a$b$c$a$c$e$d  $a$x
+                                                    $c  $a      $e    $a    $c        $x              $c$a$b$a$b$d$a$e$x  $e$b$d  $x
+                                                      $c    $a                  $c  $f$x                $b$d$a$d$x$a$e$x
+                                                      $c  $a    $e  $a    $c      $f  $x                $d$x$a$d$x$e$x
+                                                      $f$g$c              $g  $f$g  $f  $x              $d$x$a$x  $e$x
+                                                      $f  $g$h              $g$f$g$h$g$f$x
+                                                  $f  $g$f$h    $i      $h  $g    $h$g$f$x
+                                                $f$g$h  $f$h    $i      $h  $g  $h$i$h$f  $x
+EOC

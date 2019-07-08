@@ -1,0 +1,46 @@
+# Bruce the shark (Finding Nemo)
+# by askenvelope1 - https://www.brik.co/blogs/pixel-art/bruce-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;110m  ";
+$c = "\e[48;5;249m  ";
+$d = "\e[48;5;168m  ";
+$e = "\e[48;5;59m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;254m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t
+    $a  $x                      $t            $a  $x
+      $a  $x                      $t            $a    $x
+      $a    $x                      $t          $a      $x  $b                    $x
+    $a        $x                      $t          $a$b  $a$b                        $x
+        $a    $x                                  $a$b          $a$b            $a$b  $x
+          $a    $x                                $b                    $c  $b          $x
+          $a$b$a$x                            $b      $c  $b$c$b    $c          $b  $c  $x
+          $b      $x                        $b        $d$c  $b$c                        $x
+            $b    $x                      $b        $c$d$e$c                        $d$c$x
+            $b      $x    $a  $x      $b            $c  $d$e  $c                  $e$d$c$x
+            $b        $x    $a  $b                  $c  $d$e$f  $g$f    $g$f    $g$f$d$c$x
+            $b                                      $c    $d$e$g$f$g$f$g$f$g$f$g$f$g$d$c$x
+            $b                                      $c          $f  $g$f    $g$f  $d$c$x
+            $b                                      $c                  $d        $c  $x
+          $a$b    $x    $b                            $c                              $x
+          $a$b$a  $x      $e  $b                  $c                                $x
+        $a      $x          $e  $b                  $c                              $x
+        $a    $x                $b                  $c                            $x
+      $a  $x                      $b              $a$b$c                          $x
+    $a  $x                        $a$b$a$c$b$c$b  $a$b$c                        $a$x
+                                $a    $x  $c$b  $a$c                              $a$x
+                                          $b  $a$c                        $x$c    $a$x
+                                        $b  $a  $x  $c                $x      $c    $a$x
+                                      $b  $a  $x                                $c  $a$x
+                                      $a    $x                                    $c  $a$x
+                                    $a    $x                                        $c$a$x
+                                  $a  $x                                              $c$a$x
+                                $a  $x                                                  $a$x
+EOC

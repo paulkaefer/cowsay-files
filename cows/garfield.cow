@@ -1,0 +1,60 @@
+# Garfield
+# by BendyTheDesigner - https://www.deviantart.com/bendythedesigner/art/Sonic-and-NOOOOOOOO-763627919
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;166m  ";
+$b = "\e[48;5;172m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;88m  ";
+$f = "\e[48;5;220m  ";
+$g = "\e[48;5;178m  ";
+$h = "\e[48;5;116m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;73m  ";
+$k = "\e[48;5;23m  ";
+$l = "\e[48;5;216m  ";
+$m = "\e[48;5;173m  ";
+
+$the_cow = <<EOC
+              $t                      $a$b$c$x
+                $t                $a$b  $c    $x  $b$c  $x
+                  $t            $d$b  $c      $b    $c    $x
+                    $t          $a$b  $c$b$c  $b  $c      $x
+                      $t      $e$b  $d$a    $d$b$d$e$b$c$x
+                            $c$a$b$a  $b    $a    $b$d$b$x
+                          $c  $b  $e$b        $d$b  $a$b$x
+                        $e$c    $a$b            $a$b  $c  $x
+                        $a$b$c  $a$b            $a$b  $a$c$x
+                      $c$e$b  $a  $b            $d$b  $e$b$c$x
+                      $c  $b$f$g$e$a$b        $a$e$a$b$e$b$c$x
+                      $c    $g$f$g$h$a      $d$e    $a$e$g  $e$x
+                      $c  $b$g$f  $h$i$c$i$h$j$c$i  $j$f  $g$a$x
+                      $c$a$b    $f$g$h$k$i  $h$k$i  $h$f$g$a$c$x
+                        $d$a$b  $f  $g$h$i  $l    $i$f  $a$c  $x
+                        $c  $a$b$g$f        $m  $l$f  $g$a$e  $x
+                          $c$e$a    $g        $a$g    $a$d$c$x
+                            $e$c  $d$a              $e  $c$x
+                                $c  $d            $e  $x
+                                  $c$d$e            $x
+                                  $c  $e      $c$e$a    $b$a$x
+      $e  $d$x                  $d$a$b$a$e$b    $a$e  $b      $x
+    $e$d$e$d$e$c$x              $c$d$a$e$b$a$b      $a$b    $a$x
+    $e$a    $c  $x              $c  $e$a$e$b  $a$b    $a$b  $a$x
+      $d$a$b    $a$x          $c$e$c  $d$b$a$e$b$a$b  $e$a$b$a$x
+        $d$a  $b  $c$x        $c$d$e$c  $a$d$b$e$b$a$d$e$d$a$x
+            $e$a$b$c  $a$x  $e$c  $d  $e  $a$d$a$e$b$e    $x
+              $d$a$b    $c  $d$e$c$d  $a      $b    $a$x
+                $d$a$b  $c$b  $d$e$c$e  $a$d  $a$d$e$x
+                  $e$d$a  $e      $x$b$a  $x  $e$d$e$x
+                      $e    $x      $b  $a$x  $a    $x
+                                  $b  $a$x  $a$b  $x
+                                $b  $a  $x  $a  $b$x
+                    $a$b            $a$d$x$d$a$b            $a$x
+                  $a  $b$a$b      $a  $e$x$d$a  $b      $a$b$a  $x
+                $a$b$d$b$e$b    $a    $d$c$e$a    $b    $e$b$e$b$a$x
+                $e$a$d$a$d$a$e$d      $e$c$e$d  $e    $a$e$a$e$a$e$x
+                $e              $c                $e              $x
+EOC

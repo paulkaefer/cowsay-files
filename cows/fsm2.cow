@@ -1,0 +1,53 @@
+# Flying Spaghetti Monster (Pastafarian diety)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;226m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;214m  ";
+$e = "\e[48;5;229m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;160m  ";
+$h = "\e[48;5;202m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                  $a    $x
+                    $t              $b$c  $a$x
+                      $t            $b$c  $a$x
+                                      $b  $d  $x
+                                              $d$x
+                      $a    $x                  $d$x              $b$x
+                    $b$c  $a$x                    $d$b$x    $d$b$d$x
+                    $b$c  $a$x                      $d$b$d$b$d$x$b$e$b$e          $b$x
+                      $b      $x                      $d$e$d$b  $d  $x              $b$e$x
+                              $b$x                  $d$b$d$f$g$f$g$f$d$e  $b$e  $b$x
+                                $d$x      $e  $x    $b$f  $g          $d$b$e$b    $e  $x
+                                  $d$b$x    $b$e$x$d$b$f$g$h    $g$h$g  $b$e$x      $e  $x
+                                    $d$b$d$x  $b$e$d  $f$g  $h$f$g$h$g  $d$e$d$x      $e$b$x
+                              $d$e        $d$x$d$b  $d$f$g  $h        $g$d$e$d$e$x    $d$e$x
+                        $e$b                $e  $d$b$d$f$g    $h    $f$g$d$e$d$e$d$x    $b  $x
+                      $b$d$x    $f$g$f$g$f  $c$b$e$d  $f  $g  $f$g      $d$e$d$b$e$d$x  $b$e$x
+                    $b$x      $f  $g    $f$g$f$c$b  $d$f  $g$f$g$f$g  $f$b$e$d$x$b$e$x  $d$e$x
+                  $b$x      $f  $g  $h$g$h$g  $f$d      $f  $g$f      $c$b$e$b$x$b$e$x  $d$e$x
+                $d$x      $b$f  $g    $h    $g$f$d$b$c$d$c$f        $c$b$e$x$e$x  $e$x    $b$x
+                          $b$f  $g      $h  $g$f$c$e$c$b$c$d$c$d  $c$b$e$x  $e$x  $e$x    $b$x
+                        $b$c$f    $g$f$g$h$f$g$f$d$e$c$e$c$b$c$b$e$c$e$x  $d$e$x  $e$x    $b$x
+                        $b$e$f$g$f$g$f  $g  $f  $d$e$c$e$c$e$c$b$e$b$x    $b$e$x  $e$x    $b$x
+                    $d  $e$d  $f  $g$f$g      $d  $b$c$e$c$e$c$b$d$e$x    $b$d$x  $e$x    $d$x
+                  $e$b$d$e$c$e    $f    $g$f$c$d  $e$c$b$c$e$c$d$b  $x  $b$d$x    $e$x    $d$x
+                $b  $x  $d$x  $b  $e  $c    $d  $b$c$d$b$e$d$b  $d$b$e$x$b$x    $d$x
+              $b$x      $e$x  $d      $e    $b  $e$d  $b$e$c$e$x  $b$e$x
+          $d  $x      $b$e$d  $x      $d  $b$e$b$d$b$x$d$b$c$e$x    $b$e$x
+      $b$x            $b$x        $d  $b    $x$d$b$x  $d$b$e$b$x    $d$e$x
+        $b$e$d$x  $b    $x    $b  $x$b$e$b$x$d$b$x  $b$d$x$e$x        $b$x
+          $b        $d$x          $e$b$x  $b  $x  $d$b$x  $d$e$x        $b$x
+                              $e$b$x    $b$d$x  $b  $x    $d$x$b$e$x    $b$x
+                                      $b$x    $b$x      $d$b$x
+                                    $b$x                $b$x
+                                                      $b$x
+                                                      $d$x
+EOC

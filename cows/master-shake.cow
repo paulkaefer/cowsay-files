@@ -1,7 +1,7 @@
 # Master Shake (ATHF)
-# by Charlie M
+# Unknown - https://www.pinterest.com/pin/348888302356462316/
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $k = "\e[48;5;235m  ";  #fake black
 $w = "\e[107m  ";       #white
 $l = "\e[48;5;14m  ";   #light blue
@@ -10,13 +10,14 @@ $y = "\e[48;5;226m  ";   #yellow
 $t = "$thoughts ";
 
 $the_cow = <<EOC;
-                 $t   $k                              $x
-                  $t  $k$p                      $k    $x
-                   $t $k$p                    $k  $p$k$x
-                    $t$k$p          $k          $p  $k$x
-                      $k              $x    $k$p    $k$x
-                                            $k$p    $k$x
-                                            $k$p    $k$x
+$x      $t
+         $t           $k                              $x
+          $t          $k$p                      $k    $x
+           $t         $k$p                    $k  $p$k$x
+            $t        $k$p          $k          $p  $k$x
+             $t       $k              $x    $k$p    $k$x
+              $t                            $k$p    $k$x
+               $t                           $k$p    $k$x
                                         $k                $x
                                 $k      $l  $w        $l  $k      $x
                           $k    $l        $k            $l        $k    $x
@@ -45,8 +46,6 @@ $the_cow = <<EOC;
                           $k$w  $l    $w                              $k$x
                             $k$w$l    $w                            $k$x
                             $k$w$l    $w                            $k$x
-                            $k$w$l    $w                            $k$x
-                            $k$w$l      $w                          $k$x
                             $k$w$l      $w                          $k$x
                             $k$w$l      $w                          $k$x
                             $k$w$l      $w                          $k$x

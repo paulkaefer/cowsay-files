@@ -1,0 +1,69 @@
+# Stu (Life and Times of Tim)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;238m  ";
+$b = "\e[48;5;243m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;233m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;95m  ";
+$j = "\e[48;5;138m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t
+                    $t                      $a$x$a$x  $b$x  $a$x
+                      $t                $a$x$a$b$a$b$a  $x$a$x  $a$x
+                        $t                $a$b$a  $c$d  $a  $b$a$x$a$x
+                          $t          $a    $c    $d        $a$b$a$x
+                                      $a$b$c$d                $b  $a$x
+                                    $b$a$c$d                      $a    $x
+                                    $a  $d    $a    $d        $a  $d$a$x
+                                    $a$c$d                    $c  $d$a$x$a$x
+                                  $a    $d    $c$e  $c$d    $c$e  $c$d$a$x
+                                  $f$c$d    $c$e$g  $e$c$d$c$e$h  $e$c$a$x
+                                  $a$d      $c$e$g  $e$c$d  $c$h  $e$c$a  $x
+                                  $a$d        $c      $d      $c    $d$c$a$x
+                                $c$a$d                    $c$d        $c$a$x
+                              $c  $a$d                      $c$d      $c$a$c$x
+                              $c$b$a  $d                    $c$d      $a$c  $x
+                              $c  $a  $d                    $c$d      $a$c$b$x
+                                $c$b$d                      $c$d      $c$a$c$x
+                                  $c$d                      $c$d        $c$x
+                                  $c$d                      $c$d        $c$x
+                                  $c$d              $c        $d        $c$x
+                                  $c$d                                  $c$x
+                                  $c$d                                  $c$x
+                                  $c$d                                  $c$x
+                                  $c$d            $c          $d      $c$x
+                                    $c$d                              $c$x
+                                    $c$d                            $c$x
+                                      $c  $d                      $c$x
+                                          $c  $d              $c  $x
+                                            $c                $x
+                                            $c$d            $c$x
+                                            $i$d            $i$x
+                                          $i$j$i  $d      $i$j$i$x
+                                        $i$j    $i$d      $i$j  $i$x
+                            $i              $j  $i$d    $i$j    $i            $x
+                          $i$j              $i$j$i$d    $i$j  $i$j            $i  $x
+                        $i$j                  $i  $d    $i    $j                  $i$x
+                      $i$j                        $i$d    $i$j                      $i$x
+                    $i$j                          $i$d  $i$j                        $i$x
+                  $i$j                            $i$d$i$j                            $i$x
+                $i$j                                $f$j                                $i$x
+                $i$j                                $i$j                                $i$x
+              $i$j                                  $i$j                                  $i$x
+              $i$j                                  $i$j                                  $i$x
+            $i$j                                    $i$j                                  $i$x
+            $i$j                                    $i$j                                    $i$x
+          $i$j              $i$j                    $f$j                                    $i$x
+          $i$j              $i$j                    $i$j                  $i$j                $i$x
+          $i$j            $i  $j                    $i$j                  $i$j                $i$x
+EOC

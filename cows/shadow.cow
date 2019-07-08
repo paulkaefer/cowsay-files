@@ -1,0 +1,66 @@
+# Shadow the Hedgehog (Sonic Adventure 2)
+# by Unknown - http://pixelartmaker.com/art/9c9d1ed967cc510
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;124m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;198m  ";
+$f = "\e[48;5;216m  ";
+$g = "\e[48;5;243m  ";
+$h = "\e[48;5;172m  ";
+$i = "\e[48;5;146m  ";
+$j = "\e[48;5;158m  ";
+$k = "\e[48;5;189m  ";
+$l = "\e[48;5;254m  ";
+$m = "\e[48;5;188m  ";
+$n = "\e[48;5;249m  ";
+$o = "\e[48;5;215m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t
+                    $a        $x
+            $a            $b  $a    $x
+        $c        $b      $d  $b$a$e$a  $x      $d$x
+            $d        $b  $d$f$d$b$g$e  $a  $x$d  $x
+              $d          $h$f  $d$b$g$e  $a$b$d  $x
+    $c$x          $d  $b$d$h$f    $b$g  $e$a  $b$d$x
+    $c$a  $x    $a    $b$d$h  $b  $g      $e$a$b  $x
+    $d$c$a          $b          $g    $i$g  $a$b  $x
+      $d$b$c$a  $b    $g        $a$c  $g      $b    $x
+      $d  $b            $g$i$g  $c  $j$k$g  $b    $g$x
+        $d    $b          $g$b  $c$k$l  $k$g$d$b$g$d$x
+          $d        $a  $b      $d$k$l    $i$d    $j$x
+            $d    $a  $b          $k$l      $b$k$b$k$x
+              $c$a  $b  $d$b        $l      $b$i$b$i$x
+          $c$a    $b    $d  $b$h$f  $k$l    $k$h$i$b  $x
+    $c    $a    $b    $d    $h$f$l$f    $j  $f  $b  $i$x
+      $d  $b      $d        $h$f                $h$x
+        $d                    $h  $f$b$h$f  $h  $x
+            $d      $x$d          $h        $x
+                    $d  $a  $d    $k$m$j    $h  $x
+                    $d$c  $a  $b$d$b$j$k$l$j$k$n$k  $x
+                  $d  $c$o$g$f  $b$i  $k  $i  $l    $k$x
+                  $d$x$h  $f$j  $k$b  $g$i$g$i$l$k$i$l$x
+                      $h$k$j  $l  $k$b      $i$k$i$l  $x
+                    $g$b$j  $l      $g$b    $i  $k    $x
+                      $i$k$l      $k  $b  $x$i$k  $i$x
+                      $i  $k$l$k$l$k$i$b  $x  $i  $x
+                        $i$k$j$k  $i$x$d$b$x
+                          $i      $x  $d  $x
+                        $d  $e  $c$d$b$d$a$e  $x
+                        $d$a$c  $a$d  $c$a$c  $x
+                      $h$f  $k  $f$h  $f$k  $f$x
+                      $h    $f  $h      $f  $h$x
+                      $d$b$l  $j$k$d$b  $k  $j$l  $x
+                    $d  $k$j$l  $j$d  $b  $j$l        $x
+                    $d    $a  $e$k$d      $k$j$l    $j$a  $x
+                    $d  $c    $a  $b$d      $k      $e$a$b$x
+                    $d$c  $h  $f$c$b$c  $b    $c    $b  $x
+                      $b                  $x$b        $x
+EOC

@@ -1,0 +1,53 @@
+# Rayman
+# sprite from Rayman (GameBoy Color) - https://www.spriters-resource.com/game_boy_gbc/gbcrayman/sheet/32050/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;130m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;53m  ";
+$g = "\e[48;5;196m  ";
+$h = "\e[48;5;189m  ";
+$i = "\e[48;5;147m  ";
+$j = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                        $a$b      $x
+                $a$b$x$a      $b    $x
+              $a$b  $a    $c  $b$a$b  $x
+              $a$b  $c  $a$c$x$c  $b  $x
+                    $c$d    $x    $c  $x
+                  $c$d$e    $d$x
+                  $c$d$e  $c  $d    $x
+                  $c$d$e  $c$d        $x
+                    $c$d              $x
+                    $c$d$c$d        $c$x
+                    $c$d  $c        $x
+                      $c    $x
+
+                  $f$g    $f$x
+                $f$g  $f    $h$x
+                $f$g  $f  $h$f  $x
+                $f$g$f    $h$f  $x
+                  $f      $h  $f$x
+              $i      $f    $h$f$i    $x
+            $i$e      $i$f      $i      $x
+            $c$e        $f    $i  $c  $i$x
+            $c$i$e      $x  $c$i$c$i    $x
+            $c  $i$e  $i$x  $c  $i  $c  $x
+              $c  $i  $x      $c    $x
+
+                            $j  $e$j  $x
+              $j$e  $j$x  $j            $x
+            $e$j        $e$j        $e  $x
+          $j      $e  $j$c$e            $x
+          $e            $x$c            $x
+          $c            $x
+EOC

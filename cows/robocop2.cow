@@ -1,0 +1,75 @@
+# Robocop
+# u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/98e6io/oc_robocop_for_my_board_game_project/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;60m  ";
+$b = "\e[48;5;103m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;240m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;237m  ";
+$g = "\e[48;5;222m  ";
+$h = "\e[48;5;179m  ";
+$i = "\e[48;5;252m  ";
+$j = "\e[48;5;188m  ";
+$k = "\e[48;5;146m  ";
+$l = "\e[48;5;67m  ";
+$m = "\e[48;5;236m  ";
+$n = "\e[48;5;238m  ";
+$o = "\e[48;5;247m  ";
+$p = "\e[48;5;239m  ";
+$q = "\e[48;5;249m  ";
+$r = "\e[48;5;66m  ";
+
+$the_cow = <<EOC
+                            $t                  $a        $x
+                              $t              $a$b        $a$x
+                                $t            $b    $c  $b  $x
+                                  $t          $b    $c  $b  $x
+                                    $t        $d$e      $f$b$x
+                                              $b    $c  $b  $x
+                                              $d            $x
+                                              $e$g      $h$e$x
+                                              $e$h$g    $e  $x
+                                                $e        $x  $b$x$b$x
+                                          $b$x$b$e    $f$e$a$d$c$d$c$b  $x
+                                      $a  $c$b$c$b$a$b    $a$d$b$a$b      $x
+                                    $a  $d$a$b  $a$b      $i$j$b$a$b$c$i$b  $x
+                                    $a$d$a$b    $a$b      $c  $b$a$b$c  $b  $x
+                                  $a  $d$b      $a$b    $j$c  $b$a$b$c  $d$b$x
+                                  $a$d$a$b      $a$b  $j$c    $b$d$b$c  $d$b$x
+                                  $a$d$b$k$a$k$a$b$a  $c$a$c$b$c$e$b$j$c  $b$x
+                                    $d$b$a$b$a$b      $j$c$j$c$b$e$d      $a$x
+                                    $a$b              $c    $b$a$e  $b  $a$c$b$x
+                                      $b      $a$e  $a$c    $d$e    $b  $a$c$b$x
+                                    $d  $b  $a$e      $a$c  $d$e    $b  $a$j$b$x
+                                  $d    $b  $e          $a$c$b$e  $d$a$l$e$b$c$b$x
+                                  $d    $a$b$e  $f  $e    $c$j$b$a$d$x$a$e  $c$b$x
+                                $d$m$d$m$d$a$e$f$e  $f$n$e  $a    $x$a  $b$j$c$b$x
+                            $n$d  $n$m$n$d$e  $f$e  $n$c$o$n$e  $x  $a  $b$c  $b$x
+                $f$e$x    $f  $e$d        $e                  $x    $a  $b$c$i$b$x
+              $f$e  $x  $f  $e    $d    $x$e  $n$e  $f$c  $n$e$x    $a$e  $f  $b$x
+            $f$e      $f$e          $d$x  $e                  $x      $e  $n$c$o$x
+          $f$e                      $x    $e  $f$e  $f$o$f$e  $b$i$x  $e        $x
+        $f$e                    $x      $b$e          $f$e    $c$i$x  $e  $f$c$b$x
+      $f$e              $x              $b$a$e              $c  $i$x  $e  $f  $x
+    $f$e    $x    $e  $x              $b    $e            $c$i$b  $x  $e  $f  $x
+  $f$e    $x                          $a$d$b$a$e        $d$c$b$c  $e    $f  $x
+$f$e    $x                            $b  $d$b$a$e    $d  $b$i$c$b$e    $f  $x
+  $e  $x                            $b      $d$b  $d$p$d$n$c  $i$b$e      $x
+                                    $b      $a$p$b$d$p$d$b$i$b$d$b$e  $n  $x
+                                    $b      $a$b$p$d  $p$d$b  $d$b  $e  $x
+                                  $b      $a$b  $a  $x$a$d$b    $a$c$b$x
+                                  $b      $a$b  $d$x  $a  $d$b  $a$c$b$x
+                                  $b    $a$b  $a  $x    $a$d$b  $i$c$b$x
+                                $b      $a$b  $d$x      $a    $i  $c$b$x
+                                $b      $a$b$a$d$x      $a  $d$i  $c$b$x
+                                $a$d      $a  $x          $a$d$p$d$a$d$b$x
+                                $q$k$i$b$d  $b$x          $d$p$a$i  $c$b$x
+                                $b    $k$a$d$x              $a      $c  $b$x
+                                $b    $k$a  $x              $a$d$a  $c  $b$x
+                                $d      $a  $x              $d$p  $a$d$r$c$b$x
+                                $a$b  $a$d  $x                $a$d$a  $c  $b$x
+EOC

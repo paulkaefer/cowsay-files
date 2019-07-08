@@ -1,7 +1,7 @@
-# Louise
-# by Charlie M
+# Louise Belcher (Bob's Burgers)
+# by Unknown - http://rebloggy.com/post/gif-pixel-art-bob-s-burgers-louise-belcher/128763246841
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #fake black
 $s = "\e[48;5;223m  ";  #skin color
 $w = "\e[107m  ";       #white

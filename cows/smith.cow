@@ -1,0 +1,75 @@
+# Agent Smith (The Matrix)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;241m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;248m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;232m  ";
+$j = "\e[48;5;255m  ";
+$k = "\e[48;5;252m  ";
+$l = "\e[48;5;244m  ";
+
+$the_cow = <<EOC
+                  $t                                        $a            $x
+                    $t                                  $a                  $x
+                      $t                              $a                      $x
+                        $t                            $a                          $x
+                          $t                      $a                                $x
+                            $t                  $a    $b    $c$a$c$a$c$d      $e  $a    $x
+                              $t              $a    $b  $d                        $a    $x
+                                $t            $a    $b$d                          $e$a    $x
+                                  $t        $a    $b$d                            $b$a      $x
+                                    $t      $a    $b$d                            $b$a      $x
+                                            $a    $b$d                            $b  $a    $x
+                                            $a      $b$d                          $b  $a    $x
+                                            $a      $b$d                        $b$e$a$f$a  $x
+                                            $a      $b$d                        $b  $a      $x
+                                            $a  $f$b  $c$d                    $b    $a      $x
+                                            $a  $f$e$d$e$c$b$d      $b$d    $b$c  $b  $f$a  $x
+                                            $f$d$a  $d  $c      $d  $b$d  $c  $d    $a$f$d$f$x
+                                            $f$e$a$b$a            $d  $a            $d$a  $f$x
+                                            $f$e$f$e  $a$f$g$h  $a$f  $a$f$g$h  $a$e  $f$e$f$x
+                                            $f$b$f$e  $a$f    $a  $d  $a  $f    $a$e  $f$b$f$x
+                                            $f$d$f$e$d$e$a      $e$d  $b$a      $e$d$e$f$d$f$x
+                                            $f$d  $f$e$b      $e  $d    $b        $e$f$e$d$f$x
+                                              $f$b$f$e$b  $d  $b$d      $b$d  $b  $e$f$d$f$x
+                                                $f  $e$d      $b$d      $b$d      $e$f  $x
+                                                  $f$e$d      $b$a$d  $a$b$d      $e$f$x
+                                                  $f$e$d        $b$e  $b$d        $e$a$x
+                                                  $a$e$d          $b    $d        $e$a$x
+                                                  $a$e$d      $b$d                $e$a$x
+                                                    $a$e$d    $f$a      $f$d    $e$a$x
+                                                    $a$b$d$e$d$b$d      $b$d$e$d$b$a$x
+                                                    $a  $b$e$b$d$b      $d$b$e$b$a  $x
+                                                    $a$e$a$e      $b  $e      $a$e$a$x
+                                                  $a  $e  $a$e$b  $d  $b  $e$a$e$b$a  $x
+                                                $a    $e    $a$b$d      $b$a$e$b  $a    $x
+                                              $a    $h$a$e    $a          $b    $a$h$a    $x
+                                            $a      $h  $a$e$b              $a  $h  $a      $x
+                                      $a            $h    $a                $h      $a          $x
+                                  $a                $h            $i$h              $a                $x
+                            $a                      $h          $i    $h            $a                      $x
+                        $a                          $h          $i    $h            $a                            $x
+                $a                                  $h        $i        $h          $a                                $x
+              $a                                      $h      $i        $h      $a                                      $x
+              $a                                    $g$a  $h$a$g$i        $h$a  $g  $a                                      $x
+              $a                                    $h$g  $a$g  $i    $g  $a$g  $h  $a                                        $x
+            $a                                      $h    $g$h  $i  $h  $g    $h    $a                                        $x
+            $a                                      $h        $i      $h  $g$h      $a                                          $x
+            $a                                      $h      $i        $h            $a                                          $x
+            $a                                      $h    $i            $h          $a                                            $x
+            $a                                      $j  $h$i            $h          $a                                            $x
+            $a                                      $j  $h$i            $h          $a                                            $x
+            $a                                      $j  $h$i              $h        $a                                            $x
+          $a                                        $j$k$g  $j        $i  $j$h      $a                                            $x
+          $a                                        $k  $l$i              $j  $h$j$a                                                $x
+          $a                                          $k  $i              $j      $a                                                $x
+EOC

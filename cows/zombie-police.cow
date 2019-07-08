@@ -1,0 +1,69 @@
+# Zombie Policeman
+# by ggrin - http://pixeljoint.com/pixelart/93349.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;31m  ";
+$b = "\e[48;5;24m  ";
+$c = "\e[48;5;184m  ";
+$d = "\e[48;5;237m  ";
+$e = "\e[48;5;101m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;144m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;235m  ";
+$m = "\e[48;5;236m  ";
+$n = "\e[48;5;252m  ";
+$o = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+                      $t                                        $a  $b$x
+                        $t                            $a$b  $x$a    $b$x
+                          $t                          $a            $b$x
+                            $t                        $b$a  $c  $a  $b  $x
+                              $t                    $d      $c  $a  $b    $x
+                                $t                $d            $a      $b  $x
+                                  $t                  $e  $d          $a    $x
+                                    $t              $f  $g$e  $d        $a  $x
+                                                    $h$i$g  $f  $e  $d    $x
+                                                  $e$i  $g$e$h  $e$g$e  $d$x
+                                                  $g$e$g    $e  $g  $e$x
+                                                $i  $g$e  $g            $x
+                                                  $i    $g  $i  $g$e$g$x
+                                                  $j$h$i  $g$i$g  $e$x
+                                                    $j  $h$i$g  $e  $x
+                $k$x                                    $j  $g$e  $l$b$x
+              $k  $m$x                          $a    $b  $e    $l$b$a    $x
+          $k    $m$k  $x                $a              $b  $l  $b$a      $b$x
+        $k    $m$k$e$k$g              $e$b$a                $b$l$a    $c$a$b$x
+    $k    $m  $g$e  $g$k$e              $b  $a  $b      $a  $l  $a  $c$a  $b$x
+    $k  $m$x    $e$g  $e$k$x              $b      $x    $b$a$l$a          $b$x
+                    $d$k$x                              $b  $n$b  $a    $b  $x
+                                                        $b  $a    $b$a$b$a$b  $x
+                                                          $b$g$a    $b$a    $b$x
+                                                          $g  $e$b  $a      $b$x
+                                                          $g$e  $b$a          $b$x
+                                                        $g  $e$f  $a          $b$x
+                                                      $g  $e$b$l  $a          $b$x
+                                                      $g$e$x$b$l  $a        $b$x
+                                                    $g  $e$x$b$l  $a        $b$x
+                                                    $g$e$x  $b$a$l$a      $b    $x
+                                                  $g  $e$x$b$a          $b$a$b  $x
+                                              $e$g  $e$x  $b$a$n  $a  $b$a$b  $o$x
+                                            $e$g  $e$x    $o  $n  $o          $m$x
+                                            $e$g$x$e$x    $k                  $m$x
+                                            $e$g$x        $k                $m$x
+                                                $g$x        $k  $m  $k      $m$x
+                                                            $k$m$k        $m$x
+                                                            $m$k        $m$x
+                                                          $k          $m$x
+                                                          $k        $m$x
+                                                          $k    $m    $x
+                                                          $k  $m$x$m    $x
+                                                          $k  $m$x  $m    $x
+                                                        $k    $m$x  $m      $x
+EOC

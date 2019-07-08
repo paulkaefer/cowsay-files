@@ -1,0 +1,95 @@
+# The Soldier (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;237m  ";
+$d = "\e[48;5;250m  ";
+$e = "\e[48;5;23m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;66m  ";
+$h = "\e[48;5;7m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;109m  ";
+$k = "\e[48;5;251m  ";
+$l = "\e[48;5;151m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;125m  ";
+$o = "\e[48;5;231m  ";
+$p = "\e[48;5;249m  ";
+$q = "\e[48;5;101m  ";
+$r = "\e[48;5;223m  ";
+$s = "\e[48;5;137m  ";
+$u = "\e[48;5;174m  ";
+$v = "\e[48;5;187m  ";
+$w = "\e[48;5;197m  ";
+$y = "\e[48;5;210m  ";
+$z = "\e[48;5;217m  ";
+$A = "\e[48;5;179m  ";
+$B = "\e[48;5;222m  ";
+$C = "\e[48;5;221m  ";
+$D = "\e[48;5;186m  ";
+$E = "\e[48;5;161m  ";
+
+$the_cow = <<EOC
+      $b$c$x                          $t
+        $b          $x                  $t
+    $b    $a  $b$d$b$x                    $t
+  $b$e$a  $b    $f$b$x                      $t
+  $b$g$h  $a      $b$i    $b      $x          $t
+  $a$g$j  $k      $a  $b$e$b              $x    $t                  $b        $x
+$b$f$e    $j      $l  $b$g$a      $b              $x            $b  $m        $b  $x
+$b$f      $e      $j  $b$g$d  $f  $a      $b              $x  $b$m  $n        $m  $b$x
+  $b  $f          $e$a  $h$o  $d      $f  $a            $b$x$b$m$n                $m$b$x
+      $b    $f      $b$f$j        $o  $d$p    $f  $a      $b  $n                    $b$x
+            $b    $f$b$f          $g      $o          $f  $b$n                    $m  $b$x                          $b  $x
+                $b        $f              $g      $o      $b$n                  $m    $b$x                          $b  $x
+                $b$f      $b      $f              $g  $b  $n  $m  $n        $m        $b$x                          $b$f$b$x
+                  $b  $f  $b$x$b$f$b      $f          $b$m  $n  $m                    $b  $x            $b          $g$f$b$x
+                  $b$q$b      $r$b$f      $b      $f    $b  $m                        $b$s$b            $f        $b$g$f$b$x
+                  $b$q  $b$x$b$u  $b$f      $b$x  $b      $u$b    $m                    $b$s$b$f                  $b$o$b$x
+                $b$q    $b$x  $b$u$b$f$b      $x      $b$r  $u    $b      $m          $b  $s$b$o                $i$b$o$b$x
+                $b$q  $b$x  $b$r$b    $v  $u  $b$x      $b  $u$r  $u    $b            $s  $b$g      $o        $i$b$o$g$b$x
+                $b$q  $b$x  $b$r$u$b$q$b  $u  $b$x    $b  $r        $u  $b$m$b    $w  $b    $f      $g      $o$i$b$o$g$b$x
+                $b$q  $b$x  $b$u  $b$q  $b$u  $b$x    $b$r          $b      $y$w        $y$b  $f            $g$f$b$g$b$x
+              $b$q    $b$x  $b$u$b$q  $b$u    $b$x      $b$z$r      $b$y  $w          $y      $b    $f          $b$g$b$x
+              $b$q  $b$x      $b  $q  $b$u  $b$x      $b  $r    $u  $b$w            $y              $b  $f    $b$c$f$b$x
+              $b$q  $b$x        $b$q  $b      $x  $b  $y$b$z$u  $b    $w          $y                    $b$f  $b$f  $b$x
+              $b  $q$b$x      $b$q    $b$w  $b    $y      $b    $w$b$w$b$w    $y                      $w  $b$f$b$f$b$x
+                  $b  $x      $b$q  $b$w    $b$y          $b$m$b$w  $b  $w$y                        $w  $y$b$f$b$f$b$x
+                              $b$q  $b$w      $b$y    $w  $b$m$b$w    $b$y                        $w  $y  $w$b$c$f$b$x
+                              $b  $q$b$w      $b$y$w      $b$m$b$w    $y                          $w  $y$w  $b$f  $b$x
+                                $b    $w        $y$w      $b$m  $b$w          $y              $w    $y$w    $A$b  $x
+                                $b$w                        $b$m$y$b    $w                          $y$w  $B$C$b  $x
+                                $b$w                        $b$m$b  $c$b$w                                $C  $w$b$x
+                                  $b$w                    $b      $c$b    $w$b    $w                      $C  $w$A$b$x
+                                  $b$w          $b        $x  $b    $c    $b  $c$b$w          $b  $w        $C$B$C$b$x
+                                    $b          $x            $b$c$b$D    $b$c$b              $y$m$b  $w          $E$b$x
+                                                                $b  $C  $a$b  $c    $b$y    $m    $b$x$b$w          $E$b$x
+                                                              $a$b  $q  $b$c$b$D    $b$m          $b$x  $b$w          $b$x
+                                                              $b$E$y$b        $C    $b$m      $b      $x$b$w          $b$x
+                                                              $b$w  $y    $E$b$q    $b        $E    $b$x  $b$w        $E$b$x
+                                                                $b  $w    $y  $b    $w          $b  $x    $b$y    $w    $b$x
+                                                                  $b      $w                $b  $m$b$x    $b$y$w  $y$w  $b$x
+                                                                  $b$m    $b                $m    $b$x    $b$y    $w    $b$x
+                                                                $b  $m                            $b$x  $b$y        $w  $b$x
+                                                            $b  $w  $b$m                      $b  $w$b$x$b$y      $w  $b$x
+                                                        $b  $w        $b  $m              $b  $w      $b  $y      $w  $b$x
+                                                      $b$w                $b              $w      $b      $y      $w  $b$x
+                                                  $b  $w                $b$m$b$w                $b$v$r  $b    $y$w  $b$x
+                                                $b$n$b$w              $b$m  $b$w                $b  $u$r      $b$w  $b$x
+                                              $b$n    $b$w          $b$m      $b$w            $b$r  $b$u$r    $u$b  $x
+                                            $b$n        $b$w      $b$m        $b$w            $b$r$b  $u$r  $u  $b  $x
+                                          $b$n          $b$w    $b$m          $b$w            $b$r        $u    $b$m$b$x
+                                        $b$n              $b$w$b$m              $b$w          $b$u$r    $u    $b$m  $n$b$x
+                                      $b$m      $n      $m  $b$m                $b$w          $b    $u    $b  $m  $n    $b$x
+                                    $b$m                                $b          $w    $b  $m    $b    $m    $n        $b$x
+                                    $b$m                        $b      $x        $b      $x$b    $m        $n              $b$x
+                                  $b$m                      $b  $x                                $b  $m        $n        $m$b$x
+                                  $b$m                    $b$x                                        $b$m                    $b$x
+                                  $b$m                $n$b$x                                            $b$m                  $b$x
+                                  $b$m                $n$b$x                                              $b$m                $b$x
+EOC

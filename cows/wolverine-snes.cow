@@ -1,0 +1,71 @@
+# Wolverine (X-Men)
+# original sprite from X-Men (SNES)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;18m  ";
+$c = "\e[48;5;130m  ";
+$d = "\e[48;5;220m  ";
+$e = "\e[48;5;172m  ";
+$f = "\e[48;5;242m  ";
+$g = "\e[48;5;20m  ";
+$h = "\e[48;5;27m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;180m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;137m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;1m  ";
+$o = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+                                  $t                  $a$x
+                                    $t              $a  $x        $a$x
+                                      $t            $a    $x      $a$x
+                                        $t          $a$b$a$x    $a  $x
+                                                    $a$b  $a$c$d$c$a$x
+                                        $a            $b    $a$c$d$e$a$x
+                                $a            $d$e$c$a  $b  $a  $e  $c$x
+                            $b        $d$c$a  $c  $a$c  $a$b$a$f$a$c$a$x
+                          $b$g  $h  $g$b$d$c$a  $c$d  $c$a$b$a    $c$a$x
+                        $a    $g$h$i$h$b$c$e$a  $c$d$c    $a$j$k$j$c$a$x
+                        $a$l$m$a$g$h  $g$b$c$a    $c  $d$e$a$j$a$i$a$x
+                    $a  $l$j  $l$a$g$h  $b$d$a  $c  $e$d$e$a$j$k  $l$x
+                  $a$m  $l$j$k  $a$b$h  $b$d$a  $e$c$e$c$a$c$a      $x
+                $a$m$j$l        $m$a$g  $b$d$a  $d$e$c$a$c$e$a$x
+                $a$l$j$m$j  $k  $l$a$b  $c$e$a$c$d  $c$d  $c$a$x
+              $a$m$l  $m$j  $k  $l$a$b  $c$e$a$d  $e$c$d$e$a$x
+            $a$m$j$k$l$m$l$j    $a      $c$e      $a$e  $a$x
+          $a$m$l$j$k$l$a$m$l  $a  $e$a$c    $e$c$a$c  $a  $x
+          $a$j$m$j$k$j$m$a    $c  $a$d  $c  $a        $l  $a$x
+          $a$j$m$j$k  $j$a      $e$d  $c$a    $m$l  $j    $a$x
+          $a$l$b      $l$a$n$a            $x$a$l$j  $l$j$b  $a$x
+          $a$b$g  $h  $b$a$n  $a  $n  $a  $x$a$m$j    $b$g  $a$x
+          $a$g$h$g$h$g$b$a      $n  $a    $x  $a$l$j$b$g  $h$g$a$x  $a  $x
+          $a$b$h  $g$b$a$c$a            $c$a  $x$a$l$b  $g  $h$g$a  $h$g$a$x
+            $a$g$h  $b$a$d$c$a        $c$d  $e$a    $b    $g  $b  $g$b$a$g$a$x
+            $a$b$h  $g$b    $c$a      $e  $d    $e$a      $b    $g  $a$g$b$a$x
+          $a$c$a$g  $h      $g$a    $c  $e  $d    $e$c$a$x$a$b    $a$g$b$g$a$i$x
+          $a$c$a$b$g$h  $g$a$h$a    $e$c    $e  $d  $c$e$a$x$a$b$a$g$b$g$a$f  $i  $x
+          $a$c  $a$g  $h$g$a$g$a  $c$d$e$c      $e        $a$x$a$b$a$g$a$f$i  $f  $i    $x
+          $a  $e$a$b  $h$g$i$a  $c$e$d  $c$e$d  $e$a$e      $a$x$a    $i$f    $i  $f    $i$f$x
+          $a  $e$c$a$g$b$f  $i$a$c$e$d  $e$c$e$d$a  $d  $e  $d$a$x    $f$i  $f    $i  $f  $x
+        $a    $c$e$c$a  $i$f  $i$a$c$e    $c$e$a    $e$d  $c$e  $a$x    $f  $i  $f    $i  $f$x
+        $a    $c$e$d$c$i$f$i$f  $i$a  $c$d  $a      $c$d  $e$c$e$a$x        $f  $i  $f    $x
+      $a        $e$d$e$c$i$f$i$f  $i$o$a            $c$e    $c$d$e$a$x          $f  $i    $f$x
+      $a        $c$e$c$e$c$i$f$i$f  $i$o$a            $e  $c  $d  $a$x              $f    $x
+      $a          $c$e$d$e$c$i$f$i$f  $i  $a          $c    $e$d$e$a$x
+    $a  $b$g  $a  $c$d    $c  $i$f$i$f    $i  $f$b$a    $c$e$d$e$c$a$x
+    $a$b$g$h$g  $a$c$d  $e$a  $c$i$f$i  $f  $g    $b$a    $e  $c$a$x
+    $a$g$h  $g  $b$a$e$c$a  $x    $i$f  $i  $f$g  $b  $a        $x
+    $a$h    $g$h$b$a$c$a  $x        $i  $f$b$g    $b    $a    $x
+    $b$h  $g  $h$b$a  $b  $x          $a$b  $g    $b  $g$a  $x
+    $b$h$g  $h$g$a  $g$b$x              $a$b  $g$b  $g$a  $x
+    $b$g  $h$g$a  $g$b$x                  $a$b    $g  $a$x
+    $b$g$h  $b$a$g$b$x                    $a  $b$g  $a$x
+    $b$h  $g$a$b  $x                      $a$b$g  $a$x
+    $b$h$g$a$b$x                          $a$g  $b$a$x
+  $b$g$h$a$b$x                          $a$b$g  $a$x
+EOC

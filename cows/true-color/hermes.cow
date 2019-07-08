@@ -1,0 +1,74 @@
+# Hermes Conrad (Futurama) - true color
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;164;200;145m  ";
+$b = "\e[48;2;122;177;84m  ";
+$c = "\e[48;2;43;22;22m  ";
+$d = "\e[48;2;126;208;57m  ";
+$e = "\e[48;2;76;39;22m  ";
+$f = "\e[48;2;97;45;31m  ";
+$g = "\e[48;2;98;199;52m  ";
+$h = "\e[48;2;161;180;160m  ";
+$i = "\e[48;2;235;237;233m  ";
+$k = "\e[48;2;134;63;29m  ";
+$l = "\e[48;2;173;88;38m  ";
+$m = "\e[48;2;37;23;26m  ";
+$n = "\e[48;2;169;219;245m  ";
+$o = "\e[48;2;44;64;42m  ";
+$p = "\e[48;2;64;83;38m  ";
+$q = "\e[48;2;145;25;29m  ";
+$r = "\e[48;2;26;44;53m  ";
+$s = "\e[48;2;94;131;67m  ";
+$u = "\e[48;2;219;194;119m  ";
+$v = "\e[48;2;253;245;178m  ";
+$w = "\e[48;2;212;24;73m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t
+              $t
+                $t    $a$x
+                    $b$x  $c$x
+          $b$x    $a  $x    $c$x
+            $b$x$d    $a$x$c  $e$x      $e$f$x
+              $b$g$h$i  $a$c    $e$x$e$f$x
+              $b$d$i$m$i$a  $e$c  $e$f  $x
+              $b  $i  $g  $a  $e$c$e    $f$x
+                $b  $g  $a  $e$c$e  $f$e$f$x
+            $c    $b    $e$k  $e$k  $e$f$e$f$x
+                $c$b  $c$k$l$k$e$l    $k$x$e$x
+              $c      $e$k$l            $k$x
+              $c$e$c$e  $k$l                $x
+            $c$x$c$e$c  $k$l$i$m$i  $k  $i  $x
+                  $m        $n    $i$m  $n$m$x
+                $e$k    $l  $n      $k  $n  $x
+                $e$k      $l$k      $l  $k$x
+                  $e$k$l            $k  $l  $x
+                $m  $e$k$l                    $x
+              $o  $m$e$k$l    $m      $x
+          $m  $o$p$m  $e$k$l$q    $m$l$p$m$x
+          $o$m$p  $m    $e$k$l      $m$p$r$x
+          $o$m$r$p$s$m$r  $u$v    $m$r$p$r$x
+        $o  $p$r$s  $r    $u$v    $r  $p$r$p$x
+        $o$p  $r$s    $r  $u$v    $r  $p$s$p$x
+        $o$p  $s  $p$s$r  $u$v    $r  $p$s  $x
+        $o$p$s        $r  $u$v    $r$s$p$s  $x
+        $o$p$s    $p$s  $r$u$v    $r$s$p$s  $x
+        $o$p$s    $p$s  $r$u  $v  $r$s$p$s  $x
+        $o$p$s    $p$s  $r$u  $v  $r$s$p$s  $x
+        $o$p  $s  $p$s  $r$u  $v  $r$s$p  $s$x
+        $o$p  $s  $p  $s  $u  $v  $s  $o$p$s$x
+          $o$p$s  $p  $s  $u  $v  $s  $o$p$s$x
+          $o$p$s  $p  $s  $q  $w  $s  $o$l  $x
+          $e$k$l  $p  $s  $p$s  $p$s  $e$l  $x
+      $k$e$k  $l  $p    $s$p$x$o$p$s  $k$l$x
+        $k  $l  $p          $x$o$p    $x
+              $o    $p$s    $x$o$p$s  $x
+              $o    $p$s    $x$o$p$s  $x
+              $q      $w  $x  $q  $w    $x
+              $q      $w  $x  $q  $w    $x
+EOC

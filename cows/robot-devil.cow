@@ -1,0 +1,62 @@
+# Robot Devil (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;214m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;161m  ";
+$d = "\e[48;5;203m  ";
+$e = "\e[48;5;217m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;11m  ";
+$h = "\e[48;5;235m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;138m  ";
+$k = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t          $a$x
+                    $t        $a$x      $b$c$d      $e          $x
+                      $t      $a$f$x  $b  $c  $d                $e  $x  $g$x
+                        $t    $a  $f$h    $c  $d                    $e$f$g$x
+                          $t    $a    $f  $c$d$h    $f  $h  $i  $h$f$a$f$x
+                    $g$x          $a      $c  $d$h$f$g  $f$h$b$c$f$g$a$x
+                    $g$x                $b$c  $d$h$f$g  $h$f$b$c$g$h$x
+                    $g$x                $b  $c$d$h$f$g      $b$c$g  $x
+                    $g$x                  $b$c  $d$h        $b$c$h  $x
+                    $g$x                  $b$c  $d        $b  $c$d$e$x
+                    $g$x                  $b  $c  $d      $b  $c$d$e$x
+                    $f$x                    $b$c  $d            $e$x
+                    $f$x                    $b  $c  $d          $e$x
+                  $a$x                      $b  $j  $k            $x
+                  $a$x                        $b  $h  $k$h$k$h$k$h$x      $f$g$x
+                  $a$x                      $i$b  $c$h            $x      $a$f$g$x
+                  $a$x                  $c  $i  $b$c  $d        $x          $a$f$x
+                  $a$x                $c  $b  $i  $b    $d      $x          $f$g$x
+                $b$a$c$x            $b$c  $b$c  $b$c  $d$b$d  $x          $d    $c$x
+                  $b$c  $x        $i$c$b$c  $b  $c$d    $c$b$d$x        $d    $a$c$x
+              $b  $a$b$c$x      $b$c$b  $c    $d      $c  $x          $d  $b$f$g$d$x
+                $b$a$b  $c$x  $b$c$b      $c  $d    $c  $b$c$x      $c$b$d$b$d$a$d$x
+                  $a$b  $c$b  $c$b$i$b        $c    $d$c$b$c$x    $c$d$c$d  $f$g$x
+                        $b$c$b$c$x$i$b      $c$d    $x  $c$b$c$b$c$d  $x    $f$a$x
+                          $b  $x  $i$b    $c$d      $x    $c$d$c$d  $x    $f  $g$x
+                                    $b    $c$d    $x        $d$c$x      $f$g$f$g  $x
+                                    $i$b  $c$d  $x                      $f$g$f$g  $x
+                  $i$b$x          $b$i  $c$x                            $f$g$f$g  $x
+      $b  $x  $i$b$x  $i$b$x    $i$b$i  $c$d$x                          $f$g$f$g  $x
+$i    $b      $x          $i$b$i  $c    $d    $x                        $f$g$f  $g$x
+  $i    $b    $x                $i$b    $c    $x                        $f$g      $x
+      $i  $x                    $i$c    $d    $x                        $f$g$f  $g$x
+                              $i$b  $c  $d    $x                          $f$g  $f$x
+                            $i$b$d  $b$c$d  $c$x
+                            $i$d$b    $c  $d$c$d$x
+                          $i  $b$x          $i  $d$x
+                          $i$c$d$x          $i$c$d$x
+                          $i  $b$x            $i  $b$x
+                        $i$b$c$d$x            $i$c$d$x
+                      $i$b$i$b  $x            $i  $b  $x
+                    $i$b$i$b$c  $d$x        $i$b  $i$c$d$x
+EOC

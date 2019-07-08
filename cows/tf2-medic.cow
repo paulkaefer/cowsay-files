@@ -1,0 +1,70 @@
+# The Medic (Team Fortress 2) - cropped
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Medic-349021346
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;66m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;174m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;210m  ";
+$h = "\e[48;5;197m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;125m  ";
+
+$the_cow = <<EOC
+          $t                                                                              $a          $x
+            $t                                                                            $a                $x
+              $t                                                                          $a$b    $a        $x
+                $t                                                                      $a$b    $c$a        $x
+                  $t                                                                    $a    $b$c    $a    $x
+                                                                                      $a$d$a$e$b  $c$b  $a  $x
+                                                                                      $a$d$e  $b  $e$b$e$a  $x
+                                                                                    $a$b          $e$b$e$a  $x
+                                                                                    $a  $b      $e  $a  $e$a$x
+                                                                                      $a$b  $e$b$e  $a$e  $a$x
+                                                                                    $a  $e$b$e$b$e  $a$e  $a$x
+                                                                                    $a$b      $e    $a$e  $a$x
+                                                                                    $a$b    $e      $a$e  $a$x
+        $a  $x                                                                      $a$e            $a$e  $a$x
+        $a$f$a  $x                                                                  $a                        $x
+      $a$c  $f  $a$x                                                                  $a  $d    $a$g          $a  $x$a  $x
+      $a$d$c    $a  $x                                                            $a  $d      $b$a$h      $g      $a$f  $a      $x
+    $a$d      $f$c$d$a$x                                                      $a$d          $b  $a$h      $g  $h  $a$c$f$a$f$c$f$a$x
+    $a$c  $d  $f$c  $a    $x                                                $a$d          $b    $a$h    $g  $h    $a$f  $a$f$c$f$a$x
+  $a$c      $f$c  $a$f  $a    $x                                          $a$d          $b      $a$h    $g  $h    $a          $f$a$x
+  $a$f  $c  $f$c  $a$f$a$f  $a    $x                                    $a$d    $b              $a$h    $g  $h  $a$c          $a    $x
+$a$f            $a$f  $a$f$a$c$a$f$a    $x                              $a$d  $b              $a            $h  $a$d          $c  $a$x
+$a$f      $a$f  $a$f$a$f  $a  $f  $a$c$a$x                            $a$b    $d$b            $a$f      $c  $a    $d  $g    $d    $a$x
+  $a  $f$a  $f  $a$f$a$f  $a$f    $a$c$a  $x                          $a$b      $d$b          $a$f      $c  $f  $a$d$g$d$h  $g$d  $a$x
+      $a  $x$a    $f$a$f  $a$f  $a$d$a$c$a        $x                  $a$b                  $a            $f    $a$g$d  $h  $d$g$a$x
+                  $a    $f$a$f  $a$c$a  $f    $d  $a  $x            $a$b                    $a$h      $g  $a    $c$g$h        $g$a$x
+                        $a  $f$a  $f$c$a$f  $d$c  $d  $a$x          $a$b                    $a$h      $g  $h  $a$d$g$h        $g$a$x
+                            $a    $f$a$f    $c        $a$x          $a$b              $a$b  $a$h              $a$d$g$d  $h  $d$g$a$x
+                              $a$f  $a  $f$c          $a            $b                $a$b  $a$h              $a$d  $g$d$h  $g$d$a$x
+                                $a  $x  $a$f$c        $a$i  $a$d  $a$b              $a$b      $a  $h          $a$d    $g    $d$a$x
+                                        $a  $f$c      $a$i$a$d$c$a$d  $b            $a$b          $a          $c$d            $a$x
+                                          $a$f  $c  $a$i$a        $d  $b          $a$b            $a$f$a$f      $c      $d    $a$x
+                                          $a    $f  $a$i$a  $g$a$d    $b        $a$b              $a    $f    $c              $a$x
+                                          $a$c  $a    $i$a$h$g$a$d$b$d$b        $a$b            $a$c  $f$a$f  $c              $a$x
+                                          $a$c    $a      $h$g$a$b            $a$b              $a$c  $f$a$f  $c            $a$x
+                                            $a$c$a$h  $a$h$g    $a$b        $a$b                $a$c  $f$a$f  $c            $a$x
+                                          $a    $h  $a$h$g  $h  $g$a$b      $a$b                  $a    $f            $c    $a$x
+                                        $a$g    $h    $g  $h        $a      $b                    $a      $f          $a      $x
+                                        $a$g$h      $g  $h                $a$b                        $a$j$a          $j$a$x
+                                          $a$h    $g  $h              $a  $b                        $a$j    $a        $j$a$x
+                                          $a$h                    $a  $x  $a$b                      $a$j  $a          $j$a$x
+                                          $a$h              $a    $x    $a      $j$a    $b          $a$j  $a    $i$a  $j$a$x
+                                            $a$h      $a    $x          $a$i        $a$j$a                      $i  $a$j$a  $x
+                                            $a        $x                $a$i      $j$a$j$i    $j      $a$j$i  $a  $i$a$j$a$i$a$x
+                                          $a$c      $a$x                $a$i      $j$a$j$i    $j      $a$j$i  $a$x$a  $j$a$i  $a$x
+                                          $a        $x                $a$i        $j$a$j$i    $j      $a$j$i  $a$x  $a$j$a  $i  $a$x
+                                                                      $a$i        $j$a$j$i    $j      $a$j  $i$a$x  $a$j  $a  $i  $a$x
+                                                                      $a                                  $j$i$a$x    $a$j$a$x$a$i$a$x
+                                                                      $a$i        $j$a$b                $a$j$i  $a$x  $a$j$a$x$a$i  $a$x
+                                                                      $a$i        $j$a$b$d              $a$j    $a$x  $a$j  $a    $i$a$x
+EOC

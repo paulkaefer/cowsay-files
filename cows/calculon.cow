@@ -1,0 +1,64 @@
+# Calculon (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;221m  ";
+$b = "\e[48;5;214m  ";
+$c = "\e[48;5;136m  ";
+$d = "\e[48;5;11m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;150m  ";
+$g = "\e[48;5;107m  ";
+$h = "\e[48;5;60m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t
+                  $t
+          $a$x                              $a$x
+            $a$x                          $b$x
+              $a$x  $c  $b  $d$e  $x    $b$x
+                $a$c  $b$a  $d    $e  $b$x
+                $c$a$b$a  $d          $e  $x
+                $c$b$a    $d            $e$x
+                $c$b$a$k  $f  $k    $f$k$d$x
+                $c$b$k  $f  $k    $f$k  $d$x
+                $c$b$k  $f    $k  $f  $k$d$x
+                $c$b                    $d$x
+                $c$b$a  $d            $e$x
+                $c$b$a  $d              $e$x
+                $c$b$g$f$g$f$g$f$g$f$g$f$x
+                $c$b$g$f$g$f$g$f$g$f$g$f$x
+                $c$b                  $d$x
+                $c  $a  $d              $x
+              $c    $b                  $c$a$x
+            $c$d$c    $b              $a$b$c$e$x
+          $c$a  $d$c  $b                    $a$e$x
+          $c$b$a  $d$c  $b        $h  $e$b  $a$e$x
+          $c$b  $a$d$c  $b$c  $d$h      $e$b$a$e$x
+          $c  $b$a$d$c  $b$c$a$h          $e  $a$x
+            $i$j  $c    $b$c$a$h  $a$e  $h  $e  $x          $b$d$e$x
+            $i  $j$c$i  $j  $c$a    $d$h    $e$j$x        $b$d$x
+          $c$b$d  $i  $j$i  $c  $d  $h    $e$c$a  $x  $i$b$a$x
+          $c$b$a$d$i    $b  $h        $b$a$b$c$a$j      $c$b$a$d  $e$x
+          $c$b  $d$i$c  $b      $h    $b$a$b$c$a$i    $x  $b  $a$e$x
+            $c$b$d$c    $b          $h$a$b$c$a  $x
+                  $i    $j              $x
+                    $i      $j        $x
+                    $c        $b    $d$x
+                    $c        $b    $d$x
+                    $i  $c  $b    $d$j$x
+                    $i  $x$c$b  $d$i$j$x
+                    $i$j$x        $i$j$x
+                  $c  $j$x          $c$b$x
+                  $c$b$x            $c$b$x
+                  $i$j$x            $i$j$x
+              $b    $a$x            $b$a$d$x
+              $b      $d$x          $b  $a  $d$x
+EOC

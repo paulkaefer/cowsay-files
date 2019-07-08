@@ -1,0 +1,73 @@
+# Albert Einstein - cropped
+# by Diego Sanches - https://diegosanches.com/science-kombat
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;224m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;95m  ";
+$h = "\e[48;5;236m  ";
+$i = "\e[48;5;238m  ";
+$j = "\e[48;5;8m  ";
+
+$the_cow = <<EOC
+                    $t                          $a  $x$a    $x
+                      $t                      $a              $b$x
+                        $t                $a  $b            $a  $b$x
+                          $t            $a$b$a      $b  $c  $b  $c  $x
+                            $t        $a$b      $a$d$c                $x
+                                    $a  $b      $d      $c            $x                      $c$x
+                                    $b$a      $b$d  $c                  $x                $c$d$c$x
+                                  $a          $b$d$c  $b    $d  $c  $b  $x                $c$d$c$x
+                                $a        $b  $d    $b      $d      $b  $x                $c$d$c$x
+                              $b  $a    $b      $d                      $x                $c$d$c$x
+                              $b$a    $b    $d$b$d    $c$e  $c$d    $e  $x                $d      $c$x
+                              $b$a  $b    $d    $b$d  $c$a$e$c$d  $c$e$d$x              $c    $d  $c  $x
+                                $a  $b    $f$d$c$d  $c        $d$c  $d  $x              $d  $c  $d$c  $x
+                                $b          $f  $d      $c  $d$f$d  $f$d$x              $d$f$d  $f$d$c$x
+                                  $b            $f$d      $a  $b$f  $a$b$x              $d  $f    $d  $x
+                                    $b          $f$d    $b$a          $b$x              $d    $f      $x
+                                      $b      $e$f$d    $a$b          $a$g  $x            $f$d      $x
+                                          $e  $h$d$f$d  $b$d$c    $d$h$b$g    $x          $f      $x
+                                        $e$h    $d  $f  $d      $f  $h$e$h$g      $x    $h$f    $d$e$x
+                                  $g  $h$e$h    $f$d  $f        $h    $e$h  $g      $x  $h  $f$d  $e    $x
+                                $g    $h$e$h    $b$f        $e$h    $e$h    $g        $x$h$g  $h$d$e      $x
+                            $g  $h$g$h  $e$h  $g$h$b  $e$b  $e$h$g$e$h          $g      $h$g    $h$e        $x
+                        $g    $h          $e$g  $h$b$e    $b$h  $e$h    $g$h      $g    $h$g      $h  $e    $x
+                    $g      $h          $g$h$e$g$h$i$e  $i$e$h$g$e$h    $g  $e$h    $g  $h$g    $h          $x
+              $g    $h                  $g  $h$e  $i$e  $i$e$g$e$h    $g    $e$h    $g  $h$g  $h          $e$x
+            $h$g      $h$d$c        $h  $g  $h  $e$i$e  $i$e  $h      $g    $e  $h    $g$h$g  $h        $e$x
+          $e$h$g    $h$c        $d$c$d$h  $g  $h$e$i$e  $i$e$h      $g      $h$e    $h      $g$h      $e$x
+          $e$h  $g  $h$d$c    $d  $f$d$h    $g  $e$i$e  $i$e$h    $g        $h  $e$x$e$h            $e$x
+          $e$h      $f$d      $f$d$f$d$h        $e$i$e  $i$e$h    $g      $h    $e$x  $e  $h      $e$x
+            $e$h    $e$f$d$f$d$f$d$f$d$h      $e$i  $e  $i$e$h    $g      $h    $e$x      $e      $x
+            $e$h  $e    $f  $d$f$d$e$h    $g$h$e$i  $e  $i$e$h  $g        $h    $e$x
+              $e$h$e      $x$f  $x$e$h        $e$i  $e  $i$e$h  $g      $h      $e$x
+              $e$h$e      $x      $e$h    $g$h$e$i$j$e  $i$e$h  $g      $h      $e$x
+                $e        $x      $e$h    $g$e$i$j  $e  $i$e$h  $g    $h          $e$x
+                  $e    $x        $e$h    $g$e$i$j  $e  $i$e$h  $g    $h          $e$x
+                                $e$h      $g$e$i$j$i$e  $i  $e$h$g    $h          $e$x
+                                $e$h    $g  $e$i$j$i$e$i    $e$g    $h            $e$x
+                                $e$h    $g  $e$i    $j  $i  $e$g    $h            $e$x
+                              $e$h      $g  $e$i  $j$e$j  $i$e$g    $h            $e$x
+                              $e$h      $g$h$e  $j$e$i$e$j$e  $g    $h            $e$x
+                            $e$h        $g$h$e$i$e$i    $e$i$e$g      $h          $e$x
+                            $e$h            $e$i  $j  $i    $e$g        $h          $e$x
+                            $e$h          $e$i  $j        $i  $e$g        $h        $e$x
+                            $e$h        $e$i  $j            $i  $e  $g      $h      $e$x
+                              $e$h      $e$i      $j    $i          $e$g      $h    $e$x
+                                $e$h  $e$i$j  $i                      $e  $g        $e$x
+                                  $e  $i$j    $i        $x  $i            $e        $x
+                                    $i$j        $i      $x    $i                  $x
+                                    $i$j      $i      $x        $i                  $x
+                                    $j      $i      $x          $i    $j  $i        $x
+                                  $i$j      $i      $x            $i  $j      $i    $x
+                                  $i$j    $i      $x              $i    $j      $i  $x
+                                $i$j    $i        $x                $i  $j      $i  $x
+                                $j      $i      $x                  $i  $j      $i  $x
+EOC

@@ -1,0 +1,70 @@
+# Donald w/ hat
+# by Charc0al, original art by som3a982 - https://imgur.com/gallery/COpzY
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;196m  ";
+$b = "\e[48;5;160m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;185m  ";
+$e = "\e[48;5;179m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;237m  ";
+$h = "\e[48;5;238m  ";
+$i = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t          $a      $x
+              $t      $a          $x
+                    $a      $b          $x
+                    $a  $c        $x
+                  $d    $c$d  $c$d$x
+                  $d    $c        $x
+                  $e  $d$c    $e$c$x
+                  $e    $c        $x
+                    $e  $c        $x
+                    $f$e$c        $x
+                  $g  $f$e      $x
+              $g$h  $g$f  $c  $f  $g$x
+            $g  $h    $g$f  $a$f  $g$h$x
+          $g      $h    $g$f$a  $f$g$h$g$x
+        $g        $h      $g$f$a$f$g$h$g$x
+        $g    $i$g  $h    $g$f$a$f$g$h  $g$x
+      $g      $i$g  $h    $g$f$a$f$g$h  $g$x
+      $g      $i$g  $h    $g$f$a$f$g$h  $g$x
+      $g      $i$g    $h    $g$a$f$g$h  $g$x
+    $g        $i$g    $h    $g$a$g$h    $g  $x
+    $g        $i$g    $h    $g$a$g$h    $g  $x
+    $g        $i$g      $h    $a$h      $g  $x
+    $g        $i$g      $h    $a$h      $g  $x
+    $g        $i$g        $h  $a$h      $g  $x
+    $g        $i  $g          $a$h      $g  $x
+      $g      $i  $g          $i$g$h    $g  $x
+      $g    $i    $g          $i$g$h    $g$x
+      $g      $i    $g        $i$g    $h$g$x
+      $g      $i    $g        $i$g    $h$g$x
+        $g      $i    $g      $i$g        $x
+          $g      $i    $g    $i  $g      $x
+          $g      $i                $g    $x
+            $g    $i          $h$i      $x
+            $i$g$i  $h$i    $h    $i    $x
+            $i  $g  $h      $i$g  $h    $x
+            $i  $g  $h    $x$i  $g$h    $x
+            $i  $g  $h    $x$i  $g$h    $x
+            $i$g    $h$g$x  $i$g  $h  $x
+            $i$g    $h  $x  $i$g  $h  $x
+            $i$g    $h  $x  $i$g$h    $x
+            $i$g  $h    $x  $i$g$h    $x
+              $i$g$h  $x    $i$g$h$g$x
+              $i$g  $h$x    $i$g$h  $x
+              $i$g  $h$x    $i$g$h  $x
+              $i$g  $h$x    $i$g$h  $x
+              $i$g$h  $x    $i$g  $x
+              $i$g  $x      $i$g$h$x
+              $i$g  $x      $i$g$h$x
+              $i$g$h$x      $i$g$h$x
+              $i  $g$h$x    $i  $g$h$x
+EOC

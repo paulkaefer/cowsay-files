@@ -1,0 +1,51 @@
+# Smiling shark
+# by Saphatthachat Sunchoote - https://www.123rf.com/photo_115872127_stock-vector-vector-pixel-art-shark-smile-isolated-cartoon.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;67m  ";
+$c = "\e[48;5;60m  ";
+$d = "\e[48;5;250m  ";
+$e = "\e[48;5;253m  ";
+$f = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+          $t                                      $a  $x
+            $t                                  $a$b$a$x
+              $t                                $a$b$a$x
+                $t                            $a$b  $a$x
+                  $t                          $a$b$a$x
+                    $t                      $a$b  $a$x
+                      $t                    $a$b$c$a$x
+                        $t                $a$b  $c$a$x
+                          $t              $a$b$c  $a$x                                      $a  $x
+                                        $a          $x                                    $a$b$a$x
+                                    $a  $b          $a  $x                              $a$b$a$x
+                                  $a$b                  $a  $x                        $a$b$c$a$x
+                                $a$b                        $a$x                    $a$b  $a$x
+                              $a$b                            $a$x                $a$b  $c$a$x
+                            $a$b                                $a$x            $a$b  $c$a$x
+                            $a$b                                $a$x          $a$b    $c$a$x
+                          $a$b          $a$b                    $c$a  $x    $a$b    $c$a$x
+                          $a$b          $a$b                  $a$c$a$b$a      $b    $c$a$x
+                          $a$b                                $a$c$a$b  $c      $b$c$a$x
+                          $a$b                              $c    $a$c    $a  $c    $a$x
+                          $a$b    $e            $b        $d    $c$a$c$a  $x$a$c      $a$x
+                          $a$b$e      $a    $e        $d  $a    $d$a  $x      $a$c    $a$x
+                          $a$e      $d$a$f  $a            $f  $a$d$a$x        $a$c    $a$x
+                          $a$e  $d      $a  $f            $a  $d$a$x            $a$c  $a$x
+                        $a$e  $d            $a            $d    $a$x              $a$c  $a$x
+                    $a  $e$d$a$d                              $a$d$a$x              $a$c$a$x
+                $a  $e$d      $a  $d                      $a  $d  $e$a$x              $a$c$a$x
+            $a  $e$d  $a      $x  $a  $d            $a    $d        $e$a$x              $a  $x
+        $a  $e  $a    $x              $a            $x    $a  $d      $e$a$x
+$a      $e  $a  $x                                            $a    $d  $e$a$x
+$a$e    $a  $x                                                      $a  $d$e$a$x
+  $a    $x                                                              $a  $d$a$x
+                                                                            $a$d$a$x
+                                                                              $a$d$a$x
+                                                                                $a$d$a$x
+                                                                                  $a  $x
+EOC

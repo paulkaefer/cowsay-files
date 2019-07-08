@@ -1,0 +1,68 @@
+# Wile E. Coyote
+# sprite from Desert Demolition (SEGA Genesis) - https://www.spriters-resource.com/genesis_32x_scd/desertdemolition/sheet/51902/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;99;69;33m  ";
+$b = "\e[48;2;33;32;0m  ";
+$c = "\e[48;2;99;101;66m  ";
+$d = "\e[48;2;140;138;99m  ";
+$e = "\e[48;2;206;170;140m  ";
+$f = "\e[48;2;239;239;140m  ";
+$g = "\e[48;2;28;28;28m  ";
+
+$the_cow = <<EOC
+        $t
+          $t            $a$b$x
+            $t          $a  $b$x
+              $t        $c$a  $b$x
+                $t      $c$d$a$b$x
+                  $t    $a$d$a$b$x
+                        $a$e$c$a$b$x
+                          $a$e$c$b$x              $b              $x
+                          $a$e$d$a$b$x        $a                  $x
+                          $a$e  $a$b$x      $b$a$c$e$d$a$x
+                            $a$e$c$a$b$x  $b$a$d$e  $a$x
+                            $a$e$c$a$b$x  $b$a$d$e  $a$x
+                            $a$e$d$a$b$x  $b$a$d$e$a$x
+                            $a$e  $a$b$x  $a  $e$d$a$x
+                            $a$d$e$a$b$x  $a$c$e$a$x
+                            $a$d$e$a$b  $x$a$d$a$x
+                              $a$d$a$b$a      $b$a    $x
+                                $a$d$e  $b$a  $b$e  $a$x
+                                  $c$d$e  $d$a$e  $a$x
+                                $a$b    $d$c$e$a$f$a$x
+                              $a      $f$b      $f$a        $x
+                          $a  $c$d    $f  $e$d$f$d$a  $e    $a$x
+                        $a$e                  $c$a    $e    $c$a$x
+                      $a$d$e          $d$b$c$d$e    $d$c$e  $c$a$x
+                        $a$c  $e    $b$e    $c$a$e  $g  $c$d$a$x
+                          $a    $d$e    $d$b    $a  $g    $a$x
+                                $a      $b$d$e  $b  $g    $x
+                                  $b    $d$e      $d$a    $b$x
+                                $b$a      $e      $d$a$b$a$b$x
+                              $b$a  $b$a  $b  $e    $d$a    $b$x
+                              $b$a  $b$a$b$a  $b$e    $d$b        $x
+                                $b$a  $b$a$b$a  $b$a  $b$a        $b$x
+                                  $b$a$b$a$b$a  $b    $a  $b  $a    $x
+                                  $b$a  $b      $a    $b            $x
+                                    $b$a            $b    $a    $b$x
+                                    $b$a            $b    $a    $b$x
+                                    $b$a      $b    $d  $c$b$a$b$x
+                                      $b$a$b  $a$d$e    $a$b  $x
+                                        $b$a    $d$e    $a$b$x
+                                          $a    $d$e    $a$b$x
+                                          $a    $d$e  $d$b$x
+                                          $a    $e    $a$b$x
+                                          $a    $e    $a$b$x
+                                        $b$a    $e    $a$b$x
+                                        $b$a    $e  $d$a$b$x
+                                      $b$a    $c$e  $a$b$x
+                            $b        $a      $e  $c$a$b$x
+                        $b$a      $b  $a    $c$e  $a$b$x
+                        $a      $b$x$b$a    $d  $c$b$x
+                      $b$a    $b$x  $b  $a  $d$c$a$b$x
+                      $b$a$b$x$b$x    $b$a$b  $a$b$x
+                      $a  $b$x        $b$a$b$a  $b$x
+EOC

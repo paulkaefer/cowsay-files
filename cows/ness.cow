@@ -1,0 +1,75 @@
+# Ness (Earthbound)
+# by Naruto[NU] - https://www.spriters-resource.com/custom_edited/earthboundcustoms/sheet/24917/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;102m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;203m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;202m  ";
+$h = "\e[48;5;53m  ";
+$i = "\e[48;5;62m  ";
+$j = "\e[48;5;60m  ";
+$k = "\e[48;5;234m  ";
+$l = "\e[48;5;209m  ";
+$m = "\e[48;5;98m  ";
+$n = "\e[48;5;223m  ";
+$o = "\e[48;5;16m  ";
+$p = "\e[48;5;94m  ";
+$q = "\e[48;5;137m  ";
+$r = "\e[48;5;136m  ";
+$s = "\e[48;5;18m  ";
+$u = "\e[48;5;221m  ";
+$v = "\e[48;5;236m  ";
+$w = "\e[48;5;66m  ";
+$y = "\e[48;5;250m  ";
+$z = "\e[48;5;187m  ";
+$A = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t          $a$b$x
+                $t  $c            $x
+                $c  $d$e$f$e  $d$f$c  $x
+              $c$f$d$e$d$e      $d  $f$c$x
+            $c$f$d$e  $d$e$g    $d$g  $d$c$x
+            $c$f$d$e$g$d$g$d    $g$d$g  $c$x
+          $c$f$d$g    $f$d        $f$d$g$d$c$x
+          $c$f$d      $f$d        $f$d  $f$c$x
+          $c$h              $c              $x
+        $h  $i      $j      $h$k    $l  $k  $x
+      $h$m  $i          $h  $l$k  $l    $k  $x
+      $h  $m  $i$h      $k$l  $n      $k$l$x
+          $h    $k$l$o$k$n          $k$l$k$x
+              $k$l  $n    $o    $n  $k$l$k$x
+                $k$l  $n$l  $n      $k$l  $k$x
+              $k    $l$n          $k$l  $n  $k$x
+          $k  $p  $h    $l        $k$l$n    $k$x
+        $k$q$p  $h$r$s$r$h  $k    $l$n  $k  $x
+      $k$q$p    $h$u$j$u$j$r$h$k  $n  $k$x
+    $k$q  $p  $h$s$u$j$u$j$r$h$k$l$n$k$x
+    $k$q$p    $h$r$h$u$s$u$h$l    $k$x
+    $k$p      $h$k  $h  $r$h$l  $k$x
+    $k$p    $k  $p  $k$s$h$k    $r$h$x
+    $k$p  $k$p  $k  $r$u    $r$u$s$h$x
+      $k$p  $k  $u$s  $j    $s    $r$h$x
+        $k  $h$s$j$r$u$r  $u    $r$s$h$x
+            $h$r  $j  $s$j        $r$h$x
+            $v$h  $r$u    $r  $u  $h$x
+            $v  $h                $v$x
+          $v      $w    $v  $w    $v  $x
+          $v        $w$v      $w    $v  $x
+            $v    $w  $v    $w  $v    $x
+            $q$v      $x  $v      $a$x
+          $a$y    $a$x      $a$y  $a$k  $x
+          $k        $x    $k$f$a  $f    $k$x
+        $k$f        $k$x  $k$f            $k$x
+        $k$f  $z$A$f$k$x  $c$A$z    $A$z$A$c$x
+        $c$A  $c  $A$c$x    $c            $x
+          $c        $x
+EOC

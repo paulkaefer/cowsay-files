@@ -1,0 +1,54 @@
+# Link (Legend of Zelda: Wind Waker)
+# by Matbox99 - https://www.deviantart.com/matbox99/art/Link-Pixel-Art-Grid-400437920
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;76m  ";
+$c = "\e[48;5;22m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;226m  ";
+$g = "\e[48;5;214m  ";
+$h = "\e[48;5;179m  ";
+$i = "\e[48;5;250m  ";
+$j = "\e[48;5;222m  ";
+$k = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t            $a            $x
+                  $t      $a  $b          $a    $x
+                      $a  $c$b                  $a$x
+                    $d        $e        $c$b    $a  $x
+                  $d$f      $g          $d$c      $a  $x
+                $d$f            $g        $d$c      $a$x
+              $d$f                $g        $d$c    $a  $x
+            $d$f          $d$f  $g    $d  $g  $d$c    $a$x                    $a      $x
+              $d    $a  $d$f    $a  $d$h  $d$g$d$c    $a$x                  $a  $i$a  $x
+                    $a$h$a$f  $a$d  $h    $d$g$d$c    $a$x                $a  $i$a$i$a$x
+                    $a  $d    $a      $h  $d$g$d$a  $c$a$x              $a  $i$a$i$a$x
+          $a              $j$a$i$a  $i$d$h$d$g$d$h$a$c$a$x            $a  $i$x$i$a$x
+          $a$i    $k$e$k$j    $k$a  $k$h  $a$d$h$a$c  $a$x$a  $x    $a  $i$a$i$a$x
+          $a$i$e    $a$j$d$j      $h      $a$h$d$c  $a$x$a      $x$a  $i$a$i$a$x
+          $a$k$e$d    $a$j        $h      $a$d$f$d$c$a$x$a  $i$a    $i$a$i$a$x
+          $a$k$e$d      $a$j    $h      $a$c      $a        $i$a    $i  $a$x
+          $a$k$e$d    $a$f$a              $b    $a$b      $a    $d$a    $x
+          $a$k$e$d$i  $a$i$c$b  $a$c$b$c$a$b$c$a$c    $b    $a$g  $d$a    $x
+          $a$k$a  $i$k$c$i$k$c    $a$b$a$b  $c$a      $c$b    $a$d$a        $x
+          $a$k$a$h$k  $b$k  $a    $c$a$b    $c$a  $x  $a  $c  $a      $i  $a$x
+          $a$i$a$h$i$k$a$i$k$d  $a$c  $b      $a$x    $a      $h  $a        $x
+          $a$i$e$a$i  $h$i  $d  $a$h$g$f$g$h    $a$x$a            $x
+            $a$i$d            $i$a$d$f$g$f$d    $a$x$a$i$a  $x
+            $a$k$d            $a$c$b          $c$a$x  $a  $x
+              $a$i$d        $i$a$c                $a$x
+                $a$i$d    $i$a                        $x
+                  $a$i$k$i$a    $i  $a$x    $a    $i$a$x
+                    $a$i$a$i  $a$i$a$x        $a  $i  $a$x
+                      $a$h  $d$a  $x          $a$e$d$h$a$x
+                    $a$e$d  $e$a$x            $a$e$d  $e$a$x
+                    $a        $x                $a        $x
+EOC

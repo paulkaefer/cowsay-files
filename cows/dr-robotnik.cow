@@ -1,0 +1,81 @@
+# Dr. Robotnik a.k.a. Dr. Eggman (Sonic the Hedgehog)
+# sprite from Sonic the Hedgehog (SEGA Genesis) - https://www.spriters-resource.com/game_boy_advance/sonicthehedgehoggenesis/sheet/57289/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;137m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;61m  ";
+$e = "\e[48;5;105m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;30m  ";
+$h = "\e[48;5;239m  ";
+$i = "\e[48;5;246m  ";
+$j = "\e[48;5;249m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;238m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;233m  ";
+$o = "\e[48;5;160m  ";
+$p = "\e[48;5;234m  ";
+$q = "\e[48;5;18m  ";
+$r = "\e[48;5;184m  ";
+$s = "\e[48;5;109m  ";
+$u = "\e[48;5;58m  ";
+$v = "\e[48;5;100m  ";
+$w = "\e[48;5;101m  ";
+$y = "\e[48;5;226m  ";
+
+$the_cow = <<EOC
+              $t                                      $a        $x
+                $t                                $a    $b      $a  $x
+                  $t                            $a  $b    $c  $b    $a$x
+                    $t      $d    $e    $x  $f  $a$b      $c  $b    $a  $x
+                      $t$d  $e$g$e$h  $i$j  $f  $a$k$b$k$d$b        $f              $x
+                      $d$g$e$g$h$l$g      $j  $f$a$k$b$k  $b    $f  $m              $e                $x
+                    $d$g$e$g$h$g        $e$c$j  $a$k$b$k  $b$f  $m      $f  $n      $m  $d      $e          $x
+                  $k$g$e$g$l$g        $e$c    $j  $b$o$b$f$m        $f            $n$f  $m  $d  $e      $d  $e$n$x
+                $k$g$e$g$h$g        $e$c      $e$j  $o$n$m                $n      $o  $f    $p$d  $e  $d        $n$x
+              $q$g$e$g$e$h$g        $e$c    $e$f$c$j  $r$n                $o            $f    $m$d      $k$d    $n$x
+              $k$e$g$e$h$g        $e$c    $e$f$c  $e$j$r      $f  $m$f$o        $f  $o  $f    $m$d    $k$d$k$d  $n$x
+            $k$e$g$e$g$h$g$j    $e$c    $e$f$c  $e$i$j  $r  $f    $m$f$o        $f$m$f          $m$d  $k    $d  $n$x
+            $k$g$e$g$h$j  $c    $e$c    $e$j$c$e$i$c$j  $c$m$f$m  $f$m$f$o    $f  $m$f          $m$d$k      $d$n$x
+          $k$g$e$g$e$j$c    $j$e$c    $e$h$c  $e$m$i$c$j  $m$o  $f$m    $o    $f$o  $m  $f      $m$d$k    $d  $n$x
+          $k$e$g$e$h          $e$c    $e$h$c$e$h  $m$i$j  $o        $m    $f$o      $m    $f  $m  $k      $d  $n$x
+        $k$i$j        $c$j$c                            $i$c$j                $i$j$i                        $j$x
+        $h  $i      $j$i$j                            $i$j$i                    $h$i$h                        $s$x
+        $h$i          $j                                $i$j$i                    $h                          $i$x
+      $h  $i  $j$h$n  $h$i$j                              $i$j$i    $n$i        $h$i$h                          $i$x$u$v$r      $x
+      $h$i  $j$n        $i$j                            $i$j$i    $n  $i          $h                            $w$v            $r$v$x
+      $h$i  $j$n$h$c$h$n$h$j      $n            $c$j      $i$j$i$n  $r    $n      $r$v  $n      $v    $n    $v  $h$v                $x
+    $h  $i  $j$h$c$r$c$h$n$j      $c              $j        $i$n  $r    $n      $r$v$r$n      $v    $n    $v  $n  $l$v          $u$v$x
+    $h  $i$j$n$i$r  $c$i$n$j                              $i$h$n$r    $n      $r    $n      $v    $n    $v  $n    $v        $u    $v$x
+    $h  $i$j$n$r    $c  $n$j      $n            $c$j        $i$j$r  $n      $r    $n      $v    $n    $v  $n    $u$v$u          $v$x
+    $h  $i$j$n$r    $c  $n$j      $c              $j      $i$j$i  $n  $i            $h          $l$h              $i$u        $v$x
+    $h  $i$j$n$r    $c  $n$j                                $i$j$i  $n$i    $j$c                    $j  $h        $i$u    $v  $x
+    $h  $i$j$n$r    $c  $n$j      $n            $c$j      $i$j$i            $n  $j$c                      $j$n$h  $i$u  $v$n$h$x
+    $h  $i$j$n$r    $c  $n$i$j    $c              $j        $i$j$i          $n    $i                          $n$h$w$v  $n  $h  $x  $f      $x
+    $h  $i$j$n$j$r  $c$j$n$h$j                            $i$j$i            $n      $h$i$h$i$h$i$h$i$h$i$h$i$h$n$h$i$n  $i$n  $c$x$f$o      $f  $x
+    $h  $i$j$n$i$r  $c$i$n$h$j                              $i$j$i          $n      $i$h$i$h$i$h$i$h$i$h$i$h$i$n$h$i$n  $c$n  $j$x$o$y    $o    $f$x
+    $h  $i$j$n$h$c$r$c$h$n  $j                                $i            $n      $h                        $n$h$i$n  $i$n  $i$x$y          $o  $f$x
+      $h  $i$j$n$h$c$h$n    $j                              $i$j$i$c                                                $j  $n  $h$i$x$y            $o  $f$x
+      $h  $i$j$n            $j                            $i$j$i$c                    $j  $i  $h                    $i  $j$n$h  $x$y          $o  $f$x
+      $h  $i$j$n            $i$j                        $i$j$i  $h$j                                                    $n  $h$i$x$o$y    $o    $f$x
+        $h$i$j$n            $h$j                          $i$j$i  $h        $n      $h                        $i$h    $n  $h$i$x  $f$o      $f  $x
+        $h$i$j$n              $j                        $i$j$i        $h    $n      $h                        $i$x    $h$i  $x      $f      $x
+        $h  $i$j$n            $i$j                    $i$j$i              $h$n    $h                      $i$h$i$x
+          $h$i$j$n            $h$i$j            $i$j$i$j$i$j$i              $n  $i$h$i$h$i$h$i$h$i$h$i$h$i$n$i$x
+          $h  $j$n              $j$i$j$i$j$i$j$i$j$i$j$i$j$i                $h          $n                $l$i$x
+            $h  $j$x$n          $h$j$i$j$i$j$i$j$i$j$i$j$i                    $h$i$h                      $i$x
+                    $n                                                                          $h$n$x
+                      $n                                                                      $h$n$x
+                        $n                                                                $h$i$n$x
+                          $n                                                            $h$i$n$x
+                            $n                                                      $h$i$n  $x
+                                $n                                              $h$i  $n$x
+                                  $n    $h$n                              $h  $i  $n  $x
+                                      $n  $h      $n            $h    $i      $n  $x
+                                          $n      $h        $i$h$i    $n      $x
+EOC

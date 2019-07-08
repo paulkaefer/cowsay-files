@@ -1,8 +1,8 @@
-# Boba-fett (Star Wars)
-# by Charlie M
+# Boba-fett (Star Wars) - cropped
+# by scavi - https://imgur.com/gallery/9cYg2x1
 # Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
 $a = "\e[48;5;255m  ";
 $b = "\e[48;5;102m  ";
@@ -60,11 +60,11 @@ $a3 = "\e[48;5;101m  ";
 $a4 = "\e[48;5;232m  ";
 
 $the_cow = <<EOC
-      $t                              $a$x
-        $t                          $a  $x
-          $t                      $b$c$b$x
-            $t                  $b$a$c$d$x                        $e$f$e  $x
-              $t                $b$a  $g$x                            $f  $x
+              $t                      $a$x
+                $t                  $a  $x
+                  $t              $b$c$b$x
+                    $t          $b$a$c$d$x                        $e$f$e  $x
+                      $t        $b$a  $g$x                            $f  $x
                                 $a$b$d$h$x                            $i$x
                                 $a$j$g$x          $k        $x        $i$x
                               $h$l$d$x        $k                $x    $i$x
@@ -85,10 +85,10 @@ $the_cow = <<EOC
           $H$I    $f  $q$v$E  $F$E        $D$k$h      $k  $r$f$v$x                        $q$h  $q$x      $h$x        $K$J    $A$K$B$A$B            $x
           $H$I    $f$q$v$g$E              $D$k  $q$h  $q    $f$x                            $L$m$g  $M    $o$v  $e$N$O$K$J        $P$J              $x
           $H$I    $f$q$g$q$E  $q$h  $s$Q  $L  $k  $q      $a            $E  $a$G  $I  $u$x$q  $l$g$n$q    $h$o$d$r  $R$J        $K$B                $x
-        $H$I    $G$f$v$g$q    $G$S$T  $U  $u$L$u      $a$q$s            $E$q  $n  $I  $R$u$q$G$q    $o$q  $h  $f$N    $O$R$J    $A$w$x
+        $H$I    $G$f$v$g$q    $G$S  $t$U  $u$L$u      $a$q$s            $E$q  $n  $I  $R$u$q$G$q    $o$q  $h  $f$N    $O$R$J    $A$w$x
         $H$I    $G$f$k$v$q      $S    $U$Q  $U$u      $g$q                $N      $I  $R$u$q$G$q  $f$q    $x            $V$B$A  $x
         $H$I    $G$j$k$v$q    $G$q$S$m  $Q$u$U          $h$r                  $N      $f$I$b$q    $x                      $w  $B$x
-      $H$I      $j  $k$v$q      $G$q$S$L$m$U  $T        $h                                $q    $x                          $B$x
+      $H$I      $j  $k$v$q      $G$q$S$L$m$U          $t$h                                $q    $x                          $B$x
       $H$I      $j$e$k$v$q        $G$q$G$S$m$s$m      $q$r$W$E      $g$E$g  $E        $q    $g$x                            $w$x
       $H$I    $j  $k  $v$q$f$q              $G  $g  $q$r    $W$E  $q                      $C$G$x
     $H$I    $j    $k  $v$q$f  $q                      $r$q                          $v$e$X$L$n$x
@@ -97,9 +97,9 @@ $u$J$u$I  $j    $e$k    $q$u$n$g  $v$f$q              $v  $h$Y$q    $G$v$x      
 $b$s  $I$j      $k        $q$c$g    $v$f$q            $v  $h$Y$h    $G  $x    $q        $f$q$x
 $u  $G$u$j      $k    $v$k$q$U$c$g    $v$f$q            $v$M$F  $v  $G  $v$x$q        $f$q  $x
 $u      $q$j  $s$k    $v$k$q$g$U$c$g    $f$q              $D$v$E$v$T$v  $q$f$q      $f$q  $x
-$u    $n$q    $e$k  $v$k  $q$e$T$U$c$e  $v$f$q              $v$Y$Q$G$T  $r$q      $f$e$q  $x
-$o$I  $q$I$q  $e$k  $v$k  $q$M$T  $U$a  $e$v$f  $q                $Q    $f$q      $v$q  $x
-$l$q  $l$x$I$q$e$k  $v$k  $q$u$o$T  $Z  $c$g    $q          $f  $q  $d$g$F$q    $v$q  $x
+$u    $n$q    $e$k  $v$k  $q$e$T$U$c$e  $v$f$q              $v$Y$Q$G  $t$r$q      $f$e$q  $x
+$o$I  $q$I$q  $e$k  $v$k  $q$M  $t$U$a  $e$v$f  $q                $Q    $f$q      $v$q  $x
+$l$q  $l$x$I$q$e$k  $v$k  $q$u$o  $t$Z  $c$g    $q          $f  $q  $d$g$F$q    $v$q  $x
 $q      $x  $q$e$k  $v$k  $q$d$a1  $i$U  $Z$g  $G$a2$q        $f$d$q    $n$v$q        $x
               $e$k        $h$q      $l$Q  $G$n$J$G  $q    $h$G$M$x$h$q  $f  $q  $h$x
               $e$k    $v  $k$q$n  $h$q$u  $a1$J$G$h$q$v  $f$h$a3$f$x    $q$h$q$f$x
@@ -113,12 +113,4 @@ $q      $x  $q$e$k  $v$k  $q$d$a1  $i$U  $Z$g  $G$a2$q        $f$d$q    $n$v$q  
           $v$k        $v  $k  $q$R        $O      $N      $O$x
         $v$k  $a3      $v  $k  $q                    $N    $O$x
         $v$a3  $q      $a3$v$k  $q$g$Z  $a3$J$T$k    $v$q  $Q$q$x
-        $a3$q          $v  $k  $q$u$g$a3$k$T$J$k    $v$g$Q$q$m$x
-        $v$q          $v    $k$q$a4  $v$k  $T$k    $a3$Q$q$m    $x
-        $v  $q      $v      $k$q$u  $a4$g$k        $n$Q$m      $x
-      $v$q$a3$v$q    $v      $k$q$u  $a4$q$a3$n    $a3$Q$m$u$m    $q$x
-      $v$q  $v$q$v          $k  $q$u  $q$v$a3$n$a3$q$m    $u$m    $q$x
-      $v$q  $a3$v              $k$q$m  $q        $m$q$u$m          $x
-      $v$q  $a3$v              $k$q  $m  $q    $n$q$s$q$u$m        $q$x
-
 EOC

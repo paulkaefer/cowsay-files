@@ -1,0 +1,60 @@
+# Knuckles (Sonic & Knuckles)
+# sprite from Sonic Battle (GBA) - https://www.spriters-resource.com/game_boy_advance/sonicbattle/sheet/10041/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;160m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;21m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;209m  ";
+$h = "\e[48;5;228m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;243m  ";
+$k = "\e[48;5;250m  ";
+$l = "\e[48;5;34m  ";
+$m = "\e[48;5;82m  ";
+$n = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+    $t
+      $t
+        $t
+              $a        $x
+            $a$b          $a  $x
+          $a$b                $a  $x
+        $a$b$a$b                  $a$x
+        $b$a$b    $a$b        $a$b  $a$x
+      $a$b$a$b    $a$b    $a  $b$a$b  $a$x
+      $b$a$b    $a$b    $c$d  $a$b$a$b$a$c$x
+    $a$b$a$b    $c$b    $c$d    $a$b$a$b  $c$x
+    $a$b$a$b  $a$c$b  $a  $d  $e$a$b$a$b$c$x
+    $a$b$a$b  $c  $b  $c$a$d  $f$d$c$a  $c$x
+    $c$b$c$b  $c$f$b  $c  $a$d$e$d$c$a$c$x
+    $c$a$c$b  $c$f$b  $c$g$h$g$i    $c  $x
+    $f$a$f$b$a$f  $a$b$c$g$i$h      $g$f    $x
+    $f$a$f$a  $f  $c$b$c$i$g$h  $g$i  $f  $x
+    $f$c$f$a$c$f  $c$a$c  $f        $x
+    $f$c$f$c$f  $a$f$a$c$a  $c$f      $x$j  $f    $x
+    $f$c$f$c$f  $b$f  $a$b$f$j$k$d  $f  $k$d$k$d$f$x
+    $f      $x$f$b$c$f$a$f$k$d  $k$f  $d$j$d$k$j$x
+    $f  $x$f$x$f$b$c$f  $j$d      $f  $d$f$d  $j$x
+      $f$x$f$x$f$a$b$a$d$k$d      $k$f    $d  $k$f$x
+      $f$x      $f$a$b$d$k$d    $k$d  $f$j$d  $k$d$f$x
+      $f$x$a    $c$f  $k$j$k$d  $k$j$f$j$k$f$k  $f$x
+        $c    $f    $b$f    $j  $f              $x
+      $c  $x        $a$b$c$f$c$f$x
+                    $f$b$a$x$c$f$x
+                $f  $c$a$c$f    $x
+              $f$l$c$a$c$f$l    $f$x
+              $f  $m  $l$f        $x
+            $f  $a$f    $a  $f$j$d$j$x$a$x
+            $f$j$d$j$d$f$a$g  $j$f$j$f$b$a$x
+          $f$n$j$f$j$f$a$f$g$a$b          $a$x
+          $f$n$b        $f$j  $k          $j$x
+          $f$j$k$d    $k$f                  $x
+            $f            $x
+EOC

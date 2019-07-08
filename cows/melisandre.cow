@@ -1,0 +1,80 @@
+# Melisandre (Game of Thrones)
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;167m  ";
+$b = "\e[48;5;124m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;215m  ";
+$h = "\e[48;5;173m  ";
+$i = "\e[48;5;166m  ";
+$j = "\e[48;5;178m  ";
+$k = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+          $t                    $a$b  $c$d$x
+            $t                $a$b        $d$x
+              $t            $b        $e$b$d$x
+                $t          $f    $g$e  $d$c$x
+                  $t        $c    $g$e  $d$c$x              $b$x
+                            $c  $e$c$f$g$c$x
+                          $b  $f$e$g$e$d  $x
+                        $c$b$c$f  $g$e  $d$x
+                        $c    $f  $h$g$d$f$x                    $i$x
+                      $c$b  $f    $g$h$f  $x                $c$x$j$x
+                    $b  $c  $f    $k$e$f  $x                $i$x
+              $a$c$a$c    $f    $k$g$k  $f$x                $i$x$c$x
+                $b$c  $b$f  $d$e  $k$c$k$e$g$x              $j$x$i$x
+                  $b$c$f  $d$e    $g$k$c$k$g  $x            $j  $i$c$x
+                    $f    $d$e  $h$e  $k$e$d$c$x            $j$x$i$c$x
+                  $f    $a$b    $e          $d$x              $c$j$i$x
+            $a$f  $c$f  $b  $c$b    $d$e$g$e  $d$x          $c$j$d$j$c$x
+              $b$c$f    $b$c$f$c$b    $d$h$e  $b$d$x        $i$d  $j$i$x
+              $f        $c$f$k$f$b      $h$e$b  $a$x      $c$j$d    $j$x
+                $f      $c  $k$f$c$b    $g$b  $a$x        $j$d    $j$c$x
+              $f      $c    $k$c$f  $c  $g$c  $f$x        $i$j$d  $i$c$x
+                  $f  $c  $k    $c$f$c  $e$c$f  $x
+                      $c  $k    $c      $e$c$x$f  $x
+                    $a$b$c$k      $c$b$c$g$b$x$f  $x        $d$x
+                    $a$b$k        $a$b$c$g$b$x  $f$c$b$a  $g$e$d  $e$x
+                    $b  $k        $x$a$b$c$b$x    $f      $x
+                    $b  $k    $x    $a$b$c$b$f$x
+                    $b  $x$k$x      $b$c    $f$a$x
+                    $b$x          $a$f$a$c  $f$b$x
+                    $b$x        $a$b  $f$a$c$f$b$a$x
+                    $b$x        $a$b  $c$f$b$f$c$a$x
+                    $b$x      $a$b      $c$f$c  $b$x
+                    $e$x      $a$b      $c        $a$x
+                    $e  $x    $b          $c      $b$x
+                    $e$i$e$x$b      $g$b$c          $x
+                    $e  $x  $b    $g  $b$c      $b$c$x
+                            $c$b  $g  $c      $b$c  $x
+                            $c$b$g    $c        $b$c$x
+                            $c$b$g    $c      $b  $c$x
+                          $c$b$g      $c      $b  $c$x
+                          $c$b$g    $h$c      $b  $c$x
+                        $c  $b$g    $k$c      $b  $c$x
+                        $c$b$g    $h$k$c    $b    $x
+                        $c$b$g$e$g$k  $c    $b    $x
+                      $c$b$c    $k    $c    $b  $c$x
+                    $c  $b$c    $k  $c      $b  $c$x
+                $c    $b$c      $k  $c      $b  $x
+              $b$c  $b$c      $k    $f$c    $b  $x
+        $c$b        $k$c      $k  $c        $b$c$x
+  $c  $a    $b$k      $c    $k    $c$f$c    $b$c$x
+$c$a  $b  $k          $c    $k    $c        $b$c$x
+$a$b$k                $c  $k    $b$c$f$c    $b$c$x
+$b$k                  $c  $k    $b$c$f$c    $b$x
+  $k              $f$k$c  $k  $b  $c$f$c    $b$x
+    $k        $f  $k  $c$k    $b  $c$f$c  $b$c$x
+      $k$f      $k    $c$k      $b$c$f$c  $b$c$x
+        $f  $k      $c  $k            $x$c$b$c$x
+            $k      $b  $k    $x          $f$c$f$x
+                  $b    $x                $f      $x
+                $b      $x                $f$x$f    $x
+EOC

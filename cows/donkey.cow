@@ -1,0 +1,57 @@
+# Donkey (Shrek)
+# by u/bakudas - https://www.reddit.com/r/PixelArt/comments/5882bg/oc_shrek/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;248m  ";
+$b = "\e[48;5;8m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;244m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;231m  ";
+$h = "\e[48;5;236m  ";
+$i = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+                              $t                                              $a$b$x
+                                $t                          $a  $x            $a$b$x
+                                  $t                        $b$a  $x  $c$x  $a$b  $x
+                                    $t                      $b$a  $d$c      $a$b$x
+                                      $t                      $b$d  $a$c    $a$b$x
+                                        $t                    $b  $d$a$b    $d$b$x
+                                          $t                  $c$b$d  $c  $d  $c  $x
+                                            $t                  $b$d$c$b  $c$a$b  $x
+                                              $t                $b$d$b$e$f  $a$e$f$x
+                                                $t            $c$b$d$b$e  $f$b$a$e$x
+                                                            $c  $b          $d  $a      $d  $x
+                                                              $c$b  $a  $d        $a      $d$x
+                                                              $c$b$a    $b$d$a$d$a$d      $a$b$x
+                                                              $c$b$a  $b                    $f$x
+                                                        $c  $x$b$d$a  $b  $h$f  $h$f  $h$f  $h$x
+                                                        $c    $b$d      $b$h      $f  $h$f  $h$x
+                                                $c$x$c    $b    $d      $b$f  $i      $h    $x
+                        $a              $x      $c  $b            $d      $b    $f  $i$f  $x
+                $a                            $d              $b    $d    $x  $b          $x
+              $a  $d$a                        $d                  $b  $d$x      $b      $x
+          $a$d  $b$d  $a                    $d                          $x
+        $c$b  $x$b  $d    $a            $d            $a    $d      $a  $x
+        $c  $x  $b$d                                $b$a      $d  $a    $x
+        $c  $x$b$d                                $b  $a      $d  $a    $x
+              $a    $d                            $b$d$a    $d    $a    $x
+              $a      $d                          $b$d  $a  $d    $a  $x
+              $a        $d                      $b  $d                $x
+              $a        $d                      $b  $d$a    $d      $x
+              $a        $d                    $b    $d$a    $d    $b$x
+              $d$a      $b$d                $b      $d$a  $d    $b  $x
+                $a  $d  $b  $x$b    $x              $b$d    $x$b    $x
+                  $d  $b    $x$b    $x                $d    $x$b    $x
+                  $d  $b  $x    $b    $x              $d    $x  $b  $x
+                  $b      $x    $b    $x              $b$d  $x  $d    $x
+                  $b    $x        $b  $x              $b$d  $x  $d    $x
+                  $b$d  $x      $c$b$c  $x            $b$d  $x  $c$d$c  $x
+                    $d    $x    $c        $x          $b$d  $x  $c        $x
+                    $c$d$c  $x    $c      $x            $b$d$x    $c      $x
+                    $c      $x                          $c$d$c$x
+                      $c    $x                          $c      $x
+EOC

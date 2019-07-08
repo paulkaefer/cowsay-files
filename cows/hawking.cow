@@ -1,0 +1,76 @@
+# Stephen Hawking
+# by Diego Sanches - https://diegosanches.com/science-kombat
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;224m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;8m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;244m  ";
+$i = "\e[48;5;137m  ";
+$j = "\e[48;5;24m  ";
+$k = "\e[48;5;75m  ";
+$l = "\e[48;5;26m  ";
+$m = "\e[48;5;31m  ";
+$n = "\e[48;5;16m  ";
+
+$the_cow = <<EOC
+          $t                          $a    $x
+            $t                  $a        $b  $a$x
+              $t              $a      $b    $c$d$b$x
+                $t          $b$a  $b    $c$d        $x
+                  $t        $b$a$b    $c$d          $x                  $e  $f$g$e                                    $g  $x
+                          $b      $c$d          $c    $x                $e  $f$g$e                          $g            $x
+                          $b  $c    $d    $c  $h        $x            $e  $f$g$e                            $g  $e$g      $x
+            $f            $b$c  $h      $c  $h$a        $h$c$d$x      $e  $f$g$e                        $g    $e    $g  $x
+        $g$f            $e  $c$h$a      $e    $a$e  $a  $h$c  $x      $e  $f$g$e                    $g      $e      $g  $x
+        $g$e$f          $e$g$h$a  $e  $a$h$c$h$a        $h$c$i$x    $e  $f$g$e                    $g    $e          $g  $x
+          $g$f        $e  $g$h$a        $h$d  $h$a    $h$i  $x      $e  $f$g$e                $g      $e      $g      $x
+          $g$f        $e  $g$c$h$a    $h$c$d$c$i$h    $i  $x        $e  $f$g$e            $g        $e    $g          $x
+          $g$e$f      $e  $g  $c$h    $c$i$c$i$d      $i$e$x        $e  $f$g$e          $g                            $x
+            $g$f    $e      $g    $i$d  $c$i$c$d      $i$e  $x    $e  $f$g$e          $g                      $a  $g  $x
+            $g$e$f$e        $g    $i  $c$d$i    $d$c  $i$e    $x  $e  $f$g$e        $g    $f    $g          $a$b      $x
+              $g$f$e          $g$i$c    $i$d    $c  $i$e      $x  $e  $f$g$e      $g    $a$b  $f$b$g    $a$f$b      $f$b$x
+            $g  $e$f$e        $g$i$c              $i$e        $x  $e  $f$g$e  $g      $a$b$f  $b$a$f$a  $b$f  $b  $f  $b$x
+          $g      $f$e      $g  $j$i              $c$k$e    $g$x$e  $f$g$e  $g        $b$f    $b  $f$b    $f$e$f        $x
+        $g        $e$f$e  $g  $j        $k$i    $c  $k$l$g  $x  $e$f  $g$e$g          $b$e$f  $e$b$f      $e  $f      $x
+        $g          $f$e  $g  $j          $k$i$c$i$k  $j$l$j  $x$e$f  $g$e$g          $f$e    $f  $g  $e    $f    $x
+        $g          $e$f$e$g  $j$m  $j      $k$i$l$k    $j      $f    $g$e$g  $e  $g    $f$e  $g      $f  $e    $n$x
+      $g        $e$g        $j$m        $j    $l    $k  $j    $f    $g$e$g  $e    $g                  $f    $e$g$x
+      $g        $e  $g$f$e$g$j$m          $j  $l  $k$l$k$j    $f    $g$e$g  $e    $g                $f$b$f  $e$g$x
+        $g$e  $g      $f$e$g$j$m            $j    $l$k$l$j    $f    $g$e$g$e  $g  $e  $g          $f$a$f  $e$g$x
+        $g  $e  $g  $e$f$e$g$j$m            $j    $l$k$l$j    $f    $e      $g  $e    $g          $b  $f  $g  $x
+        $g    $e$g  $e  $f$e$g$j$m            $j    $k$l$j$m$j  $f$g$e    $g  $e$g              $f$b$f  $e$g  $x
+          $g    $e$g$e  $f$e$g$j$m            $j    $l  $j$m$j    $g                          $f$b  $f$e$g  $x
+          $g    $e$g  $e  $f$e$g$j$m          $j      $l$j$m$j              $x                $b  $f$e$x
+          $g    $e$g$e$g$e  $f$g$j  $m      $j  $m$j      $m$j$m  $j      $m  $x            $f$b$f$e$x
+            $g      $e$g$e  $f$g$j    $m  $j      $m$j        $m    $j$m        $x        $f$b  $f$e$x
+            $g    $e$g$e$g$e  $f$g$j                $m  $j      $m$j            $m$x    $f  $b$f$e$x
+            $g        $e$g$e  $f$g  $j                $m  $j        $c$d    $c$j  $x  $e  $f  $e$x
+            $g        $e  $g$e  $f$g  $j                $m$j          $c$d  $c$i$j$x  $e        $x
+              $g      $e  $g  $e  $g    $j                $d    $i$j    $i    $j  $m      $e  $x
+              $g      $e  $g    $e  $g      $j          $c  $d  $j          $m  $j    $m      $x
+              $g      $e  $g                  $j      $i    $j            $m        $j  $m      $x
+                $g      $e$g      $f                        $j          $m            $j  $m      $x
+              $e$g      $e$g    $f                                  $j    $m  $j$m      $j  $m    $x
+            $e$x$g            $e                        $f      $e  $j        $m        $j$g$j  $m$x
+          $e$x    $g                                    $e      $g  $j  $g$j  $m      $j  $g$j    $x
+          $e$x    $g                $e    $g      $f    $g      $j    $g$j      $m  $j    $g$j  $g$x
+          $e$x    $g      $e        $g    $e$g    $f      $g              $j            $g$j    $g$x
+        $e$x    $g      $e      $f$b  $f$g  $e$g  $b  $f  $g$e$f    $g    $j            $g$j  $g$x
+        $e$x  $g          $e    $f$b    $g    $e$g$b      $g$e  $f  $g  $j            $g$j  $g$x
+        $e$x$g    $x  $g  $e    $f$b    $g$e$g  $e$b      $g  $e  $g    $j          $g$j  $g$x
+        $e$x$g  $x  $g    $e    $f  $b  $g      $e$b      $g          $j          $g$j  $g$x
+          $g    $x  $g      $e  $f$g$b  $g        $e$b    $g  $e  $g$j            $g$j  $g$x
+          $g  $e              $f$g  $f$b$g$e  $g  $e$g$f$b$g  $e  $g$j          $g$j  $g$x
+          $g  $x  $e$x  $g  $e$f$g  $f$b$g        $e$g$f$b$g  $e$g  $j        $g$j  $g$e$x
+      $g          $f$e        $f$g  $f$b$g        $e  $f$b$g        $j      $g$j    $g$e  $x
+      $g          $f$e      $f  $g                $e          $g      $j  $g$j    $g  $e  $x
+      $g    $f        $g$e  $g            $f    $g  $e$f  $e    $g          $j  $g$f$g  $e$x
+      $g    $e        $f  $g  $f$g$f      $e    $g  $e$g                                $e$g$x
+EOC

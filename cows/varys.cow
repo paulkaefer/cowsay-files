@@ -1,0 +1,71 @@
+# Lord Verys (Game of Thrones) - cropped, true color
+# by Cezary 'Charlie' tuczynski - http://pixeljoint.com/p/45353.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;254;254;254m  ";
+$b = "\e[48;2;238;195;154m  ";
+$c = "\e[48;2;217;160;102m  ";
+$d = "\e[48;2;143;86;59m  ";
+$e = "\e[48;2;192;125;80m  ";
+$f = "\e[48;2;69;40;60m  ";
+$g = "\e[48;2;102;57;49m  ";
+$h = "\e[48;2;143;151;74m  ";
+$i = "\e[48;2;138;111;48m  ";
+$j = "\e[48;2;34;32;52m  ";
+$k = "\e[48;2;82;75;36m  ";
+$l = "\e[48;2;50;60;57m  ";
+
+$the_cow = <<EOC
+              $t
+                $t            $a$b  $c$x
+                  $t        $a$d$e$c$b$c$x
+                    $t    $b$d$e$b      $c$x
+                      $t  $b$d$c          $x
+                          $e$d$c$b  $c$b$c$x
+                          $a$d$e$f$d$c$f$e$x
+                        $g$c$d$b  $c$b$e$b$x
+                        $g$b$e$b  $c$d$e$b$x
+                      $a$g$b$e  $c        $x
+                  $a  $h  $g$b$e$c  $b  $c$h$x
+              $a$b    $h  $g  $d$e  $b  $f$g$h  $x
+            $a$g$h$b$h      $g  $d    $f$e$g$b$h$d$x
+            $d  $g$h  $i$h    $g  $f  $g  $j$h  $e$x
+          $c$g  $d$g$i      $h$i$g$f$e$d  $j$h$k$e  $x
+          $g$d$e  $d$g$i    $h$i$f$e$d  $j$i  $k$e  $x
+          $c$d$g      $i        $f$d    $j$i  $k$d  $x
+        $c$d$g$d$e$g$f$i      $f$d$g  $j$g$k$i$k  $d  $x
+        $c$d        $f$k$i    $f$d$g  $j$g$k$i$k$f$d  $x
+        $c$d  $e  $d$f$k$i  $f$d$g  $f$j$d  $k  $f$d  $x
+        $d    $e  $f  $k    $f$d$g  $j$f$d  $k  $f  $d  $x
+        $c$d$e  $f$g$d$f$k$f$d$g    $j$f$g$d$k  $f  $d  $x
+        $c$d$e$g  $e  $d$f  $g      $j$k$f$g  $k$f    $d$x
+        $c$e$d$g$d$e    $d  $h  $i$h$k  $f$g  $k$h  $e$f$d$x
+        $g$e$d  $e  $d$e$d$h$b  $h$b$i$h  $k$h  $b$h$e  $d$x
+        $g    $d$e$d      $h$b  $h$b$i$b  $k$b$h$b$h$d$e  $x
+        $g    $d$e$g  $d$h    $b$h    $b  $k$b$h      $e  $x
+        $j$g    $d$g  $d$h    $b$h$i$h    $k$h        $d$e$x
+        $j  $g  $d$g    $h        $i$h  $i$k$h        $d$e$x
+        $f$j  $g      $i      $h  $i$h$i  $k$i$h      $d$g$x
+        $f  $j$g      $i      $h  $i$h$i  $k$i$h  $i$h$i$g$x
+        $d$f$j  $g    $i      $h  $i      $k$i$h  $i$h$i$g$x
+        $g$f$j  $g    $i      $h  $i      $l$i$h$i  $h$i$g$x
+        $g$f$j$l$j$g  $i      $h  $i      $l$i    $h$i  $g$x
+        $d$f  $l$j$g  $i      $h  $i      $j$h$i        $g$x
+        $d$f  $l$j$g  $i      $h$i        $j$h$i        $x
+        $d$g$f$l  $j$g$i          $h    $k$j$h$i      $k$x
+        $e$g$f$l  $j$g$i    $h  $b    $i$l$i$h  $i    $k$x
+        $e$g$d$l  $j  $i    $h$b    $h$k$l$h    $i$h$i$k$x
+        $e$g  $l  $j$f$j$i    $h    $i$j  $h      $i$k$x
+        $c$g$d$l  $j$f  $j$i        $k$j  $h  $i    $k$x
+        $c$g$d$l  $j$f    $j  $i    $k    $j$i    $j$x
+        $c$g$e$l  $j$g$f    $j                    $f$x
+        $c$g$e$l  $j$g    $f$l              $j$f    $x
+        $c$g$e$l  $j$g    $f$k$l            $j$f    $x
+        $c$g$e$l  $j$g    $f$k              $j$g    $x
+        $c$g$e$l  $j$g    $f$i$k    $i    $k$j$g    $x
+      $c$e$d$e$l  $j$g    $f$i$k    $i$h$i$k$j$g    $x
+      $c$e$d$e$l  $g      $l$i$k    $h  $i$k$j$g  $d$x
+      $c$e    $l  $g      $l$k  $i$h    $i$k$j$g  $d$x
+EOC

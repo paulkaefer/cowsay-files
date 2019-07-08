@@ -1,7 +1,7 @@
 # Gordon Freeman (Half Life, Half Life 2)
-# by Charlie M
+# by mhreynolds - https://www.oasis-mc.net/t2308-half-life-pixel-art
 
-$x = "\e[m  ";            #reset color
+$x = "\e[49m  ";            #reset color
 $k = "\e[48;5;235m  ";    #black
 $w = "\e[107m  ";         #white
 $b = "\e[48;5;94m  ";     #brown

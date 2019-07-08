@@ -1,31 +1,24 @@
 # Super Mario with Yoshi
-# by Charlie M
+# sprite from Super Mario World (SNES)
 
-$x = "\e[m  ";         #reset color
+$x = "\e[49m  ";         #reset color
 $k = "\e[48;5;236m  "; #fake black
 $w = "\e[107m  ";      #white
-
 $r = "\e[48;5;9m  ";   #red
 $e = "\e[48;5;1m  ";   #dark red
 $d = "\e[48;5;52m  ";  #very dark red
-
 $u = "\e[48;5;223m  ";  #skin color
 $v = "\e[48;5;216m  ";  #skin color 2
-
 $j = "\e[44m  ";        #blue
 $b = "\e[48;5;33m  ";   #blue 2
 $l = "\e[48;5;80m  ";   #light blue
-
 $y = "\e[48;5;11m  ";  #yellow
 $m = "\e[48;5;178m  ";  #darker yellow
-
 $n = "\e[48;5;172m  ";  #light brown
 $z = "\e[48;5;94m  ";   #dark brown
-
 $s = "\e[48;5;46m  ";   #green
 $h = "\e[48;5;40m  ";   #dark green
 $i = "\e[48;5;28m  ";   #darker green
-
 $a = "\e[48;5;246m  ";  #gray
 $o = "\e[48;5;88m  ";   #yoshi boot
 

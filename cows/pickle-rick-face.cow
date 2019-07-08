@@ -1,0 +1,50 @@
+# Pickle Rick (Rick & Morty)
+# by Unknown - https://www.pinterest.com/pin/236931630379492488/
+
+$x = "\e[49m  ";          #reset color
+$k = "\e[48;5;233m  ";  #fake black
+$w = "\e[107m  ";       #white
+$g = "\e[48;5;40m  ";   #green
+$n = "\e[48;5;22m  ";   #green dark
+$e = "\e[48;5;32m  ";   #blue eyebrows
+$o = "\e[48;5;160m  ";  #red
+
+$t = "$thoughts ";
+
+$the_cow = <<EOC;
+                           $t                     $k        $x
+                            $t                $k  $n        $k  $x
+                             $t         $k      $g  $n          $k  $x
+                              $t      $k  $n  $g    $n            $k  $x
+                                    $k  $n      $k    $g  $n          $k$x
+                                  $k  $n      $k$e    $k$g  $n        $k  $x
+                                $k  $n        $g$k    $e$k$g$n          $k$x
+                                $k$n      $g          $k$e$k$g$n        $k  $x
+                              $k  $n  $k    $g          $k$e$k$n          $k$x
+                              $k$n  $k$w    $k$g          $k$e$k$n        $k  $x
+                            $k$n  $k$w        $k$g          $k$n            $k$x
+                          $k  $n  $k$w$k$w    $k$g$k    $g  $n              $k$x
+                          $k$n    $k$w        $k  $w    $k$g$n              $k$x
+                        $k$n      $g$k$w    $k  $w        $k$n              $k$x
+                        $k$n    $k$g  $k    $g$k$w        $k$n            $k  $x
+                      $k$n$k  $n  $k  $g      $k$w$k$w    $k$n            $k$x
+                      $k  $n      $g    $k$g  $k$w      $k$n              $k$x
+                    $k$n$k$n$k    $g  $k$g  $k$g$k      $n              $k  $x
+                  $k$n  $k$n$k  $w$k$g$k    $g$k$g  $n                  $k$x
+                  $k$n    $k        $w$g        $k  $n                  $k$x
+                $k$n      $k            $w$k$w$k$n                    $k  $x
+                $k$n        $w$k                    $n                $k$x
+              $k$n            $k$w$k    $o  $k      $n                $k$x
+              $k$n              $k        $o  $k    $n$k$n          $k  $x
+            $k$n        $g$n      $w  $k    $o  $k  $n$k$n          $k$x
+            $k$n        $g  $n          $w  $k$o$k  $n$k$n        $k  $x
+          $k  $n        $g              $n          $k$n          $k$x
+          $k$n        $g                  $n      $k$n          $k  $x
+        $k$n          $g                $n                      $k$x
+        $k$n        $g                $n                        $k$x
+      $k$n          $g              $n                          $k$x
+    $k  $n        $g                $n                        $k  $x
+    $k$n        $g                $n                          $k$x
+  $k$n          $g              $n                          $k  $x
+$k  $n        $g              $n                            $k$x
+EOC

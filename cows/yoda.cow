@@ -1,11 +1,10 @@
 # Yoda
-# by Charlie M
+# by Lalika - https://www.kisspng.com/png-yoda-portable-network-graphics-image-pixel-art-ana-6953322/
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $b = "\e[48;5;235m  ";  #fake black
 $g = "\e[48;5;35m  ";   #green
 $n = "\e[48;5;22m  ";   #green dark
-
 $w = "\e[107m  ";       #white
 $c = "\e[48;5;58m  ";  #collar brown
 $r = "\e[48;5;172m  ";   #brown 1

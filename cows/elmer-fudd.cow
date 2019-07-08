@@ -1,0 +1,53 @@
+# Elmer Fudd
+# by JayRay2k5 - https://twitter.com/jayray2k5/status/652606053381705728
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;8m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;233m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t                $a    $x
+              $a        $x      $a  $b  $a$x
+            $a$b        $a      $b    $a$x
+          $a$b              $a$b  $a  $x
+        $a$b              $a$b  $a$c$a$x
+      $a$b  $a    $b    $a$b  $a$c    $a$x
+      $a    $d    $a$b$a      $c    $e$a$x
+      $a$d          $a  $c        $e$a    $x
+      $a$d          $a$c$a  $c    $e$a$c  $a$x                    $a$x
+      $a$d        $a$c$a$b  $a$c      $a                          $f$a$x
+        $a$d      $a  $b$a  $b$a      $f        $a  $f$a$f          $a$x
+        $a$d  $a    $b$a$b  $a$g  $a$c    $a$g$a$c  $a$c$a          $x
+          $a  $x  $a  $b      $a  $c    $a      $c  $a$c$a$x
+                  $a$b          $a  $c  $a$x$a$c        $a$x
+                  $a$b  $a$b        $a  $b$a$x$a        $x
+                    $a$b  $a$b    $a$b$a$b  $a  $b    $a$x
+                    $a$b    $a    $b  $a$b            $a$x
+                  $a  $b            $a  $b          $a$x
+                $a$b$a$b          $a$x  $a          $x
+              $a$b    $a$b        $a  $x
+                $a$b    $a        $b  $a$x
+                  $a$b              $a$x
+                $a$b$a$b    $a$b  $a$b$a$x
+              $a$b    $a    $b$a  $b    $a$x
+              $a$b                        $a$x
+              $a$b      $a        $b      $a$x
+                $a$b  $a$x        $a$b    $a$x
+                $a$b  $a$x        $a$b    $a$x
+                $a      $x          $a      $x
+            $a  $h    $a$x          $a$h    $a  $x
+          $a$h        $a$x          $a$h        $a$x
+          $a            $x          $a            $x
+EOC

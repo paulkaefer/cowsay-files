@@ -1,99 +1,85 @@
-# joker
-# by <authorName>
-# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+# Joker (The Dark Knight)
+# by Spectral_Force - https://steamcommunity.com/sharedfiles/filedetails/?id=532050321
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
 
-$x = "\e[m  ";          #reset color
+$x = "\e[49m  ";          #reset color
 $t = "$thoughts ";
-$a = "\e[48;5;234m  ";
-$b = "\e[48;5;215m  ";
-$c = "\e[48;5;208m  ";
-$d = "\e[48;5;125m  ";
-$e = "\e[48;5;60m  ";
-$f = "\e[48;5;239m  ";
-$g = "\e[48;5;214m  ";
-$h = "\e[48;5;231m  ";
-$i = "\e[48;5;173m  ";
-$j = "\e[48;5;252m  ";
-$k = "\e[48;5;152m  ";
-$l = "\e[48;5;166m  ";
-$m = "\e[48;5;95m  ";
-$n = "\e[48;5;130m  ";
-$o = "\e[48;5;131m  ";
-$p = "\e[48;5;89m  ";
-$q = "\e[48;5;236m  ";
-$r = "\e[48;5;137m  ";
-$s = "\e[48;5;167m  ";
-$u = "\e[48;5;172m  ";
-$v = "\e[48;5;209m  ";
-$w = "\e[48;5;238m  ";
-$y = "\e[48;5;203m  ";
-$z = "\e[48;5;52m  ";
-$A = "\e[48;5;88m  ";
-$B = "\e[48;5;94m  ";
-$C = "\e[48;5;103m  ";
-$D = "\e[48;5;255m  ";
-$E = "\e[48;5;253m  ";
-$F = "\e[48;5;237m  ";
-$G = "\e[48;5;210m  ";
-$H = "\e[48;5;174m  ";
-$I = "\e[48;5;161m  ";
-$J = "\e[48;5;66m  ";
-$K = "\e[48;5;146m  ";
-$L = "\e[48;5;109m  ";
-$M = "\e[48;5;242m  ";
-$N = "\e[48;5;221m  ";
+$a = "\e[48;5;71m  ";
+$b = "\e[48;5;77m  ";
+$c = "\e[48;5;22m  ";
+$d = "\e[48;5;70m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;231m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;244m  ";
+$j = "\e[48;5;247m  ";
+$k = "\e[48;5;237m  ";
+$l = "\e[48;5;108m  ";
+$m = "\e[48;5;236m  ";
+$n = "\e[48;5;151m  ";
+$o = "\e[48;5;248m  ";
+$p = "\e[48;5;233m  ";
+$q = "\e[48;5;188m  ";
+$r = "\e[48;5;7m  ";
+$s = "\e[48;5;235m  ";
+$u = "\e[48;5;232m  ";
+$v = "\e[48;5;137m  ";
+$w = "\e[48;5;245m  ";
+$y = "\e[48;5;88m  ";
+$z = "\e[48;5;124m  ";
+$A = "\e[48;5;52m  ";
+$B = "\e[48;5;180m  ";
+$C = "\e[48;5;95m  ";
+$D = "\e[48;5;53m  ";
+$E = "\e[48;5;59m  ";
+$F = "\e[48;5;238m  ";
+$G = "\e[48;5;91m  ";
+$H = "\e[48;5;90m  ";
 
 $the_cow = <<EOC
-      $t                                                                                              
-        $t                                                                                            
-          $t                          $a                        $x                                    
-            $t                $a      $b                        $a      $x                            
-              $t          $a  $b    $c  $b                    $c  $b    $a  $x                        
-                      $a  $b$c                  $b    $c                  $b$a  $x                    
-                    $a$b  $c  $d              $c        $d              $c  $b  $a  $x                
-                  $a$b$c  $d      $a        $d    $c$d    $a        $d      $c  $b$a  $x              
-                $a$b$c  $d    $a  $e        $a  $d    $a  $e        $a  $d    $c  $b$f$a$x            
-      $a        $g$c    $d$a  $e  $h      $e    $a    $e    $h      $e  $a  $d$c    $b$f$a      $x    
-    $a$i$b  $i$a$b$c  $d$a$e  $h  $j      $h    $e    $h    $k$j    $h  $e  $a$d$c  $b$f$i$b  $i$a$x  
-    $a$i$c$l$m$b$c$l$d$a$e$h  $j  $k$h                            $j    $h  $e$a$d$l$c$b$m$l$c$i$a$x  
-    $a$n$c$l$m$b$c$l$d$a$e$h$k$j$k$h                                $k$j  $h$e$a$d$l$c$b$m$l$c$n$a$x  
-$a    $n$c$i$o$b$l$p$a$e$h  $j  $h                                    $j  $h  $e$a$p$l$b$o$i$c$n$a  $q$x
-$r$m$r$c      $b$l$p$a$e$h$j    $h                                    $j    $h$e$a$p$l$b$c      $r$m$r$x
-$a$r$s$u$c  $v$s$l$p$a$e$h$j    $h                                    $j    $h$e$a$p$l$s$v$c  $i$s$r$w$x
-$a$r$c      $v$y$i$p$a$e$h$j  $h                                      $j    $h$e$a$p$i$s$v$c      $r$w$x
-  $a$n$c  $i$d$s$i$p$a$e$h$j  $h                                        $j  $h$e$a$p$i$y$d$i$c  $n$a$x
-    $a$n$c$b$i$o$i$p$a$e$h$j  $h                                        $j  $h$e$a$p$i$o$i$b$c$n$a$x  
-      $a$n$b$g$c$i$p$a$e$h$j  $h                                        $j  $h$e$a$p$i$c$g$b$n$z$x    
-      $a$n$c$b$c  $i$a$e$h$j  $h                                        $j  $h$e$a$r$c$v$b$c$n$a$x    
-      $a$A$B$b$v$l$i$p$a$C$D$j$E$h                                    $E$j$D$C$a$p$i$l$v$b$B$A$a$x    
-        $a$F$c$b$i$o$d$a$e$h$j  $h                                    $j  $h$e$a$d$o$i$b$c$F$a$x      
-        $a$A$B$c$b$l$d$p$a$C$j  $h                                    $j  $C$a$p$d$l$b$c$B$a  $x      
-          $a$A$B$b$u$d  $a$e$j  $E$h$G$h                        $H$h$E$j  $e$a$d  $i$b$B$A$a$x        
-            $a$A$B$g$l$d$p$a$C$j$k$h$I$h                        $I$h$j  $C$a$p$d$l$b$B$A$a$x          
-            $a$A$B$b$c$d  $a$e$j  $D$I$h                        $I$D$j  $e$a$d  $c$b$B$A$a$x          
-            $a$f$b$i  $o$d$a$J$K    $I$D  $h                $D  $I$K    $J$a$d$o$i  $b$f$a$x          
-            $a$f$i$p$A$i$d$a$C      $I$K  $D  $h        $D  $K  $I$C      $a$d$i$A$p$i$f$a$x          
-            $a$B$r$a  $p$d$a$L$J$e  $p$C  $K$j$D$h    $D$k$K$C  $d$e  $J$L$a$d$p$a  $r$f$a$x          
-              $a  $x  $a$p$a$j$C$w$M$m$w$e$C$K  $D    $K  $C$e$F$m$M$w$C$k$a$p$a$x  $a  $x            
-                      $a$q$a$j$e$q$N  $a$f  $e$C$k$j  $C$e$f  $a$N  $q$e$k$a$q$a$x                    
-                        $a  $k$j$h$q$N$a$N  $q$e$C$h$j$e$q$N  $a$N$q$h$j$k$a  $x                      
-                          $a$j$h    $q      $j  $C$h  $j  $q      $h    $j$a$x                        
-                            $a$h    $I$h  $j    $C$h    $j  $h  $I$h    $a$x                          
-                            $a$h  $I$h      $j  $C$h    $k$h      $I$h  $a$x                          
-                            $a$j$I$h        $d      $I  $d$h        $I$j$a$x                          
-                            $a$j$d$h    $C$h$q$d$I    $h$q$h$C$h    $d$j$a$x                          
-                              $a$h$d$h  $C$h  $q        $h  $C$h  $d$h$a$x                            
-                                $a$h$f$C$h                    $C$f$h$a$x                              
-                                  $a$h$q$d    $h        $d    $q$h$a$x                                
-                                  $a$h  $q$d$h$d        $h$d$q$h  $a$x                                
-                                    $a$C$h$q$d$h        $d$q$h$C$a$x                                  
-                                    $a$C$h  $q$d$h    $d$q$h  $C$a$x                                  
-                                      $a$h  $q$d        $q$h  $a$x                                    
-                                        $a$h  $q        $h  $a$x                                      
-                                          $a$h            $a$x                                        
-                                            $a$h        $a$x                                          
-                                              $a        $x                                            
-                                                                                                      
-                                                                                                      
-
+          $t
+            $t
+              $t
+                $t                      $a      $x
+                  $t                  $b$c      $a    $x
+                            $a  $x  $b$c    $b$c    $b  $a$d$x
+                          $a$c  $a$x$b$c    $b$c  $d    $c$d$a$c$a$x
+                        $a$c    $a    $c  $a$c  $d$c$b$a$d$c$a  $b  $x
+                        $c  $a$e  $a    $e          $b  $e  $c  $a  $b$x
+                      $b$c  $e  $f  $e        $f$e    $f        $c$a$c$x
+                      $a  $e$g$e  $f$e      $f                    $a$c$a$x
+                    $c  $h$e$g$e$i$e        $f                      $a$c$x
+                    $c  $h$e$j$i$k$i$g  $e    $f          $e        $c$l$c$x
+                    $c  $a$h$e$k$m  $k$e$f              $e          $l$c$n$b$x
+                  $l$n$c$a$h$e$m      $e    $f    $e      $k  $e$h$o$c$a$c$p$b$x
+                  $l  $n$c$h$e$m$p      $k$e        $k    $p  $e$q$o$c$a$c  $x
+                $c  $l$a$n$h$e$p            $e  $p              $q$o$c        $x
+                $a$c  $l$n$h$e$p  $m$f  $p  $e  $p  $m$h  $p    $r$o$s$c    $u$a$x
+              $d$c$s  $a$c$h$e$k$p        $e$f  $e$p          $k  $o$s    $a$l$x
+              $d$c$s  $g$a$h$e  $p      $e  $f  $e  $k$p  $k$e  $r$k$s  $c$u$b$l$x
+              $d$c$s$v  $g$h$e$k$e$k  $e      $f$e        $k  $e$r$o$s$c$s$c$u$b$n$x
+                $d$c$v$w$v$h$e      $k$e  $f      $e        $k$e$r$g$o$c$s$c$u$b$u$n$x
+                $a  $v$e$v$h$y$e            $f  $g  $e$f  $e    $r$g$c$s$c  $u    $l$x
+              $c$x$c$r$e  $h$y$z$e      $p  $g  $p  $g$e        $A$g$o$c$a$b  $u$l$x
+          $b  $x$c    $q$g$h$y  $e    $f$r$g$j  $g$r$e  $y$e    $A$g$o$c  $x  $b$x
+              $c$x$a$c  $g  $y$A$e$y$e$f  $e              $y$e$y$A$g$s  $b$x$b$x
+            $a$x$a$x$c$a$c$e$y$A$y  $e      $y  $e  $y$e  $y$A    $g$s  $c$x
+                    $c$s$a$e  $y$A$y        $z  $y  $A  $y$A    $o  $s$c    $x
+                $a    $s$c$g$e$y  $A$y  $z    $y      $A      $g$o$s  $c  $b  $x
+                    $s    $g$e  $y        $e      $y    $A  $g$o  $s  $c  $x
+                    $c$s    $g$e  $y    $f        $e  $y$A$g$o    $s  $c$x
+                      $s$c$s  $g  $e$y$e$f        $e  $A$g$o    $s$c  $x
+                    $s$c$x$s  $v$g    $y$e$f      $e  $g$o    $s  $c  $x
+              $c$s  $x  $s    $v  $B$g$e            $g$o  $C$s  $c$s$x
+                        $D    $v  $B  $v            $C      $s  $x
+                        $D    $v  $B          $v      $C  $E$D    $x
+                      $D      $s$v$B          $v      $C$E$s$D    $x
+                    $D        $F$s$v$B        $v    $C$E$s  $D      $x
+                    $D      $F    $s$E$B    $v    $C$E$s    $D      $x
+                    $D      $F      $s$E  $B$v  $E  $s      $D  $A  $x
+$G  $D            $H$A  $D  $F        $s  $E    $s          $A  $D    $x
+$H$D              $H  $D$A  $D$F        $s                $D              $x
+$D    $H  $D        $H$D      $F          $s              $D                $x
+$D    $H$D        $H    $D    $F            $s            $D                  $x
 EOC

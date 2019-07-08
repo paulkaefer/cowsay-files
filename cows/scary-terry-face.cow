@@ -1,0 +1,65 @@
+# Scary Terry (Rick and Morty)
+# by Unknown - https://www.pinterest.com/pin/293789575684462748/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;199m  ";
+$d = "\e[48;5;32m  ";
+$e = "\e[48;5;89m  ";
+$f = "\e[48;5;228m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;1m  ";
+
+$the_cow = <<EOC
+              $t                                    $a      $x
+                $t                        $a    $x$a$b      $a$x
+                  $t                    $a$b    $a$b          $a$x
+                    $t                  $a$b    $a$b          $a$x
+                      $t              $a$b      $a$b            $a$x
+                                      $a$b      $a$b              $a$x
+                                      $a$b      $a$b              $a$x
+                                    $a$b                          $a$x
+                                    $a$b                            $a$x
+    $a              $x            $a$b                              $a$x
+      $a$b          $a            $b                                  $a$x
+        $a  $b                                                          $a$x
+            $a    $b        $a              $b                            $a$x
+                  $a        $c      $a$d    $a      $b                      $a    $x
+                        $a$c          $a$d          $a    $b                      $a    $x
+                        $a$c      $e$c  $a        $d      $a                $b          $a        $x
+                        $a$c      $e$c$a$f        $a  $d                    $a$b                  $a$x
+                      $a$c        $e$c$a$f            $a  $d      $a                              $x
+                    $a$c  $e$c    $e$c$a$f      $a$f  $a$c$a      $f        $a$c$a$x
+                    $a$e  $c      $e$c$a$f      $a$f  $a$c    $a$f  $a$f    $a$c$a$x
+                  $a$c            $e$c$a$f      $a$f  $a$c    $a$f  $a$f    $a$c$a$x
+                  $a$c            $e$c$a$f            $a$c    $a$f  $a$f    $a$c$a$x
+                    $a$e$c          $e$c$a$f        $a$c      $a$f          $a$c$a$x
+                    $a$c$e$c              $a        $c$a$c  $a$c$a$f      $a$c  $a$x
+                    $a$c$e$c    $e$c                    $a  $c    $a      $c    $a$x
+                    $a$c      $e$c  $a                $c                        $a$x
+                    $a$c      $e$c$a$e          $g    $a                    $c  $a$x
+                    $a$c      $e$c$a$e            $g  $e        $g  $e      $a$c  $a$x
+                  $a$c        $e$c$a$e              $g$e        $g$e          $a$c$a$x
+                $a$c    $e$c  $e$c$a$e                                        $a$c$a$x
+                $a$c    $e$c  $e$c  $a$e      $g$e  $h      $e                $a$c$a$x
+                  $a$c  $e$c    $e$c  $a$e  $g  $e$h        $e    $g$e      $a$c  $a$x
+                    $a$e$c        $e$c  $a$g    $h    $g$e        $g  $e  $a$c  $a$x
+                    $a$c            $e$c  $a  $g$h  $g  $e        $g  $e$a$c  $a$x
+                    $a$c              $e$c    $a                        $c  $a$x
+                      $a$c    $e$c      $e  $c                              $a$x
+                      $a$c    $e$c          $e                      $c    $a$x
+                      $a$c  $e$c                    $e$c            $e$c  $a$x
+                      $a$c$e$c  $e$c              $e  $c            $e$c  $a$x
+                      $a$c$e$c  $e$c            $e$c$e$c            $a$c  $a$x
+                      $a$c$e$c  $e$c            $e$c$e$c          $a$x$a  $x
+                      $a$c$e$c    $e$c        $e$c  $e$c          $a$x
+                      $a$c          $e$c      $e$c    $e$c  $e$c  $a$x
+                      $a$c          $e$c                $e  $c    $a$x
+                        $a$c          $e$c              $e$c    $a$x
+                          $a$c          $e  $c        $a  $c    $a$x
+                            $a  $c                $a  $x  $a$c  $a$x
+                                $a                $x        $a  $x
+EOC

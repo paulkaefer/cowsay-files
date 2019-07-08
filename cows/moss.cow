@@ -1,0 +1,40 @@
+# Maurice Moss (The IT Crowd)
+# original art from show (The IT Crowd)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;215m  ";
+$c = "\e[48;5;229m  ";
+$d = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+              $t                      $a    $x
+                $t                  $a        $x
+      $b  $x      $t              $a          $x                $b  $x
+    $b      $x      $t            $a            $x            $b      $x
+    $b      $x        $a                          $x          $b      $x
+      $b    $x      $a                            $x          $b    $x
+      $b  $x        $a                              $x          $b  $x
+      $b  $x        $a        $b      $a            $x          $b  $x
+      $b  $x          $a      $b        $a          $x          $b  $x
+      $b    $x        $a      $b            $a    $x          $b    $x
+        $b  $x            $a                    $x            $b  $x
+        $b  $x              $a$c    $a$c    $a$x              $b  $x
+        $b  $x              $a      $b$a      $x              $b  $x
+        $b  $x                $b            $x                $b  $x
+        $b  $x                $b            $x                $b  $x
+        $b    $x              $b            $x              $b    $x
+          $b    $x            $b            $x            $b    $x
+            $b    $x            $b        $x            $b    $x
+              $b    $x            $b    $x            $b    $x
+                $b    $c  $x      $c    $x      $c  $b    $x
+                  $b$c      $x    $c$d$c$x    $c      $b$x
+                    $c                                $x
+                      $c            $d$c            $x
+                        $c          $d$c          $x
+                          $c        $d$c        $x
+                            $c      $d$c      $x
+                            $c      $d$c      $x
+EOC

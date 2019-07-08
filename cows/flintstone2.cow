@@ -1,0 +1,57 @@
+# Fred Flintstone
+# by unknown - https://www.pinterest.com/pin/344243965242508140/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;215m  ";
+$e = "\e[48;5;33m  ";
+$f = "\e[48;5;202m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t        $a            $x
+            $a  $x$a                  $x
+        $a                                  $x
+      $a              $b  $a$b      $a$x
+    $a          $b      $a$b        $a$x
+          $a      $b      $c$a$b$c$a  $x
+            $a$b  $a$b    $c$a$b$c$a    $x
+            $a$b                        $a$x
+            $a$b          $d  $a$b      $a$x
+            $a$b      $d        $a$b    $a$x
+            $a$b    $d            $a    $d$a$x
+            $a$b  $d  $a$d                  $a$x
+          $a    $b$d    $a    $d      $a$d  $a$x
+        $a$e    $a  $d        $a      $d    $a$x
+          $a$e      $a  $d        $a$d    $a$e$a$x
+        $a$f$a$e        $a  $d          $a$e  $a$x
+      $a$f    $a$e  $a$e      $a          $e  $a$x
+      $a      $f$a$e  $a  $e      $a$e    $a    $x
+        $a$b  $a  $e$a$f    $a      $e    $a$f$a$x
+        $a$b      $a$f$a$f    $a$f  $a$e  $f  $a$x
+        $a$b      $a$f        $a$f    $a  $f    $a$x
+        $a$b      $a$f              $a$e    $f  $a$x
+        $a$b      $a$f              $a$e    $f  $a$x
+        $a$b      $a$f    $a$f      $a$e    $f  $a$x
+        $a$b      $a$f  $a  $f      $a$e      $f$a$x
+        $a$b      $a$f    $a$f  $a$f  $a$e    $f$a$x
+        $a$b      $a$f        $a  $f  $a$e    $f$a$x
+        $a$b    $a$f            $a$f  $a  $e$a$f$a$x
+      $a$b      $a$f  $a$f              $a$e$f$a$x
+    $a$b      $a$f  $a  $f          $a$f  $a$f$a$x
+      $a$b    $a$f    $a$f        $a  $f      $a$x
+        $a      $f                  $a$f    $a$x
+              $a$f$a$f    $a$f      $a$f    $a$x
+                $a    $f$a$b$a$f  $a$b$a$f$a$x
+                  $a$b$a$b    $a$f$b    $a  $x
+                  $a$b        $a$b      $a$x
+                  $a$b        $a$b      $a      $x
+                $a$b          $a$b              $a$x
+              $a$b            $a$b                $a$x
+              $a              $x$a                  $x
+EOC

@@ -1,0 +1,72 @@
+# Magneto (X-Men)
+# sprite from X-Men (Arcade) - https://www.spriters-resource.com/arcade/xmen/sheet/109238/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;124m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;202m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;53m  ";
+$f = "\e[48;5;91m  ";
+$g = "\e[48;5;129m  ";
+$h = "\e[48;5;104m  ";
+$i = "\e[48;5;189m  ";
+$j = "\e[48;5;166m  ";
+$k = "\e[48;5;224m  ";
+$l = "\e[48;5;216m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t                  $a$x      $b$x
+                  $t                $c$x$b    $a$d$x
+                    $t            $a$c$b$a  $b$c$d$b$d$x
+                      $t          $c$a$b    $c  $d  $a$d$x
+                                  $c$b$c$a$b$c$d$b$d$b  $x
+                                  $b  $c$b$d  $b$c$a$d$a$d$x
+                                  $b  $a$d  $c    $a$d$a$d$x
+                                  $e$f$b$a$f$g      $d$a$d$x
+                                  $d$f$g  $d      $g$d$a$d$x
+                                  $d$e$f$d$h$i$d  $g$d$a$d$x
+                                  $e$d  $j$d    $g$a$d$a$d$x
+                                  $f$d$k$l$d$g$f$c$a$d$a$d$x
+                                  $f$d      $g$c  $a$d$a$d$x
+                                  $f$d$i$h$d$g$c  $a$d$a$d$x
+                            $e  $x$f$d      $g$c  $d      $x
+                    $e    $f$g$f$d$f$d$l$j$d$g$c$d          $x        $e    $x
+                  $e$f$g$e$g  $e$d$e$d      $f$d$e  $d$e  $d$e  $f$e$d$e$f  $e$x
+                  $e$g  $e$g$e$d              $e      $f  $e$f    $d$e$f$g$e      $x
+                $e$f  $g$f$g$d$f$d$e  $d  $e      $f    $e$f    $d$e    $f$g    $f$e$x
+                $e  $f  $g$d$g  $d$e$f$d$e        $f  $e$f    $d$e$f$g              $e$x
+              $e$g$e      $d$g  $e  $f$d$f  $d$e$f  $e$f    $d$f  $d    $f$g        $f$x
+              $e$f$e$f$d    $g  $f$d$f$d$g$e$d$f$e  $f  $e$d$f  $e  $f  $d$e$f$g    $f$e$x
+              $e  $f$e$d    $f$g  $f$e          $f$g  $e  $d$e$g    $f$e        $f    $e$x
+            $e$f$g$e$a$c$d$a$d$g                    $e$d      $e$g      $f$e      $f  $e$x
+          $e$f$g$e$c    $b$a  $d$e$g          $f$e$d  $a  $d    $e$g        $f  $e  $f$e$x
+          $e$g$e$a$c$e        $a  $d            $b    $d  $a    $d$e$g  $f$g    $f$e    $x
+          $e$g$e$c$f$g$f  $g$e$f$e$d$g$f$d$a$c      $f$g  $f$c  $a$b$e$g  $f$g      $f$e  $x
+          $e  $a$e$f$g$e$f$e  $g  $e      $a$c    $f$d  $b  $c  $a$b$a$e$g  $e$f$g      $f$e$x
+          $e  $c$e$f  $e$f$e  $f  $e  $g$f$e  $a  $f$g  $f$a$c  $a$b$a$d$e$g  $e$f$g        $e$x
+          $e$b$c$a$d      $e$f  $e    $g  $e    $a$e    $a$c    $b$a  $d  $e$g  $e$f$g      $f$e$x
+            $b    $a$e$f$d  $f  $d$e$f    $e  $g$e$g$d$a$c    $a$b$a$b$d    $f  $g$e$f  $g    $e$x
+            $a$c$a$e$g$e  $f$d$e$d$e$f  $e    $g$e$d$a  $c$a  $b$a  $d      $e$f  $g$e$f      $e$x
+          $b$c  $a$f  $e  $g$e$d$e$f  $e    $f$g$e$a$d$b      $a  $b$d        $f$e$g  $e  $f$e  $x
+          $b$a$c$e$f$e  $f$e    $d$e        $f  $e$c          $a$b$d          $e$g$e$g  $e      $x
+            $d  $e$f$e  $f$e  $f$e$d    $e$f  $e$c        $a$b$d                $f$e$f$g$f$e  $x
+              $d$e$d    $f$d  $f$d      $f  $d$a          $d$b$d                $e$g$e$g  $f$e$x
+                $d                $b    $d      $a$c  $a$d$b  $d                  $f$e$f$g  $e  $x
+                $e  $d  $e$d$a$b  $a          $b$d$c  $d  $b  $d                  $e$g$e$g    $e$x
+                $e$f$e$d$e      $b    $a      $b$d    $b$d$b$d                      $f$e$f$g$f$e$x
+                $e$f$e$d$e  $g$e                $d                                  $e$f$e$g$f$e$x
+                $e$f  $d$e  $g$e$g            $f$e$d$f    $e$d                        $f$e$f  $e$x
+                $e  $f$d$e  $f$e$g            $f$e$d$f    $e$d                        $f$e$f$e  $x
+                  $e$f$d$e        $f$g        $f$e$d$e      $d                        $e$f$e  $x
+                  $e$f$d  $e$f$e              $d                                        $f$e  $x
+                  $e$f$d    $f$e$f$g          $e  $d$e        $d                        $f$e  $x
+                  $e$g$d  $b$e  $g            $f$e$d$e        $d                        $e$f$e$x
+                  $e$g$d$b$a$d$e$g            $f$e$d    $e      $d                        $f$e$x
+                  $e$g$e$b$c$b$d$f$g          $f$e$d  $b  $d$e  $d                        $f$e$x
+                  $e$g$e$b$c$b$d$e$g          $e$d$b$a$b$a$b$d$e$d      $e$d              $f  $e$x
+EOC
