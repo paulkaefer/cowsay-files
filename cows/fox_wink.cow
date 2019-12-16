@@ -1,0 +1,18 @@
+# Fox winking
+# akierig
+# 2019-12-14
+# modified version of original fox.cow file. 
+$the_cow = <<EOC;
+$thoughts
+ $thoughts
+   /\\   /\\   
+  //\\\\_//\\\\     ____
+  \\_     _/    /   /
+   / - * \\    /^^^]
+   \\_\\O/_/    [   ]
+    /   \\_    [   /
+    \\     \\_  /  /
+     [ [ /  \\/ _/
+    _[ [ \\  /_/
+
+EOC
