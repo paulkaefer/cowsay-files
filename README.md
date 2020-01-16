@@ -36,7 +36,7 @@ Replace ${GIT} with the path to your git directory, and you will get a random co
 Fancy pixel art cows can now be created with ease using [Charc0al's cowsay file converter](https://charc0al.github.io/cowsay-files/converter)
 
 Instructions:
-1. Create PNG or other uncompressed image of the size you want (recommend no larger than 50 x 50). I recommend using GIMP.
+1. Create PNG or other uncompressed image of the size you want (recommend no larger than 50 x 50). I recommend using [GIMP](https://www.gimp.org/).
    - Note: The first (upper-left) pixel (0, 0) color is assumed to be background color and will not appear in the cowsay image.
    - Colors will be mapped to default bash color palette, any colors in your image that are not part of the 256 color bash palette
      will be mapped to the nearest color in the palette.
