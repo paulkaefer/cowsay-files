@@ -27,7 +27,7 @@ If you want to have random cows everytime that you login or open a shell add thi
 ```bash
 COWS=($(GIT)/cowsay-files/cows/*)
 RAND_COW=$(($RANDOM % $( ls $(GIT)/cowsay-files/cows/*.cow | wc -l )))
-cowsay -f ${COWS[$RAND_COW]} "ALL YOU BASE R BELONG TO US"
+cowsay -f ${COWS[$RAND_COW]} "ALL YOUR BASE ARE BELONG TO US"
 ```
 Replace ${GIT} with the path to your git directory, and you will get a random cow on every new terminal session. 
 
