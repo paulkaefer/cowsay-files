@@ -3,6 +3,7 @@
 
 $g = "\e[47m\e[30m";
 $x = "\e[49m";
+$reset = "\e[0m";
 $the_cow = <<EOC;
      $thoughts
       $thoughts
@@ -23,7 +24,7 @@ $the_cow = <<EOC;
            $g\\##          |$x
             $g\\###.      .)$x
               $g`========/$x
-
+$reset
 
 
 EOC
