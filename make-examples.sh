@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for cowfile in cows/*.cow; do
+for cowfile in ./cows/*.cow; do
   cowname=$(basename $cowfile)
   echo ""
   echo "## ${cowname}"
@@ -27,7 +27,7 @@ done
 # Show true color cows separately
 echo ""
 echo "# True Color cows"
-for cowfile in cows/true-color/*.cow; do
+for cowfile in ./cows/true-color/*.cow; do
   cowname=$(basename $cowfile)
   echo ""
   echo "## ${cowname}"
