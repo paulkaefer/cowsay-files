@@ -1046,8 +1046,8 @@ snd     [_____________]
 ```
 
 
-## danerys.cow
-<img src="converter/src_images/danerys.png" height="200" />
+## daenerys.cow
+<img src="converter/src_images/daenerys.png" height="200" />
 
 
 ## darth-vader.cow
