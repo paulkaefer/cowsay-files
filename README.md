@@ -5,7 +5,7 @@ These files are intended to supplement the cow files in /usr/share/cowsay/cows.
 
     echo Exterminate! | cowsay -f dalek
     
-For more on cosway, consult [its Wikipedia article](https://en.wikipedia.org/wiki/Cowsay).
+For more on cowsay, consult [its Wikipedia article](https://en.wikipedia.org/wiki/Cowsay).
 
 ## examples
 
