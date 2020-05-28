@@ -9,7 +9,7 @@ For more on cosway, consult [its Wikipedia article](https://en.wikipedia.org/wik
 
 ## examples
 
-[A sample of each cow file in this repository is here](examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports color. True color (ending in '-tc') cows will only render in terminals that support full 24-bit color.
+[A sample of each cow file in this repository is here](examples.md). Note that the ANSI cows like [bender.cow](https://github.com/paulkaefer/cowsay-files/blob/master/cows/bender.cow) will only render properly if your terminal client supports color. True color (those under the `true-color/` subdirectory) cows will only render in terminals that support full 24-bit color.
 
 ## .cowrc file
 This file allows you to configure a list of cows to randomly display when opening a new terminal session.

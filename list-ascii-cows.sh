@@ -1,23 +1,24 @@
 #!/bin/bash
+#
+# Lists all the cows that are defined with ASCII art, as opposed to
+# being generated from image files by the converter/ stuff.
+#
+# Only works if you run it from within the repo.
 
-for cowfile in cows/*.cow; do
+for cowfile in cows/*.cow cows/true-color/*.cow; do
   cowname=$(basename $cowfile)
   cowname="${cowname%.*}"
 
   imgname=""
   FILE=converter/src_images/${cowname}.png
-  if test -f "$FILE"; then
+  if [[ -f "$FILE" ]]; then
     imgname="$FILE"
-  else
-    if [[ $cowname =~ ^.*-tc$ ]]; then
-      shortname="${cowname%-tc*}"
-      FILE=converter/src_images/${shortname}.png
-      if test -f "$FILE"; then
-        imgname="$FILE"
-      fi
-    fi
   fi
-  if [ -z "$imgname" ]; then
+  FILE=converter/src_images/${cowname}-tc.png
+  if [[ -f "$FILE" ]]; then
+    imgname="$FILE"
+  fi
+  if [[ -z "$imgname" ]]; then
       echo "\"$cowname\""
   fi
 done
