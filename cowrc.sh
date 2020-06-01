@@ -1,4 +1,9 @@
-#!/bin/sh
+# cowrc.sh
+#
+# Sets up cowsay-files related variables and functions.
+#
+# This file must be sourced inside your shell session with ". /path/to/cowrc.sh". It will not
+# work if you try to run it as a command.
 
 # This COWS variable configures what cowsay files will be displayed with the randomsay and randomfortune commands
 # Modify this list to contain whatever cows you want to see displayed with randomsay and new terminal sessions
@@ -282,8 +287,8 @@ ERROR_COWS=(
   "zombie-police"
 )
 
-COWSAY_FILES=$(dirname "$0")
-COWS_DIR="${COWSAY_FILES}/cows"
+COWSAY_FILES_ROOT=$(dirname "$0")
+COWS_DIR="${COWSAY_FILES_ROOT}/cows"
 COWRC=$0
 
 randomsay(){
@@ -329,7 +334,7 @@ alias cowrc="atom $COWRC"
 alias headsay='cowthink -f head.cow'
 alias randomfortune="clear && fortune | randomsay"
 
-palette(){
+cowsay-palette(){
   for fgbg in 38 48 ; do # Foreground / Background
     for color in {0..255} ; do # Colors
         # Display the color
