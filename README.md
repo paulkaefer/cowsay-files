@@ -25,6 +25,20 @@ Or to install it to a custom location:
 make install prefix=/path/to/your/custom/installation/location
 ```
 
+Mac users can alternatively use the Homebrew tap from [cowsay-org/homebrew-cowsay](https://github.com/cowsay-org/homebrew-cowsay):
+
+```bash
+brew install cowsay-org/cowsay/cowsay-apj
+```
+
+Or:
+
+```bash
+brew tap cowsay-org/cowsay
+brew install cowsay-apj
+```
+
+
 ### cowrc.sh file
 
 This file allows you to configure a list of cows to randomly display when opening a new terminal session.
