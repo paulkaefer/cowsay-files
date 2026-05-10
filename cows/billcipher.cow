@@ -1,0 +1,12 @@
+$the_cow = <<EOC;
+     $thoughts
+      $thoughts
+     |
+    _|_
+    / \\    _
+\\  /${eyes} \\  / ?
+ \\/ }o{ \\/  |
+ /_______\\  |
+   )    )
+   L    L
+EOC
