@@ -1,0 +1,10 @@
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+         ___________
+        /          /\\\\
+       /  DEATH   /  \\\\
+      /   NOTE   /   /
+     /__________/   /
+     (__________(  /
+EOC
